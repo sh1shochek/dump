@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateMarker.Components.Bullet
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+K Images :table keys=2
+  {[1]="http://www.roblox.com/asset/?id=4784881970", [2]="http://www.roblox.com/asset/?id=4784905666"}
+K Properties :table keys=4
+  {["Rotation"]=<function:function: 0xb34275dcb6c0a199>, ["Transparency"]=<function:function: 0x1599bd58cc192cfd>, ["Color3"]=<userdata:1, 1, 1>, ["SizeRange"]=<function:function: 0xcb2b2423e2067bc9>}

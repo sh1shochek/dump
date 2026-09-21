@@ -1,0 +1,120 @@
+PATH: ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.Classes.Bobble
+REQUIRE: ok
+RETURNS: table
+KEYS: 9
+K __index :table keys=9
+  {["destroy"]=<function:function: 0xa01c05b4d091bdb7>, ["getMovementVelocity"]=<function:function: 0x323d1df8ccb4c710>, ["getNextCFrame"]=<function:function: 0xf9df209ffa9bcbba>, ["setModel"]=<function:function: 0x639b307438b3e7a9>, ["addScopeKick"]=<function:function: 0xfee70009c8cbed52>, ["new"]=<function:function: 0xc746902cddfbf05b>, ["setIsAiming"]=<function:function: 0x6b430999883c0036>, ["__index"]=<cycle>, ["stateChanged"]=<function:function: 0xbab75f5c9bdbb549>}
+F addScopeKick
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=addScopeKick what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "IsDestroyed"
+  [2] str "ScopeSpring"
+  [3] str "Vector2"
+  [4] str "new"
+F destroy
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "IsDestroyed"
+  [2] str "Janitor"
+  [3] str "Destroy"
+  [4] str "CameraShiftSpring"
+  [5] str "MovementShiftSpring"
+  [6] str "BobbleSpring"
+  [7] str "ScopeSpring"
+  [8] str "Character"
+  [9] str "Scope"
+  [10] str "ScopeReticlePart"
+  [11] str "AimRotationOffset"
+  [12] str "AimPositionOffset"
+F getMovementVelocity
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=getMovementVelocity what=Lua protos=0[]
+  up1: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up2: userdata Camera
+  up3: ERR
+  consts total=14
+  [1] str "Character"
+  [2] str "PrimaryPart"
+  [3] str "resolve"
+  [4] str "IsInAir"
+  [5] str "Magnitude"
+  [6] number 0.1
+  [7] str "Unit"
+  [8] number 50
+  [9] str "math"
+  [10] str "min"
+F getNextCFrame
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=getNextCFrame what=Lua protos=0[]
+  up1: userdata Camera
+  up2: userdata 0.00039999999, 0.000299999985
+  up3: ERR
+  consts total=32
+  [1] str "IsDestroyed"
+  [2] str "MovementShiftSpring"
+  [3] str "CameraShiftSpring"
+  [4] str "BobbleSpring"
+  [5] str "ScopeSpring"
+  [6] str "CFrame"
+  [7] str "identity"
+  [8] userdata
+  [9] vector
+  [10] number 0.016666666666666666
+  [11] str "getMovementVelocity"
+  [12] vector
+  [13] str "Magnitude"
+  [14] str "LastCameraCFrame"
+  [15] str "ToObjectSpace"
+  [16] str "ToOrientation"
+  [17] str "Vector2"
+  [18] str "new"
+F new
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=new what=Lua protos=1[#1]
+  up1: table keys=9 {destroy:function, getMovementVelocity:function, getNextCFrame:function, setModel:function, addScopeKick:function, new:function, setIsAiming:function, __index:table, stateChanged:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up4: table keys=12 {setGoal:function, setFrequency:function, setDampingRatio:function, getGoal:function, update:function, setPosition:function, reset:function, impulse:function, getPosition:function, getVelocity:function, __index:table, new:function}
+  up5: userdata Camera
+  up6: ERR
+  consts total=31
+  [1] str "setmetatable"
+F setIsAiming
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=setIsAiming what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "IsAiming"
+F setModel
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=setModel what=Lua protos=0[]
+  up1: userdata Camera
+  up2: function params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=toggleScopeVisibility what=Lua
+  up3: function params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=applySkinToScope what=Lua
+  up4: ERR
+  consts total=17
+  [1] str "Scope"
+  [2] str "Destroy"
+  [3] str "ScopeReticlePart"
+  [4] str "Name"
+  [5] str "AUG"
+  [6] str "SG 553"
+  [7] str "Weapon"
+  [8] str "FindFirstChild"
+  [9] str "ScopeSplit"
+  [10] str "Part"
+  [11] str "Janitor"
+  [12] str "Clone"
+  [13] str "Add"
+  [14] str "Parent"
+  [15] str "SurfaceGui"
+  [16] str "Frame"
+  [17] str "Visible"
+F stateChanged
+  params=3 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=stateChanged what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "Enum"
+  [2] str "HumanoidStateType"
+  [3] str "Freefall"
+  [4] userdata
+  [5] str "Jumping"
+  [6] userdata
+  [7] str "IsInAir"

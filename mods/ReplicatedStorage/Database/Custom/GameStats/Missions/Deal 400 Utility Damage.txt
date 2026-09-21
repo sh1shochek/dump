@@ -1,0 +1,13 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Deal 400 Utility Damage
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K Category :string = utility_damage
+K DisplayName :string = Deal 400 Utility Damage In Bomb Defusal Or Hostage Rescue
+K Gamemodes :table keys=2
+  {[1]="Bomb Defusal", [2]="Hostage Rescue"}
+K MissionId :string = Deal 400 Utility Damage
+K Rewards :table keys=1
+  {[1]={["amount"]=26, ["type"]="Credits"}}
+K Target :number = 400
+K Type :string = daily

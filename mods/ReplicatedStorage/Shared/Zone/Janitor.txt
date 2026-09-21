@@ -1,0 +1,34 @@
+PATH: ReplicatedStorage.Shared.Zone.Janitor
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K ClassName :string = Janitor
+F Is
+  params=1 src=ReplicatedStorage.Shared.Zone.Janitor:? cname=Is what=Lua protos=0[]
+  up1: table keys=6 {__call:function, ClassName:string, Is:function, is:function, __index:table, new:function}
+  up2: ERR
+  consts total=4
+  [1] str "type"
+F __call
+  params=1 src=ReplicatedStorage.Shared.Zone.Janitor:? cname=Cleanup what=Lua protos=0[]
+  up1: userdata IndicesReference
+  up2: ERR
+  consts total=2
+  [1] str "CurrentlyCleaning"
+  [2] str "next"
+K __index :table keys=24
+  {["linkToInstances"]=<function:function: 0x836706b6c8eb530b>, ["Remove"]=<function:function: 0x23483049419f14b4>, ["add"]=<function:function: 0x562125a2eeca0672>, ["give"]=<function:function: 0x562125a2eeca0672>, ["get"]=<function:function: 0x5ce07a242d173b7b>, ["linkToInstance"]=<function:function: 0xcbeb49f10724670d>, ["cleanup"]=<function:function: 0x760a5b3681b869b8>, ["Clean"]=<function:function: 0x760a5b3681b869b8>, ["destroy"]=<function:function: 0xb3a9dcde49fd02d9>, ["Cleanup"]=<function:function: 0x760a5b3681b869b8>, ["LinkToInstance"]=<function:function: 0xcbeb49f10724670d>, ["clean"]=<function:function: 0x760a5b3681b869b8>, ["remove"]=<function:function: 0x23483049419f14b4>, ["AddObject"]=<function:function: 0x4371b66ff5ce8839>, ["addObject"]=<function:function: 0x4371b66ff5ce8839>, ["Destroy"]=<function:function: 0xb3a9dcde49fd02d9>, ["CurrentlyCleaning"]=true, ["GiveObject"]=<function:function: 0x4371b66ff5ce8839>, ["LinkToInstances"]=<function:function: 0x836706b6c8eb530b>, ["giveObject"]=<function:function: 0x4371b66ff5ce8839>, ["currentlyCleaning"]=true, ["Get"]=<function:function: 0x5ce07a242d173b7b>, ["Give"]=<function:function: 0x562125a2eeca0672>, ["Add"]=<function:function: 0x562125a2eeca0672>}
+F is
+  params=1 src=ReplicatedStorage.Shared.Zone.Janitor:? cname=Is what=Lua protos=0[]
+  up1: table keys=6 {__call:function, ClassName:string, Is:function, is:function, __index:table, new:function}
+  up2: ERR
+  consts total=4
+  [1] str "type"
+F new
+  params=0 src=ReplicatedStorage.Shared.Zone.Janitor:? cname=new what=Lua protos=0[]
+  up1: userdata IndicesReference
+  up2: table keys=6 {__call:function, ClassName:string, Is:function, is:function, __index:table, new:function}
+  up3: ERR
+  consts total=2
+  [1] str "CurrentlyCleaning"
+  [2] str "setmetatable"

@@ -1,0 +1,85 @@
+PATH: ReplicatedStorage.Controllers.CharacterController
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+F CancelBombPlant
+  params=0 src=ReplicatedStorage.Controllers.CharacterController:? cname=CancelBombPlant what=Lua protos=0[]
+  up1: table keys=11 {PlantBomb:function, crouch:function, getCurrentCharacter:function, Start:function, CancelBombPlant:function, GetCrouchState:function, Initialize:function, GetWalkState:function, jump:function, PredictDoorUse:function, walk:function}
+  up2: ERR
+  consts total=1
+  [1] str "CancelBombPlant"
+F GetCrouchState
+  params=0 src=ReplicatedStorage.Controllers.CharacterController:? cname=GetCrouchState what=Lua protos=0[]
+  up1: table keys=11 {PlantBomb:function, crouch:function, getCurrentCharacter:function, Start:function, CancelBombPlant:function, GetCrouchState:function, Initialize:function, GetWalkState:function, jump:function, PredictDoorUse:function, walk:function}
+  up2: ERR
+  consts total=1
+  [1] str "GetCrouchState"
+F GetWalkState
+  params=0 src=ReplicatedStorage.Controllers.CharacterController:? cname=GetWalkState what=Lua protos=0[]
+  up1: table keys=11 {PlantBomb:function, crouch:function, getCurrentCharacter:function, Start:function, CancelBombPlant:function, GetCrouchState:function, Initialize:function, GetWalkState:function, jump:function, PredictDoorUse:function, walk:function}
+  up2: ERR
+  consts total=1
+  [1] str "GetWalkState"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.CharacterController:? cname=Initialize what=Lua protos=0[]
+  up1: boolean true
+  up2: table keys=11 {PlantBomb:function, crouch:function, getCurrentCharacter:function, Start:function, CancelBombPlant:function, GetCrouchState:function, Initialize:function, GetWalkState:function, jump:function, PredictDoorUse:function, walk:function}
+  up3: table keys=4 {Track:function, Untrack:function, Present:function, Initialize:function}
+  up4: ERR
+  consts total=1
+  [1] str "Initialize"
+F PlantBomb
+  params=0 src=ReplicatedStorage.Controllers.CharacterController:? cname=PlantBomb what=Lua protos=0[]
+  up1: table keys=11 {PlantBomb:function, crouch:function, getCurrentCharacter:function, Start:function, CancelBombPlant:function, GetCrouchState:function, Initialize:function, GetWalkState:function, jump:function, PredictDoorUse:function, walk:function}
+  up2: ERR
+  consts total=1
+  [1] str "PlantBomb"
+F PredictDoorUse
+  params=1 src=ReplicatedStorage.Controllers.CharacterController:? cname=PredictDoorUse what=Lua protos=0[]
+  up1: table keys=11 {PlantBomb:function, crouch:function, getCurrentCharacter:function, Start:function, CancelBombPlant:function, GetCrouchState:function, Initialize:function, GetWalkState:function, jump:function, PredictDoorUse:function, walk:function}
+  up2: ERR
+  consts total=1
+  [1] str "PredictDoorUse"
+F Start
+  params=0 src=ReplicatedStorage.Controllers.CharacterController:? cname=Start what=Lua protos=0[]
+  up1: boolean true
+  up2: table keys=11 {PlantBomb:function, crouch:function, getCurrentCharacter:function, Start:function, CancelBombPlant:function, GetCrouchState:function, Initialize:function, GetWalkState:function, jump:function, PredictDoorUse:function, walk:function}
+  up3: ERR
+  consts total=1
+  [1] str "Start"
+F TrackCharacter
+  params=2 src=ReplicatedStorage.Controllers.CharacterController:? cname=TrackCharacter what=Lua protos=0[]
+  up1: table keys=4 {Track:function, Untrack:function, Present:function, Initialize:function}
+  up2: ERR
+  consts total=1
+  [1] str "Track"
+F UntrackCharacter
+  params=2 src=ReplicatedStorage.Controllers.CharacterController:? cname=UntrackCharacter what=Lua protos=0[]
+  up1: table keys=4 {Track:function, Untrack:function, Present:function, Initialize:function}
+  up2: ERR
+  consts total=1
+  [1] str "Untrack"
+F crouch
+  params=1 src=ReplicatedStorage.Controllers.CharacterController:? cname=crouch what=Lua protos=0[]
+  up1: table keys=11 {PlantBomb:function, crouch:function, getCurrentCharacter:function, Start:function, CancelBombPlant:function, GetCrouchState:function, Initialize:function, GetWalkState:function, jump:function, PredictDoorUse:function, walk:function}
+  up2: ERR
+  consts total=1
+  [1] str "crouch"
+F getCurrentCharacter
+  params=0 src=ReplicatedStorage.Controllers.CharacterController:? cname=getCurrentCharacter what=Lua protos=0[]
+  up1: table keys=11 {PlantBomb:function, crouch:function, getCurrentCharacter:function, Start:function, CancelBombPlant:function, GetCrouchState:function, Initialize:function, GetWalkState:function, jump:function, PredictDoorUse:function, walk:function}
+  up2: ERR
+  consts total=1
+  [1] str "getCurrentCharacter"
+F jump
+  params=1 src=ReplicatedStorage.Controllers.CharacterController:? cname=jump what=Lua protos=0[]
+  up1: table keys=11 {PlantBomb:function, crouch:function, getCurrentCharacter:function, Start:function, CancelBombPlant:function, GetCrouchState:function, Initialize:function, GetWalkState:function, jump:function, PredictDoorUse:function, walk:function}
+  up2: ERR
+  consts total=1
+  [1] str "jump"
+F walk
+  params=1 src=ReplicatedStorage.Controllers.CharacterController:? cname=walk what=Lua protos=0[]
+  up1: table keys=11 {PlantBomb:function, crouch:function, getCurrentCharacter:function, Start:function, CancelBombPlant:function, GetCrouchState:function, Initialize:function, GetWalkState:function, jump:function, PredictDoorUse:function, walk:function}
+  up2: ERR
+  consts total=1
+  [1] str "walk"

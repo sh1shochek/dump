@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.BreakGlass
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=3 src=ReplicatedStorage.Components.Common.VFXLibary.BreakGlass:? what=Lua protos=3[#1,#2,#3]
+  up1: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up2: userdata Mateo_081005
+  up3: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up4: table keys=8 {playOneTime:function, destroy:function, new:function, PlaySoundAtPosition:function, play:function, WarmPersistentSounds:function, __index:table, createSoundGroup:function}
+  up5: function params=4 src=ReplicatedStorage.Components.Common.VFXLibary.BreakGlass:? cname=draw3dTriangle what=Lua
+  up6: userdata Debris
+  up7: userdata TweenService
+  up8: ERR
+  consts total=66
+  [1] str "debug"
+  [2] str "profilebegin"

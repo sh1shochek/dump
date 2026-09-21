@@ -1,0 +1,27 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.ChooseTeam
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Callback
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.Choose:? cname=onInput what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=10 {shouldUseMapCamera:function, isVisible:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, updatePlayerList:function, chooseTeam:function, createTeamButtonAnimation:function, ToggleTeamSelection:function}
+  up3: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up4: ERR
+  consts total=13
+  [1] str "IsPlayerChatting"
+  [2] str "GetAttribute"
+  [3] str "Enum"
+  [4] str "UserInputState"
+  [5] str "Begin"
+  [6] userdata
+  [7] str "IsSpectating"
+  [8] str "Team"
+  [9] str "Counter-Terrorists"
+  [10] str "Terrorists"
+  [11] str "openFrame"
+  [12] str "getLocalCharacter"
+  [13] str "ToggleTeamSelection"
+K Category :string = UI Keys
+K Group :string = Default
+K Name :string = Choose Team

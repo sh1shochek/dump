@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.Flower Pot.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

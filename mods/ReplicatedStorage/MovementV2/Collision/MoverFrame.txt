@@ -1,0 +1,42 @@
+PATH: ReplicatedStorage.MovementV2.Collision.MoverFrame
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Build
+  params=2 src=ReplicatedStorage.MovementV2.Collision.MoverFrame:? cname=Build what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.Collision.MoverFrame:? cname=makeRecord what=Lua
+  up2: ERR
+  consts total=21
+  [1] str "typeof"
+F ResolveSupportMotion
+  params=2 src=ReplicatedStorage.MovementV2.Collision.MoverFrame:? cname=ResolveSupportMotion what=Lua protos=0[]
+  up1: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up2: table keys=4 {SampleCFrame:function, ResolveSupportMotion:function, VelocityAtPoint:function, Build:function}
+  up3: ERR
+  consts total=15
+  [1] str "Kind"
+  [2] str "SupportKind"
+  [3] str "Mover"
+  [4] str "SourceId"
+  [5] number 0
+  [6] str "ById"
+  [7] str "PreviousCFrame"
+  [8] str "Anchor"
+  [9] str "PointToWorldSpace"
+  [10] str "CFrame"
+  [11] str "Delta"
+  [12] str "Velocity"
+  [13] table
+  [14] str "Id"
+  [15] str "VelocityAtPoint"
+F SampleCFrame
+  params=2 src=ReplicatedStorage.MovementV2.Collision.MoverFrame:? cname=SampleCFrame what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "typeof"
+F VelocityAtPoint
+  params=3 src=ReplicatedStorage.MovementV2.Collision.MoverFrame:? cname=VelocityAtPoint what=Lua protos=0[]
+  up1: table keys=4 {SampleCFrame:function, ResolveSupportMotion:function, VelocityAtPoint:function, Build:function}
+  up2: ERR
+  consts total=18
+  [1] str "typeof"

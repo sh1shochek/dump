@@ -1,0 +1,101 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.Spectate
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F CloseFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.S:? cname=CloseFrame what=Lua protos=0[]
+  up1: userdata Spectate
+  up2: table keys=1 {CurrentlyCleaning:boolean}
+  up3: userdata Mateo_081005
+  up4: userdata Workspace
+  up5: userdata ReplicatedStorage
+  up6: ERR
+  consts total=8
+  [1] str "Visible"
+  [2] str "Cleanup"
+  [3] str "Character"
+  [4] str "Team"
+  [5] str "GetAttribute"
+  [6] str "IsDescendantOf"
+  [7] str "Spectators"
+  [8] str "require"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.S:? cname=Initialize what=Lua protos=0[]
+  up1: userdata MainGui
+  up2: userdata Spectate
+  up3: ERR
+  consts total=0
+F OpenFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.S:? cname=OpenFrame what=Lua protos=0[]
+  up1: userdata MainGui
+  up2: userdata Spectate
+  up3: userdata Mateo_081005
+  up4: function params=1 src=ReplicatedStorage.Components.Common.IsPlayingTeam:? what=Lua
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.S:? cname=updateSpectateTips what=Lua
+  up6: ERR
+  consts total=11
+  [1] str "Gameplay"
+  [2] str "Bottom"
+  [3] str "Middle"
+  [4] str "Team"
+  [5] str "Visible"
+  [6] str "GetAttribute"
+  [7] str "RespawnNext"
+  [8] str "workspace"
+  [9] userdata
+  [10] str "Gamemode"
+  [11] str "Deathmatch"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.S:? cname=Start what=Lua protos=3[#1,#2,#3]
+  up1: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up2: table keys=5 {CloseFrame:function, OpenFrame:function, UpdateFrame:function, Start:function, Initialize:function}
+  up3: userdata Mateo_081005
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.S:? cname=updateRespawnNextVisibility what=Lua
+  up5: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up6: boolean true
+  up7: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.S:? cname=updateSpectateTips what=Lua
+  up8: userdata UserInputService
+  up9: ERR
+  consts total=14
+  [1] str "ListenToSpectate"
+F UpdateFrame
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.S:? cname=UpdateFrame what=Lua protos=2[#1,#2]
+  up1: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up2: userdata Spectate
+  up3: table keys=12 {Bright White:table, Team Color:table, Red:table, Purple:table, Light Blue:table, Blue:table, Pink:table, Green:table, Aqua:table, Yellow:table, Orange:table, White:table}
+  up4: function params=2 src=ReplicatedStorage.Components.Common.GetBadgeIcon:? what=Lua
+  up5: table keys=1 {CurrentlyCleaning:boolean}
+  up6: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up7: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.S:? cname=updateADRDisplay what=Lua
+  up8: table keys=5 {GetFullItemDisplayName:function, GetWeaponDisplayName:function, GetSkinDisplayName:function, GetInternalSearchQuery:function, GetSearchIdentity:function}
+  up9: ERR
+  consts total=29
+  [1] str "GetCurrentSpectateInstance"
+  [2] str "Player"
+  [3] str "Avatar"
+  [4] str "rbxthumb://type=AvatarHeadShot&id=%*&w=150&h=150"
+  [5] str "UserId"
+  [6] str "format"
+  [7] str "Image"
+  [8] str "Username"
+  [9] str "Name"
+  [10] str "Text"
+  [11] str "Team"
+  [12] str "GetAttribute"
+  [13] str "Team Color"
+  [14] str "TextColor3"
+  [15] str "Badge"
+  [16] str "Frame1"
+  [17] str "BackgroundColor3"
+  [18] str "Frame2"
+  [19] str "Outline"
+  [20] str "ImageColor3"
+  [21] str "Cleanup"
+  [22] str "observeAttribute"
+  [23] str "ADR"
+  [24] str "Add"
+  [25] str "CurrentEquipped"
+  [26] str "Skin"
+  [27] str "Weapon"
+  [28] str "CurrentEquippedChanged"
+  [29] str "Connect"

@@ -1,0 +1,28 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VehicleCamera.VehicleCameraCore
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+K __index :table keys=4
+  {["setTransform"]=<function:function: 0x5c981ee05b54d88f>, ["step"]=<function:function: 0x53c1c15745949d0f>, ["__index"]=<cycle>, ["new"]=<function:function: 0xe8aa4ab0ddbeca6f>}
+F new
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=0[]
+  up1: table keys=5 {setGoal:function, step:function, getCFrame:function, __index:table, new:function}
+  up2: table keys=4 {setTransform:function, step:function, __index:table, new:function}
+  up3: ERR
+  consts total=4
+  [1] str "vrs"
+  [2] table
+  [3] str "new"
+  [4] str "setmetatable"
+F setTransform
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=setTransform what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "vrs"
+  [2] str "setGoal"
+F step
+  params=5 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=step what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "vrs"
+  [2] str "step"

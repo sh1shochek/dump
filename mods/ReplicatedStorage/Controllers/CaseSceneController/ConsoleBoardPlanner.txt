@@ -1,0 +1,44 @@
+PATH: ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoardPlanner
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K COLUMN_COUNT :number = 8
+K ROW_COUNT :number = 5
+F createAllRows
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=createAllRows what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F createInitialSpinRows
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=createInitialSpinRows what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=randomSubset what=Lua
+  up2: table keys=8 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table}
+  up3: ERR
+  consts total=3
+  [1] number 1
+  [2] str "math"
+  [3] str "random"
+F getDisplaySteps
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=getDisplaySteps what=Lua protos=0[]
+  up1: table keys=4 {Red:number, Pink:number, Blue:number, Purple:number}
+  up2: ERR
+  consts total=19
+  [1] str "path"
+  [2] str "result"
+  [3] str "miss"
+  [4] str "columnIndex"
+  [5] number 2
+  [6] str "rarity"
+  [7] str "finalRarity"
+  [8] str "table"
+  [9] str "insert"
+F prepare
+  params=3 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=prepare what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=cloneRowsByColumn what=Lua
+  up2: function params=5 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=fitUpcomingMiss what=Lua
+  up3: table keys=8 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table}
+  up4: function params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=randomSubset what=Lua
+  up5: function params=3 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=landingRows what=Lua
+  up6: ERR
+  consts total=22
+  [1] str "table"
+  [2] str "clone"

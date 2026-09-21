@@ -1,0 +1,14 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.AK-47
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K Bolt :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=84356538600576}}
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=77480808991354}}
+K MagIn :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=99110846823726}}
+K MagOut :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=105895740050720}}
+K Shoot :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=40}, ["Identifiers"]={[1]=92989811154380, [2]=92943704247952}}

@@ -1,0 +1,162 @@
+PATH: ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel
+REQUIRE: ok
+RETURNS: table
+KEYS: 15
+K __index :table keys=15
+  {["render"]=<function:function: 0x7d6db1f9dabdc808>, ["destroy"]=<function:function: 0xce4ebd65c51f5904>, ["new"]=<function:function: 0x3cf6040773950e52>, ["setupCharmPhysics"]=<function:function: 0x6e1a22970cc9217d>, ["unaim"]=<function:function: 0xf1e44bb3abd2cc71>, ["construct"]=<function:function: 0x230c21206b2727c9>, ["aim"]=<function:function: 0xa9e521f537429045>, ["unhide"]=<function:function: 0xf146d855d0ba7d06>, ["applyCharmImpulse"]=<function:function: 0xb36b12ff8124d00d>, ["unequip"]=<function:function: 0xd740b193605ebc9f>, ["addAttachments"]=<function:function: 0xaed6a9e8bb228e8a>, ["equip"]=<function:function: 0x2d32e0f998ca4e4b>, ["attachSleeves"]=<function:function: 0xde0b5a32dc438226>, ["__index"]=<cycle>, ["hide"]=<function:function: 0xe44df72c4c57e789>}
+F addAttachments
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=addAttachments what=Lua protos=0[]
+  up1: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up2: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.AttachGlovesToV:? what=Lua
+  up4: ERR
+  consts total=34
+  [1] str "debug"
+  [2] str "profilebegin"
+F aim
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=aim what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=toggleScopeVisibility what=Lua
+  up2: userdata Camera
+  up3: ERR
+  consts total=17
+  [1] str "Bobble"
+  [2] str "setIsAiming"
+  [3] str "Scope"
+  [4] str "ScopeReticlePart"
+  [5] str "MuzzlePartWeld"
+  [6] str "CFrame"
+  [7] str "Model"
+  [8] str "WorldPivot"
+  [9] number -0.5
+  [10] str "UpVector"
+  [11] number 1
+  [12] str "LookVector"
+  [13] number 0.1
+  [14] str "RightVector"
+  [15] str "Part0"
+  [16] str "Inverse"
+  [17] str "C0"
+F applyCharmImpulse
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=applyCharmImpulse what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "LargeCharmModel"
+  [2] str "PrimaryPart"
+  [3] str "CharmMassCache"
+  [4] str "CharmMassCacheModel"
+  [5] str "typeof"
+F attachSleeves
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=attachSleeves what=Lua protos=0[]
+  up1: userdata ReplicatedStorage
+  up2: ERR
+  consts total=39
+  [1] str "Assets"
+  [2] str "Sleeves"
+  [3] str "FindFirstChild"
+  [4] str "ipairs"
+F construct
+  params=3 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=construct what=Lua protos=1[#1]
+  up1: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up2: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up3: userdata ReplicatedFirst
+  up4: function params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=stripWeaponGeometry what=Lua
+  up5: userdata HttpService
+  up6: function params=4 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMuzzleFl:? what=Lua
+  up7: userdata Camera
+  up8: ERR
+  consts total=120
+  [1] str "debug"
+  [2] str "profilebegin"
+F destroy
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=33
+  [1] str "IsDestroyed"
+  [2] str "debug"
+  [3] str "profilebegin"
+F equip
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=equip what=Lua protos=0[]
+  up1: userdata Camera
+  up2: ERR
+  consts total=12
+  [1] str "IsEquipped"
+  [2] str "Model"
+  [3] str "Parent"
+  [4] str "LargeWeaponModel"
+  [5] str "Animation"
+  [6] str "stopAnimations"
+  [7] str "Idle"
+  [8] str "play"
+  [9] str "Hidden"
+  [10] str "unhide"
+  [11] str "Equip"
+  [12] str "pickVariant"
+F hide
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=hide what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=updateTransparency what=Lua
+  up2: ERR
+  consts total=2
+  [1] str "Hidden"
+  [2] str "Model"
+F new
+  params=4 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=new what=Lua protos=5[#1,#2,#3,#4,#5]
+  up1: table keys=15 {render:function, destroy:function, new:function, setupCharmPhysics:function, unaim:function, construct:function, aim:function, unhide:function, applyCharmImpulse:function, unequip:function, addAttachments:function, equip:function, attachSleeves:function, __index:table, hide:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=8 {playOneTime:function, destroy:function, new:function, PlaySoundAtPosition:function, play:function, WarmPersistentSounds:function, __index:table, createSoundGroup:function}
+  up4: table keys=21 {cancelCrossfade:function, unregister:function, register:function, markInspectCancel:function, __index:table, new:function, destroy:function, crossfadeRestart:function, stopAnimations:function, setModel:function, pickVariant:function, stopSounds:function, construct:function, unregisterGroup:function, play:function, stop:function, pickInspectVariant:function, getAnimation:function, isCrossfading:function, crossfadeTo:function, adjustAnimationSpeed:function}
+  up5: table keys=9 {destroy:function, getMovementVelocity:function, getNextCFrame:function, setModel:function, addScopeKick:function, new:function, setIsAiming:function, __index:table, stateChanged:function}
+  up6: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up7: ERR
+  consts total=49
+  [1] str "debug"
+  [2] str "profilebegin"
+F render
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=render what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=updateChargeFrame what=Lua
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: userdata Camera
+  up4: ERR
+  consts total=55
+  [1] str "Model"
+  [2] str "Stats"
+  [3] str "FindFirstChild"
+  [4] str "debug"
+  [5] str "profilebegin"
+F setupCharmPhysics
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=setupCharmPhysics what=Lua protos=2[#1,#2]
+  up1: userdata Camera
+  up2: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up3: ERR
+  consts total=60
+  [1] str "CharmModel"
+  [2] str "debug"
+  [3] str "profilebegin"
+F unaim
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=unaim what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=toggleScopeVisibility what=Lua
+  up2: ERR
+  consts total=7
+  [1] str "Bobble"
+  [2] str "setIsAiming"
+  [3] str "Scope"
+  [4] str "ScopeReticlePart"
+  [5] str "OriginalC0"
+  [6] str "MuzzlePartWeld"
+  [7] str "C0"
+F unequip
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=unequip what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "IsEquipped"
+  [2] str "Animation"
+  [3] str "stopAnimations"
+  [4] str "Model"
+  [5] str "Parent"
+  [6] str "LargeWeaponModel"
+F unhide
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=unhide what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel:? cname=updateTransparency what=Lua
+  up2: ERR
+  consts total=2
+  [1] str "Hidden"
+  [2] str "Model"

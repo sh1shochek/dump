@@ -1,0 +1,42 @@
+PATH: ReplicatedStorage.Database.Custom.Weapons.Zeus x27
+REQUIRE: ok
+RETURNS: table
+KEYS: 34
+K AimingOptions :string = None
+K ArmorPenetration :number = 1
+K Automatic :boolean = false
+K BulletsPerShot :number = 1
+K CameraAnimations :userdata CameraAnimations
+K Capacity :number = 0
+K CharacterAnimations :userdata CharacterAnimations
+K Class :string = Weapon
+K Cost :number = 200
+K DamagePerPart :table keys=4
+  {["Arms"]=500, ["Torso"]=500, ["Legs"]=500, ["Head"]=500}
+K Droppable :boolean = true
+K FireRate :number = 0.15
+K HasScope :boolean = false
+K HasSuppressor :boolean = false
+K Icon :string = rbxassetid://71464446190434
+K InventoryIconData :table keys=3
+  {["ScaleType"]=<userdata:Enum.ScaleType.Fit>, ["Size"]=<userdata:{0.949999988, 0}, {0.949999988, 0}>, ["Position"]=<userdata:{0.5, 0}, {0.479999989, 0}>}
+K MuzzleType :string = Zeus x27
+K Penetration :number = 0.14
+K RagdollMultiplier :number = 42
+K Range :number = 13.584
+K RangeModifier :number = 0.011416
+K RechargeTime :number = 30
+K Recoil :table keys=6
+  {["Pattern"]=<function:function: 0x7fa6eb4a3c27a420>, ["Damper"]=1, ["RecoverySpeed"]=8, ["Scale"]=0.35, ["Speed"]=20, ["CameraScale"]=0.2}
+K ReloadAnimationCount :number = 1
+K ReverseIcon :string = rbxassetid://131579417467777
+K Rounds :number = 1
+K ShootingOptions :string = Default
+K ShowCrosshair :boolean = true
+K Slot :string = Melee
+K Spread :table keys=4
+  {["RecoverySpeed"]=10, ["PerShot"]=0, ["Range"]=<userdata:0.2 3.5 >, ["MovementMultiplier"]=0.04}
+K Team :string = Both
+K Type :string = Pistol
+K WalkSpeed :number = 17.776
+K WallbangMultiplier :number = 0

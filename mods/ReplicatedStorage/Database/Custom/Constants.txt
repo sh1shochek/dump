@@ -1,0 +1,48 @@
+PATH: ReplicatedStorage.Database.Custom.Constants
+REQUIRE: ok
+RETURNS: table
+KEYS: 24
+K ACTIVE_EVENTS :table keys=1
+  {["MEDAL.TV"]=false}
+K ACTIVE_GAMEMODE_SUBPLACE_IDS :table keys=3
+  {["Deathmatch"]=135434213652028, ["UnrankedComp"]=108194354348181, ["Defusal"]=114234929420007}
+K ACTIVE_PLACE_ENVIRONMENT :string = Prod
+K ADMINISTRATOR_FINISHER_WHITELIST :table keys=6
+  {[1]=-1, [2]=-2, [3]=3436218611, [4]=3659308968, [5]=107643044, [6]=1243042178}
+K AIM_ASSIST_CONFIGS :table keys=2
+  {["DEVELOPER"]={["Friction"]={["Enabled"]=true, ["MinSensitivity"]=0.3, ["MaxSensitivity"]=1, ["BubbleRadius"]=4}, ["RecoilAssist"]={["Enabled"]=true, ["RequiresTarget"]=false, ["ReductionAmount"]=0.75}, ["TargetSelection"]={["Enabled"]=true, ["MaxDistance"]=200, ["MaxAngle"]=0.7853981633974483}, ["Magnetism"]={["Enabled"]=true, ["MaxDistance"]=200, ["StopThreshold"]=0.003490658503988659, ["MaxAngleHorizontal"]=0.3490658503988659, ["MaxAngleVertical"]=0.17453292519943295, ["PullStrength"]=0.3141592653589793}, ["VerticalMagnetism"]={["Enabled"]=true, ["MaxDistance"]=200, ["StopThreshold"]=0.008726646259971648, ["MaxAngleHorizontal"]=0.17453292519943295, ["MaxAngleVertical"]=0.3490658503988659, ["PullStrength"]=0.20943951023931956}}, ["PLAYER"]={["Friction"]={["Enabled"]=true, ["MinSensitivity"]=0.5, ["MaxSensitivity"]=1, ["BubbleRadius"]=2.4}, ["RecoilAssist"]={["Enabled"]=true, ["RequiresTarget"]=false, ["ReductionAmount"]=0.5}, ["TargetSelection"]={["Enabled"]=true, ["MaxDistance"]=125, ["MaxAngle"]=0.5235987755982988}, ["Magnetism"]={["Enabled"]=true, ["MaxDistance"]=125, ["StopThreshold"]=0.008726646259971648, ["MaxAngleHorizontal"]=0.20943951023931956, ["MaxAngleVertical"]=0.10471975511965978, ["PullStrength"]=0.11344640137963143}, ["VerticalMagnetism"]={["Enabled"]=true, ["MaxDistance"]=125, ["StopThreshold"]=0.008726646259971648, ["MaxAngleHorizontal"]=0.20943951023931956, ["MaxAngleVertical"]=0.10471975511965978, ["PullStrength"]=0.11344640137963143}}}
+K AIM_ASSIST_WHITELIST :table keys=0
+  {}
+K DEFAULT_CAMERA_FOV :number = 70
+K EVENT_END_TIMES :table keys=1
+  {["MEDAL.TV"]=1772323200}
+K GAMEMODE_PLACE_IDS :table keys=4
+  {["Deathmatch"]=135434213652028, ["Casual"]=114234929420007, ["Competitive"]=108194354348181, ["Trading"]=101836176558619}
+K GAMEMODE_SUBPLACE_IDS :table keys=2
+  {["Prod"]={["Deathmatch"]=135434213652028, ["UnrankedComp"]=108194354348181, ["Defusal"]=114234929420007}, ["Dev"]={["Deathmatch"]=107028954108065, ["UnrankedComp"]=89844875164241, ["Defusal"]=100334860793031}}
+F GetGamemodeFromServerGamemode
+  params=1 src=ReplicatedStorage.Database.Custom.Constants:? cname=getGamemodeFromServerGamemode what=Lua protos=0[]
+  up1: table keys=3 {Competitive:string, Casual:string, Deathmatch:string}
+  up2: function params=1 src=ReplicatedStorage.Database.Custom.Constants:? cname=getActiveGamemode what=Lua
+  up3: ERR
+  consts total=6
+  [1] str "typeof"
+K INVENTORY_SORTING_OPTIONS :table keys=9
+  {[1]="Quality", [2]="RAP", [3]="Newest", [4]="Alphabetical", [5]="Collection", [6]="Equipped", [7]="Type", [8]="Float", [9]="Serial"}
+K ITEM_CATEGORIES :table keys=7
+  {[1]="All", [2]="Pistol", [3]="SMG", [4]="Rifle", [5]="Heavy", [6]="Equipment", [7]="Miscellaneous"}
+K MARKETPLACE_MAX_LISTING_PRICE :number = 100000000
+K MARKETPLACE_SORTING_OPTIONS :table keys=7
+  {[1]="Quality", [2]="RAP", [3]="Newest", [4]="Alphabetical", [5]="Collection", [6]="Type", [7]="Float"}
+K MARKET_TAX_PERCENT :number = 5
+K MINIMUM_CREDITS_FOR_SPECIAL_CREDITS_OPTION :number = 100000
+K PRODUCTION_UNIVERSE_ID :number = 7633926880
+K PROMOTIONAL_REWARD_CREDITS :table keys=5
+  {["InviteFriend"]=15, ["JoinGroup"]=15, ["Notifications"]=15, ["FavoriteGame"]=15, ["LikeGame"]=15}
+K SESSION_DATA :table keys=5
+  {["PRIVATE_SERVER_ID"]="", ["JOB_ID"]="5d61c652-1e95-4b0e-83b8-d6d9a4a126bf", ["GAMEMODE"]="casual", ["PLACE_ID"]=114234929420007, ["UNIVERSE_ID"]=7633926880}
+K SHOP_VERSION :string = 1.0.0
+K TRADING_PLACE_ID :number = 101836176558619
+K VERSION :string = 1.2.2
+K VIP_MENU_PANEL_WHITELIST :table keys=8
+  {[1]=363101315, [2]=3659308968, [3]=1243042178, [4]=107643044, [5]=9236102964, [6]=38260227, [7]=40222641, [8]=3436218611}

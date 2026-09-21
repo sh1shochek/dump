@@ -1,0 +1,7 @@
+PATH: ReplicatedStorage.Database.Custom.Weapons.CT Glove
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+K Class :string = Glove
+K Team :string = Counter-Terrorists
+K Type :string = Equipment

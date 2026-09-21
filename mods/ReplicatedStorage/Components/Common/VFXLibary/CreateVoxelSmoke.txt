@@ -1,0 +1,55 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelSmoke
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F Create
+  params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelSmo:? cname=Create what=Lua protos=1[#1]
+  up1: table keys=0 {}
+  up2: table keys=2 {Terrorists:userdata, Counter-Terrorists:userdata}
+  up3: function params=4 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelSmo:? cname=CreateVoxel what=Lua
+  up4: userdata Workspace
+  up5: function params=2 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelSmo:? cname=DeploySmoke what=Lua
+  up6: function params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelSmo:? cname=FadeOutSmoke what=Lua
+  up7: ERR
+  consts total=26
+  [1] str "debug"
+  [2] str "profilebegin"
+F Destroy
+  params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelSmo:? cname=Destroy what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: function params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelSmo:? cname=FadeOutSmoke what=Lua
+  up3: ERR
+  consts total=5
+  [1] str "debug"
+  [2] str "profilebegin"
+F DestroyAll
+  params=0 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelSmo:? cname=DestroyAll what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: table keys=0 {}
+  up3: table keys=0 {}
+  up4: table keys=0 {}
+  consts total=13
+  [1] str "debug"
+  [2] str "profilebegin"
+F Disrupt
+  params=3 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelSmo:? cname=Disrupt what=Lua protos=1[#1]
+  up1: table keys=0 {}
+  up2: table keys=0 {}
+  up3: table keys=0 {}
+  up4: table keys=0 {}
+  consts total=16
+  [1] str "debug"
+  [2] str "profilebegin"
+F DoesRayIntersectActiveSmoke
+  params=3 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelSmo:? cname=DoesRayIntersectActiveSmoke what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: function params=5 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelSmo:? cname=RayIntersectsAABB what=Lua
+  up3: ERR
+  consts total=4
+  [1] str "pairs"
+F GetActiveVoxelCount
+  params=0 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelSmo:? cname=GetActiveVoxelCount what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: ERR
+  consts total=1
+  [1] str "pairs"

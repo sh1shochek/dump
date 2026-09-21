@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.MapLighting
+REQUIRE: ok
+RETURNS: nil
+VALUE: nil

@@ -1,0 +1,33 @@
+PATH: ReplicatedStorage.Shared.CloseButtonRegistry
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F Add
+  params=3 src=ReplicatedStorage.Shared.CloseButtonRegistry:? cname=Add what=Lua protos=2[#1,#2]
+  up1: table keys=13 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table, 12:table, 13:table}
+  up2: ERR
+  consts total=10
+  [1] str "closeButton"
+  [2] str "onClose"
+  [3] str "frame"
+  [4] table
+  [5] str "table"
+  [6] str "insert"
+F CloseFrame
+  params=0 src=ReplicatedStorage.Shared.CloseButtonRegistry:? cname=CloseFrame what=Lua protos=0[]
+  up1: table keys=13 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table, 12:table, 13:table}
+  up2: number 0
+  up3: ERR
+  consts total=6
+  [1] str "frame"
+  [2] str "Parent"
+  [3] str "Visible"
+  [4] str "onClose"
+  [5] str "closeButton"
+  [6] str "tick"
+F IsDoublePressed
+  params=0 src=ReplicatedStorage.Shared.CloseButtonRegistry:? cname=IsDoublePressed what=Lua protos=0[]
+  up1: number 0
+  up2: ERR
+  consts total=1
+  [1] str "tick"

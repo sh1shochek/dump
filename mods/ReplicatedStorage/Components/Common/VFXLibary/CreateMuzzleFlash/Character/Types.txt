@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateMuzzleFlash.Character.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

@@ -1,0 +1,71 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.Notification
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Notifica:? cname=Initialize what=Lua protos=6[#1,#2,#3,#4,#5,#6]
+  up1: userdata Notification
+  up2: userdata Mateo_081005
+  up3: table keys=3 {createNotification:function, Start:function, Initialize:function}
+  up4: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Notifica:? cname=cleanupNotificationTemplate what=Lua
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Notifica:? cname=getHeaderText what=Lua
+  up6: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up7: userdata 0.901961, 0.141176, 0.141176
+  up8: table keys=2 {Default:userdata, Invulnerable:userdata}
+  up9: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up10: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up11: ERR
+  consts total=11
+  [1] str "BuyMenu"
+  [2] str "GetAttributeChangedSignal"
+  [3] str "Connect"
+  [4] str "CharacterAdded"
+  [5] str "CharacterRemoving"
+  [6] str "ListenToState"
+  [7] str "workspace"
+  [8] userdata
+  [9] str "Gamemode"
+  [10] str "CreateListener"
+  [11] str "Settings.Game.HUD.Color"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Notifica:? cname=Start what=Lua protos=2[#1,#2]
+  up1: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up2: table keys=3 {createNotification:function, Start:function, Initialize:function}
+  up3: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Notifica:? cname=cleanupNotificationTemplate what=Lua
+  up4: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up5: ERR
+  consts total=6
+  [1] str "UI"
+  [2] str "ShowNotification"
+  [3] str "Listen"
+F createNotification
+  params=4 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Notifica:? cname=createNotification what=Lua protos=0[]
+  up1: userdata Notification
+  up2: userdata Mateo_081005
+  up3: userdata {0.899999976, 0}, {0.200000003, 0}
+  up4: userdata {0.899999976, 0}, {0.119999997, 0}
+  up5: table keys=2 {Default:userdata, Invulnerable:userdata}
+  up6: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Notifica:? cname=collectFadeTargets what=Lua
+  up7: userdata TweenService
+  up8: userdata Time:0.35 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:In EasingStyl
+  up9: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up10: table keys=12 {enableGroup:function, getActionKeybinds:function, registerAction:function, disableGroup:function, Initialize:function, isBindingPressed:function, isActionPressed:function, GetActionKeybind:function, Start:function, loadActionsFromDatabase:function, bindKeybinds:function, isActionActive:function}
+  up11: ERR
+  consts total=17
+  [1] str "FindFirstChild"
+  [2] str "Team"
+  [3] str "GetAttribute"
+  [4] str "Invulnerable"
+  [5] str "Clone"
+  [6] str "Size"
+  [7] number 1
+  [8] str "LayoutOrder"
+  [9] str "Name"
+  [10] str "Instance"
+  [11] str "Property"
+  [12] str "Parent"
+  [13] str "Value"
+  [14] str "Create"
+  [15] str "Play"
+  [16] str "Timestamp"
+  [17] str "tick"

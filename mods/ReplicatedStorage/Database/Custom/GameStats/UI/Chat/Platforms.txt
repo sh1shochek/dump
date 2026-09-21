@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.UI.Chat.Platforms
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+K Console :string = Console
+K Mobile :string = Mobile
+K PC :string = PC
+K VR :string = VR

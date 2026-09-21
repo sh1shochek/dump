@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Shared.Zone.Enum.Detection
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+K 1 :table keys=2
+  {[1]="WholeBody", [2]=1}
+K 2 :table keys=2
+  {[1]="Centre", [2]=2}

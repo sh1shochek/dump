@@ -1,0 +1,40 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Career.Resolve
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Caption
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Resolve:? cname=Caption what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "Left"
+  [2] str "FindFirstChild"
+  [3] str "Label"
+  [4] str "ipairs"
+F Row
+  params=3 src=ReplicatedStorage.Interface.Screens.Menu.Career.Resolve:? cname=Row what=Lua protos=0[]
+  up1: table keys=4 {Caption:function, SetRow:function, Row:function, Value:function}
+  up2: ERR
+  consts total=11
+  [1] str "FindFirstChild"
+  [2] str "GuiObject"
+  [3] str "IsA"
+  [4] str "ipairs"
+F SetRow
+  params=4 src=ReplicatedStorage.Interface.Screens.Menu.Career.Resolve:? cname=SetRow what=Lua protos=0[]
+  up1: table keys=4 {Caption:function, SetRow:function, Row:function, Value:function}
+  up2: ERR
+  consts total=4
+  [1] str "Row"
+  [2] str "Caption"
+  [3] str "Value"
+  [4] str "Text"
+F Value
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Resolve:? cname=Value what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "Left"
+  [2] str "FindFirstChild"
+  [3] str "Value"
+  [4] str "TextLabel"
+  [5] str "IsA"
+  [6] str "ipairs"

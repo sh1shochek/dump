@@ -1,0 +1,62 @@
+PATH: ReplicatedStorage.MovementV2.MoverProgressCodec
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+K AnchorWireSize :number = 8
+K MaxSampleCount :number = 255
+K MaxStreamCount :number = 64
+K MaxTotalSampleCount :number = 1024
+K SampleWireSize :number = 3
+K StreamHeaderWireSize :number = 5
+F readAnchors
+  params=3 src=ReplicatedStorage.MovementV2.MoverProgressCodec:? cname=readAnchors what=Lua protos=0[]
+  up1: table keys=13 {StreamHeaderWireSize:number, SampleWireSize:number, writeStreamsValidated:function, readAnchors:function, writeAnchorsValidated:function, MaxStreamCount:number, validateStreams:function, validateAnchors:function, readStreams:function, streamsWireSize:function, MaxSampleCount:number, MaxTotalSampleCount:number, AnchorWireSize:number}
+  up2: ERR
+  consts total=16
+  [1] str "buffer"
+  [2] str "len"
+F readStreams
+  params=3 src=ReplicatedStorage.MovementV2.MoverProgressCodec:? cname=readStreams what=Lua protos=0[]
+  up1: table keys=13 {StreamHeaderWireSize:number, SampleWireSize:number, writeStreamsValidated:function, readAnchors:function, writeAnchorsValidated:function, MaxStreamCount:number, validateStreams:function, validateAnchors:function, readStreams:function, streamsWireSize:function, MaxSampleCount:number, MaxTotalSampleCount:number, AnchorWireSize:number}
+  up2: ERR
+  consts total=26
+  [1] str "InvalidMoverProgressStreamCount"
+  [2] str "table"
+  [3] str "create"
+F streamsWireSize
+  params=1 src=ReplicatedStorage.MovementV2.MoverProgressCodec:? cname=streamsWireSize what=Lua protos=0[]
+  up1: table keys=13 {StreamHeaderWireSize:number, SampleWireSize:number, writeStreamsValidated:function, readAnchors:function, writeAnchorsValidated:function, MaxStreamCount:number, validateStreams:function, validateAnchors:function, readStreams:function, streamsWireSize:function, MaxSampleCount:number, MaxTotalSampleCount:number, AnchorWireSize:number}
+  up2: ERR
+  consts total=6
+  [1] str "validateStreams"
+  [2] str "assert"
+F validateAnchors
+  params=2 src=ReplicatedStorage.MovementV2.MoverProgressCodec:? cname=validateAnchors what=Lua protos=0[]
+  up1: function params=3 src=ReplicatedStorage.MovementV2.MoverProgressCodec:? cname=isDenseArray what=Lua
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: ERR
+  consts total=14
+  [1] str "InvalidMoverProgressAnchorCount"
+  [2] str "type"
+F validateStreams
+  params=1 src=ReplicatedStorage.MovementV2.MoverProgressCodec:? cname=validateStreams what=Lua protos=0[]
+  up1: function params=3 src=ReplicatedStorage.MovementV2.MoverProgressCodec:? cname=isDenseArray what=Lua
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: ERR
+  consts total=19
+  [1] str "InvalidMoverProgressStreamCount"
+  [2] str "type"
+F writeAnchorsValidated
+  params=3 src=ReplicatedStorage.MovementV2.MoverProgressCodec:? cname=writeAnchorsValidated what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "Id"
+  [2] str "buffer"
+  [3] str "writeu32"
+F writeStreamsValidated
+  params=3 src=ReplicatedStorage.MovementV2.MoverProgressCodec:? cname=writeStreamsValidated what=Lua protos=0[]
+  up1: ERR
+  consts total=15
+  [1] str "Id"
+  [2] str "buffer"
+  [3] str "writeu32"

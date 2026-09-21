@@ -1,0 +1,134 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.UseItemFrame
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+F CreateItemTemplate
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=CreateItemTemplate what=Lua protos=4[#1,#2,#3,#4]
+  up1: userdata Container
+  up2: table keys=8 {ObserveAvailableCases:function, IsCaseEnabled:function, GetCase:function, OnCasesUpdated:table, GetCases:function, IsCaseForSale:function, GetFeaturedCases:function, GetCaseByName:function}
+  up3: function params=2 src=ReplicatedStorage.Components.Common.GetResolvedSkinInformati:? what=Lua
+  up4: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up5: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up6: userdata ReplicatedStorage
+  up7: table keys=2 {broadcastRouter:function, observerRouter:function}
+  consts total=50
+  [1] str "_id"
+  [2] str "Type"
+  [3] str "Case"
+  [4] str "GetCaseByName"
+  [5] str "Skin"
+  [6] str "Name"
+  [7] str "caseRarity"
+  [8] str "rarity"
+  [9] str ""
+  [10] str "imageAssetId"
+  [11] str "Charm"
+  [12] str "Pattern"
+  [13] str "charmImages"
+  [14] str "ipairs"
+K Filters :table keys=5
+  {["AllWeapons"]=<function:function: 0x174c39aa1d31f9d8>, ["AllGloves"]=<function:function: 0x65bc2c0cd0e06f55>, ["AllCharms"]=<function:function: 0xa6dc0729edb6f57f>, ["WeaponsWithoutCharm"]=<function:function: 0x2d75bd193fed8841>, ["AllMelees"]=<function:function: 0xbaea597d259c9a81>}
+F GetActions
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=GetActions what=Lua protos=0[]
+  up1: table keys=6 {DestroyAll:function, Register:function, Has:function, InitializeAll:function, GetAllTypes:function, Get:function}
+  up2: ERR
+  consts total=0
+F GetCurrentContext
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=GetCurrentContext what=Lua protos=0[]
+  ups: none
+  consts total=0
+F Hide
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=Hide what=Lua protos=0[]
+  up1: userdata UseItemFrame
+  consts total=1
+  [1] str "Visible"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=Initialize what=Lua protos=6[#1,#2,#3,#4,#5,#6]
+  up1: userdata MainGui
+  up2: userdata UseItemFrame
+  up3: userdata Container
+  up4: userdata Sort
+  up5: table keys=4 {OnAvailableCollectionsUpdated:table, GetAllCollections:function, ObserveAvailableCollections:function, GetCollectionByName:function}
+  up6: table keys=11 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table}
+  up7: string "Newest"
+  up8: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up9: function params=6 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=AnimateSortButton what=Lua
+  up10: userdata TextLabel
+  up11: userdata Close
+  up12: table keys=3 {CloseFrame:function, IsDoublePressed:function, Add:function}
+  up13: table keys=13 {CreateItemTemplate:function, IsVisible:function, OnItemSelected:table, Filters:table, Show:function, OnClosed:table, Start:function, PopulateItems:function, Initialize:function, GetCurrentContext:function, GetActions:function, TriggerAction:function, Hide:function}
+  consts total=27
+  [1] str "Tabs"
+  [2] str "FindFirstChild"
+  [3] str "Inventory"
+  [4] str "Container"
+  [5] str "Sort"
+  [6] str "ObserveAvailableCollections"
+  [7] str "Button"
+  [8] str "Frame"
+  [9] str "TextLabel"
+  [10] str "Newest"
+  [11] str "Text"
+  [12] str "MouseButton1Click"
+  [13] str "Connect"
+  [14] str "Options"
+  [15] str "Alphabetical"
+  [16] str "Collection"
+  [17] str "Equipped"
+  [18] str "Quality"
+  [19] str "Type"
+  [20] str "Float"
+  [21] str "Top"
+  [22] str "Close"
+  [23] str "Add"
+  [24] str "CanvasPosition"
+  [25] str "GetPropertyChangedSignal"
+F IsVisible
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=IsVisible what=Lua protos=0[]
+  up1: userdata UseItemFrame
+  up2: ERR
+  consts total=1
+  [1] str "Visible"
+K OnClosed :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0xd09f1513dc5102c4>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0xc75895bc27229b27>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}}
+K OnItemSelected :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x2d2e1dcd76a3de29>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}
+F PopulateItems
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=PopulateItems what=Lua protos=6[#1,#2,#3,onItemSelected,#5,#6]
+  up1: userdata Container
+  up2: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=ClearFrame what=Lua
+  up3: number 0
+  up4: table keys=0 {}
+  up5: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up6: userdata Mateo_081005
+  up7: table keys=6 {Decoy Grenade:number, Smoke Grenade:number, Incendiary Grenade:number, Molotov:number, Flashbang:number, HE Grenade:number}
+  consts total=26
+  [1] str "Frame"
+  [2] str "Get"
+  [3] str "Inventory"
+  [4] str "type"
+F Show
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=Show what=Lua protos=1[#1]
+  up1: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=EnsureInitialized what=Lua
+  up2: userdata UseItemFrame
+  consts total=17
+  [1] str "warn"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=Start what=Lua protos=4[#1,#2,#3,#4]
+  up1: table keys=6 {DestroyAll:function, Register:function, Has:function, InitializeAll:function, GetAllTypes:function, Get:function}
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: userdata Mateo_081005
+  up4: table keys=13 {CreateItemTemplate:function, IsVisible:function, OnItemSelected:table, Filters:table, Show:function, OnClosed:table, Start:function, PopulateItems:function, Initialize:function, GetCurrentContext:function, GetActions:function, TriggerAction:function, Hide:function}
+  up5: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  consts total=8
+  [1] str "InitializeAll"
+  [2] str "CreateListener"
+  [3] str "Inventory"
+F TriggerAction
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame:? cname=TriggerAction what=Lua protos=0[]
+  up1: table keys=6 {DestroyAll:function, Register:function, Has:function, InitializeAll:function, GetAllTypes:function, Get:function}
+  up2: table keys=13 {CreateItemTemplate:function, IsVisible:function, OnItemSelected:table, Filters:table, Show:function, OnClosed:table, Start:function, PopulateItems:function, Initialize:function, GetCurrentContext:function, GetActions:function, TriggerAction:function, Hide:function}
+  up3: ERR
+  consts total=8
+  [1] str "Get"
+  [2] str "warn"

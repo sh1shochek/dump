@@ -1,0 +1,66 @@
+PATH: ReplicatedStorage.Database.Audio.Store
+REQUIRE: ok
+RETURNS: table
+KEYS: 31
+K Case Close :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=73905462058647}}
+K Case Fall :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=109653502187519}}
+K Case Opening :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=76537644589472}}
+K Case Roll Tick :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=120962643765888}}
+K Charm Drag Loop :table keys=2
+  {["Properties"]={["Looped"]=false, ["Volume"]=2}, ["Identifiers"]={[1]=122392709028764}}
+K Charm Drag Start :table keys=2
+  {["Properties"]={["Volume"]=2}, ["Identifiers"]={[1]=118053561399536}}
+K Console Connect 1 :table keys=2
+  {["Properties"]={["Volume"]=2.5}, ["Identifiers"]={[1]=129010536762296}}
+K Console Connect 2 :table keys=2
+  {["Properties"]={["Volume"]=2.5}, ["Identifiers"]={[1]=102081089733993}}
+K Console Connect 3 :table keys=2
+  {["Properties"]={["Volume"]=2.5}, ["Identifiers"]={[1]=112196627053254}}
+K Console Connect 4 :table keys=2
+  {["Properties"]={["Volume"]=2.5}, ["Identifiers"]={[1]=122098113437619}}
+K Console Connect 5 :table keys=2
+  {["Properties"]={["Volume"]=2.5}, ["Identifiers"]={[1]=100300790248880}}
+K Console Connect 6 :table keys=2
+  {["Properties"]={["Volume"]=2.5}, ["Identifiers"]={[1]=133752959723511}}
+K Console Connect 7 :table keys=2
+  {["Properties"]={["Volume"]=2.5}, ["Identifiers"]={[1]=78794280023206}}
+K Console Connect 8 :table keys=2
+  {["Properties"]={["Volume"]=2.5}, ["Identifiers"]={[1]=89224310081958}}
+K Console Enter Animation :table keys=2
+  {["Properties"]={["Volume"]=3}, ["Identifiers"]={[1]=121166165216372}}
+K Console Fail :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=136668891011022}}
+K Console Open Animation :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=102275856674665}}
+K Console Pink Tease Melody :table keys=2
+  {["Properties"]={["Looped"]=true, ["Volume"]=1}, ["Identifiers"]={[1]=91284252358061}}
+K Console Reel Spin :table keys=2
+  {["Properties"]={["Looped"]=true, ["Volume"]=0.5}, ["Identifiers"]={[1]=76276535816710}}
+K Drop Blue :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=79386102211506}}
+K Drop Gold :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=129865051671047}}
+K Drop Pink :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=76290554213801}}
+K Drop Purple :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=131282996158246}}
+K Drop Red :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=93202525197790}}
+K Package Drop :table keys=2
+  {["Properties"]={["Volume"]=2}, ["Identifiers"]={[1]=81801736236778}}
+K Package Final Open :table keys=2
+  {["Properties"]={["Volume"]=2}, ["Identifiers"]={[1]=87092023166122}}
+K Package Front Lid :table keys=2
+  {["Properties"]={["Volume"]=2}, ["Identifiers"]={[1]=139940823424719}}
+K Package Left Tape :table keys=2
+  {["Properties"]={["Volume"]=2}, ["Identifiers"]={[1]=71576549453097}}
+K Package Right Tape :table keys=2
+  {["Properties"]={["Volume"]=2}, ["Identifiers"]={[1]=96074431590029}}
+K Successful Purchase :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=105681920256526}}
+K Transaction Failed :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=76198811077974}}

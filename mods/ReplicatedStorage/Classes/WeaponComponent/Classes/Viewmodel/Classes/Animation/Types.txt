@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.Classes.Animation.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

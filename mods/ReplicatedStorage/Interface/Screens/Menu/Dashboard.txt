@@ -1,0 +1,33 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Dashboard
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard:? cname=Initialize what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Dashboard
+  up3: table keys=3 {Open:function, ShouldShowEntryButton:function, Initialize:function}
+  up4: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard:? cname=SetupNewsSection what=Lua
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard:? cname=SetupFeaturedSection what=Lua
+  up6: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard:? cname=SetupToggleCollapses what=Lua
+  up7: ERR
+  consts total=7
+  [1] str "mark"
+  [2] str "UI.Dashboard.Initialize"
+  [3] str "Initialize"
+  [4] str "Left"
+  [5] str "News"
+  [6] str "WaitForChild"
+  [7] str "Featured"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard:? cname=Start what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up3: userdata Dashboard
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard:? cname=UpdateStarterPackTimer what=Lua
+  up5: userdata CurrentBundle
+  up6: table keys=20 {GetConsoleVignetteGradient:function, OpenFeaturedBundleSection:function, GetActiveBundleRemainingSeconds:function, GetStarterPackRemainingSeconds:function, ClearPendingOpenCaseRequest:function, RefreshFeaturedConsoleTimer:function, UpdateConsoleVignetteTween:function, IsStarterPackAvailable:function, SetConsoleVignettePulse:function, OpenTab:function, Start:function, BeginOpenCaseRequest:function, OpenCaseContent:function, OpenBundleSection:function, PromptTradeTokenPackageForItemPrice:function, Initialize:function, StopConsoleVignetteTween:function, GetFeaturedConsoleTimerText:function, _RunConsoleInspectSweep:function, GetStarterPackWindowSeconds:function}
+  up7: ERR
+  consts total=7
+  [1] str "debug"
+  [2] str "setmemorycategory"

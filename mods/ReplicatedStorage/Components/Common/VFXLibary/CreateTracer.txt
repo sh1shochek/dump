@@ -1,0 +1,11 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateTracer
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=3 src=ReplicatedStorage.Components.Common.VFXLibary.CreateTracer:? what=Lua protos=0[]
+  up1: table keys=9 {NextLease:number, Template:userdata, Active:table, Destroyed:boolean, MaxRetained:number, Storage:userdata, Available:table, InPlace:boolean, Reset:function}
+  up2: userdata Debris
+  up3: table keys=0 {}
+  consts total=38
+  [1] str "debug"
+  [2] str "profilebegin"

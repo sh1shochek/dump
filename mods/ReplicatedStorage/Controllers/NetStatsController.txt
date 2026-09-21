@@ -1,0 +1,97 @@
+PATH: ReplicatedStorage.Controllers.NetStatsController
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.NetStatsController:? cname=Initialize what=Lua protos=0[]
+  up1: boolean true
+  up2: userdata Mateo_081005
+  up3: ERR
+  consts total=5
+  [1] str "PlayerGui"
+  [2] str "FindFirstChildOfClass"
+  [3] str "TemporaryNetStats"
+  [4] str "FindFirstChild"
+  [5] str "Destroy"
+F ObserveCommandPacket
+  params=3 src=ReplicatedStorage.Controllers.NetStatsController:? cname=ObserveCommandPacket what=Lua protos=0[]
+  up1: number 3
+  up2: function params=1 src=ReplicatedStorage.Controllers.NetStatsController:? cname=resetMovementSession what=Lua
+  up3: table keys=11 {RecoveryPackets:number, OwnerRxBytes:number, CommandPackets:number, DurationSeconds:number, CommandTxBytes:number, FullActorRecords:number, RemovedActorRecords:number, DeltaActorRecords:number, RemoteRxBytes:number, RemotePackets:number, OwnerPackets:number}
+  up4: function params=1 src=ReplicatedStorage.Controllers.NetStatsController:? cname=updateNetworkDiagnostics what=Lua
+  up5: ERR
+  consts total=9
+  [1] str "CommandTxBytes"
+  [2] str "math"
+  [3] str "max"
+F ObserveOwnerSnapshot
+  params=3 src=ReplicatedStorage.Controllers.NetStatsController:? cname=ObserveOwnerSnapshot what=Lua protos=0[]
+  up1: number 3
+  up2: function params=1 src=ReplicatedStorage.Controllers.NetStatsController:? cname=resetMovementSession what=Lua
+  up3: table keys=11 {RecoveryPackets:number, OwnerRxBytes:number, CommandPackets:number, DurationSeconds:number, CommandTxBytes:number, FullActorRecords:number, RemovedActorRecords:number, DeltaActorRecords:number, RemoteRxBytes:number, RemotePackets:number, OwnerPackets:number}
+  up4: function params=1 src=ReplicatedStorage.Controllers.NetStatsController:? cname=updateNetworkDiagnostics what=Lua
+  up5: ERR
+  consts total=12
+  [1] str "Bytes"
+  [2] str "typeof"
+F ObservePredictionHitch
+  params=1 src=ReplicatedStorage.Controllers.NetStatsController:? cname=ObservePredictionHitch what=Lua protos=0[]
+  up1: number 1
+  up2: userdata Mateo_081005
+  up3: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up4: ERR
+  consts total=24
+  [1] number 1
+  [2] str "Name"
+  [3] str "TargetName"
+  [4] str "warn"
+F ObservePresentation
+  params=1 src=ReplicatedStorage.Controllers.NetStatsController:? cname=ObservePresentation what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  consts total=24
+  [1] str "Name"
+  [2] str "TargetName"
+  [3] str "LocalPlayerContactCritical"
+  [4] number 1
+  [5] str "os"
+  [6] str "clock"
+F ObserveReconciliation
+  params=2 src=ReplicatedStorage.Controllers.NetStatsController:? cname=ObserveReconciliation what=Lua protos=0[]
+  up1: number 3
+  up2: function params=1 src=ReplicatedStorage.Controllers.NetStatsController:? cname=resetMovementSession what=Lua
+  up3: number 1
+  up4: string "Replay"
+  up5: number 9
+  up6: number 1.2729000009130687
+  up7: number 17.09850000042934
+  up8: number 5
+  up9: number 0.340900000082911
+  up10: number 1.2729000009130687
+  up11: number 0
+  up12: number 15
+  up13: number 0
+  up14: table keys=7 {MaxDistance:number, isHardSnapCorrection:function, Epsilon:number, MaxSeconds:number, MinSpeed:number, clampOffset:function, remainingOffset:function}
+  up15: number 1
+  up16: number 0
+  up17: userdata Mateo_081005
+  up18: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up19: ERR
+  consts total=66
+  [1] str "Mapping"
+  [2] str "Generation"
+  [3] str "ReconciliationMode"
+  [4] str "Replay"
+  [5] str "Reanchor"
+  [6] number 1
+  [7] str "tostring"
+F ObserveRemoteSnapshot
+  params=3 src=ReplicatedStorage.Controllers.NetStatsController:? cname=ObserveRemoteSnapshot what=Lua protos=0[]
+  up1: number 3
+  up2: function params=1 src=ReplicatedStorage.Controllers.NetStatsController:? cname=resetMovementSession what=Lua
+  up3: table keys=11 {RecoveryPackets:number, OwnerRxBytes:number, CommandPackets:number, DurationSeconds:number, CommandTxBytes:number, FullActorRecords:number, RemovedActorRecords:number, DeltaActorRecords:number, RemoteRxBytes:number, RemotePackets:number, OwnerPackets:number}
+  up4: function params=1 src=ReplicatedStorage.Controllers.NetStatsController:? cname=updateNetworkDiagnostics what=Lua
+  up5: ERR
+  consts total=19
+  [1] str "Bytes"
+  [2] str "typeof"

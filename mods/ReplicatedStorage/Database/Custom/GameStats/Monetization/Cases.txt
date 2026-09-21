@@ -1,0 +1,26 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Monetization.Cases
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+K Apex Case :table keys=2
+  {["Amounts"]={[1]={["Price"]=45, ["BasePrice"]=45, ["Offsale"]=false, ["ID"]=3610225690}, [10]={["Price"]=430, ["BasePrice"]=430, ["Offsale"]=false, ["ID"]=3610225721}, [100]={["Price"]=3430, ["BasePrice"]=3430, ["Offsale"]=false, ["ID"]=3610225760}}, ["CaseId"]="apex_case"}
+K Case #1 :table keys=2
+  {["Amounts"]={[1]={["Price"]=45, ["BasePrice"]=45, ["Offsale"]=false, ["ID"]=3610225590}, [10]={["Price"]=430, ["BasePrice"]=430, ["Offsale"]=false, ["ID"]=3610225620}, [100]={["Price"]=3430, ["BasePrice"]=3430, ["Offsale"]=false, ["ID"]=3610225675}}, ["CaseId"]="case_1"}
+K Charm Pack #1 :table keys=2
+  {["Amounts"]={[1]={["Price"]=27, ["BasePrice"]=27, ["Offsale"]=false, ["ID"]=3611496933}, [10]={["Price"]=258, ["BasePrice"]=258, ["Offsale"]=false, ["ID"]=3611496971}, [100]={["Price"]=2058, ["BasePrice"]=2058, ["Offsale"]=false, ["ID"]=3611496992}}, ["CaseId"]="charm_pack_1"}
+K Chrysalis :table keys=2
+  {["Amounts"]={[1]={["Price"]=45, ["BasePrice"]=45, ["Offsale"]=false, ["ID"]=3610225505}, [10]={["Price"]=430, ["BasePrice"]=430, ["Offsale"]=false, ["ID"]=3610225533}, [100]={["Price"]=3430, ["BasePrice"]=3430, ["Offsale"]=false, ["ID"]=3610225562}}, ["CaseId"]="chrysalis"}
+K Finishline Case :table keys=2
+  {["Amounts"]={[1]={["Price"]=45, ["BasePrice"]=45, ["Offsale"]=false, ["ID"]=3610225007}, [10]={["Price"]=430, ["BasePrice"]=430, ["Offsale"]=false, ["ID"]=3610225065}, [100]={["Price"]=3430, ["BasePrice"]=3430, ["Offsale"]=false, ["ID"]=3610225108}}, ["CaseId"]="finishline_case"}
+K Glove Case :table keys=2
+  {["Amounts"]={[1]={["Price"]=45, ["BasePrice"]=45, ["Offsale"]=false, ["ID"]=3610225403}, [10]={["Price"]=430, ["BasePrice"]=430, ["Offsale"]=false, ["ID"]=3610225432}, [100]={["Price"]=3430, ["BasePrice"]=3430, ["Offsale"]=false, ["ID"]=3610225471}}, ["CaseId"]="glove_case"}
+K Glove Case 2 :table keys=2
+  {["Amounts"]={[1]={["Price"]=45, ["BasePrice"]=45, ["Offsale"]=false, ["ID"]=3610225293}, [10]={["Price"]=430, ["BasePrice"]=430, ["Offsale"]=false, ["ID"]=3610225318}, [100]={["Price"]=3430, ["BasePrice"]=3430, ["Offsale"]=false, ["ID"]=3610225363}}, ["CaseId"]="glove_case_2"}
+K Lionheart :table keys=2
+  {["Amounts"]={[1]={["Price"]=45, ["BasePrice"]=45, ["Offsale"]=false, ["ID"]=3609734113}, [10]={["Price"]=430, ["BasePrice"]=430, ["Offsale"]=false, ["ID"]=3610223202}, [100]={["Price"]=3430, ["BasePrice"]=3430, ["Offsale"]=false, ["ID"]=3610223259}}, ["CaseId"]="lionheart"}
+K Nebula Case :table keys=2
+  {["Amounts"]={[1]={["Price"]=68, ["BasePrice"]=68, ["Offsale"]=false, ["ID"]=3610225164}, [10]={["Price"]=610, ["BasePrice"]=610, ["Offsale"]=false, ["ID"]=3610225192}, [100]={["Price"]=5080, ["BasePrice"]=5080, ["Offsale"]=false, ["ID"]=3610225241}}, ["CaseId"]="nebula_case"}
+K Viridian Case :table keys=2
+  {["Amounts"]={[1]={["Price"]=68, ["BasePrice"]=68, ["Offsale"]=false, ["ID"]=3708082244}, [10]={["Price"]=610, ["BasePrice"]=610, ["Offsale"]=false, ["ID"]=3708082274}, [100]={["Price"]=5080, ["BasePrice"]=5080, ["Offsale"]=false, ["ID"]=3708082308}}, ["CaseId"]="viridian_case"}
+K Winter 2025 :table keys=2
+  {["Amounts"]={[1]={["Price"]=150, ["Offsale"]=true, ["ID"]=3610223345}, [10]={["Price"]=150, ["Offsale"]=true, ["ID"]=3610223387}, [100]={["Price"]=150, ["Offsale"]=true, ["ID"]=3610223422}}, ["CaseId"]="winter_2025"}

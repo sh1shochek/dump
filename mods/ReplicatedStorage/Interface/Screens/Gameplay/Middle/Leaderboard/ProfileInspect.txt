@@ -1,0 +1,59 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderboard.ProfileInspect
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F Bind
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=Bind what=Lua protos=2[#1,#2]
+  up1: userdata Avatar
+  up2: userdata Username
+  up3: userdata TextLabel
+  up4: userdata Rank
+  up5: userdata Current
+  up6: table keys=4 {1:userdata, 2:userdata, 3:userdata, 4:userdata}
+  up7: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=collectPinLabels what=Lua
+  up8: userdata CopyCrosshair
+  up9: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  consts total=18
+  [1] str "Info"
+  [2] str "FindFirstChild"
+  [3] str "Player"
+  [4] str "Pins"
+  [5] str "Level"
+  [6] str "LevelBar"
+  [7] str "Avatar"
+  [8] str "Username"
+  [9] str "TextLabel"
+  [10] str "Rank"
+  [11] str "Current"
+  [12] str "Frame"
+  [13] str "IsA"
+  [14] str "CopyCrosshair"
+  [15] str "ImageButton"
+  [16] str "MouseButton1Click"
+  [17] str "Connect"
+  [18] str "Report"
+F Populate
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=Populate what=Lua protos=0[]
+  ups: none
+  consts total=8
+  [1] str "Active"
+  [2] str "Visible"
+  [3] str "rbxthumb://type=AvatarHeadShot&id=%*&w=150&h=150"
+  [4] str "UserId"
+  [5] str "format"
+  [6] str "Image"
+  [7] str "Name"
+  [8] str "Text"
+F Reset
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=Reset what=Lua protos=0[]
+  ups: none
+  consts total=12
+  [1] str "Active"
+  [2] str "Visible"
+  [3] str ""
+  [4] str "Text"
+  [5] str "Image"
+  [6] str "Size"
+  [7] str "Y"
+  [8] str "UDim2"
+  [9] str "new"

@@ -1,0 +1,40 @@
+PATH: ReplicatedStorage.MovementV2.Client.PredictionErrorSmoother
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K Epsilon :number = 0.0001
+K MaxDistance :number = 4.8
+K MaxSeconds :number = 0.2
+K MinSpeed :number = 11.25
+F clampOffset
+  params=1 src=ReplicatedStorage.MovementV2.Client.PredictionErrorSmoother:? cname=clampOffset what=Lua protos=0[]
+  up1: table keys=7 {MaxDistance:number, isHardSnapCorrection:function, Epsilon:number, MaxSeconds:number, MinSpeed:number, clampOffset:function, remainingOffset:function}
+  up2: ERR
+  consts total=5
+  [1] str "Magnitude"
+  [2] str "Epsilon"
+  [3] vector
+  [4] str "MaxDistance"
+  [5] str "Unit"
+F isHardSnapCorrection
+  params=1 src=ReplicatedStorage.MovementV2.Client.PredictionErrorSmoother:? cname=isHardSnapCorrection what=Lua protos=0[]
+  up1: table keys=7 {MaxDistance:number, isHardSnapCorrection:function, Epsilon:number, MaxSeconds:number, MinSpeed:number, clampOffset:function, remainingOffset:function}
+  up2: ERR
+  consts total=8
+  [1] str "PlayerContactCorrection"
+  [2] str "ReconciliationMode"
+  [3] str "Initial"
+  [4] str "Reanchor"
+  [5] str "TailCompared"
+  [6] str "TailStanceMismatch"
+  [7] str "TailServerTickDelta"
+  [8] str "typeof"
+F remainingOffset
+  params=2 src=ReplicatedStorage.MovementV2.Client.PredictionErrorSmoother:? cname=remainingOffset what=Lua protos=0[]
+  up1: table keys=7 {MaxDistance:number, isHardSnapCorrection:function, Epsilon:number, MaxSeconds:number, MinSpeed:number, clampOffset:function, remainingOffset:function}
+  up2: ERR
+  consts total=14
+  [1] str "Magnitude"
+  [2] str "Epsilon"
+  [3] vector
+  [4] str "typeof"

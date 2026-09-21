@@ -1,0 +1,38 @@
+PATH: ReplicatedStorage.MovementV2.Collision.DestructibleFrame
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F AllActive
+  params=3 src=ReplicatedStorage.MovementV2.Collision.DestructibleFrame:? cname=AllActive what=Lua protos=0[]
+  up1: table keys=15 {MaxWalkmeshTriangles:number, SourceKindName:table, Tags:table, BarriersNameLower:string, MaxSourceCount:number, SourceKind:table, Attributes:table, GetSourceKindName:function, MaxWalkmeshVertices:number, WalkmeshHeader:string, MaxEpoch:number, MaxDestructibleCount:number, ManifestVersion:number, IsSourceKind:function, CanonicalGeometryVersion:string}
+  up2: table keys=4 {AllActive:function, IsActive:function, Validate:function, New:function}
+  up3: ERR
+  consts total=9
+  [1] number 1
+  [2] number 0
+  [3] str "MaxDestructibleCount"
+  [4] str "invalid destructible count"
+  [5] str "assert"
+F IsActive
+  params=2 src=ReplicatedStorage.MovementV2.Collision.DestructibleFrame:? cname=IsActive what=Lua protos=0[]
+  up1: ERR
+  consts total=16
+  [1] number 1
+  [2] number 0
+  [3] str "Count"
+  [4] str "destructible index is outside the frame"
+  [5] str "assert"
+F New
+  params=4 src=ReplicatedStorage.MovementV2.Collision.DestructibleFrame:? cname=New what=Lua protos=0[]
+  up1: table keys=4 {AllActive:function, IsActive:function, Validate:function, New:function}
+  up2: ERR
+  consts total=11
+  [1] str "Validate"
+  [2] str "assert"
+F Validate
+  params=4 src=ReplicatedStorage.MovementV2.Collision.DestructibleFrame:? cname=Validate what=Lua protos=0[]
+  up1: table keys=15 {MaxWalkmeshTriangles:number, SourceKindName:table, Tags:table, BarriersNameLower:string, MaxSourceCount:number, SourceKind:table, Attributes:table, GetSourceKindName:function, MaxWalkmeshVertices:number, WalkmeshHeader:string, MaxEpoch:number, MaxDestructibleCount:number, ManifestVersion:number, IsSourceKind:function, CanonicalGeometryVersion:string}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Collision.DestructibleFrame:? cname=validateBits what=Lua
+  up3: ERR
+  consts total=12
+  [1] str "typeof"

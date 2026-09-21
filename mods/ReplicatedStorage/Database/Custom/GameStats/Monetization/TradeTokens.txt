@@ -1,0 +1,50 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Monetization.TradeTokens
+REQUIRE: ok
+RETURNS: table
+KEYS: 23
+K + 13,250 Credits :table keys=2
+  {["Price"]=5749, ["OnPurchased"]=<function:function: 0x256709cb6f0bae27>}
+K + 27,000 Credits :table keys=2
+  {["Price"]=11499, ["OnPurchased"]=<function:function: 0x49c697d410718e03>}
+K + 3,100 Credits :table keys=2
+  {["Price"]=1437, ["OnPurchased"]=<function:function: 0x821cf3b573c1103e>}
+K + 400 Credits :table keys=2
+  {["Price"]=229, ["OnPurchased"]=<function:function: 0x1b5ed281784996e0>}
+K + 6,500 Credits :table keys=2
+  {["Price"]=2874, ["OnPurchased"]=<function:function: 0xc78dcecf659ad898>}
+K + 67,500 Credits :table keys=2
+  {["Price"]=28749, ["OnPurchased"]=<function:function: 0x2df0536376dfe734>}
+K + 950 Credits :table keys=2
+  {["Price"]=517, ["OnPurchased"]=<function:function: 0x8922cfe50c88f160>}
+K AWP | Freedom :table keys=2
+  {["Price"]=459, ["OnPurchased"]=<function:function: 0xa497e2e129f8ceec>}
+K Credits Starter Pack :table keys=2
+  {["Price"]=57, ["OnPurchased"]=<function:function: 0x6a6833827272e8a7>}
+K Desert Eagle | Freedom :table keys=2
+  {["Price"]=574, ["OnPurchased"]=<function:function: 0x3a435a92b2aeb63f>}
+K Gift + 13,250 Credits :table keys=2
+  {["Price"]=5749, ["OnPurchased"]=<function:function: 0x1acc49bd0bae921f>}
+K Gift + 27,000 Credits :table keys=2
+  {["Price"]=11499, ["OnPurchased"]=<function:function: 0x4801f6224f337153>}
+K Gift + 3,100 Credits :table keys=2
+  {["Price"]=1437, ["OnPurchased"]=<function:function: 0x5bc0f62f55865ad8>}
+K Gift + 400 Credits :table keys=2
+  {["Price"]=229, ["OnPurchased"]=<function:function: 0xa0cd2f581fc158b6>}
+K Gift + 6,500 Credits :table keys=2
+  {["Price"]=2874, ["OnPurchased"]=<function:function: 0x6950371ea2ac9af2>}
+K Gift + 67,500 Credits :table keys=2
+  {["Price"]=28749, ["OnPurchased"]=<function:function: 0x71147420d1af93bb>}
+K Gift + 950 Credits :table keys=2
+  {["Price"]=517, ["OnPurchased"]=<function:function: 0xb92a5a15f587d234>}
+K Gift AWP | Freedom :table keys=2
+  {["Price"]=459, ["OnPurchased"]=<function:function: 0x4a5f6f396cb1a7a9>}
+K Gift Desert Eagle | Freedom :table keys=2
+  {["Price"]=574, ["OnPurchased"]=<function:function: 0x94d696ea2308837e>}
+K Gift Featured Bundle :table keys=2
+  {["Price"]=1149, ["OnPurchased"]=<function:function: 0x4669f6be53ffb097>}
+K Gift M4A4 | Freedom :table keys=2
+  {["Price"]=689, ["OnPurchased"]=<function:function: 0xea32fc30fe677561>}
+K M4A4 | Freedom :table keys=2
+  {["Price"]=689, ["OnPurchased"]=<function:function: 0x86e1cca34debf7f4>}
+K Purchase Featured Bundle :table keys=2
+  {["Price"]=1149, ["OnPurchased"]=<function:function: 0xc3574a0df250534c>}

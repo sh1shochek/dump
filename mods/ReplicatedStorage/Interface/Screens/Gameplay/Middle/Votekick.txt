@@ -1,0 +1,87 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.Votekick
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F CastVote
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Votekick:? cname=CastVote what=Lua protos=0[]
+  ups: none
+  consts total=11
+  [1] str "UserId"
+  [2] str "Yes"
+  [3] str "VoteKick"
+  [4] str "VoteYes"
+  [5] str "VoteNo"
+  [6] str "Send"
+  [7] str "Voter"
+  [8] str "Amount"
+  [9] number 0
+  [10] table
+  [11] str "tostring"
+F CloseFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Votekick:? cname=CloseFrame what=Lua protos=1[#1]
+  up1: number 0
+  up2: userdata Votekick
+  consts total=27
+  [1] number 1
+  [2] str "IsVoteKickActive"
+  [3] str "SetAttribute"
+  [4] str "Result"
+  [5] str "Visible"
+  [6] str "UDim2"
+  [7] str "fromScale"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Votekick:? cname=Initialize what=Lua protos=8[#1,#2,#3,#4,#5,#6,#7,#8]
+  up1: userdata Votekick
+  up2: function params=0 src=ReplicatedStorage.Components.Common.GetUserPlatform:? what=Lua
+  up3: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up4: table keys=6 {UpdateAmount:function, OpenFrame:function, UpdateFrame:function, Initialize:function, CastVote:function, CloseFrame:function}
+  up5: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up6: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up7: userdata UserInputService
+  up8: ERR
+  consts total=14
+  [1] str "IsVoteKickActive"
+  [2] str "SetAttribute"
+  [3] str "Visible"
+  [4] str "table"
+  [5] str "find"
+F OpenFrame
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Votekick:? cname=OpenFrame what=Lua protos=1[#1]
+  up1: userdata Votekick
+  consts total=17
+  [1] str "UDim2"
+  [2] str "fromScale"
+F UpdateAmount
+  params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Votekick:? cname=UpdateAmount what=Lua protos=0[]
+  up1: userdata Votekick
+  up2: userdata Mateo_081005
+  up3: ERR
+  consts total=18
+  [1] str "Option"
+  [2] str "Amount"
+  [3] str "%*"
+  [4] str "format"
+  [5] str "Text"
+  [6] str "UserId"
+  [7] str "tonumber"
+F UpdateFrame
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Votekick:? cname=UpdateFrame what=Lua protos=0[]
+  up1: userdata Players
+  up2: userdata Votekick
+  up3: ERR
+  consts total=15
+  [1] str "GetPlayerByUserId"
+  [2] str "Player"
+  [3] str "Kick player: %*? "
+  [4] str "Name"
+  [5] str "format"
+  [6] str "Text"
+  [7] str "Frame"
+  [8] str "Title"
+  [9] str "Vote By: %*"
+  [10] str "Unknown"
+  [11] str "Option"
+  [12] str "Yes"
+  [13] str "Amount"
+  [14] str "0"
+  [15] str "No"

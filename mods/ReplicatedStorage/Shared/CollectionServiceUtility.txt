@@ -1,0 +1,11 @@
+PATH: ReplicatedStorage.Shared.CollectionServiceUtility
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F FindDescendantWithTag
+  params=2 src=ReplicatedStorage.Shared.CollectionServiceUtility:? cname=FindDescendantWithTag what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str ".%*"
+  [2] str "format"
+  [3] str "QueryDescendants"

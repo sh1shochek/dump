@@ -1,0 +1,17 @@
+PATH: ReplicatedStorage.Components.Common.UserInput.EquipInventorySlot
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=2 src=ReplicatedStorage.Components.Common.UserInput.EquipInventory:? what=Lua protos=0[]
+  up1: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up2: function params=4 src=ReplicatedStorage.Components.Common.UserInput.EquipInventory:? cname=getPreferredSpaceNumber what=Lua
+  up3: function params=3 src=ReplicatedStorage.Components.Common.UserInput.EquipInventory:? cname=getPreferredSpaceOrder what=Lua
+  up4: ERR
+  consts total=7
+  [1] str "getCurrentEquipped"
+  [2] str "getInventorySlot"
+  [3] number 1
+  [4] str "Slot"
+  [5] str "_items"
+  [6] str "Identifier"
+  [7] str "equip"

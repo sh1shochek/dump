@@ -1,0 +1,29 @@
+PATH: ReplicatedStorage.Controllers.HapticsController
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F vibrate
+  params=3 src=ReplicatedStorage.Controllers.HapticsController:? cname=vibrate what=Lua protos=0[]
+  up1: userdata UserInputService
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: userdata Mateo_081005
+  up4: table keys=0 {}
+  consts total=18
+  [1] str "GetLastInputType"
+  [2] str "Enum"
+  [3] str "UserInputType"
+  [4] str "Touch"
+  [5] userdata
+  [6] str "Mobile"
+  [7] str "Controller"
+  [8] str "Get"
+  [9] str "Settings.Game.Other."
+  [10] str " Haptics/Vibrations"
+  [11] str "Gamepad1"
+  [12] userdata
+  [13] str "InputMotor"
+  [14] str "Length"
+  [15] str "Intensity"
+  [16] table
+  [17] str "BindToRenderStep"
+  [18] str "HapticsController.UpdateQueue"

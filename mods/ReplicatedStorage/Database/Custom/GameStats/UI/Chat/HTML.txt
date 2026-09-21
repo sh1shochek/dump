@@ -1,0 +1,31 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.UI.Chat.HTML
+REQUIRE: ok
+RETURNS: table
+KEYS: 17
+K Badges :table keys=1
+  {["Verified"]=""}
+K DefuseStartAction :string = <font color="rgb(255,170,0)">DEFUSING!</font>
+K DefuseStartLocationColor :string = rgb(85,255,85)
+K GrenadeColors :table keys=6
+  {["Flashbang"]="rgb(255,170,0)", ["Smoke Grenade"]="rgb(85,255,85)", ["Decoy Grenade"]="rgb(85,170,255)", ["Molotov"]="rgb(255,170,0)", ["Incendiary Grenade"]="rgb(255,170,0)", ["HE Grenade"]="rgb(255,85,85)"}
+K GrenadeDisplayNames :table keys=6
+  {["Flashbang"]="Flashbang", ["Smoke Grenade"]="Smoke", ["Decoy Grenade"]="Decoy", ["Molotov"]="Molotov", ["Incendiary Grenade"]="Incendiary", ["HE Grenade"]="HE Grenade"}
+K Money :table keys=19
+  {["BombPlantLossBonus"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">bomb plant bonus</font>", ["Kill"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">for neutralizing an enemy</font>", ["RoundWinBombExplode"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">team income for eliminating the enemy team</font>", ["TeamKillPenalty"]="<font color=\"rgb(255,85,85)\">-$%d</font> <font color=\"rgb(255,255,255)\">penalty for team kill</font>", ["RoundLoss"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">round loss bonus</font>", ["Assist"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">for assist</font>", ["HostageInteraction"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">for interacting with a hostage</font>", ["RoundWin"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">for winning the round</font>", ["RoundLossTeam"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">team income for losing</font>", ["RoundWinBombDefuse"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">team income for defusing the C4</font>", ["HostageShotPenalty"]="<font color=\"rgb(255,85,85)\">-$%d</font> <font color=\"rgb(255,255,255)\">penalty for shooting a hostage</font>", ["HostageRescueBonus"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">for rescuing a hostage</font>", ["BombDefuse"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">for defusing the bomb</font>", ["CTTeamKillBonus"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">team bonus</font>", ["KillWithWeapon"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">for neutralizing an enemy with the %s</font>", ["BombPlantedButDefused"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">team income for planting the bomb</font>", ["HostageTeamInteraction"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">team hostage bonus</font>", ["RoundWinElimination"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">team income for eliminating the enemy team</font>", ["BombPlant"]="<font color=\"rgb(85,255,85)\">+$%d</font> <font color=\"rgb(255,255,255)\">for planting the bomb</font>"}
+K PlayerBanned :string = <font color="rgb(165,0,0)">%s has been banned by BAC.</font>
+K PlayerLeave :string = <font color="rgb(198,203,208)">%s disconnected</font>
+K Points :table keys=1
+  {["Deathmatch"]="<font color=\"rgb(163,255,72)\">%d</font> <font color=\"rgb(255,255,255)\">%s for neutralizing an enemy with the %s</font>"}
+K Prefixes :table keys=4
+  {["All"]="<font color=\"rgb(255,255,255)\">[ALL]</font> ", ["Spectators"]="<font color=\"rgb(255,255,255)\">[SPEC]</font> ", ["Counter-Terrorists"]="<font color=\"rgb(255,255,255)\">[CT]</font> ", ["Terrorists"]="<font color=\"rgb(255,255,255)\">[T]</font> "}
+K Roles :table keys=11
+  {[1]="<font color=\"rgb(255, 255, 0)\">[MEMBER] </font>", [2]="<font color=\"rgb(255, 255, 0)\">[TESTER] </font>", [3]="<font color=\"rgb(128, 0, 128)\">[CONTRIBUTOR] </font>", [4]="<font color=\"rgb(255, 17, 0)\">[CONTENT CREATOR] </font>", [5]="<font color=\"rgb(0, 0, 255)\">[MODERATOR] </font>", [6]="<font color=\"rgb(0, 0, 255)\">[MODERATOR] </font>", [253]="<font color=\"rgb(17, 247, 255)\">[DEVELOPER] </font>", [251]="<font color=\"rgb(0, 0, 255)\">[CONTRACTOR] </font>", [252]="<font color=\"rgb(17, 247, 255)\">[DEVELOPER] </font>", [254]="<font color=\"rgb(84, 210, 101)\">[OWNER] </font>", [255]="<font color=\"rgb(84, 210, 101)\">[OWNER] </font>"}
+K Suffixes :table keys=1
+  {["Dead"]="<font color=\"rgb(255,64,64)\">*DEAD*</font>"}
+K SystemMessage :string = <font color="rgb(153,204,255)">%s</font>
+K TeamColors :table keys=3
+  {["Spectators"]="<font color=\"rgb(255,255,255)\">%s</font> ", ["Counter-Terrorists"]="<font color=\"rgb(163,198,255)\">%s</font> ", ["Terrorists"]="<font color=\"rgb(255,223,148)\">%s</font> "}
+K TeamDamageAnnouncement :string = <font color="rgb(255,255,255)">%s dealt damage to a teammate.</font>
+K TeamDamageWarning :string = <font color="rgb(255,85,85)">Warning: continuous team damage will cause you to be kicked.</font>
+K TeamJoinMessages :table keys=3
+  {["Spectators"]="<font color=\"rgb(255,255,255)\">%s is joining the Spectators</font>", ["Terrorists"]="<font color=\"rgb(223,171,57)\">%s is joining the Terrorists</font>", ["Counter-Terrorists"]="<font color=\"rgb(95,153,217)\">%s is joining the Counter-Terrorists</font>"}

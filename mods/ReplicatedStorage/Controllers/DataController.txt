@@ -1,0 +1,74 @@
+PATH: ReplicatedStorage.Controllers.DataController
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+F ApplyInventoryDelta
+  params=3 src=ReplicatedStorage.Controllers.DataController:? cname=ApplyInventoryDelta what=Lua protos=0[]
+  up1: function params=3 src=ReplicatedStorage.Controllers.DataController:? cname=ApplyInventoryDelta what=Lua
+  up2: ERR
+  consts total=0
+F CreateListener
+  params=3 src=ReplicatedStorage.Controllers.DataController:? cname=CreateListener what=Lua protos=0[]
+  up1: userdata HttpService
+  up2: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up3: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up4: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up5: ERR
+  consts total=3
+  [1] str "GenerateGUID"
+  [2] str "Get"
+  [3] str "try"
+F Get
+  params=1 src=ReplicatedStorage.Controllers.DataController:? cname=Get what=Lua protos=0[]
+  up1: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table, dazen_wewe:table, DGXXDFZS:table}
+  up2: ERR
+  consts total=8
+  [1] str "table"
+  [2] str "pack"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.DataController:? cname=Initialize what=Lua protos=2[#1,#2]
+  up1: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up2: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up3: table keys=5 {GetWeaponNameFromStockId:function, IsStockIdentifier:function, InjectStockItems:function, GenerateStockInventoryItems:function, GetStockInventoryItem:function}
+  up4: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table, dazen_wewe:table, DGXXDFZS:table}
+  up5: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up6: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up7: function params=2 src=ReplicatedStorage.Controllers.DataController:? cname=ExecuteListeners what=Lua
+  up8: ERR
+  consts total=3
+  [1] str "PlayerData"
+  [2] str "PlayerDataEvent"
+  [3] str "Listen"
+F IsDataLoaded
+  params=1 src=ReplicatedStorage.Controllers.DataController:? cname=IsDataLoaded what=Lua protos=0[]
+  up1: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table, dazen_wewe:table, DGXXDFZS:table}
+  up2: ERR
+  consts total=0
+F RemoveListener
+  params=3 src=ReplicatedStorage.Controllers.DataController:? cname=RemoveListener what=Lua protos=0[]
+  up1: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up2: ERR
+  consts total=1
+  [1] str "next"
+F Start
+  params=0 src=ReplicatedStorage.Controllers.DataController:? cname=Start what=Lua protos=2[#1,#2]
+  up1: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up2: userdata Players
+  up3: function params=3 src=ReplicatedStorage.Controllers.DataController:? cname=ApplyInventoryDelta what=Lua
+  up4: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up5: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table, dazen_wewe:table, DGXXDFZS:table}
+  up6: ERR
+  consts total=10
+  [1] str "PlayerData"
+  [2] str "RetrieveAllPlayerData"
+  [3] str "Send"
+  [4] str "Store"
+  [5] str "NewInventoryItem"
+  [6] str "Listen"
+F WaitForDataLoaded
+  params=1 src=ReplicatedStorage.Controllers.DataController:? cname=WaitForDataLoaded what=Lua protos=0[]
+  up1: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table, dazen_wewe:table, DGXXDFZS:table}
+  up2: ERR
+  consts total=8
+  [1] str "task"
+  [2] str "wait"

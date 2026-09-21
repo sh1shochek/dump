@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Finish Top 3 In Deathmatch 12 Times
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K Category :string = deathmatch_top_3
+K Gamemodes :table keys=1
+  {[1]="Deathmatch"}
+K MissionId :string = Finish Top 3 In Deathmatch 12 Times
+K Rewards :table keys=1
+  {[1]={["amount"]=85, ["type"]="Credits"}}
+K Target :number = 12
+K Type :string = weekly

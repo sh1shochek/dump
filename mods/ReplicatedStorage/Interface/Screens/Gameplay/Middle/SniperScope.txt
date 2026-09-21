@@ -1,0 +1,77 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.SniperScope
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.SniperSc:? cname=Initialize what=Lua protos=1[#1]
+  up1: userdata SniperScope
+  up2: userdata Bottom
+  up3: userdata Top
+  up4: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up5: userdata Mateo_081005
+  up6: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up7: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up8: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up9: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up10: table keys=5 {p:userdata, v:userdata, d:number, g:userdata, f:number}
+  up11: table keys=4 {toggle:function, updateScope:function, Initialize:function, updateMovementSharpness:function}
+  up12: ERR
+  consts total=7
+  [1] str "Parent"
+  [2] str "Bottom"
+  [3] str "FindFirstChild"
+  [4] str "Top"
+  [5] str "ZIndex"
+  [6] str "BindToRenderStep"
+  [7] str "UI.SniperScope.Update"
+F toggle
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.SniperSc:? cname=toggle what=Lua protos=0[]
+  up1: userdata SniperScope
+  up2: userdata Bottom
+  up3: userdata Top
+  up4: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up5: number 0
+  up6: ERR
+  consts total=7
+  [1] str "Visible"
+  [2] str "Blur"
+  [3] str "Parent"
+  [4] str "ZIndex"
+  [5] str "setPosition"
+  [6] str "setGoal"
+  [7] str "tick"
+F updateMovementSharpness
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.SniperSc:? cname=updateMovementSharpness what=Lua protos=0[]
+  up1: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up2: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up3: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up4: number 0
+  up5: ERR
+  consts total=32
+  [1] str "getVelocity"
+  [2] str "PrimaryPart"
+  [3] str "X"
+  [4] str "Z"
+  [5] str "Vector3"
+  [6] str "new"
+F updateScope
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.SniperSc:? cname=updateScope what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up3: boolean false
+  up4: table keys=4 {toggle:function, updateScope:function, Initialize:function, updateMovementSharpness:function}
+  up5: table keys=13 {PlantBomb:function, TrackCharacter:function, crouch:function, getCurrentCharacter:function, UntrackCharacter:function, jump:function, GetCrouchState:function, CancelBombPlant:function, Initialize:function, Start:function, GetWalkState:function, PredictDoorUse:function, walk:function}
+  up6: table keys=5 {p:userdata, v:userdata, d:number, g:userdata, f:number}
+  up7: userdata SniperScope
+  up8: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up9: ERR
+  consts total=40
+  [1] str "isAliveCharacter"
+  [2] str "isOnGround"
+  [3] str "updateMovementSharpness"
+  [4] str "getVelocity"
+  [5] str "PrimaryPart"
+  [6] str "X"
+  [7] str "Z"
+  [8] str "Vector3"
+  [9] str "new"

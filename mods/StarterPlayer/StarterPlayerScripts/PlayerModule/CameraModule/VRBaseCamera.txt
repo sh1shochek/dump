@@ -1,0 +1,227 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRBaseCamera
+REQUIRE: ok
+RETURNS: table
+KEYS: 19
+F GamepadReset
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GamepadReset what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "stepRotateTimeout"
+  [2] str "needsReset"
+F GamepadZoomPress
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GamepadZoomPress what=Lua protos=0[]
+  up1: table keys=47 {IsInFirstPerson:function, GetSubjectPosition:function, Enable:function, GetCameraHeight:function, GetBodyPartToFollow:function, GetIsMouseLocked:function, _setUpConfigurations:function, OnPlayerCameraPropertyChange:function, GetHumanoidRootPart:function, UpdateMouseBehavior:function, GetSubjectCFrame:function, GetCameraType:function, GetSubjectVelocity:function, CalculateNewLookVectorVRFromArg:function, GetModuleName:function, Update:function, OnCharacterAdded:function, GetCameraMovementMode:function, OnEnabledChanged:function, UpdateForDistancePropertyChange:function, CalculateNewLookVectorFromArg:function, SetMouseLockOffset:function, GetHumanoidPartToFollow:function, StepZoom:function, CalculateNewLookCFrameFromArg:function, GetCameraLookVector:function, SetCameraType:function, GetMeasuredDistanceToFocus:function, LeaveFirstPerson:function, __index:table, new:function, GetCameraToSubjectDistance:function, Cleanup:function, GetMouseLockOffset:function, GetSubjectRotVelocity:function, InFirstPerson:function, OnCurrentCameraChanged:function, GetHumanoid:function, SetIsMouseLocked:function, GetEnabled:function}
+  up2: ERR
+  consts total=3
+  [1] str "GamepadZoomPress"
+  [2] str "GamepadReset"
+  [3] str "ResetZoom"
+F GetCameraHeight
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GetCameraHeight what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "inFirstPerson"
+  [2] number 0.25881904510252074
+  [3] str "currentSubjectDistance"
+F GetModuleName
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GetModuleName what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "VRBaseCamera"
+F GetSubjectCFrame
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GetSubjectCFrame what=Lua protos=0[]
+  up1: table keys=47 {IsInFirstPerson:function, GetSubjectPosition:function, Enable:function, GetCameraHeight:function, GetBodyPartToFollow:function, GetIsMouseLocked:function, _setUpConfigurations:function, OnPlayerCameraPropertyChange:function, GetHumanoidRootPart:function, UpdateMouseBehavior:function, GetSubjectCFrame:function, GetCameraType:function, GetSubjectVelocity:function, CalculateNewLookVectorVRFromArg:function, GetModuleName:function, Update:function, OnCharacterAdded:function, GetCameraMovementMode:function, OnEnabledChanged:function, UpdateForDistancePropertyChange:function, CalculateNewLookVectorFromArg:function, SetMouseLockOffset:function, GetHumanoidPartToFollow:function, StepZoom:function, CalculateNewLookCFrameFromArg:function, GetCameraLookVector:function, SetCameraType:function, GetMeasuredDistanceToFocus:function, LeaveFirstPerson:function, __index:table, new:function, GetCameraToSubjectDistance:function, Cleanup:function, GetMouseLockOffset:function, GetSubjectRotVelocity:function, InFirstPerson:function, OnCurrentCameraChanged:function, GetHumanoid:function, SetIsMouseLocked:function, GetEnabled:function}
+  up2: ERR
+  consts total=14
+  [1] str "GetSubjectCFrame"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "CurrentCamera"
+  [5] str "CameraSubject"
+  [6] str "Humanoid"
+  [7] str "IsA"
+  [8] str "GetState"
+  [9] str "Enum"
+  [10] str "HumanoidStateType"
+  [11] str "Dead"
+  [12] userdata
+  [13] str "lastSubject"
+  [14] str "lastSubjectCFrame"
+F GetSubjectPosition
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GetSubjectPosition what=Lua protos=0[]
+  up1: table keys=47 {IsInFirstPerson:function, GetSubjectPosition:function, Enable:function, GetCameraHeight:function, GetBodyPartToFollow:function, GetIsMouseLocked:function, _setUpConfigurations:function, OnPlayerCameraPropertyChange:function, GetHumanoidRootPart:function, UpdateMouseBehavior:function, GetSubjectCFrame:function, GetCameraType:function, GetSubjectVelocity:function, CalculateNewLookVectorVRFromArg:function, GetModuleName:function, Update:function, OnCharacterAdded:function, GetCameraMovementMode:function, OnEnabledChanged:function, UpdateForDistancePropertyChange:function, CalculateNewLookVectorFromArg:function, SetMouseLockOffset:function, GetHumanoidPartToFollow:function, StepZoom:function, CalculateNewLookCFrameFromArg:function, GetCameraLookVector:function, SetCameraType:function, GetMeasuredDistanceToFocus:function, LeaveFirstPerson:function, __index:table, new:function, GetCameraToSubjectDistance:function, Cleanup:function, GetMouseLockOffset:function, GetSubjectRotVelocity:function, InFirstPerson:function, OnCurrentCameraChanged:function, GetHumanoid:function, SetIsMouseLocked:function, GetEnabled:function}
+  up2: ERR
+  consts total=19
+  [1] str "GetSubjectPosition"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "CurrentCamera"
+  [5] str "CameraSubject"
+  [6] str "Humanoid"
+  [7] str "IsA"
+  [8] str "GetState"
+  [9] str "Enum"
+  [10] str "HumanoidStateType"
+  [11] str "Dead"
+  [12] userdata
+  [13] str "lastSubject"
+  [14] str "lastSubjectPosition"
+  [15] str "VehicleSeat"
+  [16] str "CFrame"
+  [17] str "p"
+  [18] vector
+  [19] str "vectorToWorldSpace"
+F GetVRFocus
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GetVRFocus what=Lua protos=0[]
+  up1: ERR
+  consts total=15
+  [1] str "lastCameraFocus"
+  [2] str "cameraTranslationConstraints"
+  [3] str "x"
+  [4] str "y"
+  [5] str "math"
+  [6] str "min"
+F OnCurrentCameraChanged
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=OnCurrentCameraChanged what=Lua protos=1[#1]
+  up1: table keys=47 {IsInFirstPerson:function, GetSubjectPosition:function, Enable:function, GetCameraHeight:function, GetBodyPartToFollow:function, GetIsMouseLocked:function, _setUpConfigurations:function, OnPlayerCameraPropertyChange:function, GetHumanoidRootPart:function, UpdateMouseBehavior:function, GetSubjectCFrame:function, GetCameraType:function, GetSubjectVelocity:function, CalculateNewLookVectorVRFromArg:function, GetModuleName:function, Update:function, OnCharacterAdded:function, GetCameraMovementMode:function, OnEnabledChanged:function, UpdateForDistancePropertyChange:function, CalculateNewLookVectorFromArg:function, SetMouseLockOffset:function, GetHumanoidPartToFollow:function, StepZoom:function, CalculateNewLookCFrameFromArg:function, GetCameraLookVector:function, SetCameraType:function, GetMeasuredDistanceToFocus:function, LeaveFirstPerson:function, __index:table, new:function, GetCameraToSubjectDistance:function, Cleanup:function, GetMouseLockOffset:function, GetSubjectRotVelocity:function, InFirstPerson:function, OnCurrentCameraChanged:function, GetHumanoid:function, SetIsMouseLocked:function, GetEnabled:function}
+  up2: ERR
+  consts total=10
+  [1] str "OnCurrentCameraChanged"
+  [2] str "cameraHeadScaleChangedConn"
+  [3] str "Disconnect"
+  [4] str "workspace"
+  [5] userdata
+  [6] str "CurrentCamera"
+  [7] str "HeadScale"
+  [8] str "GetPropertyChangedSignal"
+  [9] str "Connect"
+  [10] str "OnHeadScaleChanged"
+F OnEnabledChanged
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=OnEnabledChanged what=Lua protos=3[#1,#2,#3]
+  up1: table keys=47 {IsInFirstPerson:function, GetSubjectPosition:function, Enable:function, GetCameraHeight:function, GetBodyPartToFollow:function, GetIsMouseLocked:function, _setUpConfigurations:function, OnPlayerCameraPropertyChange:function, GetHumanoidRootPart:function, UpdateMouseBehavior:function, GetSubjectCFrame:function, GetCameraType:function, GetSubjectVelocity:function, CalculateNewLookVectorVRFromArg:function, GetModuleName:function, Update:function, OnCharacterAdded:function, GetCameraMovementMode:function, OnEnabledChanged:function, UpdateForDistancePropertyChange:function, CalculateNewLookVectorFromArg:function, SetMouseLockOffset:function, GetHumanoidPartToFollow:function, StepZoom:function, CalculateNewLookCFrameFromArg:function, GetCameraLookVector:function, SetCameraType:function, GetMeasuredDistanceToFocus:function, LeaveFirstPerson:function, __index:table, new:function, GetCameraToSubjectDistance:function, Cleanup:function, GetMouseLockOffset:function, GetSubjectRotVelocity:function, InFirstPerson:function, OnCurrentCameraChanged:function, GetHumanoid:function, SetIsMouseLocked:function, GetEnabled:function}
+  up2: table keys=15 {disableCameraToggleInput:function, getTogglePan:function, enableCameraToggleInput:function, getHoldPan:function, setTouchSensitivity:function, getZoomDelta:function, getInputEnabled:function, setTogglePan:function, getPanning:function, resetInputForFrameEnd:function, getRotationActivated:function, setInputEnabled:function, getRotation:function, addTouchMove:function, gamepadZoomPress:userdata}
+  up3: userdata VRService
+  up4: boolean false
+  up5: userdata Mateo_081005
+  up6: userdata Lighting
+  up7: ERR
+  consts total=19
+  [1] str "OnEnabledChanged"
+  [2] str "enabled"
+  [3] str "gamepadReset"
+  [4] str "Connect"
+  [5] str "gamepadResetConnection"
+  [6] str "ThirdPersonFollowCamEnabled"
+  [7] str "GetPropertyChangedSignal"
+  [8] str "thirdPersonOptionChanged"
+  [9] str "UserCFrameChanged"
+  [10] str "vrRecentered"
+  [11] str "inFirstPerson"
+  [12] str "GamepadZoomPress"
+  [13] str "Disconnect"
+  [14] str "cameraHeadScaleChangedConn"
+  [15] str "VREdgeBlurTimer"
+  [16] str "UpdateEdgeBlur"
+  [17] str "VRFade"
+  [18] str "FindFirstChild"
+  [19] str "Brightness"
+F OnHeadScaleChanged
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=OnHeadScaleChanged what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "HeadScale"
+  [5] str "gamepadZoomLevels"
+  [6] str "headScale"
+  [7] str "GetCameraToSubjectDistance"
+  [8] str "SetCameraToSubjectDistance"
+F Reset
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=Reset what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "stepRotateTimeout"
+F ResetZoom
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=ResetZoom what=Lua protos=0[]
+  up1: table keys=4 {ReleaseSpring:function, GetZoomRadius:function, Update:function, SetZoomParameters:function}
+  up2: ERR
+  consts total=3
+  [1] str "SetZoomParameters"
+  [2] str "currentSubjectDistance"
+  [3] str "ReleaseSpring"
+F StartFadeFromBlack
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=StartFadeFromBlack what=Lua protos=0[]
+  up1: userdata GameSettings
+  up2: userdata Lighting
+  up3: ERR
+  consts total=12
+  [1] str "VignetteEnabled"
+  [2] str "VRFade"
+  [3] str "FindFirstChild"
+  [4] str "Instance"
+  [5] str "new"
+F StartVREdgeBlur
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=StartVREdgeBlur what=Lua protos=1[#1]
+  up1: userdata GameSettings
+  up2: userdata Run Service
+  up3: userdata VRService
+  up4: ERR
+  consts total=32
+  [1] str "VignetteEnabled"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "CurrentCamera"
+  [5] str "VRBlurPart"
+  [6] str "FindFirstChild"
+  [7] str "Instance"
+  [8] str "new"
+F UpdateEdgeBlur
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=UpdateEdgeBlur what=Lua protos=0[]
+  up1: ERR
+  consts total=14
+  [1] str "PlayerGui"
+  [2] str "VRBlurScreen"
+  [3] str "FindFirstChild"
+  [4] str "VRBlur"
+  [5] str "VREdgeBlurTimer"
+  [6] number 1
+  [7] number 7.142857142857142
+  [8] number 0.01
+  [9] number 0.14
+  [10] str "math"
+  [11] str "clamp"
+F UpdateFadeFromBlack
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=UpdateFadeFromBlack what=Lua protos=0[]
+  up1: userdata Lighting
+  up2: ERR
+  consts total=10
+  [1] str "VRFade"
+  [2] str "FindFirstChild"
+  [3] str "VRFadeResetTimer"
+  [4] number 0
+  [5] str "math"
+  [6] str "max"
+K __index :table keys=19
+  {["OnCurrentCameraChanged"]=<function:function: 0x22316eb93489c74f>, ["UpdateEdgeBlur"]=<function:function: 0xa737c577e37b3838>, ["getRotation"]=<function:function: 0x167e1a001afc6404>, ["GetCameraHeight"]=<function:function: 0x0d85f280e05e7015>, ["ResetZoom"]=<function:function: 0xece2b6d3904d572d>, ["OnEnabledChanged"]=<function:function: 0x1e55b91a267348a5>, ["__index"]=<cycle>, ["new"]=<function:function: 0xda754cab4a870176>, ["GamepadReset"]=<function:function: 0xd0926cf5d72cafc6>, ["StartVREdgeBlur"]=<function:function: 0xb90d1b5fbf84d2f8>, ["GetSubjectPosition"]=<function:function: 0x860dcd41bac16cea>, ["GetSubjectCFrame"]=<function:function: 0x000584594aa66ab5>, ["UpdateFadeFromBlack"]=<function:function: 0x368e8173d228aa28>, ["StartFadeFromBlack"]=<function:function: 0x0d9e60c31301e2c9>, ["GetModuleName"]=<function:function: 0xdc873ddd92d081ff>, ["OnHeadScaleChanged"]=<function:function: 0x44d47fc4fb6f363e>, ["GamepadZoomPress"]=<function:function: 0xe16eb0f22c1ac821>, ["GetVRFocus"]=<function:function: 0x05e7abcf7bbdc13f>, ["Reset"]=<function:function: 0x68b40ef5b5b2d934>}
+F getRotation
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=getRotation what=Lua protos=0[]
+  up1: table keys=15 {disableCameraToggleInput:function, getTogglePan:function, enableCameraToggleInput:function, getHoldPan:function, setTouchSensitivity:function, getZoomDelta:function, getInputEnabled:function, setTogglePan:function, getPanning:function, resetInputForFrameEnd:function, getRotationActivated:function, setInputEnabled:function, getRotation:function, addTouchMove:function, gamepadZoomPress:userdata}
+  up2: userdata GameSettings
+  up3: boolean true
+  up4: ERR
+  consts total=13
+  [1] str "getRotation"
+  [2] str "VRSmoothRotationEnabled"
+  [3] str "X"
+  [4] number 40
+  [5] str "math"
+  [6] str "abs"
+F new
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=0[]
+  up1: table keys=47 {IsInFirstPerson:function, GetSubjectPosition:function, Enable:function, GetCameraHeight:function, GetBodyPartToFollow:function, GetIsMouseLocked:function, _setUpConfigurations:function, OnPlayerCameraPropertyChange:function, GetHumanoidRootPart:function, UpdateMouseBehavior:function, GetSubjectCFrame:function, GetCameraType:function, GetSubjectVelocity:function, CalculateNewLookVectorVRFromArg:function, GetModuleName:function, Update:function, OnCharacterAdded:function, GetCameraMovementMode:function, OnEnabledChanged:function, UpdateForDistancePropertyChange:function, CalculateNewLookVectorFromArg:function, SetMouseLockOffset:function, GetHumanoidPartToFollow:function, StepZoom:function, CalculateNewLookCFrameFromArg:function, GetCameraLookVector:function, SetCameraType:function, GetMeasuredDistanceToFocus:function, LeaveFirstPerson:function, __index:table, new:function, GetCameraToSubjectDistance:function, Cleanup:function, GetMouseLockOffset:function, GetSubjectRotVelocity:function, InFirstPerson:function, OnCurrentCameraChanged:function, GetHumanoid:function, SetIsMouseLocked:function, GetEnabled:function}
+  up2: table keys=19 {OnCurrentCameraChanged:function, UpdateEdgeBlur:function, getRotation:function, GetCameraHeight:function, ResetZoom:function, OnEnabledChanged:function, __index:table, new:function, GamepadReset:function, StartVREdgeBlur:function, GetSubjectPosition:function, GetSubjectCFrame:function, UpdateFadeFromBlack:function, StartFadeFromBlack:function, GetModuleName:function, OnHeadScaleChanged:function, GamepadZoomPress:function, GetVRFocus:function, Reset:function}
+  up3: ERR
+  consts total=12
+  [1] str "new"
+  [2] str "setmetatable"

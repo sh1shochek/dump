@@ -1,0 +1,74 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CharacterUtil
+REQUIRE: ok
+RETURNS: table
+KEYS: 9
+K _boundEvents :table keys=0
+  {}
+K _connectionUtil :table keys=1
+  {["_connections"]={}}
+F _getOrCreateBoundEvent
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=_getOrCreateBoundEvent what=Lua protos=0[]
+  up1: table keys=9 {_boundEvents:table, getCharacter:function, onCharacter:function, _connectionUtil:table, getLocalPlayer:function, _getOrCreateBoundEvent:function, onChild:function, getChild:function, onLocalPlayer:function}
+  up2: ERR
+  consts total=3
+  [1] str "_boundEvents"
+  [2] str "Instance"
+  [3] str "new"
+F getCharacter
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=getCharacter what=Lua protos=0[]
+  up1: table keys=9 {_boundEvents:table, getCharacter:function, onCharacter:function, _connectionUtil:table, getLocalPlayer:function, _getOrCreateBoundEvent:function, onChild:function, getChild:function, onLocalPlayer:function}
+  up2: ERR
+  consts total=2
+  [1] str "getLocalPlayer"
+  [2] str "Character"
+F getChild
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=getChild what=Lua protos=0[]
+  up1: table keys=9 {_boundEvents:table, getCharacter:function, onCharacter:function, _connectionUtil:table, getLocalPlayer:function, _getOrCreateBoundEvent:function, onChild:function, getChild:function, onLocalPlayer:function}
+  up2: ERR
+  consts total=3
+  [1] str "getCharacter"
+  [2] str "FindFirstChild"
+  [3] str "IsA"
+F getLocalPlayer
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=getLocalPlayer what=Lua protos=0[]
+  up1: userdata Players
+  up2: ERR
+  consts total=1
+  [1] str "LocalPlayer"
+F onCharacter
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=onCharacter what=Lua protos=1[#1]
+  up1: table keys=9 {_boundEvents:table, getCharacter:function, onCharacter:function, _connectionUtil:table, getLocalPlayer:function, _getOrCreateBoundEvent:function, onChild:function, getChild:function, onLocalPlayer:function}
+  up2: ERR
+  consts total=8
+  [1] str "_connectionUtil"
+  [2] str "ON_LOCAL_PLAYER"
+  [3] str "onLocalPlayer"
+  [4] str "trackConnection"
+  [5] str "_getOrCreateBoundEvent"
+  [6] str "CHARACTER_ADDED"
+  [7] str "Event"
+  [8] str "Connect"
+F onChild
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=onChild what=Lua protos=1[#1]
+  up1: table keys=9 {_boundEvents:table, getCharacter:function, onCharacter:function, _connectionUtil:table, getLocalPlayer:function, _getOrCreateBoundEvent:function, onChild:function, getChild:function, onLocalPlayer:function}
+  up2: ERR
+  consts total=8
+  [1] str "_connectionUtil"
+  [2] str "ON_CHARACTER"
+  [3] str "onCharacter"
+  [4] str "trackConnection"
+  [5] str "_getOrCreateBoundEvent"
+  [6] str "CHARACTER_CHILD_ADDED"
+  [7] str "Event"
+  [8] str "Connect"
+F onLocalPlayer
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=onLocalPlayer what=Lua protos=1[#1]
+  up1: table keys=9 {_boundEvents:table, getCharacter:function, onCharacter:function, _connectionUtil:table, getLocalPlayer:function, _getOrCreateBoundEvent:function, onChild:function, getChild:function, onLocalPlayer:function}
+  up2: userdata Players
+  up3: ERR
+  consts total=10
+  [1] str "getLocalPlayer"
+  [2] str "_connectionUtil"
+  [3] str "LOCAL_PLAYER"
+  [4] str "LocalPlayer"
+  [5] str "GetPropertyChangedSignal"

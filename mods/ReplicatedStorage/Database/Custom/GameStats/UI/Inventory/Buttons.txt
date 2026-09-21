@@ -1,0 +1,30 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.UI.Inventory.Buttons
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K Display :table keys=4
+  {["Packages"]={["Search"]={[1]="Package"}, ["LayoutOrder"]=2}, ["Capsules"]={["Search"]={[1]="Charm Capsule", [2]="Sticker Capsule"}, ["LayoutOrder"]=3}, ["Cases"]={["Search"]={[1]="Case"}, ["LayoutOrder"]=1}, ["All"]={["Search"]={[1]="Case", [2]="Package", [3]="Charm Capsule", [4]="Sticker Capsule"}, ["LayoutOrder"]=0}}
+K Equipment :table keys=8
+  {["Music Kits"]={["Search"]={[1]="Music Kit"}, ["LayoutOrder"]=7}, ["Misc"]={["Search"]={[1]="Zeus x27", [2]="C4"}, ["LayoutOrder"]=5}, ["Melee"]={["Search"]={[1]="Melee"}, ["LayoutOrder"]=1}, ["All Equipment"]={["LayoutOrder"]=0, ["Search"]={[1]="Badge", [2]="Zeus x27", [3]="C4", [4]="Graffiti", [5]="Charm", [6]="Charm Capsule", [7]="Sticker", [8]="Sticker Capsule", [9]="Music Kit", [10]="Weapon", [11]="Glove", [12]="Melee", [13]="Case", [14]="Package"}}, ["Gloves"]={["Search"]={[1]="Glove"}, ["LayoutOrder"]=6}, ["Mid-Tier"]={["Search"]={[1]="Weapon:Heavy", [2]="Weapon:SMG"}, ["LayoutOrder"]=3}, ["Rifles"]={["Search"]={[1]="Weapon:Rifle"}, ["LayoutOrder"]=4}, ["Pistols"]={["Search"]={[1]="Weapon:Pistol"}, ["LayoutOrder"]=2}}
+K Everything :table keys=1
+  {["Default"]={["LayoutOrder"]=0, ["Search"]={[1]="Badge", [2]="Zeus x27", [3]="C4", [4]="Graffiti", [5]="Charm", [6]="Charm Capsule", [7]="Sticker", [8]="Sticker Capsule", [9]="Music Kit", [10]="Weapon", [11]="Glove", [12]="Melee", [13]="Case", [14]="Package"}}}
+F GetEffectiveItemType
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.UI.Inventory.But:? cname=GetEffectiveItemType what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "Type"
+  [2] str "Case"
+  [3] str "Name"
+  [4] str "string"
+  [5] str "find"
+K Graphic Art :table keys=5
+  {["Badges"]={["Search"]={[1]="Badge"}, ["LayoutOrder"]=1}, ["Graffiti"]={["Search"]={[1]="Graffiti"}, ["LayoutOrder"]=3}, ["All Graphic Art"]={["Search"]={[1]="Badge", [2]="Graffiti", [3]="Charm", [4]="Sticker"}, ["LayoutOrder"]=0}, ["Charms"]={["Search"]={[1]="Charm"}, ["LayoutOrder"]=4}, ["Stickers"]={["Search"]={[1]="Sticker"}, ["LayoutOrder"]=2}}
+F IsCapsule
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.UI.Inventory.But:? cname=IsCapsule what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "Type"
+  [2] str "Case"
+  [3] str "Name"
+  [4] str "string"
+  [5] str "find"

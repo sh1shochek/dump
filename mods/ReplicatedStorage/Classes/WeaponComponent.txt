@@ -1,0 +1,21 @@
+PATH: ReplicatedStorage.Classes.WeaponComponent
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F destroy
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=24
+  [1] str "debug"
+  [2] str "profilebegin"
+F new
+  params=12 src=ReplicatedStorage.Classes.WeaponComponent:? cname=new what=Lua protos=3[#1,#2,#3]
+  up1: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up2: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up3: table keys=8 {destroy:function, play:function, stop:function, stopAnimations:function, getAnimation:function, adjustAnimationSpeed:function, __index:table, new:function}
+  up4: table keys=15 {render:function, destroy:function, new:function, setupCharmPhysics:function, unaim:function, construct:function, aim:function, unhide:function, applyCharmImpulse:function, unequip:function, addAttachments:function, equip:function, attachSleeves:function, __index:table, hide:function}
+  up5: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up6: ERR
+  consts total=28
+  [1] str "debug"
+  [2] str "profilebegin"

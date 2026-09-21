@@ -1,0 +1,130 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo
+REQUIRE: ok
+RETURNS: table
+KEYS: 9
+F applyTemplateLifeState
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=applyTemplateLifeState what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=setTemplateLifeState what=Lua
+  up2: ERR
+  consts total=0
+F cleanupTemplate
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=cleanupTemplate what=Lua protos=0[]
+  up1: table keys=10 {3349306431:userdata, 7265420489:userdata, 11701002591:userdata, 11097451648:userdata, 5094344698:userdata, 2836845531:userdata, 9702300049:userdata, 11688948716:userdata, 4898956863:userdata, 7431542897:userdata}
+  up2: table keys=10 {Info:table, Info:table, Info:table, Info:table, Info:table, Info:table, Info:table, Info:table, Info:table, Info:table}
+  up3: table keys=2 {2836845531:number, 7265420489:number}
+  up4: table keys=0 {}
+  up5: table keys=0 {}
+  up6: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=refreshCompetitiveStrokeColors what=Lua
+  up7: ERR
+  consts total=5
+  [1] str "UserId"
+  [2] str "Info"
+  [3] str "FindFirstChild"
+  [4] str "Destroy"
+  [5] str "Parent"
+F createTemplate
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=createTemplate what=Lua protos=1[#1]
+  up1: table keys=10 {3349306431:userdata, 7265420489:userdata, 11701002591:userdata, 11097451648:userdata, 5094344698:userdata, 2836845531:userdata, 9702300049:userdata, 11688948716:userdata, 4898956863:userdata, 7431542897:userdata}
+  up2: table keys=10 {Info:table, Info:table, Info:table, Info:table, Info:table, Info:table, Info:table, Info:table, Info:table, Info:table}
+  up3: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up4: userdata ReplicatedStorage
+  up5: function params=4 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=setupDeathmatchTemplate what=Lua
+  up6: userdata Mateo_081005
+  up7: function params=4 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=setupBombDefusalTemplate what=Lua
+  up8: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=refreshCompetitiveStrokeColors what=Lua
+  up9: function params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=setTemplateInfoRevealed what=Lua
+  up10: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=shouldShowInfoForPlayer what=Lua
+  up11: ERR
+  consts total=32
+  [1] str "UserId"
+  [2] str "Info"
+  [3] str "FindFirstChild"
+  [4] str "Destroy"
+  [5] str "Parent"
+  [6] str "workspace"
+  [7] userdata
+  [8] str "Gamemode"
+  [9] str "GetAttribute"
+  [10] str "Team"
+  [11] str "Terrorists"
+  [12] str "Counter-Terrorists"
+  [13] str "new"
+  [14] str "Deathmatch"
+  [15] str "Assets"
+  [16] str "UI"
+  [17] str "PlayerTemplate"
+  [18] str "Clone"
+  [19] str "Bomb Defusal"
+  [20] str "Hostage Rescue"
+  [21] str "BombDefusal"
+  [22] str "warn"
+F getTemplateByUserId
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=getTemplateByUserId what=Lua protos=0[]
+  up1: table keys=10 {3349306431:userdata, 7265420489:userdata, 11701002591:userdata, 11097451648:userdata, 5094344698:userdata, 2836845531:userdata, 9702300049:userdata, 11688948716:userdata, 4898956863:userdata, 7431542897:userdata}
+  up2: ERR
+  consts total=0
+F incrementTemplateKills
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=incrementTemplateKills what=Lua protos=0[]
+  up1: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up2: table keys=2 {2836845531:number, 7265420489:number}
+  up3: table keys=10 {3349306431:userdata, 7265420489:userdata, 11701002591:userdata, 11097451648:userdata, 5094344698:userdata, 2836845531:userdata, 9702300049:userdata, 11688948716:userdata, 4898956863:userdata, 7431542897:userdata}
+  up4: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=setTemplateKills what=Lua
+  up5: userdata Players
+  up6: function params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=setTemplateInfoRevealed what=Lua
+  up7: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=shouldShowInfoForPlayer what=Lua
+  up8: ERR
+  consts total=7
+  [1] str "GetState"
+  [2] str "Warmup"
+  [3] number 1
+  [4] number 0
+  [5] str "Parent"
+  [6] str "GetPlayerByUserId"
+  [7] str "UserId"
+F refreshCompetitiveColors
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=refreshCompetitiveColors what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=refreshCompetitiveStrokeColors what=Lua
+  up2: ERR
+  consts total=0
+F setTeammateInfoRevealed
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=setTeammateInfoRevealed what=Lua protos=0[]
+  up1: boolean false
+  up2: table keys=10 {3349306431:userdata, 7265420489:userdata, 11701002591:userdata, 11097451648:userdata, 5094344698:userdata, 2836845531:userdata, 9702300049:userdata, 11688948716:userdata, 4898956863:userdata, 7431542897:userdata}
+  up3: userdata Players
+  up4: function params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=setTemplateInfoRevealed what=Lua
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=shouldShowInfoForPlayer what=Lua
+  up6: ERR
+  consts total=8
+  [1] str "workspace"
+  [2] userdata
+  [3] str "ServerGamemode"
+  [4] str "GetAttribute"
+  [5] str "Competitive"
+  [6] str "GetPlayerByUserId"
+  [7] str "Parent"
+  [8] str "UserId"
+F updateRoundDamageMatrix
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=updateRoundDamageMatrix what=Lua protos=0[]
+  up1: userdata Players
+  up2: table keys=0 {}
+  up3: table keys=10 {3349306431:userdata, 7265420489:userdata, 11701002591:userdata, 11097451648:userdata, 5094344698:userdata, 2836845531:userdata, 9702300049:userdata, 11688948716:userdata, 4898956863:userdata, 7431542897:userdata}
+  up4: function params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=updateDamageFromMatrix what=Lua
+  up5: function params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=setTemplateInfoRevealed what=Lua
+  up6: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=shouldShowInfoForPlayer what=Lua
+  up7: ERR
+  consts total=8
+  [1] str "outgoing"
+  [2] str "incoming"
+  [3] str "GetPlayers"
+  [4] str "UserId"
+  [5] str "tostring"
+F updateTeammateGrenades
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=updateTeammateGrenades what=Lua protos=0[]
+  up1: table keys=5 {3349306431:table, 7265420489:table, 11701002591:table, 11688948716:table, 7431542897:table}
+  up2: userdata Players
+  up3: table keys=10 {3349306431:userdata, 7265420489:userdata, 11701002591:userdata, 11097451648:userdata, 5094344698:userdata, 2836845531:userdata, 9702300049:userdata, 11688948716:userdata, 4898956863:userdata, 7431542897:userdata}
+  up4: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.PlayerInfo:? cname=updateTemplateGrenades what=Lua
+  up5: ERR
+  consts total=6
+  [1] str "userId"
+  [2] str "tonumber"

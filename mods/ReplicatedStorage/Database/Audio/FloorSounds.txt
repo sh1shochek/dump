@@ -1,0 +1,60 @@
+PATH: ReplicatedStorage.Database.Audio.FloorSounds
+REQUIRE: ok
+RETURNS: table
+KEYS: 28
+K  :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=91270542470564, [2]=95450755411619, [3]=126077546481604, [4]=106089093282448}}
+K Asphalt :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=115402880444139, [2]=83949758218010, [3]=123531746508204, [4]=74830944093292}}
+K Cardboard :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=127473850154616, [2]=73964462740950, [3]=136772332152394, [4]=127960498426913}}
+K Carpet :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=105229370614051, [2]=117740430438823, [3]=129507165489163, [4]=117335205768047, [5]=110886985361817}}
+K CeramicTiles :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=139049619848734, [2]=122667752106706, [3]=74820994047981, [4]=140693504749560}}
+K Concrete :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=115402880444139, [2]=83949758218010, [3]=123531746508204, [4]=74830944093292}}
+K Corroded Metal :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=86763671272950, [2]=99698900896048, [3]=133733089175300, [4]=110116982062863}}
+K DiamondPlate :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=92210103823936, [2]=106250319626363, [3]=75564029984801, [4]=117230662284020}}
+K Fabric :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=105229370614051, [2]=117740430438823, [3]=129507165489163, [4]=117335205768047, [5]=110886985361817}}
+K Grass :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=128234973744087, [2]=89775371942579, [3]=85300133579049, [4]=122811017896680}}
+K Ground :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=127473850154616, [2]=73964462740950, [3]=136772332152394, [4]=127960498426913}}
+K Jump :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=130033887072507}}
+K LandingConcrete :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=99466596855280}}
+K LandingDirt :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=109412011545778}}
+K LandingGlass :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=78202018185923}}
+K LandingGrass :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=139175770184993}}
+K LandingGravel :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=85183136145127}}
+K LandingMetal :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=139199167465543}}
+K LandingRubber :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=99500002704168}}
+K LandingSand :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=131233593992285}}
+K Metal :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=92210103823936, [2]=106250319626363, [3]=75564029984801, [4]=117230662284020}}
+K Mud :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=119308548749944, [2]=76505615864286, [3]=108881600833897, [4]=99907470734259, [5]=129742848897554}}
+K Pebble :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=115402880444139, [2]=83949758218010, [3]=123531746508204, [4]=74830944093292}}
+K Plastic :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=127473850154616, [2]=73964462740950, [3]=136772332152394, [4]=127960498426913}}
+K Sand :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.375, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=113025048649331, [2]=109535294973923, [3]=106553181590103, [4]=100894963043342, [5]=84129898008532}}
+K Snow :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=119308548749944, [2]=76505615864286, [3]=108881600833897, [4]=99907470734259, [5]=129742848897554}}
+K Wood :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=71749773883678, [2]=84386012548210, [3]=96512401528849, [4]=137001957542905}}
+K WoodPlanks :table keys=2
+  {["Properties"]={["RollOffMaxDistance"]=85, ["Volume"]=0.675, ["Looped"]=false, ["TimePosition"]=0, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=71749773883678, [2]=84386012548210, [3]=96512401528849, [4]=137001957542905}}

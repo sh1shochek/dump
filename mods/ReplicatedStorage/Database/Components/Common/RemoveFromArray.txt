@@ -1,0 +1,9 @@
+PATH: ReplicatedStorage.Database.Components.Common.RemoveFromArray
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=2 src=ReplicatedStorage.Database.Components.Common.RemoveFromArray:? what=Lua protos=1[#1]
+  up1: ERR
+  consts total=2
+  [1] str "table"
+  [2] str "insert"

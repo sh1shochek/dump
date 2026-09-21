@@ -1,0 +1,93 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModule.Keyboard
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+F BindContextActions
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=BindContextActions what=Lua protos=10[#1,#2,#3,#4,#5,#6,#7,#8,#9,#10]
+  up1: userdata ContextActionService
+  up2: ERR
+  consts total=20
+  [1] str "moveForwardAction"
+  [2] str "CONTROL_ACTION_PRIORITY"
+  [3] str "Enum"
+  [4] str "PlayerActions"
+  [5] str "CharacterForward"
+  [6] userdata
+  [7] str "BindActionAtPriority"
+  [8] str "moveBackwardAction"
+  [9] str "CharacterBackward"
+  [10] userdata
+  [11] str "moveLeftAction"
+  [12] str "CharacterLeft"
+  [13] userdata
+  [14] str "moveRightAction"
+  [15] str "CharacterRight"
+  [16] userdata
+  [17] str "jumpAction"
+  [18] str "CharacterJump"
+  [19] userdata
+  [20] str "_connectionUtil"
+F ConnectFocusEventListeners
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=ConnectFocusEventListeners what=Lua protos=2[onFocusReleased,onTextFocusGained]
+  up1: vector 0, 0, 0
+  up2: userdata UserInputService
+  up3: ERR
+  consts total=9
+  [1] str "_connectionUtil"
+  [2] str "textBoxFocusReleased"
+  [3] str "TextBoxFocusReleased"
+  [4] str "Connect"
+  [5] str "trackConnection"
+  [6] str "textBoxFocused"
+  [7] str "TextBoxFocused"
+  [8] str "windowFocusReleased"
+  [9] str "WindowFocusReleased"
+F Enable
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=Enable what=Lua protos=0[]
+  up1: vector 0, 0, 0
+  up2: ERR
+  consts total=12
+  [1] str "enabled"
+  [2] str "forwardValue"
+  [3] str "backwardValue"
+  [4] str "leftValue"
+  [5] str "rightValue"
+  [6] str "moveVector"
+  [7] str "jumpRequested"
+  [8] str "UpdateJump"
+  [9] str "BindContextActions"
+  [10] str "ConnectFocusEventListeners"
+  [11] str "_connectionUtil"
+  [12] str "disconnectAll"
+F UpdateJump
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=UpdateJump what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "jumpRequested"
+  [2] str "isJumping"
+F UpdateMovement
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=UpdateMovement what=Lua protos=0[]
+  up1: vector 0, 0, 0
+  up2: ERR
+  consts total=11
+  [1] str "Enum"
+  [2] str "UserInputState"
+  [3] str "Cancel"
+  [4] userdata
+  [5] str "moveVector"
+  [6] str "leftValue"
+  [7] str "rightValue"
+  [8] str "forwardValue"
+  [9] str "backwardValue"
+  [10] str "Vector3"
+  [11] str "new"
+K __index :table keys=7
+  {["UpdateMovement"]=<function:function: 0xd6aee2027a44a787>, ["ConnectFocusEventListeners"]=<function:function: 0x9402ee648c071d98>, ["UpdateJump"]=<function:function: 0xa088ade0fd63869c>, ["Enable"]=<function:function: 0x615763ecef26a1e3>, ["BindContextActions"]=<function:function: 0x9988f3f9a343f3d4>, ["__index"]=<cycle>, ["new"]=<function:function: 0x493e35cbfcfb38fe>}
+F new
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=new what=Lua protos=0[]
+  up1: table keys=6 {IsMoveVectorCameraRelative:function, GetIsJumping:function, Enable:function, GetMoveVector:function, __index:table, new:function}
+  up2: table keys=7 {UpdateMovement:function, ConnectFocusEventListeners:function, UpdateJump:function, Enable:function, BindContextActions:function, __index:table, new:function}
+  up3: ERR
+  consts total=9
+  [1] str "new"
+  [2] str "setmetatable"

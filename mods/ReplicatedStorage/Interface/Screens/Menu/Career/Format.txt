@@ -1,0 +1,78 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Career.Format
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+F DateTime
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Format:? cname=DateTime what=Lua protos=1[#1]
+  up1: ERR
+  consts total=3
+  [1] str "pcall"
+F Decimal
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.Format:? cname=Decimal what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "string"
+  [2] str "format"
+F Duration
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Format:? cname=Duration what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "math"
+  [2] str "floor"
+F MatchScore
+  params=3 src=ReplicatedStorage.Interface.Screens.Menu.Career.Format:? cname=MatchScore what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "Counter-Terrorists"
+  [2] str "rgb(165,183,212)"
+  [3] str "rgb(219,199,126)"
+  [4] str "<font color=\"%*\">%*</font> - <font color=\"%*\">%*</font>"
+  [5] str "format"
+F Money
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Format:? cname=Money what=Lua protos=0[]
+  up1: table keys=11 {Number:function, Decimal:function, Money:function, Duration:function, TimePlayed:function, DateTime:function, MatchScore:function, Signed:function, Ratio:function, Percent:function, Share:function}
+  up2: ERR
+  consts total=3
+  [1] str "$%*"
+  [2] str "Number"
+  [3] str "format"
+F Number
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Format:? cname=Number what=Lua protos=0[]
+  up1: ERR
+  consts total=14
+  [1] str "math"
+  [2] str "floor"
+F Percent
+  params=3 src=ReplicatedStorage.Interface.Screens.Menu.Career.Format:? cname=Percent what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] number 0
+  [2] str "string"
+  [3] str "format"
+F Ratio
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.Format:? cname=Ratio what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "string"
+  [2] str "format"
+F Share
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.Format:? cname=Share what=Lua protos=0[]
+  up1: ERR
+  consts total=10
+  [1] number 0
+  [2] str "string"
+  [3] str "format"
+F Signed
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.Format:? cname=Signed what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "string"
+  [2] str "format"
+F TimePlayed
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Format:? cname=TimePlayed what=Lua protos=0[]
+  up1: table keys=11 {Number:function, Decimal:function, Money:function, Duration:function, TimePlayed:function, DateTime:function, MatchScore:function, Signed:function, Ratio:function, Percent:function, Share:function}
+  up2: ERR
+  consts total=12
+  [1] number 60
+  [2] str "math"
+  [3] str "floor"

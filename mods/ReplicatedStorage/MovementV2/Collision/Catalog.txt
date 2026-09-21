@@ -1,0 +1,32 @@
+PATH: ReplicatedStorage.MovementV2.Collision.Catalog
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F AssertReadPublished
+  params=2 src=ReplicatedStorage.MovementV2.Collision.Catalog:? cname=AssertReadPublished what=Lua protos=0[]
+  up1: table keys=3 {AssertReadPublished:function, ComputeFingerprint:function, ReadPublished:function}
+  up2: ERR
+  consts total=2
+  [1] str "ReadPublished"
+  [2] str "assert"
+F ComputeFingerprint
+  params=1 src=ReplicatedStorage.MovementV2.Collision.Catalog:? cname=ComputeFingerprint what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.MovementV2.Collision.Catalog:? cname=sourceFingerprintKey what=Lua
+  up2: table keys=9 {Encode:function, Crc32:function, TryEncode:function, ReadPublished:function, DescriptorAttribute:string, Publish:function, EncodeInstance:function, Decode:function, HashStrings:function}
+  up3: ERR
+  consts total=6
+  [1] str "table"
+  [2] str "create"
+F ReadPublished
+  params=2 src=ReplicatedStorage.MovementV2.Collision.Catalog:? cname=ReadPublished what=Lua protos=2[warnCatalog,#2]
+  up1: function params=1 src=ReplicatedStorage.MovementV2.Collision.Catalog:? cname=readManifest what=Lua
+  up2: function params=1 src=ReplicatedStorage.MovementV2.Collision.Catalog:? cname=findBarriersRoot what=Lua
+  up3: userdata CollectionService
+  up4: table keys=15 {MaxWalkmeshTriangles:number, SourceKindName:table, Tags:table, BarriersNameLower:string, MaxSourceCount:number, SourceKind:table, Attributes:table, GetSourceKindName:function, MaxWalkmeshVertices:number, WalkmeshHeader:string, MaxEpoch:number, MaxDestructibleCount:number, ManifestVersion:number, IsSourceKind:function, CanonicalGeometryVersion:string}
+  up5: function params=2 src=ReplicatedStorage.MovementV2.Collision.Catalog:? cname=classify what=Lua
+  up6: function params=1 src=ReplicatedStorage.MovementV2.Collision.Catalog:? cname=hasPublishedSourceAttribute what=Lua
+  up7: function params=4 src=ReplicatedStorage.MovementV2.Collision.Catalog:? cname=readSource what=Lua
+  up8: table keys=3 {AssertReadPublished:function, ComputeFingerprint:function, ReadPublished:function}
+  up9: ERR
+  consts total=56
+  [1] str "typeof"

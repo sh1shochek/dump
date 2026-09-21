@@ -1,0 +1,45 @@
+PATH: ReplicatedStorage.MovementV2.Simulation.PlayerBroadphase
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K DefaultCellSize :number = 8
+K __index :table keys=7
+  {["clear"]=<function:function: 0x07ec026da25f4ad6>, ["remove"]=<function:function: 0xa0ba9f736ce8bc05>, ["DefaultCellSize"]=8, ["query"]=<function:function: 0xfd037300551a4731>, ["upsert"]=<function:function: 0x689ae11259229190>, ["__index"]=<cycle>, ["new"]=<function:function: 0xe55c6ffe0e122704>}
+F clear
+  params=1 src=ReplicatedStorage.MovementV2.Simulation.PlayerBroadphase:? cname=clear what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "table"
+  [2] str "clear"
+F new
+  params=1 src=ReplicatedStorage.MovementV2.Simulation.PlayerBroadphase:? cname=new what=Lua protos=0[]
+  up1: table keys=7 {clear:function, remove:function, DefaultCellSize:number, query:function, upsert:function, __index:table, new:function}
+  up2: ERR
+  consts total=15
+  [1] str "DefaultCellSize"
+  [2] str "type"
+F query
+  params=4 src=ReplicatedStorage.MovementV2.Simulation.PlayerBroadphase:? cname=query what=Lua protos=0[]
+  up1: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up2: ERR
+  consts total=18
+  [1] str "isFiniteVector3"
+  [2] str "invalid query bounds"
+  [3] str "assert"
+F remove
+  params=2 src=ReplicatedStorage.MovementV2.Simulation.PlayerBroadphase:? cname=remove what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "_cellXById"
+  [2] str "_cellZById"
+  [3] str "_cells"
+  [4] str "next"
+F upsert
+  params=3 src=ReplicatedStorage.MovementV2.Simulation.PlayerBroadphase:? cname=upsert what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up3: ERR
+  consts total=16
+  [1] str "isUInt32"
+  [2] str "player broadphase ID must be a non-zero u32"
+  [3] str "assert"

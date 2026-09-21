@@ -1,0 +1,18 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.M9 Bayonet
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K BackStab :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=139973941520045}}
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=109404938252758}}
+K Handling2 :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=128481210639632}}
+K HitOne :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=121918896568902}}
+K HitThree :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=128496246522416}}
+K HitTwo :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=117645778032717}}
+K Inspect :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=72812810550455}}

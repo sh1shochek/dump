@@ -1,0 +1,42 @@
+PATH: ReplicatedStorage.Components.Common.CharacterGeneration
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K AttributeName :string = CharacterGeneration
+F Get
+  params=1 src=ReplicatedStorage.Components.Common.CharacterGeneration:? cname=Get what=Lua protos=0[]
+  up1: table keys=7 {IsValid:function, Matches:function, MaxValue:number, Next:function, AttributeName:string, Set:function, Get:function}
+  up2: ERR
+  consts total=3
+  [1] str "AttributeName"
+  [2] str "GetAttribute"
+  [3] str "IsValid"
+F IsValid
+  params=1 src=ReplicatedStorage.Components.Common.CharacterGeneration:? cname=IsValid what=Lua protos=0[]
+  up1: table keys=7 {IsValid:function, Matches:function, MaxValue:number, Next:function, AttributeName:string, Set:function, Get:function}
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Matches
+  params=2 src=ReplicatedStorage.Components.Common.CharacterGeneration:? cname=Matches what=Lua protos=0[]
+  up1: table keys=7 {IsValid:function, Matches:function, MaxValue:number, Next:function, AttributeName:string, Set:function, Get:function}
+  up2: ERR
+  consts total=1
+  [1] str "Get"
+K MaxValue :number = 65535
+F Next
+  params=1 src=ReplicatedStorage.Components.Common.CharacterGeneration:? cname=Next what=Lua protos=0[]
+  up1: table keys=7 {IsValid:function, Matches:function, MaxValue:number, Next:function, AttributeName:string, Set:function, Get:function}
+  up2: ERR
+  consts total=3
+  [1] str "IsValid"
+  [2] str "MaxValue"
+  [3] number 1
+F Set
+  params=2 src=ReplicatedStorage.Components.Common.CharacterGeneration:? cname=Set what=Lua protos=0[]
+  up1: table keys=7 {IsValid:function, Matches:function, MaxValue:number, Next:function, AttributeName:string, Set:function, Get:function}
+  up2: ERR
+  consts total=6
+  [1] str "IsValid"
+  [2] str "character generation must be a non-zero u16"
+  [3] str "assert"

@@ -1,0 +1,151 @@
+PATH: ReplicatedStorage.Classes.Character
+REQUIRE: ok
+RETURNS: table
+KEYS: 16
+F CancelBombPlant
+  params=1 src=ReplicatedStorage.Classes.Character:? cname=CancelBombPlant what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "IsPlantingBomb"
+F Destroy
+  params=1 src=ReplicatedStorage.Classes.Character:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "IsDestroyed"
+  [2] str "Janitor"
+  [3] str "Destroy"
+F MatchesGeneration
+  params=2 src=ReplicatedStorage.Classes.Character:? cname=MatchesGeneration what=Lua protos=0[]
+  up1: table keys=7 {IsValid:function, Matches:function, MaxValue:number, Next:function, AttributeName:string, Set:function, Get:function}
+  up2: ERR
+  consts total=7
+  [1] str "IsDestroyed"
+  [2] str "Character"
+  [3] str "Parent"
+  [4] str "Dead"
+  [5] str "GetAttribute"
+  [6] str "Generation"
+  [7] str "Get"
+F MoveFunction
+  params=3 src=ReplicatedStorage.Classes.Character:? cname=MoveFunction what=Lua protos=0[]
+  up1: userdata Workspace
+  up2: function params=1 src=ReplicatedStorage.Classes.Character:? cname=finiteHorizontalInput what=Lua
+  up3: ERR
+  consts total=22
+  [1] str "IsDestroyed"
+  [2] str "CurrentCamera"
+  [3] str "CFrame"
+  [4] str "identity"
+  [5] userdata
+  [6] str "ToEulerAnglesYXZ"
+  [7] str "Angles"
+F OnPlayerContactCorrection
+  params=2 src=ReplicatedStorage.Classes.Character:? cname=OnPlayerContactCorrection what=Lua protos=0[]
+  up1: number 0.65
+  up2: ERR
+  consts total=1
+  [1] str "PreservePredictionPresentation"
+F OnReconciled
+  params=2 src=ReplicatedStorage.Classes.Character:? cname=OnReconciled what=Lua protos=0[]
+  up1: number 0.65
+  up2: table keys=7 {MaxDistance:number, isHardSnapCorrection:function, Epsilon:number, MaxSeconds:number, MinSpeed:number, clampOffset:function, remainingOffset:function}
+  up3: ERR
+  consts total=14
+  [1] str "TailPosition"
+  [2] str "typeof"
+F OnStepEvents
+  params=2 src=ReplicatedStorage.Classes.Character:? cname=OnStepEvents what=Lua protos=0[]
+  up1: ERR
+  consts total=14
+  [1] str "Jumped"
+  [2] str "CharacterAnimator"
+  [3] str "noteJumpEvent"
+  [4] str "Landed"
+  [5] str "ImpactVelocityY"
+  [6] str "typeof"
+F PlantBomb
+  params=1 src=ReplicatedStorage.Classes.Character:? cname=PlantBomb what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "IsPlantingBomb"
+F PrepareInputFrame
+  params=1 src=ReplicatedStorage.Classes.Character:? cname=PrepareInputFrame what=Lua protos=0[]
+  up1: userdata Workspace
+  up2: ERR
+  consts total=20
+  [1] str "IsDestroyed"
+  [2] str "CurrentCamera"
+  [3] str "CFrame"
+  [4] str "identity"
+  [5] userdata
+  [6] str "ToEulerAnglesYXZ"
+  [7] str "Angles"
+F Present
+  params=5 src=ReplicatedStorage.Classes.Character:? cname=Present what=Lua protos=0[]
+  up1: table keys=8 {stateToRootPosition:function, simulationToRootPosition:function, simulationToVisualRootPosition:function, visualStance:function, DefaultRootHeightFromFeet:number, cframe:function, rootToSimulationPosition:function, getDuckRootVerticalOffset:function}
+  up2: table keys=7 {MaxDistance:number, isHardSnapCorrection:function, Epsilon:number, MaxSeconds:number, MinSpeed:number, clampOffset:function, remainingOffset:function}
+  up3: function params=5 src=ReplicatedStorage.Classes.Character:? cname=updateStepCameraOffset what=Lua
+  up4: table keys=7 {toWorldVelocity:function, solve:function, DefaultContactEpsilon:number, DefaultIterations:number, DefaultSeparationSkin:number, newScratch:function, fromWorldVelocity:function}
+  up5: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up6: function params=3 src=ReplicatedStorage.Classes.Character:? cname=updateCameraOffset what=Lua
+  up7: ERR
+  consts total=61
+  [1] str "Mapping"
+  [2] str "Generation"
+  [3] str "IsDestroyed"
+  [4] str "MatchesGeneration"
+  [5] str "os"
+  [6] str "clock"
+F SampleInput
+  params=2 src=ReplicatedStorage.Classes.Character:? cname=SampleInput what=Lua protos=0[]
+  up1: table keys=8 {ValidMask:number, isValid:function, Duck:number, Jump:number, has:function, Scoped:number, with:function, Walk:number}
+  up2: ERR
+  consts total=38
+  [1] str "Mapping"
+  [2] str "Generation"
+  [3] str "MatchesGeneration"
+  [4] number 1
+  [5] str "FrameSampleAlpha"
+  [6] str "math"
+  [7] str "clamp"
+F SetJumpInput
+  params=2 src=ReplicatedStorage.Classes.Character:? cname=SetJumpInput what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "JumpPulsePending"
+  [2] str "JumpInputDown"
+F ToggleCrouchInput
+  params=2 src=ReplicatedStorage.Classes.Character:? cname=ToggleCrouchInput what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "CrouchInputDown"
+F ToggleWalkState
+  params=2 src=ReplicatedStorage.Classes.Character:? cname=ToggleWalkState what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "IsWalking"
+  [2] str "Walking"
+  [3] str "Fire"
+K __index :table keys=16
+  {["PrepareInputFrame"]=<function:function: 0x3c76d0ab8af674f1>, ["PlantBomb"]=<function:function: 0x2d7c3ab1fd7c0015>, ["Present"]=<function:function: 0xc08611a01514f676>, ["SetJumpInput"]=<function:function: 0x96fec51470225240>, ["ToggleCrouchInput"]=<function:function: 0xa6f772d5fde098c3>, ["OnPlayerContactCorrection"]=<function:function: 0x0f401a30b8896614>, ["MoveFunction"]=<function:function: 0xb7fbbe08a9a9f667>, ["Destroy"]=<function:function: 0x3e82a4ffd3507cfb>, ["OnReconciled"]=<function:function: 0x106d7ab3ac90180d>, ["OnStepEvents"]=<function:function: 0x15db42bf73a6ca91>, ["SampleInput"]=<function:function: 0xfd39c228e516b094>, ["CancelBombPlant"]=<function:function: 0x3e2b0c0abe8850ac>, ["MatchesGeneration"]=<function:function: 0xba387aac02268a0c>, ["ToggleWalkState"]=<function:function: 0x9df679dcdd309b38>, ["__index"]=<cycle>, ["new"]=<function:function: 0x9c7b97ccdb3c2156>}
+F new
+  params=2 src=ReplicatedStorage.Classes.Character:? cname=new what=Lua protos=3[#1,#2,#3]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: table keys=7 {IsValid:function, Matches:function, MaxValue:number, Next:function, AttributeName:string, Set:function, Get:function}
+  up3: userdata Workspace
+  up4: table keys=4 {cloneSupport:function, noneSupport:function, clone:function, new:function}
+  up5: table keys=8 {stateToRootPosition:function, simulationToRootPosition:function, simulationToVisualRootPosition:function, visualStance:function, DefaultRootHeightFromFeet:number, cframe:function, rootToSimulationPosition:function, getDuckRootVerticalOffset:function}
+  up6: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up7: userdata Mateo_081005
+  up8: table keys=17 {unregister:function, register:function, ownsTrack:function, __index:table, new:function, destroy:function, stopAnimations:function, unregisterGroup:function, updateLocomotion:function, isLocomotionTrack:function, setWeapon:function, stop:function, adjustAnimationSpeed:function, getAnimation:function, playAction:function, noteJumpEvent:function, play:function}
+  up9: table keys=3 {Is:function, Wrap:function, new:function}
+  up10: table keys=16 {PrepareInputFrame:function, PlantBomb:function, Present:function, SetJumpInput:function, ToggleCrouchInput:function, OnPlayerContactCorrection:function, MoveFunction:function, Destroy:function, OnReconciled:function, OnStepEvents:function, SampleInput:function, CancelBombPlant:function, MatchesGeneration:function, ToggleWalkState:function, __index:table, new:function}
+  up11: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up12: function params=3 src=ReplicatedStorage.Classes.Character:? cname=updateCameraOffset what=Lua
+  up13: ERR
+  consts total=88
+  [1] str "getCameraPart"
+  [2] str "%* has no CameraPart"
+  [3] str "GetFullName"
+  [4] str "format"
+  [5] str "assert"

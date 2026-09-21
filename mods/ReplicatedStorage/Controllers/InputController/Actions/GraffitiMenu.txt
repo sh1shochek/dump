@@ -1,0 +1,14 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.GraffitiMenu
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Callback
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.Graffi:? cname=onInput what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: ERR
+  consts total=2
+  [1] str "IsPlayerChatting"
+  [2] str "GetAttribute"
+K Category :string = Weapon Keys
+K Group :string = Gameplay
+K Name :string = Graffiti Menu

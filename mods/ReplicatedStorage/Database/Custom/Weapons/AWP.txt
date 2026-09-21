@@ -1,0 +1,39 @@
+PATH: ReplicatedStorage.Database.Custom.Weapons.AWP
+REQUIRE: ok
+RETURNS: table
+KEYS: 32
+K AimingOptions :string = SniperScope
+K ArmorPenetration :number = 0.975
+K Automatic :boolean = false
+K BulletsPerShot :number = 1
+K CameraAnimations :userdata CameraAnimations
+K Capacity :number = 30
+K CharacterAnimations :userdata CharacterAnimations
+K Class :string = Weapon
+K Cost :number = 4750
+K DamagePerPart :table keys=4
+  {["Arms"]=115, ["Torso"]=143, ["Legs"]=85, ["Head"]=459}
+K Droppable :boolean = true
+K FireRate :number = 1.46
+K HasScope :boolean = true
+K HasSuppressor :boolean = false
+K Icon :string = rbxassetid://79794264811775
+K InventoryIconData :table keys=2
+  {["Size"]=<userdata:{1, 0}, {1, 0}>, ["ScaleType"]=<userdata:Enum.ScaleType.Crop>}
+K MuzzleType :string = Sniper
+K Penetration :number = 0.9
+K RagdollMultiplier :number = 60
+K Range :number = 1200
+K RangeModifier :number = 0.99
+K ReloadAnimationCount :number = 1
+K ReverseIcon :string = rbxassetid://78589610778527
+K Rounds :number = 5
+K ShootingOptions :string = Default
+K ShowCrosshair :boolean = false
+K Slot :string = Primary
+K Spread :table keys=4
+  {["RecoverySpeed"]=5, ["PerShot"]=0, ["Range"]=<userdata:0 20 >, ["MovementMultiplier"]=3}
+K Team :string = Both
+K Type :string = Rifle
+K WalkSpeed :number = 16.16
+K WallbangMultiplier :number = 0.98

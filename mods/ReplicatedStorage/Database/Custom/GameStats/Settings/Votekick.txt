@@ -1,0 +1,22 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Settings.Votekick
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F GetActiveTeam
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.Settings.Votekic:? cname=GetActiveTeam what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Counter-Terrorists"
+  [2] str "Terrorists"
+F GetRequiredYesVotes
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.Settings.Votekic:? cname=GetRequiredYesVotes what=Lua protos=0[]
+  up1: table keys=6 {PETITION_RATIO:number, MIN_LEVEL:number, GetRequiredYesVotes:function, GetActiveTeam:function, MINIMUM_ACTIVE_PLAYERS:number, PETITION_EXTRA_YES_VOTES:number}
+  up2: ERR
+  consts total=3
+  [1] str "PETITION_RATIO"
+  [2] str "math"
+  [3] str "ceil"
+K MINIMUM_ACTIVE_PLAYERS :number = 4
+K MIN_LEVEL :number = 3
+K PETITION_EXTRA_YES_VOTES :number = 1
+K PETITION_RATIO :number = 0.5

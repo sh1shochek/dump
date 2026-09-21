@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Database.Audio.Hostage
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+K Generic Hostage Pickup :table keys=2
+  {["Properties"]={["Volume"]=0.4, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=5}, ["Identifiers"]={[1]=74099362693580}}
+K Hostage Idle :table keys=2
+  {["Properties"]={["Volume"]=0.75, ["Looped"]=true, ["RollOffMaxDistance"]=25, ["RollOffMinDistance"]=5}, ["Identifiers"]={[1]=79712382141071}}
+K Hostage Kit Pickup :table keys=2
+  {["Properties"]={["Volume"]=0.4, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=5}, ["Identifiers"]={[1]=91391248595937}}
+K Hostage Pickup :table keys=2
+  {["Properties"]={["Volume"]=0.4, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=5}, ["Identifiers"]={[1]=115533578916157}}

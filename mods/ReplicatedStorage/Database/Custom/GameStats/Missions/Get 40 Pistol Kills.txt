@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Get 40 Pistol Kills
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K Category :string = pistol_kills
+K MissionId :string = Get 40 Pistol Kills
+K Rewards :table keys=1
+  {[1]={["amount"]=80, ["type"]="Credits"}}
+K Target :number = 40
+K Type :string = weekly

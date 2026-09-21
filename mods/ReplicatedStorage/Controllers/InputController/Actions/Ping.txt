@@ -1,0 +1,46 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.Ping
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Callback
+  params=1 src=ReplicatedStorage.Controllers.InputController.Actions.Ping:? cname=onInput what=Lua protos=0[]
+  up1: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up2: userdata Mateo_081005
+  up3: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up4: function params=0 src=ReplicatedStorage.Controllers.InputController.Actions.Ping:? cname=GetRaycastResult what=Lua
+  up5: function params=1 src=ReplicatedStorage.Controllers.InputController.Actions.Ping:? cname=GetWeaponDataFromInstance what=Lua
+  up6: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up7: number 0
+  up8: ERR
+  consts total=28
+  [1] str "workspace"
+  [2] userdata
+  [3] str "Gamemode"
+  [4] str "GetAttribute"
+  [5] str "Deathmatch"
+  [6] str "Get"
+  [7] str "Settings.Game.HUD.Player Pings"
+  [8] str "Disabled"
+  [9] str "isAliveCharacter"
+  [10] str "getPlayerCharacter"
+  [11] str "Enum"
+  [12] str "UserInputState"
+  [13] str "Begin"
+  [14] userdata
+  [15] str "getLocalCharacter"
+  [16] str "Instance"
+  [17] str "Ping"
+  [18] str "CreatePlayerPositionPing"
+  [19] str "Send"
+  [20] str "Position"
+  [21] str "WeaponIdentity"
+  [22] str "WeaponName"
+  [23] str "WeaponSkin"
+  [24] str "IsDanger"
+  [25] boolean false
+  [26] table
+  [27] table
+  [28] str "tick"
+K Category :string = UI Keys
+K Group :string = Gameplay
+K Name :string = Ping

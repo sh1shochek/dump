@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set.delete
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=delete what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "pairs"

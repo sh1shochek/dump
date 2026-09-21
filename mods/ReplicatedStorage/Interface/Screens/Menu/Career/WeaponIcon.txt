@@ -1,0 +1,22 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Career.WeaponIcon
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+K Changed :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x86490f9de70d766d>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}
+F Get
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.WeaponIcon:? cname=Get what=Lua protos=0[]
+  up1: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up2: userdata Mateo_081005
+  up3: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.WeaponIcon:? cname=CollectEquippedIdentifiers what=Lua
+  up4: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.WeaponIcon:? cname=GetSkinIcon what=Lua
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.WeaponIcon:? cname=GetStockIcon what=Lua
+  up6: table keys=1 {LightSaber:string}
+  up7: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up8: ERR
+  consts total=16
+  [1] str ""
+  [2] str "Get"
+  [3] str "Inventory"
+  [4] str "Loadout"
+  [5] str "typeof"

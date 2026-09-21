@@ -1,0 +1,82 @@
+PATH: ReplicatedStorage.Shared.Spring
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+K __index :table keys=12
+  {["setGoal"]=<function:function: 0xb9f20aa40f9c8dae>, ["setFrequency"]=<function:function: 0x28d4382c706fb169>, ["setDampingRatio"]=<function:function: 0xab03108df67ef602>, ["getGoal"]=<function:function: 0x2f68e3901d0f7981>, ["update"]=<function:function: 0xd2bb1b659eaef48b>, ["setPosition"]=<function:function: 0xd573bbc69d606bdc>, ["reset"]=<function:function: 0x3eebf513bd5cb7a6>, ["impulse"]=<function:function: 0x671e9aee72a5e438>, ["getPosition"]=<function:function: 0x0e430a360b37b62e>, ["getVelocity"]=<function:function: 0x2c5fddb99f5f949b>, ["__index"]=<cycle>, ["new"]=<function:function: 0xeb2b17c0d72aea68>}
+F getGoal
+  params=1 src=ReplicatedStorage.Shared.Spring:? cname=getGoal what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "g"
+F getPosition
+  params=1 src=ReplicatedStorage.Shared.Spring:? cname=getPosition what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "p"
+F getVelocity
+  params=1 src=ReplicatedStorage.Shared.Spring:? cname=getVelocity what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] number 0.2
+  [2] str "v"
+F impulse
+  params=2 src=ReplicatedStorage.Shared.Spring:? cname=impulse what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "v"
+  [2] number 0.2
+F new
+  params=3 src=ReplicatedStorage.Shared.Spring:? cname=new what=Lua protos=0[]
+  up1: table keys=12 {setGoal:function, setFrequency:function, setDampingRatio:function, getGoal:function, update:function, setPosition:function, reset:function, impulse:function, getPosition:function, getVelocity:function, __index:table, new:function}
+  up2: ERR
+  consts total=17
+  [1] str "type"
+F reset
+  params=2 src=ReplicatedStorage.Shared.Spring:? cname=reset what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "g"
+  [2] str "p"
+  [3] number 0
+  [4] str "v"
+F setDampingRatio
+  params=2 src=ReplicatedStorage.Shared.Spring:? cname=setDampingRatio what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "d"
+F setFrequency
+  params=2 src=ReplicatedStorage.Shared.Spring:? cname=setFrequency what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] number 0.2
+  [2] str "f"
+F setGoal
+  params=2 src=ReplicatedStorage.Shared.Spring:? cname=setGoal what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "g"
+F setPosition
+  params=2 src=ReplicatedStorage.Shared.Spring:? cname=setPosition what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "p"
+F update
+  params=2 src=ReplicatedStorage.Shared.Spring:? cname=update what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=exp what=C
+  up2: function params=0 src=[C]:? cname=sqrt what=C
+  up3: function params=0 src=[C]:? cname=cos what=C
+  up4: function params=0 src=[C]:? cname=sin what=C
+  up5: ERR
+  consts total=11
+  [1] str "d"
+  [2] number 3.141592653589793
+  [3] number 2
+  [4] str "f"
+  [5] str "g"
+  [6] str "p"
+  [7] str "v"
+  [8] number 1
+  [9] number 0.0001
+  [10] number 6
+  [11] number 20

@@ -1,0 +1,72 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Career.MatchDetails
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F ApplyStatus
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchDetails:? cname=ApplyStatus what=Lua protos=0[]
+  up1: ERR
+  consts total=15
+  [1] str "Color3"
+  [2] str "new"
+F Bind
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchDetails:? cname=Bind what=Lua protos=3[#1,#2,#3]
+  up1: userdata Details
+  up2: userdata InputBlocker
+  up3: userdata Scoreboard
+  up4: userdata Timeline
+  up5: userdata Peformance
+  up6: userdata Filters
+  up7: userdata Template
+  up8: userdata Template
+  up9: userdata Template
+  up10: userdata Template
+  up11: userdata DetailTemplate
+  up12: userdata FightTemplate
+  up13: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up14: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up15: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchDetails:? cname=SelectTab what=Lua
+  up16: table keys=5 {IsOpen:function, Bind:function, Close:function, Open:function, ApplyStatus:function}
+  up17: table keys=2 {Results1:userdata, Results2:userdata}
+  up18: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchDetails:? cname=BindColumnHeadings what=Lua
+  up19: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchDetails:? cname=BindRoundButtons what=Lua
+  up20: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchDetails:? cname=BindRoundArrows what=Lua
+  up21: table keys=12 {MatchLoaded:table, GetBucket:function, GetMatch:function, Changed:table, Listen:function, Buckets:table, RequestMatchDetails:function, Request:function, EconomyTiers:table, GetMatchDetails:function, IsLoaded:function, Get:function}
+  consts total=32
+  [1] str "Details"
+  [2] str "FindFirstChild"
+  [3] str "InputBlocker"
+  [4] str "GuiButton"
+  [5] str "IsA"
+  [6] str "Active"
+  [7] str "Visible"
+  [8] str "Scoreboard"
+  [9] str "Timeline"
+  [10] str "Peformance"
+  [11] str "Performance"
+  [12] str "Filters"
+  [13] str "Main"
+  [14] str "Template"
+  [15] str "EventLog"
+  [16] str "Player"
+  [17] str "Frame"
+  [18] str "DetailTemplate"
+  [19] str "FightTemplate"
+  [20] str "ipairs"
+F Close
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchDetails:? cname=Close what=Lua protos=0[]
+  up1: userdata Details
+  up2: userdata InputBlocker
+  consts total=1
+  [1] str "Visible"
+F IsOpen
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchDetails:? cname=IsOpen what=Lua protos=0[]
+  up1: userdata Details
+  up2: ERR
+  consts total=1
+  [1] str "Visible"
+F Open
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchDetails:? cname=Open what=Lua protos=0[]
+  up1: userdata Details
+  consts total=7
+  [1] str "table"
+  [2] str "clear"

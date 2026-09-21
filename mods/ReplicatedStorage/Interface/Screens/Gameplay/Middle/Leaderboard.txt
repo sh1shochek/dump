@@ -1,0 +1,158 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderboard
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+F CloseProfileInspect
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=CloseProfileInspect what=Lua protos=0[]
+  up1: userdata ProfileInspect
+  consts total=3
+  [1] str "Visible"
+  [2] str "Position"
+  [3] str "Reset"
+F GetInspectedPlayer
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=GetInspectedPlayer what=Lua protos=0[]
+  ups: none
+  consts total=0
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=Initialize what=Lua protos=8[#1,#2,#3,#4,#5,#6,#7,#8]
+  up1: userdata Leaderboard
+  up2: userdata ProfileInspect
+  up3: userdata {0.5, 0}, {0.534038782, 0}
+  up4: table keys=3 {Populate:function, Bind:function, Reset:function}
+  up5: userdata Connection
+  up6: userdata UserInputService
+  up7: boolean false
+  up8: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up9: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up10: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=updateGamemode what=Lua
+  up11: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=updateAliveCounts what=Lua
+  up12: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=applyLossBonusVisibility what=Lua
+  up13: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=applyLossBars what=Lua
+  up14: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=refreshResults what=Lua
+  up15: table keys=11 {IsRightClickUnlockActive:function, createTemplate:function, characterAdded:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, observePlayer:function, cleanup:function, GetInspectedPlayer:function, CloseProfileInspect:function}
+  up16: userdata Mateo_081005
+  up17: function params=1 src=ReplicatedStorage.Components.Common.GetTimerFormat:? what=Lua
+  up18: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=observeAliveCountPlayer what=Lua
+  up19: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up20: ERR
+  consts total=29
+  [1] str "ProfileInspect"
+  [2] str "FindFirstChild"
+  [3] str "Position"
+  [4] str "Visible"
+  [5] str "Bind"
+  [6] str "Disconnect"
+  [7] str "InputBegan"
+  [8] str "Connect"
+  [9] str "observeAttribute"
+  [10] str "workspace"
+  [11] userdata
+  [12] str "Gamemode"
+F IsRightClickUnlockActive
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=IsRightClickUnlockActive what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=Start what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=clearFrame what=Lua
+  up2: userdata Leaderboard
+  up3: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=updateAliveCounts what=Lua
+  up4: ERR
+  consts total=3
+  [1] str "Counter-Terrorists"
+  [2] str "WaitForChild"
+  [3] str "Terrorists"
+F characterAdded
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=characterAdded what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=11 {IsRightClickUnlockActive:function, createTemplate:function, characterAdded:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, observePlayer:function, cleanup:function, GetInspectedPlayer:function, CloseProfileInspect:function}
+  up4: userdata Leaderboard
+  up5: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, sifhasfhawkhghawgki:table, DGXXDFZS:table, Untez777:table, dazen_wewe:table}
+  up6: ERR
+  consts total=2
+  [1] str "scope"
+  [2] str "UI.Leaderboard.CharacterAdded"
+F cleanup
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=cleanup what=Lua protos=0[]
+  up1: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, sifhasfhawkhghawgki:table, DGXXDFZS:table, Untez777:table, dazen_wewe:table}
+  up2: ERR
+  consts total=1
+  [1] str "Destroy"
+F closeFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=closeFrame what=Lua protos=0[]
+  up1: userdata Leaderboard
+  up2: boolean false
+  up3: userdata ProfileInspect
+  consts total=5
+  [1] str "Visible"
+  [2] str "Position"
+  [3] str "Reset"
+  [4] str "setForceLockOverride"
+  [5] str "Leaderboard"
+F createTemplate
+  params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=createTemplate what=Lua protos=24[storeTransparencyRecursive,isTeammate,updateMoneyVisibility,#4,updateTeamColors,#6,#7,#8,#9,#10,#11,#12,#13,updateDeadSymbol,setupCharacterObserver,#16,#17,#18,#19,#20]
+  up1: userdata ReplicatedStorage
+  up2: function params=2 src=ReplicatedStorage.Components.Common.GetBadgeIcon:? what=Lua
+  up3: userdata Mateo_081005
+  up4: function params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=bindPlayerRowInteractions what=Lua
+  up5: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up6: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up7: userdata HttpService
+  up8: ERR
+  consts total=32
+  [1] str "Assets"
+  [2] str "UI"
+  [3] str "Leaderboard"
+  [4] str "Clone"
+  [5] str "Player"
+  [6] str "rbxthumb://type=AvatarHeadShot&id=%*&w=150&h=150"
+  [7] str "UserId"
+  [8] str "format"
+  [9] str "Image"
+  [10] str "PlayerName"
+  [11] str "%* (@%*)"
+  [12] str "DisplayName"
+  [13] str "Name"
+  [14] str "Text"
+  [15] str "Badge"
+  [16] str ""
+  [17] str "Visible"
+  [18] str "LayoutOrder"
+  [19] str "Assists"
+  [20] str "Amount"
+  [21] str "0"
+  [22] str "Deaths"
+  [23] str "Score"
+  [24] str "Kills"
+  [25] str "MVPs"
+  [26] str "Money"
+  [27] str "Ping"
+  [28] str "BackgroundTransparency"
+  [29] table
+  [30] str "GetChildren"
+  [31] str "Color3"
+  [32] str "fromRGB"
+F observePlayer
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=observePlayer what=Lua protos=1[#1]
+  up1: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up2: table keys=11 {IsRightClickUnlockActive:function, createTemplate:function, characterAdded:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, observePlayer:function, cleanup:function, GetInspectedPlayer:function, CloseProfileInspect:function}
+  up3: ERR
+  consts total=2
+  [1] str "observeAttribute"
+  [2] str "Team"
+F openFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Leaderbo:? cname=openFrame what=Lua protos=0[]
+  up1: table keys=6 {Begin:function, Initialize:function, ExitMapVoteToMenu:function, _runSequence:function, IsActive:function, _finishSequence:function}
+  up2: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up3: userdata Leaderboard
+  up4: table keys=11 {IsRightClickUnlockActive:function, createTemplate:function, characterAdded:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, observePlayer:function, cleanup:function, GetInspectedPlayer:function, CloseProfileInspect:function}
+  up5: boolean false
+  up6: ERR
+  consts total=5
+  [1] str "IsActive"
+  [2] str "GetState"
+  [3] str "Map Voting"
+  [4] str "Visible"
+  [5] str "closeFrame"

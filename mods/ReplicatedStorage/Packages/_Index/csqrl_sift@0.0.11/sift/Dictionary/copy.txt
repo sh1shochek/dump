@@ -1,0 +1,7 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dictionary.copy
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=[C]:? cname=clone what=C protos=ERR
+  up1: ERR
+  consts: ERR

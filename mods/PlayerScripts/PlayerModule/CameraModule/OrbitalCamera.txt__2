@@ -1,0 +1,114 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.OrbitalCamera
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+F CalculateNewLookVector
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CalculateNewLookVector what=Lua protos=0[]
+  up1: ERR
+  consts total=19
+  [1] str "GetCameraLookVector"
+  [2] str "Y"
+  [3] str "math"
+  [4] str "asin"
+F GetCameraToSubjectDistance
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetCameraToSubjectDistance what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "curDistance"
+F GetModuleName
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetModuleName what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "OrbitalCamera"
+F LoadNumberValueParameters
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=LoadNumberValueParameters what=Lua protos=0[]
+  up1: ERR
+  consts total=20
+  [1] str "InitialElevation"
+  [2] str "NumberValue"
+  [3] str "LoadOrCreateNumberValueParameter"
+  [4] str "InitialDistance"
+  [5] str "ReferenceAzimuth"
+  [6] str "SetAndBoundsCheckAzimuthValue"
+  [7] str "CWAzimuthTravel"
+  [8] str "SetAndBoundsCheckAzimuthValues"
+  [9] str "CCWAzimuthTravel"
+  [10] str "MinElevation"
+  [11] str "SetAndBoundsCheckElevationValues"
+  [12] str "MaxElevation"
+  [13] str "MinDistance"
+  [14] str "SetAndBoundsCheckDistanceValues"
+  [15] str "MaxDistance"
+  [16] str "UseAzimuthLimits"
+  [17] str "BoolValue"
+  [18] str "externalProperties"
+  [19] str "math"
+  [20] str "rad"
+F LoadOrCreateNumberValueParameter
+  params=4 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=LoadOrCreateNumberValueParameter what=Lua protos=1[#1]
+  up1: ERR
+  consts total=8
+  [1] str "script"
+F SetAndBoundsCheckAzimuthValues
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetAndBoundsCheckAzimuthValues what=Lua protos=0[]
+  up1: ERR
+  consts total=15
+  [1] str "ReferenceAzimuth"
+  [2] str "externalProperties"
+  [3] str "math"
+  [4] str "rad"
+F SetAndBoundsCheckDistanceValues
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetAndBoundsCheckDistanceValues what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "MinDistance"
+  [2] str "externalProperties"
+  [3] str "minDistance"
+  [4] str "MaxDistance"
+  [5] str "maxDistance"
+  [6] str "curDistance"
+  [7] str "math"
+  [8] str "max"
+F SetAndBoundsCheckElevationValues
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetAndBoundsCheckElevationValues what=Lua protos=0[]
+  up1: ERR
+  consts total=15
+  [1] str "MinElevation"
+  [2] str "externalProperties"
+  [3] number -80
+  [4] str "math"
+  [5] str "max"
+F SetCameraToSubjectDistance
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetCameraToSubjectDistance what=Lua protos=0[]
+  up1: userdata Players
+  up2: ERR
+  consts total=12
+  [1] str "LocalPlayer"
+  [2] str "minDistance"
+  [3] str "maxDistance"
+  [4] str "math"
+  [5] str "clamp"
+F SetInitialOrientation
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetInitialOrientation what=Lua protos=0[]
+  up1: table keys=18 {getLooseBoundingSphere:function, GamepadLinearToCurve:function, Spring:table, setRotationTypeOverride:function, restoreRotationType:function, Round:function, IsFinite:function, map:function, GetAngleBetweenXZVectors:function, ConvertCameraModeEnumToStandard:function, mapClamp:function, restoreMouseIcon:function, sanitizeAngle:function, restoreMouseBehavior:function, setMouseBehaviorOverride:function, RotateVectorByAngleAndRound:function, setMouseIconOverride:function, IsFiniteVector3:function}
+  up2: ERR
+  consts total=18
+  [1] str "RootPart"
+  [2] str "warn"
+F Update
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Update what=Lua protos=0[]
+  up1: table keys=15 {disableCameraToggleInput:function, getTogglePan:function, enableCameraToggleInput:function, getHoldPan:function, setTouchSensitivity:function, getZoomDelta:function, getInputEnabled:function, setTogglePan:function, getPanning:function, resetInputForFrameEnd:function, getRotationActivated:function, setInputEnabled:function, getRotation:function, addTouchMove:function, gamepadZoomPress:userdata}
+  up2: userdata Players
+  up3: ERR
+  consts total=24
+  [1] str "tick"
+K __index :table keys=13
+  {["SetAndBoundsCheckElevationValues"]=<function:function: 0x82263fe1dac1d067>, ["SetInitialOrientation"]=<function:function: 0x308220ab8ae44596>, ["LoadOrCreateNumberValueParameter"]=<function:function: 0x121ce55457ad0811>, ["LoadNumberValueParameters"]=<function:function: 0x81e2f68ed8e9db86>, ["Update"]=<function:function: 0x5df0eb717196dc26>, ["SetAndBoundsCheckAzimuthValues"]=<function:function: 0x68db00735a1fed0a>, ["GetCameraToSubjectDistance"]=<function:function: 0x8cdb39d6c0583780>, ["GetModuleName"]=<function:function: 0xd13f0f3e20bb7313>, ["CalculateNewLookVector"]=<function:function: 0x05d5779a8c11887a>, ["SetCameraToSubjectDistance"]=<function:function: 0xf538bc4a2f30d323>, ["SetAndBoundsCheckDistanceValues"]=<function:function: 0xb802a12e76cbf010>, ["__index"]=<cycle>, ["new"]=<function:function: 0x0e7e3a494be0a955>}
+F new
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=0[]
+  up1: table keys=47 {IsInFirstPerson:function, GetSubjectPosition:function, Enable:function, GetCameraHeight:function, GetBodyPartToFollow:function, GetIsMouseLocked:function, _setUpConfigurations:function, OnPlayerCameraPropertyChange:function, GetHumanoidRootPart:function, UpdateMouseBehavior:function, GetSubjectCFrame:function, GetCameraType:function, GetSubjectVelocity:function, CalculateNewLookVectorVRFromArg:function, GetModuleName:function, Update:function, OnCharacterAdded:function, GetCameraMovementMode:function, OnEnabledChanged:function, UpdateForDistancePropertyChange:function, CalculateNewLookVectorFromArg:function, SetMouseLockOffset:function, GetHumanoidPartToFollow:function, StepZoom:function, CalculateNewLookCFrameFromArg:function, GetCameraLookVector:function, SetCameraType:function, GetMeasuredDistanceToFocus:function, LeaveFirstPerson:function, __index:table, new:function, GetCameraToSubjectDistance:function, Cleanup:function, GetMouseLockOffset:function, GetSubjectRotVelocity:function, InFirstPerson:function, OnCurrentCameraChanged:function, GetHumanoid:function, SetIsMouseLocked:function, GetEnabled:function}
+  up2: table keys=13 {SetAndBoundsCheckElevationValues:function, SetInitialOrientation:function, LoadOrCreateNumberValueParameter:function, LoadNumberValueParameters:function, Update:function, SetAndBoundsCheckAzimuthValues:function, GetCameraToSubjectDistance:function, GetModuleName:function, CalculateNewLookVector:function, SetCameraToSubjectDistance:function, SetAndBoundsCheckDistanceValues:function, __index:table, new:function}
+  up3: ERR
+  consts total=32
+  [1] str "new"
+  [2] str "setmetatable"

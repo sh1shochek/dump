@@ -1,0 +1,145 @@
+PATH: ReplicatedStorage.Classes.Character.Classes.CharacterAnimator
+REQUIRE: ok
+RETURNS: table
+KEYS: 17
+K __index :table keys=17
+  {["unregister"]=<function:function: 0x6c133ba53f6f1379>, ["register"]=<function:function: 0x45e59027dc4ec805>, ["ownsTrack"]=<function:function: 0xfbe67aab7c6ada13>, ["__index"]=<cycle>, ["new"]=<function:function: 0xe28c0cdf63cd9095>, ["destroy"]=<function:function: 0x5261afd73b35b19b>, ["stopAnimations"]=<function:function: 0x0345678d94d5356b>, ["unregisterGroup"]=<function:function: 0xdad6f1f45e49fc40>, ["updateLocomotion"]=<function:function: 0x6e50f6b8d2377065>, ["isLocomotionTrack"]=<function:function: 0x1189534c1a9f6371>, ["setWeapon"]=<function:function: 0xc65df5136c14eaed>, ["stop"]=<function:function: 0x1820f491b097fd21>, ["adjustAnimationSpeed"]=<function:function: 0x00e0308b0f9169a8>, ["getAnimation"]=<function:function: 0xd3707b4aa143422f>, ["playAction"]=<function:function: 0xa42988d1c4c5683d>, ["noteJumpEvent"]=<function:function: 0xfd3b7dc2c8d69cca>, ["play"]=<function:function: 0x015f4a45d7d44c75>}
+F adjustAnimationSpeed
+  params=3 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=adjustAnimationSpeed what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "Animations"
+  [2] str "Length"
+  [3] str "AdjustSpeed"
+F destroy
+  params=1 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=15
+  [1] str "IsDestroyed"
+  [2] str "pairs"
+F getAnimation
+  params=2 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=getAnimation what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "Animations"
+F isLocomotionTrack
+  params=2 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=isLocomotionTrack what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=getMovementAnimationNames what=Lua
+  up2: ERR
+  consts total=3
+  [1] str "Animation"
+  [2] str "AnimationId"
+  [3] str "Animations"
+F new
+  params=2 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=new what=Lua protos=0[]
+  up1: table keys=17 {unregister:function, register:function, ownsTrack:function, __index:table, new:function, destroy:function, stopAnimations:function, unregisterGroup:function, updateLocomotion:function, isLocomotionTrack:function, setWeapon:function, stop:function, adjustAnimationSpeed:function, getAnimation:function, playAction:function, noteJumpEvent:function, play:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up4: userdata CharacterAnimations
+  up5: ERR
+  consts total=34
+  [1] str "setmetatable"
+F noteJumpEvent
+  params=1 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=noteJumpEvent what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=stopMovementAnimations what=Lua
+  up2: ERR
+  consts total=10
+  [1] str "IsDestroyed"
+  [2] str "Jump"
+  [3] str "Animations"
+  [4] str "Looped"
+  [5] str "IsPlaying"
+  [6] number 0.2
+  [7] str "play"
+  [8] str "IsJumping"
+  [9] str "CurrentMovementAnimation"
+  [10] str "LastMovementAnimationSpeed"
+F ownsTrack
+  params=2 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=ownsTrack what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "Animations"
+F play
+  params=2 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=play what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "Animations"
+  [2] str "CurrentAnimation"
+  [3] str "Play"
+F playAction
+  params=2 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=playAction what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=stopActionAnimations what=Lua
+  up2: function params=2 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=resolveActionAnimationName what=Lua
+  up3: ERR
+  consts total=18
+  [1] str "typeof"
+F register
+  params=3 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=register what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "Animator"
+  [2] str "unregister"
+  [3] str "pcall"
+F setWeapon
+  params=4 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=setWeapon what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up2: ERR
+  consts total=22
+  [1] str "WeaponName"
+  [2] str "WeaponIdentifier"
+  [3] str "Idle"
+  [4] str "Animations"
+  [5] str "IsPlaying"
+  [6] str "Play"
+  [7] str "pairs"
+F stop
+  params=2 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=stop what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "Animations"
+  [2] str "IsPlaying"
+  [3] str "Stop"
+F stopAnimations
+  params=2 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=stopAnimations what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "pairs"
+F unregister
+  params=2 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=unregister what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "Animations"
+  [2] str "IsPlaying"
+  [3] str "Stop"
+  [4] str "WeaponAnimationNames"
+  [5] str "Destroy"
+F unregisterGroup
+  params=1 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=unregisterGroup what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "ipairs"
+F updateLocomotion
+  params=6 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=updateLocomotion what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=stopMovementAnimations what=Lua
+  up2: function params=2 src=ReplicatedStorage.Classes.Character.Classes.CharacterAnimato:? cname=getMovementAnimationFromVelocity what=Lua
+  up3: ERR
+  consts total=24
+  [1] str "Jump"
+  [2] str "Animations"
+  [3] str "Looped"
+  [4] str "IsPlaying"
+  [5] number 0.2
+  [6] str "play"
+  [7] str "IsJumping"
+  [8] str "CurrentMovementAnimation"
+  [9] str "LastMovementAnimationSpeed"
+  [10] str "stop"
+  [11] vector
+  [12] str "Magnitude"
+  [13] str "CrouchIdle"
+  [14] number 0.1
+  [15] str "Crouch%*"
+  [16] str "format"
+  [17] str "CharacterIdle"
+  [18] str "math"
+  [19] str "abs"

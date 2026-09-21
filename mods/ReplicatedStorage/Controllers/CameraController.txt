@@ -1,0 +1,247 @@
+PATH: ReplicatedStorage.Controllers.CameraController
+REQUIRE: ok
+RETURNS: table
+KEYS: 24
+F BombExploded
+  params=1 src=ReplicatedStorage.Controllers.CameraController:? cname=BombExploded what=Lua protos=1[#1]
+  up1: table keys=0 {}
+  up2: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up3: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up4: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up5: ERR
+  consts total=20
+  [1] str "pairs"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=Initialize what=Lua protos=7[#1,#2,#3,#4,#5,#6,#7]
+  up1: userdata ReplicatedStorage
+  up2: table keys=7 {Initialize:function, GetRecoilAssistMultiplier:function, GetBestTarget:function, IsEnabled:function, GetFrictionMultiplier:function, SetEnabled:function, GetMagnetismRotation:function}
+  up3: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up4: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up5: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up6: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up7: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up8: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up9: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up10: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up11: boolean true
+  up12: userdata Camera
+  up13: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up14: userdata Mateo_081005
+  up15: userdata 88.1435089, 5.89463186, 92.4470749, -0.612331212, -0.204622671, 0.763662219, 0, 
+  up16: function params=1 src=ReplicatedStorage.Controllers.CameraController:? cname=getCameraCFrame what=Lua
+  up17: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up18: table keys=0 {}
+  up19: boolean false
+  up20: userdata UserInputService
+  up21: userdata MainGui
+  up22: ERR
+  consts total=32
+  [1] str "pcall"
+F IsEnabled
+  params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=IsEnabled what=Lua protos=0[]
+  up1: boolean true
+  up2: ERR
+  consts total=0
+F OnLanded
+  params=2 src=ReplicatedStorage.Controllers.CameraController:? cname=OnLanded what=Lua protos=1[#1]
+  up1: number 0
+  up2: number 0
+  up3: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up4: ERR
+  consts total=27
+  [1] str "tick"
+F SetEnabled
+  params=1 src=ReplicatedStorage.Controllers.CameraController:? cname=SetEnabled what=Lua protos=0[]
+  up1: boolean true
+  up2: userdata 88.1435089, 5.89463186, 92.4470749, -0.612331212, -0.204622671, 0.763662219, 0, 
+  up3: ERR
+  consts total=0
+F Start
+  params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=Start what=Lua protos=3[#1,#2,#3]
+  up1: userdata ReplicatedStorage
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: userdata Mateo_081005
+  up4: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up5: table keys=24 {GAMEMODE_SUBPLACE_IDS:table, ADMINISTRATOR_FINISHER_WHITELIST:table, SHOP_VERSION:string, PRODUCTION_UNIVERSE_ID:number, ITEM_CATEGORIES:table, AIM_ASSIST_CONFIGS:table, VERSION:string, GAMEMODE_PLACE_IDS:table, MARKET_TAX_PERCENT:number, GetGamemodeFromServerGamemode:function, ACTIVE_EVENTS:table, ACTIVE_PLACE_ENVIRONMENT:string, ACTIVE_GAMEMODE_SUBPLACE_IDS:table, EVENT_END_TIMES:table, TRADING_PLACE_ID:number, VIP_MENU_PANEL_WHITELIST:table, PROMOTIONAL_REWARD_CREDITS:table, AIM_ASSIST_WHITELIST:table, INVENTORY_SORTING_OPTIONS:table, MARKETPLACE_SORTING_OPTIONS:table, SESSION_DATA:table, DEFAULT_CAMERA_FOV:number, MARKETPLACE_MAX_LISTING_PRICE:number, MINIMUM_CREDITS_FOR_SPECIAL_CREDITS_OPTI:number}
+  up6: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up7: number 1
+  up8: number 1.0000464107602365
+  up9: function params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=getCameraInput what=Lua
+  up10: number 0.5
+  up11: ERR
+  consts total=13
+  [1] str "require"
+F StateChanged
+  params=2 src=ReplicatedStorage.Controllers.CameraController:? cname=StateChanged what=Lua protos=0[]
+  up1: number 0
+  up2: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up3: ERR
+  consts total=10
+  [1] str "tick"
+F clampFOV
+  params=1 src=ReplicatedStorage.Controllers.CameraController:? cname=clampFOV what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "math"
+  [2] str "clamp"
+F getTargetFOV
+  params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=getTargetFOV what=Lua protos=0[]
+  up1: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up2: ERR
+  consts total=3
+  [1] str "getGoal"
+  [2] str "math"
+  [3] str "clamp"
+F getWeaponKickRotation
+  params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=getWeaponKickRotation what=Lua protos=0[]
+  up1: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up2: ERR
+  consts total=1
+  [1] str "getPosition"
+F getWeaponRecoil
+  params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=getWeaponRecoil what=Lua protos=0[]
+  up1: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up2: ERR
+  consts total=1
+  [1] str "getPosition"
+F isFOVLocked
+  params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=isFOVLocked what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: ERR
+  consts total=1
+  [1] str "next"
+F isForceLockOverrideActive
+  params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=isForceLockOverrideActive what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: ERR
+  consts total=1
+  [1] str "next"
+F resetForceLockOverride
+  params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=resetForceLockOverride what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: boolean false
+  up3: userdata UserInputService
+  up4: userdata MainGui
+  up5: ERR
+  consts total=10
+  [1] str "table"
+  [2] str "clear"
+F resetWeaponRecoil
+  params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=resetWeaponRecoil what=Lua protos=0[]
+  up1: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up2: number 0.5
+  up3: ERR
+  consts total=2
+  [1] vector
+  [2] str "reset"
+F setFOVLock
+  params=3 src=ReplicatedStorage.Controllers.CameraController:? cname=setFOVLock what=Lua protos=0[]
+  up1: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up2: table keys=0 {}
+  up3: ERR
+  consts total=7
+  [1] str "getGoal"
+  [2] str "math"
+  [3] str "clamp"
+F setForceLockOverride
+  params=2 src=ReplicatedStorage.Controllers.CameraController:? cname=setForceLockOverride what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: boolean false
+  up3: userdata UserInputService
+  up4: userdata MainGui
+  up5: ERR
+  consts total=11
+  [1] str "next"
+F setMouseEnabled
+  params=1 src=ReplicatedStorage.Controllers.CameraController:? cname=setMouseEnabled what=Lua protos=0[]
+  up1: boolean false
+  up2: table keys=0 {}
+  up3: userdata UserInputService
+  up4: userdata MainGui
+  up5: ERR
+  consts total=11
+  [1] str "next"
+F setPerspective
+  params=3 src=ReplicatedStorage.Controllers.CameraController:? cname=setPerspective what=Lua protos=0[]
+  up1: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up2: userdata Mateo_081005
+  up3: ERR
+  consts total=10
+  [1] number 5
+  [2] str "setMouseEnabled"
+  [3] str "CameraMaxZoomDistance"
+  [4] str "CameraMinZoomDistance"
+  [5] str "Enum"
+  [6] str "CameraMode"
+  [7] str "LockFirstPerson"
+  [8] userdata
+  [9] str "Classic"
+  [10] userdata
+F setWeaponRecoil
+  params=2 src=ReplicatedStorage.Controllers.CameraController:? cname=setWeaponRecoil what=Lua protos=0[]
+  up1: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up2: number 0.5
+  up3: ERR
+  consts total=6
+  [1] str "Damper"
+  [2] str "setDampingRatio"
+  [3] str "Speed"
+  [4] str "setFrequency"
+  [5] str "Value"
+  [6] str "setGoal"
+F toWeaponFirePosition
+  params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=toWeaponFirePosition what=Lua protos=0[]
+  up1: userdata 88.1435089, 5.89463186, 92.4470749, -0.612331212, -0.204622671, 0.763662219, 0, 
+  up2: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up3: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up4: userdata Camera
+  up5: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up6: function params=1 src=ReplicatedStorage.Controllers.CameraController:? cname=getCameraCFrame what=Lua
+  up7: ERR
+  consts total=4
+  [1] vector
+  [2] str "reset"
+  [3] str "CFrame"
+  [4] str "updateCamera"
+F updateCamera
+  params=1 src=ReplicatedStorage.Controllers.CameraController:? cname=updateCamera what=Lua protos=1[#1]
+  up1: table keys=0 {}
+  up2: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up3: userdata Camera
+  up4: table keys=24 {GAMEMODE_SUBPLACE_IDS:table, ADMINISTRATOR_FINISHER_WHITELIST:table, SHOP_VERSION:string, PRODUCTION_UNIVERSE_ID:number, ITEM_CATEGORIES:table, AIM_ASSIST_CONFIGS:table, VERSION:string, GAMEMODE_PLACE_IDS:table, MARKET_TAX_PERCENT:number, GetGamemodeFromServerGamemode:function, ACTIVE_EVENTS:table, ACTIVE_PLACE_ENVIRONMENT:string, ACTIVE_GAMEMODE_SUBPLACE_IDS:table, EVENT_END_TIMES:table, TRADING_PLACE_ID:number, VIP_MENU_PANEL_WHITELIST:table, PROMOTIONAL_REWARD_CREDITS:table, AIM_ASSIST_WHITELIST:table, INVENTORY_SORTING_OPTIONS:table, MARKETPLACE_SORTING_OPTIONS:table, SESSION_DATA:table, DEFAULT_CAMERA_FOV:number, MARKETPLACE_MAX_LISTING_PRICE:number, MINIMUM_CREDITS_FOR_SPECIAL_CREDITS_OPTI:number}
+  up5: number 1
+  up6: number 0.5
+  up7: table keys=7 {Initialize:function, GetRecoilAssistMultiplier:function, GetBestTarget:function, IsEnabled:function, GetFrictionMultiplier:function, SetEnabled:function, GetMagnetismRotation:function}
+  up8: userdata ReplicatedStorage
+  up9: number 1.0000464107602365
+  up10: userdata UserInputService
+  up11: number 1.0000464107602365
+  up12: function params=0 src=ReplicatedStorage.Controllers.CameraController:? cname=getCameraInput what=Lua
+  up13: function params=1 src=ReplicatedStorage.Controllers.CameraController:? cname=getCameraCFrame what=Lua
+  up14: userdata Mateo_081005
+  up15: ERR
+  consts total=43
+  [1] str "pairs"
+F updateCameraFOV
+  params=1 src=ReplicatedStorage.Controllers.CameraController:? cname=updateCameraFOV what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up3: ERR
+  consts total=6
+  [1] str "pairs"
+F weaponKick
+  params=2 src=ReplicatedStorage.Controllers.CameraController:? cname=weaponKick what=Lua protos=0[]
+  up1: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up2: table keys=5 {p:vector, v:vector, d:number, g:vector, f:number}
+  up3: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up4: ERR
+  consts total=9
+  [1] str "Damper"
+  [2] str "setDampingRatio"
+  [3] str "Speed"
+  [4] str "setFrequency"
+  [5] number 1
+  [6] number 0.017453292519943295
+  [7] str "Value"
+  [8] str "setPosition"
+  [9] str "updateCamera"

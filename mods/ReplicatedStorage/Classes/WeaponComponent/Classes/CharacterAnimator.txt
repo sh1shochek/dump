@@ -1,0 +1,54 @@
+PATH: ReplicatedStorage.Classes.WeaponComponent.Classes.CharacterAnimator
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+K __index :table keys=8
+  {["destroy"]=<function:function: 0xd2552f51b3b7507a>, ["play"]=<function:function: 0x444c0fd4a52920f5>, ["stop"]=<function:function: 0x2bb340e61855fe65>, ["stopAnimations"]=<function:function: 0xc7ae63374b927245>, ["getAnimation"]=<function:function: 0x6a52a9e73c6fdd1f>, ["adjustAnimationSpeed"]=<function:function: 0xf5fafc8a9854c38c>, ["__index"]=<cycle>, ["new"]=<function:function: 0x81de7b9036d8634c>}
+F adjustAnimationSpeed
+  params=3 src=ReplicatedStorage.Classes.WeaponComponent.Classes.CharacterA:? cname=adjustAnimationSpeed what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "_animator"
+  [2] str "adjustAnimationSpeed"
+F destroy
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.CharacterA:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "IsDestroyed"
+  [2] str "_animator"
+  [3] str "destroy"
+  [4] str "Animations"
+  [5] str "Janitor"
+  [6] str "Destroy"
+F getAnimation
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.CharacterA:? cname=getAnimation what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "Animations"
+F new
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.CharacterA:? cname=new what=Lua protos=1[#1]
+  up1: table keys=8 {destroy:function, play:function, stop:function, stopAnimations:function, getAnimation:function, adjustAnimationSpeed:function, __index:table, new:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up4: function params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.CharacterA:? cname=bind what=Lua
+  up5: ERR
+  consts total=11
+  [1] str "setmetatable"
+F play
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.CharacterA:? cname=play what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "_animator"
+  [2] str "play"
+F stop
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.CharacterA:? cname=stop what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "_animator"
+  [2] str "stop"
+F stopAnimations
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.CharacterA:? cname=stopAnimations what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "_animator"
+  [2] str "stopAnimations"

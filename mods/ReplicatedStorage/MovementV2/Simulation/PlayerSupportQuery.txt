@@ -1,0 +1,61 @@
+PATH: ReplicatedStorage.MovementV2.Simulation.PlayerSupportQuery
+REQUIRE: ok
+RETURNS: table
+KEYS: 9
+F CanMove
+  params=7 src=ReplicatedStorage.MovementV2.Simulation.PlayerSupportQuery:? cname=CanMove what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Base"
+  [2] str "CanMove"
+F FindGround
+  params=6 src=ReplicatedStorage.MovementV2.Simulation.PlayerSupportQuery:? cname=FindGround what=Lua protos=0[]
+  up1: function params=4 src=ReplicatedStorage.MovementV2.Simulation.PlayerSupportQuery:? cname=playerGround what=Lua
+  up2: ERR
+  consts total=2
+  [1] str "Base"
+  [2] str "FindGround"
+F FindLadder
+  params=5 src=ReplicatedStorage.MovementV2.Simulation.PlayerSupportQuery:? cname=FindLadder what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Base"
+  [2] str "FindLadder"
+F FindPlayerGround
+  params=4 src=ReplicatedStorage.MovementV2.Simulation.PlayerSupportQuery:? cname=FindPlayerGround what=Lua protos=0[]
+  up1: function params=4 src=ReplicatedStorage.MovementV2.Simulation.PlayerSupportQuery:? cname=playerGround what=Lua
+  up2: ERR
+  consts total=0
+F IsClear
+  params=4 src=ReplicatedStorage.MovementV2.Simulation.PlayerSupportQuery:? cname=IsClear what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Base"
+  [2] str "IsClear"
+F Sweep
+  params=7 src=ReplicatedStorage.MovementV2.Simulation.PlayerSupportQuery:? cname=Sweep what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Base"
+  [2] str "Sweep"
+F SweepWithFloorSupport
+  params=7 src=ReplicatedStorage.MovementV2.Simulation.PlayerSupportQuery:? cname=SweepWithFloorSupport what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Base"
+  [2] str "SweepWithFloorSupport"
+K __index :table keys=9
+  {["FindLadder"]=<function:function: 0x241f4409d202f061>, ["Sweep"]=<function:function: 0x320d8f3c4f1470fe>, ["FindGround"]=<function:function: 0xd4f39b6a3c62b3d1>, ["SweepWithFloorSupport"]=<function:function: 0x75ba1b2eebca7582>, ["IsClear"]=<function:function: 0xcc444542aa9ff593>, ["FindPlayerGround"]=<function:function: 0x1f6198b67c799046>, ["CanMove"]=<function:function: 0x563a23111bfbf6cf>, ["__index"]=<cycle>, ["new"]=<function:function: 0xce2b13e6b0820489>}
+F new
+  params=4 src=ReplicatedStorage.MovementV2.Simulation.PlayerSupportQuery:? cname=new what=Lua protos=0[]
+  up1: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up2: table keys=9 {FindLadder:function, Sweep:function, FindGround:function, SweepWithFloorSupport:function, IsClear:function, FindPlayerGround:function, CanMove:function, __index:table, new:function}
+  up3: ERR
+  consts total=15
+  [1] str "Kind"
+  [2] str "SupportKind"
+  [3] str "Player"
+  [4] str "SourceId"
+  [5] number 0
+  [6] str "player support query requires player ground"
+  [7] str "assert"

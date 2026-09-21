@@ -1,0 +1,36 @@
+PATH: ReplicatedStorage.MovementV2.MoverDescriptorCodec
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K DescriptorWireSize :number = 193
+K MaxDescriptorCount :number = 64
+F canonicalize
+  params=1 src=ReplicatedStorage.MovementV2.MoverDescriptorCodec:? cname=canonicalize what=Lua protos=0[]
+  up1: table keys=6 {writeValidated:function, MaxDescriptorCount:number, DescriptorWireSize:number, canonicalize:function, validateList:function, readList:function}
+  up2: ERR
+  consts total=6
+  [1] str "validateList"
+  [2] str "buffer"
+  [3] str "create"
+F readList
+  params=3 src=ReplicatedStorage.MovementV2.MoverDescriptorCodec:? cname=readList what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.MoverDescriptorCodec:? cname=readCFrame what=Lua
+  up2: table keys=6 {writeValidated:function, MaxDescriptorCount:number, DescriptorWireSize:number, canonicalize:function, validateList:function, readList:function}
+  up3: ERR
+  consts total=52
+  [1] str "buffer"
+  [2] str "len"
+F validateList
+  params=2 src=ReplicatedStorage.MovementV2.MoverDescriptorCodec:? cname=validateList what=Lua protos=0[]
+  up1: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up2: function params=1 src=ReplicatedStorage.MovementV2.MoverDescriptorCodec:? cname=cframeFitsF32 what=Lua
+  up3: ERR
+  consts total=21
+  [1] str "type"
+F writeValidated
+  params=3 src=ReplicatedStorage.MovementV2.MoverDescriptorCodec:? cname=writeValidated what=Lua protos=0[]
+  up1: ERR
+  consts total=40
+  [1] str "Id"
+  [2] str "buffer"
+  [3] str "writeu32"

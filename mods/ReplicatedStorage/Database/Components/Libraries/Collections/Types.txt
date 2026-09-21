@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Database.Components.Libraries.Collections.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

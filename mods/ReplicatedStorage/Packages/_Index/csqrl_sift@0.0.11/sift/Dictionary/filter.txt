@@ -1,0 +1,9 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dictionary.filter
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=filter what=Lua protos=0[]
+  up1: table keys=3 {equalObjects:function, isEmpty:function, func:table}
+  up2: ERR
+  consts total=6
+  [1] str "type"

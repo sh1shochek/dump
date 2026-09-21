@@ -1,0 +1,65 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.HoverBomb
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F GetHoverState
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.HoverBom:? cname=GetHoverState what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: userdata CollectionService
+  consts total=11
+  [1] str "Team"
+  [2] str "GetAttribute"
+  [3] str "Counter-Terrorists"
+  [4] str "Bomb"
+  [5] str "GetTagged"
+  [6] str "Defused"
+  [7] str "Exploding"
+  [8] str "Exploded"
+  [9] str "IsDefusingBomb"
+  [10] str "CanDefuse"
+  [11] str "IsGettingDefused"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.HoverBom:? cname=Initialize what=Lua protos=7[UpdateFrameText,#2,#3,#4,#5,#6,#7]
+  up1: userdata HoverBomb
+  consts total=41
+  [1] str "Hold to Defuse"
+  [2] str "Text"
+  [3] str "GetActionKeybind"
+  [4] str "Use"
+  [5] str "[%*] Defuse Bomb"
+  [6] str "E"
+  [7] str "Enum%.KeyCode%."
+  [8] str ""
+  [9] str "gsub"
+  [10] str "Enum%.UserInputType%."
+  [11] str "Enum%.CustomInputType%."
+  [12] str "format"
+  [13] str "CreateListener"
+  [14] str "Settings.Keyboard/Mouse"
+  [15] str "Dead"
+  [16] str "GetAttributeChangedSignal"
+  [17] str "Connect"
+  [18] str "CharacterRemoving"
+  [19] str "workspace"
+  [20] userdata
+  [21] str "Gamemode"
+  [22] str "Team"
+  [23] str "CharacterAdded"
+  [24] str "Bomb"
+  [25] str "GetInstanceAddedSignal"
+  [26] str "GetInstanceRemovedSignal"
+  [27] str "GetAttribute"
+  [28] str "Bomb Defusal"
+  [29] str "Counter-Terrorists"
+  [30] str "GetTagged"
+  [31] str "Defused"
+  [32] str "Exploding"
+  [33] str "Exploded"
+  [34] str "BindToHeartbeat"
+  [35] str "UI.HoverBomb.Update"
+  [36] str "Visible"
+  [37] str "broadcastRouter"
+  [38] str "Cancel Defuse Bomb"
+  [39] str "Disconnect"
+  [40] str "TouchStarted"
+  [41] str "TouchEnded"

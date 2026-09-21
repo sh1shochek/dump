@@ -1,0 +1,82 @@
+PATH: ReplicatedStorage.MovementV2.Collision.BrushHullBuilder
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F BuildHullRecord
+  params=3 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=BuildHullRecord what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=findShapeForInstance what=Lua
+  up2: table keys=2 {GetCFrame:function, Get:function}
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=isAxisAlignedBlockPart what=Lua
+  up4: function params=4 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=buildAxisAlignedBlockHullRecord what=Lua
+  up5: function params=4 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=buildOrientedBlockHullRecord what=Lua
+  up6: function params=5 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=buildLocalPrimitiveHullRecord what=Lua
+  up7: function params=4 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=buildExpandedPoints what=Lua
+  up8: function params=2 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=buildPlanesForPoints what=Lua
+  up9: function params=1 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=findPointBounds what=Lua
+  up10: userdata CollectionService
+  up11: ERR
+  consts total=39
+  [1] str "Get"
+  [2] str "CFrame"
+  [3] str "Enum"
+  [4] str "PartType"
+  [5] str "Block"
+  [6] userdata
+  [7] str "Cylinder"
+  [8] userdata
+  [9] str "Wedge"
+  [10] userdata
+  [11] str "CornerWedge"
+  [12] userdata
+  [13] str "Size"
+  [14] str "instance"
+  [15] str "climbable"
+  [16] str "buildMode"
+  [17] str "primitiveQuickHull"
+  [18] str "sourceClassName"
+  [19] str "sourceShape"
+  [20] str "sourceCFrame"
+  [21] str "sourceSize"
+  [22] str "canonicalGeometryDescriptor"
+  [23] str "canonicalGeometryPublished"
+  [24] str "surfaceVelocity"
+  [25] vector
+  [26] str "surfaceFriction"
+  [27] str "hull"
+  [28] str "points"
+  [29] str "aabbMin"
+  [30] str "aabbMax"
+  [31] table
+  [32] str "Climbable"
+  [33] str "GetAttribute"
+  [34] str "Ladder"
+  [35] str "HasTag"
+  [36] str "ClassName"
+  [37] str "Name"
+  [38] str "Descriptor"
+  [39] str "Published"
+F BuildMergedHullRecord
+  params=3 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=BuildMergedHullRecord what=Lua protos=0[]
+  up1: table keys=2 {GetCFrame:function, Get:function}
+  up2: function params=1 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=buildWorldPointsForInstances what=Lua
+  up3: function params=5 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=buildLocalHullMinkowskiPlanes what=Lua
+  up4: function params=2 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=buildExpandedPointsForInstances what=Lua
+  up5: function params=1 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=findPointBounds what=Lua
+  up6: userdata CollectionService
+  up7: ERR
+  consts total=40
+  [1] str "A merged movement hull requires at least two parts"
+  [2] str "assert"
+F FindMergedPartGroups
+  params=1 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=FindMergedPartGroups what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=findShapeForInstance what=Lua
+  up2: userdata CollectionService
+  up3: table keys=2 {GetCFrame:function, Get:function}
+  up4: function params=2 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=buildWorldAabb what=Lua
+  up5: function params=2 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=hasCompatibleOrientation what=Lua
+  up6: function params=4 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=aabbsTouch what=Lua
+  up7: function params=1 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=componentContainsRampShape what=Lua
+  up8: function params=1 src=ReplicatedStorage.MovementV2.Collision.BrushHullBuilder:? cname=componentIsNarrowStrip what=Lua
+  up9: ERR
+  consts total=32
+  [1] str "ipairs"

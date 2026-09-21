@@ -1,0 +1,20 @@
+PATH: ReplicatedStorage.Database.Audio.Terrorists
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+K Death :table keys=2
+  {["Properties"]={["Volume"]=1.1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=79494830572923}}
+K Planting bomb :table keys=2
+  {["Properties"]={["Volume"]=1.25, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=115140779482842, [2]=88634080120233}}
+K Throwing Decoy Grenade :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=120361810997490, [2]=71431959853004}}
+K Throwing Flashbang :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=100233273666271, [2]=98456275706455}}
+K Throwing HE Grenade :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=111954056952523, [2]=128099708243009}}
+K Throwing Incendiary Grenade :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=95908032396502}}
+K Throwing Molotov :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=84829160150572}}
+K Throwing Smoke Grenade :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=135058881646144, [2]=86027329305419}}

@@ -1,0 +1,11 @@
+PATH: ReplicatedStorage.Components.Common.GetResolvedSkinInformation
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=2 src=ReplicatedStorage.Components.Common.GetResolvedSkinInformati:? what=Lua protos=0[]
+  up1: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up2: function params=1 src=ReplicatedStorage.Components.Common.GetResolvedSkinInformati:? cname=CreateFallbackStockInformation what=Lua
+  up3: ERR
+  consts total=2
+  [1] str "GetSkinInformation"
+  [2] str "Stock"

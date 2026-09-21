@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.Grenade.Executions.Decoy Grenade
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=3 src=ReplicatedStorage.Controllers.Observers.Game.Grenade.Executi:? what=Lua protos=1[#1]
+  up1: ERR
+  consts total=15
+  [1] str "ipairs"

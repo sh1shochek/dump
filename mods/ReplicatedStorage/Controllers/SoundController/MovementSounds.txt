@@ -1,0 +1,72 @@
+PATH: ReplicatedStorage.Controllers.SoundController.MovementSounds
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F Destroy
+  params=1 src=ReplicatedStorage.Controllers.SoundController.MovementSounds:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Janitor"
+  [2] str "Destroy"
+F SetCharacter
+  params=2 src=ReplicatedStorage.Controllers.SoundController.MovementSounds:? cname=SetCharacter what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up3: ERR
+  consts total=17
+  [1] str "Janitor"
+  [2] str "Cleanup"
+  [3] str "CurrentFootstepSound"
+  [4] str "Playing"
+  [5] str "Stop"
+  [6] str "CurrentFloorMaterial"
+  [7] str "PrimaryPart"
+  [8] number 0.25
+  [9] str "TimePassed"
+  [10] str "Character"
+  [11] str "IsAirborne"
+  [12] str "AirborneStartTime"
+  [13] str "PeakAirborneVelocityY"
+  [14] str "getRootPart"
+  [15] str "Parent"
+  [16] str "resolve"
+  [17] str "tick"
+F Update
+  params=3 src=ReplicatedStorage.Controllers.SoundController.MovementSounds:? cname=Update what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up3: function params=3 src=ReplicatedStorage.Controllers.SoundController.MovementSounds:? cname=GetFloorMaterial what=Lua
+  up4: function params=3 src=ReplicatedStorage.Controllers.SoundController.MovementSounds:? cname=PlayJumpSound what=Lua
+  up5: function params=4 src=ReplicatedStorage.Controllers.SoundController.MovementSounds:? cname=PlayLandingSound what=Lua
+  up6: table keys=6 {IsFlashed:function, CancelFlash:function, OnFlashRecoveryStarted:table, GetAudioFadeMultiplier:function, Flash:function, OnFlashCleared:table}
+  up7: function params=3 src=ReplicatedStorage.Controllers.SoundController.MovementSounds:? cname=PlayFootstepSound what=Lua
+  up8: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up9: ERR
+  consts total=32
+  [1] str "PrimaryPart"
+  [2] str "Character"
+  [3] str "Player"
+  [4] str "Parent"
+  [5] str "isAliveCharacter"
+  [6] str "IsLocalPlayer"
+  [7] str "Position"
+  [8] str "X"
+  [9] str "Y"
+  [10] str "Z"
+  [11] str "IsAirborne"
+  [12] str "AirborneStartTime"
+  [13] str "PeakAirborneVelocityY"
+  [14] str "CurrentFloorMaterial"
+  [15] str "tick"
+K __index :table keys=5
+  {["Destroy"]=<function:function: 0xb104a18693cd14de>, ["SetCharacter"]=<function:function: 0x31e57de8a7a4de1b>, ["Update"]=<function:function: 0x975270a733d32ca4>, ["__index"]=<cycle>, ["new"]=<function:function: 0x291115fad43cb963>}
+F new
+  params=1 src=ReplicatedStorage.Controllers.SoundController.MovementSounds:? cname=new what=Lua protos=0[]
+  up1: table keys=5 {Destroy:function, SetCharacter:function, Update:function, __index:table, new:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: userdata Mateo_081005
+  up4: table keys=4 {Janitor:table, SoundGroupName:string, Sounds:userdata, IsDestroyed:boolean}
+  up5: table keys=8 {playOneTime:function, destroy:function, new:function, PlaySoundAtPosition:function, play:function, WarmPersistentSounds:function, __index:table, createSoundGroup:function}
+  up6: ERR
+  consts total=17
+  [1] str "setmetatable"

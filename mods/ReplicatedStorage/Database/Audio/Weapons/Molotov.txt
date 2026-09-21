@@ -1,0 +1,14 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.Molotov
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K Clip :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=106988361631252}}
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=73623953518293}}
+K Explode :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=112272402810859, [2]=122260089260282, [3]=123801491911390}}
+K Start :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=81230559191344, [2]=98108904149618, [3]=117608836989336}}
+K Throw :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=137767863113944}}

@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.MAG-7
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K Draw :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=0}}
+K MagIn :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=40}, ["Identifiers"]={[1]=0}}
+K MagOut :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=0}}
+K PumpBack :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=40}, ["Identifiers"]={[1]=0}}
+K PumpForward :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=40}, ["Identifiers"]={[1]=0}}
+K Shoot :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=40}, ["Identifiers"]={[1]=78273678410885}}

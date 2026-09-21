@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.Galil AR
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K BoltBack :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=128995898238398}}
+K BoltForward :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=86207494187133}}
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=86979896741106}}
+K MagIn :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=127195596080257}}
+K MagOut :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=135126098875969}}
+K Shoot :table keys=2
+  {["Properties"]={["Volume"]=0.75, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=40}, ["Identifiers"]={[1]=79032793562410, [2]=116883869613039}}

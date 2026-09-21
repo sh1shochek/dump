@@ -1,0 +1,169 @@
+PATH: ReplicatedStorage.Database.Components.Libraries.Skins
+REQUIRE: ok
+RETURNS: table
+KEYS: 18
+F GetAbbreviatedWearName
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetAbbreviatedWearName what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "string"
+  [2] str "gsub"
+F GetAllSkinsForWeapon
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetAllSkinsForWeapon what=Lua protos=0[]
+  up1: table keys=55 {Badge:table, MAG-7:table, AWP:table, T Knife:table, HE Grenade:table, Flashbang:table, Flip Knife:table, Negev:table, AUG:table, Name Tag:table, Booth:table, Skeleton Knife:table, Nova:table, C4:table, M4A1-S:table, Karambit:table, Decoy Grenade:table, Galil AR:table, Dual Berettas:table, AK-47:table, Molotov:table, SSG 08:table, Operator Gloves:table, M4A4:table, FAMAS:table, Hand Wraps:table, Charm:table, XM1014:table, R8 Revolver:table, MAC-10:table, Butterfly Knife:table, Glock-18:table, MP9:table, P250:table, Incendiary Grenade:table, LightSaber:table, M9 Bayonet:table, USP-S:table, Case:table, Sawed-Off:table}
+  up2: ERR
+  consts total=5
+  [1] str "typeof"
+F GetBadgeModel
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetBadgeModel what=Lua protos=0[]
+  up1: userdata Assets
+  up2: ERR
+  consts total=10
+  [1] str "Badges"
+  [2] str "FindFirstChild"
+  [3] str "warn"
+F GetBaseWeaponModel
+  params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetBaseWeaponModel what=Lua protos=0[]
+  up1: userdata Weapons
+  up2: ERR
+  consts total=9
+  [1] str "typeof"
+F GetCameraModel
+  params=8 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetCameraModel what=Lua protos=0[]
+  up1: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up2: table keys=55 {Badge:table, MAG-7:table, AWP:table, T Knife:table, HE Grenade:table, Flashbang:table, Flip Knife:table, Negev:table, AUG:table, Name Tag:table, Booth:table, Skeleton Knife:table, Nova:table, C4:table, M4A1-S:table, Karambit:table, Decoy Grenade:table, Galil AR:table, Dual Berettas:table, AK-47:table, Molotov:table, SSG 08:table, Operator Gloves:table, M4A4:table, FAMAS:table, Hand Wraps:table, Charm:table, XM1014:table, R8 Revolver:table, MAC-10:table, Butterfly Knife:table, Glock-18:table, MP9:table, P250:table, Incendiary Grenade:table, LightSaber:table, M9 Bayonet:table, USP-S:table, Case:table, Sawed-Off:table}
+  up3: table keys=1 {_handlerListHead:table}
+  up4: userdata Weapons
+  up5: function params=3 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetSkinTextureFolder what=Lua
+  up6: function params=3 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetWearTextureFolder what=Lua
+  up7: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=ApplySkinTextures what=Lua
+  up8: function params=3 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=AttachStatTrakCamera what=Lua
+  up9: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=AttachNameTagCamera what=Lua
+  up10: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=AttachCharmCamera what=Lua
+  up11: ERR
+  consts total=16
+  [1] str "typeof"
+F GetCharacterModel
+  params=8 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetCharacterModel what=Lua protos=0[]
+  up1: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up2: table keys=55 {Badge:table, MAG-7:table, AWP:table, T Knife:table, HE Grenade:table, Flashbang:table, Flip Knife:table, Negev:table, AUG:table, Name Tag:table, Booth:table, Skeleton Knife:table, Nova:table, C4:table, M4A1-S:table, Karambit:table, Decoy Grenade:table, Galil AR:table, Dual Berettas:table, AK-47:table, Molotov:table, SSG 08:table, Operator Gloves:table, M4A4:table, FAMAS:table, Hand Wraps:table, Charm:table, XM1014:table, R8 Revolver:table, MAC-10:table, Butterfly Knife:table, Glock-18:table, MP9:table, P250:table, Incendiary Grenade:table, LightSaber:table, M9 Bayonet:table, USP-S:table, Case:table, Sawed-Off:table}
+  up3: table keys=1 {_handlerListHead:table}
+  up4: userdata Weapons
+  up5: function params=3 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetSkinTextureFolder what=Lua
+  up6: function params=3 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetWearTextureFolder what=Lua
+  up7: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=ApplySkinTextures what=Lua
+  up8: function params=3 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=AttachStatTrak what=Lua
+  up9: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=AttachNameTag what=Lua
+  up10: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=AttachCharm what=Lua
+  up11: ERR
+  consts total=21
+  [1] str "typeof"
+F GetCharmModel
+  params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetCharmModel what=Lua protos=0[]
+  up1: userdata Assets
+  up2: ERR
+  consts total=24
+  [1] str "Charms"
+  [2] str "FindFirstChild"
+  [3] str "CharmBase"
+  [4] str "Model"
+  [5] str "IsA"
+  [6] str "warn"
+F GetGloves
+  params=3 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetGloves what=Lua protos=0[]
+  up1: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up2: table keys=55 {Badge:table, MAG-7:table, AWP:table, T Knife:table, HE Grenade:table, Flashbang:table, Flip Knife:table, Negev:table, AUG:table, Name Tag:table, Booth:table, Skeleton Knife:table, Nova:table, C4:table, M4A1-S:table, Karambit:table, Decoy Grenade:table, Galil AR:table, Dual Berettas:table, AK-47:table, Molotov:table, SSG 08:table, Operator Gloves:table, M4A4:table, FAMAS:table, Hand Wraps:table, Charm:table, XM1014:table, R8 Revolver:table, MAC-10:table, Butterfly Knife:table, Glock-18:table, MP9:table, P250:table, Incendiary Grenade:table, LightSaber:table, M9 Bayonet:table, USP-S:table, Case:table, Sawed-Off:table}
+  up3: table keys=1 {_handlerListHead:table}
+  up4: userdata Weapons
+  up5: userdata Skins
+  up6: function params=3 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetWearTextureFolder what=Lua
+  up7: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=ApplySkinTextures what=Lua
+  up8: ERR
+  consts total=25
+  [1] str "typeof"
+F GetItemIconImage
+  params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetItemIconImage what=Lua protos=0[]
+  up1: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up2: ERR
+  consts total=13
+  [1] str "Type"
+  [2] str "Charm"
+  [3] str "Name"
+  [4] number 1
+  [5] str "Pattern"
+  [6] str "charmImages"
+  [7] str "pattern"
+  [8] str "assetId"
+  [9] str "GetWearImageForFloat"
+  [10] number 0
+  [11] str "Float"
+  [12] str "imageAssetId"
+  [13] str ""
+F GetKillTrackValue
+  params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetKillTrackValue what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetKillTrackValue what=Lua
+  up2: ERR
+  consts total=0
+F GetMagazine
+  params=3 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetMagazine what=Lua protos=0[]
+  up1: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up2: table keys=55 {Badge:table, MAG-7:table, AWP:table, T Knife:table, HE Grenade:table, Flashbang:table, Flip Knife:table, Negev:table, AUG:table, Name Tag:table, Booth:table, Skeleton Knife:table, Nova:table, C4:table, M4A1-S:table, Karambit:table, Decoy Grenade:table, Galil AR:table, Dual Berettas:table, AK-47:table, Molotov:table, SSG 08:table, Operator Gloves:table, M4A4:table, FAMAS:table, Hand Wraps:table, Charm:table, XM1014:table, R8 Revolver:table, MAC-10:table, Butterfly Knife:table, Glock-18:table, MP9:table, P250:table, Incendiary Grenade:table, LightSaber:table, M9 Bayonet:table, USP-S:table, Case:table, Sawed-Off:table}
+  up3: table keys=1 {_handlerListHead:table}
+  up4: userdata Weapons
+  up5: userdata Skins
+  up6: function params=3 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetWearTextureFolder what=Lua
+  up7: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=ApplySkinTextures what=Lua
+  up8: ERR
+  consts total=21
+  [1] str "typeof"
+F GetSkinInformation
+  params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetSkinInformation what=Lua protos=0[]
+  up1: table keys=55 {Badge:table, MAG-7:table, AWP:table, T Knife:table, HE Grenade:table, Flashbang:table, Flip Knife:table, Negev:table, AUG:table, Name Tag:table, Booth:table, Skeleton Knife:table, Nova:table, C4:table, M4A1-S:table, Karambit:table, Decoy Grenade:table, Galil AR:table, Dual Berettas:table, AK-47:table, Molotov:table, SSG 08:table, Operator Gloves:table, M4A4:table, FAMAS:table, Hand Wraps:table, Charm:table, XM1014:table, R8 Revolver:table, MAC-10:table, Butterfly Knife:table, Glock-18:table, MP9:table, P250:table, Incendiary Grenade:table, LightSaber:table, M9 Bayonet:table, USP-S:table, Case:table, Sawed-Off:table}
+  up2: table keys=0 {}
+  up3: function params=1 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=CreateSyntheticStockSchema what=Lua
+  up4: ERR
+  consts total=5
+  [1] str "typeof"
+F GetWearImageForFloat
+  params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetWearImageForFloat what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetWearFromFloat what=Lua
+  up2: ERR
+  consts total=5
+  [1] str "ipairs"
+F GetWearNameForFloat
+  params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetWearNameForFloat what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetWearFromFloat what=Lua
+  up2: ERR
+  consts total=0
+F GetWorldModel
+  params=7 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetWorldModel what=Lua protos=0[]
+  up1: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up2: table keys=55 {Badge:table, MAG-7:table, AWP:table, T Knife:table, HE Grenade:table, Flashbang:table, Flip Knife:table, Negev:table, AUG:table, Name Tag:table, Booth:table, Skeleton Knife:table, Nova:table, C4:table, M4A1-S:table, Karambit:table, Decoy Grenade:table, Galil AR:table, Dual Berettas:table, AK-47:table, Molotov:table, SSG 08:table, Operator Gloves:table, M4A4:table, FAMAS:table, Hand Wraps:table, Charm:table, XM1014:table, R8 Revolver:table, MAC-10:table, Butterfly Knife:table, Glock-18:table, MP9:table, P250:table, Incendiary Grenade:table, LightSaber:table, M9 Bayonet:table, USP-S:table, Case:table, Sawed-Off:table}
+  up3: table keys=1 {_handlerListHead:table}
+  up4: userdata Weapons
+  up5: userdata Skins
+  up6: function params=3 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=GetWearTextureFolder what=Lua
+  up7: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=ApplySkinTextures what=Lua
+  up8: function params=3 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=AttachStatTrak what=Lua
+  up9: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=AttachNameTag what=Lua
+  up10: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=AttachCharm what=Lua
+  up11: ERR
+  consts total=18
+  [1] str "typeof"
+F IsSkinAvailable
+  params=2 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=IsSkinAvailable what=Lua protos=0[]
+  up1: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up2: userdata Skins
+  up3: ERR
+  consts total=13
+  [1] str "typeof"
+F ObserveItemStockSchemas
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Skins:? cname=ObserveItemStockSchemas what=Lua protos=1[#1]
+  up1: table keys=1 {_handlerListHead:table}
+  up2: table keys=55 {Badge:table, MAG-7:table, AWP:table, T Knife:table, HE Grenade:table, Flashbang:table, Flip Knife:table, Negev:table, AUG:table, Name Tag:table, Booth:table, Skeleton Knife:table, Nova:table, C4:table, M4A1-S:table, Karambit:table, Decoy Grenade:table, Galil AR:table, Dual Berettas:table, AK-47:table, Molotov:table, SSG 08:table, Operator Gloves:table, M4A4:table, FAMAS:table, Hand Wraps:table, Charm:table, XM1014:table, R8 Revolver:table, MAC-10:table, Butterfly Knife:table, Glock-18:table, MP9:table, P250:table, Incendiary Grenade:table, LightSaber:table, M9 Bayonet:table, USP-S:table, Case:table, Sawed-Off:table}
+  up3: ERR
+  consts total=2
+  [1] str "Connect"
+  [2] str "next"
+K OnItemStockSchemasUpdated :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x911586a39a9d6657>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0xebbc6a32c6bbab2a>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0x321e02056a24371e>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}}}

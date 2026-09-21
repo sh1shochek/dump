@@ -1,0 +1,53 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Money
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F CreatePlayerObserver
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Money:? cname=CreatePlayerObserver what=Lua protos=2[noop,#2]
+  up1: table keys=2 {function: 0x20cabd43e4f4d373:boolean, CurrentlyCleaning:boolean}
+  up2: userdata Mateo_081005
+  up3: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up4: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up5: ERR
+  consts total=9
+  [1] str "Cleanup"
+  [2] str "Money"
+  [3] str "GetAttribute"
+  [4] str "tonumber"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Money:? cname=Initialize what=Lua protos=0[]
+  up1: userdata Money
+  up2: userdata Mateo_081005
+  up3: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Money:? cname=refreshTrackedPlayer what=Lua
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Money:? cname=refreshPreferenceColor what=Lua
+  up5: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up6: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up7: userdata 0.647059, 0.717647, 0.831373
+  up8: ERR
+  consts total=15
+  [1] str "Active"
+  [2] str "ipairs"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Money:? cname=Start what=Lua protos=1[#1]
+  up1: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up2: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Money:? cname=refreshTrackedPlayer what=Lua
+  up3: userdata Mateo_081005
+  up4: userdata Mateo_081005
+  up5: table keys=3 {Start:function, CreatePlayerObserver:function, Initialize:function}
+  up6: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up7: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up8: string "8,850"
+  up9: userdata Money
+  up10: function params=2 src=ReplicatedStorage.Database.Components.Common.IsInBuyArea:? what=Lua
+  up11: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up12: ERR
+  consts total=9
+  [1] str "ListenToSpectate"
+  [2] str "Connect"
+  [3] str "IsSpectating"
+  [4] str "GetAttributeChangedSignal"
+  [5] str "GetAttribute"
+  [6] str "GetPlayer"
+  [7] str "CreatePlayerObserver"
+  [8] str "BindToHeartbeat"
+  [9] str "UI.Money.Update"

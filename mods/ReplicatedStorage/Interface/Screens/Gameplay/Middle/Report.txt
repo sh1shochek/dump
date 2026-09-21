@@ -1,0 +1,91 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.Report
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+F Close
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Report:? cname=Close what=Lua protos=0[]
+  up1: userdata Report
+  consts total=9
+  [1] str "Visible"
+  [2] str "icon"
+  [3] str "name"
+  [4] str "Other"
+  [5] str "textBox"
+  [6] str ""
+  [7] str "Text"
+  [8] str "setForceLockOverride"
+  [9] str "Report"
+F GetOtherReasonText
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Report:? cname=GetOtherReasonText what=Lua protos=0[]
+  up1: table keys=4 {1:table, 2:table, 3:table, 4:table}
+  up2: ERR
+  consts total=5
+  [1] str "name"
+  [2] str "Other"
+  [3] str "textBox"
+  [4] str "Text"
+  [5] str ""
+F GetReportedPlayer
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Report:? cname=GetReportedPlayer what=Lua protos=0[]
+  ups: none
+  consts total=0
+F GetSelectedReason
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Report:? cname=GetSelectedReason what=Lua protos=0[]
+  ups: none
+  consts total=0
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Report:? cname=Initialize what=Lua protos=1[#1]
+  up1: userdata Report
+  up2: userdata TextLabel
+  up3: table keys=4 {1:table, 2:table, 3:table, 4:table}
+  up4: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Report:? cname=bindReasonOption what=Lua
+  up5: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up6: table keys=7 {GetOtherReasonText:function, Submit:function, Close:function, GetSelectedReason:function, Initialize:function, Open:function, GetReportedPlayer:function}
+  up7: ERR
+  consts total=15
+  [1] str "Visible"
+  [2] str "Main"
+  [3] str "FindFirstChild"
+  [4] str "Top"
+  [5] str "Reason"
+  [6] str "Options"
+  [7] str "TextLabel"
+  [8] str "GetChildren"
+  [9] str "Frame"
+  [10] str "IsA"
+  [11] str "Close"
+  [12] str "ImageButton"
+  [13] str "MouseButton1Click"
+  [14] str "Connect"
+  [15] str "Report"
+F Open
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Report:? cname=Open what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  consts total=12
+  [1] str "icon"
+  [2] str "Visible"
+  [3] str "name"
+  [4] str "Other"
+  [5] str "textBox"
+  [6] str ""
+  [7] str "Text"
+  [8] str "Reporting %*"
+  [9] str "Name"
+  [10] str "format"
+  [11] str "setForceLockOverride"
+  [12] str "Report"
+F Submit
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Report:? cname=Submit what=Lua protos=0[]
+  ups: none
+  consts total=11
+  [1] str "Close"
+  [2] str "UserId"
+  [3] str "Other"
+  [4] str "GetOtherReasonText"
+  [5] str "Player"
+  [6] str "SubmitPlayerReport"
+  [7] str "Send"
+  [8] str "ReportedPlayer"
+  [9] str "Reason"
+  [10] str "Detail"
+  [11] table

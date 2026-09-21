@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.observers.observeCharacter
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? cname=observeCharacter what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? cname=observePlayer what=Lua
+  up2: ERR
+  consts total=0

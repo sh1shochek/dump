@@ -1,0 +1,37 @@
+PATH: ReplicatedStorage.MovementV2.OwnerSnapshotCodec
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K HeaderSize :number = 67
+K Version :number = 6
+K WireSize :number = 150
+F canonicalizeSupport
+  params=1 src=ReplicatedStorage.MovementV2.OwnerSnapshotCodec:? cname=canonicalizeSupport what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.MovementV2.OwnerSnapshotCodec:? cname=validateSupport what=Lua
+  up2: ERR
+  consts total=26
+  [1] str "buffer"
+  [2] str "create"
+F decode
+  params=1 src=ReplicatedStorage.MovementV2.OwnerSnapshotCodec:? cname=decode what=Lua protos=0[]
+  up1: number 150
+  up2: table keys=8 {writeValidated:function, decodeFrom:function, Version:number, canonicalize:function, encode:function, WireSize:number, validate:function, decode:function}
+  up3: function params=2 src=ReplicatedStorage.MovementV2.OwnerSnapshotCodec:? cname=validateSnapshot what=Lua
+  up4: ERR
+  consts total=8
+  [1] str "typeof"
+F encode
+  params=1 src=ReplicatedStorage.MovementV2.OwnerSnapshotCodec:? cname=encode what=Lua protos=0[]
+  up1: table keys=7 {decode:function, Version:number, encode:function, canonicalizeSupport:function, HeaderSize:number, validate:function, WireSize:number}
+  up2: number 150
+  up3: table keys=8 {writeValidated:function, decodeFrom:function, Version:number, canonicalize:function, encode:function, WireSize:number, validate:function, decode:function}
+  up4: ERR
+  consts total=44
+  [1] str "validate"
+  [2] str "buffer"
+  [3] str "create"
+F validate
+  params=1 src=ReplicatedStorage.MovementV2.OwnerSnapshotCodec:? cname=validate what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.OwnerSnapshotCodec:? cname=validateSnapshot what=Lua
+  up2: ERR
+  consts total=0

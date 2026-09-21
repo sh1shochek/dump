@@ -1,0 +1,35 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.MissionCompleted
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.MissionC:? cname=Initialize what=Lua protos=1[#1]
+  up1: userdata MissionCompleted
+  up2: userdata Frame
+  up3: userdata Title
+  up4: userdata Objective
+  up5: userdata Icon
+  up6: userdata Amount
+  up7: userdata Glow
+  up8: table keys=0 {}
+  up9: userdata {0.5, 0}, {-1.5, 0}
+  up10: userdata {0.100000001, 0}, {1, 0}
+  up11: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up12: userdata Mateo_081005
+  up13: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.MissionC:? cname=OnMissionsChanged what=Lua
+  up14: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up15: ERR
+  consts total=28
+  [1] str "Frame"
+  [2] str "FindFirstChild"
+  [3] str "Container"
+  [4] str "Info"
+  [5] str "Reward"
+  [6] str "Title"
+  [7] str "Objective"
+  [8] str "Icon"
+  [9] str "Amount"
+  [10] str "GetDescendants"
+  [11] str "ImageLabel"
+  [12] str "IsA"
+  [13] str "warn"

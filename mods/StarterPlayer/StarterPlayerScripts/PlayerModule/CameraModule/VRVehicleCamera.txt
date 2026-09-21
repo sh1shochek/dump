@@ -1,0 +1,146 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRVehicleCamera
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+F Reset
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=Reset what=Lua protos=0[]
+  up1: table keys=4 {setTransform:function, step:function, __index:table, new:function}
+  up2: boolean false
+  up3: table keys=3 {step:function, __index:table, new:function}
+  up4: table keys=18 {cutoffMinAngularVelYaw:number, cutoffMaxAngularVelPitch:number, autocorrectMaxCarSpeed:number, pitchDeadzoneAngle:number, cutoffMaxAngularVelYaw:number, yawStiffness:number, cutoffMinAngularVelPitch:number, autocorrectDelay:number, pitchStiffness:number, verticalCenterOffset:number, yawResponseDampingFalling:number, pitchResponseDampingFalling:number, pitchReponseDampingRising:number, yawReponseDampingRising:number, firstPersonResponseMul:number, pitchBaseAngle:number, autocorrectResponse:number, autocorrectMinCarSpeed:number}
+  up5: table keys=18 {getLooseBoundingSphere:function, GamepadLinearToCurve:function, Spring:table, setRotationTypeOverride:function, restoreRotationType:function, Round:function, IsFinite:function, map:function, GetAngleBetweenXZVectors:function, ConvertCameraModeEnumToStandard:function, mapClamp:function, restoreMouseIcon:function, sanitizeAngle:function, restoreMouseBehavior:function, setMouseBehaviorOverride:function, RotateVectorByAngleAndRound:function, setMouseIconOverride:function, IsFiniteVector3:function}
+  up6: table keys=2 {1:number, 2:number}
+  up7: ERR
+  consts total=38
+  [1] str "new"
+  [2] str "GetSubjectCFrame"
+  [3] str "vehicleCameraCore"
+  [4] str "pitchSpring"
+  [5] str "pitchBaseAngle"
+  [6] str "math"
+  [7] str "rad"
+F Update
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=Update what=Lua protos=0[]
+  up1: boolean false
+  up2: number 0.016666666666666666
+  up3: userdata Mateo_081005
+  up4: userdata VRService
+  up5: ERR
+  consts total=5
+  [1] str "UpdateFadeFromBlack"
+  [2] str "UpdateEdgeBlur"
+  [3] str "ThirdPersonFollowCamEnabled"
+  [4] str "UpdateStepRotation"
+  [5] str "UpdateComfortCamera"
+F UpdateComfortCamera
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=UpdateComfortCamera what=Lua protos=0[]
+  up1: boolean false
+  up2: number 0.016666666666666666
+  up3: function params=5 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=mapClamp what=Lua
+  up4: userdata Mateo_081005
+  up5: ERR
+  consts total=55
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "CameraSubject"
+  [5] str "vehicleCameraCore"
+  [6] str "assert"
+F UpdateRotationCamera
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=UpdateRotationCamera what=Lua protos=0[]
+  up1: function params=5 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=mapClamp what=Lua
+  up2: userdata Mateo_081005
+  up3: ERR
+  consts total=35
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "CameraSubject"
+  [5] str "vehicleCameraCore"
+  [6] str "assert"
+F UpdateStepRotation
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=UpdateStepRotation what=Lua protos=0[]
+  up1: function params=5 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=mapClamp what=Lua
+  up2: userdata GameSettings
+  up3: userdata VRService
+  up4: userdata Mateo_081005
+  up5: ERR
+  consts total=51
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "lastSubjectCFrame"
+  [5] str "GetSubjectCFrame"
+  [6] str "GetSubjectVelocity"
+  [7] str "GetCameraToSubjectDistance"
+  [8] number 0.5
+  [9] str "assemblyRadius"
+  [10] str "_GetThirdPersonLocalOffset"
+  [11] str "_GetFirstPersonLocalOffset"
+  [12] str "Lerp"
+  [13] str "GetVRFocus"
+  [14] str "CFrame"
+  [15] str "ToObjectSpace"
+  [16] str "ToWorldSpace"
+  [17] str "addDrift"
+  [18] str "getRotation"
+  [19] str "math"
+  [20] str "abs"
+F _GetFirstPersonLocalOffset
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=_GetFirstPersonLocalOffset what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: ERR
+  consts total=9
+  [1] str "Character"
+  [2] str "Parent"
+  [3] str "Head"
+  [4] str "FindFirstChild"
+  [5] str "BasePart"
+  [6] str "IsA"
+  [7] str "Inverse"
+  [8] str "Position"
+  [9] str "_GetThirdPersonLocalOffset"
+F _GetThirdPersonLocalOffset
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=_GetThirdPersonLocalOffset what=Lua protos=0[]
+  up1: table keys=18 {cutoffMinAngularVelYaw:number, cutoffMaxAngularVelPitch:number, autocorrectMaxCarSpeed:number, pitchDeadzoneAngle:number, cutoffMaxAngularVelYaw:number, yawStiffness:number, cutoffMinAngularVelPitch:number, autocorrectDelay:number, pitchStiffness:number, verticalCenterOffset:number, yawResponseDampingFalling:number, pitchResponseDampingFalling:number, pitchReponseDampingRising:number, yawReponseDampingRising:number, firstPersonResponseMul:number, pitchBaseAngle:number, autocorrectResponse:number, autocorrectMinCarSpeed:number}
+  up2: ERR
+  consts total=5
+  [1] str "assemblyOffset"
+  [2] str "assemblyRadius"
+  [3] str "verticalCenterOffset"
+  [4] str "Vector3"
+  [5] str "new"
+F _StepRotation
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=_StepRotation what=Lua protos=0[]
+  up1: function params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=sanitizeAngle what=Lua
+  up2: table keys=15 {disableCameraToggleInput:function, getTogglePan:function, enableCameraToggleInput:function, getHoldPan:function, setTouchSensitivity:function, getZoomDelta:function, getInputEnabled:function, setTogglePan:function, getPanning:function, resetInputForFrameEnd:function, getRotationActivated:function, setInputEnabled:function, getRotation:function, addTouchMove:function, gamepadZoomPress:userdata}
+  up3: table keys=18 {cutoffMinAngularVelYaw:number, cutoffMaxAngularVelPitch:number, autocorrectMaxCarSpeed:number, pitchDeadzoneAngle:number, cutoffMaxAngularVelYaw:number, yawStiffness:number, cutoffMinAngularVelPitch:number, autocorrectDelay:number, pitchStiffness:number, verticalCenterOffset:number, yawResponseDampingFalling:number, pitchResponseDampingFalling:number, pitchReponseDampingRising:number, yawReponseDampingRising:number, firstPersonResponseMul:number, pitchBaseAngle:number, autocorrectResponse:number, autocorrectMinCarSpeed:number}
+  up4: function params=5 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=mapClamp what=Lua
+  up5: ERR
+  consts total=32
+  [1] str "yawSpring"
+  [2] str "pitchSpring"
+  [3] str "getRotation"
+  [4] str "pos"
+  [5] number -1.3962634015954636
+  [6] number 1.3962634015954636
+  [7] str "math"
+  [8] str "clamp"
+K __index :table keys=11
+  {["_GetFirstPersonLocalOffset"]=<function:function: 0xfeaf061e6c4d9b0b>, ["UpdateStepRotation"]=<function:function: 0x742c92f85dc2dff7>, ["_StepRotation"]=<function:function: 0xf9472a89f10b3262>, ["Update"]=<function:function: 0x7d2cef7d808aba7e>, ["_GetThirdPersonLocalOffset"]=<function:function: 0x25226202e3556cff>, ["UpdateComfortCamera"]=<function:function: 0xd01c32e6d0466b15>, ["UpdateRotationCamera"]=<function:function: 0x650294aaff27823c>, ["addDrift"]=<function:function: 0x70a07882b939f28d>, ["Reset"]=<function:function: 0x3b70d6b0b11b8277>, ["__index"]=<cycle>, ["new"]=<function:function: 0xaf9c2b958c6b71da>}
+F addDrift
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=addDrift what=Lua protos=1[NormalizeAngle]
+  up1: userdata Mateo_081005
+  up2: userdata VRService
+  up3: ERR
+  consts total=46
+F new
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=1[#1]
+  up1: table keys=19 {OnCurrentCameraChanged:function, UpdateEdgeBlur:function, getRotation:function, GetCameraHeight:function, ResetZoom:function, OnEnabledChanged:function, __index:table, new:function, GamepadReset:function, StartVREdgeBlur:function, GetSubjectPosition:function, GetSubjectCFrame:function, UpdateFadeFromBlack:function, StartFadeFromBlack:function, GetModuleName:function, OnHeadScaleChanged:function, GamepadZoomPress:function, GetVRFocus:function, Reset:function}
+  up2: table keys=11 {_GetFirstPersonLocalOffset:function, UpdateStepRotation:function, _StepRotation:function, Update:function, _GetThirdPersonLocalOffset:function, UpdateComfortCamera:function, UpdateRotationCamera:function, addDrift:function, Reset:function, __index:table, new:function}
+  up3: userdata Run Service
+  up4: number 0.016666666666666666
+  up5: ERR
+  consts total=6
+  [1] str "new"
+  [2] str "setmetatable"

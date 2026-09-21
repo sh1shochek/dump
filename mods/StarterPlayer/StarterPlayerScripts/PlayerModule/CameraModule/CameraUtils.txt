@@ -1,0 +1,147 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraUtils
+REQUIRE: ok
+RETURNS: table
+KEYS: 18
+F ConvertCameraModeEnumToStandard
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=ConvertCameraModeEnumToStandard what=Lua protos=0[]
+  up1: ERR
+  consts total=29
+  [1] str "Enum"
+  [2] str "TouchCameraMovementMode"
+  [3] str "Default"
+  [4] userdata
+  [5] str "ComputerCameraMovementMode"
+  [6] str "Follow"
+  [7] userdata
+  [8] userdata
+  [9] str "Classic"
+  [10] userdata
+  [11] userdata
+  [12] str "DevTouchCameraMovementMode"
+  [13] userdata
+  [14] str "DevComputerCameraMovementMode"
+  [15] userdata
+  [16] userdata
+  [17] userdata
+  [18] userdata
+  [19] str "Orbital"
+  [20] userdata
+  [21] userdata
+  [22] userdata
+  [23] userdata
+  [24] str "CameraToggle"
+  [25] userdata
+  [26] userdata
+  [27] str "UserChoice"
+  [28] userdata
+  [29] userdata
+F GamepadLinearToCurve
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GamepadLinearToCurve what=Lua protos=1[onAxis]
+  up1: ERR
+  consts total=18
+F GetAngleBetweenXZVectors
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GetAngleBetweenXZVectors what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "X"
+  [2] str "Z"
+  [3] str "math"
+  [4] str "atan2"
+F IsFinite
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=IsFinite what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] number inf
+  [2] number -inf
+F IsFiniteVector3
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=IsFiniteVector3 what=Lua protos=0[]
+  up1: table keys=18 {getLooseBoundingSphere:function, GamepadLinearToCurve:function, Spring:table, setRotationTypeOverride:function, restoreRotationType:function, Round:function, IsFinite:function, map:function, GetAngleBetweenXZVectors:function, ConvertCameraModeEnumToStandard:function, mapClamp:function, restoreMouseIcon:function, sanitizeAngle:function, restoreMouseBehavior:function, setMouseBehaviorOverride:function, RotateVectorByAngleAndRound:function, setMouseIconOverride:function, IsFiniteVector3:function}
+  up2: ERR
+  consts total=4
+  [1] str "IsFinite"
+  [2] str "X"
+  [3] str "Y"
+  [4] str "Z"
+F RotateVectorByAngleAndRound
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=RotateVectorByAngleAndRound what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "Magnitude"
+  [2] str "Unit"
+  [3] str "Z"
+  [4] str "X"
+  [5] str "math"
+  [6] str "atan2"
+F Round
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=Round what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] number 0.5
+  [2] str "math"
+  [3] str "floor"
+K Spring :table keys=3
+  {["step"]=<function:function: 0x911df222e57a3f81>, ["__index"]=<cycle>, ["new"]=<function:function: 0xa883879e6a06ce90>}
+F getLooseBoundingSphere
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=getLooseBoundingSphere what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "table"
+  [2] str "create"
+F map
+  params=5 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=map what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F mapClamp
+  params=5 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=mapClamp what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "math"
+  [2] str "min"
+F restoreMouseBehavior
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=restoreMouseBehavior what=Lua protos=0[]
+  up1: userdata UserInputService
+  up2: userdata Enum.MouseBehavior.LockCenter
+  up3: userdata Enum.MouseBehavior.LockCenter
+  up4: ERR
+  consts total=1
+  [1] str "MouseBehavior"
+F restoreMouseIcon
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=restoreMouseIcon what=Lua protos=0[]
+  ups: none
+  consts total=1
+  [1] str "MouseIcon"
+F restoreRotationType
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=restoreRotationType what=Lua protos=0[]
+  up1: userdata GameSettings
+  up2: userdata Enum.RotationType.CameraRelative
+  up3: userdata Enum.RotationType.CameraRelative
+  up4: ERR
+  consts total=1
+  [1] str "RotationType"
+F sanitizeAngle
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=sanitizeAngle what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] number 3.141592653589793
+  [2] number 6.283185307179586
+F setMouseBehaviorOverride
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=setMouseBehaviorOverride what=Lua protos=0[]
+  up1: userdata UserInputService
+  up2: userdata Enum.MouseBehavior.LockCenter
+  up3: userdata Enum.MouseBehavior.LockCenter
+  up4: ERR
+  consts total=1
+  [1] str "MouseBehavior"
+F setMouseIconOverride
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=setMouseIconOverride what=Lua protos=0[]
+  up1: userdata UserInputService
+  consts total=1
+  [1] str "MouseIcon"
+F setRotationTypeOverride
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=setRotationTypeOverride what=Lua protos=0[]
+  up1: userdata GameSettings
+  up2: userdata Enum.RotationType.CameraRelative
+  up3: userdata Enum.RotationType.CameraRelative
+  up4: ERR
+  consts total=1
+  [1] str "RotationType"

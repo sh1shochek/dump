@@ -1,0 +1,127 @@
+PATH: ReplicatedStorage.Shared.GrenadeSimulator
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+K Constants :table keys=39
+  {["JUMP_THROW_DETECTION_THRESHOLD"]=5, ["OVERBOUNCE"]=2, ["GRENADE_GRAVITY_SCALE"]=0.39, ["THROW_POWER_SCALE"]=0.7, ["SOURCE_TO_STUDS"]=0.0763888888888889, ["THROW_POWER_BASE"]=0.3, ["MAX_ELASTICITY"]=0.9, ["MAX_THROW_SPEED"]=50, ["FIXED_TIMESTEP"]=0.0078125, ["MAX_BOUNCES"]=20, ["SLEEP_VELOCITY_SOURCE"]=20, ["GRENADE_ELASTICITY"]=0.4, ["JUMP_THROW_ELASTICITY"]=0.32, ["PLAYER_VELOCITY_INHERITANCE"]=1.5, ["PLAYER_VERTICAL_VELOCITY_SCALE"]=2, ["STOP_EPSILON"]=0.0076388888888888895, ["GRAVITY"]=<vector:0, -23.83333396911621, 0>, ["SV_GRAVITY"]=800, ["THROW_UPWARD_BIAS_FAR"]=0.06, ["THROW_UPWARD_BIAS_NEAR"]=0.04, ["MAX_ITERATIONS_PER_FRAME"]=16, ["MAX_JUMP_THROW_SPEED"]=62, ["MAX_ACCUMULATED_TIME"]=0.1, ["JUMP_THROW_HEIGHT_BONUS"]=0, ["THROW_HEIGHT_OFFSET"]=2.4, ["JUMP_THROW_HORIZONTAL_DAMPENING"]=1, ["MAX_THROW_VELOCITY"]=57.29166666666667, ["GROUND_CHECK_DISTANCE"]=0.2, ["PLAYER_ELASTICITY"]=0.3, ["MAX_THROW_VELOCITY_SOURCE"]=750, ["THROW_FORWARD_OFFSET"]=1.35, ["JUMP_THROW_FIXED_VERTICAL"]=20, ["SLEEP_VELOCITY"]=1.527777777777778, ["MAX_SIMULATION_TIME"]=10, ["MIN_ELASTICITY"]=0, ["PLAYER_VELOCITY_SCALE"]=1.5, ["FLOOR_NORMAL_THRESHOLD"]=0.7, ["STOP_EPSILON_SOURCE"]=0.1, ["VELOCITY_SCALE"]=0.58}
+F calculateBounce
+  params=4 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=calculateBounce what=Lua protos=0[]
+  up1: function params=3 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=PhysicsClipVelocity what=Lua
+  up2: ERR
+  consts total=19
+  [1] str "table"
+  [2] str "clone"
+F calculateThrowParameters
+  params=4 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=calculateThrowParameters what=Lua protos=0[]
+  up1: ERR
+  consts total=22
+  [1] str "Near"
+  [2] number 0.04
+  [3] number 0.06
+  [4] number 0.8
+  [5] number 1.2
+  [6] str "math"
+  [7] str "clamp"
+F checkGrounded
+  params=2 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=checkGrounded what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "workspace"
+  [2] userdata
+  [3] vector
+  [4] str "Raycast"
+  [5] str "Normal"
+F checkSurfaceContact
+  params=3 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=checkSurfaceContact what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] number 0.1
+  [2] vector
+  [3] vector
+  [4] vector
+  [5] vector
+  [6] vector
+  [7] vector
+  [8] str "workspace"
+  [9] userdata
+  [10] str "Raycast"
+  [11] str "Distance"
+  [12] str "Normal"
+F createConfig
+  params=6 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=createConfig what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "radius"
+  [2] str "restitution"
+  [3] number 0.4
+  [4] str "maxBounces"
+  [5] number 20
+  [6] str "fuseTime"
+  [7] str "minimumFuseTime"
+  [8] str "explodeOnFloorImpact"
+  [9] str "rangeScale"
+  [10] str "isNearThrow"
+  [11] table
+F createInitialState
+  params=6 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=createInitialState what=Lua protos=0[]
+  up1: ERR
+  consts total=45
+  [1] str "Far"
+  [2] number 0.3
+  [3] number 0.7
+  [4] number 0.58
+  [5] number 57.29166666666667
+  [6] str "Y"
+  [7] vector
+  [8] vector
+  [9] number 2
+  [10] str "Vector3"
+  [11] str "new"
+F detectCollision
+  params=4 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=detectCollision what=Lua protos=0[]
+  up1: ERR
+  consts total=33
+  [1] str "Magnitude"
+  [2] number 0.001
+  [3] number 0.01
+  [4] str "Vector3"
+  [5] str "new"
+F integrate
+  params=4 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=integrate what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "Y"
+  [2] number 23.83333396911621
+  [3] number 2
+  [4] str "X"
+  [5] str "Z"
+  [6] str "Vector3"
+  [7] str "new"
+F interpolateState
+  params=3 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=interpolateState what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "table"
+  [2] str "clone"
+F shouldStop
+  params=3 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=shouldStop what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Dot"
+  [2] number 2.3341049382716053
+F simulate
+  params=4 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=simulate what=Lua protos=0[]
+  up1: table keys=13 {shouldStop:function, createInitialState:function, interpolateState:function, calculateBounce:function, step:function, Constants:table, createConfig:function, detectCollision:function, calculateThrowParameters:function, simulate:function, integrate:function, checkSurfaceContact:function, checkGrounded:function}
+  up2: ERR
+  consts total=24
+  [1] str "isAtRest"
+  [2] str "fuseTime"
+  [3] str "table"
+  [4] str "clone"
+F step
+  params=4 src=ReplicatedStorage.Shared.GrenadeSimulator:? cname=step what=Lua protos=0[]
+  up1: table keys=13 {shouldStop:function, createInitialState:function, interpolateState:function, calculateBounce:function, step:function, Constants:table, createConfig:function, detectCollision:function, calculateThrowParameters:function, simulate:function, integrate:function, checkSurfaceContact:function, checkGrounded:function}
+  up2: ERR
+  consts total=41
+  [1] str "table"
+  [2] str "clone"

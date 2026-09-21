@@ -1,0 +1,447 @@
+PATH: ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoardAnimator
+REQUIRE: ok
+RETURNS: table
+KEYS: 28
+F Cancel
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=Cancel what=Lua protos=0[]
+  up1: ERR
+  consts total=36
+  [1] str "cancelled"
+  [2] str "State"
+  [3] str "OnComplete"
+  [4] str "_stopSpin"
+  [5] str "Cleanup"
+  [6] str "ArrowColors"
+  [7] str "Visible"
+  [8] str "ImageColor3"
+  [9] str "ImageTransparency"
+  [10] str "Grid"
+  [11] str "Frame"
+  [12] str "BackgroundTransparency"
+  [13] str "Pattern"
+  [14] str "PatternTransparency"
+  [15] str "Connected"
+  [16] str "GroupTransparency"
+  [17] str "ConnectedColor"
+  [18] str "GroupColor3"
+  [19] str "PatternMask"
+  [20] str "PatternMaskTransparency"
+  [21] str "PatternMaskClips"
+  [22] str "ClipsDescendants"
+  [23] str "table"
+  [24] str "clear"
+F Resolve
+  params=3 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=Resolve what=Lua protos=0[]
+  up1: number 8
+  up2: table keys=6 {getDisplaySteps:function, createAllRows:function, ROW_COUNT:number, COLUMN_COUNT:number, prepare:function, createInitialSpinRows:function}
+  up3: ERR
+  consts total=9
+  [1] str "finalColumnIndex"
+  [2] number 1
+  [3] str "IsFullPath"
+  [4] str "finalRarity"
+  [5] str "FinalRarity"
+  [6] str "getDisplaySteps"
+  [7] str "Steps"
+  [8] str "OnComplete"
+  [9] str "_tryResolve"
+F SetSceneReady
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=SetSceneReady what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "SceneReady"
+  [2] str "_tryResolve"
+F Skip
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=Skip what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "IsSkipped"
+  [2] str "ReelsReady"
+  [3] str "_stopSpin"
+  [4] str "State"
+  [5] str "resolving"
+  [6] str "_finish"
+  [7] str "_tryResolve"
+F Start
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=Start what=Lua protos=2[#1,#2]
+  up1: table keys=6 {getDisplaySteps:function, createAllRows:function, ROW_COUNT:number, COLUMN_COUNT:number, prepare:function, createInitialSpinRows:function}
+  up2: number 8
+  up3: number 5
+  up4: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up5: function params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=setPatternProgress what=Lua
+  up6: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up7: ERR
+  consts total=19
+  [1] str "spinning"
+  [2] str "State"
+  [3] str "createInitialSpinRows"
+  [4] str "SpinRows"
+  [5] number 1
+  [6] str "Columns"
+  [7] str "Arrows"
+  [8] str "Visible"
+  [9] str "ImageTransparency"
+  [10] str "RepeatArrows"
+  [11] str "Cleanup"
+  [12] str "BindToRenderStep"
+  [13] str "CreateBindingName"
+  [14] str "CaseScene.ConsoleBoard.Render"
+  [15] str "Disconnect"
+  [16] str "RenderConnection"
+  [17] str "Add"
+  [18] str "spawn"
+  [19] str "CaseScene.ConsoleBoard.StartCascade"
+K __index :table keys=28
+  {["_resolveStep"]=<function:function: 0xa36a019df803be65>, ["_landColumn"]=<function:function: 0xa5f56957b7ec16c5>, ["_setCell"]=<function:function: 0x6fe347800a6d679f>, ["Cancel"]=<function:function: 0x4eaa7032950a7ec5>, ["_celebrateFullPath"]=<function:function: 0x006050d4b43b5982>, ["SetSceneReady"]=<function:function: 0xc7cedb7bbd9cf261>, ["_stopColumn"]=<function:function: 0x7f856a854299feb5>, ["_runResolution"]=<function:function: 0x89926e51f36f6665>, ["_spinColumn"]=<function:function: 0x9b13dcd28c61c49a>, ["_pulseArrow"]=<function:function: 0xa38568dcf9d4edee>, ["__index"]=<cycle>, ["new"]=<function:function: 0xc4f04b97d1797921>, ["Skip"]=<function:function: 0x868c11db474feaed>, ["_greyRows"]=<function:function: 0xcdc2cbea7713ba52>, ["_activateIndicator"]=<function:function: 0x40a5d38d3ecd49b7>, ["_revealRemainingColumns"]=<function:function: 0x0fd85df73a42baf2>, ["_tryResolve"]=<function:function: 0x25163ab3e39ab147>, ["_getFinalHoldDuration"]=<function:function: 0x6151a2eaea1893b2>, ["_transitionRarityColor"]=<function:function: 0x427a97aede7d13f1>, ["_finish"]=<function:function: 0xbe94418f4a356da0>, ["_stopPinkTeaseMelody"]=<function:function: 0xef67d01fd47e63c8>, ["_stopSpin"]=<function:function: 0x714248a179a0462f>, ["_prepareReels"]=<function:function: 0x248334f020d0936c>, ["_applyStep"]=<function:function: 0xe595f48894a52ab4>, ["Start"]=<function:function: 0x0c0db8bc3e5c6f9b>, ["Resolve"]=<function:function: 0xc8cae0611e593068>, ["_startPinkTeaseMelody"]=<function:function: 0x522bb6c480030afa>, ["_tween"]=<function:function: 0xddc593fa71277edb>}
+F _activateIndicator
+  params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_activateIndicator what=Lua protos=1[#1]
+  up1: userdata 1, 1, 1
+  up2: userdata Time:0.18 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:Out EasingSty
+  up3: userdata Time:0.45 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:Out EasingSty
+  up4: ERR
+  consts total=29
+  [1] str "Indicators"
+  [2] str "Image"
+  [3] str "ImageColor3"
+  [4] table
+  [5] str "ImageColor"
+  [6] number 0.35
+  [7] str "Lerp"
+  [8] str "_tween"
+  [9] str "Shadow"
+  [10] str "ShadowBlurRadius"
+  [11] str "ShadowSpread"
+  [12] str "BlurRadius"
+  [13] str "Spread"
+  [14] str "Transparency"
+  [15] number 0.05
+  [16] table
+  [17] str "UDim"
+  [18] str "new"
+F _applyStep
+  params=3 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_applyStep what=Lua protos=0[]
+  up1: number 5
+  up2: ERR
+  consts total=9
+  [1] str "SurvivingRows"
+  [2] str "columnIndex"
+  [3] str "AliveRows"
+  [4] str "LandedRows"
+  [5] number 1
+  [6] str "_setCell"
+  [7] str "result"
+  [8] str "miss"
+  [9] str "_greyRows"
+F _celebrateFullPath
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_celebrateFullPath what=Lua protos=1[tweenPathScale]
+  up1: number 8
+  up2: number 5
+  up3: userdata Run Service
+  up4: ERR
+  consts total=49
+  [1] str "os"
+  [2] str "clock"
+F _finish
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_finish what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: ERR
+  consts total=6
+  [1] str "completed"
+  [2] str "State"
+  [3] str "_stopSpin"
+  [4] str "OnComplete"
+  [5] str "defer"
+  [6] str "CaseScene.ConsoleBoard.Complete"
+F _getFinalHoldDuration
+  params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_getFinalHoldDuration what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "result"
+  [2] str "miss"
+  [3] number 1.2
+  [4] str "FinalRarity"
+  [5] str "Red"
+  [6] number 0.8
+F _greyRows
+  params=3 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_greyRows what=Lua protos=0[]
+  up1: userdata 0.254902, 0.254902, 0.254902
+  up2: ERR
+  consts total=14
+  [1] str "LandedRows"
+  [2] str "Grid"
+  [3] str "Columns"
+  [4] str "Arrows"
+  [5] str "ImageColor3"
+  [6] str "ImageTransparency"
+  [7] number 0.2
+  [8] table
+  [9] str "_tween"
+  [10] str "ScrollingCells"
+  [11] str "Connected"
+  [12] str "GroupTransparency"
+  [13] number 1
+  [14] table
+F _landColumn
+  params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_landColumn what=Lua protos=0[]
+  up1: function params=5 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=setLandingRows what=Lua
+  up2: userdata Run Service
+  up3: function params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=playSound what=Lua
+  up4: table keys=8 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string, 7:string, 8:string}
+  up5: ERR
+  consts total=53
+  [1] str "columnIndex"
+  [2] str "Spinning"
+  [3] number 0.21
+  [4] str "os"
+  [5] str "clock"
+F _prepareReels
+  params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_prepareReels what=Lua protos=0[]
+  up1: table keys=6 {getDisplaySteps:function, createAllRows:function, ROW_COUNT:number, COLUMN_COUNT:number, prepare:function, createInitialSpinRows:function}
+  up2: ERR
+  consts total=5
+  [1] str "prepare"
+  [2] str "SpinRows"
+  [3] str "AliveRows"
+  [4] str "SurvivingRows"
+  [5] str "PlannedRows"
+F _pulseArrow
+  params=6 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_pulseArrow what=Lua protos=1[#1]
+  up1: userdata Time:0.18 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:Out EasingSty
+  up2: userdata Time:0.12 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:Out EasingSty
+  up3: ERR
+  consts total=17
+  [1] str "PulseScaleByArrow"
+  [2] str "Cleanup"
+  [3] str "Instance"
+  [4] str "new"
+F _resolveStep
+  params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_resolveStep what=Lua protos=0[]
+  up1: ERR
+  consts total=17
+  [1] str "_landColumn"
+  [2] str "cancelled"
+  [3] str "_applyStep"
+  [4] str "result"
+  [5] str "miss"
+  [6] str "_stopPinkTeaseMelody"
+  [7] str "columnIndex"
+  [8] str "_revealRemainingColumns"
+  [9] str "kind"
+  [10] str "rarity"
+  [11] str "continue"
+  [12] str "Red"
+  [13] str "Indicators"
+  [14] str "ImageColor"
+  [15] str "_transitionRarityColor"
+  [16] str "Pink"
+  [17] str "_startPinkTeaseMelody"
+F _revealRemainingColumns
+  params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_revealRemainingColumns what=Lua protos=0[]
+  up1: number 8
+  up2: function params=5 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=setLandingRows what=Lua
+  up3: userdata Time:0.28 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:Out EasingSty
+  up4: number 5
+  up5: ERR
+  consts total=34
+  [1] number 1
+  [2] str "Spinning"
+  [3] str "Sound"
+  [4] str "ActiveSounds"
+  [5] str "Stop"
+  [6] str "Cleanup"
+  [7] str "Remove"
+  [8] str "Columns"
+  [9] str "PlannedRows"
+  [10] str "SpinRows"
+  [11] str "LandedRows"
+  [12] str "RepeatContainer"
+  [13] str "Visible"
+  [14] str "Container"
+  [15] str "UDim2"
+  [16] str "new"
+F _runResolution
+  params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_runResolution what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=waitForSound what=Lua
+  up2: ERR
+  consts total=14
+  [1] str "task"
+  [2] str "wait"
+F _setCell
+  params=5 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_setCell what=Lua protos=0[]
+  up1: userdata 0.254902, 0.254902, 0.254902
+  up2: userdata 1, 1, 1
+  up3: ERR
+  consts total=28
+  [1] str "Columns"
+  [2] str "Arrows"
+  [3] str "Grid"
+  [4] str "Visible"
+  [5] str "ImageColor3"
+  [6] str "ImageTransparency"
+  [7] table
+  [8] str "ArrowColors"
+  [9] str "ArrowColor"
+  [10] number 0.05
+  [11] number 0.2
+  [12] str "_tween"
+  [13] str "Frame"
+  [14] str "BackgroundTransparency"
+  [15] table
+  [16] str "math"
+  [17] str "min"
+F _spinColumn
+  params=3 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_spinColumn what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=playSound what=Lua
+  up2: number 5
+  up3: ERR
+  consts total=26
+  [1] str "Console Reel Spin"
+  [2] str "Spinning"
+  [3] str "StartedAt"
+  [4] str "Sound"
+  [5] table
+  [6] str "os"
+  [7] str "clock"
+F _startPinkTeaseMelody
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_startPinkTeaseMelody what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=playSound what=Lua
+  up2: ERR
+  consts total=2
+  [1] str "TeaseMelody"
+  [2] str "Console Pink Tease Melody"
+F _stopColumn
+  params=2 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_stopColumn what=Lua protos=0[]
+  up1: ERR
+  consts total=20
+  [1] str "Spinning"
+  [2] str "Sound"
+  [3] str "ActiveSounds"
+  [4] str "Stop"
+  [5] str "Cleanup"
+  [6] str "Remove"
+  [7] str "Columns"
+  [8] str "Container"
+  [9] str "Position"
+  [10] str "RepeatContainer"
+  [11] str "UDim2"
+  [12] str "new"
+F _stopPinkTeaseMelody
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_stopPinkTeaseMelody what=Lua protos=1[#1]
+  up1: userdata Time:0.7 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:In EasingStyle
+  up2: ERR
+  consts total=10
+  [1] str "TeaseMelody"
+  [2] str "ActiveSounds"
+  [3] str "PlaybackSpeed"
+  [4] number 0.2
+  [5] str "Volume"
+  [6] number 0
+  [7] table
+  [8] str "_tween"
+  [9] str "Completed"
+  [10] str "Once"
+F _stopSpin
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_stopSpin what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "RenderConnection"
+  [2] str "Cleanup"
+  [3] str "Remove"
+  [4] str "ActiveSounds"
+  [5] str "Stop"
+  [6] str "TeaseMelody"
+  [7] str "table"
+  [8] str "clear"
+F _transitionRarityColor
+  params=3 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_transitionRarityColor what=Lua protos=3[pulseArrow,pulsePath,#3]
+  up1: number 8
+  up2: number 5
+  up3: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up4: userdata Run Service
+  up5: ERR
+  consts total=10
+  [1] str "ArrowColor"
+  [2] number 1
+  [3] str "spawn"
+  [4] str "CaseScene.ConsoleBoard.RarityPath"
+  [5] str "State"
+  [6] str "resolving"
+  [7] str "RenderStepped"
+  [8] str "Wait"
+  [9] str "task"
+  [10] str "wait"
+F _tryResolve
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_tryResolve what=Lua protos=1[#1]
+  up1: number 8
+  up2: number 5
+  up3: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up4: ERR
+  consts total=19
+  [1] str "State"
+  [2] str "spinning"
+  [3] str "ReelsReady"
+  [4] str "SceneReady"
+  [5] str "Steps"
+  [6] str "OnComplete"
+  [7] str "resolving"
+  [8] str "IsSkipped"
+  [9] str "_finish"
+  [10] str "_prepareReels"
+  [11] number 1
+  [12] str "Columns"
+  [13] str "SpinRows"
+  [14] str "Arrows"
+  [15] str "Visible"
+  [16] str "ImageTransparency"
+  [17] str "RepeatArrows"
+  [18] str "spawn"
+  [19] str "CaseScene.ConsoleBoard.Resolve"
+F _tween
+  params=4 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=_tween what=Lua protos=1[#1]
+  up1: userdata TweenService
+  up2: userdata Time:0.2 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:Out EasingStyl
+  up3: ERR
+  consts total=7
+  [1] str "Create"
+  [2] str "Cleanup"
+  [3] str "Cancel"
+  [4] str "Add"
+  [5] str "Completed"
+  [6] str "Once"
+  [7] str "Play"
+F new
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=new what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Controllers.CaseSceneController.ConsoleBoa:? cname=getGridCells what=Lua
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=6 {getDisplaySteps:function, createAllRows:function, ROW_COUNT:number, COLUMN_COUNT:number, prepare:function, createInitialSpinRows:function}
+  up4: table keys=28 {_resolveStep:function, _landColumn:function, _setCell:function, Cancel:function, _celebrateFullPath:function, SetSceneReady:function, _stopColumn:function, _runResolution:function, _spinColumn:function, _pulseArrow:function, __index:table, new:function, Skip:function, _greyRows:function, _activateIndicator:function, _revealRemainingColumns:function, _tryResolve:function, _getFinalHoldDuration:function, _transitionRarityColor:function, _finish:function, _stopPinkTeaseMelody:function, _stopSpin:function, _prepareReels:function, _applyStep:function, Start:function, Resolve:function, _startPinkTeaseMelody:function, _tween:function}
+  up5: number 8
+  up6: number 5
+  up7: userdata 0.313726, 0.313726, 0.313726
+  up8: ERR
+  consts total=88
+  [1] str "ConsoleLaptop"
+  [2] str "FindFirstChild"
+  [3] str "Screen"
+  [4] str "SurfaceGui"
+  [5] str "BundleMiniGame"
+  [6] str "Main"
+  [7] str "ArrowHolder"
+  [8] str "2"
+  [9] str "Grids"
+  [10] str "new"
+  [11] str "Columns"
+  [12] str "Indicators"
+  [13] str "Grid"
+  [14] str "ArrowColors"
+  [15] str "Spinning"
+  [16] str "Cleanup"
+  [17] str "ActiveSounds"
+  [18] str "AliveRows"
+  [19] str "SurvivingRows"
+  [20] str "LandedRows"
+  [21] str "PlannedRows"
+  [22] str "SpinRows"
+  [23] str "PulseScaleByArrow"
+  [24] str "ScrollingCells"
+  [25] str "RenderConnection"

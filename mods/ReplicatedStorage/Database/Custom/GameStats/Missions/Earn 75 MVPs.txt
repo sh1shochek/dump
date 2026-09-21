@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Earn 75 MVPs
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K Category :string = mvp
+K MissionId :string = Earn 75 MVPs
+K Rewards :table keys=1
+  {[1]={["amount"]=96, ["type"]="Credits"}}
+K Target :number = 75
+K Type :string = weekly

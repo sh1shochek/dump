@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Database.Custom.ConsoleTypes
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

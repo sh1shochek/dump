@@ -1,0 +1,6 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Gamemodes.Competitive
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+K Maps :table keys=3
+  {[1]="Oasis", [2]="Hellena", [3]="Reactor"}

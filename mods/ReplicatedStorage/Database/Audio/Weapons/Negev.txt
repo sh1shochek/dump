@@ -1,0 +1,20 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.Negev
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+K Bolt :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=126310515698564}}
+K Chain :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=119412986409975}}
+K CoverDown :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=82592681619308}}
+K CoverUp :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=103199185086775}}
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=76994429900891}}
+K MagIn :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=115817458501784}}
+K MagOut :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=96729444440429}}
+K Shoot :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=40}, ["Identifiers"]={[1]=129396735228885, [2]=129289869856620}}

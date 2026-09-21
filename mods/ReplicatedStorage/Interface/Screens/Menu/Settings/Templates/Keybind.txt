@@ -1,0 +1,23 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Settings.Templates.Keybind
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=10 src=ReplicatedStorage.Interface.Screens.Menu.Settings.Templates.:? what=Lua protos=7[UpdateKeybindUI,SaveKeybinds,#3,#4,#5,#6,#7]
+  up1: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up2: table keys=8 {SetConflict:function, GetReset:function, GetTextBox:function, HideIcon:function, FormatText:function, GetIconImage:function, GetIcon:function, Apply:function}
+  up3: ERR
+  consts total=14
+  [1] str "LayoutOrder"
+  [2] str "Left"
+  [3] str "Label"
+  [4] str "DisplayName"
+  [5] str "Text"
+  [6] str "Name"
+  [7] str "Computer"
+  [8] str ""
+  [9] str "Console"
+  [10] str "new"
+  [11] str "Destroy"
+  [12] str "Add"
+  [13] str "Default"
+  [14] str "typeof"

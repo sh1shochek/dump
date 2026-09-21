@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Get 60 Headshots
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K Category :string = headshots
+K MissionId :string = Get 60 Headshots
+K Rewards :table keys=1
+  {[1]={["amount"]=90, ["type"]="Credits"}}
+K Target :number = 60
+K Type :string = weekly

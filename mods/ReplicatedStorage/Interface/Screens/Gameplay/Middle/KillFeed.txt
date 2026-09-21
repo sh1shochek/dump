@@ -1,0 +1,37 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.KillFeed
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.KillFeed:? cname=Initialize what=Lua protos=2[#1,#2]
+  up1: userdata KillFeed
+  up2: userdata ReplicatedStorage
+  up3: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up4: table keys=2 {createTemplate:function, Initialize:function}
+  up5: table keys=0 {}
+  up6: table keys=8 {3:string, 2:string, 9:string, 7:string, 8:string, 6:string, 5:string, 4:string}
+  up7: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.KillFeed:? cname=createStreakTemplate what=Lua
+  up8: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up9: ERR
+  consts total=13
+  [1] str "Assets"
+  [2] str "WaitForChild"
+  [3] str "UI"
+  [4] str "KillFeed"
+  [5] str "Kill"
+  [6] str "AutoLocalize"
+  [7] str "GetDescendants"
+  [8] str "GuiBase2d"
+  [9] str "IsA"
+  [10] str "UIPlayerKilled"
+  [11] str "Listen"
+F createTemplate
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.KillFeed:? cname=createTemplate what=Lua protos=2[updateIconSizes,#2]
+  up1: userdata ReplicatedStorage
+  up2: userdata KillFeed
+  up3: function params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.KillFeed:? cname=convertTextLabel what=Lua
+  up4: userdata TweenService
+  up5: userdata Debris
+  up6: ERR
+  consts total=47
+  [1] str "require"

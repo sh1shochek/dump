@@ -1,0 +1,20 @@
+PATH: ReplicatedStorage.Components.Common.RecycleFX
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Components.Common.RecycleFX:? what=Lua protos=1[#1]
+  up1: userdata Debris
+  up2: table keys=13 {Destroy:function, RetireVictimLocally:function, PrepareCharacter:function, FindCharacter:function, RetireCorpseLocally:function, Rig:table, OnceAppearanceReady:function, HideCharacterLocally:function, SetupCharacterAppearance:function, ActivateCharacter:function, DestroyAll:function, __index:table, new:function}
+  up3: userdata Players
+  up4: table keys=3 {IsEnabled:function, GetAttributeName:function, SetEnabled:function}
+  up5: ERR
+  consts total=32
+  [1] str "GetChildren"
+  [2] str "Folder"
+  [3] str "IsA"
+  [4] str "PersistentDebris"
+  [5] str "GetAttribute"
+  [6] str "Name"
+  [7] number -7
+  [8] str "string"
+  [9] str "sub"

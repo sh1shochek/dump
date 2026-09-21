@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Classes.CharacterHighlight.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

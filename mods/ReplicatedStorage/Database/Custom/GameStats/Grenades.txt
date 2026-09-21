@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Grenades
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K Decoy Grenade :number = 1
+K Flashbang :number = 2
+K HE Grenade :number = 1
+K Incendiary Grenade :number = 1
+K Molotov :number = 1
+K Smoke Grenade :number = 1

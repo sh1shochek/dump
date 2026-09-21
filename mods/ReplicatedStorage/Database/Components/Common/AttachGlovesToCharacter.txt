@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Database.Components.Common.AttachGlovesToCharacter
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=4 src=ReplicatedStorage.Database.Components.Common.AttachGlovesToC:? what=Lua protos=1[#1]
+  up1: table keys=2 {Right Arm:string, Left Arm:string}
+  up2: table keys=2 {Right Arm:string, Left Arm:string}
+  up3: function params=5 src=ReplicatedStorage.Database.Components.Common.AttachGlovesToC:? cname=applyGloveConfig what=Lua
+  up4: userdata Run Service
+  up5: ERR
+  consts total=34
+  [1] str "ipairs"

@@ -1,0 +1,88 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.TouchJump
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+F Create
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=Create what=Lua protos=2[ResizeJumpButton,#2]
+  up1: ERR
+  consts total=16
+  [1] str "parentUIFrame"
+  [2] str "jumpButton"
+  [3] str "Destroy"
+  [4] str "absoluteSizeChangedConn"
+  [5] str "Disconnect"
+  [6] str "Instance"
+  [7] str "new"
+F Enable
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=Enable what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "parentUIFrame"
+  [2] str "externallyEnabled"
+  [3] str "UpdateEnabled"
+  [4] str "_setupConfigurations"
+  [5] str "_connectionUtil"
+  [6] str "disconnectAll"
+F EnableButton
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=EnableButton what=Lua protos=2[#1,#2]
+  up1: userdata GuiService
+  up2: ERR
+  consts total=13
+  [1] str "_active"
+  [2] str "_reset"
+  [3] str "jumpButton"
+  [4] str "Create"
+  [5] str "Visible"
+  [6] str "_connectionUtil"
+  [7] str "JUMP_INPUT_ENDED"
+  [8] str "InputEnded"
+  [9] str "Connect"
+  [10] str "trackConnection"
+  [11] str "MENU_OPENED"
+  [12] str "MenuOpened"
+  [13] str "disconnect"
+F UpdateEnabled
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=UpdateEnabled what=Lua protos=0[]
+  up1: table keys=9 {_boundEvents:table, getCharacter:function, onCharacter:function, _connectionUtil:table, getLocalPlayer:function, _getOrCreateBoundEvent:function, onChild:function, getChild:function, onLocalPlayer:function}
+  up2: ERR
+  consts total=10
+  [1] str "getChild"
+  [2] str "Humanoid"
+  [3] str "externallyEnabled"
+  [4] str "JumpPower"
+  [5] str "Enum"
+  [6] str "HumanoidStateType"
+  [7] str "Jumping"
+  [8] userdata
+  [9] str "GetStateEnabled"
+  [10] str "EnableButton"
+K __index :table keys=8
+  {["_setupConfigurations"]=<function:function: 0x7749e3d484056612>, ["Create"]=<function:function: 0x3e1f73912553d6e8>, ["Enable"]=<function:function: 0x6099b800e7e4eace>, ["EnableButton"]=<function:function: 0x6f5b0fdde1ddc2bb>, ["_reset"]=<function:function: 0xfb9d94005478577f>, ["UpdateEnabled"]=<function:function: 0xba585caadfb155c1>, ["__index"]=<cycle>, ["new"]=<function:function: 0x03a8b641b135a7ff>}
+F _reset
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=_reset what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "isJumping"
+  [2] str "touchObject"
+  [3] str "jumpButton"
+  [4] str "Vector2"
+  [5] str "new"
+F _setupConfigurations
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=_setupConfigurations what=Lua protos=2[update,#2]
+  up1: table keys=9 {_boundEvents:table, getCharacter:function, onCharacter:function, _connectionUtil:table, getLocalPlayer:function, _getOrCreateBoundEvent:function, onChild:function, getChild:function, onLocalPlayer:function}
+  up2: ERR
+  consts total=5
+  [1] str "onChild"
+  [2] str "Humanoid"
+  [3] str "_connectionUtil"
+  [4] str "HUMANOID"
+  [5] str "trackConnection"
+F new
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=new what=Lua protos=0[]
+  up1: table keys=6 {IsMoveVectorCameraRelative:function, GetIsJumping:function, Enable:function, GetMoveVector:function, __index:table, new:function}
+  up2: table keys=8 {_setupConfigurations:function, Create:function, Enable:function, EnableButton:function, _reset:function, UpdateEnabled:function, __index:table, new:function}
+  up3: table keys=6 {disconnectAll:function, trackConnection:function, disconnect:function, trackBoundFunction:function, __index:table, new:function}
+  up4: ERR
+  consts total=9
+  [1] str "new"
+  [2] str "setmetatable"

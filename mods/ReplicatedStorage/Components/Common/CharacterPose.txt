@@ -1,0 +1,32 @@
+PATH: ReplicatedStorage.Components.Common.CharacterPose
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F applyVerticalLook
+  params=3 src=ReplicatedStorage.Components.Common.CharacterPose:? cname=applyVerticalLook what=Lua protos=0[]
+  up1: ERR
+  consts total=22
+  [1] str "math"
+  [2] str "clamp"
+F composeRootCFrame
+  params=2 src=ReplicatedStorage.Components.Common.CharacterPose:? cname=composeRootCFrame what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "CFrame"
+  [2] str "new"
+F getJoints
+  params=1 src=ReplicatedStorage.Components.Common.CharacterPose:? cname=getJoints what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "RightShoulder"
+  [2] str "FindFirstChild"
+  [3] str "Motor6D"
+  [4] str "IsA"
+  [5] str "LeftShoulder"
+  [6] str "Waist"
+  [7] str "Neck"
+  [8] str "BaseRightShoulderC0"
+  [9] str "BaseLeftShoulderC0"
+  [10] str "BaseWaistC0"
+  [11] str "BaseNeckC0"
+  [12] str "LastVerticalLook"

@@ -1,0 +1,55 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.ClassicCamera
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F GetCameraToggleOffset
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetCameraToggleOffset what=Lua protos=0[]
+  up1: table keys=15 {disableCameraToggleInput:function, getTogglePan:function, enableCameraToggleInput:function, getHoldPan:function, setTouchSensitivity:function, getZoomDelta:function, getInputEnabled:function, setTogglePan:function, getPanning:function, resetInputForFrameEnd:function, getRotationActivated:function, setInputEnabled:function, getRotation:function, addTouchMove:function, gamepadZoomPress:userdata}
+  up2: table keys=18 {getLooseBoundingSphere:function, GamepadLinearToCurve:function, Spring:table, setRotationTypeOverride:function, restoreRotationType:function, Round:function, IsFinite:function, map:function, GetAngleBetweenXZVectors:function, ConvertCameraModeEnumToStandard:function, mapClamp:function, restoreMouseIcon:function, sanitizeAngle:function, restoreMouseBehavior:function, setMouseBehaviorOverride:function, RotateVectorByAngleAndRound:function, setMouseIconOverride:function, IsFiniteVector3:function}
+  up3: ERR
+  consts total=8
+  [1] str "isCameraToggle"
+  [2] str "currentSubjectDistance"
+  [3] str "getTogglePan"
+  [4] str "cameraToggleSpring"
+  [5] str "map"
+  [6] str "FIRST_PERSON_DISTANCE_THRESHOLD"
+  [7] str "math"
+  [8] str "clamp"
+F SetCameraMovementMode
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetCameraMovementMode what=Lua protos=0[]
+  up1: table keys=47 {IsInFirstPerson:function, GetSubjectPosition:function, Enable:function, GetCameraHeight:function, GetBodyPartToFollow:function, GetIsMouseLocked:function, _setUpConfigurations:function, OnPlayerCameraPropertyChange:function, GetHumanoidRootPart:function, UpdateMouseBehavior:function, GetSubjectCFrame:function, GetCameraType:function, GetSubjectVelocity:function, CalculateNewLookVectorVRFromArg:function, GetModuleName:function, Update:function, OnCharacterAdded:function, GetCameraMovementMode:function, OnEnabledChanged:function, UpdateForDistancePropertyChange:function, CalculateNewLookVectorFromArg:function, SetMouseLockOffset:function, GetHumanoidPartToFollow:function, StepZoom:function, CalculateNewLookCFrameFromArg:function, GetCameraLookVector:function, SetCameraType:function, GetMeasuredDistanceToFocus:function, LeaveFirstPerson:function, __index:table, new:function, GetCameraToSubjectDistance:function, Cleanup:function, GetMouseLockOffset:function, GetSubjectRotVelocity:function, InFirstPerson:function, OnCurrentCameraChanged:function, GetHumanoid:function, SetIsMouseLocked:function, GetEnabled:function}
+  up2: ERR
+  consts total=9
+  [1] str "SetCameraMovementMode"
+  [2] str "Enum"
+  [3] str "ComputerCameraMovementMode"
+  [4] str "Follow"
+  [5] userdata
+  [6] str "isFollowCamera"
+  [7] str "CameraToggle"
+  [8] userdata
+  [9] str "isCameraToggle"
+F Update
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Update what=Lua protos=0[]
+  up1: boolean true
+  up2: userdata 0, 0, 0, 1, -0, 0, 0, 0.965925813, 0.258819044, -0, -0.258819044, 0.965925813
+  up3: userdata Players
+  up4: table keys=15 {disableCameraToggleInput:function, getTogglePan:function, enableCameraToggleInput:function, getHoldPan:function, setTouchSensitivity:function, getZoomDelta:function, getInputEnabled:function, setTogglePan:function, getPanning:function, resetInputForFrameEnd:function, getRotationActivated:function, setInputEnabled:function, getRotation:function, addTouchMove:function, gamepadZoomPress:userdata}
+  up5: number 0
+  up6: table keys=18 {getLooseBoundingSphere:function, GamepadLinearToCurve:function, Spring:table, setRotationTypeOverride:function, restoreRotationType:function, Round:function, IsFinite:function, map:function, GetAngleBetweenXZVectors:function, ConvertCameraModeEnumToStandard:function, mapClamp:function, restoreMouseIcon:function, sanitizeAngle:function, restoreMouseBehavior:function, setMouseBehaviorOverride:function, RotateVectorByAngleAndRound:function, setMouseIconOverride:function, IsFiniteVector3:function}
+  up7: boolean true
+  up8: ERR
+  consts total=67
+  [1] str "tick"
+K __index :table keys=5
+  {["GetCameraToggleOffset"]=<function:function: 0x2dd6fb5dec850545>, ["Update"]=<function:function: 0x025c92b66b007ee9>, ["SetCameraMovementMode"]=<function:function: 0x404a552e0b5724ce>, ["__index"]=<cycle>, ["new"]=<function:function: 0x57e7e2dd14960605>}
+F new
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=0[]
+  up1: table keys=47 {IsInFirstPerson:function, GetSubjectPosition:function, Enable:function, GetCameraHeight:function, GetBodyPartToFollow:function, GetIsMouseLocked:function, _setUpConfigurations:function, OnPlayerCameraPropertyChange:function, GetHumanoidRootPart:function, UpdateMouseBehavior:function, GetSubjectCFrame:function, GetCameraType:function, GetSubjectVelocity:function, CalculateNewLookVectorVRFromArg:function, GetModuleName:function, Update:function, OnCharacterAdded:function, GetCameraMovementMode:function, OnEnabledChanged:function, UpdateForDistancePropertyChange:function, CalculateNewLookVectorFromArg:function, SetMouseLockOffset:function, GetHumanoidPartToFollow:function, StepZoom:function, CalculateNewLookCFrameFromArg:function, GetCameraLookVector:function, SetCameraType:function, GetMeasuredDistanceToFocus:function, LeaveFirstPerson:function, __index:table, new:function, GetCameraToSubjectDistance:function, Cleanup:function, GetMouseLockOffset:function, GetSubjectRotVelocity:function, InFirstPerson:function, OnCurrentCameraChanged:function, GetHumanoid:function, SetIsMouseLocked:function, GetEnabled:function}
+  up2: table keys=5 {GetCameraToggleOffset:function, Update:function, SetCameraMovementMode:function, __index:table, new:function}
+  up3: table keys=18 {getLooseBoundingSphere:function, GamepadLinearToCurve:function, Spring:table, setRotationTypeOverride:function, restoreRotationType:function, Round:function, IsFinite:function, map:function, GetAngleBetweenXZVectors:function, ConvertCameraModeEnumToStandard:function, mapClamp:function, restoreMouseIcon:function, sanitizeAngle:function, restoreMouseBehavior:function, setMouseBehaviorOverride:function, RotateVectorByAngleAndRound:function, setMouseIconOverride:function, IsFiniteVector3:function}
+  up4: ERR
+  consts total=10
+  [1] str "new"
+  [2] str "setmetatable"

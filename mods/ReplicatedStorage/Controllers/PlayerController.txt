@@ -1,0 +1,27 @@
+PATH: ReplicatedStorage.Controllers.PlayerController
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.PlayerController:? cname=Initialize what=Lua protos=3[#1,#2,#3]
+  up1: userdata UserInputService
+  up2: number 1790005856.075892
+  up3: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up4: ERR
+  consts total=6
+  [1] str "InputBegan"
+  [2] str "Connect"
+  [3] str "InputChanged"
+  [4] str "Player"
+  [5] str "BlankRequest"
+  [6] str "Listen"
+F Start
+  params=0 src=ReplicatedStorage.Controllers.PlayerController:? cname=Start what=Lua protos=2[#1,#2]
+  up1: function params=0 src=ReplicatedStorage.Components.Common.GetUserPlatform:? what=Lua
+  up2: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up3: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up4: function params=1 src=ReplicatedStorage.Controllers.PlayerController:? cname=HandleNextFrame what=Lua
+  up5: ERR
+  consts total=2
+  [1] str "task"
+  [2] str "delay"

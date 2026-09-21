@@ -1,0 +1,187 @@
+PATH: ReplicatedStorage.Components.Grenade
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+F Cancel
+  params=1 src=ReplicatedStorage.Components.Grenade:? cname=Cancel what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up2: ERR
+  consts total=12
+  [1] str "ThrowFinished"
+  [2] str "Janitor"
+  [3] str "ThrowGrenadeFinished"
+  [4] str "Get"
+  [5] str "Remove"
+  [6] str "ThrowGrenadeStoppedFallback"
+  [7] str "ThrowGrenadeDelayFallback2"
+  [8] str "ThrowGrenadeDelayFallback3"
+  [9] str "ThrowStarted"
+  [10] str "ThrowCompleted"
+  [11] str "stopAllAnimations"
+  [12] str "CancelThrow"
+F StartThrow
+  params=1 src=ReplicatedStorage.Components.Grenade:? cname=StartThrow what=Lua protos=0[]
+  up1: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: userdata Camera
+  up4: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up5: ERR
+  consts total=43
+  [1] str "IsDestroyed"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "ServerGamemode"
+  [5] str "GetAttribute"
+  [6] str "Competitive"
+  [7] str "GetState"
+  [8] str "Buy Period"
+  [9] str "EquipTime"
+  [10] str "tick"
+F Throw
+  params=2 src=ReplicatedStorage.Components.Grenade:? cname=Throw what=Lua protos=7[completeThrow,#2,#3,#4,#5,#6,#7]
+  up1: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: userdata Camera
+  up4: userdata Run Service
+  up5: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up6: function params=1 src=ReplicatedStorage.Components.Common.GetCharacterVelocity:? cname=GetCharacterVelocity what=Lua
+  up7: userdata Mateo_081005
+  up8: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up9: ERR
+  consts total=57
+  [1] str "ThrowFinished"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "ServerGamemode"
+  [5] str "GetAttribute"
+  [6] str "Competitive"
+  [7] str "GetState"
+  [8] str "Buy Period"
+  [9] str "ThrowStarted"
+  [10] str "Cancel"
+  [11] str "getLocalCharacter"
+  [12] str "Dead"
+  [13] str "Viewmodel"
+  [14] str "IsDestroyed"
+  [15] str "Model"
+  [16] str "Parent"
+  [17] str "equip"
+  [18] str "Heartbeat"
+  [19] str "Wait"
+  [20] str "Hidden"
+  [21] str "unhide"
+  [22] str "Animation"
+  [23] str "Janitor"
+  [24] str "ThrowGrenadeFinished"
+  [25] str "Get"
+  [26] str "Remove"
+  [27] str "ThrowGrenadeStoppedFallback"
+  [28] str "Equip"
+  [29] str "Animations"
+  [30] str "IsPlaying"
+  [31] str "stop"
+  [32] str "CharacterAnimator"
+  [33] str "pairs"
+K __index :table keys=12
+  {["destroy"]=<function:function: 0xff76e086d585c08d>, ["Cancel"]=<function:function: 0xb771377f81d6ff7e>, ["StartThrow"]=<function:function: 0x367b0abb4f5e256c>, ["reload"]=<function:function: 0x5a471ae30d9bdb02>, ["unequip"]=<function:function: 0xb5fc177d4ee683bc>, ["drop"]=<function:function: 0x99302328e619da02>, ["stopAllAnimations"]=<function:function: 0x37087783df95373b>, ["Throw"]=<function:function: 0xa979d0b070dd61d2>, ["equip"]=<function:function: 0xb55adea0fa06632c>, ["inspect"]=<function:function: 0x6880af295eacc8ca>, ["__index"]=<cycle>, ["new"]=<function:function: 0x723fb2598610f793>}
+F destroy
+  params=1 src=ReplicatedStorage.Components.Grenade:? cname=destroy what=Lua protos=0[]
+  up1: table keys=2 {destroy:function, new:function}
+  up2: ERR
+  consts total=8
+  [1] str "IsDestroyed"
+  [2] str "Janitor"
+  [3] str "Destroy"
+  [4] str "ThrowFinished"
+  [5] str "ThrowStarted"
+  [6] str "ThrowCompleted"
+  [7] str "IsInspecting"
+  [8] str "destroy"
+F drop
+  params=1 src=ReplicatedStorage.Components.Grenade:? cname=drop what=Lua protos=0[]
+  up1: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up2: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up3: function params=1 src=ReplicatedStorage.Components.Common.GetCharacterVelocity:? cname=GetCharacterVelocity what=Lua
+  up4: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up5: userdata Camera
+  up6: ERR
+  consts total=20
+  [1] str "workspace"
+  [2] userdata
+  [3] str "Gamemode"
+  [4] str "GetAttribute"
+  [5] str "Deathmatch"
+  [6] str "GetState"
+  [7] str "Warmup"
+  [8] str "Properties"
+  [9] str "Droppable"
+  [10] str "unequip"
+  [11] str "Inventory"
+  [12] str "DropWeapon"
+  [13] str "Send"
+  [14] str "CharacterVelocity"
+  [15] str "Direction"
+  [16] str "Identifier"
+  [17] table
+  [18] str "getLocalCharacter"
+  [19] str "CFrame"
+  [20] str "LookVector"
+F equip
+  params=1 src=ReplicatedStorage.Components.Grenade:? cname=equip what=Lua protos=2[#1,#2]
+  up1: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up2: userdata UserInputService
+  up3: ERR
+  consts total=20
+  [1] str "tick"
+F inspect
+  params=1 src=ReplicatedStorage.Components.Grenade:? cname=inspect what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up2: ERR
+  consts total=13
+  [1] str "IsInspecting"
+  [2] str "ThrowStarted"
+  [3] str "ThrowFinished"
+  [4] str "Cancel"
+  [5] str "stopAllAnimations"
+  [6] str "Viewmodel"
+  [7] str "Animation"
+  [8] str "Inspect"
+  [9] str "play"
+  [10] str "task"
+  [11] str "delay"
+F new
+  params=13 src=ReplicatedStorage.Components.Grenade:? cname=new what=Lua protos=0[]
+  up1: table keys=2 {destroy:function, new:function}
+  up2: table keys=12 {destroy:function, Cancel:function, StartThrow:function, reload:function, unequip:function, drop:function, stopAllAnimations:function, Throw:function, equip:function, inspect:function, __index:table, new:function}
+  up3: ERR
+  consts total=9
+  [1] str "new"
+  [2] str "setmetatable"
+F reload
+  params=1 src=ReplicatedStorage.Components.Grenade:? cname=reload what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F stopAllAnimations
+  params=1 src=ReplicatedStorage.Components.Grenade:? cname=stopAllAnimations what=Lua protos=0[]
+  up1: ERR
+  consts total=10
+  [1] str "CharacterAnimator"
+  [2] str "Viewmodel"
+  [3] str "Animation"
+  [4] str "pairs"
+F unequip
+  params=1 src=ReplicatedStorage.Components.Grenade:? cname=unequip what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "Janitor"
+  [2] str "EquipDelayThrow"
+  [3] str "Get"
+  [4] str "Remove"
+  [5] str "CharacterAnimator"
+  [6] str "stopAnimations"
+  [7] str "Viewmodel"
+  [8] str "unequip"
+  [9] str "IsInspecting"
+  [10] str "ThrowStarted"
+  [11] str "ThrowFinished"
+  [12] str "Cancel"

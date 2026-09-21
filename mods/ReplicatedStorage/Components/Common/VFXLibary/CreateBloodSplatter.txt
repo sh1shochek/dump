@@ -1,0 +1,7 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateBloodSplatter
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=2 src=ReplicatedStorage.Components.Common.VFXLibary.CreateBloodSpl:? what=Lua protos=0[]
+  up1: ERR
+  consts total=0

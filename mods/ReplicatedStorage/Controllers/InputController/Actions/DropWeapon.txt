@@ -1,0 +1,34 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.DropWeapon
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Callback
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.DropWe:? cname=onInput what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up3: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up4: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up5: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up6: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up7: ERR
+  consts total=29
+  [1] str "IsPlayerChatting"
+  [2] str "GetAttribute"
+  [3] str "Enum"
+  [4] str "UserInputState"
+  [5] str "Begin"
+  [6] userdata
+  [7] str "IsLocalPlayerDead"
+  [8] str "getCurrentEquipped"
+  [9] str "GetSkinInformation"
+  [10] str "Name"
+  [11] str "Skin"
+  [12] str "rarity"
+  [13] number 255
+  [14] str "Color"
+  [15] str "R"
+  [16] str "math"
+  [17] str "floor"
+K Category :string = Weapon Keys
+K Group :string = Gameplay
+K Name :string = Drop Weapon

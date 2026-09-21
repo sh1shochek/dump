@@ -1,0 +1,32 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.ConnectionUtil
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K __index :table keys=6
+  {["disconnectAll"]=<function:function: 0xbe67f3aaf5dceae2>, ["trackConnection"]=<function:function: 0x45564bfcffb993af>, ["disconnect"]=<function:function: 0x31553c039b84bcb1>, ["trackBoundFunction"]=<function:function: 0xc2cf743b911056e3>, ["__index"]=<cycle>, ["new"]=<function:function: 0xe78b166df924fb9f>}
+F disconnect
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=disconnect what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_connections"
+F disconnectAll
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=disconnectAll what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "pairs"
+F new
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=new what=Lua protos=0[]
+  up1: table keys=6 {disconnectAll:function, trackConnection:function, disconnect:function, trackBoundFunction:function, __index:table, new:function}
+  up2: ERR
+  consts total=1
+  [1] str "setmetatable"
+F trackBoundFunction
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=trackBoundFunction what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_connections"
+F trackConnection
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=trackConnection what=Lua protos=1[#1]
+  up1: ERR
+  consts total=1
+  [1] str "_connections"

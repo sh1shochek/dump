@@ -1,0 +1,9 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dictionary.removeValues
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=removeValues what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=toSet what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "pairs"

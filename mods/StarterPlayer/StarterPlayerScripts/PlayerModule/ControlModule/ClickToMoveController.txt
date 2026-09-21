@@ -1,0 +1,264 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.ClickToMoveController
+REQUIRE: ok
+RETURNS: table
+KEYS: 37
+F CleanupPath
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=CleanupPath what=Lua protos=0[]
+  ups: none
+  consts total=2
+  [1] str "Cancel"
+  [2] str "Disconnect"
+F DisconnectEvents
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=DisconnectEvents what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "tapConn"
+  [2] str "Disconnect"
+  [3] str "inputBeganConn"
+  [4] str "inputChangedConn"
+  [5] str "inputEndedConn"
+  [6] str "humanoidDiedConn"
+  [7] str "characterChildAddedConn"
+  [8] str "onCharacterAddedConn"
+  [9] str "renderSteppedConn"
+  [10] str "characterChildRemovedConn"
+  [11] str "menuOpenedConnection"
+F Enable
+  params=4 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=Enable what=Lua protos=1[#1]
+  up1: userdata Mateo_081005
+  consts total=21
+  [1] str "running"
+  [2] str "Character"
+  [3] str "OnCharacterAdded"
+  [4] str "CharacterAdded"
+  [5] str "Connect"
+  [6] str "onCharacterAddedConn"
+  [7] str "touchJumpController"
+  [8] str "jumpEnabled"
+  [9] str "Enable"
+  [10] str "DisconnectEvents"
+  [11] str "Cancel"
+  [12] str "Disconnect"
+  [13] str "TouchEnabled"
+  [14] str "pairs"
+F GetAgentSizeIncreaseFactor
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=GetAgentSizeIncreaseFactor what=Lua protos=0[]
+  up1: number 1
+  up2: ERR
+  consts total=2
+  [1] number 100
+  [2] number 1
+F GetEndWaypointTexture
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=GetEndWaypointTexture what=Lua protos=0[]
+  up1: table keys=13 {DisplayFailureWaypoint:function, CreateEndWaypoint:function, GetEndWaypointTexture:function, SetWaypointRadius:function, CreatePathDisplay:function, PlayFailureAnimation:function, GetWaypointsAlwaysOnTop:function, GetWaypointRadius:function, SetWaypointTexture:function, SetWaypointsAlwaysOnTop:function, SetEndWaypointTexture:function, CancelFailureAnimation:function, GetWaypointTexture:function}
+  up2: ERR
+  consts total=1
+  [1] str "GetEndWaypointTexture"
+F GetFailureAnimationEnabled
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=GetFailureAnimationEnabled what=Lua protos=0[]
+  up1: boolean true
+  up2: ERR
+  consts total=0
+F GetIgnoredPartsTag
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=GetIgnoredPartsTag what=Lua protos=0[]
+  ups: none
+  consts total=0
+F GetShowPath
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=GetShowPath what=Lua protos=0[]
+  up1: boolean true
+  up2: ERR
+  consts total=0
+F GetUnreachableWaypointTimeout
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=GetUnreachableWaypointTimeout what=Lua protos=0[]
+  up1: number 8
+  up2: ERR
+  consts total=0
+F GetUseDirectPath
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=GetUseDirectPath what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F GetUserJumpEnabled
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=GetUserJumpEnabled what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "jumpEnabled"
+F GetWaypointRadius
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=GetWaypointRadius what=Lua protos=0[]
+  up1: table keys=13 {DisplayFailureWaypoint:function, CreateEndWaypoint:function, GetEndWaypointTexture:function, SetWaypointRadius:function, CreatePathDisplay:function, PlayFailureAnimation:function, GetWaypointsAlwaysOnTop:function, GetWaypointRadius:function, SetWaypointTexture:function, SetWaypointsAlwaysOnTop:function, SetEndWaypointTexture:function, CancelFailureAnimation:function, GetWaypointTexture:function}
+  up2: ERR
+  consts total=1
+  [1] str "GetWaypointRadius"
+F GetWaypointTexture
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=GetWaypointTexture what=Lua protos=0[]
+  up1: table keys=13 {DisplayFailureWaypoint:function, CreateEndWaypoint:function, GetEndWaypointTexture:function, SetWaypointRadius:function, CreatePathDisplay:function, PlayFailureAnimation:function, GetWaypointsAlwaysOnTop:function, GetWaypointRadius:function, SetWaypointTexture:function, SetWaypointsAlwaysOnTop:function, SetEndWaypointTexture:function, CancelFailureAnimation:function, GetWaypointTexture:function}
+  up2: ERR
+  consts total=1
+  [1] str "GetWaypointTexture"
+F GetWaypointsAlwaysOnTop
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=GetWaypointsAlwaysOnTop what=Lua protos=0[]
+  up1: table keys=13 {DisplayFailureWaypoint:function, CreateEndWaypoint:function, GetEndWaypointTexture:function, SetWaypointRadius:function, CreatePathDisplay:function, PlayFailureAnimation:function, GetWaypointsAlwaysOnTop:function, GetWaypointRadius:function, SetWaypointTexture:function, SetWaypointsAlwaysOnTop:function, SetEndWaypointTexture:function, CancelFailureAnimation:function, GetWaypointTexture:function}
+  up2: ERR
+  consts total=1
+  [1] str "GetWaypointsAlwaysOnTop"
+F MoveTo
+  params=4 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=MoveTo what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: function params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=Pather what=Lua
+  up3: function params=5 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=HandleMoveTo what=Lua
+  up4: ERR
+  consts total=3
+  [1] str "Character"
+  [2] vector
+  [3] str "IsValidPath"
+F OnCharacterAdded
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=OnCharacterAdded what=Lua protos=8[#1,#2,#3,#4,#5,OnCharacterChildAdded,#7,#8]
+  up1: userdata UserInputService
+  up2: table keys=6 {Enum.KeyCode.S:boolean, Enum.KeyCode.D:boolean, Enum.KeyCode.W:boolean, Enum.KeyCode.Down:boolean, Enum.KeyCode.A:boolean, Enum.KeyCode.Up:boolean}
+  consts total=16
+  [1] str "DisconnectEvents"
+  [2] str "InputBegan"
+  [3] str "Connect"
+  [4] str "inputBeganConn"
+  [5] str "InputChanged"
+  [6] str "inputChangedConn"
+  [7] str "InputEnded"
+  [8] str "inputEndedConn"
+  [9] str "TouchTap"
+F OnRenderStepped
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=OnRenderStepped what=Lua protos=0[]
+  ups: none
+  consts total=8
+  [1] str "isJumping"
+  [2] str "OnRenderStepped"
+  [3] str "NextActionMoveDirection"
+  [4] str "moveVector"
+  [5] str "moveVectorIsCameraRelative"
+  [6] str "NextActionJump"
+  [7] str "keyboardMoveVector"
+  [8] str "jumpRequested"
+F OnTouchBegan
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=OnTouchBegan what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "fingerTouches"
+  [2] number 1
+  [3] str "numUnsunkTouches"
+F OnTouchChanged
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=OnTouchChanged what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "fingerTouches"
+  [2] number 1
+  [3] str "numUnsunkTouches"
+F OnTouchEnded
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=OnTouchEnded what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "fingerTouches"
+  [2] number 1
+  [3] str "numUnsunkTouches"
+F SetAgentSizeIncreaseFactor
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=SetAgentSizeIncreaseFactor what=Lua protos=0[]
+  up1: number 1
+  up2: ERR
+  consts total=2
+  [1] number 1
+  [2] number 100
+F SetEndWaypointTexture
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=SetEndWaypointTexture what=Lua protos=0[]
+  up1: table keys=13 {DisplayFailureWaypoint:function, CreateEndWaypoint:function, GetEndWaypointTexture:function, SetWaypointRadius:function, CreatePathDisplay:function, PlayFailureAnimation:function, GetWaypointsAlwaysOnTop:function, GetWaypointRadius:function, SetWaypointTexture:function, SetWaypointsAlwaysOnTop:function, SetEndWaypointTexture:function, CancelFailureAnimation:function, GetWaypointTexture:function}
+  up2: ERR
+  consts total=1
+  [1] str "SetEndWaypointTexture"
+F SetFailureAnimationEnabled
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=SetFailureAnimationEnabled what=Lua protos=0[]
+  up1: boolean true
+  up2: ERR
+  consts total=0
+F SetIgnoredPartsTag
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=SetIgnoredPartsTag what=Lua protos=0[]
+  up1: function params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=UpdateIgnoreTag what=Lua
+  up2: ERR
+  consts total=0
+F SetShowPath
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=SetShowPath what=Lua protos=0[]
+  up1: boolean true
+  up2: ERR
+  consts total=0
+F SetUnreachableWaypointTimeout
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=SetUnreachableWaypointTimeout what=Lua protos=0[]
+  up1: number 8
+  up2: ERR
+  consts total=0
+F SetUseDirectPath
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=SetUseDirectPath what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F SetUserJumpEnabled
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=SetUserJumpEnabled what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "jumpEnabled"
+  [2] str "touchJumpController"
+  [3] str "Enable"
+F SetWaypointRadius
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=SetWaypointRadius what=Lua protos=0[]
+  up1: table keys=13 {DisplayFailureWaypoint:function, CreateEndWaypoint:function, GetEndWaypointTexture:function, SetWaypointRadius:function, CreatePathDisplay:function, PlayFailureAnimation:function, GetWaypointsAlwaysOnTop:function, GetWaypointRadius:function, SetWaypointTexture:function, SetWaypointsAlwaysOnTop:function, SetEndWaypointTexture:function, CancelFailureAnimation:function, GetWaypointTexture:function}
+  up2: ERR
+  consts total=1
+  [1] str "SetWaypointRadius"
+F SetWaypointTexture
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=SetWaypointTexture what=Lua protos=0[]
+  up1: table keys=13 {DisplayFailureWaypoint:function, CreateEndWaypoint:function, GetEndWaypointTexture:function, SetWaypointRadius:function, CreatePathDisplay:function, PlayFailureAnimation:function, GetWaypointsAlwaysOnTop:function, GetWaypointRadius:function, SetWaypointTexture:function, SetWaypointsAlwaysOnTop:function, SetEndWaypointTexture:function, CancelFailureAnimation:function, GetWaypointTexture:function}
+  up2: ERR
+  consts total=1
+  [1] str "SetWaypointTexture"
+F SetWaypointsAlwaysOnTop
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=SetWaypointsAlwaysOnTop what=Lua protos=0[]
+  up1: table keys=13 {DisplayFailureWaypoint:function, CreateEndWaypoint:function, GetEndWaypointTexture:function, SetWaypointRadius:function, CreatePathDisplay:function, PlayFailureAnimation:function, GetWaypointsAlwaysOnTop:function, GetWaypointRadius:function, SetWaypointTexture:function, SetWaypointsAlwaysOnTop:function, SetEndWaypointTexture:function, CancelFailureAnimation:function, GetWaypointTexture:function}
+  up2: ERR
+  consts total=1
+  [1] str "SetWaypointsAlwaysOnTop"
+F Start
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=Start what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "Enable"
+F Stop
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=Stop what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "Enable"
+F UpdateJump
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=UpdateJump what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F UpdateMovement
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=UpdateMovement what=Lua protos=0[]
+  up1: ERR
+  consts total=13
+  [1] str "Enum"
+  [2] str "UserInputState"
+  [3] str "Cancel"
+  [4] userdata
+  [5] vector
+  [6] str "keyboardMoveVector"
+  [7] str "wasdEnabled"
+  [8] str "leftValue"
+  [9] str "rightValue"
+  [10] str "forwardValue"
+  [11] str "backwardValue"
+  [12] str "Vector3"
+  [13] str "new"
+K __index :table keys=37
+  {["GetUseDirectPath"]=<function:function: 0x71dc51eacfc085af>, ["Enable"]=<function:function: 0x8590fd09e5b23266>, ["SetWaypointTexture"]=<function:function: 0x17f466ff994c8992>, ["SetUseDirectPath"]=<function:function: 0x47ad6a8c9d07c44e>, ["OnTouchBegan"]=<function:function: 0x05eda8a0c43b894f>, ["SetUnreachableWaypointTimeout"]=<function:function: 0x5df0c81b0a0c69b7>, ["SetShowPath"]=<function:function: 0x406792e376607441>, ["SetWaypointRadius"]=<function:function: 0x7c82c40a6081f979>, ["GetWaypointsAlwaysOnTop"]=<function:function: 0x67ae43756fb496e3>, ["SetEndWaypointTexture"]=<function:function: 0x714385d7abd8b0bd>, ["UpdateMovement"]=<function:function: 0x5d06d2fada79cb24>, ["GetWaypointRadius"]=<function:function: 0xe07a099469f1a44d>, ["GetUnreachableWaypointTimeout"]=<function:function: 0xc7e439e3b02d84b2>, ["Start"]=<function:function: 0x3a40e630a71e4db6>, ["OnCharacterAdded"]=<function:function: 0x9bfa48c5a3a84a9f>, ["SetWaypointsAlwaysOnTop"]=<function:function: 0x7fd28aad7875b39d>, ["GetFailureAnimationEnabled"]=<function:function: 0x94f83a09dae17224>, ["OnTouchChanged"]=<function:function: 0x61ccf1d614f92468>, ["GetUserJumpEnabled"]=<function:function: 0x0d6bf9b853287887>, ["SetAgentSizeIncreaseFactor"]=<function:function: 0x2a354f8cba153418>, ["__index"]=<cycle>, ["new"]=<function:function: 0x5cf1bf19e91d4d93>, ["SetFailureAnimationEnabled"]=<function:function: 0x64c153a8b3be8f41>, ["OnRenderStepped"]=<function:function: 0x5f87667160e6b800>, ["MoveTo"]=<function:function: 0x77e0c77a7c509e41>, ["SetUserJumpEnabled"]=<function:function: 0x2ed8943cf53b8736>, ["GetAgentSizeIncreaseFactor"]=<function:function: 0x78aa8cd899d5f903>, ["CleanupPath"]=<function:function: 0xa8765a20d357331d>, ["OnTouchEnded"]=<function:function: 0xde6eec8c8c05b3cd>, ["GetIgnoredPartsTag"]=<function:function: 0xcc985821b1b98322>, ["SetIgnoredPartsTag"]=<function:function: 0xeea91e977f131b23>, ["Stop"]=<function:function: 0x0637312f99b79f8f>, ["DisconnectEvents"]=<function:function: 0x59488c413282d975>, ["GetEndWaypointTexture"]=<function:function: 0x19dac11013baf9f1>, ["UpdateJump"]=<function:function: 0xb89492921e26f23e>, ["GetShowPath"]=<function:function: 0xa5c22fd3519ba4f9>, ["GetWaypointTexture"]=<function:function: 0x49c27245e26f9c01>}
+F new
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=new what=Lua protos=0[]
+  up1: table keys=7 {UpdateMovement:function, ConnectFocusEventListeners:function, UpdateJump:function, Enable:function, BindContextActions:function, __index:table, new:function}
+  up2: table keys=37 {GetUseDirectPath:function, Enable:function, SetWaypointTexture:function, SetUseDirectPath:function, OnTouchBegan:function, SetUnreachableWaypointTimeout:function, SetShowPath:function, SetWaypointRadius:function, GetWaypointsAlwaysOnTop:function, SetEndWaypointTexture:function, UpdateMovement:function, GetWaypointRadius:function, GetUnreachableWaypointTimeout:function, Start:function, OnCharacterAdded:function, SetWaypointsAlwaysOnTop:function, GetFailureAnimationEnabled:function, OnTouchChanged:function, GetUserJumpEnabled:function, SetAgentSizeIncreaseFactor:function, __index:table, new:function, SetFailureAnimationEnabled:function, OnRenderStepped:function, MoveTo:function, SetUserJumpEnabled:function, GetAgentSizeIncreaseFactor:function, CleanupPath:function, OnTouchEnded:function, GetIgnoredPartsTag:function, SetIgnoredPartsTag:function, Stop:function, DisconnectEvents:function, GetEndWaypointTexture:function, UpdateJump:function, GetShowPath:function, GetWaypointTexture:function}
+  up3: ERR
+  consts total=28
+  [1] str "new"
+  [2] str "setmetatable"

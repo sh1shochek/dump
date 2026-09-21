@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Database.Security.Remotes.DefinePacket
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=2 src=ReplicatedStorage.Database.Security.Remotes.DefinePacket:? what=Lua protos=1[#1]
+  up1: table keys=24 {Int32:table, String:table, Float32:table, Vec2:table, SetPlayerPositionResolver:function, Uint8:table, CreatePacket:function, DefineNamespace:function, DefinePacket:function, Bool:table, Optional:function, Uint32:table, Instance:table, Nothing:table, Float64:table, Struct:function, Map:function, Array:function, Int16:table, Vec3:table, Int8:table, Unknown:table, Uint16:table, CFrame:table}
+  up2: ERR
+  consts total=0

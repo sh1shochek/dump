@@ -1,0 +1,9 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Array.dedupe
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=dedupe what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=toArray what=Lua
+  up2: function params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=fromArray what=Lua
+  up3: ERR
+  consts total=0

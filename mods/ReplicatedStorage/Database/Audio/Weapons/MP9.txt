@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.MP9
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K BoltBack :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=87332350712194}}
+K BoltForward :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=122609602711596}}
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=95092672998546}}
+K MagIn :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=116011180822245}}
+K MagOut :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=96352786063360}}
+K Shoot :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=35}, ["Identifiers"]={[1]=116767970332192}}

@@ -1,0 +1,136 @@
+PATH: ReplicatedStorage.MovementV2.ControlCodec
+REQUIRE: ok
+RETURNS: table
+KEYS: 15
+K Kind :table keys=10
+  {["MappingRequest"]=6, ["Discontinuity"]=2, ["CommandResyncRequest"]=10, ["MoverProgress"]=9, ["DestructibleDelta"]=4, ["DestructibleBaseline"]=3, ["MoverDelta"]=8, ["Mapping"]=1, ["BaselineRequest"]=5, ["MoverBaseline"]=7}
+K MaxDestructibleDeltaCount :number = 1024
+K Version :number = 3
+F decode
+  params=1 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=decode what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: table keys=7 {decode:function, Version:number, encode:function, canonicalizeSupport:function, HeaderSize:number, validate:function, WireSize:number}
+  up3: table keys=4 {AllActive:function, IsActive:function, Validate:function, New:function}
+  up4: function params=3 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=validateDelta what=Lua
+  up5: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up6: table keys=6 {writeValidated:function, MaxDescriptorCount:number, DescriptorWireSize:number, canonicalize:function, validateList:function, readList:function}
+  up7: table keys=13 {StreamHeaderWireSize:number, SampleWireSize:number, writeStreamsValidated:function, readAnchors:function, writeAnchorsValidated:function, MaxStreamCount:number, validateStreams:function, validateAnchors:function, readStreams:function, streamsWireSize:function, MaxSampleCount:number, MaxTotalSampleCount:number, AnchorWireSize:number}
+  up8: ERR
+  consts total=102
+  [1] str "typeof"
+F decodeRequest
+  params=1 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=decodeRequest what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=41
+  [1] str "typeof"
+F encodeBaselineRequest
+  params=2 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=encodeBaselineRequest what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=11
+  [1] str "isNonZeroUInt16"
+  [2] str "isUInt32"
+  [3] str "InvalidBaselineRequest"
+  [4] str "buffer"
+  [5] str "create"
+F encodeCommandResyncRequest
+  params=2 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=encodeCommandResyncRequest what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=11
+  [1] str "isNonZeroUInt16"
+  [2] str "isUInt32"
+  [3] str "InvalidCommandResyncRequest"
+  [4] str "buffer"
+  [5] str "create"
+F encodeDestructibleBaseline
+  params=2 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=encodeDestructibleBaseline what=Lua protos=0[]
+  up1: table keys=4 {AllActive:function, IsActive:function, Validate:function, New:function}
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: ERR
+  consts total=14
+  [1] str "Validate"
+  [2] str "Epoch"
+  [3] str "Revision"
+  [4] str "Count"
+  [5] str "ActiveBits"
+  [6] str "UInt16Max"
+  [7] str "isUInt32"
+  [8] str "DestructibleBaselineRange"
+  [9] number 12
+  [10] str "buffer"
+  [11] str "create"
+F encodeDestructibleDelta
+  params=4 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=encodeDestructibleDelta what=Lua protos=0[]
+  up1: function params=3 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=validateDelta what=Lua
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: ERR
+  consts total=6
+  [1] str "isUInt32"
+  [2] str "InvalidDeltaServerTick"
+  [3] number 12
+  [4] number 2
+  [5] str "buffer"
+  [6] str "create"
+F encodeDiscontinuity
+  params=1 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=encodeDiscontinuity what=Lua protos=0[]
+  up1: table keys=7 {decode:function, Version:number, encode:function, canonicalizeSupport:function, HeaderSize:number, validate:function, WireSize:number}
+  up2: ERR
+  consts total=11
+  [1] str "encode"
+  [2] str "WireSize"
+  [3] str "buffer"
+  [4] str "create"
+F encodeMapping
+  params=1 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=encodeMapping what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: ERR
+  consts total=11
+  [1] str "encode"
+  [2] str "WireSize"
+  [3] str "buffer"
+  [4] str "create"
+F encodeMappingRequest
+  params=1 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=encodeMappingRequest what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=8
+  [1] str "isNonZeroUInt16"
+  [2] str "InvalidMappingRequest"
+  [3] str "buffer"
+  [4] str "create"
+F encodeMoverBaseline
+  params=5 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=encodeMoverBaseline what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=6 {writeValidated:function, MaxDescriptorCount:number, DescriptorWireSize:number, canonicalize:function, validateList:function, readList:function}
+  up3: table keys=13 {StreamHeaderWireSize:number, SampleWireSize:number, writeStreamsValidated:function, readAnchors:function, writeAnchorsValidated:function, MaxStreamCount:number, validateStreams:function, validateAnchors:function, readStreams:function, streamsWireSize:function, MaxSampleCount:number, MaxTotalSampleCount:number, AnchorWireSize:number}
+  up4: ERR
+  consts total=12
+  [1] str "isNonZeroUInt16"
+  [2] str "isUInt32"
+  [3] str "InvalidMoverControlHeader"
+  [4] str "validateList"
+  [5] str "validateAnchors"
+  [6] str "DescriptorWireSize"
+  [7] str "AnchorWireSize"
+  [8] str "buffer"
+  [9] str "create"
+F encodeMoverDelta
+  params=4 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=encodeMoverDelta what=Lua protos=0[]
+  up1: function params=6 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=encodeMoverDescriptors what=Lua
+  up2: ERR
+  consts total=0
+F encodeMoverProgress
+  params=4 src=ReplicatedStorage.MovementV2.ControlCodec:? cname=encodeMoverProgress what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=13 {StreamHeaderWireSize:number, SampleWireSize:number, writeStreamsValidated:function, readAnchors:function, writeAnchorsValidated:function, MaxStreamCount:number, validateStreams:function, validateAnchors:function, readStreams:function, streamsWireSize:function, MaxSampleCount:number, MaxTotalSampleCount:number, AnchorWireSize:number}
+  up3: ERR
+  consts total=10
+  [1] str "isNonZeroUInt16"
+  [2] str "isUInt32"
+  [3] str "InvalidMoverControlHeader"
+  [4] str "validateStreams"
+  [5] str "streamsWireSize"
+  [6] str "buffer"
+  [7] str "create"

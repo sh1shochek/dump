@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Get 2 Multi-Kills
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K Category :string = multikills
+K MissionId :string = Get 2 Multi-Kills
+K Rewards :table keys=1
+  {[1]={["amount"]=8, ["type"]="Credits"}}
+K Target :number = 2
+K Type :string = hourly

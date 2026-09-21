@@ -1,0 +1,86 @@
+PATH: ReplicatedStorage.Components.Common.MarketplaceHover
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+F Close
+  params=2 src=ReplicatedStorage.Components.Common.MarketplaceHover:? cname=Close what=Lua protos=0[]
+  ups: none
+  consts total=8
+  [1] number 1
+  [2] str "ipairs"
+F Initialize
+  params=3 src=ReplicatedStorage.Components.Common.MarketplaceHover:? cname=Initialize what=Lua protos=2[#1,#2]
+  up1: userdata Hover
+  up2: userdata GlobalMarketPlace
+  up3: userdata CollectionNameTemplate
+  up4: userdata ReplicatedStorage
+  up5: table keys=14 {ItemName:userdata, Description:userdata, CollectionName:userdata, Exterior:userdata, CollectionIcon:userdata, ExteriorLabel:userdata, Collection:userdata, CollectionSpacer:userdata, TeamTitle:userdata, CollectionLabel:userdata, Team:userdata, Rarity:userdata, Information:userdata, PriceLabel:userdata}
+  up6: table keys=7 {Visible:boolean, tweenVisibility:boolean, Initialize:function, Start:function, Close:function, Open:function, OpenTradeInfo:function}
+  up7: table keys=4 {OnAvailableCollectionsUpdated:table, GetAllCollections:function, ObserveAvailableCollections:function, GetCollectionByName:function}
+  up8: table keys=11 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table}
+  up9: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up10: ERR
+  consts total=30
+  [1] str "Assets"
+  [2] str "TradingUI"
+  [3] str "Templates"
+  [4] str "CollectionNameTemplate"
+  [5] str "WaitForChild"
+  [6] str "ItemName"
+  [7] str "CollectionLabel"
+  [8] str "CollectionIcon"
+  [9] str "Description"
+  [10] str "PriceLabel"
+  [11] str "Information"
+  [12] str "Rarity"
+  [13] str "Exterior"
+  [14] str "ExteriorLabel"
+  [15] str "Team"
+  [16] str "TeamTitle"
+  [17] str "Collection"
+  [18] str "CollectionName"
+  [19] str "CollectionSpacer"
+  [20] table
+  [21] str "Frame"
+  [22] str "Price"
+  [23] str "PriceHolder"
+  [24] str "Label"
+  [25] str "Parent"
+  [26] str "Title"
+  [27] str "Visible"
+  [28] str "ObserveAvailableCollections"
+  [29] str "observerRouter"
+  [30] str "OpenTradeInfo"
+F Open
+  params=3 src=ReplicatedStorage.Components.Common.MarketplaceHover:? cname=Open what=Lua protos=1[#1]
+  up1: number 1
+  consts total=8
+  [1] number 1
+  [2] str "Inventory"
+  [3] str "Visible"
+  [4] str "TradeInfo"
+  [5] str "Close"
+  [6] str "Position"
+  [7] str "task"
+  [8] str "delay"
+F OpenTradeInfo
+  params=3 src=ReplicatedStorage.Components.Common.MarketplaceHover:? cname=OpenTradeInfo what=Lua protos=0[]
+  up1: table keys=7 {Visible:boolean, tweenVisibility:boolean, Initialize:function, Start:function, Close:function, Open:function, OpenTradeInfo:function}
+  consts total=6
+  [1] str "Visible"
+  [2] str "TradeInfo"
+  [3] str "Close"
+  [4] number 1
+  [5] str "Parent"
+  [6] str "Position"
+F Start
+  params=0 src=ReplicatedStorage.Components.Common.MarketplaceHover:? cname=Start what=Lua protos=0[]
+  up1: userdata Connection
+  up2: userdata UserInputService
+  up3: function params=1 src=ReplicatedStorage.Components.Common.MarketplaceHover:? cname=closeTradeInfoFromInput what=Lua
+  up4: ERR
+  consts total=2
+  [1] str "InputBegan"
+  [2] str "Connect"
+K Visible :boolean = false
+K tweenVisibility :boolean = false

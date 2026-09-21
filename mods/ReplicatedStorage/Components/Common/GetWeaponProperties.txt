@@ -1,0 +1,13 @@
+PATH: ReplicatedStorage.Components.Common.GetWeaponProperties
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua protos=0[]
+  up1: userdata ReplicatedStorage
+  up2: ERR
+  consts total=5
+  [1] str "Database"
+  [2] str "Custom"
+  [3] str "Weapons"
+  [4] str "FindFirstChild"
+  [5] str "require"

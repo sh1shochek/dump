@@ -1,0 +1,15 @@
+PATH: ReplicatedStorage.Shared.Base64
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F ToBase64
+  params=1 src=ReplicatedStorage.Shared.Base64:? cname=ToBase64 what=Lua protos=2[#1,#2]
+  up1: ERR
+  consts total=11
+  [1] str "."
+F ToString
+  params=1 src=ReplicatedStorage.Shared.Base64:? cname=ToString what=Lua protos=2[#1,#2]
+  up1: ERR
+  consts total=8
+  [1] str "string"
+  [2] str "gsub"

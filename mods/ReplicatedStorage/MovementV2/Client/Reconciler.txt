@@ -1,0 +1,106 @@
+PATH: ReplicatedStorage.MovementV2.Client.Reconciler
+REQUIRE: ok
+RETURNS: table
+KEYS: 9
+K __index :table keys=9
+  {["cancelPendingReplay"]=<function:function: 0x3356e321ab00cbae>, ["resume"]=<function:function: 0x53e3fabe99425b75>, ["reconfigure"]=<function:function: 0xcc1f7bae8ac91cb3>, ["accept"]=<function:function: 0x3e1c6a6505e318f5>, ["markMoverRevisionValidated"]=<function:function: 0xe19fd9d87e2d1e23>, ["hasPendingReplay"]=<function:function: 0x4dd68139339af796>, ["reset"]=<function:function: 0x1e86b579cacd3278>, ["__index"]=<cycle>, ["new"]=<function:function: 0x053e3b57717a3ca7>}
+F accept
+  params=7 src=ReplicatedStorage.MovementV2.Client.Reconciler:? cname=accept what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Client.Reconciler:? cname=measure what=Lua
+  up3: table keys=4 {cloneSupport:function, noneSupport:function, clone:function, new:function}
+  up4: table keys=17 {shiftServerTicksAfter:function, Dependency:table, cloneEntry:function, __index:table, new:function, clear:function, capacity:function, replacePrediction:function, newestCommandNumber:function, isFull:function, push:function, count:function, entriesAfter:function, dropThrough:function, anyEntryAtOrAfterServerTick:function, get:function, reset:function}
+  up5: function params=4 src=ReplicatedStorage.MovementV2.Client.Reconciler:? cname=advancePendingReplay what=Lua
+  up6: ERR
+  consts total=92
+  [1] str "_pendingReplay"
+  [2] str "ReplayAlreadyPending"
+  [3] str "Generation"
+  [4] str "_mapping"
+  [5] str "GenerationMismatch"
+  [6] str "Topology"
+  [7] str "Epoch"
+  [8] str "TopologyEpoch"
+  [9] str "Fingerprint"
+  [10] str "TopologyFingerprint"
+  [11] str "TopologyMismatch"
+  [12] str "_lastSequence"
+  [13] str "Sequence"
+  [14] str "ServerTick"
+  [15] str "_lastServerTick"
+  [16] str "LastProcessedCommand"
+  [17] str "_lastProcessedCommand"
+  [18] str "DestructibleRevision"
+  [19] str "_lastTopologyRevision"
+  [20] str "MoverRevision"
+  [21] str "_lastMoverRevision"
+  [22] str "AcceptedSnapshotIdentityMismatch"
+  [23] str "isNewerUInt32"
+  [24] str "SnapshotNotNewer"
+  [25] str "deltaUInt32"
+  [26] str "ServerTickRegressed"
+  [27] str "AcknowledgementRegressed"
+  [28] str "TopologyRevisionRegressed"
+  [29] str "MoverRevisionRegressed"
+  [30] str "_ring"
+  [31] str "get"
+  [32] str "_entryScratch"
+  [33] str "entriesAfter"
+  [34] str "Command"
+  [35] str "CommandNumber"
+  [36] str "addUInt32"
+  [37] str "PredictionHistoryGap"
+  [38] str "CanonicalStateMismatchCount"
+  [39] str "CanonicalStateMismatchMask"
+  [40] number 4294967292
+  [41] str "bit32"
+  [42] str "band"
+F cancelPendingReplay
+  params=1 src=ReplicatedStorage.MovementV2.Client.Reconciler:? cname=cancelPendingReplay what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_pendingReplay"
+F hasPendingReplay
+  params=1 src=ReplicatedStorage.MovementV2.Client.Reconciler:? cname=hasPendingReplay what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_pendingReplay"
+F markMoverRevisionValidated
+  params=2 src=ReplicatedStorage.MovementV2.Client.Reconciler:? cname=markMoverRevisionValidated what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=4
+  [1] str "isUInt32"
+  [2] str "InvalidMoverRevision"
+  [3] str "_validatedMoverRevision"
+  [4] str "deltaUInt32"
+F new
+  params=2 src=ReplicatedStorage.MovementV2.Client.Reconciler:? cname=new what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: table keys=9 {cancelPendingReplay:function, resume:function, reconfigure:function, accept:function, markMoverRevisionValidated:function, hasPendingReplay:function, reset:function, __index:table, new:function}
+  up3: ERR
+  consts total=24
+  [1] str "validate"
+  [2] str "invalid command mapping"
+  [3] str "assert"
+F reconfigure
+  params=2 src=ReplicatedStorage.MovementV2.Client.Reconciler:? cname=reconfigure what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: ERR
+  consts total=25
+  [1] str "validate"
+  [2] str "invalid command mapping"
+  [3] str "assert"
+F reset
+  params=2 src=ReplicatedStorage.MovementV2.Client.Reconciler:? cname=reset what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: ERR
+  consts total=25
+  [1] str "validate"
+  [2] str "invalid command mapping"
+  [3] str "assert"
+F resume
+  params=4 src=ReplicatedStorage.MovementV2.Client.Reconciler:? cname=resume what=Lua protos=0[]
+  up1: function params=4 src=ReplicatedStorage.MovementV2.Client.Reconciler:? cname=advancePendingReplay what=Lua
+  up2: ERR
+  consts total=0

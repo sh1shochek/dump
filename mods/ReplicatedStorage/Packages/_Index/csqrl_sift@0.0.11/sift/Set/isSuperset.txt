@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set.isSuperset
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=isSuperset what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=isSubset what=Lua
+  up2: ERR
+  consts total=0

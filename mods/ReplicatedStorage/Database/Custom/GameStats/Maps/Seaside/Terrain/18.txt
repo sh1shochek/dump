@@ -1,0 +1,2380 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Maps.Seaside.Terrain.18
+REQUIRE: ok
+RETURNS: table
+KEYS: 1188
+K 1 :table keys=5
+  {["y"]=10, ["x"]=47, ["z"]=141, ["material"]="Rock", ["occupancy"]=1}
+K 10 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 100 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=142, ["material"]="Ground", ["occupancy"]=1}
+K 1000 :table keys=5
+  {["y"]=16, ["x"]=52, ["z"]=13, ["material"]="Sand", ["occupancy"]=0.87}
+K 1001 :table keys=5
+  {["y"]=16, ["x"]=52, ["z"]=14, ["material"]="Sand", ["occupancy"]=0.58}
+K 1002 :table keys=5
+  {["y"]=16, ["x"]=52, ["z"]=15, ["material"]="Sand", ["occupancy"]=0.93}
+K 1003 :table keys=5
+  {["y"]=16, ["x"]=52, ["z"]=16, ["material"]="Sand", ["occupancy"]=0.95}
+K 1004 :table keys=5
+  {["y"]=16, ["x"]=52, ["z"]=17, ["material"]="Sand", ["occupancy"]=0.96}
+K 1005 :table keys=5
+  {["y"]=16, ["x"]=52, ["z"]=18, ["material"]="Sand", ["occupancy"]=0.86}
+K 1006 :table keys=5
+  {["y"]=16, ["x"]=52, ["z"]=19, ["material"]="Sand", ["occupancy"]=0.98}
+K 1007 :table keys=5
+  {["y"]=16, ["x"]=52, ["z"]=20, ["material"]="Sand", ["occupancy"]=0.13}
+K 1008 :table keys=5
+  {["y"]=17, ["x"]=52, ["z"]=13, ["material"]="Sand", ["occupancy"]=0.21}
+K 1009 :table keys=5
+  {["y"]=17, ["x"]=52, ["z"]=14, ["material"]="Sand", ["occupancy"]=0.49}
+K 101 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=143, ["material"]="Ground", ["occupancy"]=0.38}
+K 1010 :table keys=5
+  {["y"]=17, ["x"]=52, ["z"]=15, ["material"]="Sand", ["occupancy"]=0.85}
+K 1011 :table keys=5
+  {["y"]=17, ["x"]=52, ["z"]=16, ["material"]="Rock", ["occupancy"]=0.93}
+K 1012 :table keys=5
+  {["y"]=17, ["x"]=52, ["z"]=17, ["material"]="Rock", ["occupancy"]=1}
+K 1013 :table keys=5
+  {["y"]=17, ["x"]=52, ["z"]=18, ["material"]="Rock", ["occupancy"]=0.87}
+K 1014 :table keys=5
+  {["y"]=17, ["x"]=52, ["z"]=19, ["material"]="Rock", ["occupancy"]=0.1}
+K 1015 :table keys=5
+  {["y"]=18, ["x"]=52, ["z"]=15, ["material"]="Rock", ["occupancy"]=0.36}
+K 1016 :table keys=5
+  {["y"]=18, ["x"]=52, ["z"]=16, ["material"]="Rock", ["occupancy"]=0.62}
+K 1017 :table keys=5
+  {["y"]=18, ["x"]=52, ["z"]=17, ["material"]="Rock", ["occupancy"]=0.66}
+K 1018 :table keys=5
+  {["y"]=18, ["x"]=52, ["z"]=18, ["material"]="Rock", ["occupancy"]=0.39}
+K 1019 :table keys=5
+  {["y"]=19, ["x"]=52, ["z"]=16, ["material"]="Rock", ["occupancy"]=0.19}
+K 102 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.84}
+K 1020 :table keys=5
+  {["y"]=8, ["x"]=53, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.05}
+K 1021 :table keys=5
+  {["y"]=8, ["x"]=53, ["z"]=14, ["material"]="Ground", ["occupancy"]=0.11}
+K 1022 :table keys=5
+  {["y"]=8, ["x"]=53, ["z"]=15, ["material"]="Ground", ["occupancy"]=0.04}
+K 1023 :table keys=5
+  {["y"]=9, ["x"]=53, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.01}
+K 1024 :table keys=5
+  {["y"]=9, ["x"]=53, ["z"]=12, ["material"]="Ground", ["occupancy"]=0.83}
+K 1025 :table keys=5
+  {["y"]=9, ["x"]=53, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 1026 :table keys=5
+  {["y"]=9, ["x"]=53, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 1027 :table keys=5
+  {["y"]=9, ["x"]=53, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 1028 :table keys=5
+  {["y"]=9, ["x"]=53, ["z"]=16, ["material"]="Ground", ["occupancy"]=0.86}
+K 1029 :table keys=5
+  {["y"]=9, ["x"]=53, ["z"]=17, ["material"]="Ground", ["occupancy"]=0.77}
+K 103 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 1030 :table keys=5
+  {["y"]=9, ["x"]=53, ["z"]=18, ["material"]="Ground", ["occupancy"]=0.89}
+K 1031 :table keys=5
+  {["y"]=9, ["x"]=53, ["z"]=19, ["material"]="Ground", ["occupancy"]=0.96}
+K 1032 :table keys=5
+  {["y"]=9, ["x"]=53, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.82}
+K 1033 :table keys=5
+  {["y"]=10, ["x"]=53, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.24}
+K 1034 :table keys=5
+  {["y"]=10, ["x"]=53, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 1035 :table keys=5
+  {["y"]=10, ["x"]=53, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 1036 :table keys=5
+  {["y"]=10, ["x"]=53, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 1037 :table keys=5
+  {["y"]=10, ["x"]=53, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 1038 :table keys=5
+  {["y"]=10, ["x"]=53, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 1039 :table keys=5
+  {["y"]=10, ["x"]=53, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 104 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 1040 :table keys=5
+  {["y"]=10, ["x"]=53, ["z"]=17, ["material"]="Ground", ["occupancy"]=1}
+K 1041 :table keys=5
+  {["y"]=10, ["x"]=53, ["z"]=18, ["material"]="Ground", ["occupancy"]=1}
+K 1042 :table keys=5
+  {["y"]=10, ["x"]=53, ["z"]=19, ["material"]="Ground", ["occupancy"]=1}
+K 1043 :table keys=5
+  {["y"]=10, ["x"]=53, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 1044 :table keys=5
+  {["y"]=10, ["x"]=53, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 1045 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.3}
+K 1046 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 1047 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 1048 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 1049 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 105 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 1050 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 1051 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 1052 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=17, ["material"]="Ground", ["occupancy"]=1}
+K 1053 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=18, ["material"]="Ground", ["occupancy"]=1}
+K 1054 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=19, ["material"]="Ground", ["occupancy"]=1}
+K 1055 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 1056 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 1057 :table keys=5
+  {["y"]=11, ["x"]=53, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.43}
+K 1058 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.07}
+K 1059 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 106 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 1060 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 1061 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 1062 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 1063 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 1064 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 1065 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=17, ["material"]="Ground", ["occupancy"]=1}
+K 1066 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=18, ["material"]="Ground", ["occupancy"]=1}
+K 1067 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=19, ["material"]="Ground", ["occupancy"]=1}
+K 1068 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 1069 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 107 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 1070 :table keys=5
+  {["y"]=12, ["x"]=53, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.23}
+K 1071 :table keys=5
+  {["y"]=13, ["x"]=53, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.57}
+K 1072 :table keys=5
+  {["y"]=13, ["x"]=53, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 1073 :table keys=5
+  {["y"]=13, ["x"]=53, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 1074 :table keys=5
+  {["y"]=13, ["x"]=53, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 1075 :table keys=5
+  {["y"]=13, ["x"]=53, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 1076 :table keys=5
+  {["y"]=13, ["x"]=53, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 1077 :table keys=5
+  {["y"]=13, ["x"]=53, ["z"]=17, ["material"]="Ground", ["occupancy"]=1}
+K 1078 :table keys=5
+  {["y"]=13, ["x"]=53, ["z"]=18, ["material"]="Ground", ["occupancy"]=1}
+K 1079 :table keys=5
+  {["y"]=13, ["x"]=53, ["z"]=19, ["material"]="Ground", ["occupancy"]=1}
+K 108 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 1080 :table keys=5
+  {["y"]=13, ["x"]=53, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 1081 :table keys=5
+  {["y"]=13, ["x"]=53, ["z"]=21, ["material"]="Ground", ["occupancy"]=0.28}
+K 1082 :table keys=5
+  {["y"]=14, ["x"]=53, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.17}
+K 1083 :table keys=5
+  {["y"]=14, ["x"]=53, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 1084 :table keys=5
+  {["y"]=14, ["x"]=53, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 1085 :table keys=5
+  {["y"]=14, ["x"]=53, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 1086 :table keys=5
+  {["y"]=14, ["x"]=53, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 1087 :table keys=5
+  {["y"]=14, ["x"]=53, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 1088 :table keys=5
+  {["y"]=14, ["x"]=53, ["z"]=17, ["material"]="Ground", ["occupancy"]=1}
+K 1089 :table keys=5
+  {["y"]=14, ["x"]=53, ["z"]=18, ["material"]="Ground", ["occupancy"]=1}
+K 109 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 1090 :table keys=5
+  {["y"]=14, ["x"]=53, ["z"]=19, ["material"]="Ground", ["occupancy"]=0.87}
+K 1091 :table keys=5
+  {["y"]=14, ["x"]=53, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.64}
+K 1092 :table keys=5
+  {["y"]=15, ["x"]=53, ["z"]=12, ["material"]="Ground", ["occupancy"]=0.38}
+K 1093 :table keys=5
+  {["y"]=15, ["x"]=53, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 1094 :table keys=5
+  {["y"]=15, ["x"]=53, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 1095 :table keys=5
+  {["y"]=15, ["x"]=53, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 1096 :table keys=5
+  {["y"]=15, ["x"]=53, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 1097 :table keys=5
+  {["y"]=15, ["x"]=53, ["z"]=17, ["material"]="Ground", ["occupancy"]=1}
+K 1098 :table keys=5
+  {["y"]=15, ["x"]=53, ["z"]=18, ["material"]="Ground", ["occupancy"]=1}
+K 1099 :table keys=5
+  {["y"]=15, ["x"]=53, ["z"]=19, ["material"]="Ground", ["occupancy"]=0.85}
+K 11 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 110 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 1100 :table keys=5
+  {["y"]=15, ["x"]=53, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.16}
+K 1101 :table keys=5
+  {["y"]=16, ["x"]=53, ["z"]=13, ["material"]="Sand", ["occupancy"]=0.09}
+K 1102 :table keys=5
+  {["y"]=16, ["x"]=53, ["z"]=14, ["material"]="Sand", ["occupancy"]=0.04}
+K 1103 :table keys=5
+  {["y"]=17, ["x"]=53, ["z"]=17, ["material"]="Rock", ["occupancy"]=0.03}
+K 1104 :table keys=5
+  {["y"]=9, ["x"]=54, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.16}
+K 1105 :table keys=5
+  {["y"]=9, ["x"]=54, ["z"]=14, ["material"]="Ground", ["occupancy"]=0.34}
+K 1106 :table keys=5
+  {["y"]=9, ["x"]=54, ["z"]=15, ["material"]="Ground", ["occupancy"]=0.25}
+K 1107 :table keys=5
+  {["y"]=9, ["x"]=54, ["z"]=16, ["material"]="Ground", ["occupancy"]=0.14}
+K 1108 :table keys=5
+  {["y"]=9, ["x"]=54, ["z"]=17, ["material"]="Ground", ["occupancy"]=0.05}
+K 1109 :table keys=5
+  {["y"]=9, ["x"]=54, ["z"]=18, ["material"]="Ground", ["occupancy"]=0.16}
+K 111 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 1110 :table keys=5
+  {["y"]=9, ["x"]=54, ["z"]=19, ["material"]="Ground", ["occupancy"]=0.38}
+K 1111 :table keys=5
+  {["y"]=9, ["x"]=54, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.11}
+K 1112 :table keys=5
+  {["y"]=10, ["x"]=54, ["z"]=12, ["material"]="Ground", ["occupancy"]=0.65}
+K 1113 :table keys=5
+  {["y"]=10, ["x"]=54, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 1114 :table keys=5
+  {["y"]=10, ["x"]=54, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 1115 :table keys=5
+  {["y"]=10, ["x"]=54, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 1116 :table keys=5
+  {["y"]=10, ["x"]=54, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 1117 :table keys=5
+  {["y"]=10, ["x"]=54, ["z"]=17, ["material"]="Ground", ["occupancy"]=1}
+K 1118 :table keys=5
+  {["y"]=10, ["x"]=54, ["z"]=18, ["material"]="Ground", ["occupancy"]=1}
+K 1119 :table keys=5
+  {["y"]=10, ["x"]=54, ["z"]=19, ["material"]="Ground", ["occupancy"]=1}
+K 112 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 1120 :table keys=5
+  {["y"]=10, ["x"]=54, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 1121 :table keys=5
+  {["y"]=10, ["x"]=54, ["z"]=21, ["material"]="Ground", ["occupancy"]=0.06}
+K 1122 :table keys=5
+  {["y"]=11, ["x"]=54, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.21}
+K 1123 :table keys=5
+  {["y"]=11, ["x"]=54, ["z"]=12, ["material"]="Ground", ["occupancy"]=0.84}
+K 1124 :table keys=5
+  {["y"]=11, ["x"]=54, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 1125 :table keys=5
+  {["y"]=11, ["x"]=54, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 1126 :table keys=5
+  {["y"]=11, ["x"]=54, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 1127 :table keys=5
+  {["y"]=11, ["x"]=54, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 1128 :table keys=5
+  {["y"]=11, ["x"]=54, ["z"]=17, ["material"]="Ground", ["occupancy"]=1}
+K 1129 :table keys=5
+  {["y"]=11, ["x"]=54, ["z"]=18, ["material"]="Ground", ["occupancy"]=1}
+K 113 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 1130 :table keys=5
+  {["y"]=11, ["x"]=54, ["z"]=19, ["material"]="Ground", ["occupancy"]=1}
+K 1131 :table keys=5
+  {["y"]=11, ["x"]=54, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 1132 :table keys=5
+  {["y"]=11, ["x"]=54, ["z"]=21, ["material"]="Ground", ["occupancy"]=0.69}
+K 1133 :table keys=5
+  {["y"]=12, ["x"]=54, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.04}
+K 1134 :table keys=5
+  {["y"]=12, ["x"]=54, ["z"]=12, ["material"]="Ground", ["occupancy"]=0.81}
+K 1135 :table keys=5
+  {["y"]=12, ["x"]=54, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 1136 :table keys=5
+  {["y"]=12, ["x"]=54, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 1137 :table keys=5
+  {["y"]=12, ["x"]=54, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 1138 :table keys=5
+  {["y"]=12, ["x"]=54, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 1139 :table keys=5
+  {["y"]=12, ["x"]=54, ["z"]=17, ["material"]="Ground", ["occupancy"]=1}
+K 114 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=24, ["material"]="Ground", ["occupancy"]=0.13}
+K 1140 :table keys=5
+  {["y"]=12, ["x"]=54, ["z"]=18, ["material"]="Ground", ["occupancy"]=1}
+K 1141 :table keys=5
+  {["y"]=12, ["x"]=54, ["z"]=19, ["material"]="Ground", ["occupancy"]=1}
+K 1142 :table keys=5
+  {["y"]=12, ["x"]=54, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 1143 :table keys=5
+  {["y"]=12, ["x"]=54, ["z"]=21, ["material"]="Ground", ["occupancy"]=0.27}
+K 1144 :table keys=5
+  {["y"]=13, ["x"]=54, ["z"]=12, ["material"]="Ground", ["occupancy"]=0.28}
+K 1145 :table keys=5
+  {["y"]=13, ["x"]=54, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.84}
+K 1146 :table keys=5
+  {["y"]=13, ["x"]=54, ["z"]=14, ["material"]="Ground", ["occupancy"]=0.86}
+K 1147 :table keys=5
+  {["y"]=13, ["x"]=54, ["z"]=15, ["material"]="Ground", ["occupancy"]=0.8}
+K 1148 :table keys=5
+  {["y"]=13, ["x"]=54, ["z"]=16, ["material"]="Ground", ["occupancy"]=0.95}
+K 1149 :table keys=5
+  {["y"]=13, ["x"]=54, ["z"]=17, ["material"]="Ground", ["occupancy"]=0.87}
+K 115 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=129, ["material"]="Ground", ["occupancy"]=0.84}
+K 1150 :table keys=5
+  {["y"]=13, ["x"]=54, ["z"]=18, ["material"]="Ground", ["occupancy"]=0.96}
+K 1151 :table keys=5
+  {["y"]=13, ["x"]=54, ["z"]=19, ["material"]="Ground", ["occupancy"]=0.88}
+K 1152 :table keys=5
+  {["y"]=13, ["x"]=54, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.45}
+K 1153 :table keys=5
+  {["y"]=14, ["x"]=54, ["z"]=12, ["material"]="Ground", ["occupancy"]=0.09}
+K 1154 :table keys=5
+  {["y"]=14, ["x"]=54, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.27}
+K 1155 :table keys=5
+  {["y"]=14, ["x"]=54, ["z"]=14, ["material"]="Ground", ["occupancy"]=0.44}
+K 1156 :table keys=5
+  {["y"]=14, ["x"]=54, ["z"]=15, ["material"]="Ground", ["occupancy"]=0.35}
+K 1157 :table keys=5
+  {["y"]=14, ["x"]=54, ["z"]=16, ["material"]="Ground", ["occupancy"]=0.63}
+K 1158 :table keys=5
+  {["y"]=14, ["x"]=54, ["z"]=17, ["material"]="Ground", ["occupancy"]=0.22}
+K 1159 :table keys=5
+  {["y"]=14, ["x"]=54, ["z"]=18, ["material"]="Ground", ["occupancy"]=0.12}
+K 116 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=130, ["material"]="Ground", ["occupancy"]=1}
+K 1160 :table keys=5
+  {["y"]=15, ["x"]=54, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.07}
+K 1161 :table keys=5
+  {["y"]=15, ["x"]=54, ["z"]=14, ["material"]="Ground", ["occupancy"]=0.09}
+K 1162 :table keys=5
+  {["y"]=15, ["x"]=54, ["z"]=15, ["material"]="Ground", ["occupancy"]=0.2}
+K 1163 :table keys=5
+  {["y"]=15, ["x"]=54, ["z"]=16, ["material"]="Ground", ["occupancy"]=0.38}
+K 1164 :table keys=5
+  {["y"]=15, ["x"]=54, ["z"]=17, ["material"]="Ground", ["occupancy"]=0.09}
+K 1165 :table keys=5
+  {["y"]=15, ["x"]=54, ["z"]=18, ["material"]="Ground", ["occupancy"]=0.08}
+K 1166 :table keys=5
+  {["y"]=10, ["x"]=55, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.12}
+K 1167 :table keys=5
+  {["y"]=10, ["x"]=55, ["z"]=14, ["material"]="Ground", ["occupancy"]=0.24}
+K 1168 :table keys=5
+  {["y"]=10, ["x"]=55, ["z"]=15, ["material"]="Ground", ["occupancy"]=0.25}
+K 1169 :table keys=5
+  {["y"]=10, ["x"]=55, ["z"]=16, ["material"]="Ground", ["occupancy"]=0.16}
+K 117 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=131, ["material"]="Rock", ["occupancy"]=1}
+K 1170 :table keys=5
+  {["y"]=10, ["x"]=55, ["z"]=17, ["material"]="Ground", ["occupancy"]=0.09}
+K 1171 :table keys=5
+  {["y"]=10, ["x"]=55, ["z"]=18, ["material"]="Ground", ["occupancy"]=0.22}
+K 1172 :table keys=5
+  {["y"]=10, ["x"]=55, ["z"]=19, ["material"]="Ground", ["occupancy"]=0.43}
+K 1173 :table keys=5
+  {["y"]=10, ["x"]=55, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.13}
+K 1174 :table keys=5
+  {["y"]=11, ["x"]=55, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.26}
+K 1175 :table keys=5
+  {["y"]=11, ["x"]=55, ["z"]=14, ["material"]="Ground", ["occupancy"]=0.39}
+K 1176 :table keys=5
+  {["y"]=11, ["x"]=55, ["z"]=15, ["material"]="Ground", ["occupancy"]=0.42}
+K 1177 :table keys=5
+  {["y"]=11, ["x"]=55, ["z"]=16, ["material"]="Ground", ["occupancy"]=0.58}
+K 1178 :table keys=5
+  {["y"]=11, ["x"]=55, ["z"]=17, ["material"]="Ground", ["occupancy"]=0.63}
+K 1179 :table keys=5
+  {["y"]=11, ["x"]=55, ["z"]=18, ["material"]="Ground", ["occupancy"]=0.61}
+K 118 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=132, ["material"]="Rock", ["occupancy"]=1}
+K 1180 :table keys=5
+  {["y"]=11, ["x"]=55, ["z"]=19, ["material"]="Ground", ["occupancy"]=0.71}
+K 1181 :table keys=5
+  {["y"]=11, ["x"]=55, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.35}
+K 1182 :table keys=5
+  {["y"]=12, ["x"]=55, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.17}
+K 1183 :table keys=5
+  {["y"]=12, ["x"]=55, ["z"]=15, ["material"]="Ground", ["occupancy"]=0.2}
+K 1184 :table keys=5
+  {["y"]=12, ["x"]=55, ["z"]=16, ["material"]="Ground", ["occupancy"]=0.38}
+K 1185 :table keys=5
+  {["y"]=12, ["x"]=55, ["z"]=17, ["material"]="Ground", ["occupancy"]=0.49}
+K 1186 :table keys=5
+  {["y"]=12, ["x"]=55, ["z"]=18, ["material"]="Ground", ["occupancy"]=0.65}
+K 1187 :table keys=5
+  {["y"]=12, ["x"]=55, ["z"]=19, ["material"]="Ground", ["occupancy"]=0.56}
+K 1188 :table keys=5
+  {["y"]=12, ["x"]=55, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.38}
+K 119 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=133, ["material"]="Rock", ["occupancy"]=1}
+K 12 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 120 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=134, ["material"]="Rock", ["occupancy"]=1}
+K 121 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=135, ["material"]="Rock", ["occupancy"]=1}
+K 122 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 123 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 124 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=138, ["material"]="Rock", ["occupancy"]=1}
+K 125 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=139, ["material"]="Rock", ["occupancy"]=1}
+K 126 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=140, ["material"]="Rock", ["occupancy"]=1}
+K 127 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=141, ["material"]="Ground", ["occupancy"]=1}
+K 128 :table keys=5
+  {["y"]=14, ["x"]=47, ["z"]=142, ["material"]="Ground", ["occupancy"]=0.82}
+K 129 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.61}
+K 13 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 130 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 131 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 132 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 133 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 134 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 135 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 136 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 137 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 138 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 139 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 14 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 140 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=23, ["material"]="Ground", ["occupancy"]=0.75}
+K 141 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=129, ["material"]="Ground", ["occupancy"]=0.14}
+K 142 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=130, ["material"]="Ground", ["occupancy"]=1}
+K 143 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=131, ["material"]="Rock", ["occupancy"]=1}
+K 144 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=132, ["material"]="Rock", ["occupancy"]=1}
+K 145 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=133, ["material"]="Rock", ["occupancy"]=1}
+K 146 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=134, ["material"]="Rock", ["occupancy"]=1}
+K 147 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=135, ["material"]="Rock", ["occupancy"]=1}
+K 148 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 149 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 15 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 150 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=138, ["material"]="Rock", ["occupancy"]=1}
+K 151 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=139, ["material"]="Rock", ["occupancy"]=1}
+K 152 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=140, ["material"]="Rock", ["occupancy"]=1}
+K 153 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=141, ["material"]="Ground", ["occupancy"]=1}
+K 154 :table keys=5
+  {["y"]=15, ["x"]=47, ["z"]=142, ["material"]="Ground", ["occupancy"]=0.34}
+K 155 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.38}
+K 156 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 157 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 158 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 159 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 16 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=21, ["material"]="Grass", ["occupancy"]=1}
+K 160 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 161 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 162 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 163 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=20, ["material"]="Rock", ["occupancy"]=1}
+K 164 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=21, ["material"]="Sand", ["occupancy"]=0.85}
+K 165 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=22, ["material"]="Sand", ["occupancy"]=0.39}
+K 166 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=130, ["material"]="Sand", ["occupancy"]=0.19}
+K 167 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=131, ["material"]="Sand", ["occupancy"]=0.7}
+K 168 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=132, ["material"]="Sand", ["occupancy"]=1}
+K 169 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=133, ["material"]="Rock", ["occupancy"]=1}
+K 17 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 170 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=134, ["material"]="Rock", ["occupancy"]=1}
+K 171 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=135, ["material"]="Rock", ["occupancy"]=1}
+K 172 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 173 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 174 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=138, ["material"]="Rock", ["occupancy"]=1}
+K 175 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=139, ["material"]="Sand", ["occupancy"]=1}
+K 176 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=140, ["material"]="Sand", ["occupancy"]=0.68}
+K 177 :table keys=5
+  {["y"]=16, ["x"]=47, ["z"]=141, ["material"]="Sand", ["occupancy"]=0.41}
+K 178 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.13}
+K 179 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=13, ["material"]="Rock", ["occupancy"]=1}
+K 18 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 180 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 181 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 182 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 183 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 184 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 185 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 186 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=20, ["material"]="Rock", ["occupancy"]=1}
+K 187 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=21, ["material"]="Sand", ["occupancy"]=0.3}
+K 188 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=131, ["material"]="Sand", ["occupancy"]=0.27}
+K 189 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=132, ["material"]="Sand", ["occupancy"]=0.55}
+K 19 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=24, ["material"]="Ground", ["occupancy"]=1}
+K 190 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=133, ["material"]="Rock", ["occupancy"]=0.54}
+K 191 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=134, ["material"]="Rock", ["occupancy"]=0.15}
+K 192 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=135, ["material"]="Rock", ["occupancy"]=0.1}
+K 193 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=136, ["material"]="Rock", ["occupancy"]=0.35}
+K 194 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=137, ["material"]="Rock", ["occupancy"]=0.98}
+K 195 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=138, ["material"]="Rock", ["occupancy"]=0.99}
+K 196 :table keys=5
+  {["y"]=17, ["x"]=47, ["z"]=139, ["material"]="Sand", ["occupancy"]=0.28}
+K 197 :table keys=5
+  {["y"]=18, ["x"]=47, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.09}
+K 198 :table keys=5
+  {["y"]=18, ["x"]=47, ["z"]=13, ["material"]="Rock", ["occupancy"]=1}
+K 199 :table keys=5
+  {["y"]=18, ["x"]=47, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 2 :table keys=5
+  {["y"]=10, ["x"]=47, ["z"]=142, ["material"]="Rock", ["occupancy"]=0.83}
+K 20 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=25, ["material"]="Ground", ["occupancy"]=1}
+K 200 :table keys=5
+  {["y"]=18, ["x"]=47, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 201 :table keys=5
+  {["y"]=18, ["x"]=47, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 202 :table keys=5
+  {["y"]=18, ["x"]=47, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 203 :table keys=5
+  {["y"]=18, ["x"]=47, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 204 :table keys=5
+  {["y"]=18, ["x"]=47, ["z"]=19, ["material"]="Grass", ["occupancy"]=0.99}
+K 205 :table keys=5
+  {["y"]=18, ["x"]=47, ["z"]=20, ["material"]="Rock", ["occupancy"]=0.54}
+K 206 :table keys=5
+  {["y"]=19, ["x"]=47, ["z"]=13, ["material"]="Grass", ["occupancy"]=0.3}
+K 207 :table keys=5
+  {["y"]=19, ["x"]=47, ["z"]=14, ["material"]="Grass", ["occupancy"]=0.91}
+K 208 :table keys=5
+  {["y"]=19, ["x"]=47, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 209 :table keys=5
+  {["y"]=19, ["x"]=47, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 21 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=26, ["material"]="Ground", ["occupancy"]=1}
+K 210 :table keys=5
+  {["y"]=19, ["x"]=47, ["z"]=17, ["material"]="Grass", ["occupancy"]=0.73}
+K 211 :table keys=5
+  {["y"]=19, ["x"]=47, ["z"]=18, ["material"]="Grass", ["occupancy"]=0.39}
+K 212 :table keys=5
+  {["y"]=20, ["x"]=47, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 213 :table keys=5
+  {["y"]=20, ["x"]=47, ["z"]=16, ["material"]="Rock", ["occupancy"]=1}
+K 214 :table keys=5
+  {["y"]=20, ["x"]=47, ["z"]=17, ["material"]="Rock", ["occupancy"]=0.31}
+K 215 :table keys=5
+  {["y"]=21, ["x"]=47, ["z"]=15, ["material"]="Rock", ["occupancy"]=0.75}
+K 216 :table keys=5
+  {["y"]=21, ["x"]=47, ["z"]=16, ["material"]="Rock", ["occupancy"]=0.31}
+K 217 :table keys=5
+  {["y"]=8, ["x"]=48, ["z"]=12, ["material"]="Ground", ["occupancy"]=0.08}
+K 218 :table keys=5
+  {["y"]=8, ["x"]=48, ["z"]=21, ["material"]="Ground", ["occupancy"]=0.09}
+K 219 :table keys=5
+  {["y"]=8, ["x"]=48, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.17}
+K 22 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=27, ["material"]="Ground", ["occupancy"]=0.6}
+K 220 :table keys=5
+  {["y"]=8, ["x"]=48, ["z"]=23, ["material"]="Ground", ["occupancy"]=0.06}
+K 221 :table keys=5
+  {["y"]=9, ["x"]=48, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.12}
+K 222 :table keys=5
+  {["y"]=9, ["x"]=48, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.91}
+K 223 :table keys=5
+  {["y"]=9, ["x"]=48, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 224 :table keys=5
+  {["y"]=9, ["x"]=48, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.64}
+K 225 :table keys=5
+  {["y"]=9, ["x"]=48, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.38}
+K 226 :table keys=5
+  {["y"]=9, ["x"]=48, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 227 :table keys=5
+  {["y"]=9, ["x"]=48, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 228 :table keys=5
+  {["y"]=9, ["x"]=48, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 229 :table keys=5
+  {["y"]=9, ["x"]=48, ["z"]=24, ["material"]="Ground", ["occupancy"]=0.44}
+K 23 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=129, ["material"]="Rock", ["occupancy"]=0.59}
+K 230 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=9, ["material"]="Ground", ["occupancy"]=0.11}
+K 231 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=10, ["material"]="Ground", ["occupancy"]=1}
+K 232 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 233 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 234 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 235 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=14, ["material"]="Grass", ["occupancy"]=0.93}
+K 236 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=15, ["material"]="Grass", ["occupancy"]=0.36}
+K 237 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=16, ["material"]="Grass", ["occupancy"]=0.25}
+K 238 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=17, ["material"]="Grass", ["occupancy"]=0.25}
+K 239 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=18, ["material"]="Grass", ["occupancy"]=0.25}
+K 24 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=130, ["material"]="Rock", ["occupancy"]=0.7}
+K 240 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=19, ["material"]="Grass", ["occupancy"]=0.54}
+K 241 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 242 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=21, ["material"]="Grass", ["occupancy"]=1}
+K 243 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 244 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 245 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=24, ["material"]="Ground", ["occupancy"]=1}
+K 246 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=25, ["material"]="Ground", ["occupancy"]=0.75}
+K 247 :table keys=5
+  {["y"]=10, ["x"]=48, ["z"]=141, ["material"]="Rock", ["occupancy"]=0.12}
+K 248 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=10, ["material"]="Ground", ["occupancy"]=1}
+K 249 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 25 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=131, ["material"]="Rock", ["occupancy"]=0.71}
+K 250 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 251 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 252 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 253 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 254 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 255 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 256 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 257 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 258 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 259 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=21, ["material"]="Grass", ["occupancy"]=1}
+K 26 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=132, ["material"]="Rock", ["occupancy"]=0.78}
+K 260 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 261 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 262 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=24, ["material"]="Ground", ["occupancy"]=1}
+K 263 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=25, ["material"]="Ground", ["occupancy"]=1}
+K 264 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=26, ["material"]="Ground", ["occupancy"]=0.41}
+K 265 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=131, ["material"]="Rock", ["occupancy"]=0.15}
+K 266 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=132, ["material"]="Rock", ["occupancy"]=0.21}
+K 267 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=133, ["material"]="Rock", ["occupancy"]=0.17}
+K 268 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=134, ["material"]="Rock", ["occupancy"]=0.09}
+K 269 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=135, ["material"]="Rock", ["occupancy"]=0.02}
+K 27 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=133, ["material"]="Rock", ["occupancy"]=0.81}
+K 270 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=136, ["material"]="Rock", ["occupancy"]=0.04}
+K 271 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=137, ["material"]="Rock", ["occupancy"]=0.22}
+K 272 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=138, ["material"]="Rock", ["occupancy"]=0.32}
+K 273 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=139, ["material"]="Rock", ["occupancy"]=0.42}
+K 274 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=140, ["material"]="Rock", ["occupancy"]=0.64}
+K 275 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=141, ["material"]="Rock", ["occupancy"]=0.81}
+K 276 :table keys=5
+  {["y"]=11, ["x"]=48, ["z"]=142, ["material"]="Rock", ["occupancy"]=0.44}
+K 277 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.57}
+K 278 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 279 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 28 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=134, ["material"]="Rock", ["occupancy"]=0.91}
+K 280 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 281 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 282 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 283 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 284 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 285 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 286 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 287 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 288 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=21, ["material"]="Grass", ["occupancy"]=1}
+K 289 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 29 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=135, ["material"]="Rock", ["occupancy"]=0.93}
+K 290 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 291 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=24, ["material"]="Ground", ["occupancy"]=1}
+K 292 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=25, ["material"]="Ground", ["occupancy"]=0.93}
+K 293 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=129, ["material"]="Ground", ["occupancy"]=0.27}
+K 294 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=130, ["material"]="Ground", ["occupancy"]=0.85}
+K 295 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=131, ["material"]="Rock", ["occupancy"]=1}
+K 296 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=132, ["material"]="Rock", ["occupancy"]=1}
+K 297 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=133, ["material"]="Rock", ["occupancy"]=1}
+K 298 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=134, ["material"]="Rock", ["occupancy"]=1}
+K 299 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=135, ["material"]="Rock", ["occupancy"]=1}
+K 3 :table keys=5
+  {["y"]=10, ["x"]=47, ["z"]=143, ["material"]="Rock", ["occupancy"]=0.19}
+K 30 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 300 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 301 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 302 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=138, ["material"]="Rock", ["occupancy"]=1}
+K 303 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=139, ["material"]="Rock", ["occupancy"]=1}
+K 304 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=140, ["material"]="Ground", ["occupancy"]=1}
+K 305 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=141, ["material"]="Ground", ["occupancy"]=1}
+K 306 :table keys=5
+  {["y"]=12, ["x"]=48, ["z"]=142, ["material"]="Ground", ["occupancy"]=0.48}
+K 307 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.78}
+K 308 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 309 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 31 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 310 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 311 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 312 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 313 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 314 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 315 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 316 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 317 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 318 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 319 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 32 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=138, ["material"]="Rock", ["occupancy"]=1}
+K 320 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=24, ["material"]="Ground", ["occupancy"]=0.59}
+K 321 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=129, ["material"]="Ground", ["occupancy"]=0.23}
+K 322 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=130, ["material"]="Ground", ["occupancy"]=1}
+K 323 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=131, ["material"]="Rock", ["occupancy"]=1}
+K 324 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=132, ["material"]="Rock", ["occupancy"]=1}
+K 325 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=133, ["material"]="Rock", ["occupancy"]=1}
+K 326 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=134, ["material"]="Rock", ["occupancy"]=1}
+K 327 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=135, ["material"]="Rock", ["occupancy"]=1}
+K 328 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 329 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 33 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=139, ["material"]="Rock", ["occupancy"]=1}
+K 330 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=138, ["material"]="Rock", ["occupancy"]=1}
+K 331 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=139, ["material"]="Rock", ["occupancy"]=1}
+K 332 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=140, ["material"]="Ground", ["occupancy"]=1}
+K 333 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=141, ["material"]="Ground", ["occupancy"]=1}
+K 334 :table keys=5
+  {["y"]=13, ["x"]=48, ["z"]=142, ["material"]="Ground", ["occupancy"]=0.39}
+K 335 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.25}
+K 336 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 337 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 338 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 339 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 34 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=140, ["material"]="Rock", ["occupancy"]=1}
+K 340 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 341 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 342 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 343 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 344 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 345 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 346 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 347 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 348 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=129, ["material"]="Ground", ["occupancy"]=0.13}
+K 349 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=130, ["material"]="Ground", ["occupancy"]=1}
+K 35 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=141, ["material"]="Rock", ["occupancy"]=1}
+K 350 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=131, ["material"]="Ground", ["occupancy"]=1}
+K 351 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=132, ["material"]="Rock", ["occupancy"]=1}
+K 352 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=133, ["material"]="Rock", ["occupancy"]=1}
+K 353 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=134, ["material"]="Rock", ["occupancy"]=1}
+K 354 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=135, ["material"]="Rock", ["occupancy"]=1}
+K 355 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 356 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 357 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=138, ["material"]="Rock", ["occupancy"]=1}
+K 358 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=139, ["material"]="Rock", ["occupancy"]=1}
+K 359 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=140, ["material"]="Ground", ["occupancy"]=1}
+K 36 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=142, ["material"]="Rock", ["occupancy"]=1}
+K 360 :table keys=5
+  {["y"]=14, ["x"]=48, ["z"]=141, ["material"]="Ground", ["occupancy"]=0.94}
+K 361 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.71}
+K 362 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 363 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 364 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 365 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 366 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 367 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 368 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 369 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 37 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=143, ["material"]="Rock", ["occupancy"]=0.76}
+K 370 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 371 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 372 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=23, ["material"]="Ground", ["occupancy"]=0.61}
+K 373 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=130, ["material"]="Ground", ["occupancy"]=0.59}
+K 374 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=131, ["material"]="Ground", ["occupancy"]=1}
+K 375 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=132, ["material"]="Rock", ["occupancy"]=1}
+K 376 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=133, ["material"]="Rock", ["occupancy"]=1}
+K 377 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=134, ["material"]="Rock", ["occupancy"]=1}
+K 378 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=135, ["material"]="Rock", ["occupancy"]=1}
+K 379 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 38 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.73}
+K 380 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 381 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=138, ["material"]="Rock", ["occupancy"]=1}
+K 382 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=139, ["material"]="Rock", ["occupancy"]=1}
+K 383 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=140, ["material"]="Ground", ["occupancy"]=0.86}
+K 384 :table keys=5
+  {["y"]=15, ["x"]=48, ["z"]=141, ["material"]="Ground", ["occupancy"]=0.48}
+K 385 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.44}
+K 386 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 387 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 388 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 389 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 39 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 390 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 391 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 392 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 393 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=20, ["material"]="Rock", ["occupancy"]=1}
+K 394 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=21, ["material"]="Sand", ["occupancy"]=0.88}
+K 395 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=22, ["material"]="Sand", ["occupancy"]=0.45}
+K 396 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=131, ["material"]="Sand", ["occupancy"]=0.11}
+K 397 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=132, ["material"]="Sand", ["occupancy"]=0.5}
+K 398 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=133, ["material"]="Sand", ["occupancy"]=0.66}
+K 399 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=134, ["material"]="Sand", ["occupancy"]=0.88}
+K 4 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=9, ["material"]="Ground", ["occupancy"]=0.08}
+K 40 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 400 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=135, ["material"]="Rock", ["occupancy"]=1}
+K 401 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 402 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=137, ["material"]="Sand", ["occupancy"]=1}
+K 403 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=138, ["material"]="Sand", ["occupancy"]=1}
+K 404 :table keys=5
+  {["y"]=16, ["x"]=48, ["z"]=139, ["material"]="Sand", ["occupancy"]=0.38}
+K 405 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.13}
+K 406 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 407 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 408 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 409 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 41 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 410 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 411 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 412 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 413 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=20, ["material"]="Rock", ["occupancy"]=0.94}
+K 414 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=135, ["material"]="Rock", ["occupancy"]=0.01}
+K 415 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=136, ["material"]="Rock", ["occupancy"]=0.12}
+K 416 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=137, ["material"]="Sand", ["occupancy"]=0.3}
+K 417 :table keys=5
+  {["y"]=17, ["x"]=48, ["z"]=138, ["material"]="Sand", ["occupancy"]=0.19}
+K 418 :table keys=5
+  {["y"]=18, ["x"]=48, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.03}
+K 419 :table keys=5
+  {["y"]=18, ["x"]=48, ["z"]=13, ["material"]="Rock", ["occupancy"]=1}
+K 42 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 420 :table keys=5
+  {["y"]=18, ["x"]=48, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 421 :table keys=5
+  {["y"]=18, ["x"]=48, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 422 :table keys=5
+  {["y"]=18, ["x"]=48, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 423 :table keys=5
+  {["y"]=18, ["x"]=48, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 424 :table keys=5
+  {["y"]=18, ["x"]=48, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 425 :table keys=5
+  {["y"]=18, ["x"]=48, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 426 :table keys=5
+  {["y"]=18, ["x"]=48, ["z"]=20, ["material"]="Rock", ["occupancy"]=0.46}
+K 427 :table keys=5
+  {["y"]=19, ["x"]=48, ["z"]=13, ["material"]="Rock", ["occupancy"]=0.33}
+K 428 :table keys=5
+  {["y"]=19, ["x"]=48, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 429 :table keys=5
+  {["y"]=19, ["x"]=48, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 43 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 430 :table keys=5
+  {["y"]=19, ["x"]=48, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 431 :table keys=5
+  {["y"]=19, ["x"]=48, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 432 :table keys=5
+  {["y"]=19, ["x"]=48, ["z"]=18, ["material"]="Grass", ["occupancy"]=0.8}
+K 433 :table keys=5
+  {["y"]=20, ["x"]=48, ["z"]=15, ["material"]="Rock", ["occupancy"]=0.88}
+K 434 :table keys=5
+  {["y"]=20, ["x"]=48, ["z"]=16, ["material"]="Rock", ["occupancy"]=1}
+K 435 :table keys=5
+  {["y"]=20, ["x"]=48, ["z"]=17, ["material"]="Rock", ["occupancy"]=0.75}
+K 436 :table keys=5
+  {["y"]=21, ["x"]=48, ["z"]=16, ["material"]="Rock", ["occupancy"]=0.75}
+K 437 :table keys=5
+  {["y"]=8, ["x"]=49, ["z"]=12, ["material"]="Ground", ["occupancy"]=0.05}
+K 438 :table keys=5
+  {["y"]=8, ["x"]=49, ["z"]=21, ["material"]="Ground", ["occupancy"]=0.14}
+K 439 :table keys=5
+  {["y"]=8, ["x"]=49, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.07}
+K 44 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 440 :table keys=5
+  {["y"]=9, ["x"]=49, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.12}
+K 441 :table keys=5
+  {["y"]=9, ["x"]=49, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.86}
+K 442 :table keys=5
+  {["y"]=9, ["x"]=49, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 443 :table keys=5
+  {["y"]=9, ["x"]=49, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.54}
+K 444 :table keys=5
+  {["y"]=9, ["x"]=49, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.66}
+K 445 :table keys=5
+  {["y"]=9, ["x"]=49, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 446 :table keys=5
+  {["y"]=9, ["x"]=49, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 447 :table keys=5
+  {["y"]=9, ["x"]=49, ["z"]=23, ["material"]="Ground", ["occupancy"]=0.64}
+K 448 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=9, ["material"]="Ground", ["occupancy"]=0.11}
+K 449 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=10, ["material"]="Ground", ["occupancy"]=1}
+K 45 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 450 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 451 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 452 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 453 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=14, ["material"]="Grass", ["occupancy"]=0.89}
+K 454 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=15, ["material"]="Grass", ["occupancy"]=0.38}
+K 455 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=16, ["material"]="Grass", ["occupancy"]=0.3}
+K 456 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=17, ["material"]="Grass", ["occupancy"]=0.28}
+K 457 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=18, ["material"]="Grass", ["occupancy"]=0.27}
+K 458 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=19, ["material"]="Grass", ["occupancy"]=0.83}
+K 459 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 46 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 460 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=21, ["material"]="Grass", ["occupancy"]=1}
+K 461 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 462 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 463 :table keys=5
+  {["y"]=10, ["x"]=49, ["z"]=24, ["material"]="Ground", ["occupancy"]=0.93}
+K 464 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.93}
+K 465 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 466 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 467 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 468 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 469 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 47 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 470 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 471 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 472 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 473 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 474 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 475 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=21, ["material"]="Grass", ["occupancy"]=1}
+K 476 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 477 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 478 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=24, ["material"]="Ground", ["occupancy"]=1}
+K 479 :table keys=5
+  {["y"]=11, ["x"]=49, ["z"]=25, ["material"]="Ground", ["occupancy"]=0.57}
+K 48 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 480 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.19}
+K 481 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 482 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 483 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 484 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 485 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 486 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 487 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 488 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 489 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 49 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=21, ["material"]="Grass", ["occupancy"]=1}
+K 490 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 491 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=21, ["material"]="Grass", ["occupancy"]=1}
+K 492 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 493 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 494 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=24, ["material"]="Ground", ["occupancy"]=1}
+K 495 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=25, ["material"]="Ground", ["occupancy"]=0.07}
+K 496 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=131, ["material"]="Ground", ["occupancy"]=0.4}
+K 497 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=132, ["material"]="Rock", ["occupancy"]=0.65}
+K 498 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=133, ["material"]="Rock", ["occupancy"]=0.7}
+K 499 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=134, ["material"]="Rock", ["occupancy"]=0.71}
+K 5 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=10, ["material"]="Ground", ["occupancy"]=1}
+K 50 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 500 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=135, ["material"]="Rock", ["occupancy"]=0.48}
+K 501 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=136, ["material"]="Rock", ["occupancy"]=0.53}
+K 502 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=137, ["material"]="Rock", ["occupancy"]=0.63}
+K 503 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=138, ["material"]="Ground", ["occupancy"]=0.56}
+K 504 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=139, ["material"]="Ground", ["occupancy"]=0.46}
+K 505 :table keys=5
+  {["y"]=12, ["x"]=49, ["z"]=140, ["material"]="Ground", ["occupancy"]=0.24}
+K 506 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.79}
+K 507 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 508 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 509 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 51 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 510 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 511 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 512 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 513 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 514 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 515 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 516 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 517 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 518 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=23, ["material"]="Ground", ["occupancy"]=0.68}
+K 519 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=24, ["material"]="Ground", ["occupancy"]=0.04}
+K 52 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=24, ["material"]="Ground", ["occupancy"]=1}
+K 520 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=130, ["material"]="Ground", ["occupancy"]=0.45}
+K 521 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=131, ["material"]="Ground", ["occupancy"]=1}
+K 522 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=132, ["material"]="Ground", ["occupancy"]=1}
+K 523 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=133, ["material"]="Rock", ["occupancy"]=1}
+K 524 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=134, ["material"]="Rock", ["occupancy"]=1}
+K 525 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=135, ["material"]="Rock", ["occupancy"]=1}
+K 526 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 527 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 528 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=138, ["material"]="Ground", ["occupancy"]=1}
+K 529 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=139, ["material"]="Ground", ["occupancy"]=1}
+K 53 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=25, ["material"]="Ground", ["occupancy"]=1}
+K 530 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=140, ["material"]="Ground", ["occupancy"]=0.71}
+K 531 :table keys=5
+  {["y"]=13, ["x"]=49, ["z"]=141, ["material"]="Ground", ["occupancy"]=0.07}
+K 532 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.35}
+K 533 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 534 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 535 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 536 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 537 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 538 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 539 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 54 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=26, ["material"]="Ground", ["occupancy"]=0.86}
+K 540 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 541 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 542 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 543 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 544 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=23, ["material"]="Ground", ["occupancy"]=0.36}
+K 545 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=130, ["material"]="Ground", ["occupancy"]=0.56}
+K 546 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=131, ["material"]="Ground", ["occupancy"]=1}
+K 547 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=132, ["material"]="Ground", ["occupancy"]=1}
+K 548 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=133, ["material"]="Rock", ["occupancy"]=1}
+K 549 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=134, ["material"]="Rock", ["occupancy"]=1}
+K 55 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=128, ["material"]="Ground", ["occupancy"]=0.36}
+K 550 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=135, ["material"]="Rock", ["occupancy"]=1}
+K 551 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 552 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 553 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=138, ["material"]="Ground", ["occupancy"]=1}
+K 554 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=139, ["material"]="Ground", ["occupancy"]=1}
+K 555 :table keys=5
+  {["y"]=14, ["x"]=49, ["z"]=140, ["material"]="Ground", ["occupancy"]=0.64}
+K 556 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=11, ["material"]="Rock", ["occupancy"]=0.12}
+K 557 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=12, ["material"]="Rock", ["occupancy"]=1}
+K 558 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 559 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 56 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=129, ["material"]="Ground", ["occupancy"]=1}
+K 560 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 561 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 562 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 563 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 564 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 565 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.89}
+K 566 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=21, ["material"]="Sand", ["occupancy"]=1}
+K 567 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=22, ["material"]="Sand", ["occupancy"]=0.92}
+K 568 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=131, ["material"]="Ground", ["occupancy"]=0.46}
+K 569 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=132, ["material"]="Ground", ["occupancy"]=1}
+K 57 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=130, ["material"]="Rock", ["occupancy"]=1}
+K 570 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=133, ["material"]="Rock", ["occupancy"]=1}
+K 571 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=134, ["material"]="Sand", ["occupancy"]=1}
+K 572 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=135, ["material"]="Sand", ["occupancy"]=1}
+K 573 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 574 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 575 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=138, ["material"]="Ground", ["occupancy"]=1}
+K 576 :table keys=5
+  {["y"]=15, ["x"]=49, ["z"]=139, ["material"]="Ground", ["occupancy"]=0.39}
+K 577 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.36}
+K 578 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=13, ["material"]="Rock", ["occupancy"]=1}
+K 579 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 58 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=131, ["material"]="Rock", ["occupancy"]=1}
+K 580 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 581 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 582 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 583 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 584 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 585 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=20, ["material"]="Sand", ["occupancy"]=0.35}
+K 586 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=21, ["material"]="Sand", ["occupancy"]=0.3}
+K 587 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=132, ["material"]="Sand", ["occupancy"]=0.06}
+K 588 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=133, ["material"]="Sand", ["occupancy"]=0.18}
+K 589 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=134, ["material"]="Sand", ["occupancy"]=0.18}
+K 59 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=132, ["material"]="Rock", ["occupancy"]=1}
+K 590 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=135, ["material"]="Sand", ["occupancy"]=0.58}
+K 591 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=136, ["material"]="Sand", ["occupancy"]=0.7}
+K 592 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=137, ["material"]="Sand", ["occupancy"]=0.7}
+K 593 :table keys=5
+  {["y"]=16, ["x"]=49, ["z"]=138, ["material"]="Sand", ["occupancy"]=0.23}
+K 594 :table keys=5
+  {["y"]=17, ["x"]=49, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.11}
+K 595 :table keys=5
+  {["y"]=17, ["x"]=49, ["z"]=13, ["material"]="Rock", ["occupancy"]=1}
+K 596 :table keys=5
+  {["y"]=17, ["x"]=49, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 597 :table keys=5
+  {["y"]=17, ["x"]=49, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 598 :table keys=5
+  {["y"]=17, ["x"]=49, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 599 :table keys=5
+  {["y"]=17, ["x"]=49, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 6 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 60 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=133, ["material"]="Rock", ["occupancy"]=1}
+K 600 :table keys=5
+  {["y"]=17, ["x"]=49, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 601 :table keys=5
+  {["y"]=17, ["x"]=49, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 602 :table keys=5
+  {["y"]=17, ["x"]=49, ["z"]=20, ["material"]="Rock", ["occupancy"]=0.71}
+K 603 :table keys=5
+  {["y"]=18, ["x"]=49, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.01}
+K 604 :table keys=5
+  {["y"]=18, ["x"]=49, ["z"]=13, ["material"]="Rock", ["occupancy"]=1}
+K 605 :table keys=5
+  {["y"]=18, ["x"]=49, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 606 :table keys=5
+  {["y"]=18, ["x"]=49, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 607 :table keys=5
+  {["y"]=18, ["x"]=49, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 608 :table keys=5
+  {["y"]=18, ["x"]=49, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 609 :table keys=5
+  {["y"]=18, ["x"]=49, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 61 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=134, ["material"]="Rock", ["occupancy"]=1}
+K 610 :table keys=5
+  {["y"]=18, ["x"]=49, ["z"]=19, ["material"]="Grass", ["occupancy"]=0.99}
+K 611 :table keys=5
+  {["y"]=18, ["x"]=49, ["z"]=20, ["material"]="Rock", ["occupancy"]=0.14}
+K 612 :table keys=5
+  {["y"]=19, ["x"]=49, ["z"]=13, ["material"]="Rock", ["occupancy"]=0.31}
+K 613 :table keys=5
+  {["y"]=19, ["x"]=49, ["z"]=14, ["material"]="Grass", ["occupancy"]=0.91}
+K 614 :table keys=5
+  {["y"]=19, ["x"]=49, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 615 :table keys=5
+  {["y"]=19, ["x"]=49, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 616 :table keys=5
+  {["y"]=19, ["x"]=49, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 617 :table keys=5
+  {["y"]=19, ["x"]=49, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 618 :table keys=5
+  {["y"]=19, ["x"]=49, ["z"]=19, ["material"]="Rock", ["occupancy"]=0.13}
+K 619 :table keys=5
+  {["y"]=20, ["x"]=49, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 62 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=135, ["material"]="Rock", ["occupancy"]=1}
+K 620 :table keys=5
+  {["y"]=20, ["x"]=49, ["z"]=16, ["material"]="Rock", ["occupancy"]=1}
+K 621 :table keys=5
+  {["y"]=20, ["x"]=49, ["z"]=17, ["material"]="Rock", ["occupancy"]=0.31}
+K 622 :table keys=5
+  {["y"]=20, ["x"]=49, ["z"]=18, ["material"]="Rock", ["occupancy"]=0.13}
+K 623 :table keys=5
+  {["y"]=8, ["x"]=50, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.02}
+K 624 :table keys=5
+  {["y"]=8, ["x"]=50, ["z"]=12, ["material"]="Ground", ["occupancy"]=0.13}
+K 625 :table keys=5
+  {["y"]=9, ["x"]=50, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.34}
+K 626 :table keys=5
+  {["y"]=9, ["x"]=50, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 627 :table keys=5
+  {["y"]=9, ["x"]=50, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 628 :table keys=5
+  {["y"]=9, ["x"]=50, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.81}
+K 629 :table keys=5
+  {["y"]=9, ["x"]=50, ["z"]=14, ["material"]="Ground", ["occupancy"]=0.14}
+K 63 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 630 :table keys=5
+  {["y"]=9, ["x"]=50, ["z"]=19, ["material"]="Ground", ["occupancy"]=0.21}
+K 631 :table keys=5
+  {["y"]=9, ["x"]=50, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.93}
+K 632 :table keys=5
+  {["y"]=9, ["x"]=50, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 633 :table keys=5
+  {["y"]=9, ["x"]=50, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.62}
+K 634 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=9, ["material"]="Ground", ["occupancy"]=0.37}
+K 635 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=10, ["material"]="Ground", ["occupancy"]=1}
+K 636 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 637 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 638 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 639 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 64 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 640 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=15, ["material"]="Grass", ["occupancy"]=0.6}
+K 641 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=16, ["material"]="Grass", ["occupancy"]=0.52}
+K 642 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=17, ["material"]="Grass", ["occupancy"]=0.47}
+K 643 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=18, ["material"]="Grass", ["occupancy"]=0.59}
+K 644 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 645 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 646 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 647 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 648 :table keys=5
+  {["y"]=10, ["x"]=50, ["z"]=23, ["material"]="Ground", ["occupancy"]=0.91}
+K 649 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=9, ["material"]="Ground", ["occupancy"]=0.21}
+K 65 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=138, ["material"]="Rock", ["occupancy"]=1}
+K 650 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=10, ["material"]="Ground", ["occupancy"]=1}
+K 651 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 652 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 653 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 654 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 655 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 656 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 657 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 658 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 659 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 66 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=139, ["material"]="Rock", ["occupancy"]=1}
+K 660 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 661 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 662 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 663 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 664 :table keys=5
+  {["y"]=11, ["x"]=50, ["z"]=24, ["material"]="Ground", ["occupancy"]=0.6}
+K 665 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.4}
+K 666 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 667 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 668 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 669 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 67 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=140, ["material"]="Rock", ["occupancy"]=1}
+K 670 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 671 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 672 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 673 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 674 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 675 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 676 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 677 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 678 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 679 :table keys=5
+  {["y"]=12, ["x"]=50, ["z"]=24, ["material"]="Ground", ["occupancy"]=0.12}
+K 68 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=141, ["material"]="Rock", ["occupancy"]=1}
+K 680 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.93}
+K 681 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 682 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 683 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 684 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 685 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 686 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 687 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 688 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 689 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.99}
+K 69 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=142, ["material"]="Ground", ["occupancy"]=1}
+K 690 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 691 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.91}
+K 692 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=23, ["material"]="Ground", ["occupancy"]=0.05}
+K 693 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=131, ["material"]="Ground", ["occupancy"]=0.04}
+K 694 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=132, ["material"]="Ground", ["occupancy"]=0.23}
+K 695 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=133, ["material"]="Ground", ["occupancy"]=0.32}
+K 696 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=134, ["material"]="Ground", ["occupancy"]=0.46}
+K 697 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=135, ["material"]="Ground", ["occupancy"]=0.43}
+K 698 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=136, ["material"]="Ground", ["occupancy"]=0.57}
+K 699 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=137, ["material"]="Ground", ["occupancy"]=0.41}
+K 7 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 70 :table keys=5
+  {["y"]=12, ["x"]=47, ["z"]=143, ["material"]="Ground", ["occupancy"]=0.85}
+K 700 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=138, ["material"]="Ground", ["occupancy"]=0.36}
+K 701 :table keys=5
+  {["y"]=13, ["x"]=50, ["z"]=139, ["material"]="Ground", ["occupancy"]=0.12}
+K 702 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.5}
+K 703 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 704 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 705 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 706 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 707 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 708 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 709 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 71 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.7}
+K 710 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 711 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 712 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 713 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.6}
+K 714 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=131, ["material"]="Ground", ["occupancy"]=0.16}
+K 715 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=132, ["material"]="Ground", ["occupancy"]=0.49}
+K 716 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=133, ["material"]="Ground", ["occupancy"]=0.59}
+K 717 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=134, ["material"]="Ground", ["occupancy"]=0.84}
+K 718 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=135, ["material"]="Ground", ["occupancy"]=1}
+K 719 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=136, ["material"]="Ground", ["occupancy"]=1}
+K 72 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 720 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=137, ["material"]="Ground", ["occupancy"]=0.87}
+K 721 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=138, ["material"]="Ground", ["occupancy"]=0.54}
+K 722 :table keys=5
+  {["y"]=14, ["x"]=50, ["z"]=139, ["material"]="Ground", ["occupancy"]=0.07}
+K 723 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.32}
+K 724 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 725 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 726 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 727 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 728 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 729 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 73 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 730 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 731 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 732 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 733 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=21, ["material"]="Sand", ["occupancy"]=1}
+K 734 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=22, ["material"]="Sand", ["occupancy"]=0.29}
+K 735 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=132, ["material"]="Ground", ["occupancy"]=0.08}
+K 736 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=133, ["material"]="Ground", ["occupancy"]=0.26}
+K 737 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=134, ["material"]="Ground", ["occupancy"]=0.36}
+K 738 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=135, ["material"]="Sand", ["occupancy"]=0.85}
+K 739 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=136, ["material"]="Rock", ["occupancy"]=0.73}
+K 74 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 740 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=137, ["material"]="Ground", ["occupancy"]=0.72}
+K 741 :table keys=5
+  {["y"]=15, ["x"]=50, ["z"]=138, ["material"]="Ground", ["occupancy"]=0.15}
+K 742 :table keys=5
+  {["y"]=16, ["x"]=50, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.45}
+K 743 :table keys=5
+  {["y"]=16, ["x"]=50, ["z"]=13, ["material"]="Rock", ["occupancy"]=1}
+K 744 :table keys=5
+  {["y"]=16, ["x"]=50, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 745 :table keys=5
+  {["y"]=16, ["x"]=50, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 746 :table keys=5
+  {["y"]=16, ["x"]=50, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 747 :table keys=5
+  {["y"]=16, ["x"]=50, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 748 :table keys=5
+  {["y"]=16, ["x"]=50, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 749 :table keys=5
+  {["y"]=16, ["x"]=50, ["z"]=19, ["material"]="Rock", ["occupancy"]=1}
+K 75 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 750 :table keys=5
+  {["y"]=16, ["x"]=50, ["z"]=20, ["material"]="Sand", ["occupancy"]=0.33}
+K 751 :table keys=5
+  {["y"]=16, ["x"]=50, ["z"]=21, ["material"]="Sand", ["occupancy"]=0.2}
+K 752 :table keys=5
+  {["y"]=17, ["x"]=50, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.06}
+K 753 :table keys=5
+  {["y"]=17, ["x"]=50, ["z"]=13, ["material"]="Rock", ["occupancy"]=1}
+K 754 :table keys=5
+  {["y"]=17, ["x"]=50, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 755 :table keys=5
+  {["y"]=17, ["x"]=50, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 756 :table keys=5
+  {["y"]=17, ["x"]=50, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 757 :table keys=5
+  {["y"]=17, ["x"]=50, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 758 :table keys=5
+  {["y"]=17, ["x"]=50, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 759 :table keys=5
+  {["y"]=17, ["x"]=50, ["z"]=19, ["material"]="Rock", ["occupancy"]=1}
+K 76 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 760 :table keys=5
+  {["y"]=17, ["x"]=50, ["z"]=20, ["material"]="Rock", ["occupancy"]=0.22}
+K 761 :table keys=5
+  {["y"]=18, ["x"]=50, ["z"]=13, ["material"]="Rock", ["occupancy"]=0.85}
+K 762 :table keys=5
+  {["y"]=18, ["x"]=50, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 763 :table keys=5
+  {["y"]=18, ["x"]=50, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 764 :table keys=5
+  {["y"]=18, ["x"]=50, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 765 :table keys=5
+  {["y"]=18, ["x"]=50, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 766 :table keys=5
+  {["y"]=18, ["x"]=50, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 767 :table keys=5
+  {["y"]=18, ["x"]=50, ["z"]=19, ["material"]="Rock", ["occupancy"]=0.65}
+K 768 :table keys=5
+  {["y"]=19, ["x"]=50, ["z"]=13, ["material"]="Rock", ["occupancy"]=0.16}
+K 769 :table keys=5
+  {["y"]=19, ["x"]=50, ["z"]=14, ["material"]="Grass", ["occupancy"]=0.89}
+K 77 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 770 :table keys=5
+  {["y"]=19, ["x"]=50, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 771 :table keys=5
+  {["y"]=19, ["x"]=50, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 772 :table keys=5
+  {["y"]=19, ["x"]=50, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 773 :table keys=5
+  {["y"]=19, ["x"]=50, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 774 :table keys=5
+  {["y"]=20, ["x"]=50, ["z"]=15, ["material"]="Rock", ["occupancy"]=0.56}
+K 775 :table keys=5
+  {["y"]=20, ["x"]=50, ["z"]=16, ["material"]="Rock", ["occupancy"]=0.99}
+K 776 :table keys=5
+  {["y"]=20, ["x"]=50, ["z"]=17, ["material"]="Rock", ["occupancy"]=0.88}
+K 777 :table keys=5
+  {["y"]=8, ["x"]=51, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.15}
+K 778 :table keys=5
+  {["y"]=8, ["x"]=51, ["z"]=12, ["material"]="Ground", ["occupancy"]=0.31}
+K 779 :table keys=5
+  {["y"]=8, ["x"]=51, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.1}
+K 78 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 780 :table keys=5
+  {["y"]=8, ["x"]=51, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.03}
+K 781 :table keys=5
+  {["y"]=9, ["x"]=51, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.51}
+K 782 :table keys=5
+  {["y"]=9, ["x"]=51, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 783 :table keys=5
+  {["y"]=9, ["x"]=51, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 784 :table keys=5
+  {["y"]=9, ["x"]=51, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 785 :table keys=5
+  {["y"]=9, ["x"]=51, ["z"]=14, ["material"]="Ground", ["occupancy"]=0.74}
+K 786 :table keys=5
+  {["y"]=9, ["x"]=51, ["z"]=15, ["material"]="Ground", ["occupancy"]=0.38}
+K 787 :table keys=5
+  {["y"]=9, ["x"]=51, ["z"]=16, ["material"]="Ground", ["occupancy"]=0.24}
+K 788 :table keys=5
+  {["y"]=9, ["x"]=51, ["z"]=17, ["material"]="Ground", ["occupancy"]=0.12}
+K 789 :table keys=5
+  {["y"]=9, ["x"]=51, ["z"]=18, ["material"]="Ground", ["occupancy"]=0.19}
+K 79 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 790 :table keys=5
+  {["y"]=9, ["x"]=51, ["z"]=19, ["material"]="Ground", ["occupancy"]=0.6}
+K 791 :table keys=5
+  {["y"]=9, ["x"]=51, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 792 :table keys=5
+  {["y"]=9, ["x"]=51, ["z"]=21, ["material"]="Ground", ["occupancy"]=0.63}
+K 793 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=9, ["material"]="Ground", ["occupancy"]=0.52}
+K 794 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=10, ["material"]="Ground", ["occupancy"]=1}
+K 795 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 796 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 797 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 798 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 799 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 8 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 80 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 800 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 801 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 802 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 803 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 804 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 805 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 806 :table keys=5
+  {["y"]=10, ["x"]=51, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.96}
+K 807 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=9, ["material"]="Ground", ["occupancy"]=0.39}
+K 808 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=10, ["material"]="Ground", ["occupancy"]=1}
+K 809 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 81 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 810 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 811 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 812 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 813 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 814 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 815 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 816 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 817 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 818 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 819 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 82 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 820 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 821 :table keys=5
+  {["y"]=11, ["x"]=51, ["z"]=23, ["material"]="Ground", ["occupancy"]=0.77}
+K 822 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.95}
+K 823 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 824 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 825 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 826 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 827 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 828 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 829 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 83 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=23, ["material"]="Ground", ["occupancy"]=1}
+K 830 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 831 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 832 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 833 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 834 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 835 :table keys=5
+  {["y"]=12, ["x"]=51, ["z"]=23, ["material"]="Ground", ["occupancy"]=0.29}
+K 836 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.01}
+K 837 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 838 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 839 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 84 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=24, ["material"]="Ground", ["occupancy"]=0.96}
+K 840 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 841 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 842 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 843 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 844 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 845 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 846 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 847 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 848 :table keys=5
+  {["y"]=13, ["x"]=51, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.79}
+K 849 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.92}
+K 85 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=25, ["material"]="Ground", ["occupancy"]=0.36}
+K 850 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 851 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 852 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 853 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 854 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 855 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 856 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 857 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 858 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 859 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 86 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=128, ["material"]="Ground", ["occupancy"]=0.07}
+K 860 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.41}
+K 861 :table keys=5
+  {["y"]=14, ["x"]=51, ["z"]=135, ["material"]="Ground", ["occupancy"]=0.03}
+K 862 :table keys=5
+  {["y"]=15, ["x"]=51, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.66}
+K 863 :table keys=5
+  {["y"]=15, ["x"]=51, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 864 :table keys=5
+  {["y"]=15, ["x"]=51, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 865 :table keys=5
+  {["y"]=15, ["x"]=51, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 866 :table keys=5
+  {["y"]=15, ["x"]=51, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 867 :table keys=5
+  {["y"]=15, ["x"]=51, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 868 :table keys=5
+  {["y"]=15, ["x"]=51, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 869 :table keys=5
+  {["y"]=15, ["x"]=51, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 87 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=129, ["material"]="Ground", ["occupancy"]=1}
+K 870 :table keys=5
+  {["y"]=15, ["x"]=51, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 871 :table keys=5
+  {["y"]=15, ["x"]=51, ["z"]=20, ["material"]="Sand", ["occupancy"]=1}
+K 872 :table keys=5
+  {["y"]=15, ["x"]=51, ["z"]=21, ["material"]="Sand", ["occupancy"]=1}
+K 873 :table keys=5
+  {["y"]=15, ["x"]=51, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.8}
+K 874 :table keys=5
+  {["y"]=16, ["x"]=51, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.8}
+K 875 :table keys=5
+  {["y"]=16, ["x"]=51, ["z"]=13, ["material"]="Rock", ["occupancy"]=1}
+K 876 :table keys=5
+  {["y"]=16, ["x"]=51, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 877 :table keys=5
+  {["y"]=16, ["x"]=51, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 878 :table keys=5
+  {["y"]=16, ["x"]=51, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 879 :table keys=5
+  {["y"]=16, ["x"]=51, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 88 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=130, ["material"]="Rock", ["occupancy"]=1}
+K 880 :table keys=5
+  {["y"]=16, ["x"]=51, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 881 :table keys=5
+  {["y"]=16, ["x"]=51, ["z"]=19, ["material"]="Sand", ["occupancy"]=1}
+K 882 :table keys=5
+  {["y"]=16, ["x"]=51, ["z"]=20, ["material"]="Sand", ["occupancy"]=1}
+K 883 :table keys=5
+  {["y"]=16, ["x"]=51, ["z"]=21, ["material"]="Sand", ["occupancy"]=0.56}
+K 884 :table keys=5
+  {["y"]=17, ["x"]=51, ["z"]=13, ["material"]="Rock", ["occupancy"]=0.88}
+K 885 :table keys=5
+  {["y"]=17, ["x"]=51, ["z"]=14, ["material"]="Rock", ["occupancy"]=1}
+K 886 :table keys=5
+  {["y"]=17, ["x"]=51, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 887 :table keys=5
+  {["y"]=17, ["x"]=51, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 888 :table keys=5
+  {["y"]=17, ["x"]=51, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 889 :table keys=5
+  {["y"]=17, ["x"]=51, ["z"]=18, ["material"]="Rock", ["occupancy"]=1}
+K 89 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=131, ["material"]="Rock", ["occupancy"]=1}
+K 890 :table keys=5
+  {["y"]=17, ["x"]=51, ["z"]=19, ["material"]="Rock", ["occupancy"]=0.79}
+K 891 :table keys=5
+  {["y"]=18, ["x"]=51, ["z"]=13, ["material"]="Rock", ["occupancy"]=0.52}
+K 892 :table keys=5
+  {["y"]=18, ["x"]=51, ["z"]=14, ["material"]="Rock", ["occupancy"]=0.95}
+K 893 :table keys=5
+  {["y"]=18, ["x"]=51, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 894 :table keys=5
+  {["y"]=18, ["x"]=51, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 895 :table keys=5
+  {["y"]=18, ["x"]=51, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 896 :table keys=5
+  {["y"]=18, ["x"]=51, ["z"]=18, ["material"]="Rock", ["occupancy"]=0.99}
+K 897 :table keys=5
+  {["y"]=18, ["x"]=51, ["z"]=19, ["material"]="Rock", ["occupancy"]=0.35}
+K 898 :table keys=5
+  {["y"]=19, ["x"]=51, ["z"]=14, ["material"]="Grass", ["occupancy"]=0.25}
+K 899 :table keys=5
+  {["y"]=19, ["x"]=51, ["z"]=15, ["material"]="Grass", ["occupancy"]=0.96}
+K 9 :table keys=5
+  {["y"]=11, ["x"]=47, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 90 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=132, ["material"]="Rock", ["occupancy"]=1}
+K 900 :table keys=5
+  {["y"]=19, ["x"]=51, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 901 :table keys=5
+  {["y"]=19, ["x"]=51, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 902 :table keys=5
+  {["y"]=20, ["x"]=51, ["z"]=16, ["material"]="Rock", ["occupancy"]=0.19}
+K 903 :table keys=5
+  {["y"]=8, ["x"]=52, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.03}
+K 904 :table keys=5
+  {["y"]=8, ["x"]=52, ["z"]=12, ["material"]="Ground", ["occupancy"]=0.4}
+K 905 :table keys=5
+  {["y"]=8, ["x"]=52, ["z"]=13, ["material"]="Ground", ["occupancy"]=0.3}
+K 906 :table keys=5
+  {["y"]=8, ["x"]=52, ["z"]=14, ["material"]="Ground", ["occupancy"]=0.14}
+K 907 :table keys=5
+  {["y"]=8, ["x"]=52, ["z"]=15, ["material"]="Ground", ["occupancy"]=0.05}
+K 908 :table keys=5
+  {["y"]=8, ["x"]=52, ["z"]=19, ["material"]="Ground", ["occupancy"]=0.05}
+K 909 :table keys=5
+  {["y"]=8, ["x"]=52, ["z"]=20, ["material"]="Ground", ["occupancy"]=0.11}
+K 91 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=133, ["material"]="Rock", ["occupancy"]=1}
+K 910 :table keys=5
+  {["y"]=9, ["x"]=52, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.35}
+K 911 :table keys=5
+  {["y"]=9, ["x"]=52, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 912 :table keys=5
+  {["y"]=9, ["x"]=52, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 913 :table keys=5
+  {["y"]=9, ["x"]=52, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 914 :table keys=5
+  {["y"]=9, ["x"]=52, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 915 :table keys=5
+  {["y"]=9, ["x"]=52, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 916 :table keys=5
+  {["y"]=9, ["x"]=52, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 917 :table keys=5
+  {["y"]=9, ["x"]=52, ["z"]=17, ["material"]="Ground", ["occupancy"]=0.96}
+K 918 :table keys=5
+  {["y"]=9, ["x"]=52, ["z"]=18, ["material"]="Ground", ["occupancy"]=1}
+K 919 :table keys=5
+  {["y"]=9, ["x"]=52, ["z"]=19, ["material"]="Ground", ["occupancy"]=1}
+K 92 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=134, ["material"]="Rock", ["occupancy"]=1}
+K 920 :table keys=5
+  {["y"]=9, ["x"]=52, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 921 :table keys=5
+  {["y"]=9, ["x"]=52, ["z"]=21, ["material"]="Ground", ["occupancy"]=0.53}
+K 922 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=9, ["material"]="Ground", ["occupancy"]=0.4}
+K 923 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=10, ["material"]="Ground", ["occupancy"]=1}
+K 924 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 925 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 926 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 927 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 928 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 929 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 93 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=135, ["material"]="Rock", ["occupancy"]=1}
+K 930 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 931 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 932 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 933 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 934 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 935 :table keys=5
+  {["y"]=10, ["x"]=52, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.56}
+K 936 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=9, ["material"]="Ground", ["occupancy"]=0.2}
+K 937 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=10, ["material"]="Ground", ["occupancy"]=1}
+K 938 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 939 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 94 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=136, ["material"]="Rock", ["occupancy"]=1}
+K 940 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 941 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 942 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 943 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 944 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 945 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 946 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 947 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 948 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 949 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=22, ["material"]="Ground", ["occupancy"]=1}
+K 95 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=137, ["material"]="Rock", ["occupancy"]=1}
+K 950 :table keys=5
+  {["y"]=11, ["x"]=52, ["z"]=23, ["material"]="Ground", ["occupancy"]=0.27}
+K 951 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=10, ["material"]="Ground", ["occupancy"]=1}
+K 952 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 953 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=12, ["material"]="Grass", ["occupancy"]=1}
+K 954 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=13, ["material"]="Grass", ["occupancy"]=1}
+K 955 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=14, ["material"]="Grass", ["occupancy"]=1}
+K 956 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=15, ["material"]="Grass", ["occupancy"]=1}
+K 957 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=16, ["material"]="Grass", ["occupancy"]=1}
+K 958 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=17, ["material"]="Grass", ["occupancy"]=1}
+K 959 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=18, ["material"]="Grass", ["occupancy"]=1}
+K 96 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=138, ["material"]="Rock", ["occupancy"]=1}
+K 960 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=19, ["material"]="Grass", ["occupancy"]=1}
+K 961 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=20, ["material"]="Grass", ["occupancy"]=1}
+K 962 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 963 :table keys=5
+  {["y"]=12, ["x"]=52, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.95}
+K 964 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=10, ["material"]="Ground", ["occupancy"]=0.27}
+K 965 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 966 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 967 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 968 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 969 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 97 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=139, ["material"]="Rock", ["occupancy"]=1}
+K 970 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 971 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=17, ["material"]="Ground", ["occupancy"]=0.91}
+K 972 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=18, ["material"]="Ground", ["occupancy"]=0.81}
+K 973 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=19, ["material"]="Ground", ["occupancy"]=1}
+K 974 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 975 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=21, ["material"]="Ground", ["occupancy"]=1}
+K 976 :table keys=5
+  {["y"]=13, ["x"]=52, ["z"]=22, ["material"]="Ground", ["occupancy"]=0.25}
+K 977 :table keys=5
+  {["y"]=14, ["x"]=52, ["z"]=11, ["material"]="Ground", ["occupancy"]=1}
+K 978 :table keys=5
+  {["y"]=14, ["x"]=52, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 979 :table keys=5
+  {["y"]=14, ["x"]=52, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 98 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=140, ["material"]="Rock", ["occupancy"]=1}
+K 980 :table keys=5
+  {["y"]=14, ["x"]=52, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 981 :table keys=5
+  {["y"]=14, ["x"]=52, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 982 :table keys=5
+  {["y"]=14, ["x"]=52, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 983 :table keys=5
+  {["y"]=14, ["x"]=52, ["z"]=17, ["material"]="Ground", ["occupancy"]=1}
+K 984 :table keys=5
+  {["y"]=14, ["x"]=52, ["z"]=18, ["material"]="Ground", ["occupancy"]=1}
+K 985 :table keys=5
+  {["y"]=14, ["x"]=52, ["z"]=19, ["material"]="Ground", ["occupancy"]=1}
+K 986 :table keys=5
+  {["y"]=14, ["x"]=52, ["z"]=20, ["material"]="Ground", ["occupancy"]=1}
+K 987 :table keys=5
+  {["y"]=14, ["x"]=52, ["z"]=21, ["material"]="Ground", ["occupancy"]=0.73}
+K 988 :table keys=5
+  {["y"]=15, ["x"]=52, ["z"]=11, ["material"]="Ground", ["occupancy"]=0.3}
+K 989 :table keys=5
+  {["y"]=15, ["x"]=52, ["z"]=12, ["material"]="Ground", ["occupancy"]=1}
+K 99 :table keys=5
+  {["y"]=13, ["x"]=47, ["z"]=141, ["material"]="Ground", ["occupancy"]=1}
+K 990 :table keys=5
+  {["y"]=15, ["x"]=52, ["z"]=13, ["material"]="Ground", ["occupancy"]=1}
+K 991 :table keys=5
+  {["y"]=15, ["x"]=52, ["z"]=14, ["material"]="Ground", ["occupancy"]=1}
+K 992 :table keys=5
+  {["y"]=15, ["x"]=52, ["z"]=15, ["material"]="Ground", ["occupancy"]=1}
+K 993 :table keys=5
+  {["y"]=15, ["x"]=52, ["z"]=16, ["material"]="Ground", ["occupancy"]=1}
+K 994 :table keys=5
+  {["y"]=15, ["x"]=52, ["z"]=17, ["material"]="Ground", ["occupancy"]=1}
+K 995 :table keys=5
+  {["y"]=15, ["x"]=52, ["z"]=18, ["material"]="Ground", ["occupancy"]=1}
+K 996 :table keys=5
+  {["y"]=15, ["x"]=52, ["z"]=19, ["material"]="Ground", ["occupancy"]=1}
+K 997 :table keys=5
+  {["y"]=15, ["x"]=52, ["z"]=20, ["material"]="Sand", ["occupancy"]=1}
+K 998 :table keys=5
+  {["y"]=15, ["x"]=52, ["z"]=21, ["material"]="Sand", ["occupancy"]=0.61}
+K 999 :table keys=5
+  {["y"]=16, ["x"]=52, ["z"]=12, ["material"]="Rock", ["occupancy"]=0.33}

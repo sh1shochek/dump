@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Packages._Index.sleitnick_trove@1.5.0.trove.init.spec
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Packages._Index.sleitnick_trove@1.5.0.trov:? what=Lua protos=1[#1]
+  up1: ERR
+  consts total=8
+  [1] str "require"

@@ -1,0 +1,111 @@
+PATH: ReplicatedStorage.Controllers.CharacterController.LocalCharacter
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+F CancelBombPlant
+  params=0 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=CancelBombPlant what=Lua protos=0[]
+  up1: table keys=48 {CurrentFrameMoveVector:userdata, CurrentFrameVerticalLook:number, CrouchInputDown:boolean, CameraDuckRootCompensationY:number, IsJumping:boolean, StepCameraOffsetY:number, CrouchCameraOffset:vector, IsPlantingBomb:boolean, DefaultCameraOffset:vector, PredictionErrorElapsedSeconds:number, CharacterAnimator:table, Landed:table, LatestMoveVector:userdata, PredictionErrorOffset:vector, Walking:table, JumpInputDown:boolean, Climbing:table, CameraPart:userdata, Crouching:table, InputFramePrepared:boolean, MovementState:table, IsDestroyed:boolean, PreservePredictionPresentation:boolean, HumanoidRootPart:userdata, GlobalVelocity:vector, SnapNextPresentation:boolean, Character:userdata, Support:table, LastPresentedAt:number, CameraOffset:vector, CurrentFrameLookYaw:number, StepSmoothWasOnGround:boolean, StepSmoothLastDuckAmount:number, StepSmoothRootY:number, OnGround:boolean, VisualPlantCameraAlpha:number, PreviousFrameLookYaw:number, VisualDuckRootAmount:number, VisualDuckAmount:number, IsCrouching:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "CancelBombPlant"
+F GetCrouchState
+  params=0 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=GetCrouchState what=Lua protos=0[]
+  up1: table keys=48 {CurrentFrameMoveVector:userdata, CurrentFrameVerticalLook:number, CrouchInputDown:boolean, CameraDuckRootCompensationY:number, IsJumping:boolean, StepCameraOffsetY:number, CrouchCameraOffset:vector, IsPlantingBomb:boolean, DefaultCameraOffset:vector, PredictionErrorElapsedSeconds:number, CharacterAnimator:table, Landed:table, LatestMoveVector:userdata, PredictionErrorOffset:vector, Walking:table, JumpInputDown:boolean, Climbing:table, CameraPart:userdata, Crouching:table, InputFramePrepared:boolean, MovementState:table, IsDestroyed:boolean, PreservePredictionPresentation:boolean, HumanoidRootPart:userdata, GlobalVelocity:vector, SnapNextPresentation:boolean, Character:userdata, Support:table, LastPresentedAt:number, CameraOffset:vector, CurrentFrameLookYaw:number, StepSmoothWasOnGround:boolean, StepSmoothLastDuckAmount:number, StepSmoothRootY:number, OnGround:boolean, VisualPlantCameraAlpha:number, PreviousFrameLookYaw:number, VisualDuckRootAmount:number, VisualDuckAmount:number, IsCrouching:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "IsCrouching"
+F GetWalkState
+  params=0 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=GetWalkState what=Lua protos=0[]
+  up1: table keys=48 {CurrentFrameMoveVector:userdata, CurrentFrameVerticalLook:number, CrouchInputDown:boolean, CameraDuckRootCompensationY:number, IsJumping:boolean, StepCameraOffsetY:number, CrouchCameraOffset:vector, IsPlantingBomb:boolean, DefaultCameraOffset:vector, PredictionErrorElapsedSeconds:number, CharacterAnimator:table, Landed:table, LatestMoveVector:userdata, PredictionErrorOffset:vector, Walking:table, JumpInputDown:boolean, Climbing:table, CameraPart:userdata, Crouching:table, InputFramePrepared:boolean, MovementState:table, IsDestroyed:boolean, PreservePredictionPresentation:boolean, HumanoidRootPart:userdata, GlobalVelocity:vector, SnapNextPresentation:boolean, Character:userdata, Support:table, LastPresentedAt:number, CameraOffset:vector, CurrentFrameLookYaw:number, StepSmoothWasOnGround:boolean, StepSmoothLastDuckAmount:number, StepSmoothRootY:number, OnGround:boolean, VisualPlantCameraAlpha:number, PreviousFrameLookYaw:number, VisualDuckRootAmount:number, VisualDuckAmount:number, IsCrouching:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "IsWalking"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=Initialize what=Lua protos=3[#1,#2,#3]
+  up1: boolean true
+  up2: table keys=13 {humanoid:table, inputMoveVector:vector, moveFunction:function, controllers:table, character:userdata, customCharacterMotor:table, vehicleController:table, currentTorsoAngle:number, presentedCharacterDisconnect:function, lastInputType:userdata, activeController:table, controlsEnabled:boolean, activeControlModule:table}
+  up3: function params=3 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=moveCharacter what=Lua
+  up4: table keys=71 {_timelineConnection:table, _commandRecoveryPacketsSent:number, _commandSendBudgetDeferrals:number, _topologyRetrySeconds:number, _allowPredictionHistoryEviction:boolean, _diagnosticLastSummaryAt:number, _remotePresentations:table, _remoteClock:table, _remoteBuffer:table, _renderStepName:string, _pendingMoverReplayIds:table, _previousPresentedState:table, _diagnosticLastAnomalyAt:number, _diagnosticReconciliationCount:number, _diagnosticReplayMax:number, _topology:table, _airStrafeTraceEnabled:boolean, _diagnosticOwnerReceived:number, _lastSuspiciousGroundObservedAt:number, _contactActorIds:table, _airStrafeTraceLineCount:number, _mapping:table, _predictionRing:table, _localPresentationContextScratch:table, _diagnosticLastOwnerAppliedAt:number, _pendingRemoteSnapshots:table, _reconciler:table, _commandSendLastRefillAt:number, _commandPacketsSent:number, _moverContactBodyPool:table, _diagnosticReplayTotal:number, _diagnosticOwnerApplied:number, _seenJumpCommands:table, _config:table, _cachedStaticFrame:table, _status:string, _lastWarningAtByMessage:table, _remotePresentationPool:table, _presentedSupport:table, _commandResyncRequestedAt:number}
+  up5: boolean true
+  up6: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up7: table keys=0 {}
+  up8: userdata Mateo_081005
+  up9: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up10: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up11: function params=1 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=observeCharacterReady what=Lua
+  up12: table keys=48 {CurrentFrameMoveVector:userdata, CurrentFrameVerticalLook:number, CrouchInputDown:boolean, CameraDuckRootCompensationY:number, IsJumping:boolean, StepCameraOffsetY:number, CrouchCameraOffset:vector, IsPlantingBomb:boolean, DefaultCameraOffset:vector, PredictionErrorElapsedSeconds:number, CharacterAnimator:table, Landed:table, LatestMoveVector:userdata, PredictionErrorOffset:vector, Walking:table, JumpInputDown:boolean, Climbing:table, CameraPart:userdata, Crouching:table, InputFramePrepared:boolean, MovementState:table, IsDestroyed:boolean, PreservePredictionPresentation:boolean, HumanoidRootPart:userdata, GlobalVelocity:vector, SnapNextPresentation:boolean, Character:userdata, Support:table, LastPresentedAt:number, CameraOffset:vector, CurrentFrameLookYaw:number, StepSmoothWasOnGround:boolean, StepSmoothLastDuckAmount:number, StepSmoothRootY:number, OnGround:boolean, VisualPlantCameraAlpha:number, PreviousFrameLookYaw:number, VisualDuckRootAmount:number, VisualDuckAmount:number, IsCrouching:boolean}
+  up13: table keys=8 {playOneTime:function, destroy:function, new:function, PlaySoundAtPosition:function, play:function, WarmPersistentSounds:function, __index:table, createSoundGroup:function}
+  up14: userdata Players
+  up15: table keys=3 {flinchBody:function, flickHead:function, clear:function}
+  up16: ERR
+  consts total=10
+  [1] str "moveFunction"
+  [2] str "start"
+  [3] str "BreakableDoor"
+  [4] str "Resolved"
+  [5] str "Listen"
+F PlantBomb
+  params=0 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=PlantBomb what=Lua protos=0[]
+  up1: table keys=48 {CurrentFrameMoveVector:userdata, CurrentFrameVerticalLook:number, CrouchInputDown:boolean, CameraDuckRootCompensationY:number, IsJumping:boolean, StepCameraOffsetY:number, CrouchCameraOffset:vector, IsPlantingBomb:boolean, DefaultCameraOffset:vector, PredictionErrorElapsedSeconds:number, CharacterAnimator:table, Landed:table, LatestMoveVector:userdata, PredictionErrorOffset:vector, Walking:table, JumpInputDown:boolean, Climbing:table, CameraPart:userdata, Crouching:table, InputFramePrepared:boolean, MovementState:table, IsDestroyed:boolean, PreservePredictionPresentation:boolean, HumanoidRootPart:userdata, GlobalVelocity:vector, SnapNextPresentation:boolean, Character:userdata, Support:table, LastPresentedAt:number, CameraOffset:vector, CurrentFrameLookYaw:number, StepSmoothWasOnGround:boolean, StepSmoothLastDuckAmount:number, StepSmoothRootY:number, OnGround:boolean, VisualPlantCameraAlpha:number, PreviousFrameLookYaw:number, VisualDuckRootAmount:number, VisualDuckAmount:number, IsCrouching:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "PlantBomb"
+F PredictDoorUse
+  params=1 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=PredictDoorUse what=Lua protos=1[#1]
+  up1: table keys=71 {_timelineConnection:table, _commandRecoveryPacketsSent:number, _commandSendBudgetDeferrals:number, _topologyRetrySeconds:number, _allowPredictionHistoryEviction:boolean, _diagnosticLastSummaryAt:number, _remotePresentations:table, _remoteClock:table, _remoteBuffer:table, _renderStepName:string, _pendingMoverReplayIds:table, _previousPresentedState:table, _diagnosticLastAnomalyAt:number, _diagnosticReconciliationCount:number, _diagnosticReplayMax:number, _topology:table, _airStrafeTraceEnabled:boolean, _diagnosticOwnerReceived:number, _lastSuspiciousGroundObservedAt:number, _contactActorIds:table, _airStrafeTraceLineCount:number, _mapping:table, _predictionRing:table, _localPresentationContextScratch:table, _diagnosticLastOwnerAppliedAt:number, _pendingRemoteSnapshots:table, _reconciler:table, _commandSendLastRefillAt:number, _commandPacketsSent:number, _moverContactBodyPool:table, _diagnosticReplayTotal:number, _diagnosticOwnerApplied:number, _seenJumpCommands:table, _config:table, _cachedStaticFrame:table, _status:string, _lastWarningAtByMessage:table, _remotePresentationPool:table, _presentedSupport:table, _commandResyncRequestedAt:number}
+  up2: table keys=11 {_baselineServerTick:number, _epoch:number, _horizonTicks:number, _horizonHz:number, _tracks:table, _revisionChanges:table, _revision:number, _contactBoundsPool:table, _contactBounds:table, _latestCommitTick:number, _proxyCache:table}
+  up3: number 0
+  up4: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up5: table keys=0 {}
+  up6: ERR
+  consts total=18
+  [1] str "getMapping"
+  [2] str "getPredictedState"
+  [3] str "MovementPredictionUnavailable"
+  [4] str "Position"
+  [5] str "SimulationHz"
+  [6] str "PredictDoorUse"
+  [7] str "addUInt32"
+  [8] str "Model"
+  [9] str "MoverId"
+  [10] str "Revision"
+  [11] table
+  [12] str "task"
+  [13] str "delay"
+F Start
+  params=0 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=Start what=Lua protos=0[]
+  up1: boolean true
+  up2: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up3: table keys=11 {PlantBomb:function, crouch:function, getCurrentCharacter:function, Start:function, CancelBombPlant:function, GetCrouchState:function, Initialize:function, GetWalkState:function, jump:function, PredictDoorUse:function, walk:function}
+  up4: ERR
+  consts total=7
+  [1] str "observerRouter"
+  [2] str "Plant Bomb"
+  [3] str "PlantBomb"
+  [4] str "Cancel Bomb Plant"
+  [5] str "CancelBombPlant"
+  [6] str "GetCurrentCharacter"
+  [7] str "getCurrentCharacter"
+F crouch
+  params=1 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=crouch what=Lua protos=0[]
+  up1: table keys=48 {CurrentFrameMoveVector:userdata, CurrentFrameVerticalLook:number, CrouchInputDown:boolean, CameraDuckRootCompensationY:number, IsJumping:boolean, StepCameraOffsetY:number, CrouchCameraOffset:vector, IsPlantingBomb:boolean, DefaultCameraOffset:vector, PredictionErrorElapsedSeconds:number, CharacterAnimator:table, Landed:table, LatestMoveVector:userdata, PredictionErrorOffset:vector, Walking:table, JumpInputDown:boolean, Climbing:table, CameraPart:userdata, Crouching:table, InputFramePrepared:boolean, MovementState:table, IsDestroyed:boolean, PreservePredictionPresentation:boolean, HumanoidRootPart:userdata, GlobalVelocity:vector, SnapNextPresentation:boolean, Character:userdata, Support:table, LastPresentedAt:number, CameraOffset:vector, CurrentFrameLookYaw:number, StepSmoothWasOnGround:boolean, StepSmoothLastDuckAmount:number, StepSmoothRootY:number, OnGround:boolean, VisualPlantCameraAlpha:number, PreviousFrameLookYaw:number, VisualDuckRootAmount:number, VisualDuckAmount:number, IsCrouching:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "ToggleCrouchInput"
+F getCurrentCharacter
+  params=0 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=getCurrentCharacter what=Lua protos=0[]
+  up1: table keys=48 {CurrentFrameMoveVector:userdata, CurrentFrameVerticalLook:number, CrouchInputDown:boolean, CameraDuckRootCompensationY:number, IsJumping:boolean, StepCameraOffsetY:number, CrouchCameraOffset:vector, IsPlantingBomb:boolean, DefaultCameraOffset:vector, PredictionErrorElapsedSeconds:number, CharacterAnimator:table, Landed:table, LatestMoveVector:userdata, PredictionErrorOffset:vector, Walking:table, JumpInputDown:boolean, Climbing:table, CameraPart:userdata, Crouching:table, InputFramePrepared:boolean, MovementState:table, IsDestroyed:boolean, PreservePredictionPresentation:boolean, HumanoidRootPart:userdata, GlobalVelocity:vector, SnapNextPresentation:boolean, Character:userdata, Support:table, LastPresentedAt:number, CameraOffset:vector, CurrentFrameLookYaw:number, StepSmoothWasOnGround:boolean, StepSmoothLastDuckAmount:number, StepSmoothRootY:number, OnGround:boolean, VisualPlantCameraAlpha:number, PreviousFrameLookYaw:number, VisualDuckRootAmount:number, VisualDuckAmount:number, IsCrouching:boolean}
+  up2: ERR
+  consts total=0
+F jump
+  params=1 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=jump what=Lua protos=0[]
+  up1: table keys=48 {CurrentFrameMoveVector:userdata, CurrentFrameVerticalLook:number, CrouchInputDown:boolean, CameraDuckRootCompensationY:number, IsJumping:boolean, StepCameraOffsetY:number, CrouchCameraOffset:vector, IsPlantingBomb:boolean, DefaultCameraOffset:vector, PredictionErrorElapsedSeconds:number, CharacterAnimator:table, Landed:table, LatestMoveVector:userdata, PredictionErrorOffset:vector, Walking:table, JumpInputDown:boolean, Climbing:table, CameraPart:userdata, Crouching:table, InputFramePrepared:boolean, MovementState:table, IsDestroyed:boolean, PreservePredictionPresentation:boolean, HumanoidRootPart:userdata, GlobalVelocity:vector, SnapNextPresentation:boolean, Character:userdata, Support:table, LastPresentedAt:number, CameraOffset:vector, CurrentFrameLookYaw:number, StepSmoothWasOnGround:boolean, StepSmoothLastDuckAmount:number, StepSmoothRootY:number, OnGround:boolean, VisualPlantCameraAlpha:number, PreviousFrameLookYaw:number, VisualDuckRootAmount:number, VisualDuckAmount:number, IsCrouching:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "SetJumpInput"
+F walk
+  params=1 src=ReplicatedStorage.Controllers.CharacterController.LocalChara:? cname=walk what=Lua protos=0[]
+  up1: table keys=48 {CurrentFrameMoveVector:userdata, CurrentFrameVerticalLook:number, CrouchInputDown:boolean, CameraDuckRootCompensationY:number, IsJumping:boolean, StepCameraOffsetY:number, CrouchCameraOffset:vector, IsPlantingBomb:boolean, DefaultCameraOffset:vector, PredictionErrorElapsedSeconds:number, CharacterAnimator:table, Landed:table, LatestMoveVector:userdata, PredictionErrorOffset:vector, Walking:table, JumpInputDown:boolean, Climbing:table, CameraPart:userdata, Crouching:table, InputFramePrepared:boolean, MovementState:table, IsDestroyed:boolean, PreservePredictionPresentation:boolean, HumanoidRootPart:userdata, GlobalVelocity:vector, SnapNextPresentation:boolean, Character:userdata, Support:table, LastPresentedAt:number, CameraOffset:vector, CurrentFrameLookYaw:number, StepSmoothWasOnGround:boolean, StepSmoothLastDuckAmount:number, StepSmoothRootY:number, OnGround:boolean, VisualPlantCameraAlpha:number, PreviousFrameLookYaw:number, VisualDuckRootAmount:number, VisualDuckAmount:number, IsCrouching:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "ToggleWalkState"

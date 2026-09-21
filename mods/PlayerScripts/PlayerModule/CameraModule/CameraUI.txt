@@ -1,0 +1,18 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.CameraUI
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F setCameraModeToastEnabled
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=setCameraModeToastEnabled what=Lua protos=0[]
+  up1: boolean false
+  up2: table keys=2 {setCameraModeToastOpen:function, setCameraModeToastEnabled:function}
+  up3: ERR
+  consts total=1
+  [1] str "setCameraModeToastOpen"
+F setCameraModeToastOpen
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=setCameraModeToastOpen what=Lua protos=0[]
+  up1: boolean false
+  up2: userdata StarterGui
+  up3: ERR
+  consts total=11
+  [1] str "assert"

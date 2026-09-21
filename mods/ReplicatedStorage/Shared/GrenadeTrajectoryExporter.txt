@@ -1,0 +1,105 @@
+PATH: ReplicatedStorage.Shared.GrenadeTrajectoryExporter
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F exportJSON
+  params=2 src=ReplicatedStorage.Shared.GrenadeTrajectoryExporter:? cname=exportJSON what=Lua protos=0[]
+  up1: userdata HttpService
+  up2: ERR
+  consts total=33
+  [1] str "points"
+  [2] str "time_ms"
+  [3] str "metadata"
+  [4] str "throw_params"
+  [5] str "trajectory"
+  [6] str "bounces"
+  [7] str "summary"
+  [8] table
+  [9] str "source"
+  [10] str "roblox"
+  [11] str "grenade_type"
+  [12] str "throw_type"
+  [13] str "map"
+  [14] str "coordinate_system"
+  [15] table
+  [16] str "map_name"
+  [17] str ""
+  [18] str "up_axis"
+  [19] str "y"
+  [20] str "unit"
+  [21] str "studs"
+  [22] table
+  [23] str "start_position"
+  [24] str "throw_direction"
+  [25] str "player_velocity"
+  [26] str "player_state"
+  [27] table
+  [28] str "duration_ms"
+  [29] str "bounce_count"
+  [30] str "end_position"
+  [31] str "end_reason"
+  [32] table
+  [33] str "JSONEncode"
+F finishRecording
+  params=3 src=ReplicatedStorage.Shared.GrenadeTrajectoryExporter:? cname=finishRecording what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "X"
+  [2] str "Y"
+  [3] str "Z"
+  [4] str "end_position"
+  [5] str "end_reason"
+F recordBounce
+  params=4 src=ReplicatedStorage.Shared.GrenadeTrajectoryExporter:? cname=recordBounce what=Lua protos=0[]
+  up1: ERR
+  consts total=32
+  [1] vector
+  [2] str "normal"
+  [3] str "velocity"
+  [4] str "time_ms"
+  [5] str "position"
+  [6] str "velocity_before"
+  [7] str "velocity_after"
+  [8] str "surface_normal"
+  [9] str "surface_type"
+  [10] str "incident_angle"
+  [11] str "reflection_angle"
+  [12] table
+  [13] number 1000
+  [14] str "timestamp"
+  [15] str "start_time"
+  [16] str "math"
+  [17] str "floor"
+F recordPoint
+  params=3 src=ReplicatedStorage.Shared.GrenadeTrajectoryExporter:? cname=recordPoint what=Lua protos=0[]
+  up1: ERR
+  consts total=17
+  [1] number 1000
+  [2] str "simulationTime"
+  [3] str "math"
+  [4] str "floor"
+F simulateAndExport
+  params=9 src=ReplicatedStorage.Shared.GrenadeTrajectoryExporter:? cname=simulateAndExport what=Lua protos=0[]
+  up1: table keys=6 {recordPoint:function, startRecording:function, simulateAndExport:function, recordBounce:function, exportJSON:function, finishRecording:function}
+  up2: ERR
+  consts total=31
+  [1] str "calculateThrowParameters"
+  [2] str "rangeScale"
+  [3] str "createInitialState"
+  [4] str "tick"
+F startRecording
+  params=6 src=ReplicatedStorage.Shared.GrenadeTrajectoryExporter:? cname=startRecording what=Lua protos=0[]
+  up1: ERR
+  consts total=21
+  [1] str "grenade_type"
+  [2] str "throw_type"
+  [3] str "start_position"
+  [4] str "throw_direction"
+  [5] str "player_velocity"
+  [6] str "player_state"
+  [7] str "map_name"
+  [8] str ""
+  [9] str "start_time"
+  [10] str "points"
+  [11] str "bounces"
+  [12] str "end_position"

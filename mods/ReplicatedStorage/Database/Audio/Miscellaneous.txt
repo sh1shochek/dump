@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Database.Audio.Miscellaneous
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+K Close Garage :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=0}}
+K Open Garage :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=0}}

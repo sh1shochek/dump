@@ -1,0 +1,42 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Dashboard.EditMobile
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard.EditMobil:? cname=Initialize what=Lua protos=1[#1]
+  up1: userdata MainGui
+  up2: userdata Dashboard
+  up3: userdata EditMobile
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard.EditMobil:? cname=ConnectEditorVisibilityGuards what=Lua
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard.EditMobil:? cname=SetDashboardEditorVisibility what=Lua
+  up6: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard.EditMobil:? cname=UpdateEditMobileButtonVisibility what=Lua
+  up7: userdata UserInputService
+  up8: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard.EditMobil:? cname=GetEditMobileEntryButton what=Lua
+  up9: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up10: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up11: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard.EditMobil:? cname=EnterMobileHUDEditor what=Lua
+  up12: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard.EditMobil:? cname=SetupEditorControls what=Lua
+  up13: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard.EditMobil:? cname=ConnectGlobalInputHandlers what=Lua
+  up14: ERR
+  consts total=8
+  [1] str "EditMobile"
+  [2] str "FindFirstChild"
+  [3] str "Name"
+  [4] str "Parent"
+  [5] str "Frame"
+  [6] str "IsA"
+  [7] str "GetLastInputType"
+  [8] str "MouseButton1Click"
+F Open
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard.EditMobil:? cname=Open what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard.EditMobil:? cname=EnterMobileHUDEditor what=Lua
+  up2: ERR
+  consts total=0
+F ShouldShowEntryButton
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Dashboard.EditMobil:? cname=ShouldShowEntryButton what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Components.Common.GetUserPlatform:? what=Lua
+  up2: userdata UserInputService
+  up3: ERR
+  consts total=9
+  [1] str "table"
+  [2] str "find"

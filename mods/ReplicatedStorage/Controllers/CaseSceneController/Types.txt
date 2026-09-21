@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Controllers.CaseSceneController.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

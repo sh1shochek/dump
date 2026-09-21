@@ -1,0 +1,180 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Top
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+F CloseTeamSelection
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=CloseTeamSelection what=Lua protos=0[]
+  up1: userdata MainGui
+  up2: ERR
+  consts total=7
+  [1] str "Gameplay"
+  [2] str "Middle"
+  [3] str "TeamSelection"
+  [4] str "Visible"
+  [5] str "Crosshair"
+  [6] str "Top"
+  [7] str "Bottom"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=Initialize what=Lua protos=3[#1,#2,#3]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata MainGui
+  up3: userdata Top
+  up4: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=setupButton what=Lua
+  up5: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up6: table keys=8 {UpdateBackground:function, Start:function, ResetToMainMenu:function, openFrame:function, ToggleMenu:function, Initialize:function, CloseTeamSelection:function, reportPressedPlay:function}
+  up7: table keys=10 {shouldUseMapCamera:function, isVisible:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, updatePlayerList:function, chooseTeam:function, createTeamButtonAnimation:function, ToggleTeamSelection:function}
+  up8: ERR
+  consts total=15
+  [1] str "mark"
+  [2] str "UI.Top.Initialize"
+  [3] str "ipairs"
+F ResetToMainMenu
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=ResetToMainMenu what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up3: userdata MainGui
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=shouldPreserveMenuFrame what=Lua
+  up5: userdata Dashboard
+  up6: userdata Play
+  up7: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=tweenButton what=Lua
+  up8: userdata 1, 1, 1
+  up9: userdata Top
+  up10: userdata 0.588235, 0.862745, 0.937255
+  up11: ERR
+  consts total=22
+  [1] str "mark"
+  [2] str "UI.Top.ResetToMainMenu"
+  [3] str "IsInspectActive"
+  [4] str "IsCaseSceneActive"
+  [5] str "Menu"
+  [6] str "FindFirstChild"
+  [7] str "ipairs"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=Start what=Lua protos=9[syncMenuAndTeamSelectionState,#2,#3,#4,#5,#6,#7,#8,#9]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Play
+  up3: userdata Top
+  up4: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=tweenButton what=Lua
+  up5: userdata 0.588235, 0.862745, 0.937255
+  up6: userdata MainGui
+  up7: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up8: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=syncControlLockWithMenuVisibility what=Lua
+  up9: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=syncCameraWithTeamSelection what=Lua
+  up10: userdata Mateo_081005
+  up11: userdata UserInputService
+  up12: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up13: table keys=7 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string, 7:string}
+  up14: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=getTopButton what=Lua
+  up15: userdata 1, 1, 1
+  up16: userdata GuiService
+  up17: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up18: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=goToTab what=Lua
+  up19: table keys=8 {UpdateBackground:function, Start:function, ResetToMainMenu:function, openFrame:function, ToggleMenu:function, Initialize:function, CloseTeamSelection:function, reportPressedPlay:function}
+  up20: userdata Dashboard
+  up21: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up22: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up23: userdata ReplicatedStorage
+  up24: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=shouldPreserveMenuFrame what=Lua
+  up25: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up26: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=autoPressPlayForNewUser what=Lua
+  up27: table keys=4 {OnChanged:function, GetNumber:function, GetRewardMultiplier:function, Get:function}
+  up28: ERR
+  consts total=44
+  [1] str "debug"
+  [2] str "setmemorycategory"
+F ToggleMenu
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=ToggleMenu what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up3: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up4: userdata MainGui
+  up5: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up6: userdata Mateo_081005
+  up7: function params=0 src=ReplicatedStorage.Components.Common.GetUserPlatform:? what=Lua
+  up8: table keys=10 {shouldUseMapCamera:function, isVisible:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, updatePlayerList:function, chooseTeam:function, createTeamButtonAnimation:function, ToggleTeamSelection:function}
+  up9: table keys=8 {UpdateBackground:function, Start:function, ResetToMainMenu:function, openFrame:function, ToggleMenu:function, Initialize:function, CloseTeamSelection:function, reportPressedPlay:function}
+  up10: userdata Dashboard
+  up11: ERR
+  consts total=32
+  [1] str "mark"
+  [2] str "UI.Top.ToggleMenu"
+  [3] str "IsInspectActive"
+  [4] str "IsCaseSceneActive"
+  [5] str "GetState"
+  [6] str "Map Voting"
+  [7] str "Game Ending"
+  [8] str "Menu"
+  [9] str "Visible"
+  [10] str "SetWantsMainMenu"
+  [11] str "setForceLockOverride"
+  [12] str "IsSpectating"
+  [13] str "GetAttribute"
+  [14] str "setPerspective"
+  [15] str "SetBlurEnabled"
+  [16] str "Gameplay"
+  [17] str "Top"
+  [18] str "table"
+  [19] str "find"
+F UpdateBackground
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=UpdateBackground what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=10 {shouldUseMapCamera:function, isVisible:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, updatePlayerList:function, chooseTeam:function, createTeamButtonAnimation:function, ToggleTeamSelection:function}
+  up3: userdata MainGui
+  up4: userdata ReplicatedStorage
+  up5: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up6: userdata Mateo_081005
+  up7: userdata Camera
+  up8: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up9: ERR
+  consts total=31
+  [1] str "mark"
+  [2] str "UI.Top.UpdateBackground"
+  [3] str "shouldUseMapCamera"
+  [4] str "Menu"
+  [5] str "Visible"
+  [6] str "require"
+F openFrame
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=openFrame what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up3: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up4: userdata MainGui
+  up5: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up6: userdata ReplicatedStorage
+  up7: table keys=8 {UpdateBackground:function, Start:function, ResetToMainMenu:function, openFrame:function, ToggleMenu:function, Initialize:function, CloseTeamSelection:function, reportPressedPlay:function}
+  up8: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up9: userdata Dashboard
+  up10: userdata Mateo_081005
+  up11: function params=0 src=ReplicatedStorage.Components.Common.GetUserPlatform:? what=Lua
+  up12: boolean true
+  up13: ERR
+  consts total=44
+  [1] str "mark"
+  [2] str "UI.Top.OpenFrame"
+  [3] str "IsInspectActive"
+  [4] str "IsCaseSceneActive"
+  [5] str "Store"
+  [6] str "IsStoreEnabled"
+  [7] str "broadcastRouter"
+  [8] str "RunInterfaceSound"
+  [9] str "UI Store Click"
+  [10] str "Dashboard"
+  [11] str "Play"
+  [12] str "SetBlurEnabled"
+  [13] str "Menu"
+  [14] str "Pattern"
+  [15] str "FindFirstChild"
+  [16] number 0.15
+  [17] str "BackgroundTransparency"
+  [18] str "Visible"
+  [19] str "GetState"
+  [20] str "require"
+F reportPressedPlay
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Top:? cname=reportPressedPlay what=Lua protos=0[]
+  up1: boolean true
+  up2: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up3: ERR
+  consts total=3
+  [1] str "Player"
+  [2] str "PressedPlay"
+  [3] str "Send"

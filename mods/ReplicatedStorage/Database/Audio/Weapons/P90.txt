@@ -1,0 +1,18 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.P90
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K BoltBack :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=96158367755546}}
+K BoltForward :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=111937410952901}}
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=139075635115160}}
+K MagIn :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=92927438494992}}
+K MagOut :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=133456441212285}}
+K Shoot :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=35}, ["Identifiers"]={[1]=93444438747180, [2]=73266589498757}}
+K Tap :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=122983309211249}}

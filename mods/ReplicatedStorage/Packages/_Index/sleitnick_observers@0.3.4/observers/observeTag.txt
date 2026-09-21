@@ -1,0 +1,13 @@
+PATH: ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.observers.observeTag
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=3 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? cname=observeTag what=Lua protos=8[IsGoodAncestor,AttemptStartup,AttemptCleanup,OnAncestryChanged,OnInstanceAdded,OnInstanceRemoved,#7,#8]
+  up1: userdata CollectionService
+  up2: ERR
+  consts total=5
+  [1] str "GetInstanceAddedSignal"
+  [2] str "Connect"
+  [3] str "GetInstanceRemovedSignal"
+  [4] str "task"
+  [5] str "defer"

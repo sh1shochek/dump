@@ -1,0 +1,558 @@
+PATH: ReplicatedStorage.Packages.t
+REQUIRE: ok
+RETURNS: table
+KEYS: 89
+F Axes
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Axes"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F BrickColor
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "BrickColor"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F CFrame
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "CFrame"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F CatalogSearchParams
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "CatalogSearchParams"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Color3
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Color3"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F ColorSequence
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "ColorSequence"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F ColorSequenceKeypoint
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "ColorSequenceKeypoint"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F DateTime
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "DateTime"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F DockWidgetPluginGuiInfo
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "DockWidgetPluginGuiInfo"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Enum
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Enum"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F EnumItem
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "EnumItem"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Enums
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Enums"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Faces
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Faces"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F FloatCurveKey
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "FloatCurveKey"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Font
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Font"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Instance
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Instance"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F NumberRange
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "NumberRange"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F NumberSequence
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "NumberSequence"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F NumberSequenceKeypoint
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "NumberSequenceKeypoint"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F OverlapParams
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "OverlapParams"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F PathWaypoint
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "PathWaypoint"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F PhysicalProperties
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "PhysicalProperties"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F RBXScriptConnection
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "RBXScriptConnection"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F RBXScriptSignal
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "RBXScriptSignal"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Random
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Random"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Ray
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Ray"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F RaycastParams
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "RaycastParams"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F RaycastResult
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "RaycastResult"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Rect
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Rect"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Region3
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Region3"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Region3int16
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Region3int16"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F TweenInfo
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "TweenInfo"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F UDim
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "UDim"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F UDim2
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "UDim2"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Vector2
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Vector2"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Vector2int16
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Vector2int16"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Vector3
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Vector3"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F Vector3int16
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "Vector3int16"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F any
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=any what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "any expected, got nil"
+F array
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=array what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: function params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua
+  up3: ERR
+  consts total=4
+  [1] str "callback"
+  [2] str "assert"
+F boolean
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "boolean"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F buffer
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "buffer"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F callback
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "function"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F children
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=children what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua
+  up2: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up3: ERR
+  consts total=1
+  [1] str "assert"
+F enum
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=enum what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=2
+  [1] str "Enum"
+  [2] str "assert"
+F every
+  params=0 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=intersection what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "assert"
+F exactly
+  params=0 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=literal what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=8
+  [1] str "#"
+  [2] str "select"
+F function
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "function"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F instance
+  params=2 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=instanceOf what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=4
+  [1] str "string"
+  [2] str "assert"
+F instanceIsA
+  params=2 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=instanceIsA what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=4
+  [1] str "string"
+  [2] str "assert"
+F instanceOf
+  params=2 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=instanceOf what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=4
+  [1] str "string"
+  [2] str "assert"
+F integer
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=integer what=Lua protos=0[]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=8
+  [1] str "number"
+  [2] str ""
+  [3] number 1
+  [4] number 0
+  [5] str "string"
+  [6] str "format"
+F interface
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=interface what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua
+  up2: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up3: ERR
+  consts total=1
+  [1] str "assert"
+F intersection
+  params=0 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=intersection what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "assert"
+F keyOf
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=keyOf what=Lua protos=0[]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=6
+  [1] str "pairs"
+F keys
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=keys what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=2
+  [1] str "callback"
+  [2] str "assert"
+F literal
+  params=0 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=literal what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=8
+  [1] str "#"
+  [2] str "select"
+F map
+  params=2 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=map what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=5
+  [1] str "callback"
+  [2] str "assert"
+F match
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=match what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=2
+  [1] str "string"
+  [2] str "assert"
+F nan
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=nan what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "typeof"
+F nil
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "nil"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F none
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "nil"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F number
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=number what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "typeof"
+F numberConstrained
+  params=2 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=numberConstrained what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=5
+  [1] str "number"
+  [2] str "assert"
+F numberConstrainedExclusive
+  params=2 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=numberConstrainedExclusive what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=5
+  [1] str "number"
+  [2] str "assert"
+F numberMax
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=numberMax what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=0
+F numberMaxExclusive
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=numberMaxExclusive what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=0
+F numberMin
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=numberMin what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=0
+F numberMinExclusive
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=numberMinExclusive what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=0
+F numberNegative
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: number 0
+  up3: ERR
+  consts total=4
+  [1] str "number"
+  [2] str ""
+  [3] str "string"
+  [4] str "format"
+F numberPositive
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: number 0
+  up3: ERR
+  consts total=4
+  [1] str "number"
+  [2] str ""
+  [3] str "string"
+  [4] str "format"
+F optional
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=optional what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=2
+  [1] str "callback"
+  [2] str "assert"
+F set
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=set what=Lua protos=0[]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=2
+  [1] str "map"
+  [2] str "literal"
+F some
+  params=0 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=union what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "assert"
+F strict
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=strict what=Lua protos=1[#1]
+  up1: ERR
+  consts total=0
+F strictArray
+  params=0 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=strictArray what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: function params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua
+  up3: ERR
+  consts total=3
+  [1] str "array"
+  [2] str "callback"
+  [3] str "assert"
+F strictInterface
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=strictInterface what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua
+  up2: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up3: ERR
+  consts total=1
+  [1] str "assert"
+F string
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "string"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F table
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "table"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F thread
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "thread"
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F tuple
+  params=0 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=tuple what=Lua protos=1[#1]
+  up1: ERR
+  consts total=0
+F type
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=type what=Lua protos=1[#1]
+  up1: ERR
+  consts total=0
+F typeof
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=typeof what=Lua protos=1[#1]
+  up1: ERR
+  consts total=0
+F union
+  params=0 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=union what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "assert"
+F userdata
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "userdata"
+  up2: ERR
+  consts total=6
+  [1] str "type"
+F valueOf
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=valueOf what=Lua protos=0[]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=6
+  [1] str "pairs"
+F values
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=values what=Lua protos=1[#1]
+  up1: table keys=89 {DockWidgetPluginGuiInfo:function, RaycastResult:function, intersection:function, CFrame:function, DateTime:function, strict:function, UDim:function, map:function, optional:function, NumberSequence:function, instance:function, union:function, numberNegative:function, CatalogSearchParams:function, Enum:function, none:function, integer:function, callback:function, thread:function, userdata:function, keys:function, interface:function, NumberRange:function, buffer:function, PhysicalProperties:function, numberMin:function, nan:function, Ray:function, Font:function, Vector2:function, enum:function, boolean:function, some:function, string:function, values:function, numberPositive:function, nil:function, RaycastParams:function, typeof:function, TweenInfo:function}
+  up2: ERR
+  consts total=2
+  [1] str "callback"
+  [2] str "assert"
+F vector
+  params=1 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua protos=0[]
+  up1: string "vector"
+  up2: ERR
+  consts total=6
+  [1] str "type"
+F wrap
+  params=2 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? cname=wrap what=Lua protos=1[#1]
+  up1: function params=0 src=ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t:? what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "assert"

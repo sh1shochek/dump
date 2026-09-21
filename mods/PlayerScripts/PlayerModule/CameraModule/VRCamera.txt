@@ -1,0 +1,165 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.VRCamera
+REQUIRE: ok
+RETURNS: table
+KEYS: 10
+F GetAvatarFeetWorldYValue
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetAvatarFeetWorldYValue what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "CameraSubject"
+  [5] str "Humanoid"
+  [6] str "IsA"
+  [7] str "RootPart"
+  [8] str "Position"
+  [9] str "Y"
+  [10] number 2
+  [11] str "Size"
+  [12] str "HipHeight"
+F LeaveFirstPerson
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=LeaveFirstPerson what=Lua protos=0[]
+  up1: table keys=19 {OnCurrentCameraChanged:function, UpdateEdgeBlur:function, getRotation:function, GetCameraHeight:function, ResetZoom:function, OnEnabledChanged:function, __index:table, new:function, GamepadReset:function, StartVREdgeBlur:function, GetSubjectPosition:function, GetSubjectCFrame:function, UpdateFadeFromBlack:function, StartFadeFromBlack:function, GetModuleName:function, OnHeadScaleChanged:function, GamepadZoomPress:function, GetVRFocus:function, Reset:function}
+  up2: ERR
+  consts total=9
+  [1] str "LeaveFirstPerson"
+  [2] str "needsReset"
+  [3] str "VRBlur"
+  [4] str "Visible"
+  [5] str "characterOrientation"
+  [6] str "Enabled"
+  [7] str "GetHumanoid"
+  [8] str "savedAutoRotate"
+  [9] str "AutoRotate"
+F Reset
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Reset what=Lua protos=0[]
+  up1: table keys=19 {OnCurrentCameraChanged:function, UpdateEdgeBlur:function, getRotation:function, GetCameraHeight:function, ResetZoom:function, OnEnabledChanged:function, __index:table, new:function, GamepadReset:function, StartVREdgeBlur:function, GetSubjectPosition:function, GetSubjectCFrame:function, UpdateFadeFromBlack:function, StartFadeFromBlack:function, GetModuleName:function, OnHeadScaleChanged:function, GamepadZoomPress:function, GetVRFocus:function, Reset:function}
+  up2: ERR
+  consts total=6
+  [1] str "needsReset"
+  [2] str "needsBlackout"
+  [3] str "motionDetTime"
+  [4] str "blackOutTimer"
+  [5] str "lastCameraResetPosition"
+  [6] str "Reset"
+F Update
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Update what=Lua protos=0[]
+  up1: userdata Players
+  up2: userdata VRService
+  up3: ERR
+  consts total=36
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "CFrame"
+  [5] str "Focus"
+  [6] str "LocalPlayer"
+  [7] str "GetHumanoid"
+  [8] str "CameraSubject"
+  [9] str "lastUpdate"
+  [10] str "lastCameraTransform"
+  [11] str "UpdateFadeFromBlack"
+  [12] str "UpdateEdgeBlur"
+  [13] str "lastSubjectPosition"
+  [14] str "GetSubjectPosition"
+  [15] str "needsBlackout"
+  [16] str "StartFadeFromBlack"
+  [17] number 0.0001
+  [18] number 0.1
+  [19] str "math"
+  [20] str "clamp"
+F UpdateFirstPersonTransform
+  params=6 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=UpdateFirstPersonTransform what=Lua protos=0[]
+  up1: userdata Players
+  up2: ERR
+  consts total=12
+  [1] str "needsReset"
+  [2] str "StartFadeFromBlack"
+  [3] str "LocalPlayer"
+  [4] str "magnitude"
+  [5] number 0.01
+  [6] str "StartVREdgeBlur"
+  [7] str "p"
+  [8] str "GetCameraLookVector"
+  [9] str "X"
+  [10] str "Z"
+  [11] str "Vector3"
+  [12] str "new"
+F UpdateImmersionCamera
+  params=6 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=UpdateImmersionCamera what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: userdata VRService
+  up3: userdata Players
+  up4: ERR
+  consts total=73
+  [1] str "GetSubjectCFrame"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "CurrentCamera"
+  [5] str "getLocalCharacter"
+  [6] str "GetHumanoid"
+  [7] str "CFrame"
+  [8] str "Focus"
+  [9] str "HumanoidRootPart"
+  [10] str "FindFirstChild"
+  [11] str "CharacterAlignOrientation"
+  [12] str "characterOrientation"
+  [13] str "RootAttachment"
+  [14] str "Instance"
+  [15] str "new"
+F UpdateThirdPersonComfortTransform
+  params=6 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=UpdateThirdPersonComfortTransform what=Lua protos=0[]
+  up1: userdata Players
+  up2: userdata VRService
+  up3: ERR
+  consts total=36
+  [1] str "GetCameraToSubjectDistance"
+  [2] number 0.5
+  [3] str "lastCameraFocus"
+  [4] str "LocalPlayer"
+  [5] str "controlModule"
+  [6] str "GetMoveVector"
+  [7] str "magnitude"
+  [8] number 0.01
+  [9] number 0.1
+  [10] str "motionDetTime"
+  [11] str "needsReset"
+  [12] str "VRCameraFocusFrozen"
+  [13] str "lastCameraResetPosition"
+  [14] str "Magnitude"
+  [15] str "getRotation"
+  [16] str "math"
+  [17] str "abs"
+F UpdateThirdPersonFollowTransform
+  params=6 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=UpdateThirdPersonFollowTransform what=Lua protos=0[]
+  up1: userdata VRService
+  up2: userdata Players
+  up3: ERR
+  consts total=42
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "GetCameraToSubjectDistance"
+  [5] str "GetVRFocus"
+  [6] str "needsReset"
+  [7] str "RecenterUserHeadCFrame"
+  [8] str "ResetZoom"
+  [9] str "StartFadeFromBlack"
+  [10] str "recentered"
+  [11] str "GetSubjectCFrame"
+  [12] str "CFrame"
+  [13] str "Focus"
+  [14] str "Rotation"
+  [15] str "new"
+K __index :table keys=10
+  {["UpdateThirdPersonComfortTransform"]=<function:function: 0xfb063e5f743d7db0>, ["UpdateThirdPersonFollowTransform"]=<function:function: 0x3bce48e8c6a6e473>, ["Update"]=<function:function: 0xf0b4eaaaabb9b0d7>, ["LeaveFirstPerson"]=<function:function: 0x3c29648666a79824>, ["UpdateImmersionCamera"]=<function:function: 0xe96ed498cad8931f>, ["GetAvatarFeetWorldYValue"]=<function:function: 0x19433895aec146b7>, ["UpdateFirstPersonTransform"]=<function:function: 0xad436054376a5fe4>, ["Reset"]=<function:function: 0x17f05d86f1743aba>, ["__index"]=<cycle>, ["new"]=<function:function: 0x9f35fc1daea3ec97>}
+F new
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=0[]
+  up1: table keys=19 {OnCurrentCameraChanged:function, UpdateEdgeBlur:function, getRotation:function, GetCameraHeight:function, ResetZoom:function, OnEnabledChanged:function, __index:table, new:function, GamepadReset:function, StartVREdgeBlur:function, GetSubjectPosition:function, GetSubjectCFrame:function, UpdateFadeFromBlack:function, StartFadeFromBlack:function, GetModuleName:function, OnHeadScaleChanged:function, GamepadZoomPress:function, GetVRFocus:function, Reset:function}
+  up2: table keys=10 {UpdateThirdPersonComfortTransform:function, UpdateThirdPersonFollowTransform:function, Update:function, LeaveFirstPerson:function, UpdateImmersionCamera:function, GetAvatarFeetWorldYValue:function, UpdateFirstPersonTransform:function, Reset:function, __index:table, new:function}
+  up3: userdata Players
+  up4: ERR
+  consts total=11
+  [1] str "new"
+  [2] str "setmetatable"

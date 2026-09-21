@@ -1,0 +1,118 @@
+PATH: ReplicatedStorage.MovementV2.Collision.World
+REQUIRE: ok
+RETURNS: table
+KEYS: 10
+F CanMove
+  params=7 src=ReplicatedStorage.MovementV2.Collision.World:? cname=CanMove what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "SweepDetailed"
+  [2] str "StartSolid"
+  [3] str "Fraction"
+  [4] str "IsClear"
+F FindGround
+  params=6 src=ReplicatedStorage.MovementV2.Collision.World:? cname=FindGround what=Lua protos=1[findBest]
+  up1: table keys=13 {SweepConvexSupport:function, AabbSupport:function, Max:function, ExpandBounds:function, SweepTriangleSupport:function, Min:function, SweepTriangle:function, SweepConvex:function, ContainsConvex:function, BoundsOverlap:function, IsFiniteVector3:function, SegmentBounds:function, TriangleContactContains:function}
+  up2: table keys=4 {AllActive:function, IsActive:function, Validate:function, New:function}
+  up3: function params=2 src=ReplicatedStorage.MovementV2.Collision.World:? cname=detailed what=Lua
+  up4: function params=2 src=ReplicatedStorage.MovementV2.Collision.World:? cname=stableRecordLess what=Lua
+  up5: ERR
+  consts total=16
+  [1] str "IsFiniteVector3"
+  [2] str "string"
+  [3] str "format"
+F FindLadder
+  params=5 src=ReplicatedStorage.MovementV2.Collision.World:? cname=FindLadder what=Lua protos=0[]
+  up1: table keys=13 {SweepConvexSupport:function, AabbSupport:function, Max:function, ExpandBounds:function, SweepTriangleSupport:function, Min:function, SweepTriangle:function, SweepConvex:function, ContainsConvex:function, BoundsOverlap:function, IsFiniteVector3:function, SegmentBounds:function, TriangleContactContains:function}
+  up2: table keys=4 {AllActive:function, IsActive:function, Validate:function, New:function}
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Collision.World:? cname=ladderFaceContains what=Lua
+  up4: ERR
+  consts total=62
+  [1] str "IsFiniteVector3"
+  [2] str "string"
+  [3] str "format"
+F IsClear
+  params=4 src=ReplicatedStorage.MovementV2.Collision.World:? cname=IsClear what=Lua protos=0[]
+  up1: table keys=13 {SweepConvexSupport:function, AabbSupport:function, Max:function, ExpandBounds:function, SweepTriangleSupport:function, Min:function, SweepTriangle:function, SweepConvex:function, ContainsConvex:function, BoundsOverlap:function, IsFiniteVector3:function, SegmentBounds:function, TriangleContactContains:function}
+  up2: table keys=4 {AllActive:function, IsActive:function, Validate:function, New:function}
+  up3: ERR
+  consts total=41
+  [1] str "IsFiniteVector3"
+  [2] str "string"
+  [3] str "format"
+F Sweep
+  params=7 src=ReplicatedStorage.MovementV2.Collision.World:? cname=Sweep what=Lua protos=0[]
+  up1: ERR
+  consts total=24
+  [1] str "SweepDetailed"
+  [2] str "Fraction"
+  [3] number 1
+  [4] str "Normal"
+  [5] vector
+  [6] str "StartSolid"
+  [7] boolean false
+  [8] str "AllSolid"
+  [9] table
+  [10] str "SourceId"
+  [11] str "Kind"
+  [12] str "SourceShape"
+  [13] str "MinkowskiPlaneKind"
+  [14] str "RecordType"
+  [15] str "Climbable"
+  [16] str "BuildMode"
+  [17] str "SourceCFrame"
+  [18] str "SourceSize"
+  [19] str "Planes"
+  [20] str "PlaneId"
+  [21] str "SurfaceFriction"
+  [22] str "ResolvedPosition"
+  [23] str "PenetrationDepth"
+  [24] table
+F SweepDetailed
+  params=7 src=ReplicatedStorage.MovementV2.Collision.World:? cname=SweepDetailed what=Lua protos=0[]
+  up1: function params=8 src=ReplicatedStorage.MovementV2.Collision.World:? cname=sweepDetailed what=Lua
+  up2: ERR
+  consts total=0
+F SweepWithFloorSupport
+  params=7 src=ReplicatedStorage.MovementV2.Collision.World:? cname=SweepWithFloorSupport what=Lua protos=0[]
+  up1: ERR
+  consts total=24
+  [1] str "SweepWithFloorSupportDetailed"
+  [2] str "Fraction"
+  [3] number 1
+  [4] str "Normal"
+  [5] vector
+  [6] str "StartSolid"
+  [7] boolean false
+  [8] str "AllSolid"
+  [9] table
+  [10] str "SourceId"
+  [11] str "Kind"
+  [12] str "SourceShape"
+  [13] str "MinkowskiPlaneKind"
+  [14] str "RecordType"
+  [15] str "Climbable"
+  [16] str "BuildMode"
+  [17] str "SourceCFrame"
+  [18] str "SourceSize"
+  [19] str "Planes"
+  [20] str "PlaneId"
+  [21] str "SurfaceFriction"
+  [22] str "ResolvedPosition"
+  [23] str "PenetrationDepth"
+  [24] table
+F SweepWithFloorSupportDetailed
+  params=7 src=ReplicatedStorage.MovementV2.Collision.World:? cname=SweepWithFloorSupportDetailed what=Lua protos=0[]
+  up1: function params=8 src=ReplicatedStorage.MovementV2.Collision.World:? cname=sweepDetailed what=Lua
+  up2: ERR
+  consts total=0
+K __index :table keys=10
+  {["SweepDetailed"]=<function:function: 0xd12186e4d5cc0b9c>, ["FindLadder"]=<function:function: 0xcf5139b8314e1e10>, ["Sweep"]=<function:function: 0xf4faccff533eb68a>, ["FindGround"]=<function:function: 0x74459be214b15d31>, ["SweepWithFloorSupport"]=<function:function: 0x5cc17ffe2d170e23>, ["IsClear"]=<function:function: 0x031a79ac1508378b>, ["SweepWithFloorSupportDetailed"]=<function:function: 0x851dd336cad7348e>, ["CanMove"]=<function:function: 0x5caf0f33ea3103a7>, ["__index"]=<cycle>, ["new"]=<function:function: 0xf03735125c943643>}
+F new
+  params=2 src=ReplicatedStorage.MovementV2.Collision.World:? cname=new what=Lua protos=0[]
+  up1: table keys=4 {AllActive:function, IsActive:function, Validate:function, New:function}
+  up2: table keys=10 {SweepDetailed:function, FindLadder:function, Sweep:function, FindGround:function, SweepWithFloorSupport:function, IsClear:function, SweepWithFloorSupportDetailed:function, CanMove:function, __index:table, new:function}
+  up3: ERR
+  consts total=36
+  [1] str "table"
+  [2] str "isfrozen"

@@ -1,0 +1,39 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.BaseOcclusion
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+F CharacterAdded
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CharacterAdded what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F CharacterRemoving
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CharacterRemoving what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F Enable
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Enable what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "warn"
+F GetOcclusionMode
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetOcclusionMode what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "warn"
+F OnCameraSubjectChanged
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=OnCameraSubjectChanged what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F Update
+  params=4 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Update what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "warn"
+K __index :table keys=8
+  {["CharacterRemoving"]=<function:function: 0xe530f74f4e1b7a4b>, ["Update"]=<function:function: 0x3c4dde6f89027210>, ["OnCameraSubjectChanged"]=<function:function: 0xab66bf8361f41c1b>, ["GetOcclusionMode"]=<function:function: 0xaba09f870191bff2>, ["Enable"]=<function:function: 0x1c45610c58d0b2a5>, ["CharacterAdded"]=<function:function: 0xac63718e63275025>, ["__index"]=<cycle>, ["new"]=<function:function: 0x714045698dbc8c5e>}
+F new
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=0[]
+  up1: table keys=8 {CharacterRemoving:function, Update:function, OnCameraSubjectChanged:function, GetOcclusionMode:function, Enable:function, CharacterAdded:function, __index:table, new:function}
+  up2: ERR
+  consts total=1
+  [1] str "setmetatable"

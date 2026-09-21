@@ -1,0 +1,13 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.AmbiencePart
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? what=Lua protos=0[]
+  up1: userdata Connection
+  up2: userdata Connection
+  up3: table keys=31 {Part:function, Part:function, LowerAmbient:function, LowerAmbient:function, Part:function, Part:function, Part:function, Part:function, LowerAmbient:function, LowerAmbient:function, Shore:function, LowerAmbient:function, Shore:function, LowerAmbient:function, Shore:function, Shore:function, Part:function, Part:function, LowerAmbient:function, LowerAmbient:function, Part:function, Part:function, LowerAmbient:function, LowerAmbient:function, Part:function, LowerAmbient:function, LowerAmbient:function, LowerAmbient:function, Part:function, LowerAmbient:function, Part:function}
+  up4: table keys=31 {Part:userdata, Part:userdata, LowerAmbient:userdata, LowerAmbient:userdata, Part:userdata, Part:userdata, Part:userdata, Part:userdata, LowerAmbient:userdata, LowerAmbient:userdata, Shore:userdata, LowerAmbient:userdata, Shore:userdata, LowerAmbient:userdata, Shore:userdata, Shore:userdata, Part:userdata, Part:userdata, LowerAmbient:userdata, LowerAmbient:userdata, Part:userdata, Part:userdata, LowerAmbient:userdata, LowerAmbient:userdata, Part:userdata, LowerAmbient:userdata, LowerAmbient:userdata, LowerAmbient:userdata, Part:userdata, LowerAmbient:userdata, Part:userdata}
+  up5: ERR
+  consts total=2
+  [1] str "Disconnect"
+  [2] str "next"

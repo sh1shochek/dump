@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Get 3 Assists
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K Category :string = assists
+K MissionId :string = Get 3 Assists
+K Rewards :table keys=1
+  {[1]={["amount"]=5, ["type"]="Credits"}}
+K Target :number = 3
+K Type :string = hourly

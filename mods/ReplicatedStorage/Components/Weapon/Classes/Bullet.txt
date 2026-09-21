@@ -1,0 +1,159 @@
+PATH: ReplicatedStorage.Components.Weapon.Classes.Bullet
+REQUIRE: ok
+RETURNS: table
+KEYS: 15
+K __index :table keys=15
+  {["_performRaycast"]=<function:function: 0x5c052f4acb0c8958>, ["destroy"]=<function:function: 0xe0569ea7114dfdad>, ["setBaseSpreadForConfig"]=<function:function: 0xf9025a8a763cc59e>, ["new"]=<function:function: 0xefe6efbab2691adb>, ["getBaseSpread"]=<function:function: 0x16ee306f9efe271a>, ["create"]=<function:function: 0xdfbac39da0409dfa>, ["updateSpread"]=<function:function: 0xa5ff080d71fcd955>, ["getMovementSpreadForConfig"]=<function:function: 0xddd3e8362649527f>, ["setActive"]=<function:function: 0xa45580b4946e1815>, ["_updateShotSpread"]=<function:function: 0xa32dc5b7ec0d1376>, ["getSpreadForConfig"]=<function:function: 0xc9f5c49d54b20238>, ["setSpreadConfig"]=<function:function: 0x9856c089c4c013d3>, ["getTrueSpread"]=<function:function: 0xef70568a100c9c6c>, ["__index"]=<cycle>, ["getBaseSpreadForConfig"]=<function:function: 0x4bf23d309f785041>}
+F _performRaycast
+  params=2 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=_performRaycast what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Components.Common.GetRayIgnore:? what=Lua
+  up2: userdata Camera
+  up3: function params=0 src=[C]:? cname=min what=C
+  up4: function params=0 src=[C]:? cname=rad what=C
+  up5: function params=0 src=[C]:? cname=abs what=C
+  up6: function params=5 src=ReplicatedStorage.Shared.Raycast:? cname=cast what=Lua
+  up7: function params=4 src=ReplicatedStorage.Shared.Raycast:? cname=castThrough what=Lua
+  up8: ERR
+  consts total=16
+  [1] str "ViewportSize"
+  [2] number 0.5
+  [3] str "X"
+  [4] str "Y"
+  [5] str "ViewportPointToRay"
+  [6] number 69
+  [7] number 2147483647
+  [8] number 1000000
+  [9] str "os"
+  [10] str "clock"
+F _updateShotSpread
+  params=3 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=_updateShotSpread what=Lua protos=0[]
+  up1: ERR
+  consts total=16
+  [1] str "ActiveSpreadConfig"
+  [2] str "Properties"
+  [3] str "Spread"
+  [4] str "Weapon properties missing spread configuration"
+  [5] str "assert"
+F create
+  params=3 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=create what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=max what=C
+  up2: ERR
+  consts total=24
+  [1] str "tick"
+F destroy
+  params=1 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "IsDestroyed"
+  [2] str "setActive"
+  [3] str "SpreadRecoveryConnection"
+  [4] str "Disconnect"
+  [5] str "Janitor"
+  [6] str "Destroy"
+  [7] str "Properties"
+  [8] str "Weapon"
+  [9] str "Spread"
+F getBaseSpread
+  params=1 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=getBaseSpread what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "Spread"
+  [2] str "getPosition"
+  [3] str "type"
+F getBaseSpreadForConfig
+  params=2 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=getBaseSpreadForConfig what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "ActiveSpreadConfig"
+  [2] str "Properties"
+  [3] str "Spread"
+  [4] str "getPosition"
+  [5] str "type"
+F getMovementSpreadForConfig
+  params=2 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=getMovementSpreadForConfig what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "CharacterSpeed"
+  [2] number 6.4
+  [3] str "ActiveSpreadConfig"
+  [4] str "Properties"
+  [5] str "Spread"
+  [6] str "MovementMultiplier"
+F getSpreadForConfig
+  params=2 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=getSpreadForConfig what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "ActiveSpreadConfig"
+  [2] str "Properties"
+  [3] str "Spread"
+  [4] str "getBaseSpreadForConfig"
+  [5] str "getMovementSpreadForConfig"
+F getTrueSpread
+  params=1 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=getTrueSpread what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "ActiveSpreadConfig"
+  [2] str "Properties"
+  [3] str "Spread"
+  [4] str "getSpreadForConfig"
+F new
+  params=2 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=new what=Lua protos=0[]
+  up1: table keys=15 {_performRaycast:function, destroy:function, setBaseSpreadForConfig:function, new:function, getBaseSpread:function, create:function, updateSpread:function, getMovementSpreadForConfig:function, setActive:function, _updateShotSpread:function, getSpreadForConfig:function, setSpreadConfig:function, getTrueSpread:function, __index:table, getBaseSpreadForConfig:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=12 {setGoal:function, setFrequency:function, setDampingRatio:function, getGoal:function, update:function, setPosition:function, reset:function, impulse:function, getPosition:function, getVelocity:function, __index:table, new:function}
+  up4: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up5: ERR
+  consts total=27
+  [1] str "setmetatable"
+F setActive
+  params=2 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=setActive what=Lua protos=2[#1,#2]
+  up1: function params=1 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=updateCharacterSpeed what=Lua
+  up2: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up3: ERR
+  consts total=16
+  [1] str "IsDestroyed"
+  [2] str "IsActive"
+  [3] str "CharacterSpeedConnection"
+  [4] str "Disconnect"
+  [5] str "CharacterSpeed"
+  [6] str "isInAir"
+  [7] str "jumpStartSpeed"
+  [8] str "verticalVelocity"
+  [9] str "isAtJumpPeak"
+  [10] str "SpreadRecoveryConnection"
+  [11] str "BindToStepped"
+  [12] str "%*.SpreadRecovery"
+  [13] str "BindingName"
+  [14] str "format"
+  [15] str "BindToHeartbeat"
+  [16] str "%*.CharacterSpeed"
+F setBaseSpreadForConfig
+  params=3 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=setBaseSpreadForConfig what=Lua protos=0[]
+  up1: ERR
+  consts total=13
+  [1] str "ActiveSpreadConfig"
+  [2] str "Properties"
+  [3] str "Spread"
+  [4] str "Weapon properties missing spread configuration"
+  [5] str "assert"
+F setSpreadConfig
+  params=2 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=setSpreadConfig what=Lua protos=0[]
+  up1: ERR
+  consts total=20
+  [1] str "ActiveSpreadConfig"
+  [2] str "Properties"
+  [3] str "Spread"
+  [4] str "Weapon properties missing spread configuration"
+  [5] str "assert"
+F updateSpread
+  params=2 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=updateSpread what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Components.Weapon.Classes.Bullet:? cname=isSpreadSettled what=Lua
+  up2: ERR
+  consts total=7
+  [1] str "Spread"
+  [2] str "update"
+  [3] str "IsActive"
+  [4] str "getGoal"
+  [5] str "reset"
+  [6] str "SpreadRecoveryConnection"
+  [7] str "Disconnect"

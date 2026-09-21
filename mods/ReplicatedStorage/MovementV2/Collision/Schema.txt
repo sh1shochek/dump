@@ -1,0 +1,33 @@
+PATH: ReplicatedStorage.MovementV2.Collision.Schema
+REQUIRE: ok
+RETURNS: table
+KEYS: 15
+K Attributes :table keys=16
+  {["ManifestDestructibleCount"]="MovementV2CollisionDestructibleCount", ["ManifestFingerprint"]="MovementV2CollisionFingerprint", ["ManifestEpoch"]="MovementV2CollisionEpoch", ["ConvexGroup"]="MovementConvexGroup", ["DestructibleProxy"]="MovementV2DestructibleProxy", ["WalkmeshData"]="WalkMeshData", ["SourceKind"]="MovementV2SourceKind", ["Ignore"]="IgnoreMovementCollision", ["ManifestSourceCount"]="MovementV2CollisionSourceCount", ["CanonicalGeometry"]="MovementV2CanonicalGeometry", ["Climbable"]="Climbable", ["DestructibleIndex"]="MovementV2DestructibleIndex", ["PreciseCylinder"]="PreciseMovementCylinder", ["ManifestVersion"]="MovementV2CollisionManifestVersion", ["DisableSeamMerge"]="DisableMovementSeamMerge", ["SourceId"]="MovementV2SourceId"}
+K BarriersNameLower :string = barriers
+K CanonicalGeometryVersion :string = MV2G1
+F GetSourceKindName
+  params=1 src=ReplicatedStorage.MovementV2.Collision.Schema:? cname=GetSourceKindName what=Lua protos=0[]
+  up1: table keys=15 {MaxWalkmeshTriangles:number, SourceKindName:table, Tags:table, BarriersNameLower:string, MaxSourceCount:number, SourceKind:table, Attributes:table, GetSourceKindName:function, MaxWalkmeshVertices:number, WalkmeshHeader:string, MaxEpoch:number, MaxDestructibleCount:number, ManifestVersion:number, IsSourceKind:function, CanonicalGeometryVersion:string}
+  up2: ERR
+  consts total=1
+  [1] str "SourceKindName"
+F IsSourceKind
+  params=1 src=ReplicatedStorage.MovementV2.Collision.Schema:? cname=IsSourceKind what=Lua protos=0[]
+  up1: table keys=15 {MaxWalkmeshTriangles:number, SourceKindName:table, Tags:table, BarriersNameLower:string, MaxSourceCount:number, SourceKind:table, Attributes:table, GetSourceKindName:function, MaxWalkmeshVertices:number, WalkmeshHeader:string, MaxEpoch:number, MaxDestructibleCount:number, ManifestVersion:number, IsSourceKind:function, CanonicalGeometryVersion:string}
+  up2: ERR
+  consts total=4
+  [1] str "typeof"
+K ManifestVersion :number = 1
+K MaxDestructibleCount :number = 65535
+K MaxEpoch :number = 65535
+K MaxSourceCount :number = 65535
+K MaxWalkmeshTriangles :number = 2000000
+K MaxWalkmeshVertices :number = 1000000
+K SourceKind :table keys=3
+  {["Destructible"]=3, ["Barrier"]=2, ["Walkmesh"]=1}
+K SourceKindName :table keys=3
+  {[1]="Walkmesh", [2]="Barrier", [3]="Destructible"}
+K Tags :table keys=4
+  {["LadderMetadata"]="Ladder", ["UnsupportedFloorGrid"]="CustomFloorGrid", ["Walkmesh"]="CustomWalkMesh", ["Destructible"]="MovementV2Destructible"}
+K WalkmeshHeader :string = MLWALK1

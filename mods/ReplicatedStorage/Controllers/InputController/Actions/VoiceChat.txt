@@ -1,0 +1,220 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.VoiceChat
+REQUIRE: ok
+RETURNS: table
+KEYS: 24
+F Callback
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=OnInput what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up4: ERR
+  consts total=14
+  [1] str "IsPlayerChatting"
+  [2] str "GetAttribute"
+  [3] str "SetPushToTalkHeld"
+  [4] str "VoiceMode"
+  [5] str "Push To Talk"
+  [6] str "SyncVoiceMuted"
+  [7] str "Enum"
+  [8] str "UserInputState"
+  [9] str "Begin"
+  [10] userdata
+  [11] str "End"
+  [12] userdata
+  [13] str "Cancel"
+  [14] userdata
+K Category :string = Communication Options
+F DestroyTracker
+  params=1 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=DestroyTracker what=Lua protos=0[]
+  up1: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: ERR
+  consts total=5
+  [1] str "Trackers"
+  [2] str "Wire"
+  [3] str "Destroy"
+  [4] str "Analyzer"
+  [5] str "SetPlayerSpeaking"
+F GetVoiceInput
+  params=1 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=GetVoiceInput what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: ERR
+  consts total=2
+  [1] str "AudioDeviceInput"
+  [2] str "FindFirstChildWhichIsA"
+F GetVoiceMode
+  params=1 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=GetVoiceMode what=Lua protos=0[]
+  up1: table keys=9 {openmic:string, disabled:string, open microphone:string, off:string, openmicrophone:string, open mic:string, ptt:string, push to talk:string, pushtotalk:string}
+  up2: ERR
+  consts total=14
+  [1] str "typeof"
+K Group :string = Default
+F IsPlayerSpeaking
+  params=1 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=IsPlayerSpeaking what=Lua protos=0[]
+  up1: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "SpeakingPlayers"
+F IsVoiceTransmitting
+  params=0 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=IsVoiceTransmitting what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up3: ERR
+  consts total=6
+  [1] str "IsPlayerChatting"
+  [2] str "GetAttribute"
+  [3] str "VoiceMode"
+  [4] str "Open Microphone"
+  [5] str "Push To Talk"
+  [6] str "IsPushToTalkHeld"
+K Name :string = Voice Chat
+F ObservePlayer
+  params=1 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=ObservePlayer what=Lua protos=2[refreshVoiceAccess,refreshVoiceInput]
+  up1: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: ERR
+  consts total=8
+  [1] str "PlayerConnections"
+F OnInput
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=OnInput what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up4: ERR
+  consts total=14
+  [1] str "IsPlayerChatting"
+  [2] str "GetAttribute"
+  [3] str "SetPushToTalkHeld"
+  [4] str "VoiceMode"
+  [5] str "Push To Talk"
+  [6] str "SyncVoiceMuted"
+  [7] str "Enum"
+  [8] str "UserInputState"
+  [9] str "Begin"
+  [10] userdata
+  [11] str "End"
+  [12] userdata
+  [13] str "Cancel"
+  [14] userdata
+F QueueVoiceInputRefresh
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=QueueVoiceInputRefresh what=Lua protos=2[#1,#2]
+  up1: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: ERR
+  consts total=3
+  [1] str "ShouldRecreateVoiceInputs"
+  [2] str "task"
+  [3] str "delay"
+F SetPlayerSpeaking
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=SetPlayerSpeaking what=Lua protos=0[]
+  up1: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up2: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up3: table keys=1 {_handlerListHead:table}
+  up4: ERR
+  consts total=3
+  [1] str "IsPlayerSpeaking"
+  [2] str "SpeakingPlayers"
+  [3] str "Fire"
+F SetPushToTalkHeld
+  params=1 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=SetPushToTalkHeld what=Lua protos=0[]
+  up1: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: ERR
+  consts total=3
+  [1] str "IsPushToTalkHeld"
+  [2] str "SyncVoiceMuted"
+  [3] str "SyncVoiceActivity"
+F SetVoiceMode
+  params=1 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=SetVoiceMode what=Lua protos=0[]
+  up1: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: ERR
+  consts total=5
+  [1] str "GetVoiceMode"
+  [2] str "VoiceMode"
+  [3] str "IsPushToTalkHeld"
+  [4] str "SyncVoiceMuted"
+  [5] str "SyncVoiceActivity"
+F SetVoiceMuted
+  params=1 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=SetVoiceMuted what=Lua protos=0[]
+  up1: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up2: ERR
+  consts total=2
+  [1] str "GetVoiceInput"
+  [2] str "Muted"
+K SpeakingChanged :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0xf2c32fe1a12def08>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}
+F StartVoiceActivityLoop
+  params=0 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=StartVoiceActivityLoop what=Lua protos=0[]
+  up1: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up2: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up3: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up4: ERR
+  consts total=4
+  [1] str "VoiceActivityConnection"
+  [2] str "BindToPostSimulation"
+  [3] str "InputController.VoiceChat.SyncVoiceActivity"
+  [4] str "SyncVoiceActivity"
+F SyncPlayerVoiceActivity
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=SyncPlayerVoiceActivity what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: ERR
+  consts total=16
+  [1] str "IsVoiceTransmitting"
+  [2] str "LastVoiceActivityTime"
+  [3] str "SetPlayerSpeaking"
+  [4] str "os"
+  [5] str "clock"
+F SyncVoiceActivity
+  params=0 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=SyncVoiceActivity what=Lua protos=0[]
+  up1: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up2: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up3: ERR
+  consts total=5
+  [1] str "SyncVoiceInputs"
+  [2] str "pairs"
+F SyncVoiceInputs
+  params=1 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=SyncVoiceInputs what=Lua protos=0[]
+  up1: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: userdata Players
+  up4: ERR
+  consts total=15
+  [1] str "os"
+  [2] str "clock"
+F SyncVoiceMuted
+  params=0 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=SyncVoiceMuted what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up4: ERR
+  consts total=7
+  [1] str "IsPlayerChatting"
+  [2] str "GetAttribute"
+  [3] str "SetVoiceMuted"
+  [4] str "VoiceMode"
+  [5] str "Open Microphone"
+  [6] str "Push To Talk"
+  [7] str "IsPushToTalkHeld"
+F TrackVoiceInput
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=TrackVoiceInput what=Lua protos=0[]
+  up1: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: userdata Mateo_081005
+  up4: ERR
+  consts total=24
+  [1] str "Trackers"
+  [2] str "Input"
+  [3] str "DestroyTracker"
+  [4] str "Instance"
+  [5] str "new"
+F UnobservePlayer
+  params=1 src=ReplicatedStorage.Controllers.InputController.Actions.VoiceC:? cname=UnobservePlayer what=Lua protos=0[]
+  up1: table keys=9 {IsVoiceInputRefreshQueued:boolean, IsPushToTalkHeld:boolean, VoiceActivityConnection:table, SpeakingPlayers:table, PlayerConnections:table, LastVoiceInputScanTime:number, VoiceMode:string, Trackers:table, ShouldRecreateVoiceInputs:boolean}
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: ERR
+  consts total=7
+  [1] str "PlayerConnections"
+  [2] str "DestroyTracker"
+  [3] str "ipairs"

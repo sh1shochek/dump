@@ -1,0 +1,15 @@
+PATH: ReplicatedStorage.Database.Custom.Finishers.Fling
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Finisher
+  params=2 src=ReplicatedStorage.Database.Custom.Finishers.Fling:? cname=Finisher what=Lua protos=1[Destroy]
+  up1: table keys=13 {Destroy:function, RetireVictimLocally:function, PrepareCharacter:function, FindCharacter:function, RetireCorpseLocally:function, Rig:table, OnceAppearanceReady:function, HideCharacterLocally:function, SetupCharacterAppearance:function, ActivateCharacter:function, DestroyAll:function, __index:table, new:function}
+  up2: userdata Mateo_081005
+  up3: table keys=4 {Janitor:table, SoundGroupName:string, Sounds:userdata, IsDestroyed:boolean}
+  up4: ERR
+  consts total=14
+  [1] str "new"
+  [2] str "Victim"
+  [3] str "tostring"
+K Replication :string = All

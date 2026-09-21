@@ -1,0 +1,66 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Progression
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=Initialize what=Lua protos=4[#1,#2,#3,#4]
+  up1: userdata MainGui
+  up2: userdata Progression
+  up3: userdata Missions
+  up4: userdata MissionsTab
+  up5: userdata MissionTemplate
+  up6: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=setupMissionFilters what=Lua
+  up7: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=setupMissionStars what=Lua
+  up8: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up9: userdata MarketplaceService
+  up10: userdata Mateo_081005
+  up11: table keys=40 {+ 400 Credits:table, 25 Consoles:table, + 27,000 Credits:table, Gift + 400 Trade Tokens:table, 100 Consoles:table, Gift + 3,100 Credits:table, Credits Starter Pack:table, Refresh Missions:table, M4A4 | Freedom:table, + 10,000 Trade Tokens:table, + 3,100 Credits:table, Gift + 67,500 Credits:table, Gift Featured Bundle:table, 1 Consoles:table, + 6,500 Credits:table, 10 Consoles:table, Gift Desert Eagle | Freedom:table, Purchase Featured Bundle:table, Gift M4A4 | Freedom:table, Desert Eagle | Freedom:table, Gift + 10,000 Trade Tokens:table, Gift AWP | Freedom:table, Gift + 22,500 Trade Tokens:table, AWP | Freedom:table, Gift + 4,500 Trade Tokens:table, Gift + 1,700 Trade Tokens:table, Gift + 800 Trade Tokens:table, Gift + 13,250 Credits:table, + 950 Credits:table, + 4,500 Trade Tokens:table, + 1,700 Trade Tokens:table, + 400 Trade Tokens:table, Gift + 950 Credits:table, Gift + 6,500 Credits:table, Gift + 27,000 Credits:table, + 13,250 Credits:table, + 22,500 Trade Tokens:table, + 800 Trade Tokens:table, Gift + 400 Credits:table, + 67,500 Credits:table}
+  up12: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up13: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up14: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up15: table keys=5 {IsMissionAvailableForGamemode:function, GetMissionDefinitions:function, GetMissionCategory:function, GetMissionDisplayName:function, GetMissionDefinition:function}
+  up16: string "hourly"
+  up17: function params=3 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=getMissionFingerprint what=Lua
+  up18: function params=3 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=createMissionTemplate what=Lua
+  up19: table keys=4 {Get 8 Kills:string, Deal 1000 Damage:string, Get 2 Multi-Kills:string, Get 4 Headshots:string}
+  up20: function params=4 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=updateMissionTemplate what=Lua
+  up21: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=updateMissionHeader what=Lua
+  up22: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=updateProgressionAlert what=Lua
+  up23: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=updateMissionStars what=Lua
+  up24: table keys=4 {GetSharedKeys:function, Defaults:table, Shared:table, ServerOnly:table}
+  up25: table keys=4 {OnChanged:function, GetNumber:function, GetRewardMultiplier:function, Get:function}
+  up26: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=renderMissions what=Lua
+  up27: ERR
+  consts total=16
+  [1] str "Missions"
+  [2] str "MissionsTab"
+  [3] str "MissionTemplate"
+  [4] str "Clone"
+  [5] str "Parent"
+  [6] str "Destroy"
+  [7] str "MissionHeader"
+  [8] str "More"
+  [9] str "MouseButton1Click"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=Start what=Lua protos=2[#1,#2]
+  up1: userdata Run Service
+  up2: userdata Progression
+  up3: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=updateMissionHeader what=Lua
+  up4: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up5: userdata Mateo_081005
+  up6: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=updateProgressionAlert what=Lua
+  up7: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up8: userdata MissionsTab
+  up9: table keys=5 {IsMissionAvailableForGamemode:function, GetMissionDefinitions:function, GetMissionCategory:function, GetMissionDisplayName:function, GetMissionDefinition:function}
+  up10: string "hourly"
+  up11: function params=3 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=getMissionFingerprint what=Lua
+  up12: function params=3 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=createMissionTemplate what=Lua
+  up13: table keys=4 {Get 8 Kills:string, Deal 1000 Damage:string, Get 2 Multi-Kills:string, Get 4 Headshots:string}
+  up14: function params=4 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=updateMissionTemplate what=Lua
+  up15: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Progression:? cname=updateMissionStars what=Lua
+  up16: ERR
+  consts total=4
+  [1] str "Heartbeat"
+  [2] str "Connect"
+  [3] str "Visible"
+  [4] str "GetPropertyChangedSignal"

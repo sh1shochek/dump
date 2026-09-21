@@ -1,0 +1,14 @@
+PATH: ReplicatedStorage.Shared.FilterTradableSkins
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Shared.FilterTradableSkins:? what=Lua protos=0[]
+  up1: table keys=4 {ResolveCharmReferences:function, IsCharmItem:function, GetTradeContext:function, IsTradeableItem:function}
+  up2: table keys=2 {Stock:boolean, Default:boolean}
+  up3: ERR
+  consts total=7
+  [1] str "GetTradeContext"
+  [2] str "Skin"
+  [3] str "IsTradeableItem"
+  [4] str "table"
+  [5] str "insert"

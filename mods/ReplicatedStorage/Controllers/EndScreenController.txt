@@ -1,0 +1,106 @@
+PATH: ReplicatedStorage.Controllers.EndScreenController
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F Begin
+  params=1 src=ReplicatedStorage.Controllers.EndScreenController:? cname=Begin what=Lua protos=0[]
+  up1: boolean false
+  up2: table keys=6 {Begin:function, Initialize:function, ExitMapVoteToMenu:function, _runSequence:function, IsActive:function, _finishSequence:function}
+  up3: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up4: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up5: userdata Mateo_081005
+  up6: function params=1 src=ReplicatedStorage.Components.Common.IsPlayingTeam:? what=Lua
+  up7: function params=1 src=ReplicatedStorage.Controllers.EndScreenController:? cname=rankFFAPlayers what=Lua
+  up8: function params=1 src=ReplicatedStorage.Controllers.EndScreenController:? cname=sortPlayersByADR what=Lua
+  up9: function params=0 src=ReplicatedStorage.Controllers.EndScreenController:? cname=closeAllActiveScenes what=Lua
+  up10: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up11: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up12: ERR
+  consts total=83
+  [1] str "Halftime"
+  [2] str "EndScreen"
+  [3] str "warn"
+F ExitMapVoteToMenu
+  params=0 src=ReplicatedStorage.Controllers.EndScreenController:? cname=ExitMapVoteToMenu what=Lua protos=0[]
+  up1: boolean false
+  up2: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up3: table keys=6 {Begin:function, Initialize:function, ExitMapVoteToMenu:function, _runSequence:function, IsActive:function, _finishSequence:function}
+  up4: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up5: function params=0 src=ReplicatedStorage.Controllers.EndScreenController:? cname=hideEndScreenUI what=Lua
+  up6: function params=0 src=ReplicatedStorage.Controllers.EndScreenController:? cname=showMainMenuAfterEndScreen what=Lua
+  consts total=5
+  [1] str "SetWantsMainMenu"
+  [2] str "_finishSequence"
+  [3] str "setForceLockOverride"
+  [4] str "EndScreen"
+  [5] str "SetEnabled"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.EndScreenController:? cname=Initialize what=Lua protos=3[#1,#2,#3]
+  up1: userdata PlayerGui
+  up2: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up3: table keys=3 {CloseFrame:function, IsDoublePressed:function, Add:function}
+  up4: table keys=6 {Begin:function, Initialize:function, ExitMapVoteToMenu:function, _runSequence:function, IsActive:function, _finishSequence:function}
+  up5: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up6: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up7: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up8: userdata Mateo_081005
+  up9: table keys=3 {NextExperienceRequirement:number, Level:number, Experience:number}
+  up10: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up11: ERR
+  consts total=14
+  [1] str "MainGui"
+  [2] str "FindFirstChild"
+  [3] str "Gameplay"
+  [4] str "Middle"
+  [5] str "EndScreen"
+  [6] str "Drops"
+  [7] str "Visible"
+  [8] str "Close"
+  [9] str "Add"
+F IsActive
+  params=0 src=ReplicatedStorage.Controllers.EndScreenController:? cname=IsActive what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F _finishSequence
+  params=1 src=ReplicatedStorage.Controllers.EndScreenController:? cname=_finishSequence what=Lua protos=0[]
+  up1: boolean true
+  up2: number 0
+  up3: string "EndScreen"
+  up4: boolean false
+  up5: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up6: table keys=1 {CurrentlyCleaning:boolean}
+  up7: function params=0 src=ReplicatedStorage.Controllers.EndScreenController:? cname=hideEndScreenUI what=Lua
+  up8: userdata PlayerGui
+  up9: function params=0 src=ReplicatedStorage.Controllers.EndScreenController:? cname=showMainMenuAfterEndScreen what=Lua
+  consts total=19
+  [1] str "typeof"
+F _runSequence
+  params=1 src=ReplicatedStorage.Controllers.EndScreenController:? cname=_runSequence what=Lua protos=2[#1,#2]
+  up1: number 0
+  up2: boolean true
+  up3: string "EndScreen"
+  up4: function params=0 src=ReplicatedStorage.Controllers.EndScreenController:? cname=cleanupDebris what=Lua
+  up5: function params=1 src=ReplicatedStorage.Controllers.EndScreenController:? cname=showEndScreenUI what=Lua
+  up6: function params=2 src=ReplicatedStorage.Controllers.EndScreenController:? cname=spawnEndScreenCharacters what=Lua
+  up7: function params=0 src=ReplicatedStorage.Controllers.EndScreenController:? cname=animateCamera what=Lua
+  up8: table keys=1 {CurrentlyCleaning:boolean}
+  up9: userdata PlayerGui
+  up10: function params=1 src=ReplicatedStorage.Controllers.EndScreenController:? cname=populateLevelFrame what=Lua
+  up11: function params=2 src=ReplicatedStorage.Controllers.EndScreenController:? cname=fadeFrame what=Lua
+  up12: function params=1 src=ReplicatedStorage.Controllers.EndScreenController:? cname=fadeInFrame what=Lua
+  up13: function params=1 src=ReplicatedStorage.Controllers.EndScreenController:? cname=animateLevelBar what=Lua
+  up14: function params=1 src=ReplicatedStorage.Controllers.EndScreenController:? cname=displayDrops what=Lua
+  up15: table keys=6 {Begin:function, Initialize:function, ExitMapVoteToMenu:function, _runSequence:function, IsActive:function, _finishSequence:function}
+  up16: ERR
+  consts total=10
+  [1] number 1
+  [2] str "returnToMenu"
+  [3] str "overlayMode"
+  [4] str "displayPlayers"
+  [5] str "showAccolades"
+  [6] str "Cancel"
+  [7] str "Add"
+  [8] str "showProgression"
+  [9] str "task"
+  [10] str "delay"

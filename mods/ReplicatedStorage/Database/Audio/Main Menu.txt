@@ -1,0 +1,6 @@
+PATH: ReplicatedStorage.Database.Audio.Main Menu
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+K Main Menu Music :table keys=2
+  {["Properties"]={["Volume"]=0.2, ["Looped"]=true}, ["Identifiers"]={[1]=105001316378655}}

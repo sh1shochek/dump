@@ -1,0 +1,30 @@
+PATH: ReplicatedStorage.Database.Audio.Counter-Terrorists
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+K Bomb Defused :table keys=2
+  {["Properties"]={["Volume"]=1.3}, ["Identifiers"]={[1]=129335569065669}}
+K Bomb Planted :table keys=2
+  {["Properties"]={["Volume"]=1.3}, ["Identifiers"]={[1]=108771688148602}}
+K Bomb Planted Music :table keys=2
+  {["Properties"]={["Volume"]=0.22, ["Looped"]=false, ["RollOffMaxDistance"]=0, ["RollOffMinDistance"]=0}, ["Identifiers"]={[1]=107497407873326}}
+K Death :table keys=2
+  {["Properties"]={["Volume"]=1.1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=79494830572923}}
+K Hostage Dropped :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=81686027478887}}
+K Hostage Rescue In Progress :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=101586878683210}}
+K Hostage Rescued :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=77421233475337}}
+K Throwing Decoy Grenade :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=97340126821311, [2]=88715148224021}}
+K Throwing Flashbang :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=91021017124685, [2]=104534030742266}}
+K Throwing HE Grenade :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=115884192706975, [2]=126592229993563}}
+K Throwing Incendiary Grenade :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=118084208137962}}
+K Throwing Molotov :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=83666590558608}}
+K Throwing Smoke Grenade :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=120, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=135379143040468, [2]=84285453336239}}

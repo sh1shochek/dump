@@ -1,0 +1,79 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CameraWrapper
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+F Connect
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=Connect what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "_callbacks"
+  [2] str "_camera"
+  [3] str "_connectionUtil"
+  [4] str "GetPropertyChangedSignal"
+  [5] str "Connect"
+  [6] str "trackConnection"
+F Disable
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=Disable what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "_enabled"
+  [2] str "_cameraChangedConnection"
+  [3] str "Disconnect"
+  [4] str "_connectionUtil"
+  [5] str "disconnectAll"
+F Disconnect
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=Disconnect what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "_connectionUtil"
+  [2] str "disconnect"
+  [3] str "_callbacks"
+F Enable
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=Enable what=Lua protos=1[#1]
+  up1: ERR
+  consts total=8
+  [1] str "_enabled"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "CurrentCamera"
+  [5] str "GetPropertyChangedSignal"
+  [6] str "Connect"
+  [7] str "_cameraChangedConnection"
+  [8] str "_connectCallbacks"
+K __index :table keys=8
+  {["getCamera"]=<function:function: 0x31a375bda8a31f7b>, ["Connect"]=<function:function: 0xf3d482085a7fbc8f>, ["Disconnect"]=<function:function: 0x1f4dbc3e77ee938e>, ["_connectCallbacks"]=<function:function: 0x78a2bdaeaaff6df3>, ["Enable"]=<function:function: 0xb264f2e423450840>, ["Disable"]=<function:function: 0x4b0281bb26d574e4>, ["__index"]=<cycle>, ["new"]=<function:function: 0x0fecc6463a78f3e1>}
+F _connectCallbacks
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=_connectCallbacks what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "_camera"
+  [5] str "_callbacks"
+  [6] str "_connectionUtil"
+  [7] str "GetPropertyChangedSignal"
+  [8] str "Connect"
+  [9] str "trackConnection"
+F getCamera
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=getCamera what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_camera"
+F new
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=new what=Lua protos=0[]
+  up1: table keys=6 {disconnectAll:function, trackConnection:function, disconnect:function, trackBoundFunction:function, __index:table, new:function}
+  up2: table keys=8 {getCamera:function, Connect:function, Disconnect:function, _connectCallbacks:function, Enable:function, Disable:function, __index:table, new:function}
+  up3: ERR
+  consts total=11
+  [1] str "_camera"
+  [2] str "_callbacks"
+  [3] str "_connectionUtil"
+  [4] str "_enabled"
+  [5] boolean false
+  [6] table
+  [7] str "workspace"
+  [8] userdata
+  [9] str "CurrentCamera"
+  [10] str "new"
+  [11] str "setmetatable"

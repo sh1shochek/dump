@@ -1,0 +1,103 @@
+PATH: ReplicatedStorage.Controllers.InputController
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+F GetActionKeybind
+  params=1 src=ReplicatedStorage.Controllers.InputController:? cname=GetActionKeybind what=Lua protos=0[]
+  up1: table keys=38 {Decoy Grenade:table, Team Message:table, HE Grenade:table, Flashbang:table, Fire Grenade:table, Cycle Weapons Right:table, Chat Message:table, Melee Weapon:table, Graffiti Menu:table, Fire:table, Walk:table, Secondary Weapon:table, VIP Menu:table, Explosives & Traps:table, Smoke Grenade:table, Crouch:table, Move Left (Strafe):table, Drop Weapon:table, Use:table, Choose Team:table, Toggle Inventory Display:table, Last Weapon Used:table, Ping:table, Secondary Fire:table, Health Shot:table, Move Right (Strafe):table, Inspect:table, Cycle Grenades:table, Main Menu:table, Reload:table, Move Backward:table, Buy Menu:table, Primary Weapon:table, Cycle Weapons Left:table, Voice Chat:table, Jump:table, Scoreboard:table, Move Forward:table}
+  up2: ERR
+  consts total=9
+  [1] str "Keybinds"
+  [2] number 0
+  [3] str "typeof"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.InputController:? cname=Initialize what=Lua protos=3[#1,#2,#3]
+  up1: userdata Actions
+  up2: table keys=12 {enableGroup:function, getActionKeybinds:function, registerAction:function, disableGroup:function, Initialize:function, isBindingPressed:function, isActionPressed:function, GetActionKeybind:function, Start:function, loadActionsFromDatabase:function, bindKeybinds:function, isActionActive:function}
+  up3: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up4: userdata Mateo_081005
+  up5: userdata ContextActionService
+  up6: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up7: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up8: ERR
+  consts total=17
+  [1] str "ipairs"
+F Start
+  params=0 src=ReplicatedStorage.Controllers.InputController:? cname=Start what=Lua protos=1[#1]
+  up1: userdata UserInputService
+  up2: function params=2 src=ReplicatedStorage.Controllers.InputController:? cname=handleScrollWheelInput what=Lua
+  up3: table keys=2 {ScrollWheelUp:string, ScrollWheelDown:string}
+  up4: ERR
+  consts total=1
+  [1] str "InputChanged"
+F bindKeybinds
+  params=2 src=ReplicatedStorage.Controllers.InputController:? cname=bindKeybinds what=Lua protos=1[#1]
+  up1: table keys=38 {Decoy Grenade:table, Team Message:table, HE Grenade:table, Flashbang:table, Fire Grenade:table, Cycle Weapons Right:table, Chat Message:table, Melee Weapon:table, Graffiti Menu:table, Fire:table, Walk:table, Secondary Weapon:table, VIP Menu:table, Explosives & Traps:table, Smoke Grenade:table, Crouch:table, Move Left (Strafe):table, Drop Weapon:table, Use:table, Choose Team:table, Toggle Inventory Display:table, Last Weapon Used:table, Ping:table, Secondary Fire:table, Health Shot:table, Move Right (Strafe):table, Inspect:table, Cycle Grenades:table, Main Menu:table, Reload:table, Move Backward:table, Buy Menu:table, Primary Weapon:table, Cycle Weapons Left:table, Voice Chat:table, Jump:table, Scoreboard:table, Move Forward:table}
+  up2: function params=1 src=ReplicatedStorage.Controllers.InputController:? cname=unbindActionKeys what=Lua
+  up3: table keys=2 {ScrollWheelUp:string, ScrollWheelDown:string}
+  up4: table keys=42 {Enum.KeyCode.Q:string, Enum.KeyCode.Four:string, Enum.KeyCode.ButtonR2:string, Enum.KeyCode.ButtonB:string, Enum.KeyCode.ButtonX:string, Enum.KeyCode.R:string, Enum.KeyCode.B:string, Enum.KeyCode.D:string, Enum.KeyCode.E:string, Enum.KeyCode.DPadDown:string, Enum.KeyCode.F:string, Enum.KeyCode.ButtonA:string, Enum.KeyCode.W:string, Enum.UserInputType.MouseButton1:string, Enum.KeyCode.N:string, Enum.UserInputType.MouseButton2:string, Enum.KeyCode.ButtonR3:string, Enum.KeyCode.ButtonL3:string, Enum.KeyCode.U:string, Enum.KeyCode.O:string, Enum.KeyCode.DPadUp:string, Enum.KeyCode.G:string, Enum.KeyCode.ButtonL2:string, Enum.KeyCode.LeftShift:string, Enum.KeyCode.ButtonY:string, Enum.KeyCode.Three:string, Enum.KeyCode.ButtonR1:string, Enum.KeyCode.ButtonL1:string, Enum.KeyCode.DPadRight:string, Enum.KeyCode.Tab:string, Enum.KeyCode.V:string, Enum.KeyCode.Y:string, Enum.KeyCode.Space:string, Enum.KeyCode.DPadLeft:string, Enum.KeyCode.M:string, Enum.KeyCode.One:string, Enum.UserInputType.MouseButton3:string, Enum.KeyCode.S:string, Enum.KeyCode.A:string, Enum.KeyCode.Two:string}
+  up5: function params=3 src=ReplicatedStorage.Controllers.InputController:? cname=handleInput what=Lua
+  up6: userdata ContextActionService
+  up7: ERR
+  consts total=24
+  [1] str "ipairs"
+F disableGroup
+  params=1 src=ReplicatedStorage.Controllers.InputController:? cname=disableGroup what=Lua protos=0[]
+  up1: table keys=2 {Default:boolean, Gameplay:boolean}
+  up2: ERR
+  consts total=0
+F enableGroup
+  params=1 src=ReplicatedStorage.Controllers.InputController:? cname=enableGroup what=Lua protos=0[]
+  up1: table keys=2 {Default:boolean, Gameplay:boolean}
+  up2: ERR
+  consts total=0
+F getActionKeybinds
+  params=1 src=ReplicatedStorage.Controllers.InputController:? cname=getActionKeybinds what=Lua protos=0[]
+  up1: table keys=38 {Decoy Grenade:table, Team Message:table, HE Grenade:table, Flashbang:table, Fire Grenade:table, Cycle Weapons Right:table, Chat Message:table, Melee Weapon:table, Graffiti Menu:table, Fire:table, Walk:table, Secondary Weapon:table, VIP Menu:table, Explosives & Traps:table, Smoke Grenade:table, Crouch:table, Move Left (Strafe):table, Drop Weapon:table, Use:table, Choose Team:table, Toggle Inventory Display:table, Last Weapon Used:table, Ping:table, Secondary Fire:table, Health Shot:table, Move Right (Strafe):table, Inspect:table, Cycle Grenades:table, Main Menu:table, Reload:table, Move Backward:table, Buy Menu:table, Primary Weapon:table, Cycle Weapons Left:table, Voice Chat:table, Jump:table, Scoreboard:table, Move Forward:table}
+  up2: ERR
+  consts total=8
+  [1] str "ipairs"
+F isActionActive
+  params=1 src=ReplicatedStorage.Controllers.InputController:? cname=isActionActive what=Lua protos=0[]
+  up1: table keys=38 {Decoy Grenade:table, Team Message:table, HE Grenade:table, Flashbang:table, Fire Grenade:table, Cycle Weapons Right:table, Chat Message:table, Melee Weapon:table, Graffiti Menu:table, Fire:table, Walk:table, Secondary Weapon:table, VIP Menu:table, Explosives & Traps:table, Smoke Grenade:table, Crouch:table, Move Left (Strafe):table, Drop Weapon:table, Use:table, Choose Team:table, Toggle Inventory Display:table, Last Weapon Used:table, Ping:table, Secondary Fire:table, Health Shot:table, Move Right (Strafe):table, Inspect:table, Cycle Grenades:table, Main Menu:table, Reload:table, Move Backward:table, Buy Menu:table, Primary Weapon:table, Cycle Weapons Left:table, Voice Chat:table, Jump:table, Scoreboard:table, Move Forward:table}
+  up2: ERR
+  consts total=1
+  [1] str "IsActive"
+F isActionPressed
+  params=2 src=ReplicatedStorage.Controllers.InputController:? cname=isActionPressed what=Lua protos=0[]
+  up1: table keys=12 {enableGroup:function, getActionKeybinds:function, registerAction:function, disableGroup:function, Initialize:function, isBindingPressed:function, isActionPressed:function, GetActionKeybind:function, Start:function, loadActionsFromDatabase:function, bindKeybinds:function, isActionActive:function}
+  up2: ERR
+  consts total=3
+  [1] str "getActionKeybinds"
+  [2] number 0
+  [3] str "ipairs"
+F isBindingPressed
+  params=1 src=ReplicatedStorage.Controllers.InputController:? cname=isBindingPressed what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Components.Common.GetUserPlatform:? what=Lua
+  up2: userdata UserInputService
+  up3: ERR
+  consts total=28
+  [1] str "typeof"
+F loadActionsFromDatabase
+  params=1 src=ReplicatedStorage.Controllers.InputController:? cname=loadActionsFromDatabase what=Lua protos=0[]
+  up1: table keys=10 {Audio:table, Keybinds:table, GetPage:function, Video:table, GetCategory:function, GetSetting:function, Descriptions:table, Game:table, GetCategories:function, GetPageNames:function}
+  up2: function params=1 src=ReplicatedStorage.Controllers.InputController:? cname=unbindActionKeys what=Lua
+  up3: table keys=1 {parse:function}
+  up4: table keys=12 {enableGroup:function, getActionKeybinds:function, registerAction:function, disableGroup:function, Initialize:function, isBindingPressed:function, isActionPressed:function, GetActionKeybind:function, Start:function, loadActionsFromDatabase:function, bindKeybinds:function, isActionActive:function}
+  up5: ERR
+  consts total=12
+  [1] str "pairs"
+F registerAction
+  params=1 src=ReplicatedStorage.Controllers.InputController:? cname=registerAction what=Lua protos=0[]
+  up1: table keys=38 {Decoy Grenade:table, Team Message:table, HE Grenade:table, Flashbang:table, Fire Grenade:table, Cycle Weapons Right:table, Chat Message:table, Melee Weapon:table, Graffiti Menu:table, Fire:table, Walk:table, Secondary Weapon:table, VIP Menu:table, Explosives & Traps:table, Smoke Grenade:table, Crouch:table, Move Left (Strafe):table, Drop Weapon:table, Use:table, Choose Team:table, Toggle Inventory Display:table, Last Weapon Used:table, Ping:table, Secondary Fire:table, Health Shot:table, Move Right (Strafe):table, Inspect:table, Cycle Grenades:table, Main Menu:table, Reload:table, Move Backward:table, Buy Menu:table, Primary Weapon:table, Cycle Weapons Left:table, Voice Chat:table, Jump:table, Scoreboard:table, Move Forward:table}
+  up2: ERR
+  consts total=9
+  [1] str "Name"
+  [2] str "Category"
+  [3] str "Callback"
+  [4] str "Group"
+  [5] str "BindPriority"
+  [6] str "IsActive"
+  [7] boolean false
+  [8] str "Keybinds"
+  [9] table

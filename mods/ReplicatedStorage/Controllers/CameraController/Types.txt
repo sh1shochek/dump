@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Controllers.CameraController.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

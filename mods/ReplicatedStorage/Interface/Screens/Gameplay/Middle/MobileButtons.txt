@@ -1,0 +1,38 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.MobileButtons
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.MobileBu:? cname=Initialize what=Lua protos=34[#1,#2,#3,#4,#5,#6,#7,#8,ProcessEndShoot,#10,#11,ProcessEndAim,#13,#14,#15,ProcessEndInteract,#17,#18,#19,ProcessEndScoreboard]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata MobileButtons
+  consts total=42
+  [1] str "mark"
+  [2] str "UI.MobileButtons.Initialize"
+  [3] str "ipairs"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.MobileBu:? cname=Start what=Lua protos=5[#1,#2,#3,#4,#5]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata MobileButtons
+  consts total=17
+  [1] str "debug"
+  [2] str "setmemorycategory"
+F setupButton
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.MobileBu:? cname=setupButton what=Lua protos=3[#1,#2,#3]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=19 {Inspect:userdata, Aim:userdata, Scoreboard:userdata, Menu:userdata, SwapTeam:userdata, Shoot:userdata, Crouch:userdata, Knife:userdata, Ping:userdata, Shop:userdata, Interact:userdata, Grenade:userdata, Secondary:userdata, Primary:userdata, Reload:userdata, Chat:userdata, Drop:userdata, Walk:userdata, Jump:userdata}
+  up3: table keys=11 {Ping:boolean, Crouch:boolean, SwapTeam:boolean, Chat:boolean, Shop:boolean, Menu:boolean, Reload:boolean, Jump:boolean, Inspect:boolean, Scoreboard:boolean, Walk:boolean}
+  up4: table keys=0 {}
+  up5: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.MobileBu:? cname=TweenButtonToRestingScale what=Lua
+  up6: table keys=11 {Ping:boolean, Interact:boolean, Crouch:boolean, SwapTeam:boolean, Shop:boolean, Menu:boolean, Chat:boolean, Reload:boolean, Inspect:boolean, Scoreboard:boolean, Walk:boolean}
+  up7: table keys=11 {Ping:boolean, Crouch:boolean, SwapTeam:boolean, Chat:boolean, Shop:boolean, Menu:boolean, Drop:boolean, Reload:boolean, Inspect:boolean, Scoreboard:boolean, Walk:boolean}
+  up8: ERR
+  consts total=8
+  [1] str "mark"
+  [2] str "UI.MobileButtons.SetupButton"
+  [3] str "Size"
+  [4] str "InputBegan"
+  [5] str "Connect"
+  [6] str "Name"
+  [7] str "InputChanged"
+  [8] str "InputEnded"

@@ -1,0 +1,11 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.Grenade.Executions.HE Grenade
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=3 src=ReplicatedStorage.Controllers.Observers.Game.Grenade.Executi:? what=Lua protos=2[#1,#2]
+  up1: userdata ReplicatedStorage
+  up2: userdata Debris
+  up3: table keys=8 {playOneTime:function, destroy:function, new:function, PlaySoundAtPosition:function, play:function, WarmPersistentSounds:function, __index:table, createSoundGroup:function}
+  up4: ERR
+  consts total=32
+  [1] str "ipairs"

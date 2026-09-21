@@ -1,0 +1,14 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Maps.Winter Mirage
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K Characters :table keys=2
+  {["Counter-Terrorists"]="IDF", ["Terrorists"]="Anarchist"}
+K Gamemode :table keys=3
+  {["Competitive"]="Bomb Defusal", ["Casual"]="Bomb Defusal", ["Deathmatch"]="Deathmatch"}
+K Icon :string = rbxassetid://96281385153177
+K Lighting :table keys=2
+  {["Assets"]=<userdata:Winter Mirage>, ["Properties"]={["ClockTime"]=13, ["ColorShift_Bottom"]=<userdata:0, 0, 0>, ["EnvironmentDiffuseScale"]=1, ["EnvironmentSpecularScale"]=1, ["ExposureCompensation"]=0, ["GeographicLatitude"]=50, ["Ambient"]=<userdata:0.45098, 0.529412, 0.615686>, ["OutdoorAmbient"]=<userdata:0.384314, 0.513726, 0.701961>, ["ShadowSoftness"]=0.1, ["Brightness"]=1.4, ["ColorShift_Top"]=<userdata:0.627451, 0.768627, 1>, ["GlobalShadows"]=true}}
+K Radar :string = rbxassetid://72973444783842
+K Terrain :table keys=3
+  {["Properties"]={["MaterialColors"]={["Grass"]=<userdata:0.435294, 0.494118, 0.243137>, ["Rock"]=<userdata:0.388235, 0.392157, 0.4>, ["Basalt"]=<userdata:0.294118, 0.290196, 0.290196>, ["Sand"]=<userdata:0.811765, 0.796078, 0.654902>, ["Sandstone"]=<userdata:0.580392, 0.486275, 0.372549>, ["Brick"]=<userdata:0.541176, 0.380392, 0.286275>, ["Cobblestone"]=<userdata:0.52549, 0.52549, 0.462745>, ["Glacier"]=<userdata:0.866667, 0.894118, 0.898039>, ["Slate"]=<userdata:0.345098, 0.34902, 0.337255>, ["Snow"]=<userdata:0.921569, 0.992157, 1>, ["WoodPlanks"]=<userdata:0.67451, 0.580392, 0.423529>, ["Limestone"]=<userdata:1, 0.952941, 0.752941>, ["LeafyGrass"]=<userdata:0.415686, 0.52549, 0.25098>, ["Salt"]=<userdata:1, 1, 0.996078>, ["Asphalt"]=<userdata:0.313726, 0.329412, 0.329412>, ["CrackedLava"]=<userdata:1, 0.0941176, 0.262745>, ["Ground"]=<userdata:0.54902, 0.509804, 0.407843>, ["Concrete"]=<userdata:0.596078, 0.596078, 0.596078>, ["Mud"]=<userdata:0.47451, 0.439216, 0.384314>, ["Pavement"]=<userdata:0.560784, 0.564706, 0.529412>, ["Ice"]=<userdata:0.8, 0.823529, 0.87451>}, ["WaterTransparency"]=0.3, ["WaterReflectance"]=1, ["WaterColor"]=<userdata:0.0470588, 0.329412, 0.360784>, ["Decoration"]=true, ["WaterWaveSpeed"]=10, ["WaterWaveSize"]=0.15}, ["Resolution"]=0, ["Position"]=<vector:0, 0, 0>}

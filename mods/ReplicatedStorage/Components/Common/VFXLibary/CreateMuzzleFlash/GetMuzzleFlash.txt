@@ -1,0 +1,9 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateMuzzleFlash.GetMuzzleFlash
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=4 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMuzzleFl:? what=Lua protos=0[]
+  up1: ERR
+  consts total=22
+  [1] str "debug"
+  [2] str "profilebegin"

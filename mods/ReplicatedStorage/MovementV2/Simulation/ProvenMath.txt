@@ -1,0 +1,61 @@
+PATH: ReplicatedStorage.MovementV2.Simulation.ProvenMath
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+F accelerate
+  params=7 src=ReplicatedStorage.MovementV2.Simulation.ProvenMath:? cname=accelerate what=Lua protos=0[]
+  up1: number 18.75
+  up2: ERR
+  consts total=3
+  [1] str "Dot"
+  [2] str "math"
+  [3] str "max"
+F airAccelerate
+  params=7 src=ReplicatedStorage.MovementV2.Simulation.ProvenMath:? cname=airAccelerate what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "math"
+  [2] str "min"
+F applyFriction
+  params=5 src=ReplicatedStorage.MovementV2.Simulation.ProvenMath:? cname=applyFriction what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "X"
+  [2] str "Z"
+  [3] str "math"
+  [4] str "sqrt"
+F approach
+  params=3 src=ReplicatedStorage.MovementV2.Simulation.ProvenMath:? cname=approach what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "math"
+  [2] str "min"
+F clipVelocity
+  params=3 src=ReplicatedStorage.MovementV2.Simulation.ProvenMath:? cname=clipVelocity what=Lua protos=0[]
+  up1: number 0.00234375
+  up2: ERR
+  consts total=4
+  [1] str "Dot"
+  [2] number 1
+  [3] str "math"
+  [4] str "min"
+F flatten
+  params=1 src=ReplicatedStorage.MovementV2.Simulation.ProvenMath:? cname=flatten what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "X"
+  [2] str "Z"
+  [3] str "Vector3"
+  [4] str "new"
+F legacyBunnyHopAirAccelerate
+  params=6 src=ReplicatedStorage.MovementV2.Simulation.ProvenMath:? cname=legacyBunnyHopAirAccelerate what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "math"
+  [2] str "min"
+F moveVectorToWorld
+  params=2 src=ReplicatedStorage.MovementV2.Simulation.ProvenMath:? cname=moveVectorToWorld what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "math"
+  [2] str "sin"

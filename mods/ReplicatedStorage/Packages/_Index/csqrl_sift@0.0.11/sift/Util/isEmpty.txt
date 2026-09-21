@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Util.isEmpty
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Uti:? cname=isEmpty what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "next"

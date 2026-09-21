@@ -1,0 +1,13 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Plant Or Defuse The Bomb 1 Time
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K Category :string = bomb_plants_defuses
+K DisplayName :string = Plant Or Defuse The Bomb 1 Time In Bomb Defusal
+K Gamemodes :table keys=1
+  {[1]="Bomb Defusal"}
+K MissionId :string = Plant Or Defuse The Bomb 1 Time
+K Rewards :table keys=1
+  {[1]={["amount"]=6, ["type"]="Credits"}}
+K Target :number = 1
+K Type :string = hourly

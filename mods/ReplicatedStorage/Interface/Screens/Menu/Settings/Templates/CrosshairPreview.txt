@@ -1,0 +1,36 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Settings.Templates.CrosshairPreview
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=8 src=ReplicatedStorage.Interface.Screens.Menu.Settings.Templates.:? what=Lua protos=12[swapToIndex,#2,#3,#4,isPreviewVisible,stopPreviewUpdate,updatePreviewStep,syncPreviewUpdate,clearVisibilityConnections,refreshVisibilityConnections,#11,#12]
+  up1: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up2: number 1
+  up3: table keys=3 {1:string, 2:string, 3:string}
+  up4: userdata ReplicatedStorage
+  up5: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up6: userdata Mateo_081005
+  up7: function params=3 src=ReplicatedStorage.Interface.Screens.Menu.Settings.Templates.:? cname=updateCrosshairPreview what=Lua
+  up8: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up9: ERR
+  consts total=21
+  [1] str "LayoutOrder"
+  [2] str "Left"
+  [3] str "Right"
+  [4] str "Assets"
+  [5] str "UI"
+  [6] str "Settings"
+  [7] str "Dot"
+  [8] str "Clone"
+  [9] str "Switch"
+  [10] str "Parent"
+  [11] str "MouseButton1Click"
+  [12] str "Connect"
+  [13] str "new"
+  [14] str "Destroy"
+  [15] str "Add"
+  [16] str "Crosshair"
+  [17] str "AncestryChanged"
+  [18] str "Disconnect"
+  [19] str "BindToStepped"
+  [20] str "UI.CrosshairPreview.%*"
+  [21] str "format"

@@ -1,0 +1,19 @@
+PATH: ReplicatedStorage.MovementV2.Simulation.Solver
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F slideDisplacement
+  params=8 src=ReplicatedStorage.MovementV2.Simulation.Solver:? cname=slideDisplacement what=Lua protos=0[]
+  up1: table keys=2 {slideMove:function, slideDisplacement:function}
+  up2: ERR
+  consts total=1
+  [1] str "slideMove"
+F slideMove
+  params=10 src=ReplicatedStorage.MovementV2.Simulation.Solver:? cname=slideMove what=Lua protos=0[]
+  up1: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up2: function params=3 src=ReplicatedStorage.MovementV2.Simulation.Solver:? cname=appendPlane what=Lua
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Simulation.Solver:? cname=resolvePlanes what=Lua
+  up4: ERR
+  consts total=39
+  [1] str "movement collision time interval must be normalized and ordered"
+  [2] str "assert"

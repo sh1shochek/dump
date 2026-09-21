@@ -1,0 +1,59 @@
+PATH: ReplicatedStorage.Components.Common.CenterScreenRaycast
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F FindAncestor
+  params=2 src=ReplicatedStorage.Components.Common.CenterScreenRaycast:? cname=FindAncestor what=Lua protos=0[]
+  up1: table keys=6 {GetInstance:function, FindTaggedAncestor:function, Invalidate:function, GetHoveredHostage:function, FindAncestor:function, GetResult:function}
+  up2: ERR
+  consts total=3
+  [1] str "GetResult"
+  [2] str "Instance"
+  [3] str "Parent"
+F FindTaggedAncestor
+  params=2 src=ReplicatedStorage.Components.Common.CenterScreenRaycast:? cname=FindTaggedAncestor what=Lua protos=1[#1]
+  up1: table keys=6 {GetInstance:function, FindTaggedAncestor:function, Invalidate:function, GetHoveredHostage:function, FindAncestor:function, GetResult:function}
+  up2: userdata CollectionService
+  up3: ERR
+  consts total=1
+  [1] str "FindAncestor"
+F GetHoveredHostage
+  params=1 src=ReplicatedStorage.Components.Common.CenterScreenRaycast:? cname=GetHoveredHostage what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=6 {GetInstance:function, FindTaggedAncestor:function, Invalidate:function, GetHoveredHostage:function, FindAncestor:function, GetResult:function}
+  up3: ERR
+  consts total=12
+  [1] str "Team"
+  [2] str "GetAttribute"
+  [3] str "Counter-Terrorists"
+  [4] str "FindTaggedAncestor"
+  [5] str "Hostage"
+  [6] number 5
+  [7] str "Model"
+  [8] str "IsA"
+  [9] str "CanRescue"
+  [10] str "RescuingPlayer"
+  [11] str "Name"
+  [12] str "CarryingPlayer"
+F GetInstance
+  params=1 src=ReplicatedStorage.Components.Common.CenterScreenRaycast:? cname=GetInstance what=Lua protos=0[]
+  up1: table keys=6 {GetInstance:function, FindTaggedAncestor:function, Invalidate:function, GetHoveredHostage:function, FindAncestor:function, GetResult:function}
+  up2: ERR
+  consts total=2
+  [1] str "GetResult"
+  [2] str "Instance"
+F GetResult
+  params=1 src=ReplicatedStorage.Components.Common.CenterScreenRaycast:? cname=GetResult what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.CenterScreenRaycast:? cname=ResolveRaycast what=Lua
+  up2: ERR
+  consts total=2
+  [1] number 10
+  [2] str "Distance"
+F Invalidate
+  params=0 src=ReplicatedStorage.Components.Common.CenterScreenRaycast:? cname=Invalidate what=Lua protos=0[]
+  up1: number 33952
+  up2: userdata Camera
+  up3: userdata 88.1435089, 5.89463186, 92.4470749, -0.612331212, -0.204622671, 0.763662219, 0, 
+  up4: userdata Mateo_081005
+  up5: number 10
+  consts total=0

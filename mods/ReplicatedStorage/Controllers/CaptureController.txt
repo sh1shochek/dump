@@ -1,0 +1,11 @@
+PATH: ReplicatedStorage.Controllers.CaptureController
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F CaptureScreenshot
+  params=1 src=ReplicatedStorage.Controllers.CaptureController:? cname=CaptureScreenshot what=Lua protos=1[#1]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: userdata CaptureService
+  up3: ERR
+  consts total=1
+  [1] str "new"

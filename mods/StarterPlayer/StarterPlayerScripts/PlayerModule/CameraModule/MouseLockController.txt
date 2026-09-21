@@ -1,0 +1,112 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.MouseLockController
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+F BindContextActions
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=BindContextActions what=Lua protos=1[#1]
+  up1: userdata ContextActionService
+  up2: number 2000
+  up3: ERR
+  consts total=3
+  [1] str "MouseLockSwitchAction"
+  [2] str "boundKeys"
+  [3] str "unpack"
+F DoMouseLockSwitch
+  params=4 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=DoMouseLockSwitch what=Lua protos=0[]
+  up1: ERR
+  consts total=10
+  [1] str "Enum"
+  [2] str "UserInputState"
+  [3] str "Begin"
+  [4] userdata
+  [5] str "OnMouseLockToggled"
+  [6] str "ContextActionResult"
+  [7] str "Sink"
+  [8] userdata
+  [9] str "Pass"
+  [10] userdata
+F EnableMouseLock
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=EnableMouseLock what=Lua protos=0[]
+  up1: table keys=18 {getLooseBoundingSphere:function, GamepadLinearToCurve:function, Spring:table, setRotationTypeOverride:function, restoreRotationType:function, Round:function, IsFinite:function, map:function, GetAngleBetweenXZVectors:function, ConvertCameraModeEnumToStandard:function, mapClamp:function, restoreMouseIcon:function, sanitizeAngle:function, restoreMouseBehavior:function, setMouseBehaviorOverride:function, RotateVectorByAngleAndRound:function, setMouseIconOverride:function, IsFiniteVector3:function}
+  up2: ERR
+  consts total=7
+  [1] str "enabled"
+  [2] str "BindContextActions"
+  [3] str "restoreMouseIcon"
+  [4] str "UnbindContextActions"
+  [5] str "isMouseLocked"
+  [6] str "mouseLockToggledEvent"
+  [7] str "Fire"
+F GetBindableToggleEvent
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GetBindableToggleEvent what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "mouseLockToggledEvent"
+  [2] str "Event"
+F GetIsMouseLocked
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GetIsMouseLocked what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "isMouseLocked"
+F GetMouseLockOffset
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GetMouseLockOffset what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] vector
+F IsMouseLocked
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=IsMouseLocked what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "enabled"
+  [2] str "isMouseLocked"
+F OnBoundKeysObjectChanged
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=OnBoundKeysObjectChanged what=Lua protos=0[]
+  up1: ERR
+  consts total=15
+  [1] str "boundKeys"
+  [2] str "string"
+  [3] str "gmatch"
+F OnMouseLockToggled
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=OnMouseLockToggled what=Lua protos=0[]
+  up1: table keys=18 {getLooseBoundingSphere:function, GamepadLinearToCurve:function, Spring:table, setRotationTypeOverride:function, restoreRotationType:function, Round:function, IsFinite:function, map:function, GetAngleBetweenXZVectors:function, ConvertCameraModeEnumToStandard:function, mapClamp:function, restoreMouseIcon:function, sanitizeAngle:function, restoreMouseBehavior:function, setMouseBehaviorOverride:function, RotateVectorByAngleAndRound:function, setMouseIconOverride:function, IsFiniteVector3:function}
+  up2: ERR
+  consts total=22
+  [1] str "isMouseLocked"
+  [2] str "script"
+F UnbindContextActions
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=UnbindContextActions what=Lua protos=0[]
+  up1: userdata ContextActionService
+  up2: ERR
+  consts total=2
+  [1] str "MouseLockSwitchAction"
+  [2] str "UnbindAction"
+F UpdateMouseLockAvailability
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=UpdateMouseLockAvailability what=Lua protos=0[]
+  up1: userdata Players
+  up2: userdata GameSettings
+  up3: ERR
+  consts total=14
+  [1] str "LocalPlayer"
+  [2] str "DevEnableMouseLock"
+  [3] str "DevComputerMovementMode"
+  [4] str "Enum"
+  [5] str "Scriptable"
+  [6] userdata
+  [7] str "ControlMode"
+  [8] str "MouseLockSwitch"
+  [9] userdata
+  [10] str "ComputerMovementMode"
+  [11] str "ClickToMove"
+  [12] userdata
+  [13] str "enabled"
+  [14] str "EnableMouseLock"
+K __index :table keys=13
+  {["GetMouseLockOffset"]=<function:function: 0x66f153948bdcdc43>, ["GetBindableToggleEvent"]=<function:function: 0x5b7f770110b83bcc>, ["DoMouseLockSwitch"]=<function:function: 0x828d5a1fb85b0a56>, ["IsMouseLocked"]=<function:function: 0xbfbb9c529b577b5f>, ["UpdateMouseLockAvailability"]=<function:function: 0x48b42015b917b1a7>, ["UnbindContextActions"]=<function:function: 0x56036fd00b36adb0>, ["OnMouseLockToggled"]=<function:function: 0xb0683bbceacf0b82>, ["OnBoundKeysObjectChanged"]=<function:function: 0xb294fab8fae638fa>, ["GetIsMouseLocked"]=<function:function: 0x04872cccedf1afb3>, ["EnableMouseLock"]=<function:function: 0xfff6772b97130806>, ["BindContextActions"]=<function:function: 0x22ecaf127cd9082f>, ["__index"]=<cycle>, ["new"]=<function:function: 0xffd7e2e915083f45>}
+F new
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=4[#1,#2,#3,#4]
+  up1: table keys=13 {GetMouseLockOffset:function, GetBindableToggleEvent:function, DoMouseLockSwitch:function, IsMouseLocked:function, UpdateMouseLockAvailability:function, UnbindContextActions:function, OnMouseLockToggled:function, OnBoundKeysObjectChanged:function, GetIsMouseLocked:function, EnableMouseLock:function, BindContextActions:function, __index:table, new:function}
+  up2: userdata GameSettings
+  up3: userdata Players
+  up4: ERR
+  consts total=38
+  [1] str "setmetatable"

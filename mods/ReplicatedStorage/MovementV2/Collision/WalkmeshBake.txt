@@ -1,0 +1,15 @@
+PATH: ReplicatedStorage.MovementV2.Collision.WalkmeshBake
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F Build
+  params=3 src=ReplicatedStorage.MovementV2.Collision.WalkmeshBake:? cname=Build what=Lua protos=0[]
+  up1: table keys=15 {MaxWalkmeshTriangles:number, SourceKindName:table, Tags:table, BarriersNameLower:string, MaxSourceCount:number, SourceKind:table, Attributes:table, GetSourceKindName:function, MaxWalkmeshVertices:number, WalkmeshHeader:string, MaxEpoch:number, MaxDestructibleCount:number, ManifestVersion:number, IsSourceKind:function, CanonicalGeometryVersion:string}
+  up2: table keys=13 {SweepConvexSupport:function, AabbSupport:function, Max:function, ExpandBounds:function, SweepTriangleSupport:function, Min:function, SweepTriangle:function, SweepConvex:function, ContainsConvex:function, BoundsOverlap:function, IsFiniteVector3:function, SegmentBounds:function, TriangleContactContains:function}
+  up3: ERR
+  consts total=32
+  [1] str "Kind"
+  [2] str "SourceKind"
+  [3] str "Walkmesh"
+  [4] str "WalkmeshBake accepts only Walkmesh sources"
+  [5] str "assert"

@@ -1,0 +1,78 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Career.Overview
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Bind
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=Bind what=Lua protos=1[#1]
+  up1: userdata Overview
+  up2: userdata Profile
+  up3: userdata Accuracy
+  up4: userdata LifetimeStats
+  up5: userdata Team
+  up6: userdata KillStats
+  up7: userdata Loadout
+  up8: userdata Filter
+  up9: table keys=4 {1:userdata, 2:userdata, 3:userdata, 4:userdata}
+  up10: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=BindDropdown what=Lua
+  up11: ERR
+  consts total=21
+  [1] str "Profile"
+  [2] str "FindFirstChild"
+  [3] str "Accuracy"
+  [4] str "LifetimeStats"
+  [5] str "Container"
+  [6] str "TeamStats"
+  [7] str "Team"
+  [8] str "KillStats"
+  [9] str "Loadout"
+  [10] str "Filter"
+  [11] str "Info"
+  [12] str "Pins"
+  [13] str "ipairs"
+F BindTab
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=BindTab what=Lua protos=0[]
+  up1: userdata Overview
+  up2: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=LinkSelection what=Lua
+  up3: ERR
+  consts total=0
+F RefreshSelection
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=RefreshSelection what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=LinkSelection what=Lua
+  up2: ERR
+  consts total=0
+F Render
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=Render what=Lua protos=0[]
+  up1: table keys=7 {HasRounds:function, Get:function, Set:function, Order:table, Changed:table, Headings:table, Names:table}
+  up2: table keys=12 {MatchLoaded:table, GetBucket:function, GetMatch:function, Changed:table, Listen:function, Buckets:table, RequestMatchDetails:function, Request:function, EconomyTiers:table, GetMatchDetails:function, IsLoaded:function, Get:function}
+  up3: userdata LifetimeStats
+  up4: userdata Filter
+  up5: userdata Profile
+  up6: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=PopulateProfile what=Lua
+  up7: userdata Accuracy
+  up8: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=PopulateAccuracy what=Lua
+  up9: userdata Team
+  up10: userdata Loadout
+  up11: function params=3 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=PopulateSide what=Lua
+  up12: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=PopulateLoadout what=Lua
+  up13: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=PopulateKillStats what=Lua
+  up14: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.Overview:? cname=LinkSelection what=Lua
+  up15: ERR
+  consts total=18
+  [1] str "Get"
+  [2] str "GetBucket"
+  [3] str "Title"
+  [4] str "FindFirstChild"
+  [5] str "LIFETIME STATS"
+  [6] str "Headings"
+  [7] str "Text"
+  [8] str "Container"
+  [9] str "Left"
+  [10] str "All Gamemodes"
+  [11] str "Names"
+  [12] str "HasRounds"
+  [13] str "Parent"
+  [14] str "Visible"
+  [15] str "CT"
+  [16] str "Counter-Terrorists"
+  [17] str "T"
+  [18] str "Terrorists"

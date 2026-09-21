@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateMuzzleFlash.Character
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=5 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMuzzleFl:? what=Lua protos=0[]
+  up1: function params=6 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMuzzleFl:? cname=tryCreate what=Lua
+  up2: ERR
+  consts total=0

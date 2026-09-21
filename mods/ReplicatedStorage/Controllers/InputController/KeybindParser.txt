@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Controllers.InputController.KeybindParser
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F parse
+  params=1 src=ReplicatedStorage.Controllers.InputController.KeybindParser:? cname=parse what=Lua protos=1[#1]
+  up1: ERR
+  consts total=7
+  [1] str "string"
+  [2] str "split"

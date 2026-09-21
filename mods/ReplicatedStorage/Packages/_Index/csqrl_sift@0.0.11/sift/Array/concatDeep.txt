@@ -1,0 +1,11 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Array.concatDeep
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=concatDeep what=Lua protos=0[]
+  up1: userdata Sift.None
+  up2: function params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=copyDeep what=Lua
+  up3: ERR
+  consts total=7
+  [1] str "#"
+  [2] str "select"

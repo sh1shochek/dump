@@ -1,0 +1,55 @@
+PATH: ReplicatedStorage.MovementV2.Client.PlayerContactAdapter
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F resolvePlayerSupportMotion
+  params=5 src=ReplicatedStorage.MovementV2.Client.PlayerContactAdapter:? cname=resolvePlayerSupportMotion what=Lua protos=0[]
+  up1: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: ERR
+  consts total=22
+  [1] str "Kind"
+  [2] str "SupportKind"
+  [3] str "Player"
+  [4] str "SourceId"
+  [5] number 0
+  [6] str "getCollisionPoseByActorId"
+  [7] str "Position"
+  [8] str "Anchor"
+  [9] str "deltaUInt32"
+  [10] str "SourceServerTick"
+  [11] str "math"
+  [12] str "max"
+F solve
+  params=12 src=ReplicatedStorage.MovementV2.Client.PlayerContactAdapter:? cname=solve what=Lua protos=2[#1,#2]
+  up1: table keys=7 {toWorldVelocity:function, solve:function, DefaultContactEpsilon:number, DefaultIterations:number, DefaultSeparationSkin:number, newScratch:function, fromWorldVelocity:function}
+  up2: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up3: userdata Players
+  up4: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up5: number -inf
+  up6: function params=2 src=ReplicatedStorage.MovementV2.Client.PlayerContactAdapter:? cname=contactQueryBounds what=Lua
+  up7: function params=3 src=ReplicatedStorage.MovementV2.Client.PlayerContactAdapter:? cname=couldContact what=Lua
+  up8: function params=1 src=ReplicatedStorage.MovementV2.Client.PlayerContactAdapter:? cname=vectorLabel what=Lua
+  up9: table keys=9 {SupportAnchorById:table, SupportLowerById:table, Deltas:table, SupportsById:table, Contacts:table, HalfSizes:table, SupportTopById:table, Counts:table, BodiesById:table}
+  up10: function params=1 src=ReplicatedStorage.MovementV2.Client.PlayerContactAdapter:? cname=reasonCountsLabel what=Lua
+  up11: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up12: table keys=12 {MaxEvents:number, RequestSize:number, unavailable:function, identity:function, Ring:table, compare:function, vector:function, checkpoint:function, encodeRequest:function, describe:function, collision:function, decodeRequest:function}
+  up13: table keys=8 {flatten:function, approach:function, applyFriction:function, airAccelerate:function, clipVelocity:function, moveVectorToWorld:function, legacyBunnyHopAirAccelerate:function, accelerate:function}
+  up14: function params=6 src=ReplicatedStorage.MovementV2.Client.PlayerContactAdapter:? cname=applyGroundVelocity what=Lua
+  up15: ERR
+  consts total=32
+  [1] str "Id"
+  [2] str "StartPosition"
+  [3] str "Position"
+  [4] str "WorldVelocity"
+  [5] str "Stance"
+  [6] str "OwnsMotion"
+  [7] boolean true
+  [8] table
+  [9] str "ActorId"
+  [10] str "toWorldVelocity"
+  [11] str "Velocity"
+  [12] str "Magnitude"
+  [13] str "Default"
+  [14] str "os"
+  [15] str "clock"

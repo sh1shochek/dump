@@ -1,0 +1,107 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set
+REQUIRE: ok
+RETURNS: table
+KEYS: 19
+F add
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=add what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "pairs"
+F copy
+  params=0 src=[C]:? cname=clone what=C protos=ERR
+  up1: ERR
+  consts: ERR
+F count
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=count what=Lua protos=0[]
+  up1: table keys=3 {equalObjects:function, isEmpty:function, func:table}
+  up2: ERR
+  consts total=8
+  [1] str "type"
+F delete
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=delete what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "pairs"
+F difference
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=difference what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "table"
+  [2] str "clone"
+F differenceSymmetric
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=differenceSymmetric what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "table"
+  [2] str "clone"
+F filter
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=filter what=Lua protos=0[]
+  up1: table keys=3 {equalObjects:function, isEmpty:function, func:table}
+  up2: ERR
+  consts total=6
+  [1] str "type"
+F fromArray
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=fromArray what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "table"
+  [2] str "create"
+F fromList
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=fromArray what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "table"
+  [2] str "create"
+F has
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=has what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F intersection
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=intersection what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "#"
+  [2] str "select"
+F isSubset
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=isSubset what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "pairs"
+F isSuperset
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=isSuperset what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=isSubset what=Lua
+  up2: ERR
+  consts total=0
+F join
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=merge what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "#"
+  [2] str "select"
+F map
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=map what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "pairs"
+F merge
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=merge what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "#"
+  [2] str "select"
+F subtract
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=delete what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "pairs"
+F toArray
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=toArray what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "pairs"
+F union
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Set:? cname=merge what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "#"
+  [2] str "select"

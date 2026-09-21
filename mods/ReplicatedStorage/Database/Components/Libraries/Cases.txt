@@ -1,0 +1,54 @@
+PATH: ReplicatedStorage.Database.Components.Libraries.Cases
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+F GetCase
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Cases:? cname=GetCase what=Lua protos=0[]
+  up1: table keys=37 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table, 12:table, 13:table, 14:table, 15:table, 16:table, 17:table, 18:table, 19:table, 20:table, 21:table, 22:table, 23:table, 24:table, 25:table, 26:table, 27:table, 28:table, 29:table, 30:table, 31:table, 32:table, 33:table, 34:table, 35:table, 36:table, 37:table}
+  up2: ERR
+  consts total=1
+  [1] str "ipairs"
+F GetCaseByName
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Cases:? cname=GetCaseByName what=Lua protos=0[]
+  up1: table keys=37 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table, 12:table, 13:table, 14:table, 15:table, 16:table, 17:table, 18:table, 19:table, 20:table, 21:table, 22:table, 23:table, 24:table, 25:table, 26:table, 27:table, 28:table, 29:table, 30:table, 31:table, 32:table, 33:table, 34:table, 35:table, 36:table, 37:table}
+  up2: ERR
+  consts total=1
+  [1] str "ipairs"
+F GetCases
+  params=0 src=ReplicatedStorage.Database.Components.Libraries.Cases:? cname=GetCases what=Lua protos=1[#1]
+  up1: table keys=37 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table, 12:table, 13:table, 14:table, 15:table, 16:table, 17:table, 18:table, 19:table, 20:table, 21:table, 22:table, 23:table, 24:table, 25:table, 26:table, 27:table, 28:table, 29:table, 30:table, 31:table, 32:table, 33:table, 34:table, 35:table, 36:table, 37:table}
+  up2: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Cases:? cname=IsCaseEnabled what=Lua
+  up3: ERR
+  consts total=4
+  [1] str "ipairs"
+F GetFeaturedCases
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Cases:? cname=GetFeaturedCases what=Lua protos=2[#1,#2]
+  up1: table keys=37 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table, 12:table, 13:table, 14:table, 15:table, 16:table, 17:table, 18:table, 19:table, 20:table, 21:table, 22:table, 23:table, 24:table, 25:table, 26:table, 27:table, 28:table, 29:table, 30:table, 31:table, 32:table, 33:table, 34:table, 35:table, 36:table, 37:table}
+  up2: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Cases:? cname=IsCaseEnabled what=Lua
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RemoveFromArray:? what=Lua
+  up4: ERR
+  consts total=5
+  [1] str "ipairs"
+F IsCaseEnabled
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Cases:? cname=IsCaseEnabled what=Lua protos=0[]
+  up1: table keys=8 {ObserveAvailableCases:function, IsCaseEnabled:function, GetCase:function, OnCasesUpdated:table, GetCases:function, IsCaseForSale:function, GetFeaturedCases:function, GetCaseByName:function}
+  up2: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Cases:? cname=IsCaseEnabled what=Lua
+  up3: ERR
+  consts total=1
+  [1] str "GetCase"
+F IsCaseForSale
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Cases:? cname=IsCaseForSale what=Lua protos=0[]
+  up1: table keys=8 {ObserveAvailableCases:function, IsCaseEnabled:function, GetCase:function, OnCasesUpdated:table, GetCases:function, IsCaseForSale:function, GetFeaturedCases:function, GetCaseByName:function}
+  up2: function params=2 src=ReplicatedStorage.Database.Components.Libraries.Cases:? cname=IsCaseEnabled what=Lua
+  up3: ERR
+  consts total=1
+  [1] str "GetCase"
+F ObserveAvailableCases
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Cases:? cname=ObserveAvailableCases what=Lua protos=1[#1]
+  up1: table keys=1 {_handlerListHead:table}
+  up2: table keys=37 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table, 12:table, 13:table, 14:table, 15:table, 16:table, 17:table, 18:table, 19:table, 20:table, 21:table, 22:table, 23:table, 24:table, 25:table, 26:table, 27:table, 28:table, 29:table, 30:table, 31:table, 32:table, 33:table, 34:table, 35:table, 36:table, 37:table}
+  up3: ERR
+  consts total=1
+  [1] str "Connect"
+K OnCasesUpdated :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x13f187561d44cbe1>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}

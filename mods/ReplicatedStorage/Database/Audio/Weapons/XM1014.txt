@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.XM1014
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=98974289876379}}
+K MagIn :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=108565766785232}}
+K Shoot :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=40}, ["Identifiers"]={[1]=72242477698431}}

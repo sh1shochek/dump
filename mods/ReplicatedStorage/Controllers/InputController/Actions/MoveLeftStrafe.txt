@@ -1,0 +1,25 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.MoveLeftStrafe
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Callback
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.MoveLe:? cname=onInput what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: table keys=13 {humanoid:table, inputMoveVector:vector, moveFunction:function, controllers:table, character:userdata, customCharacterMotor:table, vehicleController:table, currentTorsoAngle:number, presentedCharacterDisconnect:function, lastInputType:userdata, activeController:table, controlsEnabled:boolean, activeControlModule:table}
+  up4: ERR
+  consts total=11
+  [1] str "IsPlayerChatting"
+  [2] str "GetAttribute"
+  [3] str "isAliveCharacter"
+  [4] str "getPlayerCharacter"
+  [5] str "activeController"
+  [6] str "UpdateMovement"
+  [7] str "Enum"
+  [8] str "UserInputState"
+  [9] str "Begin"
+  [10] userdata
+  [11] str "leftValue"
+K Category :string = Movement Keys
+K Group :string = Default
+K Name :string = Move Left (Strafe)

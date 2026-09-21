@@ -1,0 +1,29 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.VoiceChat
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VoiceCha:? cname=Initialize what=Lua protos=0[]
+  up1: userdata VoiceChat
+  up2: userdata Template
+  up3: ERR
+  consts total=2
+  [1] str "Template"
+  [2] str "Visible"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VoiceCha:? cname=Start what=Lua protos=1[#1]
+  up1: userdata Template
+  up2: table keys=24 {GetVoiceMode:function, Group:string, Callback:function, SetPushToTalkHeld:function, Category:string, SyncPlayerVoiceActivity:function, SyncVoiceMuted:function, StartVoiceActivityLoop:function, OnInput:function, IsPlayerSpeaking:function, SetPlayerSpeaking:function, DestroyTracker:function, QueueVoiceInputRefresh:function, SyncVoiceActivity:function, GetVoiceInput:function, UnobservePlayer:function, SpeakingChanged:table, TrackVoiceInput:function, Name:string, SyncVoiceInputs:function, ObservePlayer:function, SetVoiceMuted:function, SetVoiceMode:function, IsVoiceTransmitting:function}
+  up3: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VoiceCha:? cname=setPlayerSpeaking what=Lua
+  up4: userdata Players
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VoiceCha:? cname=createEntry what=Lua
+  up6: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VoiceCha:? cname=destroyEntry what=Lua
+  up7: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up8: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VoiceCha:? cname=updateEntry what=Lua
+  up9: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VoiceCha:? cname=updateVisibleTemplates what=Lua
+  consts total=17
+  [1] str "SpeakingChanged"
+  [2] str "Connect"
+  [3] str "PlayerAdded"
+  [4] str "PlayerRemoving"
+  [5] str "ipairs"

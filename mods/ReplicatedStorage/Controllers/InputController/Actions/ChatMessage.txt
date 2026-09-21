@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.ChatMessage
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Callback
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.ChatMe:? cname=OnInput what=Lua protos=0[]
+  ups: none
+  consts total=12
+  [1] str "Enum"
+  [2] str "UserInputState"
+  [3] str "Begin"
+  [4] userdata
+  [5] str "require"
+K Category :string = Communication Options
+K Group :string = Default
+K Name :string = Chat Message

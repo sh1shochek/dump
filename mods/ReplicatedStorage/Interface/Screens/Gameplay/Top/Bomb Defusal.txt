@@ -1,0 +1,101 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusal
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F CleanupTemplate
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=CleanupTemplate what=Lua protos=0[]
+  up1: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, sifhasfhawkhghawgki:table, DGXXDFZS:table, Untez777:table, dazen_wewe:table}
+  up2: table keys=9 {createTemplate:function, getTemplateByUserId:function, updateTeammateGrenades:function, setTeammateInfoRevealed:function, cleanupTemplate:function, applyTemplateLifeState:function, updateRoundDamageMatrix:function, incrementTemplateKills:function, refreshCompetitiveColors:function}
+  up3: ERR
+  consts total=2
+  [1] str "cleanupTemplate"
+  [2] str "Destroy"
+F CreateTemplate
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=CreateTemplate what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=5 {PlayerAdded:function, CreateTemplate:function, Initialize:function, Start:function, CleanupTemplate:function}
+  up3: table keys=9 {createTemplate:function, getTemplateByUserId:function, updateTeammateGrenades:function, setTeammateInfoRevealed:function, cleanupTemplate:function, applyTemplateLifeState:function, updateRoundDamageMatrix:function, incrementTemplateKills:function, refreshCompetitiveColors:function}
+  up4: userdata Bomb Defusal
+  up5: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, sifhasfhawkhghawgki:table, DGXXDFZS:table, Untez777:table, dazen_wewe:table}
+  up6: ERR
+  consts total=2
+  [1] str "scope"
+  [2] str "UI.BombDefusal.CreateTemplate"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=Initialize what=Lua protos=10[#1,#2,#3,#4,#5,#6,#7,#8,#9,#10]
+  up1: userdata MainGui
+  up2: userdata Bomb Defusal
+  up3: table keys=2 {Counter-Terrorists:table, Terrorists:table}
+  up4: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up5: table keys=9 {createTemplate:function, getTemplateByUserId:function, updateTeammateGrenades:function, setTeammateInfoRevealed:function, cleanupTemplate:function, applyTemplateLifeState:function, updateRoundDamageMatrix:function, incrementTemplateKills:function, refreshCompetitiveColors:function}
+  up6: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up7: userdata Players
+  up8: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=GetPlayerAlive what=Lua
+  up9: table keys=10 {zona_y83:boolean, COOLXANTARES:boolean, BABINDGO_1:boolean, Mateo_081005:boolean, smertnik_54:boolean, bluefox9073:boolean, sifhasfhawkhghawgki:boolean, DGXXDFZS:boolean, Untez777:boolean, dazen_wewe:boolean}
+  up10: table keys=10 {zona_y83:string, COOLXANTARES:string, BABINDGO_1:string, Mateo_081005:string, smertnik_54:string, bluefox9073:string, sifhasfhawkhghawgki:string, DGXXDFZS:string, Untez777:string, dazen_wewe:string}
+  up11: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=RefreshTeamHud what=Lua
+  up12: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up13: function params=1 src=ReplicatedStorage.Components.Common.GetTimerFormat:? what=Lua
+  up14: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=UpdateFrameVisibility what=Lua
+  up15: userdata CollectionService
+  consts total=46
+  [1] str "Counter-Terrorists"
+  [2] str "Terrorists"
+  [3] str "holder"
+  [4] str "playerCountLabel"
+  [5] str "morePlayersFrame"
+  [6] str "morePlayersAmountLabel"
+  [7] table
+  [8] str "Time"
+  [9] str "Players"
+  [10] str "MorePlayers"
+  [11] str "Amount"
+  [12] str "observeAttribute"
+  [13] str "workspace"
+  [14] userdata
+  [15] str "CTScore"
+  [16] str "TScore"
+  [17] str "ServerGamemode"
+F PlayerAdded
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=PlayerAdded what=Lua protos=6[clearCharacterObserver,bindCharacterState,handleTeamUpdate,#4,#5,#6]
+  up1: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=10 {zona_y83:boolean, COOLXANTARES:boolean, BABINDGO_1:boolean, Mateo_081005:boolean, smertnik_54:boolean, bluefox9073:boolean, sifhasfhawkhghawgki:boolean, DGXXDFZS:boolean, Untez777:boolean, dazen_wewe:boolean}
+  up4: table keys=10 {zona_y83:string, COOLXANTARES:string, BABINDGO_1:string, Mateo_081005:string, smertnik_54:string, bluefox9073:string, sifhasfhawkhghawgki:string, DGXXDFZS:string, Untez777:string, dazen_wewe:string}
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=RefreshTeamHud what=Lua
+  up6: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=GetPlayerAlive what=Lua
+  up7: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=RemovePlayerFromRoster what=Lua
+  up8: table keys=2 {Counter-Terrorists:table, Terrorists:table}
+  up9: table keys=5 {PlayerAdded:function, CreateTemplate:function, Initialize:function, Start:function, CleanupTemplate:function}
+  up10: userdata Mateo_081005
+  up11: userdata Players
+  up12: table keys=2 {1:string, 2:string}
+  up13: table keys=9 {createTemplate:function, getTemplateByUserId:function, updateTeammateGrenades:function, setTeammateInfoRevealed:function, cleanupTemplate:function, applyTemplateLifeState:function, updateRoundDamageMatrix:function, incrementTemplateKills:function, refreshCompetitiveColors:function}
+  up14: ERR
+  consts total=10
+  [1] str "Destroy"
+  [2] str "new"
+  [3] str "Team"
+  [4] str "GetAttributeChangedSignal"
+  [5] str "Connect"
+  [6] str "Add"
+  [7] str "IsSpectating"
+  [8] str "CharacterAdded"
+  [9] str "CharacterRemoving"
+  [10] str "Character"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=Start what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=clearFrame what=Lua
+  up2: userdata Bomb Defusal
+  up3: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Top.Bomb Defusa:? cname=ResetRosterState what=Lua
+  up4: userdata Players
+  up5: table keys=5 {PlayerAdded:function, CreateTemplate:function, Initialize:function, Start:function, CleanupTemplate:function}
+  up6: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up7: ERR
+  consts total=6
+  [1] str "Counter-Terrorists"
+  [2] str "Terrorists"
+  [3] str "GetPlayers"
+  [4] str "PlayerAdded"
+  [5] str "Connect"
+  [6] str "PlayerRemoving"

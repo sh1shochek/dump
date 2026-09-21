@@ -1,0 +1,39 @@
+PATH: ReplicatedStorage.Controllers.ConfigController
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Get
+  params=1 src=ReplicatedStorage.Controllers.ConfigController:? cname=Get what=Lua protos=0[]
+  up1: boolean false
+  up2: table keys=4 {GetSharedKeys:function, Defaults:table, Shared:table, ServerOnly:table}
+  up3: boolean false
+  up4: function params=0 src=ReplicatedStorage.Controllers.ConfigController:? cname=getSnapshot what=Lua
+  up5: userdata Mateo_081005
+  up6: ERR
+  consts total=5
+  [1] str "Defaults"
+  [2] str "pcall"
+F GetNumber
+  params=2 src=ReplicatedStorage.Controllers.ConfigController:? cname=GetNumber what=Lua protos=0[]
+  up1: table keys=4 {OnChanged:function, GetNumber:function, GetRewardMultiplier:function, Get:function}
+  up2: table keys=4 {GetSharedKeys:function, Defaults:table, Shared:table, ServerOnly:table}
+  up3: ERR
+  consts total=4
+  [1] str "Get"
+  [2] str "tonumber"
+F GetRewardMultiplier
+  params=1 src=ReplicatedStorage.Controllers.ConfigController:? cname=GetRewardMultiplier what=Lua protos=0[]
+  up1: table keys=4 {OnChanged:function, GetNumber:function, GetRewardMultiplier:function, Get:function}
+  up2: ERR
+  consts total=3
+  [1] str "GetNumber"
+  [2] str "math"
+  [3] str "max"
+F OnChanged
+  params=2 src=ReplicatedStorage.Controllers.ConfigController:? cname=OnChanged what=Lua protos=2[#1,#2]
+  up1: boolean false
+  up2: function params=0 src=ReplicatedStorage.Controllers.ConfigController:? cname=getSnapshot what=Lua
+  up3: userdata Mateo_081005
+  up4: ERR
+  consts total=5
+  [1] str "pcall"

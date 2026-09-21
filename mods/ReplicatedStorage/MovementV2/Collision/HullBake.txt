@@ -1,0 +1,44 @@
+PATH: ReplicatedStorage.MovementV2.Collision.HullBake
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F Build
+  params=4 src=ReplicatedStorage.MovementV2.Collision.HullBake:? cname=Build what=Lua protos=0[]
+  up1: table keys=15 {MaxWalkmeshTriangles:number, SourceKindName:table, Tags:table, BarriersNameLower:string, MaxSourceCount:number, SourceKind:table, Attributes:table, GetSourceKindName:function, MaxWalkmeshVertices:number, WalkmeshHeader:string, MaxEpoch:number, MaxDestructibleCount:number, ManifestVersion:number, IsSourceKind:function, CanonicalGeometryVersion:string}
+  up2: table keys=3 {BuildHullRecord:function, BuildMergedHullRecord:function, FindMergedPartGroups:function}
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Collision.HullBake:? cname=convertRecord what=Lua
+  up4: ERR
+  consts total=14
+  [1] str "Kind"
+  [2] str "SourceKind"
+  [3] str "Barrier"
+  [4] str "Destructible"
+  [5] str "HullBake accepts only Barrier or Destructible sources"
+  [6] str "assert"
+F BuildMerged
+  params=4 src=ReplicatedStorage.MovementV2.Collision.HullBake:? cname=BuildMerged what=Lua protos=0[]
+  up1: table keys=15 {MaxWalkmeshTriangles:number, SourceKindName:table, Tags:table, BarriersNameLower:string, MaxSourceCount:number, SourceKind:table, Attributes:table, GetSourceKindName:function, MaxWalkmeshVertices:number, WalkmeshHeader:string, MaxEpoch:number, MaxDestructibleCount:number, ManifestVersion:number, IsSourceKind:function, CanonicalGeometryVersion:string}
+  up2: table keys=3 {BuildHullRecord:function, BuildMergedHullRecord:function, FindMergedPartGroups:function}
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Collision.HullBake:? cname=convertRecord what=Lua
+  up4: ERR
+  consts total=17
+  [1] str "merged hull requires at least two sources"
+  [2] str "assert"
+F FindMergedSourceGroups
+  params=1 src=ReplicatedStorage.MovementV2.Collision.HullBake:? cname=FindMergedSourceGroups what=Lua protos=2[#1,#2]
+  up1: table keys=15 {MaxWalkmeshTriangles:number, SourceKindName:table, Tags:table, BarriersNameLower:string, MaxSourceCount:number, SourceKind:table, Attributes:table, GetSourceKindName:function, MaxWalkmeshVertices:number, WalkmeshHeader:string, MaxEpoch:number, MaxDestructibleCount:number, ManifestVersion:number, IsSourceKind:function, CanonicalGeometryVersion:string}
+  up2: table keys=3 {BuildHullRecord:function, BuildMergedHullRecord:function, FindMergedPartGroups:function}
+  up3: ERR
+  consts total=12
+  [1] str "Kind"
+  [2] str "SourceKind"
+  [3] str "Barrier"
+  [4] str "Instance"
+  [5] str "BasePart"
+  [6] str "IsA"
+  [7] str "Climbable"
+  [8] str "DisableSeamMerge"
+  [9] number 1
+  [10] str "FindMergedPartGroups"
+  [11] str "table"
+  [12] str "sort"

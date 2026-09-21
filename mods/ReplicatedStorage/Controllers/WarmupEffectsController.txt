@@ -1,0 +1,24 @@
+PATH: ReplicatedStorage.Controllers.WarmupEffectsController
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F Start
+  params=0 src=ReplicatedStorage.Controllers.WarmupEffectsController:? cname=Start what=Lua protos=11[isEligibleToShow,stop,startBuyPeriodEffects,updateState,#5,#6,#7,#8,#9,#10,#11]
+  up1: userdata ReplicatedStorage
+  up2: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up3: userdata Mateo_081005
+  up4: function params=0 src=ReplicatedStorage.Controllers.WarmupEffectsController:? cname=getBestMapColorCorrection what=Lua
+  up5: userdata TweenService
+  up6: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up7: userdata Workspace
+  up8: function params=0 src=ReplicatedStorage.Controllers.WarmupEffectsController:? cname=findActiveViewmodelModel what=Lua
+  up9: function params=2 src=ReplicatedStorage.Controllers.WarmupEffectsController:? cname=getViewmodelModelFromInstance what=Lua
+  up10: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up11: ERR
+  consts total=33
+  [1] str "Assets"
+  [2] str "FindFirstChild"
+  [3] str "Warmup"
+  [4] str "Folder"
+  [5] str "IsA"
+  [6] str "warn"

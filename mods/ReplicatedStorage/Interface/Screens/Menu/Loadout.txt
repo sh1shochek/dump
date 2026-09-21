@@ -1,0 +1,368 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Loadout
+REQUIRE: ok
+RETURNS: table
+KEYS: 24
+F CreateItemTemplate
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=CreateItemTemplate what=Lua protos=7[#1,#2,#3,#4,#5,#6,#7]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: function params=2 src=ReplicatedStorage.Components.Common.GetResolvedSkinInformati:? what=Lua
+  up3: userdata ReplicatedStorage
+  up4: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up5: userdata Loadout
+  up6: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up7: table keys=5 {GetFullItemDisplayName:function, GetWeaponDisplayName:function, GetSkinDisplayName:function, GetInternalSearchQuery:function, GetSearchIdentity:function}
+  up8: table keys=86 {122099710419173:string, Ambassador:string, MAG-7:string, AWP:string, T Knife:string, Medal.tv Badge:string, Flip Knife:string, Operator Gloves:string, Administrator Badge:string, Handwraps:string, Star Creator:string, Winter2025 Badge:string, M4A1-S:string, AK-47:string, Verified:string, 125361699188354:string, FAMAS:string, XM1014:string, Butterfly Knife:string, StarCreator:string, Premium:string, Five-SeveN:string, StarCreator Badge:string, Sawed-Off:string, Winter2025:string, MP9:string, P90:string, Prototype Badge:string, Contributor:string, Accelerator Badge:string, Dual Berettas:string, Beta:string, 125370656636279:string, P2000:string, Negev:string, 95965239643084:string, AUG:string, Medal.tv:string, Case:string, Contributor Badge:string}
+  up9: userdata TweenService
+  up10: table keys=24 {PopulateWeaponDropdown:function, SortBySkinMetadata:function, HandleDrop:function, SelectTeam:function, EndDrag:function, OnLoadoutItemUnhover:function, SetupInformationFrameNavigation:function, UpdateLoadoutContainer:function, CreateItemTemplate:function, PopulateCategoryDropdown:function, SortByWeapon:function, SelectFirstInformationFrameButton:function, Initialize:function, UpdateInventoryContainer:function, UpdateSidebarFrames:function, HandleSpecialItemDrop:function, OnLoadoutItemHover:function, SetupInformationFrame:function, ViewInLoadout:function, SortByCategory:function, Start:function, OnItemClick:function, OnItemMouseDown:function, CreateLoadoutTemplate:function}
+  up11: userdata UserInputService
+  up12: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up13: userdata Mateo_081005
+  up14: function params=4 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=ShowContextMenu what=Lua
+  consts total=70
+  [1] str "mark"
+  [2] str "UI.Loadout.CreateItemTemplate"
+  [3] str "_id"
+  [4] str "Name"
+  [5] str "Skin"
+  [6] str "Assets"
+  [7] str "UI"
+  [8] str "Loadout"
+  [9] str "ItemTemplate"
+  [10] str "Clone"
+  [11] str "ItemContent"
+  [12] str "Rarity"
+  [13] str "rarity"
+  [14] str "Color"
+  [15] str "BackgroundColor3"
+  [16] str "Container"
+  [17] str "List"
+  [18] str "Parent"
+  [19] str "GetWearImageForFloat"
+  [20] number 0.9999
+  [21] str "Float"
+  [22] str "imageAssetId"
+  [23] str ""
+  [24] str "Content"
+  [25] str "Icon"
+  [26] str "Image"
+  [27] str "GetWeaponDisplayName"
+  [28] str "StatTrack"
+  [29] str "KillTrak™ "
+  [30] str "Type"
+  [31] str "Melee"
+  [32] str "★ "
+  [33] str "Bottom"
+  [34] str "Footer"
+  [35] str "WeaponName"
+  [36] str "Text"
+  [37] str "SkinName"
+  [38] str "typeof"
+F CreateLoadoutTemplate
+  params=3 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=CreateLoadoutTemplate what=Lua protos=9[#1,#2,#3,#4,#5,#6,#7,#8,#9]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: function params=2 src=ReplicatedStorage.Components.Common.GetResolvedSkinInformati:? what=Lua
+  up3: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up4: userdata ReplicatedStorage
+  up5: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up6: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up7: table keys=5 {GetFullItemDisplayName:function, GetWeaponDisplayName:function, GetSkinDisplayName:function, GetInternalSearchQuery:function, GetSearchIdentity:function}
+  up8: table keys=86 {122099710419173:string, Ambassador:string, MAG-7:string, AWP:string, T Knife:string, Medal.tv Badge:string, Flip Knife:string, Operator Gloves:string, Administrator Badge:string, Handwraps:string, Star Creator:string, Winter2025 Badge:string, M4A1-S:string, AK-47:string, Verified:string, 125361699188354:string, FAMAS:string, XM1014:string, Butterfly Knife:string, StarCreator:string, Premium:string, Five-SeveN:string, StarCreator Badge:string, Sawed-Off:string, Winter2025:string, MP9:string, P90:string, Prototype Badge:string, Contributor:string, Accelerator Badge:string, Dual Berettas:string, Beta:string, 125370656636279:string, P2000:string, Negev:string, 95965239643084:string, AUG:string, Medal.tv:string, Case:string, Contributor Badge:string}
+  up9: userdata TweenService
+  consts total=73
+  [1] str "mark"
+  [2] str "UI.Loadout.CreateLoadoutTemplate"
+  [3] str "_id"
+  [4] str "Name"
+  [5] str "Skin"
+  [6] str "pcall"
+F EndDrag
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=EndDrag what=Lua protos=0[]
+  ups: none
+  consts total=22
+  [1] str "GetMouseLocation"
+  [2] str "Disconnect"
+  [3] str "Get"
+  [4] str "Inventory"
+  [5] str "ipairs"
+F HandleDrop
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=HandleDrop what=Lua protos=0[]
+  ups: none
+  consts total=15
+  [1] str "type"
+F HandleSpecialItemDrop
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=HandleSpecialItemDrop what=Lua protos=0[]
+  ups: none
+  consts total=7
+  [1] str "pcall"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=Initialize what=Lua protos=32[#1,#2,#3,#4,#5,handleInspectClick,#7,handleCharmClick,#9,#10,handleReplaceTClick,#12,handleReplaceCTClick,#14,#15,#16,#17,#18,#19,#20]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Loadout
+  consts total=69
+  [1] str "mark"
+  [2] str "UI.Loadout.Initialize"
+  [3] str "Visible"
+  [4] str "GetPropertyChangedSignal"
+  [5] str "Connect"
+  [6] str "Container"
+  [7] str "List"
+  [8] str "CanvasPosition"
+  [9] str "AbsoluteCanvasSize"
+F OnItemClick
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=OnItemClick what=Lua protos=0[]
+  ups: none
+  consts total=2
+  [1] str "Name"
+  [2] str "SortByWeapon"
+F OnItemMouseDown
+  params=3 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=OnItemMouseDown what=Lua protos=1[#1]
+  up1: userdata UserInputService
+  consts total=4
+  [1] str "GetMouseLocation"
+  [2] boolean false
+  [3] str "BindToRenderStep"
+  [4] str "UI.Loadout.PendingDrag"
+F OnLoadoutItemHover
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=OnLoadoutItemHover what=Lua protos=0[]
+  up1: string "Counter-Terrorists"
+  up2: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=EquipWeaponToViewport what=Lua
+  up3: ERR
+  consts total=3
+  [1] str "Counter-Terrorists"
+  [2] str "CT"
+  [3] str "T"
+F OnLoadoutItemUnhover
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=OnLoadoutItemUnhover what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F PopulateCategoryDropdown
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=PopulateCategoryDropdown what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F PopulateWeaponDropdown
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=PopulateWeaponDropdown what=Lua protos=2[#1,#2]
+  up1: userdata Loadout
+  up2: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=ClearDropdownOptions what=Lua
+  up3: function params=5 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=CreateDropdownOption what=Lua
+  up4: table keys=24 {PopulateWeaponDropdown:function, SortBySkinMetadata:function, HandleDrop:function, SelectTeam:function, EndDrag:function, OnLoadoutItemUnhover:function, SetupInformationFrameNavigation:function, UpdateLoadoutContainer:function, CreateItemTemplate:function, PopulateCategoryDropdown:function, SortByWeapon:function, SelectFirstInformationFrameButton:function, Initialize:function, UpdateInventoryContainer:function, UpdateSidebarFrames:function, HandleSpecialItemDrop:function, OnLoadoutItemHover:function, SetupInformationFrame:function, ViewInLoadout:function, SortByCategory:function, Start:function, OnItemClick:function, OnItemMouseDown:function, CreateLoadoutTemplate:function}
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=GetWeaponsInCategory what=Lua
+  consts total=12
+  [1] str "Container"
+  [2] str "List"
+  [3] str "Top"
+  [4] str "Weapon"
+  [5] str "DropdownContent"
+  [6] str "Scroll"
+  [7] str "Frame"
+  [8] str "IsA"
+  [9] str "ScrollingFrame"
+  [10] str "All"
+  [11] str "All Weapons"
+  [12] str "ipairs"
+F SelectFirstInformationFrameButton
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=SelectFirstInformationFrameButton what=Lua protos=0[]
+  up1: userdata Information
+  up2: table keys=24 {PopulateWeaponDropdown:function, SortBySkinMetadata:function, HandleDrop:function, SelectTeam:function, EndDrag:function, OnLoadoutItemUnhover:function, SetupInformationFrameNavigation:function, UpdateLoadoutContainer:function, CreateItemTemplate:function, PopulateCategoryDropdown:function, SortByWeapon:function, SelectFirstInformationFrameButton:function, Initialize:function, UpdateInventoryContainer:function, UpdateSidebarFrames:function, HandleSpecialItemDrop:function, OnLoadoutItemHover:function, SetupInformationFrame:function, ViewInLoadout:function, SortByCategory:function, Start:function, OnItemClick:function, OnItemMouseDown:function, CreateLoadoutTemplate:function}
+  up3: userdata GuiService
+  up4: ERR
+  consts total=10
+  [1] str "Visible"
+  [2] str "SetupInformationFrameNavigation"
+  [3] str "Charm"
+  [4] str "SelectedObject"
+  [5] str "Inspect"
+  [6] str "ReplaceCT"
+  [7] str "ReplaceT"
+  [8] str "Unlock"
+  [9] str "QuickUnlock"
+  [10] str "FindFirstChild"
+F SelectTeam
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=SelectTeam what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Loadout
+  up3: string "Counter-Terrorists"
+  consts total=32
+  [1] str "mark"
+  [2] str "UI.Loadout.SelectTeam"
+  [3] str "Container"
+  [4] str "Teams"
+  [5] str "CT"
+  [6] str "FindFirstChild"
+  [7] str "Frame"
+  [8] str "IsA"
+  [9] str "[Loadout] Missing CT team panel"
+  [10] str "assert"
+F SetupInformationFrame
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=SetupInformationFrame what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Information
+  up3: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up4: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=IsItemEquippedOnTeam what=Lua
+  up5: ERR
+  consts total=61
+  [1] str "mark"
+  [2] str "UI.Loadout.SetupInformationFrame"
+  [3] str "Type"
+  [4] str "Weapon"
+  [5] str "Melee"
+  [6] str "Glove"
+  [7] str "Badge"
+  [8] str "Zeus x27"
+  [9] str "Inspect"
+  [10] str "Charm"
+  [11] str "Visible"
+  [12] str "Unlock"
+  [13] str "Case"
+  [14] str "Package"
+  [15] str "Loadout"
+  [16] str "QuickUnlock"
+  [17] str "FindFirstChild"
+  [18] str "UnlockDivider"
+  [19] str "TextLabel"
+  [20] str "FindFirstChildWhichIsA"
+  [21] str "Attach to Weapon"
+  [22] str "Text"
+  [23] str "type"
+F SetupInformationFrameNavigation
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=SetupInformationFrameNavigation what=Lua protos=1[#1]
+  up1: userdata Information
+  up2: ERR
+  consts total=8
+  [1] str "Charm"
+  [2] str "Visible"
+  [3] str "button"
+  [4] str "order"
+  [5] table
+  [6] str "LayoutOrder"
+  [7] str "table"
+  [8] str "insert"
+F SortByCategory
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=SortByCategory what=Lua protos=1[#1]
+  ups: none
+  consts total=14
+  [1] str "Container"
+  [2] str "List"
+  [3] str "Top"
+  [4] str "Filter"
+  [5] str "Left"
+  [6] str "Title"
+  [7] str "All Categories"
+  [8] str "Text"
+  [9] str "PopulateWeaponDropdown"
+  [10] str "Weapon"
+  [11] str "All Weapons"
+  [12] str "Reset"
+  [13] str "FindFirstChild"
+  [14] str "Visible"
+F SortBySkinMetadata
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=SortBySkinMetadata what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: string "Newest"
+  up3: userdata Loadout
+  up4: table keys=1 {GetSortComparisonFunction:function}
+  up5: userdata Mateo_081005
+  up6: table keys=11 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table}
+  up7: boolean true
+  up8: boolean true
+  up9: table keys=0 {}
+  up10: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=GetSortedLoadoutItemIds what=Lua
+  up11: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=UpdateLoadoutTemplates what=Lua
+  up12: ERR
+  consts total=11
+  [1] str "mark"
+  [2] str "UI.Loadout.SortBySkinMetadata"
+  [3] str "Container"
+  [4] str "List"
+  [5] str "Top"
+  [6] str "Filter"
+  [7] str "Left"
+  [8] str "Title"
+  [9] str "Text"
+  [10] str "GetSortComparisonFunction"
+  [11] str "Visible"
+F SortByWeapon
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=SortByWeapon what=Lua protos=1[#1]
+  ups: none
+  consts total=15
+  [1] str "weaponName"
+  [2] str "skinName"
+  [3] table
+  [4] str "Container"
+  [5] str "List"
+  [6] str "Top"
+  [7] str "Weapon"
+  [8] str "Left"
+  [9] str "Title"
+  [10] str "All Weapons"
+  [11] str "Text"
+  [12] str "GetSortComparisonFunction"
+  [13] str "Visible"
+  [14] str "Reset"
+  [15] str "FindFirstChild"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=Start what=Lua protos=6[ClearFiltersAndShowAll,SetupSidebarButtonClicks,SwitchToTeam,#4,#5,#6]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: userdata Mateo_081005
+  up4: table keys=24 {PopulateWeaponDropdown:function, SortBySkinMetadata:function, HandleDrop:function, SelectTeam:function, EndDrag:function, OnLoadoutItemUnhover:function, SetupInformationFrameNavigation:function, UpdateLoadoutContainer:function, CreateItemTemplate:function, PopulateCategoryDropdown:function, SortByWeapon:function, SelectFirstInformationFrameButton:function, Initialize:function, UpdateInventoryContainer:function, UpdateSidebarFrames:function, HandleSpecialItemDrop:function, OnLoadoutItemHover:function, SetupInformationFrame:function, ViewInLoadout:function, SortByCategory:function, Start:function, OnItemClick:function, OnItemMouseDown:function, CreateLoadoutTemplate:function}
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=SetupSidebarHoverEvents what=Lua
+  consts total=27
+  [1] str "debug"
+  [2] str "setmemorycategory"
+F UpdateInventoryContainer
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=UpdateInventoryContainer what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Loadout
+  up3: boolean true
+  up4: boolean true
+  consts total=25
+  [1] str "mark"
+  [2] str "UI.Loadout.UpdateInventoryContainer"
+  [3] str "Visible"
+  [4] str "Disconnect"
+  [5] str "Destroy"
+  [6] str "pcall"
+F UpdateLoadoutContainer
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=UpdateLoadoutContainer what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  consts total=19
+  [1] str "mark"
+  [2] str "UI.Loadout.UpdateLoadoutContainer"
+  [3] str "Disconnect"
+  [4] str "Destroy"
+  [5] str "pcall"
+F UpdateSidebarFrames
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=UpdateSidebarFrames what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: string "Counter-Terrorists"
+  up3: userdata Loadout
+  up4: table keys=6 {Equipped Gloves:string, Equipped Zeus x27:string, Equipped Badge:string, Equipped Melee:string, Equipped Graffiti:string, Equipped Music Kit:string}
+  up5: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up6: userdata Mateo_081005
+  up7: function params=2 src=ReplicatedStorage.Components.Common.GetResolvedSkinInformati:? what=Lua
+  up8: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up9: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up10: ERR
+  consts total=44
+  [1] str "mark"
+  [2] str "UI.Loadout.UpdateSidebarFrames"
+  [3] str "Counter-Terrorists"
+  [4] str "CT"
+  [5] str "T"
+  [6] str "Container"
+  [7] str "Teams"
+  [8] str "FindFirstChild"
+  [9] str "Frame"
+  [10] str "IsA"
+  [11] str "[Loadout] Missing %* team panel"
+  [12] str "format"
+  [13] str "assert"
+F ViewInLoadout
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Loadout:? cname=ViewInLoadout what=Lua protos=0[]
+  up1: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up2: userdata Mateo_081005
+  up3: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  consts total=26
+  [1] str "Get"
+  [2] str "Inventory"
+  [3] str "ipairs"

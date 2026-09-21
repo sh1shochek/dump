@@ -1,0 +1,77 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.WeaponDropped.Weapon
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K __index :table keys=5
+  {["autoPickup"]=<function:function: 0x307509e92a79e4eb>, ["destroy"]=<function:function: 0x0e87dc78dd3ff9cc>, ["updateState"]=<function:function: 0x63b0fbd282ffe500>, ["__index"]=<cycle>, ["new"]=<function:function: 0x1884b57e3785eca2>}
+F autoPickup
+  params=1 src=ReplicatedStorage.Controllers.Observers.Game.WeaponDropped.W:? cname=autoPickup what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up2: table keys=6 {Melee:number, Priorities:table, Grenade:number, Primary:number, C4:number, Secondary:number}
+  up3: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up4: table keys=6 {Decoy Grenade:number, Smoke Grenade:number, Incendiary Grenade:number, Molotov:number, Flashbang:number, HE Grenade:number}
+  up5: table keys=0 {}
+  up6: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up7: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up8: userdata Mateo_081005
+  up9: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up10: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up11: ERR
+  consts total=16
+  [1] str "Model"
+  [2] str "Weapon"
+  [3] str "GetAttribute"
+  [4] str "Slot"
+  [5] str "getInventorySlot"
+  [6] str "ipairs"
+F destroy
+  params=1 src=ReplicatedStorage.Controllers.Observers.Game.WeaponDropped.W:? cname=destroy what=Lua protos=0[]
+  up1: table keys=7 {table: 0x6f4d953e725d3ded:boolean, table: 0xacb7545b3d5332f3:boolean, table: 0xff153273fad46ac9:boolean, table: 0x876df5e7a8780c82:boolean, table: 0xbc2a964b879901a0:boolean, table: 0xe1cbb2bb16f380a9:boolean, table: 0x29054ee20a9a4180:boolean}
+  up2: number 7
+  up3: table keys=10 {Destroy:function, Connected:boolean, Sequence:number, EventName:string, Callback:function, Name:string, Disconnect:function, Priority:number, ProfileLabel:string, UsesRenderPriority:boolean}
+  consts total=11
+  [1] number 1
+  [2] str "Disconnect"
+  [3] str "IsInteractableTagged"
+  [4] str "Model"
+  [5] str "IsHoveringInteractable"
+  [6] str "RemoveTag"
+  [7] str "LastHoveringState"
+  [8] str "HoveringState"
+  [9] str "SetAttribute"
+  [10] str "Janitor"
+  [11] str "Destroy"
+F new
+  params=1 src=ReplicatedStorage.Controllers.Observers.Game.WeaponDropped.W:? cname=new what=Lua protos=1[#1]
+  up1: table keys=5 {autoPickup:function, destroy:function, updateState:function, __index:table, new:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=7 {table: 0x6f4d953e725d3ded:boolean, table: 0xacb7545b3d5332f3:boolean, table: 0xff153273fad46ac9:boolean, table: 0x876df5e7a8780c82:boolean, table: 0xbc2a964b879901a0:boolean, table: 0xe1cbb2bb16f380a9:boolean, table: 0x29054ee20a9a4180:boolean}
+  up4: number 7
+  up5: table keys=10 {Destroy:function, Connected:boolean, Sequence:number, EventName:string, Callback:function, Name:string, Disconnect:function, Priority:number, ProfileLabel:string, UsesRenderPriority:boolean}
+  up6: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  consts total=15
+  [1] str "setmetatable"
+F updateState
+  params=2 src=ReplicatedStorage.Controllers.Observers.Game.WeaponDropped.W:? cname=updateState what=Lua protos=0[]
+  ups: none
+  consts total=36
+  [1] str "AlphaTime"
+  [2] str "Model"
+  [3] str "PrimaryPart"
+  [4] str "IsDescendantOf"
+  [5] str "Hovering"
+  [6] str "getLocalCharacter"
+  [7] str "Position"
+  [8] str "Magnitude"
+  [9] str "Proximity"
+  [10] str "Weapon"
+  [11] str "C4"
+  [12] str "Team"
+  [13] str "GetAttribute"
+  [14] str "FlashingLight"
+  [15] str "FindFirstChild"
+  [16] str "Attachment"
+  [17] str "PointLight"
+  [18] str "Enabled"
+  [19] str "Color3"
+  [20] str "fromRGB"

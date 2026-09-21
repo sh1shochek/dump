@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Classes.Ragdoll.Configuration.PartMultipliers
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+K Head :table keys=2
+  {["Minimum"]=55, ["Maximum"]=65}
+K HumanoidRootPart :table keys=2
+  {["Minimum"]=35, ["Maximum"]=50}
+K LowerTorso :table keys=2
+  {["Minimum"]=35, ["Maximum"]=50}
+K UpperTorso :table keys=2
+  {["Minimum"]=35, ["Maximum"]=50}

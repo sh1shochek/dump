@@ -1,0 +1,23 @@
+PATH: ReplicatedStorage.Shared.Raycast
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F cast
+  params=5 src=ReplicatedStorage.Shared.Raycast:? cname=cast what=Lua protos=1[#1]
+  up1: table keys=7 {equalObjects:function, Dictionary:table, List:table, Set:table, isEmpty:function, Array:table, None:userdata}
+  up2: table keys=2 {cast:function, castThrough:function}
+  up3: userdata Workspace
+  up4: function params=2 src=ReplicatedStorage.Shared.Raycast:? cname=isPartWhitelisted what=Lua
+  up5: function params=1 src=ReplicatedStorage.Shared.Raycast:? cname=isPartFiltered what=Lua
+  up6: ERR
+  consts total=31
+  [1] str "Array"
+  [2] str "copy"
+F castThrough
+  params=4 src=ReplicatedStorage.Shared.Raycast:? cname=castThrough what=Lua protos=0[]
+  up1: table keys=2 {cast:function, castThrough:function}
+  up2: function params=4 src=ReplicatedStorage.Shared.Raycast:? cname=castThroughMaterials what=Lua
+  up3: ERR
+  consts total=14
+  [1] str "RaycastParams"
+  [2] str "new"

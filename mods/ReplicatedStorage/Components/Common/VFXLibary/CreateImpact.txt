@@ -1,0 +1,20 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateImpact
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=12 src=ReplicatedStorage.Components.Common.VFXLibary.CreateImpact:? what=Lua protos=3[#1,#2,#3]
+  up1: userdata Players
+  up2: userdata Impacts
+  up3: table keys=34 {Wood:string, Basalt:string, Sandstone:string, Brick:string, Cobblestone:string, Slate:string, Granite:string, Plastic:string, Salt:string, CrackedLava:string, Grass:string, Glass:string, Neon:string, Sand:string, Marble:string, CorrodedMetal:string, Glacier:string, Ground:string, Snow:string, ForceField:string, WoodPlanks:string, SmoothPlastic:string, Rock:string, Pavement:string, Limestone:string, Mud:string, Metal:string, LeafyGrass:string, DiamondPlate:string, Foil:string, Concrete:string, Fabric:string, Asphalt:string, Ice:string}
+  up4: function params=2 src=ReplicatedStorage.Components.Common.VFXLibary.CreateImpact:? cname=IsHeadImpact what=Lua
+  up5: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up6: userdata HttpService
+  up7: table keys=6 {IsFlashed:function, CancelFlash:function, OnFlashRecoveryStarted:table, GetAudioFadeMultiplier:function, Flash:function, OnFlashCleared:table}
+  up8: table keys=3 {IsEnabled:function, GetAttributeName:function, SetEnabled:function}
+  up9: table keys=8 {playOneTime:function, destroy:function, new:function, PlaySoundAtPosition:function, play:function, WarmPersistentSounds:function, __index:table, createSoundGroup:function}
+  up10: function params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateImpact:? cname=createImpactMarker what=Lua
+  up11: userdata Debris
+  up12: ERR
+  consts total=71
+  [1] str "debug"
+  [2] str "profilebegin"

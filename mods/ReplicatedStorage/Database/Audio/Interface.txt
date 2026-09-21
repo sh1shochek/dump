@@ -1,0 +1,48 @@
+PATH: ReplicatedStorage.Database.Audio.Interface
+REQUIRE: ok
+RETURNS: table
+KEYS: 22
+K Countdown Timer :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=100963371018337}}
+K Level Up :table keys=2
+  {["Properties"]={["Volume"]=0.75}, ["Identifiers"]={[1]=0}}
+K Mission Completed :table keys=2
+  {["Properties"]={["Volume"]=3}, ["Identifiers"]={[1]=89062677258924}}
+K New Item Reveal :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=92737314376950}}
+K Notification Error :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=84091803404257}}
+K Notification Success :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=98360775959854}}
+K Successful Buy Menu Purchase :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=134998174688363}}
+K TradeUp Approved :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=105067129475591}}
+K TradeUp Contract Slide :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=139279533555596}}
+K TradeUp Type 1 :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=99439656617348}}
+K TradeUp Type 2 :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=106193435474495}}
+K TradeUp Type 3 :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=90998900151715}}
+K UI Click :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=86919772875161}}
+K UI Dashboard Click :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=93054950840645}}
+K UI Gamemodes Click :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=86919772875161}}
+K UI Highlight :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=128542537508033}}
+K UI Inventory Click :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=111207632919524}}
+K UI Loadout Click :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=86919772875161}}
+K UI Play Click :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=91816417148938}}
+K UI Settings Click :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=72315850035802}}
+K UI Store Click :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=86919772875161}}
+K XP Bar Fill :table keys=2
+  {["Properties"]={["Volume"]=0.75}, ["Identifiers"]={[1]=119205674023715}}

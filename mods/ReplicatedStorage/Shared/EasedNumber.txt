@@ -1,0 +1,48 @@
+PATH: ReplicatedStorage.Shared.EasedNumber
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K __index :table keys=7
+  {["setGoal"]=<function:function: 0x3b8d7f043cd886fa>, ["useTween"]=<function:function: 0x0404691df7faff38>, ["update"]=<function:function: 0xbcc052c8e2f63df7>, ["useFixedRate"]=<function:function: 0xf59ea0c06b8867ce>, ["get"]=<function:function: 0xe1853466bbb64b72>, ["__index"]=<cycle>, ["new"]=<function:function: 0x8eebcc0be92b544d>}
+F get
+  params=1 src=ReplicatedStorage.Shared.EasedNumber:? cname=get what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "value"
+F new
+  params=1 src=ReplicatedStorage.Shared.EasedNumber:? cname=new what=Lua protos=0[]
+  up1: table keys=7 {setGoal:function, useTween:function, update:function, useFixedRate:function, get:function, __index:table, new:function}
+  up2: ERR
+  consts total=8
+  [1] str "setmetatable"
+F setGoal
+  params=2 src=ReplicatedStorage.Shared.EasedNumber:? cname=setGoal what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "value"
+  [2] str "lastValue"
+  [3] str "goal"
+  [4] str "os"
+  [5] str "clock"
+F update
+  params=2 src=ReplicatedStorage.Shared.EasedNumber:? cname=update what=Lua protos=0[]
+  up1: userdata TweenService
+  up2: ERR
+  consts total=18
+  [1] str "value"
+  [2] str "goal"
+  [3] str "tweenInfo"
+  [4] str "os"
+  [5] str "clock"
+F useFixedRate
+  params=2 src=ReplicatedStorage.Shared.EasedNumber:? cname=useFixedRate what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "rate"
+  [2] str "tweenInfo"
+F useTween
+  params=2 src=ReplicatedStorage.Shared.EasedNumber:? cname=useTween what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "rate"
+  [2] str "tweenInfo"

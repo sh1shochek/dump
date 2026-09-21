@@ -1,0 +1,17 @@
+PATH: ReplicatedStorage.MovementV2.Transport
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+K Definitions :table keys=6
+  {["Commands"]="UnreliableRemoteEvent", ["Control"]="RemoteEvent", ["Diagnostics"]="RemoteEvent", ["Trace"]="RemoteEvent", ["RemoteSnapshot"]="UnreliableRemoteEvent", ["OwnerSnapshot"]="UnreliableRemoteEvent"}
+K FolderName :string = MovementV2Remotes
+F getClientChannels
+  params=0 src=ReplicatedStorage.MovementV2.Transport:? cname=getClientChannels what=Lua protos=0[]
+  up1: table keys=6 {Commands:userdata, Control:userdata, Diagnostics:userdata, Trace:userdata, RemoteSnapshot:userdata, OwnerSnapshot:userdata}
+  up2: function params=0 src=ReplicatedStorage.MovementV2.Transport:? cname=resolveClientChannels what=Lua
+  up3: ERR
+  consts total=0
+F getServerChannels
+  params=0 src=ReplicatedStorage.MovementV2.Transport:? cname=getServerChannels what=Lua protos=0[]
+  ups: none
+  consts total=0

@@ -1,0 +1,30 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.MainMenu
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Callback
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.MainMe:? cname=onInput what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=3 {CloseFrame:function, IsDoublePressed:function, Add:function}
+  up3: table keys=8 {UpdateBackground:function, Start:function, ResetToMainMenu:function, openFrame:function, ToggleMenu:function, Initialize:function, CloseTeamSelection:function, reportPressedPlay:function}
+  up4: ERR
+  consts total=16
+  [1] str "IsPlayerChatting"
+  [2] str "GetAttribute"
+  [3] str "KeyCode"
+  [4] str "Enum"
+  [5] str "ButtonB"
+  [6] userdata
+  [7] str "CloseFrame"
+  [8] str "IsDoublePressed"
+  [9] str "IsSpectating"
+  [10] str "Team"
+  [11] str "Counter-Terrorists"
+  [12] str "Terrorists"
+  [13] str "UserInputState"
+  [14] str "Begin"
+  [15] userdata
+  [16] str "ToggleMenu"
+K Category :string = UI Keys
+K Group :string = Default
+K Name :string = Main Menu

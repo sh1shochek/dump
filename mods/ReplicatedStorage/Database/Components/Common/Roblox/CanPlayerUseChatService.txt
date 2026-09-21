@@ -1,0 +1,9 @@
+PATH: ReplicatedStorage.Database.Components.Common.Roblox.CanPlayerUseChatService
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Database.Components.Common.Roblox.CanPlaye:? what=Lua protos=1[#1]
+  up1: userdata TextChatService
+  up2: ERR
+  consts total=1
+  [1] str "pcall"

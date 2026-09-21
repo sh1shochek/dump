@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Classes.Loadout.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

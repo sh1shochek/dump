@@ -1,0 +1,47 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.PickupItem
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.PickupIt:? cname=Initialize what=Lua protos=1[#1]
+  up1: userdata PickupItem
+  up2: userdata CollectionService
+  up3: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.PickupIt:? cname=syncUpdateConnection what=Lua
+  up4: userdata Mateo_081005
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.PickupIt:? cname=trackCharacter what=Lua
+  up6: userdata Connection
+  up7: userdata Connection
+  up8: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  consts total=18
+  [1] str "IsHoveringInteractable"
+  [2] str "GetInstanceAddedSignal"
+  [3] str "Connect"
+  [4] str "GetInstanceRemovedSignal"
+  [5] str "IsSpectating"
+  [6] str "GetAttributeChangedSignal"
+  [7] str "CharacterAdded"
+  [8] str "CharacterRemoving"
+  [9] str "Character"
+  [10] str "CreateListener"
+  [11] str "Settings.Keyboard/Mouse"
+  [12] str "PreferredInput"
+  [13] str "GetPropertyChangedSignal"
+  [14] str "ApplyBindingToKeybind"
+  [15] str "Keybind"
+  [16] str "ResolveActionBinding"
+  [17] str "Use"
+  [18] str "Visible"
+F Render
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.PickupIt:? cname=Render what=Lua protos=0[]
+  up1: userdata CollectionService
+  up2: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.PickupIt:? cname=computePriority what=Lua
+  up3: table keys=5 {GetFullItemDisplayName:function, GetWeaponDisplayName:function, GetSkinDisplayName:function, GetInternalSearchQuery:function, GetSearchIdentity:function}
+  up4: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up5: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up6: userdata PickupItem
+  up7: ERR
+  consts total=42
+  [1] str "IsHoveringInteractable"
+  [2] str "GetTagged"
+  [3] str "table"
+  [4] str "sort"

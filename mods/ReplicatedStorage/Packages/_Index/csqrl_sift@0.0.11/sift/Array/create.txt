@@ -1,0 +1,7 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Array.create
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=[C]:? cname=create what=C protos=ERR
+  up1: ERR
+  consts: ERR

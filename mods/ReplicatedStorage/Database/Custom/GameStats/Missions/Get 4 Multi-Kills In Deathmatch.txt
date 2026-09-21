@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Get 4 Multi-Kills In Deathmatch
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K Category :string = multikills
+K Gamemodes :table keys=1
+  {[1]="Deathmatch"}
+K MissionId :string = Get 4 Multi-Kills In Deathmatch
+K Rewards :table keys=1
+  {[1]={["amount"]=26, ["type"]="Credits"}}
+K Target :number = 4
+K Type :string = daily

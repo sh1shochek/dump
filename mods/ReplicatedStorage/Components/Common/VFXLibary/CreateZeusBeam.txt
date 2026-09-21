@@ -1,0 +1,34 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateZeusBeam
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateZeusBeam:? what=Lua protos=1[#1]
+  up1: userdata Other
+  up2: function params=2 src=ReplicatedStorage.Components.Common.VFXLibary.CreateZeusBeam:? cname=getBeamUpVector what=Lua
+  up3: userdata Debris
+  up4: userdata Debris
+  up5: function params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateZeusBeam:? cname=getBeamCleanupTime what=Lua
+  up6: ERR
+  consts total=35
+  [1] str "ZeusBeam"
+  [2] str "FindFirstChild"
+  [3] str "BasePart"
+  [4] str "IsA"
+  [5] str "CFrame"
+  [6] str "LookVector"
+  [7] str "Magnitude"
+  [8] number 0.001
+  [9] str "Unit"
+  [10] str "Clone"
+  [11] str "Debris"
+  [12] str "CollisionGroup"
+  [13] str "CanCollide"
+  [14] str "CanQuery"
+  [15] str "CanTouch"
+  [16] str "Anchored"
+  [17] str "Position"
+  [18] number 0.5
+  [19] str "Size"
+  [20] str "X"
+  [21] str "UpVector"
+  [22] str "fromMatrix"

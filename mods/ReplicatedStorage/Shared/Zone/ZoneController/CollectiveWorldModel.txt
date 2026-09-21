@@ -1,0 +1,38 @@
+PATH: ReplicatedStorage.Shared.Zone.ZoneController.CollectiveWorldModel
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F GetPartBoundsInBox
+  params=4 src=ReplicatedStorage.Shared.Zone.ZoneController.CollectiveWorld:? cname=GetPartBoundsInBox what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "GetPartBoundsInBox"
+  [2] str "_getCombinedResults"
+F GetPartBoundsInRadius
+  params=4 src=ReplicatedStorage.Shared.Zone.ZoneController.CollectiveWorld:? cname=GetPartBoundsInRadius what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "GetPartBoundsInRadius"
+  [2] str "_getCombinedResults"
+F GetPartsInPart
+  params=3 src=ReplicatedStorage.Shared.Zone.ZoneController.CollectiveWorld:? cname=GetPartsInPart what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "GetPartsInPart"
+  [2] str "_getCombinedResults"
+F _getCombinedResults
+  params=2 src=ReplicatedStorage.Shared.Zone.ZoneController.CollectiveWorld:? cname=_getCombinedResults what=Lua protos=0[]
+  ups: none
+  consts total=6
+  [1] str "workspace"
+  [2] userdata
+  [3] str "pairs"
+F setupWorldModel
+  params=1 src=ReplicatedStorage.Shared.Zone.ZoneController.CollectiveWorld:? cname=setupWorldModel what=Lua protos=0[]
+  ups: none
+  consts total=13
+  [1] str "IsClient"
+  [2] str "ReplicatedStorage"
+  [3] str "ServerStorage"
+  [4] str "Instance"
+  [5] str "new"

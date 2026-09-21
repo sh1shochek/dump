@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Database.Audio.Finishers
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+K Fling :table keys=2
+  {["Properties"]={["Persistent"]=true, ["Volume"]=1}, ["Identifiers"]={[1]=132325238600961}}
+K Gold :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=73489888903401}}
+K LeSunshine :table keys=2
+  {["Properties"]={["Persistent"]=true, ["Volume"]=1.5}, ["Identifiers"]={[1]=113717841113057}}

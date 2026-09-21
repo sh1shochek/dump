@@ -1,0 +1,30 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.C4
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+K 7 :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=105, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=0}}
+K 73 :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=105, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=0}}
+K 735 :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=105, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=0}}
+K 7355 :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=105, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=0}}
+K 73556 :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=105, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=0}}
+K 735560 :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=105, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=0}}
+K 7355608 :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=105, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=0}}
+K Beep :table keys=2
+  {["Properties"]={["Volume"]=1.3, ["RollOffMaxDistance"]=350, ["RollOffMinDistance"]=100}, ["Identifiers"]={[1]=104816011091831}}
+K Boom :table keys=2
+  {["Properties"]={["Volume"]=2, ["RollOffMaxDistance"]=500, ["RollOffMinDistance"]=50}, ["Identifiers"]={[1]=140380495972795}}
+K Defusing :table keys=2
+  {["Properties"]={["Volume"]=2.2, ["RollOffMaxDistance"]=105, ["RollOffMinDistance"]=12}, ["Identifiers"]={[1]=116209203633664}}
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=79681018087442}}
+K Explosion :table keys=2
+  {["Properties"]={["Volume"]=2, ["RollOffMaxDistance"]=150, ["RollOffMinDistance"]=20}, ["Identifiers"]={[1]=81516735555573}}
+K Planting :table keys=2
+  {["Properties"]={["Volume"]=2.2, ["RollOffMaxDistance"]=105, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=95365518713925}}

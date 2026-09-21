@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Components.Common.FormatDuration
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=2 src=ReplicatedStorage.Components.Common.FormatDuration:? what=Lua protos=0[]
+  up1: ERR
+  consts total=16
+  [1] str "Never"
+  [2] str "math"
+  [3] str "floor"

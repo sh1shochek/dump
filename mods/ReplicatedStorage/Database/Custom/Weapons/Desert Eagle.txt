@@ -1,0 +1,39 @@
+PATH: ReplicatedStorage.Database.Custom.Weapons.Desert Eagle
+REQUIRE: ok
+RETURNS: table
+KEYS: 32
+K AimingOptions :string = None
+K ArmorPenetration :number = 0.932
+K Automatic :boolean = false
+K BulletsPerShot :number = 1
+K CameraAnimations :userdata CameraAnimations
+K Capacity :number = 35
+K CharacterAnimations :userdata CharacterAnimations
+K Class :string = Weapon
+K Cost :number = 700
+K DamagePerPart :table keys=4
+  {["Arms"]=60, ["Torso"]=75, ["Legs"]=45, ["Head"]=250}
+K Droppable :boolean = true
+K FireRate :number = 0.225
+K HasScope :boolean = false
+K HasSuppressor :boolean = false
+K Icon :string = rbxassetid://122477921917392
+K MuzzleType :string = Pistol
+K Penetration :number = 0.65
+K RagdollMultiplier :number = 42
+K Range :number = 1200
+K RangeModifier :number = 0.81
+K Recoil :table keys=6
+  {["Pattern"]=<function:function: 0xef3937bf0fc52769>, ["Damper"]=0.7, ["RecoverySpeed"]=2.5, ["Scale"]=1.6, ["Speed"]=18, ["CameraScale"]=0.8}
+K ReloadAnimationCount :number = 1
+K ReverseIcon :string = rbxassetid://101910609893699
+K Rounds :number = 7
+K ShootingOptions :string = Default
+K ShowCrosshair :boolean = true
+K Slot :string = Secondary
+K Spread :table keys=4
+  {["RecoverySpeed"]=7.5, ["PerShot"]=12, ["Range"]=<userdata:0.5 12.5 >, ["MovementMultiplier"]=2.2}
+K Team :string = Both
+K Type :string = Pistol
+K WalkSpeed :number = 18.584
+K WallbangMultiplier :number = 0.8

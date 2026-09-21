@@ -1,0 +1,7 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.InventorySchemas.Hostage Rescue
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+K InventorySlots :table keys=4
+  {[1]={["Type"]="Primary", ["MaxSlotSpace"]=1}, [2]={["Type"]="Secondary", ["MaxSlotSpace"]=1}, [3]={["Type"]="Melee", ["MaxSlotSpace"]=2}, [4]={["Type"]="Grenade", ["MaxSlotSpace"]=4}}
+K MaxInventorySpace :number = 4

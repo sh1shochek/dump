@@ -1,0 +1,8 @@
+PATH: TestService.LuauLSP_Settings
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+K include :table keys=14
+  {[1]=<userdata:Workspace>, [2]=<userdata:Players>, [3]=<userdata:Lighting>, [4]=<userdata:ReplicatedFirst>, [5]=<userdata:ReplicatedStorage>, [6]=<userdata:ServerScriptService>, [7]=<userdata:ServerStorage>, [8]=<userdata:StarterGui>, [9]=<userdata:StarterPack>, [10]=<userdata:StarterPlayer>, [11]=<userdata:SoundService>, [12]=<userdata:Chat>, [13]=<userdata:LocalizationService>, [14]=<userdata:TestService>}
+K port :number = 3667
+K startAutomatically :boolean = false

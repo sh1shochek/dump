@@ -1,0 +1,45 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.BombPlanted.Bomb
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+K __index :table keys=4
+  {["destroy"]=<function:function: 0x214afdeb841d8729>, ["updateHeartbeat"]=<function:function: 0x3da0e454905d2dd4>, ["__index"]=<cycle>, ["new"]=<function:function: 0x1a98ece08c041d79>}
+F destroy
+  params=1 src=ReplicatedStorage.Controllers.Observers.Game.BombPlanted.Bom:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Janitor"
+  [2] str "Destroy"
+F new
+  params=1 src=ReplicatedStorage.Controllers.Observers.Game.BombPlanted.Bom:? cname=new what=Lua protos=6[#1,#2,#3,#4,#5,#6]
+  up1: table keys=4 {destroy:function, updateHeartbeat:function, __index:table, new:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=8 {playOneTime:function, destroy:function, new:function, PlaySoundAtPosition:function, play:function, WarmPersistentSounds:function, __index:table, createSoundGroup:function}
+  up4: userdata HttpService
+  up5: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up6: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up7: userdata ReplicatedStorage
+  up8: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up9: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up10: table keys=1 {vibrate:function}
+  up11: userdata Mateo_081005
+  up12: ERR
+  consts total=48
+  [1] str "setmetatable"
+F updateHeartbeat
+  params=2 src=ReplicatedStorage.Controllers.Observers.Game.BombPlanted.Bom:? cname=updateHeartbeat what=Lua protos=0[]
+  up1: userdata Camera
+  up2: ERR
+  consts total=12
+  [1] str "Model"
+  [2] str "IsGettingDefused"
+  [3] str "GetAttribute"
+  [4] str "CanDefuse"
+  [5] str "SetAttribute"
+  [6] str "PrimaryPart"
+  [7] str "Position"
+  [8] str "Magnitude"
+  [9] str "CFrame"
+  [10] str "LookVector"
+  [11] str "Dot"
+  [12] number 0.966

@@ -1,0 +1,101 @@
+PATH: ReplicatedStorage.Classes.Sound
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+F PlaySoundAtPosition
+  params=6 src=ReplicatedStorage.Classes.Sound:? cname=PlaySoundAtPosition what=Lua protos=4[#1,#2,#3,#4]
+  up1: table keys=9 {NextLease:number, Template:userdata, Active:table, Destroyed:boolean, MaxRetained:number, Storage:userdata, Available:table, InPlace:boolean, Reset:function}
+  up2: userdata Debris
+  up3: function params=1 src=ReplicatedStorage.Classes.Sound:? cname=SelectSound what=Lua
+  up4: userdata HttpService
+  up5: function params=3 src=ReplicatedStorage.Classes.Sound:? cname=TrackMasterVolume what=Lua
+  up6: ERR
+  consts total=32
+  [1] str "IsDestroyed"
+  [2] str "Sounds"
+  [3] str "destroy"
+  [4] str "Name"
+  [5] str "FindFirstChild"
+  [6] str "Acquire"
+  [7] str "Janitor"
+  [8] str "Add"
+  [9] str "Position"
+  [10] str "Debris"
+  [11] str "CollisionGroup"
+  [12] str "Parent"
+  [13] str "Volume"
+  [14] str "GenerateGUID"
+  [15] str "Headshot"
+  [16] str "Helmet Headshot"
+  [17] str "Enum"
+  [18] str "RollOffMode"
+  [19] str "InverseTapered"
+  [20] userdata
+  [21] str "RollOffMaxDistance"
+  [22] str "RollOffMinDistance"
+  [23] number 0
+  [24] str "Play"
+  [25] str "Looped"
+  [26] str "task"
+  [27] str "delay"
+F WarmPersistentSounds
+  params=0 src=ReplicatedStorage.Classes.Sound:? cname=WarmPersistentSounds what=Lua protos=1[#1]
+  up1: userdata Sounds
+  up2: table keys=2 {1:userdata, 1:userdata}
+  up3: table keys=2 {1:number, 1:number}
+  up4: userdata PersistentSounds
+  up5: userdata SoundService
+  up6: userdata ContentProvider
+  up7: ERR
+  consts total=2
+  [1] str "task"
+  [2] str "spawn"
+K __index :table keys=8
+  {["playOneTime"]=<function:function: 0x05913fadd535594d>, ["destroy"]=<function:function: 0xa09f3f5395ddcba0>, ["new"]=<function:function: 0x4ed9129b1ed82975>, ["PlaySoundAtPosition"]=<function:function: 0x637ccf7384ac8d32>, ["play"]=<function:function: 0x8a2dbd57c38e4f65>, ["WarmPersistentSounds"]=<function:function: 0x78590c456f96be2a>, ["__index"]=<cycle>, ["createSoundGroup"]=<function:function: 0xfbaa728b839ab528>}
+F createSoundGroup
+  params=1 src=ReplicatedStorage.Classes.Sound:? cname=createSoundGroup what=Lua protos=0[]
+  up1: userdata Sounds
+  up2: function params=3 src=ReplicatedStorage.Classes.Sound:? cname=CreateSoundInstance what=Lua
+  up3: ERR
+  consts total=4
+  [1] str "require"
+F destroy
+  params=1 src=ReplicatedStorage.Classes.Sound:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "IsDestroyed"
+  [2] str "Janitor"
+  [3] str "Destroy"
+  [4] str "SoundGroupName"
+  [5] str "Sounds"
+F new
+  params=1 src=ReplicatedStorage.Classes.Sound:? cname=new what=Lua protos=0[]
+  up1: table keys=8 {playOneTime:function, destroy:function, new:function, PlaySoundAtPosition:function, play:function, WarmPersistentSounds:function, __index:table, createSoundGroup:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: userdata Sounds
+  up4: ERR
+  consts total=8
+  [1] str "setmetatable"
+F play
+  params=3 src=ReplicatedStorage.Classes.Sound:? cname=play what=Lua protos=2[#1,#2]
+  up1: userdata HttpService
+  up2: function params=1 src=ReplicatedStorage.Classes.Sound:? cname=TranslateSoundPath what=Lua
+  up3: table keys=2 {1:userdata, 1:userdata}
+  up4: table keys=2 {1:number, 1:number}
+  up5: userdata PersistentSounds
+  up6: userdata SoundService
+  up7: function params=3 src=ReplicatedStorage.Classes.Sound:? cname=TrackMasterVolume what=Lua
+  up8: ERR
+  consts total=33
+  [1] str "Parent"
+  [2] str "Path"
+  [3] str "Sound couldn't locate sound parent for %*"
+  [4] str "Name"
+  [5] str "format"
+  [6] str "assert"
+F playOneTime
+  params=3 src=ReplicatedStorage.Classes.Sound:? cname=playOneTime what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] number 1
+  [2] str "play"

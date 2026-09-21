@@ -1,0 +1,9 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dictionary.update
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=4 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=update what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=clone what=C
+  up2: ERR
+  consts total=1
+  [1] str "typeof"

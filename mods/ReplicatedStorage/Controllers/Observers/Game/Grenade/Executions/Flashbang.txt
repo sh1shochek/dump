@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.Grenade.Executions.Flashbang
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=3 src=ReplicatedStorage.Controllers.Observers.Game.Grenade.Executi:? what=Lua protos=2[#1,#2]
+  up1: userdata ReplicatedStorage
+  up2: userdata Debris
+  up3: ERR
+  consts total=29
+  [1] str "ipairs"

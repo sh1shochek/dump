@@ -1,0 +1,17 @@
+PATH: ReplicatedStorage.MovementV2.Collision.TopologyBuilder
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F Build
+  params=3 src=ReplicatedStorage.MovementV2.Collision.TopologyBuilder:? cname=Build what=Lua protos=0[]
+  up1: table keys=2 {Default:table, Resolve:function}
+  up2: function params=3 src=ReplicatedStorage.MovementV2.Collision.TopologyBuilder:? cname=buildStanceRecords what=Lua
+  up3: function params=2 src=ReplicatedStorage.MovementV2.Collision.TopologyBuilder:? cname=assertPairedRecords what=Lua
+  up4: table keys=3 {QueryInto:function, __index:table, Build:function}
+  up5: ERR
+  consts total=36
+  [1] str "Manifest"
+  [2] str "Epoch"
+  [3] number 65535
+  [4] str "collision epoch must fit non-zero u16"
+  [5] str "assert"

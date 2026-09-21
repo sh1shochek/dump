@@ -1,0 +1,25 @@
+PATH: ReplicatedStorage.Database.Components.Libraries.Collections
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F GetAllCollections
+  params=0 src=ReplicatedStorage.Database.Components.Libraries.Collections:? cname=GetAllCollections what=Lua protos=0[]
+  up1: table keys=11 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table}
+  up2: ERR
+  consts total=0
+F GetCollectionByName
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Collections:? cname=GetCollectionByName what=Lua protos=0[]
+  up1: table keys=11 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table}
+  up2: ERR
+  consts total=1
+  [1] str "ipairs"
+F ObserveAvailableCollections
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Collections:? cname=ObserveAvailableCollections what=Lua protos=1[#1]
+  up1: table keys=1 {_handlerListHead:table}
+  up2: boolean true
+  up3: table keys=11 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table}
+  up4: ERR
+  consts total=1
+  [1] str "Connect"
+K OnAvailableCollectionsUpdated :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x58ad0d2df00c3cdb>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0x22330a5249175f51>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0xccc18dbb89ec7b26>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0x74c639607659925e>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={...}}}}}}

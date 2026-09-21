@@ -1,0 +1,295 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat
+REQUIRE: ok
+RETURNS: table
+KEYS: 18
+F CloseChat
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=CloseChat what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=CloseChat what=Lua
+  up2: ERR
+  consts total=0
+F HandleChatCommand
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=HandleChatCommand what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=CopySpectatedCrosshair what=Lua
+  up2: userdata StarterGui
+  up3: ERR
+  consts total=15
+  [1] str "string"
+  [2] str "lower"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=Initialize what=Lua protos=3[#1,#2,#3]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Chat
+  up3: table keys=1 {1:string}
+  up4: function params=0 src=ReplicatedStorage.Components.Common.GetUserPlatform:? what=Lua
+  up5: userdata Template
+  up6: userdata ReplicatedStorage
+  up7: boolean false
+  up8: table keys=11 {characterRemoving:function, createTemplate:function, setupTemplate:function, characterAdded:function, toggleFrame:function, purchase:function, openFrame:function, Start:function, Initialize:function, closeFrame:function, updateBuyMenuTemplate:function}
+  up9: userdata Mateo_081005
+  up10: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=SetChatActive what=Lua
+  up11: table keys=2 {Labels:table, Modes:table}
+  up12: number 1
+  up13: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=CloseChat what=Lua
+  up14: table keys=18 {ProcessTeamJoin:function, CloseChat:function, ProcessSystemMessage:function, ProcessMoneyReward:function, ToggleChat:function, OpenChat:function, ProcessPlayerBanned:function, ProcessPlayerLeave:function, ProcessDefuseStart:function, ProcessKillMessage:function, ProcessTradeUp:function, Start:function, ProcessTeamDamage:function, Initialize:function, ProcessCaseOpened:function, HandleChatCommand:function, ProcessGrenadeThrow:function, ProcessChatData:function}
+  up15: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up16: userdata TextChatService
+  up17: function params=1 src=ReplicatedStorage.Database.Components.Common.Roblox.CanPlaye:? what=Lua
+  up18: ERR
+  consts total=23
+  [1] str "mark"
+  [2] str "UI.Chat.Initialize"
+  [3] str "Assets"
+  [4] str "UI"
+  [5] str "Chat"
+  [6] str "Template"
+  [7] str "Message"
+  [8] str "RichText"
+  [9] str "ipairs"
+F OpenChat
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=OpenChat what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: boolean false
+  up3: function params=1 src=ReplicatedStorage.Database.Components.Common.Roblox.CanPlaye:? what=Lua
+  up4: userdata Mateo_081005
+  up5: table keys=11 {characterRemoving:function, createTemplate:function, setupTemplate:function, characterAdded:function, toggleFrame:function, purchase:function, openFrame:function, Start:function, Initialize:function, closeFrame:function, updateBuyMenuTemplate:function}
+  up6: number 1
+  up7: userdata Chat
+  up8: table keys=2 {Labels:table, Modes:table}
+  up9: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=SetChatActive what=Lua
+  up10: table keys=1 {1:string}
+  up11: table keys=4 {PC:string, Console:string, VR:string, Mobile:string}
+  up12: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up13: ERR
+  consts total=21
+  [1] str "mark"
+  [2] str "UI.Chat.OpenChat"
+  [3] str "closeFrame"
+  [4] str "Visible"
+  [5] str "Type"
+  [6] str "TextBox"
+  [7] str "Labels"
+  [8] str "PlaceholderText"
+  [9] str "TextTransparency"
+  [10] str ""
+  [11] str "Text"
+  [12] str "table"
+  [13] str "find"
+F ProcessCaseOpened
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessCaseOpened what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=17 {PlayerBanned:string, TeamDamageAnnouncement:string, Suffixes:table, TeamDamageWarning:string, TeamJoinMessages:table, Points:table, SystemMessage:string, Money:table, GrenadeDisplayNames:table, DefuseStartLocationColor:string, DefuseStartAction:string, GrenadeColors:table, Badges:table, Roles:table, PlayerLeave:string, TeamColors:table, Prefixes:table}
+  up3: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up4: table keys=0 {}
+  up5: boolean false
+  up6: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMessageQueue what=Lua
+  consts total=49
+  [1] str "mark"
+  [2] str "UI.Chat.ProcessCaseOpened"
+  [3] str ""
+  [4] str "TeamColors"
+  [5] str "team"
+  [6] str "displayName"
+  [7] str "&"
+  [8] str "&amp;"
+  [9] str "gsub"
+  [10] str "<"
+  [11] str "&lt;"
+  [12] str ">"
+  [13] str "&gt;"
+  [14] str "string"
+  [15] str "format"
+F ProcessChatData
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessChatData what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=17 {PlayerBanned:string, TeamDamageAnnouncement:string, Suffixes:table, TeamDamageWarning:string, TeamJoinMessages:table, Points:table, SystemMessage:string, Money:table, GrenadeDisplayNames:table, DefuseStartLocationColor:string, DefuseStartAction:string, GrenadeColors:table, Badges:table, Roles:table, PlayerLeave:string, TeamColors:table, Prefixes:table}
+  up3: table keys=0 {}
+  up4: boolean false
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMessageQueue what=Lua
+  consts total=42
+  [1] str "mark"
+  [2] str "UI.Chat.ProcessChatData"
+  [3] str "role"
+  [4] str "Roles"
+  [5] str ""
+  [6] str "Prefixes"
+  [7] str "team"
+  [8] str "All"
+  [9] str "TeamColors"
+  [10] str "string"
+  [11] str "format"
+F ProcessDefuseStart
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessDefuseStart what=Lua protos=1[#1]
+  up1: table keys=17 {PlayerBanned:string, TeamDamageAnnouncement:string, Suffixes:table, TeamDamageWarning:string, TeamJoinMessages:table, Points:table, SystemMessage:string, Money:table, GrenadeDisplayNames:table, DefuseStartLocationColor:string, DefuseStartAction:string, GrenadeColors:table, Badges:table, Roles:table, PlayerLeave:string, TeamColors:table, Prefixes:table}
+  up2: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up3: table keys=0 {}
+  up4: boolean false
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMessageQueue what=Lua
+  consts total=38
+  [1] str ""
+  [2] str "TeamColors"
+  [3] str "team"
+  [4] str "displayName"
+  [5] str "&"
+  [6] str "&amp;"
+  [7] str "gsub"
+  [8] str "<"
+  [9] str "&lt;"
+  [10] str ">"
+  [11] str "&gt;"
+  [12] str "string"
+  [13] str "format"
+F ProcessGrenadeThrow
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessGrenadeThrow what=Lua protos=1[#1]
+  up1: table keys=17 {PlayerBanned:string, TeamDamageAnnouncement:string, Suffixes:table, TeamDamageWarning:string, TeamJoinMessages:table, Points:table, SystemMessage:string, Money:table, GrenadeDisplayNames:table, DefuseStartLocationColor:string, DefuseStartAction:string, GrenadeColors:table, Badges:table, Roles:table, PlayerLeave:string, TeamColors:table, Prefixes:table}
+  up2: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up3: table keys=0 {}
+  up4: boolean false
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMessageQueue what=Lua
+  consts total=38
+  [1] str ""
+  [2] str "TeamColors"
+  [3] str "team"
+  [4] str "displayName"
+  [5] str "&"
+  [6] str "&amp;"
+  [7] str "gsub"
+  [8] str "<"
+  [9] str "&lt;"
+  [10] str ">"
+  [11] str "&gt;"
+  [12] str "string"
+  [13] str "format"
+F ProcessKillMessage
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessKillMessage what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Mateo_081005
+  up3: table keys=17 {PlayerBanned:string, TeamDamageAnnouncement:string, Suffixes:table, TeamDamageWarning:string, TeamJoinMessages:table, Points:table, SystemMessage:string, Money:table, GrenadeDisplayNames:table, DefuseStartLocationColor:string, DefuseStartAction:string, GrenadeColors:table, Badges:table, Roles:table, PlayerLeave:string, TeamColors:table, Prefixes:table}
+  up4: table keys=0 {}
+  up5: boolean false
+  up6: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMessageQueue what=Lua
+  consts total=29
+  [1] str "mark"
+  [2] str "UI.Chat.ProcessKillMessage"
+  [3] str "Killer"
+  [4] str "tostring"
+F ProcessMoneyReward
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMoneyReward what=Lua protos=1[#1]
+  up1: table keys=17 {PlayerBanned:string, TeamDamageAnnouncement:string, Suffixes:table, TeamDamageWarning:string, TeamJoinMessages:table, Points:table, SystemMessage:string, Money:table, GrenadeDisplayNames:table, DefuseStartLocationColor:string, DefuseStartAction:string, GrenadeColors:table, Badges:table, Roles:table, PlayerLeave:string, TeamColors:table, Prefixes:table}
+  up2: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up3: table keys=0 {}
+  up4: boolean false
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMessageQueue what=Lua
+  consts total=28
+  [1] str "Money"
+  [2] str "source"
+  [3] str "amount"
+  [4] str "tonumber"
+F ProcessPlayerBanned
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessPlayerBanned what=Lua protos=1[#1]
+  up1: table keys=17 {PlayerBanned:string, TeamDamageAnnouncement:string, Suffixes:table, TeamDamageWarning:string, TeamJoinMessages:table, Points:table, SystemMessage:string, Money:table, GrenadeDisplayNames:table, DefuseStartLocationColor:string, DefuseStartAction:string, GrenadeColors:table, Badges:table, Roles:table, PlayerLeave:string, TeamColors:table, Prefixes:table}
+  up2: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up3: table keys=0 {}
+  up4: boolean false
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMessageQueue what=Lua
+  consts total=11
+  [1] str "string"
+  [2] str "format"
+F ProcessPlayerLeave
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessPlayerLeave what=Lua protos=1[#1]
+  up1: table keys=17 {PlayerBanned:string, TeamDamageAnnouncement:string, Suffixes:table, TeamDamageWarning:string, TeamJoinMessages:table, Points:table, SystemMessage:string, Money:table, GrenadeDisplayNames:table, DefuseStartLocationColor:string, DefuseStartAction:string, GrenadeColors:table, Badges:table, Roles:table, PlayerLeave:string, TeamColors:table, Prefixes:table}
+  up2: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up3: table keys=0 {}
+  up4: boolean false
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMessageQueue what=Lua
+  consts total=11
+  [1] str "string"
+  [2] str "format"
+F ProcessSystemMessage
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessSystemMessage what=Lua protos=1[#1]
+  up1: table keys=17 {PlayerBanned:string, TeamDamageAnnouncement:string, Suffixes:table, TeamDamageWarning:string, TeamJoinMessages:table, Points:table, SystemMessage:string, Money:table, GrenadeDisplayNames:table, DefuseStartLocationColor:string, DefuseStartAction:string, GrenadeColors:table, Badges:table, Roles:table, PlayerLeave:string, TeamColors:table, Prefixes:table}
+  up2: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up3: table keys=0 {}
+  up4: boolean false
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMessageQueue what=Lua
+  consts total=25
+  [1] str "string"
+  [2] str "format"
+F ProcessTeamDamage
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessTeamDamage what=Lua protos=1[#1]
+  up1: table keys=17 {PlayerBanned:string, TeamDamageAnnouncement:string, Suffixes:table, TeamDamageWarning:string, TeamJoinMessages:table, Points:table, SystemMessage:string, Money:table, GrenadeDisplayNames:table, DefuseStartLocationColor:string, DefuseStartAction:string, GrenadeColors:table, Badges:table, Roles:table, PlayerLeave:string, TeamColors:table, Prefixes:table}
+  up2: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up3: table keys=0 {}
+  up4: boolean false
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMessageQueue what=Lua
+  consts total=31
+  [1] str "messageType"
+  [2] str "Warning"
+  [3] str "TeamDamageWarning"
+  [4] str "mark"
+  [5] str "UI.Chat.QueueMessage"
+  [6] str "text"
+  [7] str "timestamp"
+  [8] table
+  [9] str "os"
+  [10] str "clock"
+F ProcessTeamJoin
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessTeamJoin what=Lua protos=1[#1]
+  up1: table keys=17 {PlayerBanned:string, TeamDamageAnnouncement:string, Suffixes:table, TeamDamageWarning:string, TeamJoinMessages:table, Points:table, SystemMessage:string, Money:table, GrenadeDisplayNames:table, DefuseStartLocationColor:string, DefuseStartAction:string, GrenadeColors:table, Badges:table, Roles:table, PlayerLeave:string, TeamColors:table, Prefixes:table}
+  up2: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up3: table keys=0 {}
+  up4: boolean false
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMessageQueue what=Lua
+  consts total=11
+  [1] str "TeamJoinMessages"
+  [2] str "string"
+  [3] str "format"
+F ProcessTradeUp
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessTradeUp what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=17 {PlayerBanned:string, TeamDamageAnnouncement:string, Suffixes:table, TeamDamageWarning:string, TeamJoinMessages:table, Points:table, SystemMessage:string, Money:table, GrenadeDisplayNames:table, DefuseStartLocationColor:string, DefuseStartAction:string, GrenadeColors:table, Badges:table, Roles:table, PlayerLeave:string, TeamColors:table, Prefixes:table}
+  up3: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up4: table keys=0 {}
+  up5: boolean false
+  up6: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ProcessMessageQueue what=Lua
+  consts total=49
+  [1] str "mark"
+  [2] str "UI.Chat.ProcessTradeUp"
+  [3] str ""
+  [4] str "TeamColors"
+  [5] str "team"
+  [6] str "displayName"
+  [7] str "&"
+  [8] str "&amp;"
+  [9] str "gsub"
+  [10] str "<"
+  [11] str "&lt;"
+  [12] str ">"
+  [13] str "&gt;"
+  [14] str "string"
+  [15] str "format"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=Start what=Lua protos=20[updateLocalPlayerAliveStatus,#2,getPlayerAliveStatus,processChannelMessage,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata TextChatService
+  up3: userdata Mateo_081005
+  up4: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up5: userdata Players
+  up6: table keys=18 {ProcessTeamJoin:function, CloseChat:function, ProcessSystemMessage:function, ProcessMoneyReward:function, ToggleChat:function, OpenChat:function, ProcessPlayerBanned:function, ProcessPlayerLeave:function, ProcessDefuseStart:function, ProcessKillMessage:function, ProcessTradeUp:function, Start:function, ProcessTeamDamage:function, Initialize:function, ProcessCaseOpened:function, HandleChatCommand:function, ProcessGrenadeThrow:function, ProcessChatData:function}
+  up7: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up8: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up9: userdata UserInputService
+  up10: table keys=2 {Labels:table, Modes:table}
+  up11: ERR
+  consts total=32
+  [1] str "debug"
+  [2] str "setmemorycategory"
+F ToggleChat
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=ToggleChat what=Lua protos=0[]
+  up1: boolean false
+  up2: number 0
+  up3: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Chat:? cname=CloseChat what=Lua
+  up4: table keys=18 {ProcessTeamJoin:function, CloseChat:function, ProcessSystemMessage:function, ProcessMoneyReward:function, ToggleChat:function, OpenChat:function, ProcessPlayerBanned:function, ProcessPlayerLeave:function, ProcessDefuseStart:function, ProcessKillMessage:function, ProcessTradeUp:function, Start:function, ProcessTeamDamage:function, Initialize:function, ProcessCaseOpened:function, HandleChatCommand:function, ProcessGrenadeThrow:function, ProcessChatData:function}
+  up5: ERR
+  consts total=5
+  [1] str "os"
+  [2] str "clock"

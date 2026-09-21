@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Database.Audio.Character
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+K Character Damaged :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=99240460301381, [2]=101859383657555, [3]=139730338159040, [4]=72794099968301}}
+K Character Death Grunt :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=94141667493613, [2]=75636280774479, [3]=73096326509225}}
+K Character Killed :table keys=2
+  {["Properties"]={["Volume"]=2.25, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=79494830572923}}
+K Fall Damage :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=2}, ["Identifiers"]={[1]=96077875667242}}

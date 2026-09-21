@@ -1,0 +1,34 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.Walk
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K BindPriority :number = 3001
+F Callback
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.Walk:? cname=onInput what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up4: table keys=13 {PlantBomb:function, TrackCharacter:function, crouch:function, getCurrentCharacter:function, UntrackCharacter:function, jump:function, GetCrouchState:function, CancelBombPlant:function, Initialize:function, Start:function, GetWalkState:function, PredictDoorUse:function, walk:function}
+  up5: ERR
+  consts total=18
+  [1] str "IsPlayerChatting"
+  [2] str "GetAttribute"
+  [3] str "isAliveCharacter"
+  [4] str "getPlayerCharacter"
+  [5] str "Get"
+  [6] str "Settings.Keyboard/Mouse.Keyboard & Mouse Settings.Walk Mode"
+  [7] str ""
+  [8] str "Hold"
+  [9] str "Toggle"
+  [10] str "Enum"
+  [11] str "UserInputState"
+  [12] str "Begin"
+  [13] userdata
+  [14] boolean false
+  [15] str "GetWalkState"
+  [16] str "walk"
+  [17] str "End"
+  [18] userdata
+K Category :string = Movement Keys
+K Group :string = Default
+K Name :string = Walk

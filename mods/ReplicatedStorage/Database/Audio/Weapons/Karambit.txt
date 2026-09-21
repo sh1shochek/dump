@@ -1,0 +1,18 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.Karambit
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K BackStab :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=139973941520045}}
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=134745018481603}}
+K Handling2 :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=86866127517719}}
+K HitOne :table keys=2
+  {["Properties"]={["Volume"]=1.15, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=81266173817845}}
+K HitThree :table keys=2
+  {["Properties"]={["Volume"]=1.15, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=85020825130566}}
+K HitTwo :table keys=2
+  {["Properties"]={["Volume"]=1.15, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=105579415089102}}
+K Inspect :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=78497440790307}}

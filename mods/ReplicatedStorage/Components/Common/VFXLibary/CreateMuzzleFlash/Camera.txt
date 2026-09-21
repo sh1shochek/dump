@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateMuzzleFlash.Camera
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=2 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMuzzleFl:? what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMuzzleFl:? cname=getEmitterConfigs what=Lua
+  up2: ERR
+  consts total=19
+  [1] str "debug"
+  [2] str "profilebegin"

@@ -1,0 +1,79 @@
+PATH: ReplicatedStorage.MovementV2.RootFrame
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+K DefaultRootHeightFromFeet :number = 3
+F cframe
+  params=3 src=ReplicatedStorage.MovementV2.RootFrame:? cname=cframe what=Lua protos=0[]
+  up1: table keys=8 {stateToRootPosition:function, simulationToRootPosition:function, simulationToVisualRootPosition:function, visualStance:function, DefaultRootHeightFromFeet:number, cframe:function, rootToSimulationPosition:function, getDuckRootVerticalOffset:function}
+  up2: ERR
+  consts total=7
+  [1] str "CFrame"
+  [2] str "new"
+F getDuckRootVerticalOffset
+  params=3 src=ReplicatedStorage.MovementV2.RootFrame:? cname=getDuckRootVerticalOffset what=Lua protos=0[]
+  up1: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up2: ERR
+  consts total=9
+  [1] str "Default"
+  [2] str "PlayerSizeStanding"
+  [3] str "Y"
+  [4] str "PlayerSizeDucking"
+  [5] number 0.5
+  [6] str "DuckJumpOriginShiftFraction"
+  [7] number 0
+  [8] str "math"
+  [9] str "clamp"
+F rootToSimulationPosition
+  params=4 src=ReplicatedStorage.MovementV2.RootFrame:? cname=rootToSimulationPosition what=Lua protos=0[]
+  up1: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up2: table keys=8 {stateToRootPosition:function, simulationToRootPosition:function, simulationToVisualRootPosition:function, visualStance:function, DefaultRootHeightFromFeet:number, cframe:function, rootToSimulationPosition:function, getDuckRootVerticalOffset:function}
+  up3: ERR
+  consts total=9
+  [1] str "Default"
+  [2] str "DefaultRootHeightFromFeet"
+  [3] number 0.5
+  [4] str "Ducking"
+  [5] str "PlayerSizeDucking"
+  [6] str "Y"
+  [7] str "PlayerSizeStanding"
+  [8] str "Vector3"
+  [9] str "new"
+F simulationToRootPosition
+  params=4 src=ReplicatedStorage.MovementV2.RootFrame:? cname=simulationToRootPosition what=Lua protos=0[]
+  up1: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up2: table keys=8 {stateToRootPosition:function, simulationToRootPosition:function, simulationToVisualRootPosition:function, visualStance:function, DefaultRootHeightFromFeet:number, cframe:function, rootToSimulationPosition:function, getDuckRootVerticalOffset:function}
+  up3: ERR
+  consts total=9
+  [1] str "Default"
+  [2] str "DefaultRootHeightFromFeet"
+  [3] number 0.5
+  [4] str "Ducking"
+  [5] str "PlayerSizeDucking"
+  [6] str "Y"
+  [7] str "PlayerSizeStanding"
+  [8] str "Vector3"
+  [9] str "new"
+F simulationToVisualRootPosition
+  params=4 src=ReplicatedStorage.MovementV2.RootFrame:? cname=simulationToVisualRootPosition what=Lua protos=0[]
+  up1: table keys=8 {stateToRootPosition:function, simulationToRootPosition:function, simulationToVisualRootPosition:function, visualStance:function, DefaultRootHeightFromFeet:number, cframe:function, rootToSimulationPosition:function, getDuckRootVerticalOffset:function}
+  up2: ERR
+  consts total=2
+  [1] str "simulationToRootPosition"
+  [2] str "visualStance"
+F stateToRootPosition
+  params=3 src=ReplicatedStorage.MovementV2.RootFrame:? cname=stateToRootPosition what=Lua protos=0[]
+  up1: table keys=8 {stateToRootPosition:function, simulationToRootPosition:function, simulationToVisualRootPosition:function, visualStance:function, DefaultRootHeightFromFeet:number, cframe:function, rootToSimulationPosition:function, getDuckRootVerticalOffset:function}
+  up2: ERR
+  consts total=3
+  [1] str "simulationToVisualRootPosition"
+  [2] str "Position"
+  [3] str "DuckAmount"
+F visualStance
+  params=1 src=ReplicatedStorage.MovementV2.RootFrame:? cname=visualStance what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] number 0
+  [2] number 0.999
+  [3] str "Ducking"
+  [4] str "Standing"

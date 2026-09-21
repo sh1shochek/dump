@@ -1,0 +1,55 @@
+
+== character ==
+character: Workspace.Characters.Mateo_081005
+  AnimationController AnimationController
+  Part CameraPart
+  Model CharacterArmor
+  MeshPart Head
+  Part HumanoidRootPart
+  MeshPart LeftFoot
+  MeshPart LeftHand
+  MeshPart LeftLowerArm
+  MeshPart LeftLowerLeg
+  MeshPart LeftUpperArm
+  MeshPart LeftUpperLeg
+  MeshPart LowerTorso
+  MeshPart RightFoot
+  MeshPart RightHand
+  MeshPart RightLowerArm
+  MeshPart RightLowerLeg
+  MeshPart RightUpperArm
+  MeshPart RightUpperLeg
+  MeshPart UpperTorso
+  Folder WeaponAttachments
+  Folder WeaponModel
+humanoid: NONE
+
+== players-teams ==
+players: 10
+  Mateo_081005 team=-
+  dazen_wewe team=-
+  BABINDGO_1 team=-
+  DGXXDFZS team=-
+  smertnik_54 team=-
+  bluefox9073 team=-
+  sifhasfhawkhghawgki team=-
+  Untez777 team=-
+  zona_y83 team=-
+  COOLXANTARES team=-
+
+== workspace-poi ==
+  Workspace.Characters.Hostages kids=0
+  Workspace.Debris.bluefox9073_WeaponAttachments.ObjectiveKitHolster kids=1
+  Workspace.Debris.BABINDGO_1_WeaponAttachments.ObjectiveKitHolster kids=1
+  Workspace.Debris.zona_y83_WeaponAttachments.BombHolster kids=3
+  Workspace.Debris.dazen_wewe_WeaponAttachments.ObjectiveKitHolster kids=1
+  Workspace.Map.Geometry.newasitewall kids=3
+  Workspace.Map.Geometry.asitebuilding2 kids=1
+  Workspace.Map.Geometry.sitewallfloor kids=2
+  Workspace.Map.Geometry.asitepieces kids=4
+  Workspace.Map.Geometry.sitewall kids=1
+  Workspace.Map.Geometry.asitebuilding2 kids=0
+  Workspace.Map.Geometry.asitebuilding3 kids=1
+  Workspace.Map.Zones.Sites kids=9
+  Workspace.Map.Zones.Spawns kids=3
+poi folders: 14

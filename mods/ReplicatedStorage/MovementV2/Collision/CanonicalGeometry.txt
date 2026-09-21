@@ -1,0 +1,71 @@
+PATH: ReplicatedStorage.MovementV2.Collision.CanonicalGeometry
+REQUIRE: ok
+RETURNS: table
+KEYS: 9
+F Crc32
+  params=1 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=Crc32 what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=updateCrc32 what=Lua
+  up2: ERR
+  consts total=5
+  [1] str "typeof"
+F Decode
+  params=1 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=Decode what=Lua protos=0[]
+  up1: table keys=15 {MaxWalkmeshTriangles:number, SourceKindName:table, Tags:table, BarriersNameLower:string, MaxSourceCount:number, SourceKind:table, Attributes:table, GetSourceKindName:function, MaxWalkmeshVertices:number, WalkmeshHeader:string, MaxEpoch:number, MaxDestructibleCount:number, ManifestVersion:number, IsSourceKind:function, CanonicalGeometryVersion:string}
+  up2: table keys=9 {Encode:function, Crc32:function, TryEncode:function, ReadPublished:function, DescriptorAttribute:string, Publish:function, EncodeInstance:function, Decode:function, HashStrings:function}
+  up3: function params=1 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=parseCanonicalInteger what=Lua
+  up4: ERR
+  consts total=57
+  [1] str "typeof"
+K DescriptorAttribute :string = MovementV2CanonicalGeometry
+F Encode
+  params=2 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=Encode what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=encodeRaw what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "assert"
+F EncodeInstance
+  params=1 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=EncodeInstance what=Lua protos=0[]
+  up1: table keys=9 {Encode:function, Crc32:function, TryEncode:function, ReadPublished:function, DescriptorAttribute:string, Publish:function, EncodeInstance:function, Decode:function, HashStrings:function}
+  up2: ERR
+  consts total=11
+  [1] str "BasePart"
+  [2] str "IsA"
+  [3] str "Encode"
+  [4] str "CFrame"
+  [5] str "Size"
+  [6] str "Model"
+  [7] str "GetPivot"
+  [8] vector
+  [9] str "error"
+F HashStrings
+  params=1 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=HashStrings what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=updateCrc32 what=Lua
+  up2: ERR
+  consts total=27
+  [1] str "table"
+  [2] str "clone"
+F Publish
+  params=1 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=Publish what=Lua protos=0[]
+  up1: table keys=9 {Encode:function, Crc32:function, TryEncode:function, ReadPublished:function, DescriptorAttribute:string, Publish:function, EncodeInstance:function, Decode:function, HashStrings:function}
+  up2: table keys=15 {MaxWalkmeshTriangles:number, SourceKindName:table, Tags:table, BarriersNameLower:string, MaxSourceCount:number, SourceKind:table, Attributes:table, GetSourceKindName:function, MaxWalkmeshVertices:number, WalkmeshHeader:string, MaxEpoch:number, MaxDestructibleCount:number, ManifestVersion:number, IsSourceKind:function, CanonicalGeometryVersion:string}
+  up3: ERR
+  consts total=4
+  [1] str "EncodeInstance"
+  [2] str "Attributes"
+  [3] str "CanonicalGeometry"
+  [4] str "SetAttribute"
+F ReadPublished
+  params=1 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=ReadPublished what=Lua protos=0[]
+  up1: table keys=15 {MaxWalkmeshTriangles:number, SourceKindName:table, Tags:table, BarriersNameLower:string, MaxSourceCount:number, SourceKind:table, Attributes:table, GetSourceKindName:function, MaxWalkmeshVertices:number, WalkmeshHeader:string, MaxEpoch:number, MaxDestructibleCount:number, ManifestVersion:number, IsSourceKind:function, CanonicalGeometryVersion:string}
+  up2: table keys=9 {Encode:function, Crc32:function, TryEncode:function, ReadPublished:function, DescriptorAttribute:string, Publish:function, EncodeInstance:function, Decode:function, HashStrings:function}
+  up3: ERR
+  consts total=13
+  [1] str "Attributes"
+  [2] str "CanonicalGeometry"
+  [3] str "GetAttribute"
+  [4] str "typeof"
+F TryEncode
+  params=2 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=TryEncode what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.Collision.CanonicalGeometry:? cname=encodeRaw what=Lua
+  up2: ERR
+  consts total=0

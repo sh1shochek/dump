@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Controllers.HintController.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

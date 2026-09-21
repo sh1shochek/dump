@@ -1,0 +1,34 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+K activeControlModule :table keys=7
+  {["UpdateMovement"]=<function:function: 0x4d640bca45333e0b>, ["ConnectFocusEventListeners"]=<function:function: 0x2444be79125cb85f>, ["UpdateJump"]=<function:function: 0x9ef8884f802c51e4>, ["Enable"]=<function:function: 0x341dcb3fa3eca484>, ["BindContextActions"]=<function:function: 0xa9982acd551fa1b3>, ["__index"]=<cycle>, ["new"]=<function:function: 0x855105a9a86841d6>}
+K activeController :table keys=12
+  {["_connectionUtil"]={["_connections"]={["jumpAction"]=<function:function: 0x17b3666e2910b8f4>, ["textBoxFocusReleased"]=<function:function: 0x800255cf22efdb33>, ["moveForwardAction"]=<function:function: 0xf0ca62a90df80d6f>, ["windowFocusReleased"]=<function:function: 0x68bc6950940a57c9>, ["moveBackwardAction"]=<function:function: 0xae09655b4d623455>, ["moveLeftAction"]=<function:function: 0xbd9445c0280cbd57>, ["textBoxFocused"]=<function:function: 0x832b62fb5adf9445>, ["moveRightAction"]=<function:function: 0x3a64c2a60897f670>}}, ["jumpEnabled"]=true, ["forwardValue"]=0, ["moveVector"]=<vector:0, 0, 0>, ["backwardValue"]=0, ["CONTROL_ACTION_PRIORITY"]=2000, ["jumpRequested"]=false, ["leftValue"]=0, ["moveVectorIsCameraRelative"]=true, ["rightValue"]=0, ["enabled"]=true, ["isJumping"]=false}
+K character :userdata Mateo_081005
+K controllers :table keys=1
+  {[{["UpdateMovement"]=<function:function: 0x4d640bca45333e0b>, ["ConnectFocusEventListeners"]=<function:function: 0x2444be79125cb85f>, ["UpdateJump"]=<function:function: 0x9ef8884f802c51e4>, ["Enable"]=<function:function: 0x341dcb3fa3eca484>, ["BindContextActions"]=<function:function: 0xa9982acd551fa1b3>, ["__index"]=<cycle>, ["new"]=<function:function: 0x855105a9a86841d6>}]={["_connectionUtil"]={["_connections"]={["jumpAction"]=<function:function: 0x17b3666e2910b8f4>, ["textBoxFocusReleased"]=<function:function: 0x800255cf22efdb33>, ["moveForwardAction"]=<function:function: 0xf0ca62a90df80d6f>, ["windowFocusReleased"]=<function:function: 0x68bc6950940a57c9>, ["moveBackwardAction"]=<function:function: 0xae09655b4d623455>, ["moveLeftAction"]=<function:function: 0xbd9445c0280cbd57>, ["textBoxFocused"]=<function:function: 0x832b62fb5adf9445>, ["moveRightAction"]=<function:function: 0x3a64c2a60897f670>}}, ["jumpEnabled"]=true, ["forwardValue"]=0, ["moveVector"]=<vector:0, 0, 0>, ["backwardValue"]=0, ["CONTROL_ACTION_PRIORITY"]=2000, ["jumpRequested"]=false, ["leftValue"]=0, ["moveVectorIsCameraRelative"]=true, ["rightValue"]=0, ["enabled"]=true, ["isJumping"]=false}}
+K controlsEnabled :boolean = true
+K currentTorsoAngle :number = 0
+K customCharacterMotor :table keys=3
+  {["Sit"]=false, ["RootPart"]=<userdata:HumanoidRootPart>, ["GetState"]=<function:function: 0x7ae9a3ec02f2326d>}
+K humanoid :table keys=3
+  {["Sit"]=false, ["RootPart"]=<userdata:HumanoidRootPart>, ["GetState"]=<function:function: 0x7ae9a3ec02f2326d>}
+K inputMoveVector :vector 0, 0, 0
+K lastInputType :userdata Enum.UserInputType.None
+F moveFunction
+  params=0 src=[C]:? cname=Move what=C protos=ERR
+  up1: userdata userdata: 0xf27509e1d3dc0eff
+  up2: ERR
+  consts: ERR
+F presentedCharacterDisconnect
+  params=0 src=ReplicatedStorage.Components.Common.CharacterResolver:? what=Lua protos=0[]
+  up1: userdata Connection
+  up2: userdata Connection
+  up3: function params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? what=Lua
+  up4: ERR
+  consts total=1
+  [1] str "Disconnect"
+K vehicleController :table keys=10
+  {["enabled"]=false, ["acceleration"]=0, ["decceleration"]=0, ["CONTROL_ACTION_PRIORITY"]=2000, ["autoPilot"]={["MaxSpeed"]=0, ["MaxSteeringAngle"]=0}, ["vehicleMoveVector"]=<vector:0, 0, 0>, ["throttle"]=0, ["turningRight"]=0, ["turningLeft"]=0, ["steer"]=0}

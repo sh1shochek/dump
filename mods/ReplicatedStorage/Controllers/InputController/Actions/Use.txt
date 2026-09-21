@@ -1,0 +1,43 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.Use
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Callback
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.Use:? cname=onInput what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: userdata CollectionService
+  up4: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up5: function params=0 src=ReplicatedStorage.Controllers.InputController.Actions.Use:? cname=GetHoveredBreakableDoor what=Lua
+  up6: userdata Workspace
+  up7: table keys=13 {PlantBomb:function, TrackCharacter:function, crouch:function, getCurrentCharacter:function, UntrackCharacter:function, jump:function, GetCrouchState:function, CancelBombPlant:function, Initialize:function, Start:function, GetWalkState:function, PredictDoorUse:function, walk:function}
+  up8: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up9: function params=0 src=ReplicatedStorage.Controllers.InputController.Actions.Use:? cname=GetHoveredHostage what=Lua
+  up10: function params=2 src=ReplicatedStorage.Controllers.InputController.Actions.Use:? cname=computePriority what=Lua
+  up11: table keys=6 {Decoy Grenade:number, Smoke Grenade:number, Incendiary Grenade:number, Molotov:number, Flashbang:number, HE Grenade:number}
+  up12: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up13: table keys=6 {Melee:number, Priorities:table, Grenade:number, Primary:number, C4:number, Secondary:number}
+  up14: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up15: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up16: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up17: ERR
+  consts total=86
+  [1] str "IsPlayerChatting"
+  [2] str "GetAttribute"
+  [3] str "getLocalCharacter"
+  [4] str "Enum"
+  [5] str "UserInputState"
+  [6] str "Begin"
+  [7] userdata
+  [8] str "Bomb"
+  [9] str "GetTagged"
+  [10] str "CanDefuse"
+  [11] str "IsGettingDefused"
+  [12] str "Defused"
+  [13] str "broadcastRouter"
+  [14] str "Start Defuse Bomb"
+  [15] str "MovementV2DoorDebug"
+  [16] str "print"
+K Category :string = Weapon Keys
+K Group :string = Gameplay
+K Name :string = Use

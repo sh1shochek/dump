@@ -1,0 +1,67 @@
+PATH: ReplicatedStorage.MovementV2.Simulation.PlayerContacts
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K DefaultContactEpsilon :number = 0.002
+K DefaultIterations :number = 4
+K DefaultSeparationSkin :number = 0.0005
+F fromWorldVelocity
+  params=2 src=ReplicatedStorage.MovementV2.Simulation.PlayerContacts:? cname=fromWorldVelocity what=Lua protos=0[]
+  up1: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up2: ERR
+  consts total=4
+  [1] str "Kind"
+  [2] str "SupportKind"
+  [3] str "None"
+  [4] str "Velocity"
+F newScratch
+  params=0 src=ReplicatedStorage.MovementV2.Simulation.PlayerContacts:? cname=newScratch what=Lua protos=0[]
+  up1: ERR
+  consts total=10
+  [1] str "HalfSizes"
+  [2] str "Deltas"
+  [3] str "Counts"
+  [4] str "Contacts"
+  [5] str "SupportTopById"
+  [6] str "SupportLowerById"
+  [7] str "SupportAnchorById"
+  [8] str "BodiesById"
+  [9] str "SupportsById"
+  [10] table
+F solve
+  params=2 src=ReplicatedStorage.MovementV2.Simulation.PlayerContacts:? cname=solve what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.MovementV2.Simulation.PlayerContacts:? cname=validateBodies what=Lua
+  up2: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up3: table keys=7 {toWorldVelocity:function, solve:function, DefaultContactEpsilon:number, DefaultIterations:number, DefaultSeparationSkin:number, newScratch:function, fromWorldVelocity:function}
+  up4: table keys=12 {MaxEvents:number, RequestSize:number, unavailable:function, identity:function, Ring:table, compare:function, vector:function, checkpoint:function, encodeRequest:function, describe:function, collision:function, decodeRequest:function}
+  up5: function params=4 src=ReplicatedStorage.MovementV2.Simulation.PlayerContacts:? cname=sweptPair what=Lua
+  up6: function params=6 src=ReplicatedStorage.MovementV2.Simulation.PlayerContacts:? cname=accumulateMoverCorrection what=Lua
+  up7: function params=6 src=ReplicatedStorage.MovementV2.Simulation.PlayerContacts:? cname=applyCorrections what=Lua
+  up8: function params=4 src=ReplicatedStorage.MovementV2.Simulation.PlayerContacts:? cname=overlapContact what=Lua
+  up9: function params=4 src=ReplicatedStorage.MovementV2.Simulation.PlayerContacts:? cname=removeInwardVelocity what=Lua
+  up10: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up11: ERR
+  consts total=90
+  [1] str "Config"
+  [2] str "Default"
+  [3] str "Iterations"
+  [4] str "DefaultIterations"
+  [5] str "ContactEpsilon"
+  [6] str "DefaultContactEpsilon"
+  [7] str "SeparationSkin"
+  [8] str "DefaultSeparationSkin"
+  [9] str "Scratch"
+  [10] str "newScratch"
+  [11] number 1
+  [12] number 0
+  [13] str "invalid player contact iteration count"
+  [14] str "assert"
+F toWorldVelocity
+  params=2 src=ReplicatedStorage.MovementV2.Simulation.PlayerContacts:? cname=toWorldVelocity what=Lua protos=0[]
+  up1: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up2: ERR
+  consts total=4
+  [1] str "Kind"
+  [2] str "SupportKind"
+  [3] str "None"
+  [4] str "Velocity"

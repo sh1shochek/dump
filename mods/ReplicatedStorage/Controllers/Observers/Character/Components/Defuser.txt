@@ -1,0 +1,28 @@
+PATH: ReplicatedStorage.Controllers.Observers.Character.Components.Defuser
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F Destroy
+  params=1 src=ReplicatedStorage.Controllers.Observers.Character.Components:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Janitor"
+  [2] str "Destroy"
+K __index :table keys=3
+  {["Destroy"]=<function:function: 0x8760250eb8562c98>, ["__index"]=<cycle>, ["new"]=<function:function: 0x288d62a2f0e4e976>}
+F new
+  params=2 src=ReplicatedStorage.Controllers.Observers.Character.Components:? cname=new what=Lua protos=1[#1]
+  up1: table keys=3 {Destroy:function, __index:table, new:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up4: userdata CollectionService
+  up5: userdata Defuser
+  up6: userdata 0, -0.200000003, -0.5, -1, 0, -8.74227766e-08, 0, 1, 0, 8.74227766e-08, 0, -1
+  up7: function params=3 src=ReplicatedStorage.Controllers.Observers.Character.Components:? cname=cloneDefusePart what=Lua
+  up8: userdata DefuseA1
+  up9: userdata DefuseA2
+  up10: userdata DefuseB1
+  up11: userdata DefuseB2
+  up12: ERR
+  consts total=7
+  [1] str "setmetatable"

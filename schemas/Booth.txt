@@ -1,0 +1,13 @@
+WEAPON: Booth skins=6
+--- DJ ---
+{["floatRange"]={["min"]=0, ["max"]=1}, ["type"]="Booth", ["rarity"]="Red", ["floatChances"]={}, ["isMarketplaceVisible"]=true, ["wearImages"]={}, ["charmImages"]={}, ["isEnabled"]=true, ["supportsStatTrak"]=false, ["imageAssetId"]="rbxassetid://73567530090046", ["name"]="Booth", ["skin"]="DJ", ["collection"]="", ["statTrakChance"]=0, ["paintId"]="Booth | DJ", ["description"]="Booth decorated as a DJ stand."}
+--- Default ---
+{["floatRange"]={["min"]=0, ["max"]=1}, ["type"]="Booth", ["rarity"]="Stock", ["floatChances"]={}, ["isMarketplaceVisible"]=false, ["wearImages"]={}, ["charmImages"]={}, ["isEnabled"]=true, ["supportsStatTrak"]=false, ["imageAssetId"]="rbxassetid://139081226604353", ["name"]="Booth", ["skin"]="Default", ["collection"]="", ["statTrakChance"]=0, ["paintId"]="Booth | Default", ["description"]="starter booth"}
+--- Food Cart ---
+{["floatRange"]={["min"]=0, ["max"]=1}, ["type"]="Booth", ["rarity"]="Purple", ["floatChances"]={}, ["isMarketplaceVisible"]=true, ["wearImages"]={}, ["charmImages"]={}, ["isEnabled"]=true, ["supportsStatTrak"]=false, ["imageAssetId"]="rbxassetid://78087723287075", ["name"]="Booth", ["skin"]="Food Cart", ["collection"]="", ["statTrakChance"]=0, ["paintId"]="Booth | Food Cart", ["description"]="Booth decorated as a food cart."}
+--- Ice Cream Stand ---
+{["floatRange"]={["min"]=0, ["max"]=1}, ["type"]="Booth", ["rarity"]="Purple", ["floatChances"]={}, ["isMarketplaceVisible"]=true, ["wearImages"]={}, ["charmImages"]={}, ["isEnabled"]=true, ["supportsStatTrak"]=false, ["imageAssetId"]="rbxassetid://130065310773849", ["name"]="Booth", ["skin"]="Ice Cream Stand", ["collection"]="", ["statTrakChance"]=0, ["paintId"]="Booth | Ice Cream Stand", ["description"]="Booth decorated as an ice cream stand."}
+--- Pirate Ship ---
+{["floatRange"]={["min"]=0, ["max"]=1}, ["type"]="Booth", ["rarity"]="Pink", ["floatChances"]={}, ["isMarketplaceVisible"]=true, ["wearImages"]={}, ["charmImages"]={}, ["isEnabled"]=true, ["supportsStatTrak"]=false, ["imageAssetId"]="rbxassetid://119298705748851", ["name"]="Booth", ["skin"]="Pirate Ship", ["collection"]="", ["statTrakChance"]=0, ["paintId"]="Booth | Pirate Ship", ["description"]="Booth decorated as a pirate ship."}
+--- VIP ---
+{["floatRange"]={["min"]=0, ["max"]=1}, ["type"]="Booth", ["rarity"]="Red", ["floatChances"]={}, ["isMarketplaceVisible"]=true, ["wearImages"]={}, ["charmImages"]={}, ["isEnabled"]=true, ["supportsStatTrak"]=false, ["imageAssetId"]="rbxassetid://89894846658375", ["name"]="Booth", ["skin"]="VIP", ["collection"]="", ["statTrakChance"]=0, ["paintId"]="Booth | VIP", ["description"]="Exclusive to Trading VIP members!"}

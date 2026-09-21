@@ -1,0 +1,30 @@
+PATH: ReplicatedStorage.Movement.WeaponSelectProtocol
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+K MaxIdentifierBytes :number = 96
+K MaxRequestId :number = 4294967295
+K RequestHalfRange :number = 2147483648
+K RequestModulus :number = 4294967296
+F isNewerRequestId
+  params=2 src=ReplicatedStorage.Movement.WeaponSelectProtocol:? cname=isNewerRequestId what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] number 4294967296
+  [2] number 2147483648
+F isValidIdentifier
+  params=1 src=ReplicatedStorage.Movement.WeaponSelectProtocol:? cname=isValidIdentifier what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "typeof"
+F isValidRequestId
+  params=1 src=ReplicatedStorage.Movement.WeaponSelectProtocol:? cname=isValidRequestId what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "typeof"
+F nextRequestId
+  params=1 src=ReplicatedStorage.Movement.WeaponSelectProtocol:? cname=nextRequestId what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] number 1
+  [2] number 4294967295

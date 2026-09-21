@@ -1,0 +1,144 @@
+PATH: ReplicatedStorage.Components.C4
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+K __index :table keys=11
+  {["destroy"]=<function:function: 0xdfcc8e65f2bf5c95>, ["cancel"]=<function:function: 0xcf575e6f15408cba>, ["reload"]=<function:function: 0x2cabbdd366172577>, ["shoot"]=<function:function: 0xf4db4bea1df7fbe9>, ["unequip"]=<function:function: 0x0737cd76adfef254>, ["stopAllAnimations"]=<function:function: 0x8575dcf13a9cc8d5>, ["drop"]=<function:function: 0x19c7c58cf0835d37>, ["equip"]=<function:function: 0x8b66c3fb434b5411>, ["inspect"]=<function:function: 0x63fad706b066a578>, ["__index"]=<cycle>, ["new"]=<function:function: 0x54ef4162106bc97d>}
+F cancel
+  params=1 src=ReplicatedStorage.Components.C4:? cname=cancel what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up2: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up3: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up4: ERR
+  consts total=21
+  [1] str "IsPlanting"
+  [2] str "Viewmodel"
+  [3] str "Model"
+  [4] str "Weapon"
+  [5] str "Interactive"
+  [6] str "SurfaceGui"
+  [7] str "TextLabel"
+  [8] str "*******"
+  [9] str "Text"
+  [10] str "stopAllAnimations"
+  [11] str "Cancel Plant"
+  [12] str "C4"
+  [13] str "Cancel"
+  [14] str "Send"
+  [15] str "Identifier"
+  [16] str "broadcastRouter"
+  [17] str "Cancel Bomb Plant"
+  [18] str "Janitor"
+  [19] str "BombAnimationEnded"
+  [20] str "Get"
+  [21] str "Remove"
+F destroy
+  params=1 src=ReplicatedStorage.Components.C4:? cname=destroy what=Lua protos=0[]
+  ups: none
+  consts total=8
+  [1] str "IsDestroyed"
+  [2] str "IsPlanting"
+  [3] str "cancel"
+  [4] str "Janitor"
+  [5] str "Destroy"
+  [6] str "PlantStartedTick"
+  [7] str "IsInspecting"
+  [8] str "destroy"
+F drop
+  params=1 src=ReplicatedStorage.Components.C4:? cname=drop what=Lua protos=0[]
+  up1: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up2: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up3: function params=1 src=ReplicatedStorage.Components.Common.GetCharacterVelocity:? cname=GetCharacterVelocity what=Lua
+  up4: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up5: userdata Camera
+  up6: ERR
+  consts total=21
+  [1] str "workspace"
+  [2] userdata
+  [3] str "Gamemode"
+  [4] str "GetAttribute"
+  [5] str "Deathmatch"
+  [6] str "GetState"
+  [7] str "Warmup"
+  [8] str "IsPlanting"
+  [9] str "Properties"
+  [10] str "Droppable"
+  [11] str "unequip"
+  [12] str "Inventory"
+  [13] str "DropWeapon"
+  [14] str "Send"
+  [15] str "CharacterVelocity"
+  [16] str "Direction"
+  [17] str "Identifier"
+  [18] table
+  [19] str "getLocalCharacter"
+  [20] str "CFrame"
+  [21] str "LookVector"
+F equip
+  params=1 src=ReplicatedStorage.Components.C4:? cname=equip what=Lua protos=0[]
+  ups: none
+  consts total=8
+  [1] str "Viewmodel"
+  [2] str "Animation"
+  [3] str "stopAnimations"
+  [4] str "CharacterAnimator"
+  [5] str "Idle"
+  [6] str "play"
+  [7] str "Equip"
+  [8] str "equip"
+F inspect
+  params=1 src=ReplicatedStorage.Components.C4:? cname=inspect what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up2: ERR
+  consts total=11
+  [1] str "IsInspecting"
+  [2] str "IsPlanting"
+  [3] str "stopAllAnimations"
+  [4] str "Viewmodel"
+  [5] str "Animation"
+  [6] str "Inspect"
+  [7] str "play"
+  [8] str "task"
+  [9] str "delay"
+F new
+  params=13 src=ReplicatedStorage.Components.C4:? cname=new what=Lua protos=1[#1]
+  up1: table keys=2 {destroy:function, new:function}
+  up2: table keys=11 {destroy:function, cancel:function, reload:function, shoot:function, unequip:function, stopAllAnimations:function, drop:function, equip:function, inspect:function, __index:table, new:function}
+  up3: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up4: function params=0 src=ReplicatedStorage.Components.C4:? cname=PlayerCanPlantC4 what=Lua
+  up5: ERR
+  consts total=11
+  [1] str "new"
+  [2] str "setmetatable"
+F reload
+  params=1 src=ReplicatedStorage.Components.C4:? cname=reload what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F shoot
+  params=1 src=ReplicatedStorage.Components.C4:? cname=shoot what=Lua protos=1[#1]
+  up1: function params=0 src=ReplicatedStorage.Components.C4:? cname=PlayerCanPlantC4 what=Lua
+  up2: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up3: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up4: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up5: ERR
+  consts total=26
+  [1] str "IsPlanting"
+  [2] str "tick"
+F stopAllAnimations
+  params=1 src=ReplicatedStorage.Components.C4:? cname=stopAllAnimations what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "CharacterAnimator"
+  [2] str "Viewmodel"
+  [3] str "Animation"
+  [4] str "pairs"
+F unequip
+  params=1 src=ReplicatedStorage.Components.C4:? cname=unequip what=Lua protos=0[]
+  ups: none
+  consts total=6
+  [1] str "IsPlanting"
+  [2] str "cancel"
+  [3] str "CharacterAnimator"
+  [4] str "stopAnimations"
+  [5] str "Viewmodel"
+  [6] str "unequip"

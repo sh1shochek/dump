@@ -1,0 +1,31 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Career.Selection
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K Changed :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x390ed918ab75411a>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}
+F Get
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.Selection:? cname=Get what=Lua protos=0[]
+  up1: string "All"
+  up2: ERR
+  consts total=0
+F HasRounds
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Selection:? cname=HasRounds what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "Deathmatch"
+K Headings :table keys=6
+  {["Deathmatch"]="DEATHMATCH STATS", ["CasualDefusal"]="CASUAL DEFUSAL STATS", ["CompetitiveDefusal"]="COMPETITIVE DEFUSAL STATS", ["All"]="LIFETIME STATS", ["CasualHostage"]="CASUAL HOSTAGE STATS", ["CompetitiveHostage"]="COMPETITIVE HOSTAGE STATS"}
+K Names :table keys=6
+  {["Deathmatch"]="Deathmatch", ["CasualDefusal"]="Bomb Defusal - Casual", ["CompetitiveDefusal"]="Bomb Defusal - Competitive", ["All"]="All Gamemodes", ["CasualHostage"]="Hostage Rescue - Casual", ["CompetitiveHostage"]="Hostage Rescue - Competitive"}
+K Order :table keys=6
+  {[1]="All", [2]="CasualDefusal", [3]="CasualHostage", [4]="Deathmatch", [5]="CompetitiveDefusal", [6]="CompetitiveHostage"}
+F Set
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Selection:? cname=Set what=Lua protos=0[]
+  up1: string "All"
+  up2: table keys=7 {HasRounds:function, Get:function, Set:function, Order:table, Changed:table, Headings:table, Names:table}
+  up3: ERR
+  consts total=3
+  [1] str "Names"
+  [2] str "Changed"
+  [3] str "Fire"

@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Util.func
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F noop
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Uti:? cname=noop what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F returned
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Uti:? cname=returned what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F truthy
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Uti:? cname=truthy what=Lua protos=0[]
+  up1: ERR
+  consts total=0

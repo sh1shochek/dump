@@ -1,0 +1,23 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.Crouch
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K BindPriority :number = 3001
+F Callback
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.Crouch:? cname=onInput what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=13 {PlantBomb:function, TrackCharacter:function, crouch:function, getCurrentCharacter:function, UntrackCharacter:function, jump:function, GetCrouchState:function, CancelBombPlant:function, Initialize:function, Start:function, GetWalkState:function, PredictDoorUse:function, walk:function}
+  up3: ERR
+  consts total=9
+  [1] str "IsPlayerChatting"
+  [2] str "GetAttribute"
+  [3] str "Enum"
+  [4] str "UserInputState"
+  [5] str "Begin"
+  [6] userdata
+  [7] str "crouch"
+  [8] str "End"
+  [9] userdata
+K Category :string = Movement Keys
+K Group :string = Gameplay
+K Name :string = Crouch

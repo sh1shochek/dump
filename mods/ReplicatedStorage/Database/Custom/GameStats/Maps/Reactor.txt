@@ -1,0 +1,14 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Maps.Reactor
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K Characters :table keys=2
+  {["Counter-Terrorists"]="IDF", ["Terrorists"]="Anarchist"}
+K Gamemode :table keys=3
+  {["Competitive"]="Bomb Defusal", ["Casual"]="Bomb Defusal", ["Deathmatch"]="Deathmatch"}
+K Icon :string = rbxassetid://123264229164215
+K Lighting :table keys=2
+  {["Assets"]=<userdata:Reactor>, ["Properties"]={["ClockTime"]=8.5, ["ColorShift_Bottom"]=<userdata:0, 0, 0>, ["EnvironmentDiffuseScale"]=1, ["EnvironmentSpecularScale"]=1, ["ExposureCompensation"]=0, ["GeographicLatitude"]=45, ["Ambient"]=<userdata:0.262745, 0.262745, 0.262745>, ["OutdoorAmbient"]=<userdata:0.45098, 0.372549, 0.258824>, ["ShadowSoftness"]=0.15, ["Brightness"]=4, ["ColorShift_Top"]=<userdata:0.847059, 0.686275, 0.447059>, ["GlobalShadows"]=true}}
+K Radar :string = rbxassetid://139602408955630
+K Terrain :table keys=3
+  {["Chunks"]={[1]={["Terrain"]=<userdata:TerrainBox1>, ["CoordinateBase"]=1, ["GridSize"]=<vector:226, 39, 291>, ["Position"]=<vector:684, 58, -450>}, [2]={["Terrain"]=<userdata:TerrainBox2>, ["CoordinateBase"]=1, ["GridSize"]=<vector:228, 39, 292>, ["Position"]=<vector:680, 58, 676>}, [3]={["Terrain"]=<userdata:TerrainBox3>, ["CoordinateBase"]=1, ["GridSize"]=<vector:230, 39, 296>, ["Position"]=<vector:-160, 58, -440>}, [4]={["Terrain"]=<userdata:TerrainBox4>, ["CoordinateBase"]=1, ["GridSize"]=<vector:220, 39, 287>, ["Position"]=<vector:-180, 58, 686>}}, ["Properties"]={["MaterialColors"]={["Grass"]=<userdata:0.411765, 0.439216, 0.278431>, ["Rock"]=<userdata:0.388235, 0.392157, 0.4>, ["Basalt"]=<userdata:0.294118, 0.290196, 0.290196>, ["Sand"]=<userdata:0.811765, 0.796078, 0.654902>, ["Sandstone"]=<userdata:0.580392, 0.486275, 0.372549>, ["Brick"]=<userdata:0.541176, 0.380392, 0.286275>, ["Cobblestone"]=<userdata:0.52549, 0.52549, 0.462745>, ["Glacier"]=<userdata:0.866667, 0.894118, 0.898039>, ["Slate"]=<userdata:0.345098, 0.34902, 0.337255>, ["Snow"]=<userdata:0.921569, 0.992157, 1>, ["WoodPlanks"]=<userdata:0.67451, 0.580392, 0.423529>, ["Limestone"]=<userdata:1, 0.952941, 0.752941>, ["LeafyGrass"]=<userdata:0.360784, 0.384314, 0.243137>, ["Salt"]=<userdata:1, 1, 0.996078>, ["Asphalt"]=<userdata:0.443137, 0.435294, 0.423529>, ["CrackedLava"]=<userdata:1, 0.0941176, 0.262745>, ["Ground"]=<userdata:0.737255, 0.698039, 0.643137>, ["Concrete"]=<userdata:0.596078, 0.596078, 0.596078>, ["Mud"]=<userdata:0.47451, 0.439216, 0.384314>, ["Pavement"]=<userdata:0.560784, 0.564706, 0.529412>, ["Ice"]=<userdata:0.8, 0.823529, 0.87451>}, ["WaterTransparency"]=0.6, ["WaterReflectance"]=0.25, ["WaterColor"]=<userdata:0.0470588, 0.329412, 0.360784>, ["Decoration"]=true, ["WaterWaveSpeed"]=7, ["WaterWaveSize"]=0.35}, ["Resolution"]=4}

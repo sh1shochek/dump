@@ -1,0 +1,36 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Income
+REQUIRE: ok
+RETURNS: table
+KEYS: 16
+K Assist :table keys=3
+  {["Competitive"]=0, ["Casual"]=50, ["Deathmatch"]=0}
+K BombDefuse :table keys=3
+  {["Competitive"]=300, ["Casual"]=300, ["Deathmatch"]=0}
+K BombPlant :table keys=3
+  {["Competitive"]=300, ["Casual"]=300, ["Deathmatch"]=0}
+K BombPlantLossBonus :table keys=3
+  {["Competitive"]=600, ["Casual"]=0, ["Deathmatch"]=0}
+K BombPlantedButDefused :table keys=3
+  {["Competitive"]=600, ["Casual"]=600, ["Deathmatch"]=0}
+K CTTeamKillBonus :table keys=3
+  {["Competitive"]=50, ["Casual"]=50, ["Deathmatch"]=0}
+K HostageInteraction :table keys=3
+  {["Competitive"]=150, ["Casual"]=0, ["Deathmatch"]=0}
+K HostageRescueBonus :table keys=3
+  {["Competitive"]=1000, ["Casual"]=0, ["Deathmatch"]=0}
+K HostageShotPenalty :table keys=3
+  {["Competitive"]=-300, ["Casual"]=-300, ["Deathmatch"]=0}
+K HostageTeamInteraction :table keys=3
+  {["Competitive"]=500, ["Casual"]=0, ["Deathmatch"]=0}
+K Kill :table keys=5
+  {["Competitive"]=300, ["WeaponBonuses"]={["MP7"]=300, ["AWP"]=-200, ["HE Grenade"]=0, ["PP-Bizon"]=300, ["Knife"]=1200, ["Sawed-Off"]=600, ["UMP-45"]=300, ["MP9"]=300, ["P90"]=0, ["MAC-10"]=300, ["Zeus x27"]=-200, ["Incendiary Grenade"]=0, ["MP5-SD"]=300, ["MAG-7"]=600, ["XM1014"]=0, ["Molotov"]=0, ["Incendiary"]=0, ["Nova"]=600}, ["Casual"]=150, ["WeaponBonusesCompetitive"]={["CZ75-Auto"]=-200, ["MP7"]=300, ["AWP"]=-200, ["HE Grenade"]=0, ["PP-Bizon"]=300, ["Knife"]=1200, ["Sawed-Off"]=600, ["UMP-45"]=300, ["MP9"]=300, ["P90"]=0, ["MAC-10"]=300, ["Zeus x27"]=-300, ["Incendiary Grenade"]=0, ["MP5-SD"]=300, ["MAG-7"]=600, ["XM1014"]=600, ["Molotov"]=0, ["Incendiary"]=0, ["Nova"]=600}, ["Deathmatch"]=0}
+K MinimumRoundIncome :table keys=3
+  {["Competitive"]=1400, ["Casual"]=1400, ["Deathmatch"]=0}
+K RoundLoss :table keys=3
+  {["Competitive"]={[1]=1900, [2]=2400, [3]=2900, [4]=3400, [0]=1400}, ["Casual"]={[1]=1900, [2]=2400, [3]=2900, [4]=3400, [0]=1400}, ["Deathmatch"]={[1]=0, [2]=0, [3]=0, [4]=0, [0]=0}}
+K RoundWin :table keys=3
+  {["Competitive"]={["BombExplode"]=3500, ["Elimination"]=3250, ["BombDefuse"]=3250, ["HostageRescue"]=3500, ["TimeExpiration"]=3250, ["BombObjective"]=3500}, ["Casual"]={["TimeExpiration"]=3250, ["HostageRescue"]=3500, ["Elimination"]=3250, ["BombObjective"]=3500}, ["Deathmatch"]={["TimeExpiration"]=0, ["Elimination"]=0, ["BombObjective"]=0}}
+K SpecialRules :table keys=3
+  {["TerroristTimeoutPenalty"]=true, ["MaxMoney"]=16000, ["CasualKillRewardHalved"]=true}
+K TeamKillPenalty :table keys=3
+  {["Competitive"]=-300, ["Casual"]=0, ["Deathmatch"]=0}

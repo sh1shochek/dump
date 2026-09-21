@@ -1,0 +1,23 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.Crosshair.Settings
+REQUIRE: ok
+RETURNS: table
+KEYS: 17
+K Alpha :table keys=2
+  {["Enabled"]=false, ["Value"]=200}
+K Blue :number = 0
+K Center Dot :boolean = true
+K Crosshair Image :number = 0
+K Crosshair Style :string = Classic
+K Follow Recoil :boolean = true
+K Friendly Fire Reticle Warning :boolean = true
+K Gap :number = 0
+K Green :number = 255
+K Length :number = 5
+K Outline :table keys=2
+  {["Enabled"]=true, ["Value"]=1}
+K Red :number = 0
+K Show Player Crosshairs :boolean = false
+K Show my crosshair when spectating bots :boolean = false
+K T Style :boolean = false
+K Thickness :number = 1
+K Use Crosshair Color for Scope Dot :boolean = false

@@ -1,0 +1,30 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.USP-S
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+K Bolt :table keys=2
+  {["Properties"]={["Volume"]=0.75, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=108732491364154}}
+K Handling :table keys=2
+  {["Properties"]={["Volume"]=0.6, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=93226589921777}}
+K MagIn :table keys=2
+  {["Properties"]={["Volume"]=0.75, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=98755126356947}}
+K MagOut :table keys=2
+  {["Properties"]={["Volume"]=1.25, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=90969598010170}}
+K ScrewOn1 :table keys=2
+  {["Properties"]={["Volume"]=0.55, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=104890047448099}}
+K ScrewOn2 :table keys=2
+  {["Properties"]={["Volume"]=0.55, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=139432961729330}}
+K ScrewOn3 :table keys=2
+  {["Properties"]={["Volume"]=0.55, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=131443473057876}}
+K ScrewOn4 :table keys=2
+  {["Properties"]={["Volume"]=0.55, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=139432961729330}}
+K ScrewOn5 :table keys=2
+  {["Properties"]={["Volume"]=0.55, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=131443473057876}}
+K ScrewOnEnd :table keys=2
+  {["Properties"]={["Volume"]=0.55, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=131443473057876}}
+K ScrewStart :table keys=2
+  {["Properties"]={["Volume"]=0.55, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=98572006947055}}
+K Shoot :table keys=2
+  {["Properties"]={["Volume"]=0.7, ["RollOffMaxDistance"]=85, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=91670240864405}}
+K Silencer :table keys=2
+  {["Properties"]={["Volume"]=0.75, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=35}, ["Identifiers"]={[1]=125571824025435}}

@@ -1,0 +1,9 @@
+PATH: ReplicatedStorage.Database.Components.Common.NormalizeInventoryItemForRemote
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Database.Components.Common.NormalizeInvent:? what=Lua protos=2[#1,#2]
+  up1: userdata HttpService
+  up2: ERR
+  consts total=25
+  [1] str "pcall"

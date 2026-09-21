@@ -1,0 +1,23 @@
+PATH: ReplicatedStorage.Database.Custom.Weapons.LightSaber
+REQUIRE: ok
+RETURNS: table
+KEYS: 18
+K ArmorPenetration :number = 0.9
+K Automatic :boolean = true
+K CameraAnimations :userdata CameraAnimations
+K CharacterAnimations :userdata CharacterAnimations
+K Class :string = Melee
+K DamagePerPart :table keys=4
+  {["Arms"]=31, ["Torso"]=41, ["Legs"]=28, ["Head"]=48}
+K Droppable :boolean = false
+K Finisher :string = Melted
+K FireRate :number = 0.36
+K Icon :string = rbxassetid://126330826978789
+K RagdollMultiplier :number = 35
+K Range :number = 3
+K ReverseIcon :string = rbxassetid://126330826978789
+K ShowCrosshair :boolean = true
+K Slot :string = Melee
+K Team :string = Both
+K Type :string = Equipment
+K WalkSpeed :number = 20.2

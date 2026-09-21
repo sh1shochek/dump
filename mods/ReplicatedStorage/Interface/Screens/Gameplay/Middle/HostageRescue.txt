@@ -1,0 +1,41 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.HostageRescue
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F CreateTemplate
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.HostageR:? cname=CreateTemplate what=Lua protos=0[]
+  up1: userdata ReplicatedStorage
+  up2: userdata HostageRescue
+  up3: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.HostageR:? cname=UpdateTemplateSizes what=Lua
+  up4: ERR
+  consts total=6
+  [1] str "Assets"
+  [2] str "UI"
+  [3] str "HostageRescue"
+  [4] str "Template"
+  [5] str "Clone"
+  [6] str "Parent"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.HostageR:? cname=Initialize what=Lua protos=3[#1,#2,#3]
+  up1: userdata HostageRescue
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: userdata Mateo_081005
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.HostageR:? cname=UpdateVisibility what=Lua
+  up5: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up6: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.HostageR:? cname=ClearFrame what=Lua
+  up7: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up8: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up9: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.HostageR:? cname=UpdateTemplateSizes what=Lua
+  up10: table keys=2 {CreateTemplate:function, Initialize:function}
+  up11: table keys=0 {}
+  up12: ERR
+  consts total=23
+  [1] str "CreateListener"
+  [2] str "Settings.Game.Radar/Tablet.Radar Hud Size"
+  [3] number 1
+  [4] str "Get"
+  [5] number 200
+  [6] number 50
+  [7] number 240
+  [8] str "UDim2"
+  [9] str "new"

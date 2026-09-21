@@ -1,0 +1,15 @@
+PATH: ReplicatedStorage.Components.Common.GetPreferenceColor
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua protos=0[]
+  up1: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up2: userdata Mateo_081005
+  up3: table keys=12 {Bright White:table, Team Color:table, Red:table, Purple:table, Light Blue:table, Blue:table, Pink:table, Green:table, Aqua:table, Yellow:table, Orange:table, White:table}
+  up4: userdata 0.647059, 0.717647, 0.831373
+  up5: ERR
+  consts total=4
+  [1] str "Get"
+  [2] str "Settings.Game.HUD.Color"
+  [3] str "Team"
+  [4] str "GetAttribute"

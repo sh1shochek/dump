@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Maps.Office.Properties
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+K Ambient :userdata 0.54902, 0.580392, 0.584314
+K Brightness :number = 0.5
+K ClockTime :number = 14.649
+K ColorShift_Bottom :userdata 0, 0, 0
+K ColorShift_Top :userdata 0.627451, 0.768627, 1
+K EnvironmentDiffuseScale :number = 0.25
+K EnvironmentSpecularScale :number = 1
+K ExposureCompensation :number = 0
+K GeographicLatitude :number = 38.17
+K GlobalShadows :boolean = true
+K OutdoorAmbient :userdata 0.384314, 0.513726, 0.701961
+K ShadowSoftness :number = 0.11

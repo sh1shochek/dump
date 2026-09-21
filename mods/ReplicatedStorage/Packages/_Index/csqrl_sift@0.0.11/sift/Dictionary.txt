@@ -1,0 +1,187 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dictionary
+REQUIRE: ok
+RETURNS: table
+KEYS: 31
+F copy
+  params=0 src=[C]:? cname=clone what=C protos=ERR
+  up1: ERR
+  consts: ERR
+F copyDeep
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=copyDeep what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=copyDeep what=Lua
+  up2: ERR
+  consts total=2
+  [1] str "table"
+  [2] str "clone"
+F count
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=count what=Lua protos=0[]
+  up1: table keys=3 {equalObjects:function, isEmpty:function, func:table}
+  up2: ERR
+  consts total=8
+  [1] str "type"
+F entries
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=entries what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "pairs"
+F equals
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=equals what=Lua protos=0[]
+  up1: table keys=3 {equalObjects:function, isEmpty:function, func:table}
+  up2: function params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=compare what=Lua
+  up3: ERR
+  consts total=3
+  [1] str "equalObjects"
+  [2] str "#"
+  [3] str "select"
+F equalsDeep
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=equalsDeep what=Lua protos=0[]
+  up1: table keys=3 {equalObjects:function, isEmpty:function, func:table}
+  up2: function params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=compareDeep what=Lua
+  up3: ERR
+  consts total=3
+  [1] str "equalObjects"
+  [2] str "#"
+  [3] str "select"
+F every
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=every what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "pairs"
+F filter
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=filter what=Lua protos=0[]
+  up1: table keys=3 {equalObjects:function, isEmpty:function, func:table}
+  up2: ERR
+  consts total=6
+  [1] str "type"
+F flatten
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=flatten what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=flatten what=Lua
+  up2: ERR
+  consts total=8
+  [1] str "type"
+F flip
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=flip what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "pairs"
+F freeze
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=freeze what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=clone what=C
+  up2: ERR
+  consts total=2
+  [1] str "table"
+  [2] str "freeze"
+F freezeDeep
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=freezeDeep what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=freezeDeep what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "pairs"
+F fromArrays
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=fromArrays what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F fromEntries
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=fromEntries what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "ipairs"
+F has
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=has what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F includes
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=includes what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "pairs"
+F join
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=merge what=Lua protos=0[]
+  up1: userdata Sift.None
+  up2: ERR
+  consts total=2
+  [1] str "#"
+  [2] str "select"
+F joinDeep
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=mergeDeep what=Lua protos=0[]
+  up1: userdata Sift.None
+  up2: function params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=copyDeep what=Lua
+  up3: function params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=mergeDeep what=Lua
+  up4: ERR
+  consts total=2
+  [1] str "#"
+  [2] str "select"
+F keys
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=keys what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "pairs"
+F map
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=map what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "pairs"
+F merge
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=merge what=Lua protos=0[]
+  up1: userdata Sift.None
+  up2: ERR
+  consts total=2
+  [1] str "#"
+  [2] str "select"
+F mergeDeep
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=mergeDeep what=Lua protos=0[]
+  up1: userdata Sift.None
+  up2: function params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=copyDeep what=Lua
+  up3: function params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=mergeDeep what=Lua
+  up4: ERR
+  consts total=2
+  [1] str "#"
+  [2] str "select"
+F removeKey
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=removeKey what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=clone what=C
+  up2: ERR
+  consts total=0
+F removeKeys
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=removeKeys what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=clone what=C
+  up2: ERR
+  consts total=1
+  [1] str "ipairs"
+F removeValue
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=removeValue what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "pairs"
+F removeValues
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=removeValues what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=toSet what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "pairs"
+F set
+  params=3 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=set what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=clone what=C
+  up2: ERR
+  consts total=0
+F some
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=some what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "pairs"
+F update
+  params=4 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=update what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=clone what=C
+  up2: ERR
+  consts total=1
+  [1] str "typeof"
+F values
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=values what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "pairs"
+F withKeys
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=withKeys what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "ipairs"

@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Components.Common.GetRayIgnore
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Components.Common.GetRayIgnore:? what=Lua protos=0[]
+  up1: userdata Debris
+  up2: userdata Camera
+  up3: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up4: ERR
+  consts total=15
+  [1] str "table"
+  [2] str "insert"

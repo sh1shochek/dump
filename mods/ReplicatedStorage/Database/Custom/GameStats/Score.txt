@@ -1,0 +1,25 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Score
+REQUIRE: ok
+RETURNS: table
+KEYS: 18
+K Assist :table keys=2
+  {["Default"]=1, ["Deathmatch"]=6}
+K BombDefuseAlive :number = 1
+K BombDefuseNoEnemies :number = 2
+K BombDefuseWithEnemies :number = 4
+K BombExplodeAlive :number = 1
+K BombExplodePlanter :number = 1
+K BombPlant :number = 2
+K CasualParticipation :number = 1
+K DeathmatchKill :table keys=57
+  {["CZ75-Auto"]=12, ["Survival Knife"]=20, ["MAG-7"]=12, ["AWP"]=10, ["T Knife"]=20, ["P2000"]=12, ["Flip Knife"]=20, ["Classic Knife"]=20, ["AUG"]=11, ["Huntsman Knife"]=20, ["Skeleton Knife"]=20, ["Zeus x27"]=12, ["M249"]=10, ["Nova"]=12, ["Negev"]=10, ["Kukri Knife"]=20, ["Navaja Knife"]=20, ["Karambit"]=20, ["G3SG1"]=10, ["SCAR-20"]=10, ["Galil AR"]=11, ["AK-47"]=11, ["Paracord Knife"]=20, ["SSG 08"]=11, ["M4A4"]=11, ["SG 553"]=11, ["FAMAS"]=11, ["M4A1-S"]=11, ["MP9"]=12, ["XM1014"]=11, ["MP7"]=11, ["Shadow Daggers"]=20, ["Butterfly Knife"]=20, ["Talon Knife"]=20, ["UMP-45"]=12, ["P250"]=12, ["PP-Bizon"]=12, ["Bowie Knife"]=20, ["M9 Bayonet"]=20, ["USP-S"]=12, ["Bayonet"]=20, ["Glock-18"]=12, ["Stiletto Knife"]=20, ["Nomad Knife"]=20, ["Tec-9"]=12, ["CT Knife"]=20, ["P90"]=11, ["MAC-10"]=12, ["Gut Knife"]=20, ["Sawed-Off"]=12, ["R8 Revolver"]=12, ["MP5-SD"]=12, ["Desert Eagle"]=12, ["Ursus Knife"]=20, ["Dual Berettas"]=12, ["Five-SeveN"]=12, ["Falchion Knife"]=20}
+K DeathmatchKillDefault :number = 11
+K HostagePickup :number = 1
+K HostageRescueAlive :number = 1
+K HostageRescueFirst :number = 4
+K HostageRescueSubsequent :number = 1
+K Kill :table keys=2
+  {["Default"]=2, ["NearObjective"]=3}
+K ObjectiveProximityDistance :number = 15
+K Suicide :number = -2
+K TeamKill :number = -2

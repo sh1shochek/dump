@@ -1,0 +1,116 @@
+PATH: ReplicatedStorage.MovementV2.Collision.MoverProxyCache
+REQUIRE: ok
+RETURNS: table
+KEYS: 15
+F BeginComposition
+  params=1 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=BeginComposition what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "_activeBank"
+  [2] number 1
+F BindEndpoint
+  params=3 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=BindEndpoint what=Lua protos=0[]
+  up1: function params=6 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=prepareHull what=Lua
+  up2: ERR
+  consts total=21
+  [1] str "_activeBank"
+  [2] number 0
+  [3] str "mover proxy cache composition was not begun"
+  [4] str "assert"
+K ContactMaxRotationRadiansPerSubdivision :number = 0.008726646259971648
+K ContactMaxRotationRadiansPerTick :number = 0.13962634015954636
+K ContactMaxRotationSubdivisions :number = 16
+F ContactQueryBounds
+  params=4 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=ContactQueryBounds what=Lua protos=0[]
+  up1: ERR
+  consts total=16
+  [1] str "StandingHalfSize"
+  [2] str "Magnitude"
+  [3] str "DuckingHalfSize"
+  [4] str "math"
+  [5] str "max"
+F ContainsEndpoint
+  params=4 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=ContainsEndpoint what=Lua protos=0[]
+  up1: function params=4 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=containsHull what=Lua
+  up2: ERR
+  consts total=8
+  [1] str "Hull"
+  [2] str "Standing"
+  [3] str "StandingHalfSize"
+  [4] str "Ducking"
+  [5] str "DuckingHalfSize"
+  [6] str "error"
+F FindEarliestStationaryContact
+  params=4 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=FindEarliestStationaryContact what=Lua protos=0[]
+  up1: function params=3 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=couldReachAnyBody what=Lua
+  up2: function params=3 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=prepareContactProxy what=Lua
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=pointSegmentDistanceSquared what=Lua
+  up4: function params=3 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=maximumHullDistance what=Lua
+  up5: function params=5 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=sweepHull what=Lua
+  up6: ERR
+  consts total=35
+  [1] number 0
+  [2] str "_contactById"
+  [3] str "Id"
+  [4] str "error"
+F ReserveContactMover
+  params=2 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=ReserveContactMover what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=newContactProxy what=Lua
+  up2: ERR
+  consts total=2
+  [1] str "ReserveMover"
+  [2] str "_contactById"
+F ReserveMover
+  params=2 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=ReserveMover what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=newContactHull what=Lua
+  up2: ERR
+  consts total=15
+  [1] number 1
+  [2] number 0
+  [3] str "mover ID must be a positive integer"
+  [4] str "assert"
+F Reset
+  params=1 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=Reset what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "_banks"
+  [2] str "table"
+  [3] str "clear"
+F Retire
+  params=2 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=Retire what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "_banks"
+  [2] str "EndpointsById"
+  [3] str "_contactById"
+F SweepEndpoint
+  params=5 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=SweepEndpoint what=Lua protos=0[]
+  up1: function params=5 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=sweepHull what=Lua
+  up2: ERR
+  consts total=8
+  [1] str "Hull"
+  [2] str "Standing"
+  [3] str "StandingHalfSize"
+  [4] str "Ducking"
+  [5] str "DuckingHalfSize"
+  [6] str "error"
+K __index :table keys=15
+  {["SweepEndpoint"]=<function:function: 0x16cda31e438c50f8>, ["ContactMaxRotationRadiansPerTick"]=0.13962634015954636, ["ContactQueryBounds"]=<function:function: 0xce6a50b2a24725db>, ["FindEarliestStationaryContact"]=<function:function: 0x9895f1f22545c096>, ["Reset"]=<function:function: 0x18391fb02fb61983>, ["BeginComposition"]=<function:function: 0xfab2024bd9a7cb44>, ["ContainsEndpoint"]=<function:function: 0x555cd77a7d6a6b0a>, ["ReserveMover"]=<function:function: 0x9687d55bb6b320b4>, ["ContactMaxRotationSubdivisions"]=16, ["BindEndpoint"]=<function:function: 0x921f935351bbec2d>, ["ReserveContactMover"]=<function:function: 0x2140f2caca66e9af>, ["ContactMaxRotationRadiansPerSubdivision"]=0.008726646259971648, ["Retire"]=<function:function: 0xc724d098300a4064>, ["__index"]=<cycle>, ["new"]=<function:function: 0xf0b08875b6f5985f>}
+F new
+  params=0 src=ReplicatedStorage.MovementV2.Collision.MoverProxyCache:? cname=new what=Lua protos=0[]
+  up1: table keys=15 {SweepEndpoint:function, ContactMaxRotationRadiansPerTick:number, ContactQueryBounds:function, FindEarliestStationaryContact:function, Reset:function, BeginComposition:function, ContainsEndpoint:function, ReserveMover:function, ContactMaxRotationSubdivisions:number, BindEndpoint:function, ReserveContactMover:function, ContactMaxRotationRadiansPerSubdivision:number, Retire:function, __index:table, new:function}
+  up2: ERR
+  consts total=13
+  [1] str "_banks"
+  [2] str "_contactById"
+  [3] str "_endpointScratch"
+  [4] str "_activeBank"
+  [5] number 0
+  [6] table
+  [7] str "EndpointsById"
+  [8] table
+  [9] str "ScratchCount"
+  [10] str "ScratchDirections"
+  [11] table
+  [12] str "table"
+  [13] str "create"

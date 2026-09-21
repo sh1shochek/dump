@@ -1,0 +1,38 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateImpact.Components.Materials
+REQUIRE: ok
+RETURNS: table
+KEYS: 34
+K Asphalt :string = Ground
+K Basalt :string = Ground
+K Brick :string = Concrete
+K Cobblestone :string = Ground
+K Concrete :string = Concrete
+K CorrodedMetal :string = Metal
+K CrackedLava :string = Ground
+K DiamondPlate :string = Metal
+K Fabric :string = Fabric
+K Foil :string = Metal
+K ForceField :string = Metal
+K Glacier :string = Ground
+K Glass :string = Glass
+K Granite :string = Concrete
+K Grass :string = Ground
+K Ground :string = Ground
+K Ice :string = Ground
+K LeafyGrass :string = Ground
+K Limestone :string = Concrete
+K Marble :string = Concrete
+K Metal :string = Metal
+K Mud :string = Ground
+K Neon :string = Glass
+K Pavement :string = Ground
+K Plastic :string = Ground
+K Rock :string = Concrete
+K Salt :string = Ground
+K Sand :string = Ground
+K Sandstone :string = Ground
+K Slate :string = Concrete
+K SmoothPlastic :string = Ground
+K Snow :string = Ground
+K Wood :string = Wood
+K WoodPlanks :string = Wood

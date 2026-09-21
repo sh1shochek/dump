@@ -1,0 +1,37 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.FlashEffect
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F CancelFlash
+  params=0 src=ReplicatedStorage.Components.Common.VFXLibary.FlashEffect:? cname=CancelFlash what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.VFXLibary.FlashEffect:? cname=FlashDebug what=Lua
+  up2: number 0
+  up3: function params=0 src=ReplicatedStorage.Components.Common.VFXLibary.FlashEffect:? cname=CleanupFlash what=Lua
+  consts total=11
+  [1] str "debug"
+  [2] str "profilebegin"
+F Flash
+  params=1 src=ReplicatedStorage.Components.Common.VFXLibary.FlashEffect:? cname=Flash what=Lua protos=6[getFadeMultiplier,#2,applyFlashEffect,#4,#5,#6]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.VFXLibary.FlashEffect:? cname=FlashDebug what=Lua
+  up2: userdata Camera
+  up3: function params=2 src=ReplicatedStorage.Components.Common.VFXLibary.FlashEffect:? cname=HasLineOfSight what=Lua
+  up4: function params=3 src=ReplicatedStorage.Components.Common.VFXLibary.FlashEffect:? cname=CalculateFlashDuration what=Lua
+  consts total=54
+  [1] str "debug"
+  [2] str "profilebegin"
+F GetAudioFadeMultiplier
+  params=0 src=ReplicatedStorage.Components.Common.VFXLibary.FlashEffect:? cname=GetAudioFadeMultiplier what=Lua protos=0[]
+  ups: none
+  consts total=8
+  [1] str "os"
+  [2] str "clock"
+F IsFlashed
+  params=0 src=ReplicatedStorage.Components.Common.VFXLibary.FlashEffect:? cname=IsFlashed what=Lua protos=0[]
+  ups: none
+  consts total=2
+  [1] str "os"
+  [2] str "clock"
+K OnFlashCleared :table keys=1
+  {["_handlerListHead"]=false}
+K OnFlashRecoveryStarted :table keys=1
+  {["_handlerListHead"]=false}

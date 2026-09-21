@@ -1,0 +1,9 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.ZoomController.Popper
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Popper what=Lua protos=0[]
+  ups: none
+  consts total=6
+  [1] str "debug"
+  [2] str "profilebegin"

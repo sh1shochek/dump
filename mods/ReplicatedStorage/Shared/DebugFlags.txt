@@ -1,0 +1,26 @@
+PATH: ReplicatedStorage.Shared.DebugFlags
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F GetAttributeName
+  params=1 src=ReplicatedStorage.Shared.DebugFlags:? cname=GetAttributeName what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "Debug_"
+F IsEnabled
+  params=1 src=ReplicatedStorage.Shared.DebugFlags:? cname=IsEnabled what=Lua protos=0[]
+  up1: userdata ReplicatedStorage
+  up2: ERR
+  consts total=2
+  [1] str "Debug_"
+  [2] str "GetAttribute"
+F SetEnabled
+  params=2 src=ReplicatedStorage.Shared.DebugFlags:? cname=SetEnabled what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: userdata ReplicatedStorage
+  up3: ERR
+  consts total=4
+  [1] str "IsServer"
+  [2] str "IsClient"
+  [3] str "Debug_"
+  [4] str "SetAttribute"

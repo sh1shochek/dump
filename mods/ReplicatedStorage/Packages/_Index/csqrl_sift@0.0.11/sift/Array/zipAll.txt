@@ -1,0 +1,11 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Array.zipAll
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=zipAll what=Lua protos=1[#1]
+  up1: function params=3 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=reduce what=Lua
+  up2: userdata Sift.None
+  up3: ERR
+  consts total=9
+  [1] str "#"
+  [2] str "select"

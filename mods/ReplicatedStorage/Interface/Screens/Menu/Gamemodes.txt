@@ -1,0 +1,98 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Gamemodes
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes:? cname=Initialize what=Lua protos=9[#1,#2,#3,#4,#5,#6,#7,#8,#9]
+  up1: userdata Gamemodes
+  up2: table keys=4 {InitializeGamemodeTemplate:function, Start:function, OpenGamemodesFrame:function, Initialize:function}
+  up3: table keys=2 {Gamemodes:userdata, ServerBrowser:userdata}
+  up4: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up5: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up6: table keys=2 {1:string, 2:string}
+  up7: string "Gamemodes"
+  consts total=46
+  [1] str "Gamemodes"
+  [2] str "GetChildren"
+  [3] str "GuiObject"
+  [4] str "IsA"
+  [5] str "ImageButton"
+  [6] str "ActivePlayerCount"
+  [7] str "FindFirstChild"
+  [8] str "InitializeGamemodeTemplate"
+  [9] str "Buttons"
+  [10] str "Name"
+  [11] str "MouseButton1Click"
+  [12] str "Connect"
+  [13] str "RegisterBumperOverride"
+  [14] str "Prompt"
+  [15] str "Yes"
+  [16] str "No"
+  [17] str "Initialize"
+  [18] str "ServerBrowser"
+  [19] str "OpenGamemodesFrame"
+  [20] str "Main"
+  [21] str "Frame"
+  [22] str "Top"
+  [23] str "Search"
+  [24] str "GuiButton"
+  [25] str "Title"
+  [26] str "Filters"
+  [27] str "Categories"
+  [28] str "Maps"
+  [29] str "List"
+  [30] str "Button"
+  [31] str "ImageLabel"
+  [32] str "Visible"
+  [33] str "table"
+  [34] str "find"
+F InitializeGamemodeTemplate
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes:? cname=InitializeGamemodeTemplate what=Lua protos=1[#1]
+  up1: table keys=4 {Defusal:table, Competitive:table, Deathmatch:table, Trading:table}
+  up2: table keys=4 {Deathmatch:table, Competitive:table, Defusal:table, Trading:table}
+  up3: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes:? cname=GetCurrentCardName what=Lua
+  consts total=17
+  [1] str "Name"
+  [2] str "warn"
+F OpenGamemodesFrame
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes:? cname=OpenGamemodesFrame what=Lua protos=0[]
+  up1: string "Gamemodes"
+  up2: userdata Gamemodes
+  up3: table keys=2 {Gamemodes:userdata, ServerBrowser:userdata}
+  up4: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes:? cname=StyleToggleButton what=Lua
+  up5: table keys=4 {Start:function, SetActive:function, SetCategoryFilters:function, Initialize:function}
+  up6: ERR
+  consts total=7
+  [1] str "GetChildren"
+  [2] str "ButtonFrame"
+  [3] str "GetAttribute"
+  [4] str "Name"
+  [5] str "Visible"
+  [6] str "SetActive"
+  [7] str "ServerBrowser"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes:? cname=Start what=Lua protos=1[#1]
+  up1: userdata CollectionService
+  up2: table keys=4 {1:userdata, 2:userdata, 3:userdata, 4:userdata}
+  up3: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes:? cname=TrackOnlineTag what=Lua
+  up4: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes:? cname=UntrackOnlineTag what=Lua
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes:? cname=RefreshCurrentCard what=Lua
+  up6: table keys=6 {ObserverServerBrowser:function, GetServerNameFromMatchId:function, OnServerBrowserUpdated:table, GetActiveGameServers:function, UpdateActiveGameServers:function, GetServerByMatchId:function}
+  up7: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes:? cname=RefreshPlayerCounts what=Lua
+  up8: table keys=3 {regions:table, maps:table, gameModes:table}
+  up9: table keys=4 {Start:function, SetActive:function, SetCategoryFilters:function, Initialize:function}
+  up10: number 1
+  up11: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up12: userdata Gamemodes
+  up13: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes:? cname=VisibilityUpdated what=Lua
+  up14: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes:? cname=GetCurrentCardName what=Lua
+  up15: table keys=4 {Deathmatch:table, Competitive:table, Defusal:table, Trading:table}
+  up16: ERR
+  consts total=31
+  [1] str "Gamemodes_OnlineTag"
+  [2] str "GetTagged"
+  [3] str "ImageLabel"
+  [4] str "IsA"
+  [5] str "table"
+  [6] str "find"

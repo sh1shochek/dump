@@ -1,0 +1,292 @@
+PATH: ReplicatedStorage.Database.Components.Common.RecoilPatterns
+REQUIRE: ok
+RETURNS: table
+KEYS: 24
+F AK-47
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "AK-47"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F AUG
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "AUG"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F AWP
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "AWP"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F Desert Eagle
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "Desert Eagle"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F Dual Berettas
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "Dual Berettas"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F FAMAS
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "FAMAS"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F Five-SeveN
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "Five-SeveN"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F Galil AR
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "Galil AR"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F Glock-18
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "Glock-18"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F M4A1-S
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "M4A1-S"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F M4A4
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "M4A4"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F MAC-10
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "MAC-10"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F MAG-7
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "MAG-7"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F MP9
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "MP9"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F Negev
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "Negev"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F Nova
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "Nova"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F P250
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "P250"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F P90
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "P90"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F SG 553
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "SG 553"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F SSG 08
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "SSG 08"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F Sawed-Off
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "Sawed-Off"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F Tec-9
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "Tec-9"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F USP-S
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "USP-S"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"
+F XM1014
+  params=1 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=CreatePattern what=Lua
+  up2: string "XM1014"
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getKeyframeAtTime what=Lua
+  up4: userdata TweenService
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.RecoilPatterns:? cname=getPositionOnPath what=Lua
+  up6: ERR
+  consts total=3
+  [1] str "FireRate"
+  [2] str "Rounds"
+  [3] str "ipairs"

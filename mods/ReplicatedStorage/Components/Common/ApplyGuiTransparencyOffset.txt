@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Components.Common.ApplyGuiTransparencyOffset
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Apply
+  params=3 src=ReplicatedStorage.Components.Common.ApplyGuiTransparencyOffs:? cname=Apply what=Lua protos=0[]
+  up1: ERR
+  consts total=16
+  [1] str "math"
+  [2] str "clamp"
+F BuildCache
+  params=1 src=ReplicatedStorage.Components.Common.ApplyGuiTransparencyOffs:? cname=BuildCache what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.ApplyGuiTransparencyOffs:? cname=BuildFields what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "ipairs"

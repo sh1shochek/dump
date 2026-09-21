@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Controllers.Observers.Players
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? what=Lua protos=0[]
+  up1: userdata Connection
+  up2: userdata Connection
+  up3: table keys=10 {zona_y83:function, COOLXANTARES:function, BABINDGO_1:function, Mateo_081005:function, smertnik_54:function, bluefox9073:function, dazen_wewe:function, Untez777:function, DGXXDFZS:function, sifhasfhawkhghawgki:function}
+  up4: ERR
+  consts total=8
+  [1] str "Disconnect"
+  [2] str "next"

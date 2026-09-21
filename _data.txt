@@ -1,0 +1,173 @@
+
+== datacontroller ==
+path: ReplicatedStorage.Controllers.DataController
+keys: 8
+F ApplyInventoryDelta
+  params=3 src=ReplicatedStorage.Controllers.DataController:? cname=ApplyInventoryDelta what=Lua protos=0[]
+  up1: function params=3 src=ReplicatedStorage.Controllers.DataController:? cname=ApplyInventoryDelta what=Lua
+  up2: ERR
+  consts total=0
+F CreateListener
+  params=3 src=ReplicatedStorage.Controllers.DataController:? cname=CreateListener what=Lua protos=0[]
+  up1: userdata HttpService
+  up2: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up3: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up4: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up5: ERR
+  consts total=3
+  [1] str "GenerateGUID"
+  [2] str "Get"
+  [3] str "try"
+F Get
+  params=1 src=ReplicatedStorage.Controllers.DataController:? cname=Get what=Lua protos=0[]
+  up1: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table, dazen_wewe:table, DGXXDFZS:table}
+  up2: ERR
+  consts total=8
+  [1] str "table"
+  [2] str "pack"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.DataController:? cname=Initialize what=Lua protos=2[#1,#2]
+  up1: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up2: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up3: table keys=5 {GetWeaponNameFromStockId:function, IsStockIdentifier:function, InjectStockItems:function, GenerateStockInventoryItems:function, GetStockInventoryItem:function}
+  up4: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table, dazen_wewe:table, DGXXDFZS:table}
+  up5: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up6: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up7: function params=2 src=ReplicatedStorage.Controllers.DataController:? cname=ExecuteListeners what=Lua
+  up8: ERR
+  consts total=3
+  [1] str "PlayerData"
+  [2] str "PlayerDataEvent"
+  [3] str "Listen"
+F IsDataLoaded
+  params=1 src=ReplicatedStorage.Controllers.DataController:? cname=IsDataLoaded what=Lua protos=0[]
+  up1: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table, dazen_wewe:table, DGXXDFZS:table}
+  up2: ERR
+  consts total=0
+F RemoveListener
+  params=3 src=ReplicatedStorage.Controllers.DataController:? cname=RemoveListener what=Lua protos=0[]
+  up1: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up2: ERR
+  consts total=1
+  [1] str "next"
+F Start
+  params=0 src=ReplicatedStorage.Controllers.DataController:? cname=Start what=Lua protos=2[#1,#2]
+  up1: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up2: userdata Players
+  up3: function params=3 src=ReplicatedStorage.Controllers.DataController:? cname=ApplyInventoryDelta what=Lua
+  up4: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up5: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table, dazen_wewe:table, DGXXDFZS:table}
+  up6: ERR
+  consts total=10
+  [1] str "PlayerData"
+  [2] str "RetrieveAllPlayerData"
+  [3] str "Send"
+  [4] str "Store"
+  [5] str "NewInventoryItem"
+  [6] str "Listen"
+F WaitForDataLoaded
+  params=1 src=ReplicatedStorage.Controllers.DataController:? cname=WaitForDataLoaded what=Lua protos=0[]
+  up1: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table, dazen_wewe:table, DGXXDFZS:table}
+  up2: ERR
+  consts total=8
+  [1] str "task"
+  [2] str "wait"
+Inventory: table 45
+row1: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="USP-S_Stock", ["Name"]="USP-S", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row2: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Glock-18_Stock", ["Name"]="Glock-18", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row3: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="P250_Stock", ["Name"]="P250", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row4: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Desert Eagle_Stock", ["Name"]="Desert Eagle", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row5: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Tec-9_Stock", ["Name"]="Tec-9", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row6: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="CZ75-Auto_Stock", ["Name"]="CZ75-Auto", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row7: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Five-SeveN_Stock", ["Name"]="Five-SeveN", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row8: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Dual Berettas_Stock", ["Name"]="Dual Berettas", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row9: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="R8 Revolver_Stock", ["Name"]="R8 Revolver", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row10: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="MAC-10_Stock", ["Name"]="MAC-10", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row11: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="MP9_Stock", ["Name"]="MP9", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row12: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="MP7_Stock", ["Name"]="MP7", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row13: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="MP5-SD_Stock", ["Name"]="MP5-SD", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row14: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="UMP-45_Stock", ["Name"]="UMP-45", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row15: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="P90_Stock", ["Name"]="P90", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row16: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="PP-Bizon_Stock", ["Name"]="PP-Bizon", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row17: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="AK-47_Stock", ["Name"]="AK-47", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row18: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="M4A1-S_Stock", ["Name"]="M4A1-S", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row19: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="M4A4_Stock", ["Name"]="M4A4", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row20: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="AUG_Stock", ["Name"]="AUG", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row21: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="SG 553_Stock", ["Name"]="SG 553", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row22: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="FAMAS_Stock", ["Name"]="FAMAS", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row23: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Galil AR_Stock", ["Name"]="Galil AR", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row24: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="AWP_Stock", ["Name"]="AWP", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row25: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="SSG 08_Stock", ["Name"]="SSG 08", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row26: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="SCAR-20_Stock", ["Name"]="SCAR-20", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row27: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="G3SG1_Stock", ["Name"]="G3SG1", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row28: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="XM1014_Stock", ["Name"]="XM1014", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row29: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Nova_Stock", ["Name"]="Nova", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row30: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="MAG-7_Stock", ["Name"]="MAG-7", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row31: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Sawed-Off_Stock", ["Name"]="Sawed-Off", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row32: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Negev_Stock", ["Name"]="Negev", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row33: {["Type"]="Weapon", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="M249_Stock", ["Name"]="M249", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row34: {["Type"]="Melee", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="CT Knife_Stock", ["Name"]="CT Knife", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row35: {["Type"]="Melee", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="T Knife_Stock", ["Name"]="T Knife", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row36: {["Type"]="Glove", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="CT Glove_Stock", ["Name"]="CT Glove", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row37: {["Type"]="Glove", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="T Glove_Stock", ["Name"]="T Glove", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row38: {["Type"]="Grenade", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Molotov_Stock", ["Name"]="Molotov", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row39: {["Type"]="Grenade", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Incendiary Grenade_Stock", ["Name"]="Incendiary Grenade", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row40: {["Type"]="Grenade", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="HE Grenade_Stock", ["Name"]="HE Grenade", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row41: {["Type"]="Grenade", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Flashbang_Stock", ["Name"]="Flashbang", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row42: {["Type"]="Grenade", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Smoke Grenade_Stock", ["Name"]="Smoke Grenade", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row43: {["Type"]="Grenade", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Decoy Grenade_Stock", ["Name"]="Decoy Grenade", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row44: {["Type"]="C4", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="C4_Stock", ["Name"]="C4", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+row45: {["Type"]="Zeus x27", ["Charm"]=false, ["IsTradeable"]=false, ["MetaData"]={["CreatedAt"]=0, ["TradeHistory"]={}, ["Origin"]="Stock", ["Owner"]=0, ["OriginalOwner"]=0, ["LastTradeAt"]=0}, ["NameTag"]=false, ["_id"]="Zeus x27_Stock", ["Name"]="Zeus x27", ["Skin"]="Stock", ["Float"]=0, ["StatTrack"]=false, ["Serial"]=0, ["Stickers"]={}}
+Loadout: {["Terrorists"]={["Equipped"]={["Equipped Gloves"]="T Glove_Stock", ["Equipped Zeus x27"]="Zeus x27_Stock", ["Equipped Badge"]="", ["Equipped Melee"]="T Knife_Stock", ["Equipped C4"]="C4_Stock", ["Equipped Graffiti"]="", ["Equipped Music Kit"]=""}, ["Loadout"]={["Mid Tier"]={["Options"]={[1]="MAC-10_Stock", [2]="Negev_Stock", [3]="P90_Stock", [4]="Nova_Stock", [5]="XM1014_Stock"}}, ["Grenades"]={["Options"]={[1]="Flashbang_Stock", [2]="Smoke Grenade_Stock", [3]="HE Grenade_Stock", [4]="Molotov_Stock", [5]="Decoy Grenade_Stock"}}, ["Rifles"]={["Options"]={[1]="Galil AR_Stock", [2]="AK-47_Stock", [3]="SG 553_Stock", [4]="SSG 08_Stock", [5]="AWP_Stock"}}, ["Pistols"]={["Options"]={[1]="Glock-18_Stock", [2]="P250_Stock", [3]="Tec-9_Stock", [4]="Desert Eagle_Stock", [5]="Dual Berettas_Stock"}}}}, ["Counter-Terrorists"]={["Equipped"]={["Equipped Gloves"]="CT Glove_Stock", ["Equipped Zeus x27"]="Zeus x27_Stock", ["Equipped Badge"]="", ["Equipped Melee"]="CT Knife_Stock", ["Equipped C4"]="C4_Stock", ["Equipped Graffiti"]="", ["Equipped Music Kit"]=""}, ["Loadout"]={["Mid Tier"]={["Options"]={[1]="MP9_Stock", [2]="Negev_Stock", [3]="P90_Stock", [4]="Nova_Stock", [5]="XM1014_Stock"}}, ["Grenades"]={["Options"]={[1]="Flashbang_Stock", [2]="Smoke Grenade_Stock", [3]="HE Grenade_Stock", [4]="Molotov_Stock", [5]="Decoy Grenade_Stock"}}, ["Rifles"]={["Options"]={[1]="FAMAS_Stock", [2]="M4A1-S_Stock", [3]="AWP_Stock", [4]="SSG 08_Stock", [5]="AUG_Stock"}}, ["Pistols"]={["Options"]={[1]="USP-S_Stock", [2]="P250_Stock", [3]="Five-SeveN_Stock", [4]="Desert Eagle_Stock", [5]="Dual Berettas_Stock"}}}}}
+path Level = {["NextExperienceRequirement"]=5000, ["Level"]=1, ["Experience"]=2355}
+path Settings = {["Keyboard/Mouse"]={["Communication Options"]={["Voice Chat"]={["Console"]="", ["Computer"]="Enum.KeyCode.V"}, ["Team Message"]={["Console"]="", ["Computer"]="Enum.KeyCode.U"}, ["Chat Message"]={["Console"]="", ["Computer"]="Enum.KeyCode.Y"}}, ["UI Keys"]={["Ping"]={["Console"]="", ["Computer"]="Enum.UserInputType.MouseButton3"}, ["Main Menu"]={["Console"]="Enum.KeyCode.ButtonB", ["Computer"]="Enum.KeyCode.N"}, ["Toggle Inventory Display"]={["Console"]="", ["Computer"]="Enum.KeyCode.I"}, ["VIP Menu"]={["Console"]="", ["Computer"]="Enum.KeyCode.O"}, ["Choose Team"]={["Console"]="", ["Computer"]="Enum.KeyCode.M"}, ["Scoreboard"]={["Console"]="", ["Computer"]="Enum.KeyCode.Tab"}, ["Graffiti Menu"]={["Console"]="", ["Computer"]="Enum.KeyCode.T"}}, ["Weapon Keys"]={["Secondary Weapon"]={["Console"]="", ["Computer"]="Enum.KeyCode.Two"}, ["Secondary Fire"]={["Console"]="Enum.KeyCode.ButtonL2", ["Computer"]="Enum.UserInputType.MouseButton2"}, ["Flashbang"]={["Console"]="", ["Computer"]=""}, ["Fire Grenade"]={["Console"]="", ["Computer"]=""}, ["Cycle Weapons Right"]={["Console"]="Enum.KeyCode.ButtonR1", ["Computer"]="Enum.CustomInputType.ScrollWheelDown"}, ["Inspect"]={["Console"]="Enum.KeyCode.ButtonY", ["Computer"]="Enum.KeyCode.F"}, ["Last Weapon Used"]={["Console"]="Enum.KeyCode.DPadLeft", ["Computer"]="Enum.KeyCode.Q"}, ["Cycle Weapons Left"]={["Console"]="Enum.KeyCode.ButtonL1", ["Computer"]="Enum.CustomInputType.ScrollWheelUp"}, ["Health Shot"]={["Console"]="", ["Computer"]="Enum.KeyCode.X"}, ["Melee Weapon"]={["Console"]="", ["Computer"]="Enum.KeyCode.Three"}, ["Explosives & Traps"]={["Console"]="", ["Computer"]="Enum.KeyCode.Five"}, ["Drop Weapon"]={["Console"]="Enum.KeyCode.DPadDown", ["Computer"]="Enum.KeyCode.G"}, ["Reload"]={["Console"]="Enum.KeyCode.ButtonX", ["Computer"]="Enum.KeyCode.R"}, ["Decoy Grenade"]={["Console"]="", ["Computer"]=""}, ["Buy Menu"]={["Console"]="Enum.KeyCode.DPadRight", ["Computer"]="Enum.KeyCode.B"}, ["Primary Weapon"]={["Console"]="", ["Computer"]="Enum.KeyCode.One"}, ["HE Grenade"]={["Console"]="", ["Computer"]=""}, ["Cycle Grenades"]={["Console"]="", ["Computer"]="Enum.KeyCode.Four"}, ["Fire"]={["Console"]="Enum.KeyCode.ButtonR2", ["Computer"]="Enum.UserInputType.MouseButton1"}, ["Smoke Grenade"]={["Console"]="", ["Computer"]=""}, ["Use"]={["Console"]="Enum.KeyCode.DPadUp", ["Computer"]="Enum.KeyCode.E"}}, ["Movement Keys"]={["Move Backward"]={["Console"]="", ["Computer"]="Enum.KeyCode.S"}, ["Move Left (Strafe)"]={["Console"]="", ["Computer"]="Enum.KeyCode.A"}, ["Move Forward"]={["Console"]="", ["Computer"]="Enum.KeyCode.W"}, ["Jump"]={["Console"]="Enum.KeyCode.ButtonA", ["Computer"]="Enum.KeyCode.Space"}, ["Crouch"]={["Console"]="Enum.KeyCode.ButtonL3", ["Computer"]="Enum.KeyCode.LeftControl"}, ["Move Right (Strafe)"]={["Console"]="", ["Computer"]="Enum.KeyCode.D"}, ["Walk"]={["Console"]="Enum.KeyCode.ButtonR3", ["Computer"]="Enum.KeyCode.LeftShift"}}, ["Keyboard & Mouse Settings"]={["Zoom Sensitivity Multiplier"]=0.5, ["Mouse Sensitivity"]=1, ["Walk Mode"]="Hold"}}, ["Game"]={["Other"]={["Mobile Haptics/Vibrations"]=true, ["Emit Particles When Server Validated"]=true, ["Mobile Auto Shoot"]=true, ["Show Ping"]=true, ["Show FPS"]=true, ["Controller Haptics/Vibrations"]=true, ["Mobile Aim Assist"]=true, ["Controller Aim Assist"]=true}, ["Viewmodel"]={["Y Offset"]=0, ["Z Offset"]=0, ["X Offset"]=0}, ["Item"]={["Always Show Inventory"]=true, ["Auto Re-Zoom Sniper Rifle after Shot"]=true, ["Detach Silencer on M4A1-S and USP-S"]=false, ["Auto Pickup Dropped Weapons"]=true}, ["Radar/Tablet"]={["Radar Map Zoom"]=0.7, ["Radar Hud Size"]=1, ["Radar Is Rotating"]=true, ["Radar Centers The Player"]=true}, ["Crosshair"]={["Outline"]={["Enabled"]=true, ["Value"]=1}, ["Use Crosshair Color for Scope Dot"]=true, ["Friendly Fire Reticle Warning"]=true, ["Center Dot"]=true, ["Length"]=5, ["T Style"]=false, ["Red"]=0, ["Show Player Crosshairs"]=false, ["Blue"]=0, ["Follow Recoil"]=true, ["Crosshair Style"]="Classic", ["Thickness"]=1, ["Green"]=255, ["Crosshair Image"]=0, ["Alpha"]={["Enabled"]=false, ["Value"]=200}, ["Show my crosshair when spectating bots"]=false, ["Gap"]=0}, ["HUD"]={["Override Spectating HUD Color"]=false, ["Scale"]=1, ["System Chat Messages"]=true, ["Color"]="Team Color", ["Glow Weapon with Rarity Color"]=false, ["Enable Level-Up Notifications"]=true, ["Enable Missions Notifications"]=true, ["Player Pings"]="Display and Play Sound", ["Enable Game Instructor Messages"]=true}}, ["Audio"]={["Voice Chat"]={["Voice Chat Activation Mode"]="Open Microphone"}, ["Music"]={["Bomb/Hostage Volume"]=50, ["Death Camera Volume"]=50, ["Round End Volume"]=50, ["Round Action Volume"]=50, ["Ten Second Warning Volume"]=50, ["Round Start Volume"]=50, ["MVP Volume"]=50, ["Main Menu Volume"]=50}, ["Audio"]={["Voice Chat Volume"]=100, ["Main Menu Ambience Volume"]=100, ["Master Volume"]=100}, ["Other"]={["Mute MVP Music when players on both teams are alive"]=false}}, ["Video"]={["Presets"]={["Global Shadows"]=true, ["Texture Quality"]="High", ["Potato Mode"]=false, ["Ragdolls"]=true, ["First Person Tracers"]=true, ["Muzzle Flash"]=true, ["Glass Shatter"]=true}, ["Advanced"]={["Aspect Ratio"]=1, ["Maximum Render FPS In Game"]=400, ["Maximum Render FPS In Menu"]=200}}}
+path Missions = {[1]={["CreatedAt"]=1789985423234, ["IsClaimed"]=true, ["Progress"]=4, ["MissionId"]="Get 4 Headshots", ["Target"]=4, ["ExpiresAt"]=1789989023234}, [2]={["CreatedAt"]=1789985423234, ["IsClaimed"]=true, ["Progress"]=1000, ["MissionId"]="Deal 1000 Damage", ["Target"]=1000, ["ExpiresAt"]=1789989023234}, [3]={["CreatedAt"]=1789985423234, ["IsClaimed"]=true, ["Progress"]=2, ["MissionId"]="Get 2 Multi-Kills", ["Target"]=2, ["ExpiresAt"]=1789989023234}, [4]={["CreatedAt"]=1789985423234, ["IsClaimed"]=true, ["Progress"]=8, ["MissionId"]="Get 8 Kills", ["Target"]=8, ["ExpiresAt"]=1789989023234}, [5]={["CreatedAt"]=1789985423234, ["IsClaimed"]=false, ["Progress"]=0, ["MissionId"]="Deal 400 Utility Damage", ["Target"]=400, ["ExpiresAt"]=1790071823234}, [6]={["CreatedAt"]=1789985423234, ["IsClaimed"]=false, ["Progress"]=0, ["MissionId"]="Get 25 Headshots In Deathmatch", ["Target"]=25, ["ExpiresAt"]=1790071823234}, [7]={["CreatedAt"]=1789985423234, ["IsClaimed"]=false, ["Progress"]=8, ["MissionId"]="Get 18 Pistol Kills In Bomb Defusal", ["Target"]=18, ["ExpiresAt"]=1790071823234}, [8]={["CreatedAt"]=1789985423234, ["IsClaimed"]=false, ["Progress"]=3, ["MissionId"]="Earn 12 MVPs", ["Target"]=12, ["ExpiresAt"]=1790071823234}, [9]={["CreatedAt"]=1789801418887, ["IsClaimed"]=false, ["Progress"]=2, ["MissionId"]="Get 70 Assists", ["Target"]=70, ["ExpiresAt"]=1790406218887}, [10]={["CreatedAt"]=1789801418887, ["IsClaimed"]=true, ["Progress"]=25, ["MissionId"]="Win 25 Rounds In Bomb Defusal", ["Target"]=25, ["ExpiresAt"]=1790406218887}, [11]={["CreatedAt"]=1789801418887, ["IsClaimed"]=true, ["Progress"]=75, ["MissionId"]="Get 75 Kills In Bomb Defusal", ["Target"]=75, ["ExpiresAt"]=1790406218887}, [12]={["CreatedAt"]=1789801418887, ["IsClaimed"]=true, ["Progress"]=35000, ["MissionId"]="Deal 35000 Damage", ["Target"]=35000, ["ExpiresAt"]=1790406218887}, [13]={["CreatedAt"]=1789801418887, ["IsClaimed"]=false, ["Progress"]=12, ["MissionId"]="Get 500 Rifle Kills", ["Target"]=500, ["ExpiresAt"]=1792393418887}, [14]={["CreatedAt"]=1789801418887, ["IsClaimed"]=false, ["Progress"]=183, ["MissionId"]="Get 1200 Kills", ["Target"]=1200, ["ExpiresAt"]=1792393418887}, [15]={["CreatedAt"]=1789801418887, ["IsClaimed"]=false, ["Progress"]=54719, ["MissionId"]="Deal 130000 Damage", ["Target"]=130000, ["ExpiresAt"]=1792393418887}, [16]={["CreatedAt"]=1789801418887, ["IsClaimed"]=false, ["Progress"]=35, ["MissionId"]="Deal 4000 Utility Damage", ["Target"]=4000, ["ExpiresAt"]=1792393418887}}
+
+== listeners ==
+up1: userdata
+up2: table keys=10 hasLP=true
+  path=Missions cb=2
+  path=Settings.Audio.Audio.Main Menu Ambience Volume cb=1
+  path=Loadout.Counter-Terrorists.Equipped.Equipped Badge cb=1
+  path=Settings cb=1
+  path=Settings.Video.Presets.Global Shadows cb=3
+  path=Settings.Game.Other.Controller Aim Assist cb=2
+  path=Settings.Audio.Music.Main Menu Volume cb=1
+  path=Settings.Game.HUD.Color cb=10
+  path=Settings.Game.Radar/Tablet.Radar Map Zoom cb=1
+  path=Settings.Audio.Music.MVP Volume cb=1
+  path=Loadout cb=3
+  path=Settings.Game.Radar/Tablet.Radar Hud Size cb=2
+  path=Settings.Video.Presets.Ragdolls cb=1
+  path=Settings.Audio.Music.Round Start Volume cb=1
+  path=Settings.Keyboard/Mouse cb=6
+  path=Settings.Game.Other.Show FPS cb=1
+  path=Inventory cb=4
+  path=Settings.Keyboard/Mouse.Keyboard & Mouse Settings.Mouse Sensitivity cb=1
+  path=Settings.Keyboard/Mouse.Keyboard & Mouse Settings.Zoom Sensitivity Multiplier cb=1
+  path=Gamepasses cb=1
+  path=Statistics.RobuxSpent cb=1
+  path=PromotionalRewards cb=5
+  path=Exclusive Raffle Ticket cb=1
+  path=Settings.Game.HUD.Glow Weapon with Rarity Color cb=1
+  path=Level cb=1
+  path=TradeTokens cb=2
+  path=Credits cb=1
+  path=Statistics.OpenShopTime cb=1
+  path=MissionStars cb=1
+  path=Settings.Game.Other.Show Ping cb=1
+  path=Settings.Game.Item.Always Show Inventory cb=1
+  path=Settings.Game.Crosshair cb=1
+  path=Settings.Audio.Voice Chat.Voice Chat Activation Mode cb=1
+  path=Settings.Game.HUD.Scale cb=1
+  path=Settings.Game.Other.Mobile Auto Shoot cb=1
+  path=Settings.Game.Radar/Tablet.Radar Centers The Player cb=1
+  path=Settings.Game.Radar/Tablet.Radar Is Rotating cb=1
+  path=MobileButtons cb=1
+  path=Settings.Game.HUD.Player Pings cb=1
+  path=Settings.Game.Other.Mobile Aim Assist cb=2
+  path=Statistics.Joins cb=2
+  path=Settings.Audio.Audio.Master Volume cb=4
+  path=Settings.Game.HUD.Enable Game Instructor Messages cb=3
+up3: table keys=8 hasLP=false
+up4: table keys=27 hasLP=false

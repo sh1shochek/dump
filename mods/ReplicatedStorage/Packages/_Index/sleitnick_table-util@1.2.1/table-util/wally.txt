@@ -1,0 +1,6 @@
+PATH: ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1.table-util.wally
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+K package :table keys=7
+  {["authors"]={[1]="Stephen Leitnick"}, ["registry"]="https://github.com/UpliftGames/wally-index", ["description"]="Table utility functions", ["version"]="1.2.1", ["license"]="MIT", ["name"]="sleitnick/table-util", ["realm"]="shared"}

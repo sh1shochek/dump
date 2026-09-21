@@ -1,0 +1,66 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.UI.Mobile
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+F ClampButtonLayout
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.UI.Mobile:? cname=ClampButtonLayout what=Lua protos=0[]
+  up1: table keys=11 {MAX_SIZE:number, MAX_POSITION:number, GetDefaultLayout:function, HasAllRequiredButtons:function, MIN_SIZE:number, GetDefaultButtonLayout:function, MIN_POSITION:number, REQUIRED_BUTTONS:table, GetButtonNames:function, ClampButtonLayout:function, SanitizeLayout:function}
+  up2: ERR
+  consts total=13
+  [1] str "Size"
+  [2] str "X"
+  [3] str "MIN_SIZE"
+  [4] str "MAX_SIZE"
+  [5] str "math"
+  [6] str "clamp"
+F GetButtonNames
+  params=0 src=ReplicatedStorage.Database.Custom.GameStats.UI.Mobile:? cname=GetButtonNames what=Lua protos=0[]
+  up1: table keys=11 {MAX_SIZE:number, MAX_POSITION:number, GetDefaultLayout:function, HasAllRequiredButtons:function, MIN_SIZE:number, GetDefaultButtonLayout:function, MIN_POSITION:number, REQUIRED_BUTTONS:table, GetButtonNames:function, ClampButtonLayout:function, SanitizeLayout:function}
+  up2: ERR
+  consts total=4
+  [1] str "table"
+  [2] str "clone"
+F GetDefaultButtonLayout
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.UI.Mobile:? cname=GetDefaultButtonLayout what=Lua protos=0[]
+  up1: table keys=16 {Ping:table, Interact:table, Chat:table, Crouch:table, Configure:table, SwapTeam:table, Jump:table, Aim:table, Shoot:table, Shop:table, Menu:table, Drop:table, Reload:table, Inspect:table, Scoreboard:table, Walk:table}
+  up2: function params=1 src=ReplicatedStorage.Database.Custom.GameStats.UI.Mobile:? cname=CopyButtonLayout what=Lua
+  up3: ERR
+  consts total=9
+  [1] str "Position"
+  [2] str "Size"
+  [3] table
+  [4] str "X"
+  [5] number 0.5
+  [6] str "Y"
+  [7] table
+  [8] number 0.1
+  [9] table
+F GetDefaultLayout
+  params=0 src=ReplicatedStorage.Database.Custom.GameStats.UI.Mobile:? cname=GetDefaultLayout what=Lua protos=0[]
+  up1: table keys=11 {MAX_SIZE:number, MAX_POSITION:number, GetDefaultLayout:function, HasAllRequiredButtons:function, MIN_SIZE:number, GetDefaultButtonLayout:function, MIN_POSITION:number, REQUIRED_BUTTONS:table, GetButtonNames:function, ClampButtonLayout:function, SanitizeLayout:function}
+  up2: function params=1 src=ReplicatedStorage.Database.Custom.GameStats.UI.Mobile:? cname=CopyButtonLayout what=Lua
+  up3: table keys=16 {Ping:table, Interact:table, Chat:table, Crouch:table, Configure:table, SwapTeam:table, Jump:table, Aim:table, Shoot:table, Shop:table, Menu:table, Drop:table, Reload:table, Inspect:table, Scoreboard:table, Walk:table}
+  up4: ERR
+  consts total=1
+  [1] str "ipairs"
+F HasAllRequiredButtons
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.UI.Mobile:? cname=HasAllRequiredButtons what=Lua protos=0[]
+  up1: table keys=11 {MAX_SIZE:number, MAX_POSITION:number, GetDefaultLayout:function, HasAllRequiredButtons:function, MIN_SIZE:number, GetDefaultButtonLayout:function, MIN_POSITION:number, REQUIRED_BUTTONS:table, GetButtonNames:function, ClampButtonLayout:function, SanitizeLayout:function}
+  up2: function params=1 src=ReplicatedStorage.Database.Custom.GameStats.UI.Mobile:? cname=HasValidButtonLayout what=Lua
+  up3: ERR
+  consts total=6
+  [1] str "typeof"
+K MAX_POSITION :number = 2
+K MAX_SIZE :number = 0.4
+K MIN_POSITION :number = -2
+K MIN_SIZE :number = 0.05
+K REQUIRED_BUTTONS :table keys=16
+  {[1]="Shoot", [2]="Shop", [3]="Scoreboard", [4]="Reload", [5]="Jump", [6]="Walk", [7]="Crouch", [8]="Aim", [9]="Drop", [10]="Interact", [11]="Inspect", [12]="SwapTeam", [13]="Configure", [14]="Menu", [15]="Ping", [16]="Chat"}
+F SanitizeLayout
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.UI.Mobile:? cname=SanitizeLayout what=Lua protos=0[]
+  up1: table keys=11 {MAX_SIZE:number, MAX_POSITION:number, GetDefaultLayout:function, HasAllRequiredButtons:function, MIN_SIZE:number, GetDefaultButtonLayout:function, MIN_POSITION:number, REQUIRED_BUTTONS:table, GetButtonNames:function, ClampButtonLayout:function, SanitizeLayout:function}
+  up2: function params=1 src=ReplicatedStorage.Database.Custom.GameStats.UI.Mobile:? cname=HasValidButtonLayout what=Lua
+  up3: ERR
+  consts total=14
+  [1] str "GetDefaultLayout"
+  [2] str "typeof"

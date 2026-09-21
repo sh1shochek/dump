@@ -1,0 +1,13 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Get 15 Headshots
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K Category :string = headshots
+K DisplayName :string = Get 15 Headshots In Bomb Defusal Or Hostage Rescue
+K Gamemodes :table keys=2
+  {[1]="Bomb Defusal", [2]="Hostage Rescue"}
+K MissionId :string = Get 15 Headshots
+K Rewards :table keys=1
+  {[1]={["amount"]=28, ["type"]="Credits"}}
+K Target :number = 15
+K Type :string = daily

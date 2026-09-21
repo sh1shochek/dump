@@ -1,0 +1,79 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F ApplyBindingToKeybind
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips:? cname=ApplyBindingToKeybind what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips:? cname=getBindLabels what=Lua
+  up2: function params=1 src=ReplicatedStorage.Components.Common.GetBindIcon:? what=Lua
+  up3: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips:? cname=bindingToText what=Lua
+  up4: ERR
+  consts total=3
+  [1] str "Image"
+  [2] str "Visible"
+  [3] str "Text"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips:? cname=Initialize what=Lua protos=0[]
+  up1: userdata Tips
+  up2: userdata UIListLayout
+  up3: userdata Radar
+  up4: table keys=10 {Plant:string, Crouch:string, Defuse:string, BuyMenu:string, Reload:string, Menu:string, WeaponMod:string, Inspect:string, Scoreboard:string, Walk:string}
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips:? cname=captureOriginalLayout what=Lua
+  up6: ERR
+  consts total=8
+  [1] str "UIListLayout"
+  [2] str "FindFirstChildOfClass"
+  [3] str "Gameplay"
+  [4] str "Middle"
+  [5] str "Radar"
+  [6] str "WaitForChild"
+  [7] str "Visible"
+  [8] str "pairs"
+F IsGamepadPreferred
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips:? cname=IsGamepadPreferred what=Lua protos=0[]
+  up1: userdata UserInputService
+  up2: ERR
+  consts total=4
+  [1] str "PreferredInput"
+  [2] str "Enum"
+  [3] str "Gamepad"
+  [4] userdata
+F ResolveActionBinding
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips:? cname=ResolveActionBinding what=Lua protos=0[]
+  up1: table keys=5 {IsGamepadPreferred:function, ApplyBindingToKeybind:function, Initialize:function, ResolveActionBinding:function, Start:function}
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: userdata Mateo_081005
+  up4: table keys=10 {Audio:table, Keybinds:table, GetPage:function, Video:table, GetCategory:function, GetSetting:function, Descriptions:table, Game:table, GetCategories:function, GetPageNames:function}
+  up5: table keys=1 {parse:function}
+  up6: ERR
+  consts total=6
+  [1] str "IsGamepadPreferred"
+  [2] str "Console"
+  [3] str "Computer"
+  [4] str "Get"
+  [5] str "Settings.Keyboard/Mouse"
+  [6] str "typeof"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips:? cname=Start what=Lua protos=6[#1,#2,#3,#4,#5,#6]
+  up1: boolean false
+  up2: userdata Tips
+  up3: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up4: userdata Mateo_081005
+  up5: boolean true
+  up6: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips:? cname=refresh what=Lua
+  up7: userdata UserInputService
+  up8: userdata HttpService
+  up9: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up10: table keys=3 {Scope:string, Suppressor:string, Burst:string}
+  up11: userdata CollectionService
+  up12: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips:? cname=isInPlantZone what=Lua
+  up13: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips:? cname=canDefuse what=Lua
+  up14: function params=2 src=ReplicatedStorage.Database.Components.Common.IsInBuyArea:? what=Lua
+  up15: userdata Radar
+  up16: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Tips:? cname=updateLayoutSide what=Lua
+  up17: ERR
+  consts total=25
+  [1] str "Visible"
+  [2] str "CreateListener"
+  [3] str "Settings.Game.HUD.Enable Game Instructor Messages"
+  [4] str "Settings.Keyboard/Mouse"

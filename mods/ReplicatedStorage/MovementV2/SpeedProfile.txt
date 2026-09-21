@@ -1,0 +1,41 @@
+PATH: ReplicatedStorage.MovementV2.SpeedProfile
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+K CrouchModifier :number = 0.34
+K DefaultBaseSpeed :number = 18.75
+K HammerUnitToStud :number = 0.075
+K HostageCarryingSpeed :number = 15
+K ScopedSpeeds :table keys=7
+  {["R8 Revolver"]=13.5, ["AUG"]=11.25, ["SG 553"]=11.25, ["G3SG1"]=9, ["AWP"]=7.5, ["SSG 08"]=17.25, ["SCAR-20"]=9}
+K TopSpeed :number = 19.5
+K WalkModifier :number = 0.52
+K WeaponSpeeds :table keys=52
+  {["CZ75-Auto"]=18, ["M249"]=14.625, ["MAG-7"]=16.875, ["AWP"]=15, ["T Knife"]=18.75, ["HE Grenade"]=18.375, ["Flashbang"]=18.375, ["Flip Knife"]=18.75, ["Negev"]=11.25, ["AUG"]=16.5, ["Skeleton Knife"]=18.75, ["G3SG1"]=16.125, ["C4"]=18.75, ["M4A1-S"]=16.875, ["Karambit"]=18.75, ["Zeus x27"]=16.5, ["AK-47"]=16.125, ["Molotov"]=18.375, ["SSG 08"]=17.25, ["XM1014"]=16.125, ["USP-S"]=18, ["FAMAS"]=16.5, ["P90"]=17.25, ["Tec-9"]=18, ["MP7"]=16.5, ["R8 Revolver"]=16.5, ["MP9"]=18, ["Butterfly Knife"]=18.75, ["Sawed-Off"]=15.75, ["SG 553"]=15.75, ["P250"]=18, ["PP-Bizon"]=18, ["LightSaber"]=18.75, ["M9 Bayonet"]=18.75, ["Five-SeveN"]=18, ["SCAR-20"]=16.125, ["Glock-18"]=18, ["Stiletto Knife"]=18.75, ["UMP-45"]=17.25, ["Desert Eagle"]=17.25, ["CT Knife"]=18.75, ["Incendiary Grenade"]=18.375, ["P2000"]=18, ["Gut Knife"]=18.75, ["Nova"]=16.5, ["Smoke Grenade"]=18.375, ["MP5-SD"]=17.625, ["MAC-10"]=18, ["M4A4"]=16.875, ["Dual Berettas"]=18, ["Galil AR"]=16.125, ["Decoy Grenade"]=18.375}
+F resolve
+  params=1 src=ReplicatedStorage.MovementV2.SpeedProfile:? cname=resolve what=Lua protos=0[]
+  up1: table keys=11 {WeaponSpeeds:table, WalkModifier:number, resolve:function, HammerUnitToStud:number, CrouchModifier:number, DefaultBaseSpeed:number, resolveWeaponSpeeds:function, ScopedSpeeds:table, resolveFromWeaponSpeeds:function, HostageCarryingSpeed:number, TopSpeed:number}
+  up2: ERR
+  consts total=6
+  [1] str "resolveWeaponSpeeds"
+  [2] str "WeaponName"
+  [3] str "WeaponWalkSpeed"
+  [4] str "resolveFromWeaponSpeeds"
+  [5] str "IsScoped"
+  [6] str "CarryingHostage"
+F resolveFromWeaponSpeeds
+  params=4 src=ReplicatedStorage.MovementV2.SpeedProfile:? cname=resolveFromWeaponSpeeds what=Lua protos=0[]
+  up1: table keys=11 {WeaponSpeeds:table, WalkModifier:number, resolve:function, HammerUnitToStud:number, CrouchModifier:number, DefaultBaseSpeed:number, resolveWeaponSpeeds:function, ScopedSpeeds:table, resolveFromWeaponSpeeds:function, HostageCarryingSpeed:number, TopSpeed:number}
+  up2: ERR
+  consts total=6
+  [1] str "HostageCarryingSpeed"
+  [2] str "math"
+  [3] str "min"
+F resolveWeaponSpeeds
+  params=2 src=ReplicatedStorage.MovementV2.SpeedProfile:? cname=resolveWeaponSpeeds what=Lua protos=0[]
+  up1: table keys=11 {WeaponSpeeds:table, WalkModifier:number, resolve:function, HammerUnitToStud:number, CrouchModifier:number, DefaultBaseSpeed:number, resolveWeaponSpeeds:function, ScopedSpeeds:table, resolveFromWeaponSpeeds:function, HostageCarryingSpeed:number, TopSpeed:number}
+  up2: ERR
+  consts total=11
+  [1] str "WeaponSpeeds"
+  [2] str "DefaultBaseSpeed"
+  [3] str "typeof"

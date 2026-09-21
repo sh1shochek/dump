@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.Ping.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

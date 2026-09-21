@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Packages.Trove
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F new
+  params=0 src=ReplicatedStorage.Packages._Index.sleitnick_trove@1.5.0.trov:? cname=new what=Lua protos=0[]
+  up1: table keys=16 {Destroy:function, AttachToInstance:function, Construct:function, Clean:function, WrapClean:function, _findAndRemoveFromObjects:function, _cleanupObject:function, Connect:function, AddPromise:function, Remove:function, Clone:function, BindToRenderStep:function, Extend:function, Add:function, __index:table, new:function}
+  up2: ERR
+  consts total=4
+  [1] str "setmetatable"

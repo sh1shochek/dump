@@ -1,0 +1,87 @@
+PATH: ReplicatedStorage.MovementV2.Simulation.DeterminismTrace
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+K MaxEvents :number = 128
+K RequestSize :number = 12
+K Ring :table keys=6
+  {["clear"]=<function:function: 0x8235354432fb548b>, ["get"]=<function:function: 0x4717bb5e3433f83a>, ["finish"]=<function:function: 0x3cf2719798dc29ec>, ["begin"]=<function:function: 0xf080b5bf6e72c184>, ["__index"]=<cycle>, ["new"]=<function:function: 0x26b92070e9856ec1>}
+F checkpoint
+  params=8 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=checkpoint what=Lua protos=0[]
+  up1: function params=12 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=writeEvent what=Lua
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=registerSite what=Lua
+  up3: function params=1 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=sourceId what=Lua
+  up4: function params=2 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=eventFlags what=Lua
+  up5: function params=1 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=stateHash what=Lua
+  up6: function params=2 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=auxiliaryHash what=Lua
+  up7: ERR
+  consts total=15
+  [1] str "debug"
+  [2] str "info"
+F collision
+  params=6 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=collision what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=vectorHash what=Lua
+  up2: buffer buffer: 0x4cc7e07bc61c0e81
+  up3: function params=12 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=writeEvent what=Lua
+  up4: function params=2 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=registerSite what=Lua
+  up5: function params=1 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=sourceId what=Lua
+  up6: ERR
+  consts total=50
+  [1] str "debug"
+  [2] str "info"
+F compare
+  params=2 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=compare what=Lua protos=0[]
+  up1: table keys=12 {MaxEvents:number, RequestSize:number, unavailable:function, identity:function, Ring:table, compare:function, vector:function, checkpoint:function, encodeRequest:function, describe:function, collision:function, decodeRequest:function}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=readEvent what=Lua
+  up3: function params=2 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=eventClass what=Lua
+  up4: table keys=0 {}
+  up5: table keys=8 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string, 7:string, 0:string}
+  up6: ERR
+  consts total=43
+  [1] str "identity"
+  [2] number 2
+  [3] str "buffer"
+  [4] str "readu8"
+F decodeRequest
+  params=1 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=decodeRequest what=Lua protos=0[]
+  up1: ERR
+  consts total=16
+  [1] str "typeof"
+F describe
+  params=1 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=describe what=Lua protos=0[]
+  up1: table keys=12 {MaxEvents:number, RequestSize:number, unavailable:function, identity:function, Ring:table, compare:function, vector:function, checkpoint:function, encodeRequest:function, describe:function, collision:function, decodeRequest:function}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=readEvent what=Lua
+  up3: table keys=0 {}
+  up4: table keys=8 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string, 7:string, 0:string}
+  up5: ERR
+  consts total=22
+  [1] str "identity"
+  [2] str "typeof"
+F encodeRequest
+  params=3 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=encodeRequest what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "buffer"
+  [2] str "create"
+F identity
+  params=1 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=identity what=Lua protos=0[]
+  up1: ERR
+  consts total=16
+  [1] str "typeof"
+F unavailable
+  params=3 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=unavailable what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "buffer"
+  [2] str "create"
+F vector
+  params=9 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=vector what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=vectorHash what=Lua
+  up2: function params=12 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=writeEvent what=Lua
+  up3: function params=2 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=registerSite what=Lua
+  up4: function params=1 src=ReplicatedStorage.MovementV2.Simulation.DeterminismTrace:? cname=sourceId what=Lua
+  up5: buffer buffer: 0x4cc7e07bc61c0e81
+  up6: ERR
+  consts total=16
+  [1] str "debug"
+  [2] str "info"

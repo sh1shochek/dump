@@ -1,0 +1,21 @@
+PATH: ReplicatedStorage.Components.Common.ReplicateCharacterAction
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua protos=0[]
+  up1: table keys=3 {ToId:function, ToName:function, Names:table}
+  up2: table keys=7 {IsValid:function, Matches:function, MaxValue:number, Next:function, AttributeName:string, Set:function, Get:function}
+  up3: userdata Mateo_081005
+  up4: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up5: ERR
+  consts total=10
+  [1] str "ToId"
+  [2] str "Get"
+  [3] str "Character"
+  [4] str "Action"
+  [5] str "Send"
+  [6] str "UserId"
+  [7] number 0
+  [8] str "Generation"
+  [9] str "ActionId"
+  [10] table

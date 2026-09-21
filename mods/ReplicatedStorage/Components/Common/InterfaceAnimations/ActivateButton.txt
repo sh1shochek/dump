@@ -1,0 +1,14 @@
+PATH: ReplicatedStorage.Components.Common.InterfaceAnimations.ActivateButton
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua protos=4[#1,#2,#3,#4]
+  up1: userdata TweenService
+  up2: userdata Time:0.15 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:Out EasingSty
+  up3: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up4: ERR
+  consts total=18
+  [1] str "Size"
+  [2] table
+  [3] str "UDim2"
+  [4] str "new"

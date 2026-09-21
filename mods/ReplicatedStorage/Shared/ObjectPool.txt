@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Shared.ObjectPool
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F new
+  params=2 src=ReplicatedStorage.Shared.ObjectPool:? cname=new what=Lua protos=1[#1]
+  up1: table keys=5 {Destroy:function, IsAcquired:function, Release:function, Acquire:function, __index:table}
+  up2: ERR
+  consts total=47
+  [1] str "typeof"

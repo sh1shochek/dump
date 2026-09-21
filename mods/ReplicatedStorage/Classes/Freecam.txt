@@ -1,0 +1,222 @@
+PATH: ReplicatedStorage.Classes.Freecam
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+F Destroy
+  params=1 src=ReplicatedStorage.Classes.Freecam:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Janitor"
+  [2] str "Destroy"
+F ReleaseEndedTouches
+  params=1 src=ReplicatedStorage.Classes.Freecam:? cname=ReleaseEndedTouches what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "MoveTouch"
+  [2] str "UserInputState"
+  [3] str "Enum"
+  [4] str "End"
+  [5] userdata
+  [6] vector
+  [7] str "TouchMoveVector"
+  [8] str "LookTouch"
+F Render
+  params=2 src=ReplicatedStorage.Classes.Freecam:? cname=Render what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "ReleaseEndedTouches"
+  [2] str "UpdateMovement"
+  [3] str "UpdateRotation"
+  [4] str "UpdateCamera"
+F ResetTouchInput
+  params=1 src=ReplicatedStorage.Classes.Freecam:? cname=ResetTouchInput what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "Vector2"
+  [2] str "zero"
+  [3] userdata
+  [4] str "TouchLookDelta"
+  [5] vector
+  [6] str "TouchMoveVector"
+  [7] str "MoveTouch"
+  [8] str "MoveTouchStartPosition"
+  [9] str "LookTouch"
+F ShowTouchControls
+  params=1 src=ReplicatedStorage.Classes.Freecam:? cname=ShowTouchControls what=Lua protos=2[applyVisibility,#2]
+  up1: userdata UserInputService
+  up2: userdata Mateo_081005
+  up3: userdata GuiService
+  up4: ERR
+  consts total=16
+  [1] str "TouchEnabled"
+  [2] str "PlayerGui"
+  [3] str "FindFirstChildOfClass"
+  [4] str "TouchGui"
+  [5] str "FindFirstChild"
+  [6] str "IsActive"
+  [7] str "TouchControlsEnabled"
+  [8] str "Enabled"
+  [9] str "Janitor"
+  [10] str "GetPropertyChangedSignal"
+  [11] str "Connect"
+  [12] str "Disconnect"
+  [13] str "TouchControlsEnabledGuard"
+  [14] str "Add"
+  [15] str "TouchControlsSettingGuard"
+  [16] str "RestoreTouchControls"
+F Start
+  params=1 src=ReplicatedStorage.Classes.Freecam:? cname=Start what=Lua protos=4[#1,#2,#3,#4]
+  up1: userdata Camera
+  up2: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up3: userdata UserInputService
+  up4: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up5: userdata Mateo_081005
+  up6: ERR
+  consts total=32
+  [1] str "IsActive"
+  [2] str "CFrame"
+  [3] str "CameraCFrame"
+  [4] str "MouseWheelDelta"
+  [5] str "ResetTouchInput"
+  [6] str "ShowTouchControls"
+  [7] str "Enum"
+  [8] str "CameraType"
+  [9] str "Scriptable"
+  [10] userdata
+  [11] str "setMouseEnabled"
+  [12] str "Janitor"
+  [13] str "MouseBehavior"
+  [14] str "GetPropertyChangedSignal"
+  [15] str "Connect"
+  [16] str "Disconnect"
+  [17] str "EnforceMouseBehavior"
+  [18] str "Add"
+  [19] str "Freecam"
+  [20] str "RenderStepName"
+  [21] str "BindToRenderStep"
+  [22] number 10
+  [23] str "RenderPriority"
+  [24] str "Camera"
+  [25] userdata
+  [26] str "Value"
+  [27] str "workspace"
+  [28] userdata
+  [29] str "Map"
+  [30] str "FindFirstChild"
+  [31] str "ReplicationFocus"
+  [32] str "Focus"
+F Stop
+  params=1 src=ReplicatedStorage.Classes.Freecam:? cname=Stop what=Lua protos=0[]
+  up1: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up2: userdata Camera
+  up3: ERR
+  consts total=17
+  [1] str "IsActive"
+  [2] str "UnbindFromRenderStep"
+  [3] str "Freecam"
+  [4] str "RenderStepName"
+  [5] str "ResetTouchInput"
+  [6] str "Janitor"
+  [7] str "TouchControlsEnabledGuard"
+  [8] str "Get"
+  [9] str "Remove"
+  [10] str "TouchControlsSettingGuard"
+  [11] str "RestoreTouchControls"
+  [12] str "Enum"
+  [13] str "CameraType"
+  [14] str "Custom"
+  [15] userdata
+  [16] str "EnforceMouseBehavior"
+  [17] str "ReplicationFocus"
+F UpdateCamera
+  params=1 src=ReplicatedStorage.Classes.Freecam:? cname=UpdateCamera what=Lua protos=0[]
+  up1: userdata Camera
+  up2: ERR
+  consts total=2
+  [1] str "CameraCFrame"
+  [2] str "CFrame"
+F UpdateMouseWheel
+  params=2 src=ReplicatedStorage.Classes.Freecam:? cname=UpdateMouseWheel what=Lua protos=0[]
+  up1: table keys=12 {enableGroup:function, getActionKeybinds:function, registerAction:function, disableGroup:function, Initialize:function, isBindingPressed:function, isActionPressed:function, GetActionKeybind:function, Start:function, loadActionsFromDatabase:function, bindKeybinds:function, isActionActive:function}
+  up2: ERR
+  consts total=10
+  [1] str "MouseWheelDelta"
+  [2] number 0
+  [3] str "isActionActive"
+  [4] str "Walk"
+  [5] str "CameraCFrame"
+  [6] str "LookVector"
+  [7] number 0.5
+  [8] str "Position"
+  [9] str "CFrame"
+  [10] str "new"
+F UpdateMovement
+  params=2 src=ReplicatedStorage.Classes.Freecam:? cname=UpdateMovement what=Lua protos=0[]
+  up1: table keys=12 {enableGroup:function, getActionKeybinds:function, registerAction:function, disableGroup:function, Initialize:function, isBindingPressed:function, isActionPressed:function, GetActionKeybind:function, Start:function, loadActionsFromDatabase:function, bindKeybinds:function, isActionActive:function}
+  up2: ERR
+  consts total=27
+  [1] vector
+  [2] str "isActionActive"
+  [3] str "Move Forward"
+  [4] vector
+  [5] str "Move Backward"
+  [6] vector
+  [7] str "Move Left (Strafe)"
+  [8] vector
+  [9] str "Move Right (Strafe)"
+  [10] vector
+  [11] str "Walk"
+  [12] number 0.2
+  [13] str "Unit"
+  [14] str "TouchMoveVector"
+  [15] str "Magnitude"
+  [16] str "CameraCFrame"
+  [17] str "RightVector"
+  [18] str "UpVector"
+  [19] str "LookVector"
+  [20] str "X"
+  [21] str "Y"
+  [22] str "Z"
+  [23] str "Position"
+  [24] str "CFrame"
+  [25] str "new"
+F UpdateRotation
+  params=2 src=ReplicatedStorage.Classes.Freecam:? cname=UpdateRotation what=Lua protos=0[]
+  up1: userdata UserInputService
+  up2: table keys=12 {enableGroup:function, getActionKeybinds:function, registerAction:function, disableGroup:function, Initialize:function, isBindingPressed:function, isActionPressed:function, GetActionKeybind:function, Start:function, loadActionsFromDatabase:function, bindKeybinds:function, isActionActive:function}
+  up3: userdata Camera
+  up4: userdata 9.42477798, 5.497787
+  up5: userdata 4.71238899, 2.7488935
+  up6: ERR
+  consts total=35
+  [1] str "MoveTouch"
+  [2] str "LookTouch"
+  [3] str "Vector2"
+  [4] str "zero"
+  [5] userdata
+  [6] str "GetMouseDelta"
+  [7] str "isActionActive"
+  [8] str "Walk"
+  [9] number 0.5
+  [10] str "ViewportSize"
+  [11] str "X"
+  [12] str "Y"
+  [13] str "TouchLookDelta"
+  [14] str "CameraCFrame"
+  [15] str "Position"
+  [16] str "LookVector"
+  [17] str "math"
+  [18] str "asin"
+K __index :table keys=13
+  {["Render"]=<function:function: 0xc395ce49b7cf6692>, ["UpdateCamera"]=<function:function: 0x0206d2d2c4bae5f2>, ["ResetTouchInput"]=<function:function: 0x0be2fa593a857385>, ["UpdateMouseWheel"]=<function:function: 0xa39c51fc84ba47f4>, ["Destroy"]=<function:function: 0xb10bbe614a3f3722>, ["ReleaseEndedTouches"]=<function:function: 0xe848a3f76c24733d>, ["UpdateMovement"]=<function:function: 0x071b6e467994fede>, ["UpdateRotation"]=<function:function: 0x52087f2e7a754ee1>, ["Stop"]=<function:function: 0x6883ee755750437d>, ["ShowTouchControls"]=<function:function: 0xc14ce00844e9450a>, ["Start"]=<function:function: 0xfb2080ffa02a2742>, ["__index"]=<cycle>, ["new"]=<function:function: 0x3da43cd9eaca1203>}
+F new
+  params=0 src=ReplicatedStorage.Classes.Freecam:? cname=new what=Lua protos=4[#1,#2,#3,#4]
+  up1: table keys=13 {Render:function, UpdateCamera:function, ResetTouchInput:function, UpdateMouseWheel:function, Destroy:function, ReleaseEndedTouches:function, UpdateMovement:function, UpdateRotation:function, Stop:function, ShowTouchControls:function, Start:function, __index:table, new:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: userdata UserInputService
+  up4: userdata Camera
+  up5: userdata 0.400000006, 0.333333343
+  up6: function params=2 src=ReplicatedStorage.Classes.Freecam:? cname=ResolveTouchMoveVector what=Lua
+  up7: ERR
+  consts total=26
+  [1] str "setmetatable"

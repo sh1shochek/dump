@@ -1,0 +1,7 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Character.Attachments
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+K DEFAULT_JOINT_PART :string = RightHand
+K WEAPON_JOINT_PARTS :table keys=2
+  {["C4"]="LeftHand", ["AWP"]="UpperTorso"}

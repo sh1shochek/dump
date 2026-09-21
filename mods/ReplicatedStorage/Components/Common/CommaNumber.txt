@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Components.Common.CommaNumber
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Components.Common.CommaNumber:? what=Lua protos=0[]
+  up1: ERR
+  consts total=14
+  [1] number 1
+  [2] number 0
+  [3] str "tostring"

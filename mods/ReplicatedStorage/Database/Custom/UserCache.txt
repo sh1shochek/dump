@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Database.Custom.UserCache
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F Fetch
+  params=1 src=ReplicatedStorage.Database.Custom.UserCache:? cname=Fetch what=Lua protos=0[]
+  up1: table keys=1 {11688948716:table}
+  up2: userdata UserService
+  up3: string ""
+  up4: ERR
+  consts total=15
+  [1] str "pcall"

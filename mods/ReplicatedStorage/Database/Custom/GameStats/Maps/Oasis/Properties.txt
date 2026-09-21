@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Maps.Oasis.Properties
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+K Ambient :userdata 0.329412, 0.301961, 0.298039
+K Brightness :number = 4.77
+K ClockTime :number = 13.6
+K ColorShift_Bottom :userdata 0, 0, 0
+K ColorShift_Top :userdata 1, 0.709804, 0.470588
+K EnvironmentDiffuseScale :number = 1
+K EnvironmentSpecularScale :number = 1
+K ExposureCompensation :number = 0
+K GeographicLatitude :number = 50
+K GlobalShadows :boolean = true
+K OutdoorAmbient :userdata 0.517647, 0.392157, 0.141176
+K ShadowSoftness :number = 0.1

@@ -1,0 +1,9 @@
+PATH: ReplicatedStorage.Components.Common.IsPlayingTeam
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Components.Common.IsPlayingTeam:? what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Counter-Terrorists"
+  [2] str "Terrorists"

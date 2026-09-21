@@ -1,0 +1,13 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.VertigoCrane
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? what=Lua protos=0[]
+  up1: userdata Connection
+  up2: userdata Connection
+  up3: table keys=4 {Crane:function, Crane:function, Crane:function, Crane:function}
+  up4: table keys=4 {Crane:userdata, Crane:userdata, Crane:userdata, Crane:userdata}
+  up5: ERR
+  consts total=2
+  [1] str "Disconnect"
+  [2] str "next"

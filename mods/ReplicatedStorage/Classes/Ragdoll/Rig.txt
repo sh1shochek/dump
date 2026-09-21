@@ -1,0 +1,98 @@
+PATH: ReplicatedStorage.Classes.Ragdoll.Rig
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+F Activate
+  params=3 src=ReplicatedStorage.Classes.Ragdoll.Rig:? cname=Activate what=Lua protos=5[#1,#2,#3,#4,#5]
+  up1: table keys=7 {Activate:function, CapturePose:function, IsPrepared:function, StagePrepared:function, Prepare:function, DisableJoint:function, ApplyImpulse:function}
+  up2: table keys=15 {__PreparedRagdoll_BABINDGO_1:table, __PreparedRagdoll_sifhasfhawkhghawgki:table, __PreparedRagdoll_dazen_wewe:table, __PreparedRagdoll_zona_y83:table, bluefox9073:table, __PreparedRagdoll_Mateo_081005:table, sifhasfhawkhghawgki:table, DGXXDFZS:table, BABINDGO_1:table, __PreparedRagdoll_bluefox9073:table, Mateo_081005:table, dazen_wewe:table, __PreparedRagdoll_Untez777:table, __PreparedRagdoll_COOLXANTARES:table, smertnik_54:table}
+  up3: userdata CollectionService
+  up4: userdata Run Service
+  up5: ERR
+  consts total=8
+  [1] str "Ragdolled"
+  [2] str "GetAttribute"
+  [3] str "IsPrepared"
+  [4] str "Prepare"
+  [5] str "StagePrepared"
+  [6] str "BodyParts"
+  [7] str "debug"
+  [8] str "profilebegin"
+F ApplyImpulse
+  params=2 src=ReplicatedStorage.Classes.Ragdoll.Rig:? cname=ApplyImpulse what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up2: table keys=4 {LowerTorso:table, UpperTorso:table, HumanoidRootPart:table, Head:table}
+  up3: table keys=15 {LeftLowerArm:table, LowerTorso:table, Head:table, RightFoot:table, UpperTorso:table, RightHand:table, RightUpperLeg:table, LeftUpperArm:table, RightLowerArm:table, LeftHand:table, LeftFoot:table, RightUpperArm:table, RightLowerLeg:table, LeftUpperLeg:table, LeftLowerLeg:table}
+  up4: ERR
+  consts total=32
+  [1] str "Part"
+  [2] str "FindFirstChild"
+  [3] str "BasePart"
+  [4] str "IsA"
+  [5] str "Weapon"
+  [6] str "Direction"
+  [7] str "typeof"
+F CapturePose
+  params=1 src=ReplicatedStorage.Classes.Ragdoll.Rig:? cname=CapturePose what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "GetChildren"
+  [2] str "BasePart"
+  [3] str "IsA"
+  [4] str "CharacterAccessory"
+  [5] str "HasTag"
+  [6] str "Name"
+  [7] str "CFrame"
+F DisableJoint
+  params=2 src=ReplicatedStorage.Classes.Ragdoll.Rig:? cname=DisableJoint what=Lua protos=0[]
+  up1: ERR
+  consts total=14
+  [1] str "RagdollJoints"
+  [2] str "FindFirstChild"
+  [3] str "Folder"
+  [4] str "IsA"
+  [5] str "GetChildren"
+  [6] str "Motor"
+  [7] str "ObjectValue"
+  [8] str "Value"
+  [9] str "Motor6D"
+  [10] str "Name"
+  [11] str "GetDescendants"
+  [12] str "BallSocketConstraint"
+  [13] str "HingeConstraint"
+  [14] str "Enabled"
+F IsPrepared
+  params=1 src=ReplicatedStorage.Classes.Ragdoll.Rig:? cname=IsPrepared what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "RagdollJoints"
+  [2] str "FindFirstChild"
+  [3] str "RagdollColliders"
+  [4] str "RagdollReady"
+  [5] str "GetAttribute"
+  [6] str "Folder"
+  [7] str "IsA"
+F Prepare
+  params=1 src=ReplicatedStorage.Classes.Ragdoll.Rig:? cname=Prepare what=Lua protos=0[]
+  up1: table keys=7 {Activate:function, CapturePose:function, IsPrepared:function, StagePrepared:function, Prepare:function, DisableJoint:function, ApplyImpulse:function}
+  up2: table keys=0 {}
+  up3: function params=1 src=ReplicatedStorage.Classes.Ragdoll.Rig:? cname=prepare what=Lua
+  up4: ERR
+  consts total=8
+  [1] str "IsPrepared"
+  [2] str "task"
+  [3] str "wait"
+F StagePrepared
+  params=1 src=ReplicatedStorage.Classes.Ragdoll.Rig:? cname=StagePrepared what=Lua protos=2[#1,#2]
+  up1: table keys=7 {Activate:function, CapturePose:function, IsPrepared:function, StagePrepared:function, Prepare:function, DisableJoint:function, ApplyImpulse:function}
+  up2: table keys=15 {__PreparedRagdoll_BABINDGO_1:table, __PreparedRagdoll_sifhasfhawkhghawgki:table, __PreparedRagdoll_dazen_wewe:table, __PreparedRagdoll_zona_y83:table, bluefox9073:table, __PreparedRagdoll_Mateo_081005:table, sifhasfhawkhghawgki:table, DGXXDFZS:table, BABINDGO_1:table, __PreparedRagdoll_bluefox9073:table, Mateo_081005:table, dazen_wewe:table, __PreparedRagdoll_Untez777:table, __PreparedRagdoll_COOLXANTARES:table, smertnik_54:table}
+  up3: function params=2 src=ReplicatedStorage.Classes.Ragdoll.Rig:? cname=configurePreparedBodyPart what=Lua
+  up4: function params=2 src=ReplicatedStorage.Classes.Ragdoll.Rig:? cname=shouldBodyPartCollide what=Lua
+  up5: function params=1 src=ReplicatedStorage.Classes.Ragdoll.Rig:? cname=enablePreparedConstraints what=Lua
+  up6: ERR
+  consts total=21
+  [1] str "IsPrepared"
+  [2] str "RagdollStaged"
+  [3] str "GetAttribute"
+  [4] str "debug"
+  [5] str "profilebegin"

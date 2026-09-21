@@ -1,0 +1,178 @@
+PATH: ReplicatedStorage.MovementV2.Client.PredictionRing
+REQUIRE: ok
+RETURNS: table
+KEYS: 17
+K Dependency :table keys=3
+  {["ValidMask"]=3, ["Player"]=1, ["Mover"]=2}
+K __index :table keys=17
+  {["shiftServerTicksAfter"]=<function:function: 0x7cd922d9a2c3935a>, ["Dependency"]={["ValidMask"]=3, ["Player"]=1, ["Mover"]=2}, ["cloneEntry"]=<function:function: 0x9aba4b93caad4e4c>, ["__index"]=<cycle>, ["new"]=<function:function: 0xd1581cfc73d6eafa>, ["clear"]=<function:function: 0xbbebda9d269ab05e>, ["capacity"]=<function:function: 0x2cc15ea4511b56a3>, ["replacePrediction"]=<function:function: 0xb087fc2ff90dcd5c>, ["newestCommandNumber"]=<function:function: 0x1ee508a2aa4c3eb6>, ["isFull"]=<function:function: 0xdc0467026e1e7601>, ["push"]=<function:function: 0x3287419e0a1ad4a0>, ["count"]=<function:function: 0x53375a49cc9e07e8>, ["entriesAfter"]=<function:function: 0x77fee98b50c85587>, ["dropThrough"]=<function:function: 0x8201b0d34905eff4>, ["anyEntryAtOrAfterServerTick"]=<function:function: 0x26de0916b0d9a259>, ["get"]=<function:function: 0xd582cfc37fdba10c>, ["reset"]=<function:function: 0xa4a7862817cb7ccb>}
+F anyEntryAtOrAfterServerTick
+  params=3 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=anyEntryAtOrAfterServerTick what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=5
+  [1] str "isUInt32"
+  [2] str "_slots"
+  [3] str "Active"
+  [4] str "deltaUInt32"
+  [5] str "ServerTick"
+F capacity
+  params=1 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=capacity what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_capacity"
+F clear
+  params=1 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=clear what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "_slots"
+  [2] str "Active"
+  [3] str "_count"
+  [4] str "_newestCommandNumber"
+F cloneEntry
+  params=1 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=cloneEntry what=Lua protos=0[]
+  up1: table keys=13 {MaxWeaponSelectionIdentifierBytes:number, encode:function, decode:function, CommandSize:number, canonicalizeCommand:function, MaxWeaponSelectionSize:number, makePacket:function, Version:number, canonicalizeCommandInto:function, validateCommand:function, HeaderSize:number, MaxDeltaCommandSize:number, validatePacket:function}
+  up2: table keys=4 {cloneSupport:function, noneSupport:function, clone:function, new:function}
+  up3: ERR
+  consts total=14
+  [1] str "canonicalizeCommand"
+  [2] str "Command"
+  [3] str "CommandNumber"
+  [4] str "prediction entry command became invalid"
+  [5] str "assert"
+F count
+  params=1 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=count what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_count"
+F dropThrough
+  params=2 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=dropThrough what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=10
+  [1] str "isUInt32"
+  [2] str "_slots"
+  [3] str "Active"
+  [4] str "deltaUInt32"
+  [5] str "Command"
+  [6] str "CommandNumber"
+  [7] str "_count"
+  [8] number 1
+  [9] number 0
+  [10] str "_newestCommandNumber"
+F entriesAfter
+  params=3 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=entriesAfter what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=16
+  [1] str "table"
+  [2] str "clear"
+F get
+  params=2 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=get what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=7
+  [1] str "isUInt32"
+  [2] str "_slots"
+  [3] str "_capacity"
+  [4] number 1
+  [5] str "Active"
+  [6] str "Command"
+  [7] str "CommandNumber"
+F isFull
+  params=1 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=isFull what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "_count"
+  [2] str "_capacity"
+F new
+  params=1 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=new what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up3: function params=0 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=newSlot what=Lua
+  up4: table keys=17 {shiftServerTicksAfter:function, Dependency:table, cloneEntry:function, __index:table, new:function, clear:function, capacity:function, replacePrediction:function, newestCommandNumber:function, isFull:function, push:function, count:function, entriesAfter:function, dropThrough:function, anyEntryAtOrAfterServerTick:function, get:function, reset:function}
+  up5: ERR
+  consts total=16
+  [1] str "validate"
+  [2] str "invalid command mapping"
+  [3] str "assert"
+F newestCommandNumber
+  params=1 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=newestCommandNumber what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_newestCommandNumber"
+F push
+  params=8 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=push what=Lua protos=0[]
+  up1: table keys=13 {MaxWeaponSelectionIdentifierBytes:number, encode:function, decode:function, CommandSize:number, canonicalizeCommand:function, MaxWeaponSelectionSize:number, makePacket:function, Version:number, canonicalizeCommandInto:function, validateCommand:function, HeaderSize:number, MaxDeltaCommandSize:number, validatePacket:function}
+  up2: function params=5 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=validateStoredValues what=Lua
+  up3: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up4: function params=2 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=copyStateInto what=Lua
+  up5: ERR
+  consts total=25
+  [1] str "validateCommand"
+  [2] str "CommandNumber"
+  [3] number 0
+  [4] str "_newestCommandNumber"
+  [5] str "deltaUInt32"
+  [6] str "CommandOlderThanTail"
+  [7] str "NonSequentialCommand"
+  [8] str "_slots"
+  [9] str "_capacity"
+  [10] number 1
+  [11] str "Active"
+  [12] str "Command"
+  [13] str "PredictionHistoryOverflow"
+  [14] str "_count"
+  [15] str "canonicalizeCommandInto"
+  [16] str "PostState"
+  [17] str "PostSupport"
+  [18] str "Kind"
+  [19] str "SourceId"
+  [20] str "Anchor"
+  [21] str "Velocity"
+  [22] str "ServerTick"
+  [23] str "TopologyRevision"
+  [24] str "DependencyMask"
+  [25] str "isNewerUInt32"
+F replacePrediction
+  params=7 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=replacePrediction what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=5 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=validateStoredValues what=Lua
+  up3: function params=2 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=copyStateInto what=Lua
+  up4: ERR
+  consts total=18
+  [1] str "isUInt32"
+  [2] str "InvalidCommandNumber"
+  [3] str "_slots"
+  [4] str "_capacity"
+  [5] number 1
+  [6] str "Active"
+  [7] str "Command"
+  [8] str "CommandNumber"
+  [9] str "CommandNotBuffered"
+  [10] str "DependencyMask"
+  [11] str "PostState"
+  [12] str "PostSupport"
+  [13] str "Kind"
+  [14] str "SourceId"
+  [15] str "Anchor"
+  [16] str "Velocity"
+  [17] str "ServerTick"
+  [18] str "TopologyRevision"
+F reset
+  params=2 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=reset what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up3: function params=0 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=newSlot what=Lua
+  up4: ERR
+  consts total=13
+  [1] str "validate"
+  [2] str "invalid command mapping"
+  [3] str "assert"
+F shiftServerTicksAfter
+  params=3 src=ReplicatedStorage.MovementV2.Client.PredictionRing:? cname=shiftServerTicksAfter what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=22
+  [1] str "isUInt32"
+  [2] str "type"

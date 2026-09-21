@@ -1,0 +1,14 @@
+PATH: ReplicatedStorage.MovementV2.Enums
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K Buttons :table keys=8
+  {["ValidMask"]=15, ["isValid"]=<function:function: 0x71e1066457a20006>, ["Duck"]=2, ["Jump"]=1, ["has"]=<function:function: 0x06629bf3b6e51e37>, ["Scoped"]=8, ["with"]=<function:function: 0xf81a17fa10a4155b>, ["Walk"]=4}
+K MovementMode :table keys=2
+  {["Walking"]=0, ["Ladder"]=1}
+K OwnerSnapshotFlags :table keys=4
+  {["SynthesizedInput"]=4, ["Discontinuity"]=2, ["ValidMask"]=7, ["Teleport"]=1}
+K Stance :table keys=2
+  {["Ducking"]=1, ["Standing"]=0}
+K SupportKind :table keys=7
+  {["Player"]=4, ["Destructible"]=3, ["Walkmesh"]=1, ["Max"]=5, ["Mover"]=5, ["Barrier"]=2, ["None"]=0}

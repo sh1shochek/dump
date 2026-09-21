@@ -1,0 +1,99 @@
+PATH: ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapter
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+F CanonicalizeExpandedBlockCornerTrace
+  params=4 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=CanonicalizeExpandedBlockCornerTrace what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F FloorSupportSweep
+  params=5 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=FloorSupportSweep what=Lua protos=0[]
+  up1: function params=5 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=groundQuery what=Lua
+  up2: ERR
+  consts total=14
+  [1] str "hullRecord"
+  [2] str "isFloorSupport"
+  [3] str "fraction"
+  [4] number 1
+  [5] str "endPos"
+  [6] str "normal"
+  [7] vector
+  [8] str "startSolid"
+  [9] boolean false
+  [10] str "allSolid"
+  [11] str "planeNum"
+F HasClimbableNear
+  params=4 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=HasClimbableNear what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "Query"
+  [2] str "FindLadder"
+  [3] str "crouching"
+  [4] str "Ducking"
+  [5] str "Standing"
+F HasUniformGroundSurfaces
+  params=4 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=HasUniformGroundSurfaces what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F PointTest
+  params=3 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=PointTest what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "Sweep"
+F SupportSweep
+  params=6 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=SupportSweep what=Lua protos=0[]
+  up1: function params=4 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=retainedPlayerGroundQuery what=Lua
+  up2: function params=5 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=groundQuery what=Lua
+  up3: ERR
+  consts total=4
+  [1] str "SweepWithFloorSupport"
+  [2] str "fraction"
+  [3] str "normal"
+  [4] str "Y"
+F Sweep
+  params=5 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=Sweep what=Lua protos=0[]
+  up1: function params=3 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=fromSweep what=Lua
+  up2: table keys=12 {MaxEvents:number, RequestSize:number, unavailable:function, identity:function, Ring:table, compare:function, vector:function, checkpoint:function, encodeRequest:function, describe:function, collision:function, decodeRequest:function}
+  up3: ERR
+  consts total=8
+  [1] str "Query"
+  [2] str "crouching"
+  [3] str "Ducking"
+  [4] str "Standing"
+  [5] str "Sweep"
+  [6] str "collision"
+  [7] str "Trace"
+  [8] str "collision.sweep"
+F SweepWithFloorSupport
+  params=4 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=SweepWithFloorSupport what=Lua protos=0[]
+  up1: function params=3 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=fromSweep what=Lua
+  up2: table keys=12 {MaxEvents:number, RequestSize:number, unavailable:function, identity:function, Ring:table, compare:function, vector:function, checkpoint:function, encodeRequest:function, describe:function, collision:function, decodeRequest:function}
+  up3: ERR
+  consts total=8
+  [1] str "Query"
+  [2] str "crouching"
+  [3] str "Ducking"
+  [4] str "Standing"
+  [5] str "SweepWithFloorSupport"
+  [6] str "collision"
+  [7] str "Trace"
+  [8] str "collision.sweepWithFloor"
+F WalkableSupportSweep
+  params=6 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=WalkableSupportSweep what=Lua protos=0[]
+  up1: function params=4 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=retainedPlayerGroundQuery what=Lua
+  up2: function params=5 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=groundQuery what=Lua
+  up3: ERR
+  consts total=0
+K __index :table keys=11
+  {["CanonicalizeExpandedBlockCornerTrace"]=<function:function: 0xbda40d4c2bec996d>, ["Sweep"]=<function:function: 0x473fdc028aa9e8aa>, ["WalkableSupportSweep"]=<function:function: 0x0de92f883208ae3c>, ["HasClimbableNear"]=<function:function: 0xbf7a913425e593be>, ["SweepWithFloorSupport"]=<function:function: 0x3c0e5b1c93a02b9b>, ["FloorSupportSweep"]=<function:function: 0x7aa6b2fa2a02d801>, ["HasUniformGroundSurfaces"]=<function:function: 0x70c06f69d729d08c>, ["PointTest"]=<function:function: 0xcc73d350506265a7>, ["SupportSweep"]=<function:function: 0x054ff9aab27110c3>, ["__index"]=<cycle>, ["new"]=<function:function: 0xf0c9c2ae1b4d62a2>}
+F new
+  params=4 src=ReplicatedStorage.MovementV2.Simulation.ProvenCollisionAdapt:? cname=new what=Lua protos=0[]
+  up1: table keys=11 {CanonicalizeExpandedBlockCornerTrace:function, Sweep:function, WalkableSupportSweep:function, HasClimbableNear:function, SweepWithFloorSupport:function, FloorSupportSweep:function, HasUniformGroundSurfaces:function, PointTest:function, SupportSweep:function, __index:table, new:function}
+  up2: ERR
+  consts total=6
+  [1] str "Query"
+  [2] str "Config"
+  [3] str "RecoverySupport"
+  [4] str "Trace"
+  [5] table
+  [6] str "setmetatable"

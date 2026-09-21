@@ -1,0 +1,19 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateMarker
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=4 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMarker:? what=Lua protos=2[release,#2]
+  up1: table keys=2 {Melee:table, Bullet:table}
+  up2: table keys=20 {1:function, 2:function, 3:function, 4:function, 5:function, 6:function, 7:function, 8:function, 9:function, 10:function, 11:function, 12:function, 13:function, 14:function, 15:function, 16:function, 17:function, 18:function, 19:function, 20:function}
+  up3: table keys=8 {NextLease:number, Template:userdata, Active:table, Destroyed:boolean, MaxRetained:number, Storage:userdata, Available:table, InPlace:boolean}
+  up4: table keys=20 {HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata, HitMarker:userdata}
+  up5: function params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMarker:? cname=initMarkerPart what=Lua
+  up6: table keys=20 {HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table, HitMarker:table}
+  up7: userdata Debris
+  up8: ERR
+  consts total=54
+  [1] str "ClassName"
+  [2] str "Terrain"
+  [3] str "%* is not apart of library \"MarkerInfo\""
+  [4] str "format"
+  [5] str "assert"

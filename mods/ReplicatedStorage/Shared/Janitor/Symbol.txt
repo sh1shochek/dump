@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Shared.Janitor.Symbol
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Shared.Janitor.Symbol:? cname=Symbol what=Lua protos=1[__tostring]
+  up1: ERR
+  consts total=1
+  [1] str "newproxy"

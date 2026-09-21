@@ -1,0 +1,106 @@
+PATH: ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance
+REQUIRE: ok
+RETURNS: table
+KEYS: 15
+K CameraShakeState :table keys=4
+  {["Inactive"]=3, ["Sustained"]=2, ["FadingIn"]=0, ["FadingOut"]=1}
+F GetNormalizedFadeTime
+  params=1 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=GetNormalizedFadeTime what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "currentFadeTime"
+F GetScaleMagnitude
+  params=1 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=GetScaleMagnitude what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "magnMod"
+F GetScaleRoughness
+  params=1 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=GetScaleRoughness what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "roughMod"
+F GetState
+  params=1 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=GetState what=Lua protos=0[]
+  up1: table keys=15 {IsFadingIn:function, GetScaleRoughness:function, SetScaleMagnitude:function, IsFadingOut:function, GetState:function, StartFadeIn:function, StartFadeOut:function, GetNormalizedFadeTime:function, CameraShakeState:table, GetScaleMagnitude:function, UpdateShake:function, SetScaleRoughness:function, IsShaking:function, __index:table, new:function}
+  up2: ERR
+  consts total=8
+  [1] str "IsFadingIn"
+  [2] str "CameraShakeState"
+  [3] str "FadingIn"
+  [4] str "IsFadingOut"
+  [5] str "FadingOut"
+  [6] str "IsShaking"
+  [7] str "Sustained"
+  [8] str "Inactive"
+F IsFadingIn
+  params=1 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=IsFadingIn what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "currentFadeTime"
+  [2] str "sustain"
+  [3] str "fadeInDuration"
+F IsFadingOut
+  params=1 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=IsFadingOut what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "sustain"
+  [2] str "currentFadeTime"
+F IsShaking
+  params=1 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=IsShaking what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "currentFadeTime"
+  [2] str "sustain"
+F SetScaleMagnitude
+  params=2 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=SetScaleMagnitude what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "magnMod"
+F SetScaleRoughness
+  params=2 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=SetScaleRoughness what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "roughMod"
+F StartFadeIn
+  params=2 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=StartFadeIn what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] number 0
+  [2] str "currentFadeTime"
+  [3] str "fadeInDuration"
+  [4] str "fadeOutDuration"
+  [5] str "sustain"
+F StartFadeOut
+  params=2 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=StartFadeOut what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] number 0
+  [2] str "currentFadeTime"
+  [3] str "fadeOutDuration"
+  [4] str "fadeInDuration"
+  [5] str "sustain"
+F UpdateShake
+  params=2 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=UpdateShake what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=noise what=C
+  up2: function params=0 src=[C]:? cname=new what=C
+  up3: ERR
+  consts total=10
+  [1] str "tick"
+  [2] str "currentFadeTime"
+  [3] number 0.5
+  [4] str "fadeInDuration"
+  [5] str "sustain"
+  [6] str "fadeOutDuration"
+  [7] str "Roughness"
+  [8] str "roughMod"
+  [9] str "Magnitude"
+  [10] str "magnMod"
+K __index :table keys=15
+  {["IsFadingIn"]=<function:function: 0xd28c3a23d9e4d80d>, ["GetScaleRoughness"]=<function:function: 0x9cb931b8dc342ff1>, ["SetScaleMagnitude"]=<function:function: 0xf1d6c1c821bc4294>, ["IsFadingOut"]=<function:function: 0x4741fda08d2f74d9>, ["GetState"]=<function:function: 0x6d27a976c5255ae5>, ["StartFadeIn"]=<function:function: 0xb736c4eea9719ba8>, ["StartFadeOut"]=<function:function: 0xce7ac1aea3814c93>, ["GetNormalizedFadeTime"]=<function:function: 0x65e18e0ae0622063>, ["CameraShakeState"]={["Inactive"]=3, ["Sustained"]=2, ["FadingIn"]=0, ["FadingOut"]=1}, ["GetScaleMagnitude"]=<function:function: 0xb59091befe10c6f3>, ["UpdateShake"]=<function:function: 0x7dd8751cce13302a>, ["SetScaleRoughness"]=<function:function: 0x5e02e70c7f567bdc>, ["IsShaking"]=<function:function: 0x952d2c9422b3b74e>, ["__index"]=<cycle>, ["new"]=<function:function: 0x9beaef656e81996c>}
+F new
+  params=4 src=ReplicatedStorage.Shared.CameraShaker.CameraShakeInstance:? cname=new what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=new what=C
+  up2: table keys=15 {IsFadingIn:function, GetScaleRoughness:function, SetScaleMagnitude:function, IsFadingOut:function, GetState:function, StartFadeIn:function, StartFadeOut:function, GetNormalizedFadeTime:function, CameraShakeState:table, GetScaleMagnitude:function, UpdateShake:function, SetScaleRoughness:function, IsShaking:function, __index:table, new:function}
+  up3: ERR
+  consts total=30
+  [1] str "type"

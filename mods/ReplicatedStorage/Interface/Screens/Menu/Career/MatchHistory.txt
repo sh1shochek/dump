@@ -1,0 +1,38 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Career.MatchHistory
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F Bind
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchHistory:? cname=Bind what=Lua protos=0[]
+  up1: userdata Container
+  up2: table keys=2 {1:string, 2:string}
+  up3: userdata Template
+  up4: table keys=5 {IsOpen:function, Bind:function, Close:function, Open:function, ApplyStatus:function}
+  up5: ERR
+  consts total=18
+  [1] str "History"
+  [2] str "FindFirstChild"
+  [3] str "Main"
+  [4] str "MatchHistory"
+  [5] str "Container"
+  [6] str "GuiObject"
+  [7] str "IsA"
+  [8] str "Visible"
+  [9] str "ipairs"
+F Close
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchHistory:? cname=Close what=Lua protos=0[]
+  up1: table keys=5 {IsOpen:function, Bind:function, Close:function, Open:function, ApplyStatus:function}
+  up2: ERR
+  consts total=1
+  [1] str "Close"
+F Render
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchHistory:? cname=Render what=Lua protos=0[]
+  up1: table keys=12 {MatchLoaded:table, GetBucket:function, GetMatch:function, Changed:table, Listen:function, Buckets:table, RequestMatchDetails:function, Request:function, EconomyTiers:table, GetMatchDetails:function, IsLoaded:function, Get:function}
+  up2: userdata Container
+  up3: userdata Template
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchHistory:? cname=ClearRows what=Lua
+  up5: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.MatchHistory:? cname=CreateRow what=Lua
+  up6: ERR
+  consts total=10
+  [1] str "Get"
+  [2] str "ipairs"

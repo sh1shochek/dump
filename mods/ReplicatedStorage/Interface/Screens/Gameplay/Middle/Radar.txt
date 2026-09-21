@@ -1,0 +1,442 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar
+REQUIRE: ok
+RETURNS: table
+KEYS: 28
+F ApplySettings
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=ApplySettings what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  consts total=20
+  [1] str "mark"
+  [2] str "UI.Radar.ApplySettings"
+  [3] str "MapImage"
+  [4] str "UDim2"
+  [5] str "fromScale"
+F CreateDeadIconForPlayer
+  params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=CreateDeadIconForPlayer what=Lua protos=1[#1]
+  up1: userdata Workspace
+  up2: function params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=CreateIcon what=Lua
+  up3: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up4: table keys=12 {Bright White:table, Team Color:table, Red:table, Purple:table, Light Blue:table, Blue:table, Pink:table, Green:table, Aqua:table, Yellow:table, Orange:table, White:table}
+  up5: userdata Radar
+  up6: userdata TweenService
+  up7: ERR
+  consts total=67
+  [1] str "UserId"
+  [2] str "_Player"
+  [3] str "Icons"
+  [4] str "RemoveIcon"
+  [5] str "_Dead"
+  [6] str "FadedDeadIcons"
+  [7] str "Team"
+  [8] str "GetAttribute"
+  [9] str "Gamemode"
+  [10] str "Deathmatch"
+  [11] str "ServerGamemode"
+  [12] str "RadarContainer"
+  [13] str "DeadTeammate"
+  [14] str "Name"
+  [15] str "ImageTransparency"
+  [16] str "ipairs"
+F CreateKnifeCircle
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=CreateKnifeCircle what=Lua protos=0[]
+  up1: ERR
+  consts total=31
+  [1] str "KnifeCircle"
+  [2] str "Instance"
+  [3] str "new"
+F CreatePlayerIcon
+  params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=CreatePlayerIcon what=Lua protos=0[]
+  up1: userdata HttpService
+  up2: userdata Radar
+  up3: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up4: table keys=12 {Bright White:table, Team Color:table, Red:table, Purple:table, Light Blue:table, Blue:table, Pink:table, Green:table, Aqua:table, Yellow:table, Orange:table, White:table}
+  up5: function params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=CreateIcon what=Lua
+  up6: ERR
+  consts total=52
+  [1] str "Enemy"
+  [2] str "Slot5"
+  [3] str "GetAttribute"
+  [4] str "[]"
+  [5] str "JSONDecode"
+  [6] str "Weapon"
+  [7] str "C4"
+  [8] str "IsCarryingHostage"
+  [9] str "Bomb"
+  [10] str "Clone"
+  [11] str "UDim2"
+  [12] str "fromOffset"
+F CreateRunningCircle
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=CreateRunningCircle what=Lua protos=0[]
+  up1: ERR
+  consts total=28
+  [1] str "RunningCircle"
+  [2] str "Instance"
+  [3] str "new"
+F CreateWeaponCircle
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=CreateWeaponCircle what=Lua protos=0[]
+  up1: ERR
+  consts total=31
+  [1] str "WeaponCircle"
+  [2] str "Instance"
+  [3] str "new"
+F Destroy
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Janitor"
+  [2] str "Destroy"
+F FlashRadarBorder
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=FlashRadarBorder what=Lua protos=1[#1]
+  up1: userdata Radar
+  up2: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up3: ERR
+  consts total=10
+  [1] str "Radar"
+  [2] str "UIStroke"
+  [3] str "OriginalBorderColor"
+  [4] str "Color"
+  [5] str "Color3"
+  [6] str "fromRGB"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=Initialize what=Lua protos=6[#1,#2,#3,#4,#5,#6]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Radar
+  up3: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up4: userdata Mateo_081005
+  up5: table keys=4 {Rotation:boolean, Zoom:number, CentersPlayer:boolean, Scale:number}
+  up6: table keys=23 {ViewCenterLocal:vector, MinimapReference:table, BombIsVisible:boolean, IsSpectating:boolean, EnemyLastSeenPositions:table, Character:userdata, Settings:table, EnemyVisibilityCache:table, Team:string, WasRunning:boolean, RadarContainer:userdata, MapImage:userdata, LocalPlayer:userdata, EnemyVisibilityState:table, SiteParts:table, RunningCircle:userdata, Icons:table, HostageVisibilityCache:table, EnemyVisibilityChecksRemaining:number, DeadPlayerPositions:table, Janitor:table, Frame:userdata, FadedDeadIcons:table}
+  up7: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up8: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up9: ERR
+  consts total=12
+  [1] str "mark"
+  [2] str "UI.Radar.Initialize"
+  [3] str "CreateListener"
+  [4] str "Settings.Game.Radar/Tablet.Radar Centers The Player"
+  [5] str "Settings.Game.Radar/Tablet.Radar Hud Size"
+  [6] str "Settings.Game.Radar/Tablet.Radar Is Rotating"
+  [7] str "Settings.Game.Radar/Tablet.Radar Map Zoom"
+  [8] str "Radar"
+  [9] str "UIStroke"
+  [10] str "Color"
+  [11] str "observeCharacter"
+  [12] str "Settings.Game.HUD.Color"
+F RefreshIconsOnTeamChange
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=RefreshIconsOnTeamChange what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: table keys=12 {Bright White:table, Team Color:table, Red:table, Purple:table, Light Blue:table, Blue:table, Pink:table, Green:table, Aqua:table, Yellow:table, Orange:table, White:table}
+  up4: ERR
+  consts total=27
+  [1] str "Team"
+  [2] str "GetAttribute"
+  [3] str "pairs"
+F RefreshPlayerIcon
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=RefreshPlayerIcon what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "UserId"
+  [2] str "_Player"
+  [3] str "_Dead"
+  [4] str "Icons"
+  [5] str "RemoveIcon"
+  [6] str "EnemyVisibilityCache"
+  [7] str "EnemyVisibilityState"
+  [8] str "EnemyLastSeenPositions"
+  [9] str "_Frozen"
+  [10] str "DeadPlayerPositions"
+  [11] str "FadedDeadIcons"
+F RemoveIcon
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=RemoveIcon what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "Icons"
+  [2] str "Instance"
+  [3] str "Destroy"
+F Render
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=Render what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: ERR
+  consts total=11
+  [1] str "mark"
+  [2] str "UI.Radar.Render"
+  [3] str "EnemyVisibilityChecksRemaining"
+  [4] str "UpdateMinimapTexture"
+  [5] str "Settings"
+  [6] str "Rotation"
+  [7] str "UpdatePlayerIcons"
+  [8] str "UpdateBombIcon"
+  [9] str "UpdateSiteIcons"
+  [10] str "UpdateHostageIcons"
+  [11] str "UpdateRunningCircle"
+F ShowKnifeCircle
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=ShowKnifeCircle what=Lua protos=1[#1]
+  ups: none
+  consts total=27
+  [1] str "KnifeCircle"
+  [2] str "CreateKnifeCircle"
+  [3] str "UIStroke"
+  [4] str "FindFirstChildOfClass"
+  [5] number 0.5
+  [6] str "Settings"
+  [7] str "Zoom"
+  [8] number 0.1
+  [9] str "math"
+  [10] str "clamp"
+F ShowWeaponCircle
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=ShowWeaponCircle what=Lua protos=1[#1]
+  ups: none
+  consts total=23
+  [1] str "WeaponCircle"
+  [2] str "CreateWeaponCircle"
+  [3] str "UIStroke"
+  [4] str "FindFirstChildOfClass"
+  [5] number 1
+  [6] str "Settings"
+  [7] str "Scale"
+  [8] number 0.5
+  [9] number 2
+  [10] str "UDim2"
+  [11] str "fromOffset"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=Start what=Lua protos=2[#1,#2]
+  up1: userdata Mateo_081005
+  up2: function params=0 src=ReplicatedStorage.Components.Common.CharacterResolver:? what=Lua
+  up3: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up4: function params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=createRadarForCharacter what=Lua
+  up5: table keys=23 {ViewCenterLocal:vector, MinimapReference:table, BombIsVisible:boolean, IsSpectating:boolean, EnemyLastSeenPositions:table, Character:userdata, Settings:table, EnemyVisibilityCache:table, Team:string, WasRunning:boolean, RadarContainer:userdata, MapImage:userdata, LocalPlayer:userdata, EnemyVisibilityState:table, SiteParts:table, RunningCircle:userdata, Icons:table, HostageVisibilityCache:table, EnemyVisibilityChecksRemaining:number, DeadPlayerPositions:table, Janitor:table, Frame:userdata, FadedDeadIcons:table}
+  up6: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up7: ERR
+  consts total=3
+  [1] str "observeCharacter"
+  [2] str "ListenToSpectate"
+  [3] str "Connect"
+F UpdateBombIcon
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=UpdateBombIcon what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Workspace
+  up3: userdata CollectionService
+  up4: userdata Radar
+  up5: function params=4 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? what=Lua
+  up6: userdata 1, 0, 0
+  up7: ERR
+  consts total=83
+  [1] str "mark"
+  [2] str "UI.Radar.UpdateBombIcon"
+  [3] str "tick"
+F UpdateHostageIcons
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=UpdateHostageIcons what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata CollectionService
+  up3: userdata Radar
+  up4: userdata Players
+  up5: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up6: function params=5 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=GetHostageVisibility what=Lua
+  up7: ERR
+  consts total=70
+  [1] str "mark"
+  [2] str "UI.Radar.UpdateHostageIcons"
+  [3] str "Hostage"
+  [4] str "GetTagged"
+  [5] str "tick"
+F UpdateIcon
+  params=4 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=UpdateIcon what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "Icons"
+  [2] str "WorldToRadar"
+  [3] str "Instance"
+  [4] str "Visible"
+  [5] number 0.5
+  [6] str "X"
+  [7] str "Y"
+  [8] str "math"
+  [9] str "sqrt"
+F UpdateMinimapTexture
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=UpdateMinimapTexture what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=3 {Winter Vertigo:number, Reactor:number, Vertigo:number}
+  up3: userdata Camera
+  up4: userdata Workspace
+  up5: ERR
+  consts total=66
+  [1] str "mark"
+  [2] str "UI.Radar.UpdateMinimapTexture"
+  [3] str "MinimapReference"
+  [4] str "Part"
+  [5] str "Lower"
+  [6] str "FindFirstChild"
+  [7] str "Upper"
+  [8] str "Decal"
+  [9] str "IsA"
+  [10] str "MapImage"
+  [11] str "Texture"
+  [12] str "Image"
+  [13] str "ImageTransparency"
+  [14] str "%d+"
+  [15] str "match"
+  [16] str "TextureSize"
+  [17] str "workspace"
+  [18] userdata
+  [19] str "Map"
+  [20] str "GetAttribute"
+  [21] str "UpperMapImage"
+  [22] str "Character"
+  [23] str "PrimaryPart"
+  [24] str "Position"
+  [25] str "Y"
+  [26] str "Settings"
+  [27] str "CentersPlayer"
+  [28] str "CFrame"
+  [29] str "PointToObjectSpace"
+  [30] str "Size"
+  [31] str "X"
+  [32] str "Z"
+  [33] number 0.5
+  [34] number 0.7
+  [35] str "Zoom"
+  [36] number 0.1
+  [37] str "math"
+  [38] str "clamp"
+F UpdatePlayerIcons
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=UpdatePlayerIcons what=Lua protos=3[#1,#2,#3]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Workspace
+  up3: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up4: table keys=12 {Bright White:table, Team Color:table, Red:table, Purple:table, Light Blue:table, Blue:table, Pink:table, Green:table, Aqua:table, Yellow:table, Orange:table, White:table}
+  up5: userdata Radar
+  up6: userdata HttpService
+  up7: userdata Players
+  up8: function params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=CreateIcon what=Lua
+  up9: userdata TweenService
+  up10: function params=5 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=GetEnemyVisibility what=Lua
+  up11: ERR
+  consts total=138
+  [1] str "mark"
+  [2] str "UI.Radar.UpdatePlayerIcons"
+  [3] str "Gamemode"
+  [4] str "GetAttribute"
+  [5] str "Deathmatch"
+  [6] str "ServerGamemode"
+  [7] str "tick"
+F UpdateQuestionMarkIcon
+  params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=UpdateQuestionMarkIcon what=Lua protos=0[]
+  up1: ERR
+  consts total=21
+  [1] str "Icons"
+  [2] str "MinimapReference"
+  [3] str "Instance"
+  [4] str "TextLabel"
+  [5] str "IsA"
+  [6] str "Part"
+  [7] str "Size"
+  [8] str "TextureSize"
+  [9] str "CFrame"
+  [10] str "PointToObjectSpace"
+  [11] str "X"
+  [12] str "Z"
+  [13] number 0.5
+  [14] str "MapImage"
+  [15] str "ImageRectOffset"
+  [16] str "ImageRectSize"
+  [17] str "Y"
+  [18] str "Rotation"
+  [19] number 0
+  [20] str "math"
+  [21] str "rad"
+F UpdateRunningCircle
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=UpdateRunningCircle what=Lua protos=1[#1]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: table keys=13 {PlantBomb:function, TrackCharacter:function, crouch:function, getCurrentCharacter:function, UntrackCharacter:function, jump:function, GetCrouchState:function, CancelBombPlant:function, Initialize:function, Start:function, GetWalkState:function, PredictDoorUse:function, walk:function}
+  consts total=40
+  [1] str "Character"
+  [2] str "PrimaryPart"
+  [3] str "isAliveCharacter"
+  [4] str "getCurrentCharacter"
+  [5] str "GlobalDirection"
+  [6] str "GlobalVelocity"
+  [7] str "X"
+  [8] str "Z"
+  [9] str "Vector3"
+  [10] str "new"
+F UpdateSiteIcons
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=UpdateSiteIcons what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Radar
+  up3: ERR
+  consts total=64
+  [1] str "mark"
+  [2] str "UI.Radar.UpdateSiteIcons"
+  [3] str "pairs"
+F UpdateTeammateIcon
+  params=4 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=UpdateTeammateIcon what=Lua protos=0[]
+  up1: ERR
+  consts total=22
+  [1] str "Icons"
+  [2] str "Instance"
+  [3] str "GuiObject"
+  [4] str "IsA"
+  [5] str "MinimapReference"
+  [6] str "Visible"
+  [7] str "Part"
+  [8] str "Size"
+  [9] str "TextureSize"
+  [10] str "CFrame"
+  [11] str "PointToObjectSpace"
+  [12] str "X"
+  [13] str "Z"
+  [14] number 0.5
+  [15] str "MapImage"
+  [16] str "ImageRectOffset"
+  [17] str "ImageRectSize"
+  [18] str "Y"
+  [19] str "Rotation"
+  [20] number 0
+  [21] str "math"
+  [22] str "rad"
+F WorldToRadar
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=WorldToRadar what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: ERR
+  consts total=26
+  [1] str "MinimapReference"
+  [2] str "getRootPart"
+  [3] str "Character"
+  [4] str "Part"
+  [5] str "Size"
+  [6] str "X"
+  [7] number 0
+  [8] str "Z"
+  [9] str "MapImage"
+  [10] str "ImageRectSize"
+  [11] str "Y"
+  [12] str "CFrame"
+  [13] str "PointToObjectSpace"
+  [14] str "TextureSize"
+  [15] number 0.5
+  [16] str "ImageRectOffset"
+  [17] str "Rotation"
+  [18] str "math"
+  [19] str "rad"
+K __index :table keys=28
+  {["Render"]=<function:function: 0x77b58fa90c64662a>, ["UpdateIcon"]=<function:function: 0xe71510a18aaefe8c>, ["FlashRadarBorder"]=<function:function: 0x2dfe42b641dfb3fd>, ["UpdateRunningCircle"]=<function:function: 0xcb20d665e3b31b93>, ["CreateWeaponCircle"]=<function:function: 0x2fe5738c4d4ec190>, ["UpdateQuestionMarkIcon"]=<function:function: 0xd8a4beeb4bc05375>, ["UpdatePlayerIcons"]=<function:function: 0x1c5d44a8fd56a11f>, ["RefreshIconsOnTeamChange"]=<function:function: 0x948b33b04461c3ed>, ["RemoveIcon"]=<function:function: 0x0cf7e782a98426da>, ["UpdateMinimapTexture"]=<function:function: 0xc3ef12e84c060422>, ["__index"]=<cycle>, ["new"]=<function:function: 0x8f27f3a242a509a1>, ["UpdateSiteIcons"]=<function:function: 0x05e526eef24a265c>, ["ApplySettings"]=<function:function: 0xa553a0b2c86eb0f8>, ["UpdateBombIcon"]=<function:function: 0xa8e3f3164f9b61d9>, ["UpdateTeammateIcon"]=<function:function: 0xfc61c2fc47ac28b1>, ["CreatePlayerIcon"]=<function:function: 0xa9072e519a1a1838>, ["Destroy"]=<function:function: 0xdbc5d16f13386eb0>, ["CreateKnifeCircle"]=<function:function: 0xd8fa8f828342a17a>, ["CreateRunningCircle"]=<function:function: 0xff28f39d6efadcb2>, ["CreateDeadIconForPlayer"]=<function:function: 0x3953dbaaa64c390d>, ["ShowKnifeCircle"]=<function:function: 0xf8c251a5c30127fe>, ["ShowWeaponCircle"]=<function:function: 0x2ee02ee026190d9c>, ["Initialize"]=<function:function: 0x796ab099b544cb20>, ["Start"]=<function:function: 0xa1f9b0b932132cc1>, ["UpdateHostageIcons"]=<function:function: 0x1a8580dd2a1a2fda>, ["RefreshPlayerIcon"]=<function:function: 0xaf7929a14f5b2597>, ["WorldToRadar"]=<function:function: 0xb59841ab6ffda3b8>}
+F new
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=new what=Lua protos=12[#1,#2,#3,#4,#5,#6,setupPlayerListeners,#8,#9,#10,#11,#12]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=28 {Render:function, UpdateIcon:function, FlashRadarBorder:function, UpdateRunningCircle:function, CreateWeaponCircle:function, UpdateQuestionMarkIcon:function, UpdatePlayerIcons:function, RefreshIconsOnTeamChange:function, RemoveIcon:function, UpdateMinimapTexture:function, __index:table, new:function, UpdateSiteIcons:function, ApplySettings:function, UpdateBombIcon:function, UpdateTeammateIcon:function, CreatePlayerIcon:function, Destroy:function, CreateKnifeCircle:function, CreateRunningCircle:function, CreateDeadIconForPlayer:function, ShowKnifeCircle:function, ShowWeaponCircle:function, Initialize:function, Start:function, UpdateHostageIcons:function, RefreshPlayerIcon:function, WorldToRadar:function}
+  up3: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up4: userdata Mateo_081005
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=GetMinimapReference what=Lua
+  up6: table keys=3 {Winter Vertigo:number, Reactor:number, Vertigo:number}
+  up7: table keys=4 {Rotation:boolean, Zoom:number, CentersPlayer:boolean, Scale:number}
+  up8: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? cname=GetSiteParts what=Lua
+  up9: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up10: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up11: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up12: userdata Players
+  up13: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up14: ERR
+  consts total=72
+  [1] str "mark"
+  [2] str "UI.Radar.New"
+  [3] str "setmetatable"

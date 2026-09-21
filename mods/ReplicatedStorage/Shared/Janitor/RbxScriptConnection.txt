@@ -1,0 +1,29 @@
+PATH: ReplicatedStorage.Shared.Janitor.RbxScriptConnection
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K Connected :boolean = true
+F Disconnect
+  params=1 src=ReplicatedStorage.Shared.Janitor.RbxScriptConnection:? cname=Disconnect what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "Connected"
+  [2] str "Connection"
+  [3] str "Disconnect"
+K __index :table keys=5
+  {["Connected"]=true, ["Disconnect"]=<function:function: 0xf7d490f03bc8987f>, ["__tostring"]=<function:function: 0x6aef811475509376>, ["__index"]=<cycle>, ["_new"]=<function:function: 0x1ba371f66b487fda>}
+F __tostring
+  params=1 src=ReplicatedStorage.Shared.Janitor.RbxScriptConnection:? cname=__tostring what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "RbxScriptConnection<"
+  [2] str "Connected"
+  [3] str "tostring"
+F _new
+  params=1 src=ReplicatedStorage.Shared.Janitor.RbxScriptConnection:? cname=_new what=Lua protos=0[]
+  up1: table keys=5 {Connected:boolean, Disconnect:function, __tostring:function, __index:table, _new:function}
+  up2: ERR
+  consts total=3
+  [1] str "Connection"
+  [2] table
+  [3] str "setmetatable"

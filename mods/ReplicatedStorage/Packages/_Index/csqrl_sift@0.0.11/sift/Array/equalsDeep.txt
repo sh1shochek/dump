@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Array.equalsDeep
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=equalsDeep what=Lua protos=0[]
+  up1: table keys=3 {equalObjects:function, isEmpty:function, func:table}
+  up2: function params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=compareDeep what=Lua
+  up3: ERR
+  consts total=3
+  [1] str "equalObjects"
+  [2] str "#"
+  [3] str "select"

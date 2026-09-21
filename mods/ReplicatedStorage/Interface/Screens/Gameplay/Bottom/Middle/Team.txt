@@ -1,0 +1,84 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.Team
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F CloseFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.T:? cname=CloseFrame what=Lua protos=0[]
+  up1: userdata Team
+  up2: ERR
+  consts total=3
+  [1] str "Cards"
+  [2] str "ClearAllChildren"
+  [3] str "Visible"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.T:? cname=Initialize what=Lua protos=1[#1]
+  up1: userdata MainGui
+  up2: userdata Team
+  up3: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up4: userdata Mateo_081005
+  up5: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up6: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.T:? cname=applyPreferenceColorToCard what=Lua
+  up7: ERR
+  consts total=2
+  [1] str "CreateListener"
+  [2] str "Settings.Game.HUD.Color"
+F OpenFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.T:? cname=OpenFrame what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up2: userdata MainGui
+  up3: userdata Team
+  up4: userdata Mateo_081005
+  up5: ERR
+  consts total=18
+  [1] str "Gameplay"
+  [2] str "Bottom"
+  [3] str "Middle"
+  [4] str "Spectate"
+  [5] str "Visible"
+  [6] str "Team"
+  [7] str "Outline"
+  [8] str "ImageColor3"
+  [9] str "Line1"
+  [10] str "Line2"
+  [11] str "Cards"
+  [12] str "GetAttribute"
+  [13] str "CT"
+  [14] str "Counter-Terrorists"
+  [15] str "T"
+  [16] str "Terrorists"
+  [17] str "Color3"
+  [18] str "fromRGB"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.T:? cname=Start what=Lua protos=3[#1,#2,#3]
+  up1: userdata Mateo_081005
+  up2: table keys=5 {createAnimationFrame:function, CloseFrame:function, OpenFrame:function, Start:function, Initialize:function}
+  up3: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up4: userdata Team
+  up5: ERR
+  consts total=8
+  [1] str "CharacterAdded"
+F createAnimationFrame
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.T:? cname=createAnimationFrame what=Lua protos=1[#1]
+  up1: userdata Mateo_081005
+  up2: userdata Team
+  up3: userdata ReplicatedStorage
+  up4: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Middle.T:? cname=applyPreferenceColorToCard what=Lua
+  up5: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up6: userdata TweenService
+  up7: ERR
+  consts total=55
+  [1] str "Team"
+  [2] str "GetAttribute"
+  [3] str "Spectators"
+  [4] number 1
+  [5] str "Cards"
+  [6] str "GetChildren"
+  [7] str "Counter-Terrorists"
+  [8] str "Assets"
+  [9] str "UI"
+  [10] str "CTCard"
+  [11] str "Terrorists"
+  [12] str "TCard"
+  [13] str "Clone"
+  [14] str "Amount"
+  [15] str "tostring"

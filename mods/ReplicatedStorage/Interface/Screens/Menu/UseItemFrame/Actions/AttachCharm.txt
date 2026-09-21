@@ -1,0 +1,99 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Actions.AttachCharm
+REQUIRE: ok
+RETURNS: table
+KEYS: 10
+K ActionType :string = AttachCharm
+F CancelAttachment
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=CancelAttachment what=Lua protos=0[]
+  ups: none
+  consts total=2
+  [1] str "broadcastRouter"
+  [2] str "WeaponInspectClose"
+F ConfirmAttachment
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=ConfirmAttachment what=Lua protos=0[]
+  ups: none
+  consts total=13
+  [1] number 1
+  [2] str "broadcastRouter"
+  [3] str "GetCurrentCharmPosition"
+  [4] str "Inventory"
+  [5] str "UpdateWeaponCharm"
+  [6] str "Send"
+  [7] str "WeaponId"
+  [8] str "CharmId"
+  [9] str "Position"
+  [10] table
+  [11] str "tostring"
+F Destroy
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=Destroy what=Lua protos=0[]
+  up1: table keys=4 {_fn:function, Connected:boolean, _signal:table, _next:table}
+  consts total=1
+  [1] str "Disconnect"
+F GetContext
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=GetContext what=Lua protos=0[]
+  up1: table keys=10 {Destroy:function, OnItemSelected:function, ConfirmAttachment:function, GetFilter:function, Initialize:function, GetContext:function, HasPendingAttachment:function, ActionType:string, CancelAttachment:function, OnCancelled:function}
+  up2: ERR
+  consts total=8
+  [1] str "Select Charm"
+  [2] str "Type"
+  [3] str "Charm"
+  [4] str "Select Weapon"
+  [5] str "ActionType"
+  [6] str "SourceItem"
+  [7] str "Title"
+  [8] table
+F GetFilter
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=GetFilter what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=AllCharms what=Lua
+  up2: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=WeaponsWithoutCharm what=Lua
+  up3: ERR
+  consts total=4
+  [1] str "Type"
+  [2] str "Weapon"
+  [3] str "Zeus x27"
+  [4] str "Charm"
+F HasPendingAttachment
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=HasPendingAttachment what=Lua protos=0[]
+  ups: none
+  consts total=0
+F Initialize
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=Initialize what=Lua protos=4[#1,#2,#3,#4]
+  up1: table keys=4 {_fn:function, Connected:boolean, _signal:table, _next:table}
+  up2: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  consts total=8
+  [1] str "OnInspectStateChanged"
+  [2] str "Connect"
+  [3] str "observerRouter"
+  [4] str "ConfirmCharmAttachment"
+F OnCancelled
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=OnCancelled what=Lua protos=0[]
+  ups: none
+  consts total=0
+F OnItemSelected
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=OnItemSelected what=Lua protos=0[]
+  ups: none
+  consts total=24
+  [1] str "SourceItem"
+  [2] str "Type"
+  [3] str "Weapon"
+  [4] str "Zeus x27"
+  [5] str "Charm"
+  [6] str "_id"
+  [7] str "WeaponId"
+  [8] str "CharmId"
+  [9] str "WeaponItem"
+  [10] table
+  [11] str "broadcastRouter"
+  [12] str "WeaponInspect"
+  [13] str "Name"
+  [14] str "Skin"
+  [15] str "Float"
+  [16] str "StatTrack"
+  [17] str "NameTag"
+  [18] str "Position"
+  [19] str "1"
+  [20] table
+  [21] str "Stickers"
+  [22] str "Pattern"
+  [23] str "Serial"
+  [24] str "IsTradeable"

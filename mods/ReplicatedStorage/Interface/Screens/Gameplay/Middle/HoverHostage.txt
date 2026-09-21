@@ -1,0 +1,43 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.HoverHostage
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F GetHoverState
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.HoverHos:? cname=GetHoverState what=Lua protos=0[]
+  up1: table keys=6 {GetInstance:function, FindTaggedAncestor:function, Invalidate:function, GetHoveredHostage:function, FindAncestor:function, GetResult:function}
+  up2: ERR
+  consts total=1
+  [1] str "GetHoveredHostage"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.HoverHos:? cname=Initialize what=Lua protos=3[UpdateFrameText,#2,#3]
+  up1: userdata HoverHostage
+  up2: table keys=12 {enableGroup:function, getActionKeybinds:function, registerAction:function, disableGroup:function, Initialize:function, isBindingPressed:function, isActionPressed:function, GetActionKeybind:function, Start:function, loadActionsFromDatabase:function, bindKeybinds:function, isActionActive:function}
+  up3: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up4: userdata Mateo_081005
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.HoverHos:? cname=SyncUpdateConnection what=Lua
+  up6: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.HoverHos:? cname=TrackCharacter what=Lua
+  up7: userdata Connection
+  up8: userdata Connection
+  up9: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  consts total=21
+  [1] str "GetActionKeybind"
+  [2] str "Use"
+  [3] str "[%*] Pick Up Hostage"
+  [4] str "E"
+  [5] str "Enum%.KeyCode%."
+  [6] str ""
+  [7] str "gsub"
+  [8] str "Enum%.UserInputType%."
+  [9] str "Enum%.CustomInputType%."
+  [10] str "format"
+  [11] str "Text"
+  [12] str "CreateListener"
+  [13] str "Settings.Keyboard/Mouse"
+  [14] str "workspace"
+  [15] userdata
+  [16] str "Gamemode"
+  [17] str "GetAttributeChangedSignal"
+  [18] str "Connect"
+  [19] str "CharacterAdded"
+  [20] str "CharacterRemoving"
+  [21] str "Character"

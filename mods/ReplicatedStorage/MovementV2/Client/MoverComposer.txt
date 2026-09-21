@@ -1,0 +1,210 @@
+PATH: ReplicatedStorage.MovementV2.Client.MoverComposer
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+F Compose
+  params=2 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=Compose what=Lua protos=5[#1,MoverSensitiveAt,#3,ResolveSupportMotion,CanOccupyAtEnd]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=pruneRevisionChanges what=Lua
+  up4: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=resolvePose what=Lua
+  up5: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=prune what=Lua
+  up6: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=pruneProgress what=Lua
+  up7: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=prunePredictedProgress what=Lua
+  up8: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=resolve what=Lua
+  up9: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up10: table keys=4 {SampleCFrame:function, ResolveSupportMotion:function, VelocityAtPoint:function, Build:function}
+  up11: table keys=11 {SweepDetailed:function, FindLadder:function, Sweep:function, FindGround:function, SweepWithFloorSupport:function, SweepMoversDetailed:function, SweepWithFloorSupportDetailed:function, CanMove:function, IsClear:function, __index:table, new:function}
+  up12: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up13: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=distanceSquaredToSegment what=Lua
+  up14: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=predictContactFollowers what=Lua
+  up15: ERR
+  consts total=61
+  [1] str "ServerTick"
+  [2] str "PreviousServerTick"
+  [3] str "StepSeconds"
+  [4] str "isUInt32"
+  [5] str "MoverComposerTickInvalid"
+  [6] str "_revision"
+  [7] str "_baselineServerTick"
+  [8] str "MoverBaselineRequired"
+  [9] str "Mapping"
+  [10] str "TopologyEpoch"
+  [11] str "_epoch"
+  [12] str "MoverEpochMismatch"
+  [13] str "deltaUInt32"
+  [14] str "MoverFrameOutsideRetention"
+  [15] str "SimulationHz"
+  [16] str "_horizonHz"
+  [17] str "derive"
+  [18] str "PredictionReplayTicks"
+  [19] str "_horizonTicks"
+  [20] str "assert"
+F ConsumeBaseline
+  params=6 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=ConsumeBaseline what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=appendDescriptor what=Lua
+  up3: table keys=13 {StreamHeaderWireSize:number, SampleWireSize:number, writeStreamsValidated:function, readAnchors:function, writeAnchorsValidated:function, MaxStreamCount:number, validateStreams:function, validateAnchors:function, readStreams:function, streamsWireSize:function, MaxSampleCount:number, MaxTotalSampleCount:number, AnchorWireSize:number}
+  up4: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=resolve what=Lua
+  up5: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up6: ERR
+  consts total=42
+  [1] str "isNonZeroUInt16"
+  [2] str "InvalidMoverEpoch"
+  [3] str "isUInt32"
+  [4] str "InvalidMoverRevision"
+  [5] str "InvalidMoverServerTick"
+  [6] str "type"
+F ConsumeDelta
+  params=5 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=ConsumeDelta what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=sameCollisionDescriptor what=Lua
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=resolvePose what=Lua
+  up4: function params=2 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=appendDescriptor what=Lua
+  up5: function params=2 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=discardPredictedFrom what=Lua
+  up6: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=pruneRevisionChanges what=Lua
+  up7: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=prune what=Lua
+  up8: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=pruneProgress what=Lua
+  up9: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=prunePredictedProgress what=Lua
+  up10: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up11: ERR
+  consts total=56
+  [1] str "isNonZeroUInt16"
+  [2] str "InvalidMoverEpoch"
+  [3] str "isUInt32"
+  [4] str "InvalidMoverRevision"
+  [5] str "InvalidMoverServerTick"
+  [6] str "_epoch"
+  [7] str "_revision"
+  [8] str "MoverBaselineRequired"
+  [9] str "MoverEpochMismatch"
+  [10] str "deltaUInt32"
+  [11] number 1
+  [12] str "MoverRevisionGap"
+  [13] str "_latestCommitTick"
+  [14] str "assert"
+F ConsumeProgress
+  params=5 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=ConsumeProgress what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=13 {StreamHeaderWireSize:number, SampleWireSize:number, writeStreamsValidated:function, readAnchors:function, writeAnchorsValidated:function, MaxStreamCount:number, validateStreams:function, validateAnchors:function, readStreams:function, streamsWireSize:function, MaxSampleCount:number, MaxTotalSampleCount:number, AnchorWireSize:number}
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=resolve what=Lua
+  up4: function params=4 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=predictedProgressMatches what=Lua
+  up5: function params=2 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=discardPredictedFrom what=Lua
+  up6: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=pruneRevisionChanges what=Lua
+  up7: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=prune what=Lua
+  up8: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=pruneProgress what=Lua
+  up9: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=prunePredictedProgress what=Lua
+  up10: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up11: ERR
+  consts total=46
+  [1] str "isNonZeroUInt16"
+  [2] str "InvalidMoverEpoch"
+  [3] str "isUInt32"
+  [4] str "InvalidMoverRevision"
+  [5] str "InvalidMoverServerTick"
+  [6] str "validateStreams"
+  [7] str "_epoch"
+  [8] str "_revision"
+  [9] str "MoverBaselineRequired"
+  [10] str "MoverEpochMismatch"
+  [11] str "deltaUInt32"
+  [12] number 1
+  [13] str "MoverRevisionGap"
+  [14] str "_latestCommitTick"
+  [15] str "assert"
+F ContactBodyQueryBounds
+  params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=ContactBodyQueryBounds what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=resolve what=Lua
+  up3: function params=4 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=resolveProgress what=Lua
+  up4: function params=2 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=fallbackProgress what=Lua
+  up5: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up6: table keys=15 {SweepEndpoint:function, ContactMaxRotationRadiansPerTick:number, ContactQueryBounds:function, FindEarliestStationaryContact:function, Reset:function, BeginComposition:function, ContainsEndpoint:function, ReserveMover:function, ContactMaxRotationSubdivisions:number, BindEndpoint:function, ReserveContactMover:function, ContactMaxRotationRadiansPerSubdivision:number, Retire:function, __index:table, new:function}
+  up7: ERR
+  consts total=27
+  [1] str "_contactBounds"
+  [2] str "table"
+  [3] str "clear"
+F Destroy
+  params=1 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "Reset"
+F IsPredictionStateAffected
+  params=4 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=IsPredictionStateAffected what=Lua protos=0[]
+  up1: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up2: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=distanceSquaredToSegment what=Lua
+  up4: ERR
+  consts total=26
+  [1] str "type"
+F PredictDoorUse
+  params=5 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=PredictDoorUse what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=resolvePose what=Lua
+  up4: table keys=6 {writeValidated:function, MaxDescriptorCount:number, DescriptorWireSize:number, canonicalize:function, validateList:function, readList:function}
+  up5: function params=2 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=discardPredictedFrom what=Lua
+  up6: ERR
+  consts total=67
+  [1] str "isUInt32"
+  [2] number 1
+  [3] number 0
+  [4] str "MoverDoorPredictionClockInvalid"
+  [5] str "Attributes"
+  [6] str "Id"
+  [7] str "GetAttribute"
+  [8] str "MoverDoorIdentityUnavailable"
+  [9] str "_tracks"
+  [10] str "MoverDoorTrackUnavailable"
+  [11] str "Active"
+  [12] str "MoverDoorPoseUnavailable"
+  [13] str "Moving"
+  [14] str "MoverDoorAlreadyMoving"
+  [15] str "DoorClosedPivot"
+  [16] str "typeof"
+F RejectDoorUse
+  params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=RejectDoorUse what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=discardPredictedFrom what=Lua
+  up3: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up4: ERR
+  consts total=9
+  [1] str "isUInt32"
+  [2] number 0
+  [3] str "MoverDoorRejectionIdentityInvalid"
+  [4] str "_tracks"
+  [5] str "SpeculativeDescriptor"
+  [6] str "Revision"
+  [7] str "EffectiveTick"
+  [8] str "_lastPredictionTick"
+  [9] str "ClearClientSpeculativeDescriptor"
+F RequiresContactBodies
+  params=2 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=RequiresContactBodies what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=3 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=resolve what=Lua
+  up3: ERR
+  consts total=6
+  [1] str "isUInt32"
+  [2] str "_tracks"
+  [3] str "Active"
+  [4] str "Moving"
+  [5] str "Behavior"
+  [6] str "ContactFollower"
+F Reset
+  params=1 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=Reset what=Lua protos=0[]
+  up1: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up2: ERR
+  consts total=16
+  [1] str "table"
+  [2] str "clear"
+K __index :table keys=13
+  {["ConsumeProgress"]=<function:function: 0xf855f9f4beb76114>, ["Compose"]=<function:function: 0x1d639da00514739f>, ["IsPredictionStateAffected"]=<function:function: 0x60fa54dd53389e55>, ["Destroy"]=<function:function: 0xc1b6d3c66f0f9575>, ["ContactBodyQueryBounds"]=<function:function: 0xb6cc4444ff9555c4>, ["ConsumeBaseline"]=<function:function: 0x4d9d684989e945cb>, ["ConsumeDelta"]=<function:function: 0xde9a33f99678f11d>, ["Reset"]=<function:function: 0xa03cd7eea029a0a4>, ["RejectDoorUse"]=<function:function: 0x96c34a1abd0234df>, ["PredictDoorUse"]=<function:function: 0x9b53693da85f4439>, ["RequiresContactBodies"]=<function:function: 0x5c52f354f2b7f156>, ["__index"]=<cycle>, ["new"]=<function:function: 0x030cf7728964a8be>}
+F new
+  params=0 src=ReplicatedStorage.MovementV2.Client.MoverComposer:? cname=new what=Lua protos=0[]
+  up1: table keys=15 {SweepEndpoint:function, ContactMaxRotationRadiansPerTick:number, ContactQueryBounds:function, FindEarliestStationaryContact:function, Reset:function, BeginComposition:function, ContainsEndpoint:function, ReserveMover:function, ContactMaxRotationSubdivisions:number, BindEndpoint:function, ReserveContactMover:function, ContactMaxRotationRadiansPerSubdivision:number, Retire:function, __index:table, new:function}
+  up2: table keys=13 {ConsumeProgress:function, Compose:function, IsPredictionStateAffected:function, Destroy:function, ContactBodyQueryBounds:function, ConsumeBaseline:function, ConsumeDelta:function, Reset:function, RejectDoorUse:function, PredictDoorUse:function, RequiresContactBodies:function, __index:table, new:function}
+  up3: ERR
+  consts total=16
+  [1] str "_tracks"
+  [2] str "_epoch"

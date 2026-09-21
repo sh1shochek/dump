@@ -1,0 +1,27 @@
+PATH: ReplicatedStorage.MovementV2.Mapping
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K Version :number = 2
+K WireSize :number = 16
+F decode
+  params=1 src=ReplicatedStorage.MovementV2.Mapping:? cname=decode what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: ERR
+  consts total=32
+  [1] str "typeof"
+F encode
+  params=1 src=ReplicatedStorage.MovementV2.Mapping:? cname=encode what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: ERR
+  consts total=16
+  [1] str "validate"
+  [2] str "buffer"
+  [3] str "create"
+F validate
+  params=1 src=ReplicatedStorage.MovementV2.Mapping:? cname=validate what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up3: ERR
+  consts total=24
+  [1] str "typeof"

@@ -1,0 +1,28 @@
+PATH: ReplicatedStorage.Database.Components.Finishers
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F ExecuteFinisher
+  params=1 src=ReplicatedStorage.Database.Components.Finishers:? cname=ExecuteFinisher what=Lua protos=1[#1]
+  up1: table keys=2 {ExecuteFinisher:function, IsFinisherValidForReplication:function}
+  up2: table keys=6 {Ragdoll:table, Gold:table, Melted:table, LeSunshine:table, Fling:table, Charred:table}
+  up3: function params=1 src=ReplicatedStorage.Database.Components.Finishers:? cname=ResolveEnemyCharacter what=Lua
+  up4: table keys=7 {9702300049:table, 11701002591:table, 7265420489:table, 3349306431:table, 5094344698:table, 11688948716:table, 7431542897:table}
+  up5: table keys=2 {1:table, 2:table}
+  up6: ERR
+  consts total=11
+  [1] str "IsFinisherValidForReplication"
+  [2] str "Finisher"
+  [3] str "\"%*\" is not a valid member of database.custom.finishers"
+  [4] str "format"
+  [5] str "assert"
+F IsFinisherValidForReplication
+  params=1 src=ReplicatedStorage.Database.Components.Finishers:? cname=IsFinisherValidForReplication what=Lua protos=0[]
+  up1: table keys=6 {Ragdoll:table, Gold:table, Melted:table, LeSunshine:table, Fling:table, Charred:table}
+  up2: userdata Mateo_081005
+  up3: ERR
+  consts total=11
+  [1] str "Finisher"
+  [2] str "\"%*\" is not a valid member of database.custom.finishers"
+  [3] str "format"
+  [4] str "assert"

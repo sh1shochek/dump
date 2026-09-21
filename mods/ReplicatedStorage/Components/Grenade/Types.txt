@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Components.Grenade.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

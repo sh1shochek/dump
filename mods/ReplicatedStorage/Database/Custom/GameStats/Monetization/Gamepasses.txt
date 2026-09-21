@@ -1,0 +1,6 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Monetization.Gamepasses
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+K Quick Open :table keys=2
+  {["GamepassId"]=1667852725, ["OnPurchased"]=<function:function: 0x7859fec88ff67994>}

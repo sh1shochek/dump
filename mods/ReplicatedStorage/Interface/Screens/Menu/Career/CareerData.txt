@@ -1,0 +1,76 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Career.CareerData
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+K Buckets :table keys=5
+  {[1]="CasualDefusal", [2]="CasualHostage", [3]="Deathmatch", [4]="CompetitiveDefusal", [5]="CompetitiveHostage"}
+K Changed :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x390ed918ab75411a>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}
+K EconomyTiers :table keys=4
+  {[1]="Pistol", [2]="Eco", [3]="Semi", [4]="Full"}
+F Get
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.CareerData:? cname=Get what=Lua protos=0[]
+  up1: table keys=3 {Buckets:table, SchemaVersion:number, Matches:table}
+  up2: ERR
+  consts total=0
+F GetBucket
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.CareerData:? cname=GetBucket what=Lua protos=0[]
+  up1: table keys=3 {Buckets:table, SchemaVersion:number, Matches:table}
+  up2: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.CareerData:? cname=ReadBucket what=Lua
+  up3: table keys=5 {1:string, 2:string, 3:string, 4:string, 5:string}
+  up4: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.CareerData:? cname=AddBucket what=Lua
+  up5: ERR
+  consts total=3
+  [1] str "All"
+  [2] str "Buckets"
+  [3] str "ipairs"
+F GetMatch
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.CareerData:? cname=GetMatch what=Lua protos=0[]
+  up1: table keys=3 {Buckets:table, SchemaVersion:number, Matches:table}
+  up2: ERR
+  consts total=4
+  [1] str "ipairs"
+F GetMatchDetails
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.CareerData:? cname=GetMatchDetails what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: ERR
+  consts total=0
+F IsLoaded
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.CareerData:? cname=IsLoaded what=Lua protos=0[]
+  up1: table keys=3 {Buckets:table, SchemaVersion:number, Matches:table}
+  up2: ERR
+  consts total=0
+F Listen
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.CareerData:? cname=Listen what=Lua protos=1[#1]
+  up1: boolean true
+  up2: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up3: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.CareerData:? cname=Deliver what=Lua
+  up4: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.CareerData:? cname=ReadMatchDetails what=Lua
+  up5: table keys=0 {}
+  up6: table keys=12 {MatchLoaded:table, GetBucket:function, GetMatch:function, Changed:table, Listen:function, Buckets:table, RequestMatchDetails:function, Request:function, EconomyTiers:table, GetMatchDetails:function, IsLoaded:function, Get:function}
+  up7: ERR
+  consts total=4
+  [1] str "Career"
+  [2] str "Statistics"
+  [3] str "Listen"
+  [4] str "MatchDetails"
+K MatchLoaded :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0xa602a0464d428993>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}
+F Request
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.CareerData:? cname=Request what=Lua protos=0[]
+  up1: number 0
+  up2: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up3: ERR
+  consts total=6
+  [1] str "os"
+  [2] str "clock"
+F RequestMatchDetails
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.CareerData:? cname=RequestMatchDetails what=Lua protos=1[#1]
+  up1: table keys=0 {}
+  up2: number 0
+  up3: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up4: ERR
+  consts total=11
+  [1] str ""
+  [2] str "os"
+  [3] str "clock"

@@ -1,0 +1,34 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F GetMissionCategory
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.Missions:? cname=GetMissionCategory what=Lua protos=0[]
+  up1: table keys=50 {Get 125 Rifle Kills:table, Win 400 Rounds:table, Plant Or Defuse The Bomb 150 Times:table, Get 4 Multi-Kills In Deathmatch:table, Get 70 Assists:table, Get 2 Multi-Kills:table, Get 500 Rifle Kills:table, Deal 1000 Damage:table, Get 12 Multi-Kills In Deathmatch:table, Get 18 Pistol Kills In Bomb Defusal:table, Get 300 Kills:table, Get 100 Kills In Deathmatch:table, Deal 4000 Damage In Deathmatch:table, Get 8 Kills:table, Plant Or Defuse The Bomb 40 Times:table, Get 250 Assists:table, Win 2 Deathmatch Matches:table, Get 4 Headshots:table, Get 1200 Kills:table, Deal 1000 Utility Damage:table, Finish Top 3 In Deathmatch 3 Times:table, Get 40 Pistol Kills:table, Plant Or Defuse The Bomb 12 Times:table, Earn 3 MVPs:table, Get 220 Headshots:table, Get 75 Kills In Bomb Defusal:table, Get 15 Assists:table, Win 3 Rounds:table, Get 80 Kills In Deathmatch:table, Get 60 Headshots:table, Win 100 Rounds:table, Get 15 Headshots:table, Win 25 Rounds In Bomb Defusal:table, Get 3 Assists:table, Deal 6000 Damage:table, Earn 250 MVPs:table, Get 50 Kills In Bomb Defusal:table, Finish Top 3 In Deathmatch 40 Times:table, Deal 400 Utility Damage:table, Earn 12 MVPs:table}
+  up2: ERR
+  consts total=1
+  [1] str "Category"
+F GetMissionDefinition
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.Missions:? cname=GetMissionDefinition what=Lua protos=0[]
+  up1: table keys=50 {Get 125 Rifle Kills:table, Win 400 Rounds:table, Plant Or Defuse The Bomb 150 Times:table, Get 4 Multi-Kills In Deathmatch:table, Get 70 Assists:table, Get 2 Multi-Kills:table, Get 500 Rifle Kills:table, Deal 1000 Damage:table, Get 12 Multi-Kills In Deathmatch:table, Get 18 Pistol Kills In Bomb Defusal:table, Get 300 Kills:table, Get 100 Kills In Deathmatch:table, Deal 4000 Damage In Deathmatch:table, Get 8 Kills:table, Plant Or Defuse The Bomb 40 Times:table, Get 250 Assists:table, Win 2 Deathmatch Matches:table, Get 4 Headshots:table, Get 1200 Kills:table, Deal 1000 Utility Damage:table, Finish Top 3 In Deathmatch 3 Times:table, Get 40 Pistol Kills:table, Plant Or Defuse The Bomb 12 Times:table, Earn 3 MVPs:table, Get 220 Headshots:table, Get 75 Kills In Bomb Defusal:table, Get 15 Assists:table, Win 3 Rounds:table, Get 80 Kills In Deathmatch:table, Get 60 Headshots:table, Win 100 Rounds:table, Get 15 Headshots:table, Win 25 Rounds In Bomb Defusal:table, Get 3 Assists:table, Deal 6000 Damage:table, Earn 250 MVPs:table, Get 50 Kills In Bomb Defusal:table, Finish Top 3 In Deathmatch 40 Times:table, Deal 400 Utility Damage:table, Earn 12 MVPs:table}
+  up2: ERR
+  consts total=0
+F GetMissionDefinitions
+  params=0 src=ReplicatedStorage.Database.Custom.GameStats.Missions:? cname=GetMissionDefinitions what=Lua protos=0[]
+  up1: table keys=50 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table, 12:table, 13:table, 14:table, 15:table, 16:table, 17:table, 18:table, 19:table, 20:table, 21:table, 22:table, 23:table, 24:table, 25:table, 26:table, 27:table, 28:table, 29:table, 30:table, 31:table, 32:table, 33:table, 34:table, 35:table, 36:table, 37:table, 38:table, 39:table, 40:table}
+  up2: ERR
+  consts total=2
+  [1] str "table"
+  [2] str "clone"
+F GetMissionDisplayName
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.Missions:? cname=GetMissionDisplayName what=Lua protos=0[]
+  up1: table keys=50 {Get 125 Rifle Kills:table, Win 400 Rounds:table, Plant Or Defuse The Bomb 150 Times:table, Get 4 Multi-Kills In Deathmatch:table, Get 70 Assists:table, Get 2 Multi-Kills:table, Get 500 Rifle Kills:table, Deal 1000 Damage:table, Get 12 Multi-Kills In Deathmatch:table, Get 18 Pistol Kills In Bomb Defusal:table, Get 300 Kills:table, Get 100 Kills In Deathmatch:table, Deal 4000 Damage In Deathmatch:table, Get 8 Kills:table, Plant Or Defuse The Bomb 40 Times:table, Get 250 Assists:table, Win 2 Deathmatch Matches:table, Get 4 Headshots:table, Get 1200 Kills:table, Deal 1000 Utility Damage:table, Finish Top 3 In Deathmatch 3 Times:table, Get 40 Pistol Kills:table, Plant Or Defuse The Bomb 12 Times:table, Earn 3 MVPs:table, Get 220 Headshots:table, Get 75 Kills In Bomb Defusal:table, Get 15 Assists:table, Win 3 Rounds:table, Get 80 Kills In Deathmatch:table, Get 60 Headshots:table, Win 100 Rounds:table, Get 15 Headshots:table, Win 25 Rounds In Bomb Defusal:table, Get 3 Assists:table, Deal 6000 Damage:table, Earn 250 MVPs:table, Get 50 Kills In Bomb Defusal:table, Finish Top 3 In Deathmatch 40 Times:table, Deal 400 Utility Damage:table, Earn 12 MVPs:table}
+  up2: ERR
+  consts total=1
+  [1] str "DisplayName"
+F IsMissionAvailableForGamemode
+  params=3 src=ReplicatedStorage.Database.Custom.GameStats.Missions:? cname=IsMissionAvailableForGamemode what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Gamemodes"
+  [2] str "ipairs"

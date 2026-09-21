@@ -1,0 +1,50 @@
+PATH: ReplicatedStorage.MovementV2.Serial
+REQUIRE: ok
+RETURNS: table
+KEYS: 9
+K UInt16Max :number = 65535
+K UInt32Max :number = 4294967295
+F addUInt32
+  params=2 src=ReplicatedStorage.MovementV2.Serial:? cname=addUInt32 what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] number 4294967296
+F deltaUInt32
+  params=2 src=ReplicatedStorage.MovementV2.Serial:? cname=deltaUInt32 what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] number 4294967296
+  [2] number 2147483648
+F isNewerUInt32
+  params=2 src=ReplicatedStorage.MovementV2.Serial:? cname=isNewerUInt32 what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=2
+  [1] str "isUInt32"
+  [2] str "deltaUInt32"
+F isNonZeroUInt16
+  params=1 src=ReplicatedStorage.MovementV2.Serial:? cname=isNonZeroUInt16 what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=1
+  [1] str "isUInt16"
+F isUInt16
+  params=1 src=ReplicatedStorage.MovementV2.Serial:? cname=isUInt16 what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F isUInt32
+  params=1 src=ReplicatedStorage.MovementV2.Serial:? cname=isUInt32 what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F nextNonZeroUInt16
+  params=1 src=ReplicatedStorage.MovementV2.Serial:? cname=nextNonZeroUInt16 what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=6
+  [1] str "isNonZeroUInt16"
+  [2] str "generation must be a non-zero u16"
+  [3] str "assert"

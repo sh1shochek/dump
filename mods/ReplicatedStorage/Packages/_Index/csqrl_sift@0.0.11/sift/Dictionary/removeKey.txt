@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dictionary.removeKey
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=removeKey what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=clone what=C
+  up2: ERR
+  consts total=0

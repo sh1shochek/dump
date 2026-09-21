@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Roblox.Badges
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+K Completed Medal Quest :table keys=1
+  {["BadgeId"]=3322265420611878}
+K Early Beta Tester :table keys=1
+  {["BadgeId"]=2316629238627489}

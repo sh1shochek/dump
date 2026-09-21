@@ -1,0 +1,82 @@
+PATH: ReplicatedStorage.MovementV2.CommandCodec
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+K CommandSize :number = 6
+K HeaderSize :number = 10
+K MaxDeltaCommandSize :number = 7
+K MaxWeaponSelectionIdentifierBytes :number = 96
+K MaxWeaponSelectionSize :number = 102
+K Version :number = 4
+F canonicalizeCommand
+  params=2 src=ReplicatedStorage.MovementV2.CommandCodec:? cname=canonicalizeCommand what=Lua protos=0[]
+  up1: table keys=13 {MaxWeaponSelectionIdentifierBytes:number, encode:function, decode:function, CommandSize:number, canonicalizeCommand:function, MaxWeaponSelectionSize:number, makePacket:function, Version:number, canonicalizeCommandInto:function, validateCommand:function, HeaderSize:number, MaxDeltaCommandSize:number, validatePacket:function}
+  up2: ERR
+  consts total=1
+  [1] str "canonicalizeCommandInto"
+F canonicalizeCommandInto
+  params=3 src=ReplicatedStorage.MovementV2.CommandCodec:? cname=canonicalizeCommandInto what=Lua protos=0[]
+  up1: table keys=13 {MaxWeaponSelectionIdentifierBytes:number, encode:function, decode:function, CommandSize:number, canonicalizeCommand:function, MaxWeaponSelectionSize:number, makePacket:function, Version:number, canonicalizeCommandInto:function, validateCommand:function, HeaderSize:number, MaxDeltaCommandSize:number, validatePacket:function}
+  up2: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up3: ERR
+  consts total=27
+  [1] str "typeof"
+F decode
+  params=2 src=ReplicatedStorage.MovementV2.CommandCodec:? cname=decode what=Lua protos=0[]
+  up1: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up4: table keys=8 {ValidMask:number, isValid:function, Duck:number, Jump:number, has:function, Scoped:number, with:function, Walk:number}
+  up5: ERR
+  consts total=78
+  [1] str "Default"
+  [2] str "typeof"
+F encode
+  params=2 src=ReplicatedStorage.MovementV2.CommandCodec:? cname=encode what=Lua protos=0[]
+  up1: table keys=13 {MaxWeaponSelectionIdentifierBytes:number, encode:function, decode:function, CommandSize:number, canonicalizeCommand:function, MaxWeaponSelectionSize:number, makePacket:function, Version:number, canonicalizeCommandInto:function, validateCommand:function, HeaderSize:number, MaxDeltaCommandSize:number, validatePacket:function}
+  up2: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up3: function params=8 src=ReplicatedStorage.MovementV2.CommandCodec:? cname=writeChangedFields what=Lua
+  up4: ERR
+  consts total=42
+  [1] str "validatePacket"
+  [2] str "RedundantCommandCount"
+  [3] str "NewCommandCount"
+  [4] str "Commands"
+  [5] str "canonicalMove"
+  [6] str "Move"
+  [7] str "quantizeSignedUnit"
+  [8] str "X"
+  [9] str "Y"
+  [10] str "quantizeYaw"
+  [11] str "LookYaw"
+  [12] str "VerticalLook"
+  [13] str "Buttons"
+  [14] number 1
+  [15] str "bit32"
+  [16] str "bor"
+F makePacket
+  params=4 src=ReplicatedStorage.MovementV2.CommandCodec:? cname=makePacket what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=13 {MaxWeaponSelectionIdentifierBytes:number, encode:function, decode:function, CommandSize:number, canonicalizeCommand:function, MaxWeaponSelectionSize:number, makePacket:function, Version:number, canonicalizeCommandInto:function, validateCommand:function, HeaderSize:number, MaxDeltaCommandSize:number, validatePacket:function}
+  up3: ERR
+  consts total=18
+  [1] str "typeof"
+F validateCommand
+  params=2 src=ReplicatedStorage.MovementV2.CommandCodec:? cname=validateCommand what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up3: table keys=8 {ValidMask:number, isValid:function, Duck:number, Jump:number, has:function, Scoped:number, with:function, Walk:number}
+  up4: ERR
+  consts total=22
+  [1] str "isUInt32"
+  [2] str "InvalidCommandNumber"
+  [3] str "typeof"
+F validatePacket
+  params=2 src=ReplicatedStorage.MovementV2.CommandCodec:? cname=validatePacket what=Lua protos=0[]
+  up1: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: table keys=13 {MaxWeaponSelectionIdentifierBytes:number, encode:function, decode:function, CommandSize:number, canonicalizeCommand:function, MaxWeaponSelectionSize:number, makePacket:function, Version:number, canonicalizeCommandInto:function, validateCommand:function, HeaderSize:number, MaxDeltaCommandSize:number, validatePacket:function}
+  up4: ERR
+  consts total=28
+  [1] str "Default"
+  [2] str "typeof"

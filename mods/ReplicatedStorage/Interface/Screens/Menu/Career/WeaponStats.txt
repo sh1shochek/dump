@@ -1,0 +1,33 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Career.WeaponStats
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Bind
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.WeaponStats:? cname=Bind what=Lua protos=1[#1]
+  up1: userdata Container
+  up2: userdata Filters
+  up3: userdata Template
+  up4: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.WeaponStats:? cname=NameStatColumns what=Lua
+  up5: userdata Stats
+  up6: userdata Container
+  up7: userdata Template
+  up8: userdata TemplateDrop
+  up9: table keys=7 {Special:string, Melee:string, Snipers:string, Shotguns:string, Rifle:string, SMG:string, Pistols:string}
+  up10: table keys=8 {Allweapons:userdata, Pistols:userdata, Melee:userdata, SMG:userdata, Rifle:userdata, Special:userdata, Shotguns:userdata, Snipers:userdata}
+  up11: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up12: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up13: string "Allweapons"
+  up14: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.WeaponStats:? cname=UpdateFilterButtons what=Lua
+  up15: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.WeaponStats:? cname=RenderRows what=Lua
+  up16: ERR
+  consts total=16
+  [1] str "WeaponStats"
+  [2] str "FindFirstChild"
+  [3] str "Container"
+  [4] str "Filters"
+  [5] str "ipairs"
+F Render
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.WeaponStats:? cname=Render what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Career.WeaponStats:? cname=RenderRows what=Lua
+  up2: ERR
+  consts total=0

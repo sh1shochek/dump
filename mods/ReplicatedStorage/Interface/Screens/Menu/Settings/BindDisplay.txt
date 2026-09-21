@@ -1,0 +1,81 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Settings.BindDisplay
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+F Apply
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Settings.BindDispla:? cname=Apply what=Lua protos=0[]
+  up1: table keys=8 {SetConflict:function, GetReset:function, GetTextBox:function, HideIcon:function, FormatText:function, GetIconImage:function, GetIcon:function, Apply:function}
+  up2: userdata 1, 1, 1
+  up3: ERR
+  consts total=14
+  [1] str "GetTextBox"
+  [2] str ""
+  [3] str "GetIconImage"
+  [4] str "GetIcon"
+  [5] str "Image"
+  [6] str "ImageColor3"
+  [7] str "Visible"
+  [8] str "TextEditable"
+  [9] str "Active"
+  [10] str "None"
+  [11] str "PlaceholderText"
+  [12] str "FormatText"
+  [13] str "Text"
+  [14] str "GetReset"
+F FormatText
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Settings.BindDispla:? cname=FormatText what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str ""
+  [2] str "Enum%.KeyCode%."
+  [3] str "gsub"
+  [4] str "Enum%.UserInputType%."
+  [5] str "Enum%.CustomInputType%."
+F GetIcon
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Settings.BindDispla:? cname=GetIcon what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "Bind"
+  [2] str "FindFirstChild"
+  [3] str "ImageLabel"
+  [4] str "IsA"
+F GetIconImage
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Settings.BindDispla:? cname=GetIconImage what=Lua protos=0[]
+  up1: table keys=1 {parse:function}
+  up2: function params=1 src=ReplicatedStorage.Components.Common.GetBindIcon:? what=Lua
+  up3: ERR
+  consts total=3
+  [1] str ""
+  [2] str "parse"
+  [3] str "typeof"
+F GetReset
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Settings.BindDispla:? cname=GetReset what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "Reset"
+  [2] str "FindFirstChild"
+  [3] str "GuiObject"
+  [4] str "IsA"
+F GetTextBox
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Settings.BindDispla:? cname=GetTextBox what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "TextBox"
+  [2] str "FindFirstChild"
+  [3] str "IsA"
+F HideIcon
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Settings.BindDispla:? cname=HideIcon what=Lua protos=0[]
+  up1: table keys=8 {SetConflict:function, GetReset:function, GetTextBox:function, HideIcon:function, FormatText:function, GetIconImage:function, GetIcon:function, Apply:function}
+  up2: ERR
+  consts total=2
+  [1] str "GetIcon"
+  [2] str "Visible"
+F SetConflict
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Settings.BindDispla:? cname=SetConflict what=Lua protos=0[]
+  up1: table keys=8 {SetConflict:function, GetReset:function, GetTextBox:function, HideIcon:function, FormatText:function, GetIconImage:function, GetIcon:function, Apply:function}
+  up2: userdata 1, 0.352941, 0.352941
+  up3: userdata 1, 1, 1
+  up4: ERR
+  consts total=2
+  [1] str "GetIcon"
+  [2] str "ImageColor3"

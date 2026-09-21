@@ -1,0 +1,68 @@
+PATH: ReplicatedStorage.Shared.Zone.Signal
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+F Connect
+  params=2 src=ReplicatedStorage.Shared.Zone.Signal:? cname=Connect what=Lua protos=0[]
+  up1: table keys=3 {Disconnect:function, __index:table, new:function}
+  up2: ERR
+  consts total=7
+  [1] str "new"
+  [2] str "_handlerListHead"
+  [3] str "_next"
+  [4] str "connectionsChanged"
+  [5] str "totalConnections"
+  [6] number 1
+  [7] str "Fire"
+F Destroy
+  params=1 src=ReplicatedStorage.Shared.Zone.Signal:? cname=DisconnectAll what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "_handlerListHead"
+  [2] str "connectionsChanged"
+  [3] str "totalConnections"
+  [4] str "Fire"
+  [5] str "Destroy"
+F DisconnectAll
+  params=1 src=ReplicatedStorage.Shared.Zone.Signal:? cname=DisconnectAll what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "_handlerListHead"
+  [2] str "connectionsChanged"
+  [3] str "totalConnections"
+  [4] str "Fire"
+  [5] str "Destroy"
+F Fire
+  params=1 src=ReplicatedStorage.Shared.Zone.Signal:? cname=Fire what=Lua protos=0[]
+  ups: none
+  consts total=10
+  [1] str "_handlerListHead"
+  [2] str "_connected"
+  [3] str "coroutine"
+  [4] str "create"
+F Wait
+  params=1 src=ReplicatedStorage.Shared.Zone.Signal:? cname=Wait what=Lua protos=1[#1]
+  up1: ERR
+  consts total=5
+  [1] str "coroutine"
+  [2] str "running"
+K __index :table keys=8
+  {["DisconnectAll"]=<function:function: 0xbbeeaa7649ee23e2>, ["Wait"]=<function:function: 0x2e3f7fd76e55dc6e>, ["Connect"]=<function:function: 0x914522158d9dbe44>, ["destroy"]=<function:function: 0xbbeeaa7649ee23e2>, ["Destroy"]=<function:function: 0xbbeeaa7649ee23e2>, ["Fire"]=<function:function: 0x277ce4a57b31b6fd>, ["__index"]=<cycle>, ["new"]=<function:function: 0x817c195a690cc295>}
+F destroy
+  params=1 src=ReplicatedStorage.Shared.Zone.Signal:? cname=DisconnectAll what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "_handlerListHead"
+  [2] str "connectionsChanged"
+  [3] str "totalConnections"
+  [4] str "Fire"
+  [5] str "Destroy"
+F new
+  params=1 src=ReplicatedStorage.Shared.Zone.Signal:? cname=new what=Lua protos=0[]
+  up1: table keys=8 {DisconnectAll:function, Wait:function, Connect:function, destroy:function, Destroy:function, Fire:function, __index:table, new:function}
+  up2: ERR
+  consts total=8
+  [1] str "_handlerListHead"
+  [2] boolean false
+  [3] table
+  [4] str "setmetatable"

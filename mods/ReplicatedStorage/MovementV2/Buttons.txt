@@ -1,0 +1,27 @@
+PATH: ReplicatedStorage.MovementV2.Buttons
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+K Duck :number = 2
+K Jump :number = 1
+K Scoped :number = 8
+K ValidMask :number = 15
+K Walk :number = 4
+F has
+  params=2 src=ReplicatedStorage.MovementV2.Buttons:? cname=has what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "bit32"
+  [2] str "band"
+F isValid
+  params=1 src=ReplicatedStorage.MovementV2.Buttons:? cname=isValid what=Lua protos=0[]
+  up1: table keys=8 {ValidMask:number, isValid:function, Duck:number, Jump:number, has:function, Scoped:number, with:function, Walk:number}
+  up2: ERR
+  consts total=8
+  [1] str "typeof"
+F with
+  params=3 src=ReplicatedStorage.MovementV2.Buttons:? cname=with what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "bit32"
+  [2] str "bor"

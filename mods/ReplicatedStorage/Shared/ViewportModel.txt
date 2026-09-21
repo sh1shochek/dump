@@ -1,0 +1,72 @@
+PATH: ReplicatedStorage.Shared.ViewportModel
+REQUIRE: ok
+RETURNS: table
+KEYS: 9
+F Calibrate
+  params=1 src=ReplicatedStorage.Shared.ViewportModel:? cname=Calibrate what=Lua protos=0[]
+  up1: ERR
+  consts total=16
+  [1] str "ViewportFrame"
+  [2] str "AbsoluteSize"
+  [3] str "X"
+  [4] str "Y"
+  [5] str "aspect"
+  [6] number 2
+  [7] str "Camera"
+  [8] str "FieldOfView"
+  [9] str "math"
+  [10] str "rad"
+K ClassName :string = ViewportModel
+F CleanViewport
+  params=1 src=ReplicatedStorage.Shared.ViewportModel:? cname=CleanViewport what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "Model"
+  [2] str "FindFirstChildOfClass"
+  [3] str "Destroy"
+F GenerateViewport
+  params=3 src=ReplicatedStorage.Shared.ViewportModel:? cname=GenerateViewport what=Lua protos=0[]
+  up1: table keys=9 {Calibrate:function, SetModel:function, GetMinimumFitCFrame:function, GenerateViewport:function, ClassName:string, CleanViewport:function, GetFitDistance:function, __index:table, new:function}
+  up2: ERR
+  consts total=13
+  [1] str "CFrame"
+  [2] str "Angles"
+F GetFitDistance
+  params=2 src=ReplicatedStorage.Shared.ViewportModel:? cname=GetFitDistance what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "_modelCFrame"
+  [2] str "Position"
+  [3] str "Magnitude"
+  [4] str "_modelRadius"
+  [5] str "_viewport"
+  [6] str "sincFov2"
+F GetMinimumFitCFrame
+  params=2 src=ReplicatedStorage.Shared.ViewportModel:? cname=GetMinimumFitCFrame what=Lua protos=0[]
+  up1: function params=4 src=ReplicatedStorage.Shared.ViewportModel:? cname=viewProjectionEdgeHits what=Lua
+  up2: ERR
+  consts total=18
+  [1] str "Model"
+  [2] str "CFrame"
+  [3] str "new"
+F SetModel
+  params=2 src=ReplicatedStorage.Shared.ViewportModel:? cname=SetModel what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Shared.ViewportModel:? cname=getModelPointCloud what=Lua
+  up2: ERR
+  consts total=8
+  [1] str "Model"
+  [2] str "GetBoundingBox"
+  [3] str "_points"
+  [4] str "_modelCFrame"
+  [5] str "_modelSize"
+  [6] number 2
+  [7] str "Magnitude"
+  [8] str "_modelRadius"
+K __index :table keys=9
+  {["Calibrate"]=<function:function: 0xed5765080c1a231f>, ["SetModel"]=<function:function: 0xc3c57450a59c9faf>, ["GetMinimumFitCFrame"]=<function:function: 0x4161833410e9e2a6>, ["GenerateViewport"]=<function:function: 0xc78d87d3f28cf722>, ["ClassName"]="ViewportModel", ["CleanViewport"]=<function:function: 0xf279966b101ee292>, ["GetFitDistance"]=<function:function: 0x7ef64e6a64d21776>, ["__index"]=<cycle>, ["new"]=<function:function: 0x0318b6c2b71038aa>}
+F new
+  params=2 src=ReplicatedStorage.Shared.ViewportModel:? cname=new what=Lua protos=0[]
+  up1: table keys=9 {Calibrate:function, SetModel:function, GetMinimumFitCFrame:function, GenerateViewport:function, ClassName:string, CleanViewport:function, GetFitDistance:function, __index:table, new:function}
+  up2: ERR
+  consts total=16
+  [1] str "setmetatable"

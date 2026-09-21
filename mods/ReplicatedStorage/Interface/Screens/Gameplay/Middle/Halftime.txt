@@ -1,0 +1,28 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.Halftime
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F Hide
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Halftime:? cname=Hide what=Lua protos=0[]
+  up1: userdata Halftime
+  up2: number 7
+  up3: ERR
+  consts total=2
+  [1] number 1
+  [2] str "Visible"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Halftime:? cname=Initialize what=Lua protos=1[#1]
+  up1: userdata Halftime
+  up2: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up3: number 7
+  up4: ERR
+  consts total=2
+  [1] str "Visible"
+  [2] str "ListenToState"
+F Show
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Halftime:? cname=Show what=Lua protos=0[]
+  up1: userdata Halftime
+  up2: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Halftime:? cname=showHalftime what=Lua
+  up3: ERR
+  consts total=1
+  [1] str "warn"

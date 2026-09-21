@@ -1,0 +1,34 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.WeaponCategories
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F CountsTowardsAccuracy
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.WeaponCategories:? cname=CountsTowardsAccuracy what=Lua protos=0[]
+  up1: table keys=14 {Skeleton Knife:boolean, Molotov:boolean, CT Knife:boolean, Incendiary Grenade:boolean, T Knife:boolean, Butterfly Knife:boolean, Karambit:boolean, Flip Knife:boolean, HE Grenade:boolean, Stiletto Knife:boolean, LightSaber:boolean, M9 Bayonet:boolean, Zeus x27:boolean, Gut Knife:boolean}
+  up2: ERR
+  consts total=1
+  [1] str ""
+F GetCategory
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.WeaponCategories:? cname=GetCategory what=Lua protos=0[]
+  up1: table keys=39 {MAG-7:string, AWP:string, T Knife:string, HE Grenade:string, Flip Knife:string, Negev:string, AUG:string, Skeleton Knife:string, Nova:string, Galil AR:string, M4A1-S:string, R8 Revolver:string, AK-47:string, Molotov:string, SSG 08:string, FAMAS:string, XM1014:string, Butterfly Knife:string, P250:string, LightSaber:string, M9 Bayonet:string, USP-S:string, Zeus x27:string, Glock-18:string, Stiletto Knife:string, Incendiary Grenade:string, M4A4:string, MP9:string, P90:string, CT Knife:string, Gut Knife:string, Karambit:string, Five-SeveN:string, SG 553:string, Sawed-Off:string, Tec-9:string, Dual Berettas:string, MAC-10:string, Desert Eagle:string}
+  up2: ERR
+  consts total=1
+  [1] str "Special"
+F GetLabel
+  params=1 src=ReplicatedStorage.Database.Custom.GameStats.WeaponCategories:? cname=GetLabel what=Lua protos=0[]
+  up1: table keys=7 {Shotgun:string, Melee:string, Special:string, SMG:string, Rifle:string, Sniper:string, Pistol:string}
+  up2: table keys=5 {GetCategory:function, GetWeapons:function, CountsTowardsAccuracy:function, GetLabel:function, GetOrder:function}
+  up3: ERR
+  consts total=2
+  [1] str "SPECIAL"
+  [2] str "GetCategory"
+F GetOrder
+  params=0 src=ReplicatedStorage.Database.Custom.GameStats.WeaponCategories:? cname=GetOrder what=Lua protos=0[]
+  up1: table keys=7 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string, 7:string}
+  up2: ERR
+  consts total=0
+F GetWeapons
+  params=0 src=ReplicatedStorage.Database.Custom.GameStats.WeaponCategories:? cname=GetWeapons what=Lua protos=0[]
+  up1: table keys=39 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string, 7:string, 8:string, 9:string, 10:string, 11:string, 12:string, 13:string, 14:string, 15:string, 16:string, 17:string, 18:string, 19:string, 20:string, 21:string, 22:string, 23:string, 24:string, 25:string, 26:string, 27:string, 28:string, 29:string, 30:string, 31:string, 32:string, 33:string, 34:string, 35:string, 36:string, 37:string, 38:string, 39:string}
+  up2: ERR
+  consts total=0

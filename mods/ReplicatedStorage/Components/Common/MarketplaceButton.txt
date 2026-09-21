@@ -1,0 +1,33 @@
+PATH: ReplicatedStorage.Components.Common.MarketplaceButton
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F Destroy
+  params=1 src=ReplicatedStorage.Components.Common.MarketplaceButton:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "_hasHoverSize"
+  [2] str "Instance"
+  [3] str "_originalSize"
+  [4] str "Size"
+  [5] str "_mouseEnter"
+  [6] str "Disconnect"
+  [7] str "_mouseLeave"
+  [8] str "_activated"
+  [9] str "_destroying"
+K __index :table keys=3
+  {["Destroy"]=<function:function: 0xeb479765f5375ced>, ["__index"]=<cycle>, ["new"]=<function:function: 0x2207bee60962e519>}
+F new
+  params=2 src=ReplicatedStorage.Components.Common.MarketplaceButton:? cname=new what=Lua protos=6[tweenSize,shouldRestoreHoverState,#3,#4,#5,#6]
+  up1: table keys=1 {hoverSizeMultiplier:number}
+  up2: table keys=3 {Destroy:function, __index:table, new:function}
+  up3: userdata Enum.EasingDirection.Out
+  up4: userdata Enum.EasingStyle.Quad
+  up5: function params=1 src=ReplicatedStorage.Components.Common.MarketplaceButton:? cname=isGuiVisible what=Lua
+  up6: userdata UserInputService
+  up7: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up8: userdata Players
+  up9: ERR
+  consts total=36
+  [1] str "table"
+  [2] str "clone"

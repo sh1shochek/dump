@@ -1,0 +1,11 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.MissionStars
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K 1 :number = 13
+K 2 :number = 26
+K 3 :number = 39
+K 4 :number = 65
+K 5 :number = 77
+K 6 :number = 91
+K 7 :number = 130

@@ -1,0 +1,483 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.BaseCamera
+REQUIRE: ok
+RETURNS: table
+KEYS: 47
+F CalculateNewLookCFrameFromArg
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CalculateNewLookCFrameFromArg what=Lua protos=0[]
+  up1: ERR
+  consts total=17
+  [1] str "GetCameraLookVector"
+  [2] str "Y"
+  [3] str "math"
+  [4] str "asin"
+F CalculateNewLookVectorFromArg
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CalculateNewLookVectorFromArg what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "CalculateNewLookCFrameFromArg"
+  [2] str "LookVector"
+F CalculateNewLookVectorVRFromArg
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CalculateNewLookVectorVRFromArg what=Lua protos=0[]
+  up1: ERR
+  consts total=18
+  [1] str "GetSubjectPosition"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "CurrentCamera"
+  [5] str "CFrame"
+  [6] str "p"
+  [7] vector
+  [8] str "unit"
+  [9] str "Vector2"
+  [10] str "new"
+F Cleanup
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Cleanup what=Lua protos=0[]
+  up1: table keys=18 {getLooseBoundingSphere:function, GamepadLinearToCurve:function, Spring:table, setRotationTypeOverride:function, restoreRotationType:function, Round:function, IsFinite:function, map:function, GetAngleBetweenXZVectors:function, ConvertCameraModeEnumToStandard:function, mapClamp:function, restoreMouseIcon:function, sanitizeAngle:function, restoreMouseBehavior:function, setMouseBehaviorOverride:function, RotateVectorByAngleAndRound:function, setMouseIconOverride:function, IsFiniteVector3:function}
+  up2: ERR
+  consts total=7
+  [1] str "subjectStateChangedConn"
+  [2] str "Disconnect"
+  [3] str "viewportSizeChangedConn"
+  [4] str "cameraChangedConn"
+  [5] str "lastCameraTransform"
+  [6] str "lastSubjectCFrame"
+  [7] str "restoreMouseBehavior"
+F Enable
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Enable what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "enabled"
+  [2] str "OnEnabledChanged"
+F EnterFirstPerson
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=EnterFirstPerson what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "inFirstPerson"
+  [2] str "UpdateMouseBehavior"
+F GamepadZoomPress
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GamepadZoomPress what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: boolean true
+  up3: ERR
+  consts total=6
+  [1] str "GetCameraToSubjectDistance"
+  [2] str "CameraMaxZoomDistance"
+  [3] str "gamepadZoomLevels"
+  [4] str "CameraMinZoomDistance"
+  [5] number 2
+  [6] str "SetCameraToSubjectDistance"
+F GetBodyPartToFollow
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetBodyPartToFollow what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "GetState"
+  [2] str "Enum"
+  [3] str "HumanoidStateType"
+  [4] str "Dead"
+  [5] userdata
+  [6] str "Parent"
+  [7] str "Model"
+  [8] str "IsA"
+  [9] str "Head"
+  [10] str "FindFirstChild"
+  [11] str "RootPart"
+F GetCameraHeight
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetCameraHeight what=Lua protos=0[]
+  up1: userdata VRService
+  up2: ERR
+  consts total=4
+  [1] str "VREnabled"
+  [2] str "inFirstPerson"
+  [3] number 0.25881904510252074
+  [4] str "currentSubjectDistance"
+F GetCameraLookVector
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetCameraLookVector what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "CFrame"
+  [5] str "LookVector"
+  [6] vector
+F GetCameraMovementMode
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetCameraMovementMode what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "cameraMovementMode"
+F GetCameraToSubjectDistance
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetCameraToSubjectDistance what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "currentSubjectDistance"
+F GetCameraType
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetCameraType what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "cameraType"
+F GetEnabled
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetEnabled what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "enabled"
+F GetHumanoid
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetHumanoid what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: ERR
+  consts total=5
+  [1] str "Character"
+  [2] str "humanoidCache"
+  [3] str "Parent"
+  [4] str "Humanoid"
+  [5] str "FindFirstChildOfClass"
+F GetHumanoidPartToFollow
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetHumanoidPartToFollow what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "Enum"
+  [2] str "HumanoidStateType"
+  [3] str "Dead"
+  [4] userdata
+  [5] str "Parent"
+  [6] str "Head"
+  [7] str "FindFirstChild"
+  [8] str "Torso"
+F GetHumanoidRootPart
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetHumanoidRootPart what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: ERR
+  consts total=5
+  [1] str "humanoidRootPart"
+  [2] str "Character"
+  [3] str "Humanoid"
+  [4] str "FindFirstChildOfClass"
+  [5] str "RootPart"
+F GetIsMouseLocked
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetIsMouseLocked what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "inMouseLockedMode"
+F GetMeasuredDistanceToFocus
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetMeasuredDistanceToFocus what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "CoordinateFrame"
+  [5] str "p"
+  [6] str "Focus"
+  [7] str "magnitude"
+F GetModuleName
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetModuleName what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "BaseCamera"
+F GetMouseLockOffset
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetMouseLockOffset what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "mouseLockOffset"
+F GetSubjectCFrame
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetSubjectCFrame what=Lua protos=0[]
+  up1: ERR
+  consts total=38
+  [1] str "lastSubjectCFrame"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "CurrentCamera"
+  [5] str "CameraSubject"
+  [6] str "Humanoid"
+  [7] str "IsA"
+  [8] str "GetState"
+  [9] str "Enum"
+  [10] str "HumanoidStateType"
+  [11] str "Dead"
+  [12] userdata
+  [13] str "CameraOffset"
+  [14] str "GetIsMouseLocked"
+  [15] str "Vector3"
+  [16] str "new"
+F GetSubjectPosition
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetSubjectPosition what=Lua protos=0[]
+  up1: ERR
+  consts total=45
+  [1] str "lastSubjectPosition"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "CurrentCamera"
+  [5] str "CameraSubject"
+  [6] str "Humanoid"
+  [7] str "IsA"
+  [8] str "GetState"
+  [9] str "Enum"
+  [10] str "HumanoidStateType"
+  [11] str "Dead"
+  [12] userdata
+  [13] str "CameraOffset"
+  [14] str "GetIsMouseLocked"
+  [15] str "Vector3"
+  [16] str "new"
+F GetSubjectRotVelocity
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetSubjectRotVelocity what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "CameraSubject"
+  [5] vector
+  [6] str "BasePart"
+  [7] str "IsA"
+  [8] str "RotVelocity"
+  [9] str "Humanoid"
+  [10] str "RootPart"
+  [11] str "Model"
+  [12] str "PrimaryPart"
+F GetSubjectVelocity
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetSubjectVelocity what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "CameraSubject"
+  [5] vector
+  [6] str "BasePart"
+  [7] str "IsA"
+  [8] str "Velocity"
+  [9] str "Humanoid"
+  [10] str "RootPart"
+  [11] str "Model"
+  [12] str "PrimaryPart"
+F InFirstPerson
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=InFirstPerson what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "inFirstPerson"
+F InputTranslationToCameraAngleChange
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=InputTranslationToCameraAngleChange what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F IsInFirstPerson
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=IsInFirstPerson what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "inFirstPerson"
+F LeaveFirstPerson
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=LeaveFirstPerson what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "inFirstPerson"
+  [2] str "UpdateMouseBehavior"
+F OnCharacterAdded
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=OnCharacterAdded what=Lua protos=2[#1,#2]
+  up1: boolean true
+  up2: userdata UserInputService
+  up3: userdata Mateo_081005
+  up4: ERR
+  consts total=19
+  [1] str "resetCameraAngle"
+  [2] str "GetEnabled"
+  [3] str "humanoidRootPart"
+  [4] str "TouchEnabled"
+  [5] str "PlayerGui"
+  [6] str "WaitForChild"
+  [7] str "ipairs"
+F OnCurrentCameraChanged
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=OnCurrentCameraChanged what=Lua protos=2[#1,#2]
+  up1: userdata UserInputService
+  up2: ERR
+  consts total=13
+  [1] str "TouchEnabled"
+  [2] str "viewportSizeChangedConn"
+  [3] str "Disconnect"
+  [4] str "workspace"
+  [5] userdata
+  [6] str "CurrentCamera"
+  [7] str "OnViewportSizeChanged"
+  [8] str "ViewportSize"
+  [9] str "GetPropertyChangedSignal"
+  [10] str "Connect"
+  [11] str "cameraSubjectChangedConn"
+  [12] str "CameraSubject"
+  [13] str "OnNewCameraSubject"
+F OnEnabledChanged
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=OnEnabledChanged what=Lua protos=2[#1,#2]
+  up1: table keys=15 {disableCameraToggleInput:function, getTogglePan:function, enableCameraToggleInput:function, getHoldPan:function, setTouchSensitivity:function, getZoomDelta:function, getInputEnabled:function, setTogglePan:function, getPanning:function, resetInputForFrameEnd:function, getRotationActivated:function, setInputEnabled:function, getRotation:function, addTouchMove:function, gamepadZoomPress:userdata}
+  up2: userdata Mateo_081005
+  up3: ERR
+  consts total=23
+  [1] str "enabled"
+  [2] str "_setUpConfigurations"
+  [3] str "setInputEnabled"
+  [4] str "gamepadZoomPress"
+  [5] str "Connect"
+  [6] str "gamepadZoomPressConnection"
+  [7] str "CameraMode"
+  [8] str "Enum"
+  [9] str "LockFirstPerson"
+  [10] userdata
+  [11] str "currentSubjectDistance"
+  [12] str "inFirstPerson"
+  [13] str "EnterFirstPerson"
+  [14] str "cameraChangedConn"
+  [15] str "Disconnect"
+  [16] str "workspace"
+  [17] userdata
+  [18] str "CurrentCamera"
+  [19] str "GetPropertyChangedSignal"
+  [20] str "OnCurrentCameraChanged"
+  [21] str "_connections"
+  [22] str "disconnectAll"
+  [23] str "Cleanup"
+F OnNewCameraSubject
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=OnNewCameraSubject what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "subjectStateChangedConn"
+  [2] str "Disconnect"
+F OnPlayerCameraPropertyChange
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=OnPlayerCameraPropertyChange what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "currentSubjectDistance"
+  [2] str "SetCameraToSubjectDistance"
+F OnViewportSizeChanged
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=OnViewportSizeChanged what=Lua protos=0[]
+  up1: userdata UserInputService
+  up2: ERR
+  consts total=9
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "ViewportSize"
+  [5] str "X"
+  [6] str "Y"
+  [7] str "portraitMode"
+  [8] str "TouchEnabled"
+  [9] str "isSmallTouchScreen"
+F SetCameraMovementMode
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetCameraMovementMode what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "cameraMovementMode"
+F SetCameraToSubjectDistance
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetCameraToSubjectDistance what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=4 {ReleaseSpring:function, GetZoomRadius:function, Update:function, SetZoomParameters:function}
+  up3: ERR
+  consts total=15
+  [1] str "currentSubjectDistance"
+  [2] str "CameraMode"
+  [3] str "Enum"
+  [4] str "LockFirstPerson"
+  [5] userdata
+  [6] str "inFirstPerson"
+  [7] str "EnterFirstPerson"
+  [8] str "CameraMinZoomDistance"
+  [9] str "CameraMaxZoomDistance"
+  [10] str "math"
+  [11] str "clamp"
+F SetCameraType
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetCameraType what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "cameraType"
+F SetIsMouseLocked
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetIsMouseLocked what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "inMouseLockedMode"
+F SetMouseLockOffset
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetMouseLockOffset what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "mouseLockOffset"
+F StepZoom
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=StepZoom what=Lua protos=0[]
+  up1: table keys=15 {disableCameraToggleInput:function, getTogglePan:function, enableCameraToggleInput:function, getHoldPan:function, setTouchSensitivity:function, getZoomDelta:function, getInputEnabled:function, setTogglePan:function, getPanning:function, resetInputForFrameEnd:function, getRotationActivated:function, setInputEnabled:function, getRotation:function, addTouchMove:function, gamepadZoomPress:userdata}
+  up2: table keys=4 {ReleaseSpring:function, GetZoomRadius:function, Update:function, SetZoomParameters:function}
+  up3: ERR
+  consts total=13
+  [1] str "currentSubjectDistance"
+  [2] str "getZoomDelta"
+  [3] str "math"
+  [4] str "abs"
+F Update
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Update what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "error"
+F UpdateForDistancePropertyChange
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=UpdateForDistancePropertyChange what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "currentSubjectDistance"
+  [2] str "SetCameraToSubjectDistance"
+F UpdateMouseBehavior
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=UpdateMouseBehavior what=Lua protos=0[]
+  up1: userdata GameSettings
+  up2: table keys=2 {setCameraModeToastOpen:function, setCameraModeToastEnabled:function}
+  up3: table keys=15 {disableCameraToggleInput:function, getTogglePan:function, enableCameraToggleInput:function, getHoldPan:function, setTouchSensitivity:function, getZoomDelta:function, getInputEnabled:function, setTogglePan:function, getPanning:function, resetInputForFrameEnd:function, getRotationActivated:function, setInputEnabled:function, getRotation:function, addTouchMove:function, gamepadZoomPress:userdata}
+  up4: function params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? what=Lua
+  up5: table keys=18 {getLooseBoundingSphere:function, GamepadLinearToCurve:function, Spring:table, setRotationTypeOverride:function, restoreRotationType:function, Round:function, IsFinite:function, map:function, GetAngleBetweenXZVectors:function, ConvertCameraModeEnumToStandard:function, mapClamp:function, restoreMouseIcon:function, sanitizeAngle:function, restoreMouseBehavior:function, setMouseBehaviorOverride:function, RotateVectorByAngleAndRound:function, setMouseIconOverride:function, IsFiniteVector3:function}
+  up6: ERR
+  consts total=23
+  [1] str "ComputerMovementMode"
+  [2] str "Enum"
+  [3] str "ClickToMove"
+  [4] userdata
+  [5] str "isCameraToggle"
+  [6] str "setCameraModeToastEnabled"
+  [7] str "enableCameraToggleInput"
+  [8] str "inFirstPerson"
+  [9] str "disableCameraToggleInput"
+  [10] str "inMouseLockedMode"
+  [11] str "setRotationTypeOverride"
+  [12] str "RotationType"
+  [13] str "CameraRelative"
+  [14] userdata
+  [15] str "setMouseBehaviorOverride"
+  [16] str "MouseBehavior"
+  [17] str "LockCenter"
+  [18] userdata
+  [19] str "restoreRotationType"
+  [20] str "getRotationActivated"
+  [21] str "LockCurrentPosition"
+  [22] userdata
+  [23] str "restoreMouseBehavior"
+K __index :table keys=47
+  {["IsInFirstPerson"]=<function:function: 0x603251b6b53272d8>, ["GetSubjectPosition"]=<function:function: 0xa2322927f9920b47>, ["Enable"]=<function:function: 0x845905f14fccc5a4>, ["GetCameraHeight"]=<function:function: 0x0cb7a6b56441b0c3>, ["GetBodyPartToFollow"]=<function:function: 0xb1ffe2a253f0a49c>, ["GetIsMouseLocked"]=<function:function: 0x35150694b480ee0d>, ["_setUpConfigurations"]=<function:function: 0xa52248044e6da872>, ["OnPlayerCameraPropertyChange"]=<function:function: 0xc0b0b600edd13d9c>, ["GetHumanoidRootPart"]=<function:function: 0x951ecde802572dda>, ["UpdateMouseBehavior"]=<function:function: 0x24323db94ea5629b>, ["GetSubjectCFrame"]=<function:function: 0xe749f0f8c9a94f74>, ["GetCameraType"]=<function:function: 0x8c3330928f614842>, ["GetSubjectVelocity"]=<function:function: 0xe1f9ac704d95d8ed>, ["CalculateNewLookVectorVRFromArg"]=<function:function: 0x58bd4ebbd56f9cea>, ["GetModuleName"]=<function:function: 0x98e05bf4fbbecdac>, ["Update"]=<function:function: 0x1d7b4ebaf5790725>, ["OnCharacterAdded"]=<function:function: 0x2c8ee193e427b662>, ["GetCameraMovementMode"]=<function:function: 0x78a1213c5ceebc69>, ["OnEnabledChanged"]=<function:function: 0x3da6b56cddabd75f>, ["UpdateForDistancePropertyChange"]=<function:function: 0xb3e818e523d1def7>, ["CalculateNewLookVectorFromArg"]=<function:function: 0xbce289a74eb6f397>, ["SetMouseLockOffset"]=<function:function: 0x2ba21a011facddec>, ["GetHumanoidPartToFollow"]=<function:function: 0xf105e8d71348ab4a>, ["StepZoom"]=<function:function: 0x7f8f760099f6a52b>, ["CalculateNewLookCFrameFromArg"]=<function:function: 0x157565f9fec7eb5d>, ["GetCameraLookVector"]=<function:function: 0xe0371a4a8dddd62a>, ["SetCameraType"]=<function:function: 0x62226b74e10ce902>, ["GetMeasuredDistanceToFocus"]=<function:function: 0x269f73d24d26918f>, ["LeaveFirstPerson"]=<function:function: 0x47493c9bf8c4e1a7>, ["__index"]=<cycle>, ["new"]=<function:function: 0x54315a75687e2350>, ["GetCameraToSubjectDistance"]=<function:function: 0x0a06f7245b1f2311>, ["Cleanup"]=<function:function: 0x6d1c6952d958b991>, ["GetMouseLockOffset"]=<function:function: 0x943f3ff28b14647a>, ["GetSubjectRotVelocity"]=<function:function: 0x3afbe4f2cc26987c>, ["InFirstPerson"]=<function:function: 0x18838838e0a8dc14>, ["OnCurrentCameraChanged"]=<function:function: 0x87294bad4352a756>, ["GetHumanoid"]=<function:function: 0xf215a09a11058de5>, ["SetIsMouseLocked"]=<function:function: 0xa54bc9a56cb0f4b2>, ["GetEnabled"]=<function:function: 0x3c2a7a02cda82734>, ["OnNewCameraSubject"]=<function:function: 0x20f0dca21fd4b8e5>, ["GamepadZoomPress"]=<function:function: 0xb9dccf293af1e242>, ["InputTranslationToCameraAngleChange"]=<function:function: 0xcdb7dd3938a3ecd6>, ["SetCameraToSubjectDistance"]=<function:function: 0xedca4eedd1227525>, ["OnViewportSizeChanged"]=<function:function: 0xf79ea26ad0299031>, ["SetCameraMovementMode"]=<function:function: 0xe3ec3b5a8b8a81fd>, ["EnterFirstPerson"]=<function:function: 0xfa5d8cc500951967>}
+F _setUpConfigurations
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=_setUpConfigurations what=Lua protos=4[#1,#2,#3,#4]
+  up1: userdata Mateo_081005
+  up2: boolean true
+  up3: ERR
+  consts total=16
+  [1] str "_connections"
+  [2] str "CHARACTER_ADDED"
+  [3] str "CharacterAdded"
+  [4] str "Connect"
+  [5] str "trackConnection"
+  [6] str "humanoidRootPart"
+  [7] str "Character"
+  [8] str "OnCharacterAdded"
+  [9] str "CAMERA_MODE_CHANGED"
+  [10] str "CameraMode"
+  [11] str "GetPropertyChangedSignal"
+  [12] str "CAMERA_MIN_DISTANCE_CHANGED"
+  [13] str "CameraMinZoomDistance"
+  [14] str "CAMERA_MAX_DISTANCE_CHANGED"
+  [15] str "CameraMaxZoomDistance"
+  [16] str "OnPlayerCameraPropertyChange"
+F new
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=0[]
+  up1: table keys=47 {IsInFirstPerson:function, GetSubjectPosition:function, Enable:function, GetCameraHeight:function, GetBodyPartToFollow:function, GetIsMouseLocked:function, _setUpConfigurations:function, OnPlayerCameraPropertyChange:function, GetHumanoidRootPart:function, UpdateMouseBehavior:function, GetSubjectCFrame:function, GetCameraType:function, GetSubjectVelocity:function, CalculateNewLookVectorVRFromArg:function, GetModuleName:function, Update:function, OnCharacterAdded:function, GetCameraMovementMode:function, OnEnabledChanged:function, UpdateForDistancePropertyChange:function, CalculateNewLookVectorFromArg:function, SetMouseLockOffset:function, GetHumanoidPartToFollow:function, StepZoom:function, CalculateNewLookCFrameFromArg:function, GetCameraLookVector:function, SetCameraType:function, GetMeasuredDistanceToFocus:function, LeaveFirstPerson:function, __index:table, new:function, GetCameraToSubjectDistance:function, Cleanup:function, GetMouseLockOffset:function, GetSubjectRotVelocity:function, InFirstPerson:function, OnCurrentCameraChanged:function, GetHumanoid:function, SetIsMouseLocked:function, GetEnabled:function}
+  up2: table keys=6 {disconnectAll:function, trackConnection:function, disconnect:function, trackBoundFunction:function, __index:table, new:function}
+  up3: userdata Mateo_081005
+  up4: boolean true
+  up5: userdata GameSettings
+  up6: ERR
+  consts total=52
+  [1] str "setmetatable"

@@ -1,0 +1,127 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=Initialize what=Lua protos=3[#1,#2,#3]
+  up1: userdata VIPMenu
+  up2: userdata Frame
+  up3: userdata ScrollingFrame
+  up4: userdata SelectMap
+  up5: userdata SelectMode
+  up6: userdata VoteKick
+  up7: userdata Container
+  up8: userdata Title
+  up9: userdata ToggleTemplate
+  up10: userdata InputTemplate
+  up11: userdata ClickTemplate
+  up12: userdata Template
+  up13: userdata Template
+  up14: userdata Template
+  up15: table keys=0 {}
+  up16: table keys=0 {}
+  up17: table keys=9 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table}
+  up18: boolean true
+  consts total=24
+  [1] str "Frame"
+  [2] str "WaitForChild"
+  [3] str "ScrollingFrame"
+  [4] str "SelectMap"
+  [5] str "SelectMode"
+  [6] str "VoteKick"
+  [7] str "Container"
+  [8] str "Header"
+  [9] str "Title"
+  [10] str "ToggleTemplate"
+  [11] str "InputTemplate"
+  [12] str "ClickTemplate"
+  [13] str "Template"
+  [14] str "KickPlayer"
+  [15] str "Close"
+  [16] str "Visible"
+  [17] str "Home"
+  [18] str "GetPropertyChangedSignal"
+  [19] str "Connect"
+  [20] str "Add"
+  [21] str "VIP"
+  [22] str "SyncState"
+  [23] str "Listen"
+  [24] str "DataResponse"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=Start what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=setupHomeButtons what=Lua
+  up2: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=setupBackButtons what=Lua
+  up3: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=setupCloseButton what=Lua
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=updateToggleIndicators what=Lua
+  up5: ERR
+  consts total=0
+F closeFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=closeFrame what=Lua protos=0[]
+  up1: userdata VIPMenu
+  up2: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up3: userdata Mateo_081005
+  up4: ERR
+  consts total=10
+  [1] str "setForceLockOverride"
+  [2] str "VIPMenu"
+  [3] str "IsSpectating"
+  [4] str "GetAttribute"
+  [5] str "Character"
+  [6] str "workspace"
+  [7] userdata
+  [8] str "IsDescendantOf"
+  [9] str "setPerspective"
+  [10] str "Visible"
+F openFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=openFrame what=Lua protos=0[]
+  up1: table keys=6 {Begin:function, Initialize:function, ExitMapVoteToMenu:function, _runSequence:function, IsActive:function, _finishSequence:function}
+  up2: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up3: userdata Mateo_081005
+  up4: userdata VIPMenu
+  up5: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=isTeamSelectionVisible what=Lua
+  up6: boolean false
+  up7: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up8: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=showPanel what=Lua
+  up9: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up10: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=refreshMaps what=Lua
+  up11: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=refreshModeCards what=Lua
+  up12: ERR
+  consts total=29
+  [1] str "IsActive"
+  [2] str "IsInspectActive"
+  [3] str "IsCaseSceneActive"
+  [4] str "Team"
+  [5] str "GetAttribute"
+  [6] str "Counter-Terrorists"
+  [7] str "Terrorists"
+  [8] str "IsSpectating"
+  [9] str "Parent"
+  [10] str "ScreenGui"
+  [11] str "IsA"
+  [12] str "Menu"
+  [13] str "FindFirstChild"
+  [14] str "GuiObject"
+  [15] str "Visible"
+  [16] str "CanUseVIPMenu"
+  [17] str "setForceLockOverride"
+  [18] str "VIPMenu"
+  [19] str "Character"
+  [20] str "workspace"
+  [21] userdata
+  [22] str "IsDescendantOf"
+  [23] str "setPerspective"
+  [24] str "Home"
+  [25] str "VIP"
+  [26] str "RequestData"
+  [27] str "Send"
+  [28] str "State"
+  [29] str "PlayerList"
+F toggleFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.VIPMenu:? cname=toggleFrame what=Lua protos=0[]
+  up1: userdata VIPMenu
+  up2: table keys=5 {toggleFrame:function, closeFrame:function, openFrame:function, Start:function, Initialize:function}
+  up3: ERR
+  consts total=3
+  [1] str "Visible"
+  [2] str "closeFrame"
+  [3] str "openFrame"

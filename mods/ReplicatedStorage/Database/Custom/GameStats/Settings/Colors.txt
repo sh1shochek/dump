@@ -1,0 +1,28 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Settings.Colors
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+K Aqua :table keys=2
+  {["Counter-Terrorists"]=<userdata:0, 0.8, 0.8>, ["Terrorists"]=<userdata:0, 0.8, 0.8>}
+K Blue :table keys=2
+  {["Counter-Terrorists"]=<userdata:0, 0.4, 0.8>, ["Terrorists"]=<userdata:0, 0.4, 0.8>}
+K Bright White :table keys=2
+  {["Counter-Terrorists"]=<userdata:0.921569, 0.921569, 0.921569>, ["Terrorists"]=<userdata:0.921569, 0.921569, 0.921569>}
+K Green :table keys=2
+  {["Counter-Terrorists"]=<userdata:0, 0.6, 0>, ["Terrorists"]=<userdata:0, 0.6, 0>}
+K Light Blue :table keys=2
+  {["Counter-Terrorists"]=<userdata:0.6, 0.8, 1>, ["Terrorists"]=<userdata:0.6, 0.8, 1>}
+K Orange :table keys=2
+  {["Counter-Terrorists"]=<userdata:1, 0.501961, 0>, ["Terrorists"]=<userdata:1, 0.501961, 0>}
+K Pink :table keys=2
+  {["Counter-Terrorists"]=<userdata:1, 0.4, 0.698039>, ["Terrorists"]=<userdata:1, 0.4, 0.698039>}
+K Purple :table keys=2
+  {["Counter-Terrorists"]=<userdata:0.6, 0.2, 0.8>, ["Terrorists"]=<userdata:0.6, 0.2, 0.8>}
+K Red :table keys=2
+  {["Counter-Terrorists"]=<userdata:0.8, 0, 0>, ["Terrorists"]=<userdata:0.8, 0, 0>}
+K Team Color :table keys=2
+  {["Counter-Terrorists"]=<userdata:0.647059, 0.717647, 0.831373>, ["Terrorists"]=<userdata:0.858824, 0.780392, 0.494118>}
+K White :table keys=2
+  {["Counter-Terrorists"]=<userdata:1, 1, 1>, ["Terrorists"]=<userdata:1, 1, 1>}
+K Yellow :table keys=2
+  {["Counter-Terrorists"]=<userdata:1, 0.866667, 0.2>, ["Terrorists"]=<userdata:1, 0.866667, 0.2>}

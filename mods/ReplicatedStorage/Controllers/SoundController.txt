@@ -1,0 +1,95 @@
+PATH: ReplicatedStorage.Controllers.SoundController
+REQUIRE: ok
+RETURNS: table
+KEYS: 10
+F ClearPlayerNoiseCone
+  params=0 src=ReplicatedStorage.Controllers.SoundController:? cname=ClearPlayerNoiseCone what=Lua protos=0[]
+  ups: none
+  consts total=0
+F GetFootstepRange
+  params=2 src=ReplicatedStorage.Controllers.SoundController:? cname=GetFootstepRange what=Lua protos=0[]
+  up1: table keys=28 {:table, LandingSand:table, LandingGrass:table, CeramicTiles:table, Carpet:table, DiamondPlate:table, LandingMetal:table, Asphalt:table, LandingGravel:table, Mud:table, Ground:table, Snow:table, Wood:table, Pebble:table, WoodPlanks:table, Jump:table, LandingGlass:table, Plastic:table, Cardboard:table, LandingRubber:table, Grass:table, Corroded Metal:table, LandingConcrete:table, Sand:table, Concrete:table, LandingDirt:table, Fabric:table, Metal:table}
+  up2: ERR
+  consts total=4
+  [1] str "Concrete"
+  [2] str "Properties"
+  [3] str "RollOffMaxDistance"
+  [4] number 0.5
+F GetMeleeRange
+  params=1 src=ReplicatedStorage.Controllers.SoundController:? cname=GetMeleeRange what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: userdata ReplicatedStorage
+  up3: ERR
+  consts total=11
+  [1] str "Database"
+  [2] str "Audio"
+  [3] str "Weapons"
+  [4] str "FindFirstChild"
+  [5] str "pcall"
+F GetMovementRange
+  params=2 src=ReplicatedStorage.Controllers.SoundController:? cname=GetMovementRange what=Lua protos=0[]
+  up1: table keys=6 {WeaponSuppressed:number, Melee:number, Jump:number, Landing:number, Footstep:number, Weapon:number}
+  up2: table keys=4 {Character Death Grunt:table, Fall Damage:table, Character Damaged:table, Character Killed:table}
+  up3: ERR
+  consts total=6
+  [1] number 48
+  [2] str "Landing"
+  [3] str "Fall Damage"
+  [4] str "Properties"
+  [5] str "RollOffMaxDistance"
+  [6] number 0.5
+F GetPlayerNoiseCone
+  params=0 src=ReplicatedStorage.Controllers.SoundController:? cname=GetPlayerNoiseCone what=Lua protos=0[]
+  ups: none
+  consts total=1
+  [1] str "tick"
+F GetWeaponShootRange
+  params=2 src=ReplicatedStorage.Controllers.SoundController:? cname=GetWeaponShootRange what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: userdata ReplicatedStorage
+  up3: ERR
+  consts total=12
+  [1] str "Database"
+  [2] str "Audio"
+  [3] str "Weapons"
+  [4] str "FindFirstChild"
+  [5] str "pcall"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.SoundController:? cname=Initialize what=Lua protos=16[#1,#2,#3,getBuyPhaseFadeMultiplier,updateBuyPhaseVolume,#6,#7,#8,#9,setupBombDefuseListener,#11,#12,#13,#14,#15,#16]
+  up1: userdata ReplicatedStorage
+  up2: table keys=8 {playOneTime:function, destroy:function, new:function, PlaySoundAtPosition:function, play:function, WarmPersistentSounds:function, __index:table, createSoundGroup:function}
+  up3: userdata ContentProvider
+  up4: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up5: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up6: userdata Camera
+  up7: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up8: userdata Mateo_081005
+  up9: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up10: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up11: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up12: table keys=6 {IsFlashed:function, CancelFlash:function, OnFlashRecoveryStarted:table, GetAudioFadeMultiplier:function, Flash:function, OnFlashCleared:table}
+  up13: table keys=3 {IsEnabled:function, GetAttributeName:function, SetEnabled:function}
+  consts total=38
+  [1] str "ipairs"
+F SetBombPlantedMusicVolume
+  params=1 src=ReplicatedStorage.Controllers.SoundController:? cname=SetBombPlantedMusicVolume what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Controllers.SoundController:? cname=updateBombPlantedMusicVolume what=Lua
+  up2: ERR
+  consts total=0
+F Start
+  params=0 src=ReplicatedStorage.Controllers.SoundController:? cname=Start what=Lua protos=3[#1,#2,#3]
+  up1: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up2: userdata Mateo_081005
+  up3: table keys=10 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, Mateo_081005:table, smertnik_54:table, bluefox9073:table, dazen_wewe:table, Untez777:table, DGXXDFZS:table, sifhasfhawkhghawgki:table}
+  up4: table keys=5 {Destroy:function, SetCharacter:function, Update:function, __index:table, new:function}
+  up5: table keys=10 {GetPlayerNoiseCone:function, GetWeaponShootRange:function, GetMovementRange:function, SetBombPlantedMusicVolume:function, ClearPlayerNoiseCone:function, GetMeleeRange:function, Start:function, Initialize:function, UpdatePlayerNoiseCone:function, GetFootstepRange:function}
+  up6: number 0
+  consts total=6
+  [1] str "observePlayer"
+  [2] str "PlayerRemoving"
+F UpdatePlayerNoiseCone
+  params=3 src=ReplicatedStorage.Controllers.SoundController:? cname=UpdatePlayerNoiseCone what=Lua protos=0[]
+  ups: none
+  consts total=7
+  [1] number 0.5
+  [2] str "tick"

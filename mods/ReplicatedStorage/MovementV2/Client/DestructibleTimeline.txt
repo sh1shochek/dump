@@ -1,0 +1,139 @@
+PATH: ReplicatedStorage.MovementV2.Client.DestructibleTimeline
+REQUIRE: ok
+RETURNS: table
+KEYS: 10
+K __index :table keys=10
+  {["destroy"]=<function:function: 0x5eaecfd5cbd2f9a5>, ["needsBaseline"]=<function:function: 0x205543f6ee0ca0d4>, ["latestRevision"]=<function:function: 0xb81459561d7bb0e1>, ["consumeDelta"]=<function:function: 0xe2ab18843f0ff08f>, ["peek"]=<function:function: 0xc0a2fa050ef730de>, ["requestBaseline"]=<function:function: 0x9d79b542c0f67b9e>, ["consumeBaseline"]=<function:function: 0xd336d7385da240b0>, ["resolve"]=<function:function: 0xb91e374fdeee0d39>, ["__index"]=<cycle>, ["new"]=<function:function: 0x7b5be170370ef30b>}
+F consumeBaseline
+  params=3 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=consumeBaseline what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=4 {AllActive:function, IsActive:function, Validate:function, New:function}
+  up3: ERR
+  consts total=25
+  [1] str "isUInt32"
+  [2] str "InvalidBaselineServerTick"
+  [3] str "Validate"
+  [4] str "Epoch"
+  [5] str "Revision"
+  [6] str "Count"
+  [7] str "ActiveBits"
+  [8] str "_expectedEpoch"
+  [9] str "_needsBaseline"
+  [10] str "_requestFired"
+  [11] str "_transitions"
+  [12] str "BaselineNeeded"
+  [13] str "Frame"
+  [14] str "BaselineEpochMismatch"
+  [15] str "Fire"
+  [16] str "_expectedCount"
+  [17] str "BaselineCountMismatch"
+  [18] str "New"
+  [19] str "table"
+  [20] str "clear"
+F consumeDelta
+  params=5 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=consumeDelta what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=3 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=deactivate what=Lua
+  up3: function params=2 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=prune what=Lua
+  up4: ERR
+  consts total=26
+  [1] str "_needsBaseline"
+  [2] str "_requestFired"
+  [3] str "_transitions"
+  [4] str "BaselineNeeded"
+  [5] str "_expectedEpoch"
+  [6] str "Frame"
+  [7] str "Revision"
+  [8] str "DeltaWithoutBaseline"
+  [9] str "Fire"
+  [10] str "BaselineRequired"
+  [11] str "DeltaEpochMismatch"
+  [12] str "isUInt32"
+  [13] str "InvalidDeltaStamp"
+  [14] str "addUInt32"
+  [15] str "DestructibleRevisionGap"
+  [16] str "deltaUInt32"
+  [17] str "ServerTick"
+  [18] str "DeltaTickNotNewer"
+  [19] str "type"
+F destroy
+  params=1 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "BaselineNeeded"
+  [2] str "Destroy"
+  [3] str "table"
+  [4] str "clear"
+F latestRevision
+  params=1 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=latestRevision what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "_transitions"
+  [2] str "Frame"
+  [3] str "Revision"
+F needsBaseline
+  params=1 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=needsBaseline what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_needsBaseline"
+F new
+  params=3 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=new what=Lua protos=0[]
+  up1: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: table keys=4 {AllActive:function, IsActive:function, Validate:function, New:function}
+  up4: table keys=3 {Is:function, Wrap:function, new:function}
+  up5: table keys=10 {destroy:function, needsBaseline:function, latestRevision:function, consumeDelta:function, peek:function, requestBaseline:function, consumeBaseline:function, resolve:function, __index:table, new:function}
+  up6: ERR
+  consts total=27
+  [1] str "derive"
+  [2] str "isNonZeroUInt16"
+  [3] str "destructible timeline epoch must be a non-zero u16"
+  [4] str "assert"
+F peek
+  params=3 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=peek what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=retainedTransition what=Lua
+  up3: ERR
+  consts total=9
+  [1] str "isUInt32"
+  [2] str "InvalidResolveServerTick"
+  [3] str "InvalidExpectedRevision"
+  [4] str "_needsBaseline"
+  [5] str "BaselineRequired"
+  [6] str "DestructibleFrameOutsideRetention"
+  [7] str "Frame"
+  [8] str "Revision"
+  [9] str "DestructibleRevisionMismatch"
+F requestBaseline
+  params=2 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=requestBaseline what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "_needsBaseline"
+  [2] str "_requestFired"
+  [3] str "_transitions"
+  [4] str "BaselineNeeded"
+  [5] str "_expectedEpoch"
+  [6] str "Frame"
+  [7] str "Revision"
+  [8] str "Fire"
+F resolve
+  params=3 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=resolve what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=retainedTransition what=Lua
+  up3: function params=2 src=ReplicatedStorage.MovementV2.Client.DestructibleTimeline:? cname=prune what=Lua
+  up4: ERR
+  consts total=14
+  [1] str "isUInt32"
+  [2] str "InvalidResolveServerTick"
+  [3] str "InvalidExpectedRevision"
+  [4] str "_needsBaseline"
+  [5] str "_requestFired"
+  [6] str "_transitions"
+  [7] str "BaselineNeeded"
+  [8] str "_expectedEpoch"
+  [9] str "Frame"
+  [10] str "Revision"
+  [11] str "BaselineRequired"
+  [12] str "Fire"
+  [13] str "DestructibleFrameOutsideRetention"
+  [14] str "DestructibleRevisionMismatch"

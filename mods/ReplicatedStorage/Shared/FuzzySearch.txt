@@ -1,0 +1,14 @@
+PATH: ReplicatedStorage.Shared.FuzzySearch
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F MatchesQuery
+  params=2 src=ReplicatedStorage.Shared.FuzzySearch:? cname=MatchesQuery what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str ""
+  [2] str "lower"
+  [3] str "[^%w]"
+  [4] str "gsub"
+  [5] str "sub"
+  [6] number 1

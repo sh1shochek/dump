@@ -1,0 +1,175 @@
+PATH: ReplicatedStorage.Controllers.SpectateController
+REQUIRE: ok
+RETURNS: table
+KEYS: 15
+F Broadcast
+  params=0 src=ReplicatedStorage.Controllers.SpectateController:? cname=Broadcast what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: number 0.06767500212112804
+  up3: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up4: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up5: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up6: userdata Camera
+  up7: ERR
+  consts total=16
+  [1] str "Spectators"
+  [2] str "GetAttribute"
+  [3] number 0.016666666666666666
+  [4] number 0.2
+  [5] str "getCurrentEquipped"
+  [6] str "PlayerGui"
+  [7] str "MainGui"
+  [8] str "FindFirstChild"
+  [9] str "Menu"
+  [10] str "Inspect"
+  [11] str "Visible"
+  [12] str "IsCaseSceneActive"
+  [13] str "Spectate"
+  [14] str "UpdateCameraCFrame"
+  [15] str "Send"
+  [16] str "CFrame"
+F GetCurrentSpectateInstance
+  params=0 src=ReplicatedStorage.Controllers.SpectateController:? cname=GetCurrentSpectateInstance what=Lua protos=0[]
+  ups: none
+  consts total=0
+F GetPlayer
+  params=0 src=ReplicatedStorage.Controllers.SpectateController:? cname=GetPlayer what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: function params=1 src=ReplicatedStorage.Components.Common.IsPlayingTeam:? what=Lua
+  up3: boolean false
+  up4: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up5: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up6: ERR
+  consts total=6
+  [1] str "Team"
+  [2] str "GetAttribute"
+  [3] str "getPlayerCharacter"
+  [4] str "isAliveCharacter"
+  [5] str "GetCurrentSpectateInstance"
+  [6] str "Player"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.SpectateController:? cname=Initialize what=Lua protos=5[#1,#2,#3,#4,#5]
+  up1: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up2: userdata Mateo_081005
+  up3: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up4: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up5: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up6: table keys=24 {GAMEMODE_SUBPLACE_IDS:table, ADMINISTRATOR_FINISHER_WHITELIST:table, SHOP_VERSION:string, PRODUCTION_UNIVERSE_ID:number, ITEM_CATEGORIES:table, AIM_ASSIST_CONFIGS:table, VERSION:string, GAMEMODE_PLACE_IDS:table, MARKET_TAX_PERCENT:number, GetGamemodeFromServerGamemode:function, ACTIVE_EVENTS:table, ACTIVE_PLACE_ENVIRONMENT:string, ACTIVE_GAMEMODE_SUBPLACE_IDS:table, EVENT_END_TIMES:table, TRADING_PLACE_ID:number, VIP_MENU_PANEL_WHITELIST:table, PROMOTIONAL_REWARD_CREDITS:table, AIM_ASSIST_WHITELIST:table, INVENTORY_SORTING_OPTIONS:table, MARKETPLACE_SORTING_OPTIONS:table, SESSION_DATA:table, DEFAULT_CAMERA_FOV:number, MARKETPLACE_MAX_LISTING_PRICE:number, MINIMUM_CREDITS_FOR_SPECIAL_CREDITS_OPTI:number}
+  consts total=13
+  [1] str "observeAttribute"
+  [2] str "IsSpectating"
+  [3] str "Character"
+  [4] str "CharacterDied"
+  [5] str "Listen"
+  [6] str "CharacterAdded"
+  [7] str "Connect"
+  [8] str "require"
+F IsLocalPlayerDead
+  params=0 src=ReplicatedStorage.Controllers.SpectateController:? cname=IsLocalPlayerDead what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F IsTakingOverCamera
+  params=0 src=ReplicatedStorage.Controllers.SpectateController:? cname=IsTakingOverCamera what=Lua protos=0[]
+  up1: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up2: function params=0 src=ReplicatedStorage.Controllers.SpectateController:? cname=ShouldBeSpectating what=Lua
+  up3: userdata Mateo_081005
+  up4: ERR
+  consts total=5
+  [1] str "WantsMainMenu"
+  [2] str "GetMenuFrame"
+  [3] str "Visible"
+  [4] str "IsSpectating"
+  [5] str "GetAttribute"
+K ListenToSpectate :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x83f1d8aedec5805d>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0x278e2252fbe27960>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0x148067a34fa182cc>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0x5d379bef5a6bfc9f>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={...}}}}}}
+F Next
+  params=0 src=ReplicatedStorage.Controllers.SpectateController:? cname=Next what=Lua protos=2[#1,#2]
+  up1: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up2: ERR
+  consts total=1
+  [1] str "UpdateIndex"
+F Previous
+  params=0 src=ReplicatedStorage.Controllers.SpectateController:? cname=Previous what=Lua protos=2[#1,#2]
+  up1: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up2: ERR
+  consts total=1
+  [1] str "UpdateIndex"
+F Render
+  params=1 src=ReplicatedStorage.Controllers.SpectateController:? cname=Render what=Lua protos=0[]
+  up1: number 179.7010083354544
+  up2: number 0.06767500212112804
+  up3: userdata Mateo_081005
+  up4: function params=1 src=ReplicatedStorage.Components.Common.IsPlayingTeam:? what=Lua
+  up5: boolean false
+  up6: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up7: string "First-Person"
+  up8: number 1
+  consts total=48
+  [1] str "workspace"
+  [2] userdata
+  [3] str "ServerGamemode"
+  [4] str "GetAttribute"
+  [5] str "typeof"
+F SetNextPlayer
+  params=1 src=ReplicatedStorage.Controllers.SpectateController:? cname=SetNextPlayer what=Lua protos=1[#1]
+  ups: none
+  consts total=28
+  [1] str "Player"
+  [2] str "Next"
+  [3] str "Team"
+  [4] str "GetAttribute"
+  [5] str "getPlayerCharacter"
+  [6] str "isAliveCharacter"
+  [7] str "workspace"
+  [8] userdata
+  [9] str "ServerGamemode"
+  [10] str "typeof"
+F Start
+  params=0 src=ReplicatedStorage.Controllers.SpectateController:? cname=Start what=Lua protos=3[#1,#2,#3]
+  up1: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  consts total=8
+  [1] str "Character"
+  [2] str "Action"
+  [3] str "Listen"
+  [4] str "InputBegan"
+F Stop
+  params=2 src=ReplicatedStorage.Controllers.SpectateController:? cname=Stop what=Lua protos=0[]
+  ups: none
+  consts total=8
+  [1] str "ReplicationFocus"
+  [2] str "Destroy"
+  [3] str "IsSpectating"
+  [4] str "GetAttribute"
+  [5] str "Spectate"
+  [6] str "StopSpectating"
+  [7] str "Send"
+  [8] str "Fire"
+F Switch
+  params=0 src=ReplicatedStorage.Controllers.SpectateController:? cname=Switch what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: function params=1 src=ReplicatedStorage.Components.Common.IsPlayingTeam:? what=Lua
+  up3: boolean false
+  up4: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up5: string "First-Person"
+  up6: number 1
+  consts total=17
+  [1] str "workspace"
+  [2] userdata
+  [3] str "ServerGamemode"
+  [4] str "GetAttribute"
+  [5] str "typeof"
+F UpdateIndex
+  params=1 src=ReplicatedStorage.Controllers.SpectateController:? cname=UpdateIndex what=Lua protos=1[#1]
+  up1: function params=0 src=ReplicatedStorage.Controllers.SpectateController:? cname=UpdateCharacters what=Lua
+  up2: table keys=5 {1:userdata, 2:userdata, 3:userdata, 4:userdata, 5:userdata}
+  up3: number 5
+  up4: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up5: function params=1 src=ReplicatedStorage.Components.Common.IsPlayingTeam:? what=Lua
+  up6: userdata Mateo_081005
+  up7: boolean false
+  up8: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up9: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up10: ERR
+  consts total=1
+  [1] str "new"

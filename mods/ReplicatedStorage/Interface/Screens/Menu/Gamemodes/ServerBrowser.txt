@@ -1,0 +1,58 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Gamemodes.ServerBrowser
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Initialize
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes.ServerBro:? cname=Initialize what=Lua protos=5[#1,#2,#3,#4,#5]
+  up1: userdata Container
+  up2: userdata Title
+  up3: userdata Categories
+  up4: table keys=6 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string}
+  up5: table keys=6 {Map:userdata, ServerUptime:userdata, Score:userdata, Region:userdata, ServerId:userdata, Players:userdata}
+  up6: string ""
+  up7: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes.ServerBro:? cname=RefreshList what=Lua
+  up8: userdata Check
+  up9: boolean false
+  up10: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes.ServerBro:? cname=ToggleFriendsOnly what=Lua
+  up11: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  consts total=37
+  [1] str "Main"
+  [2] str "Frame"
+  [3] str "Container"
+  [4] str "Top"
+  [5] str "Title"
+  [6] str "Categories"
+  [7] str "GetChildren"
+  [8] str "GuiObject"
+  [9] str "IsA"
+  [10] str "Destroy"
+  [11] str "Scroll"
+  [12] str "FindFirstChild"
+  [13] str "Value"
+  [14] str "TextLabel"
+  [15] str "warn"
+F SetActive
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes.ServerBro:? cname=SetActive what=Lua protos=0[]
+  up1: boolean false
+  up2: number 0
+  consts total=3
+  [1] str "BindToHeartbeat"
+  [2] str "UI.ServerBrowser.Uptime"
+  [3] str "Disconnect"
+F SetCategoryFilters
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes.ServerBro:? cname=SetCategoryFilters what=Lua protos=0[]
+  up1: table keys=3 {regions:table, maps:table, gameModes:table}
+  up2: boolean false
+  up3: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes.ServerBro:? cname=RefreshList what=Lua
+  up4: ERR
+  consts total=0
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes.ServerBro:? cname=Start what=Lua protos=1[#1]
+  up1: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes.ServerBro:? cname=LoadFriends what=Lua
+  up2: table keys=6 {ObserverServerBrowser:function, GetServerNameFromMatchId:function, OnServerBrowserUpdated:table, GetActiveGameServers:function, UpdateActiveGameServers:function, GetServerByMatchId:function}
+  up3: boolean false
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Gamemodes.ServerBro:? cname=RefreshList what=Lua
+  up5: ERR
+  consts total=5
+  [1] str "task"
+  [2] str "spawn"

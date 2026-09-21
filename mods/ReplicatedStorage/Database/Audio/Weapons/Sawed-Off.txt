@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.Sawed-Off
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+K Draw :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=75539311638723}}
+K Insert :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=130, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=123066862865418, [2]=97214857758776}}
+K Pump :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=40}, ["Identifiers"]={[1]=80662425274516}}
+K Shoot :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=40}, ["Identifiers"]={[1]=79019339248233, [2]=73770073099104, [3]=76695723095051}}

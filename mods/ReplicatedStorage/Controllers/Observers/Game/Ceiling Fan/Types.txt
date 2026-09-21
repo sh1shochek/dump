@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.Ceiling Fan.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

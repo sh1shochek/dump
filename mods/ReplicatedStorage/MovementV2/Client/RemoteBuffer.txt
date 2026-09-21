@@ -1,0 +1,207 @@
+PATH: ReplicatedStorage.MovementV2.Client.RemoteBuffer
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+K __index :table keys=13
+  {["getRenderPose"]=<function:function: 0x48e062fd9c485e52>, ["getPoses"]=<function:function: 0x1b1372869616be2f>, ["latestServerTick"]=<function:function: 0x1bba375f64c8bb5c>, ["getCollisionPose"]=<function:function: 0x77fd14e6224c9588>, ["getPresentationPoses"]=<function:function: 0x0f6f539211e212bd>, ["userIds"]=<function:function: 0x922ba6e8428c3f16>, ["getCollisionPoseByActorId"]=<function:function: 0x942e42e0bf4304c7>, ["_prune"]=<function:function: 0x4336d63b67c79bd6>, ["pushDecoded"]=<function:function: 0xa2b1c313443404c5>, ["queryCollisionUserIds"]=<function:function: 0x1cba778744d36360>, ["latestCompleteServerTick"]=<function:function: 0x80034a60c63ccea4>, ["__index"]=<cycle>, ["new"]=<function:function: 0x1ea6ed0e4c142b52>}
+F _prune
+  params=1 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=_prune what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=21
+  [1] str "_latestServerTick"
+  [2] str "_retentionHistoryTicks"
+  [3] str "_frames"
+  [4] str "deltaUInt32"
+  [5] str "ServerTick"
+  [6] str "_actors"
+  [7] str "Samples"
+  [8] str "Activity"
+  [9] str "Active"
+  [10] str "ActorIdsByGeneration"
+  [11] str "_collisionBroadphase"
+  [12] str "remove"
+  [13] str "_actorIdToUserId"
+  [14] str "_presentationPoseByUserId"
+  [15] str "_actorOrderDirty"
+  [16] str "_maxSamplesPerActor"
+  [17] str "table"
+F getCollisionPose
+  params=4 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=getCollisionPose what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up3: function params=1 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=collisionPoseFromSorted what=Lua
+  up4: ERR
+  consts total=8
+  [1] str "isUInt32"
+  [2] str "InvalidCurrentServerTick"
+  [3] number 0
+  [4] str "isFinite"
+  [5] str "InvalidTickFraction"
+  [6] str "_actors"
+  [7] str "Samples"
+  [8] str "ActorNotBuffered"
+F getCollisionPoseByActorId
+  params=4 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=getCollisionPoseByActorId what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "_actorIdToUserId"
+  [2] str "ActorIdNotBuffered"
+  [3] str "getCollisionPose"
+  [4] str "ActorId"
+  [5] str "ActorIdInactive"
+F getPoses
+  params=4 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=getPoses what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up3: function params=5 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=renderPoseFromSorted what=Lua
+  up4: function params=1 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=collisionPoseFromSorted what=Lua
+  up5: ERR
+  consts total=8
+  [1] str "isUInt32"
+  [2] str "InvalidCurrentServerTick"
+  [3] number 0
+  [4] str "isFinite"
+  [5] str "InvalidTickFraction"
+  [6] str "_actors"
+  [7] str "Samples"
+  [8] str "ActorNotBuffered"
+F getPresentationPoses
+  params=4 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=getPresentationPoses what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up3: function params=5 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=renderPoseFromSorted what=Lua
+  up4: function params=1 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=collisionPoseFromSorted what=Lua
+  up5: ERR
+  consts total=9
+  [1] str "isUInt32"
+  [2] str "InvalidCurrentServerTick"
+  [3] number 0
+  [4] str "isFinite"
+  [5] str "InvalidTickFraction"
+  [6] str "_actors"
+  [7] str "Samples"
+  [8] str "ActorNotBuffered"
+  [9] str "_presentationPoseByUserId"
+F getRenderPose
+  params=4 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=getRenderPose what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up3: function params=5 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=renderPoseFromSorted what=Lua
+  up4: ERR
+  consts total=8
+  [1] str "isUInt32"
+  [2] str "InvalidCurrentServerTick"
+  [3] number 0
+  [4] str "isFinite"
+  [5] str "InvalidTickFraction"
+  [6] str "_actors"
+  [7] str "Samples"
+  [8] str "ActorNotBuffered"
+F latestCompleteServerTick
+  params=1 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=latestCompleteServerTick what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_latestCompleteServerTick"
+F latestServerTick
+  params=1 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=latestServerTick what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_latestServerTick"
+F new
+  params=1 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=new what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up3: userdata Run Service
+  up4: table keys=7 {clear:function, remove:function, DefaultCellSize:number, query:function, upsert:function, __index:table, new:function}
+  up5: table keys=13 {getRenderPose:function, getPoses:function, latestServerTick:function, getCollisionPose:function, getPresentationPoses:function, userIds:function, getCollisionPoseByActorId:function, _prune:function, pushDecoded:function, queryCollisionUserIds:function, latestCompleteServerTick:function, __index:table, new:function}
+  up6: ERR
+  consts total=49
+  [1] str "validate"
+  [2] str "invalid command mapping"
+  [3] str "assert"
+F pushDecoded
+  params=2 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=pushDecoded what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=expandSnapshotRecords what=Lua
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=reconcileCompleteFrames what=Lua
+  up4: function params=3 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=generationsAreChronological what=Lua
+  up5: function params=1 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=cloneActor what=Lua
+  up6: function params=2 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=upsertActorSample what=Lua
+  up7: function params=2 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=upsertActivityEvent what=Lua
+  up8: function params=2 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=refreshCollisionIndex what=Lua
+  up9: function params=3 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=admitCompleteFrame what=Lua
+  up10: ERR
+  consts total=69
+  [1] str "Topology"
+  [2] str "Epoch"
+  [3] str "_mapping"
+  [4] str "TopologyEpoch"
+  [5] str "Fingerprint"
+  [6] str "TopologyFingerprint"
+  [7] str "TopologyMismatch"
+  [8] str "_frames"
+  [9] str "Sequence"
+  [10] str "Kind"
+  [11] str "BaselineSequence"
+  [12] str "ServerTick"
+  [13] str "TopologyRevision"
+  [14] str "DestructibleRevision"
+  [15] str "ChunkCount"
+  [16] str "ConflictingRemoteFrame"
+  [17] str "ReceivedChunks"
+  [18] str "ChunkIndex"
+  [19] str "DuplicateRemoteChunk"
+  [20] str "_latestServerTick"
+  [21] str "deltaUInt32"
+  [22] str "_retentionHistoryTicks"
+  [23] str "RemoteSnapshotTooOld"
+  [24] str "isNewerUInt32"
+  [25] str "_latestTopologyRevision"
+  [26] str "TopologyRevisionRegressed"
+  [27] str "ReceivedChunkCount"
+  [28] number 0
+  [29] str "SeenUserIds"
+  [30] str "SeenActorIds"
+  [31] str "RemovedUserIds"
+  [32] str "RemovedActorIds"
+  [33] str "UserIdByActorId"
+  [34] str "BaselineActorsByActorId"
+  [35] str "Complete"
+  [36] boolean false
+  [37] str "AuthoritativeLifecycle"
+  [38] table
+  [39] str "UserId"
+  [40] str "DuplicateRemoteActorUserId"
+  [41] str "ActorId"
+  [42] str "DuplicateRemoteActorId"
+  [43] str "_actorIdToUserId"
+  [44] str "ConflictingActorId"
+  [45] str "_actors"
+  [46] str "ActorIdsByGeneration"
+  [47] str "Generation"
+  [48] str "ActorIdChangedWithinGeneration"
+  [49] str "DuplicateRemovedRemoteActorId"
+  [50] str "DuplicateRemovedRemoteUserId"
+  [51] str "Samples"
+  [52] str "Activity"
+  [53] str "CollisionPoseSample"
+F queryCollisionUserIds
+  params=3 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=queryCollisionUserIds what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "_collisionBroadphase"
+  [2] str "_collisionQueryActorIds"
+  [3] str "query"
+  [4] str "_collisionQueryUserIds"
+  [5] str "table"
+  [6] str "clear"
+F userIds
+  params=1 src=ReplicatedStorage.MovementV2.Client.RemoteBuffer:? cname=userIds what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "_actorOrderDirty"
+  [2] str "_orderedUserIds"
+  [3] str "_actors"
+  [4] str "table"
+  [5] str "insert"

@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Database.Custom.UpdateLogs
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+K 1 :table keys=4
+  {["Date"]="August 15th, 2026", ["Banner"]="rbxassetid://120093951525700", ["Title"]="Hero of Hell Update", ["Headers"]={[1]={["Logs"]={[1]="• Custom Character Server Authorative Movement.", [2]="• Server Browser (In Gamemodes Tab)", [3]="• Viridian Case/Collection.", [4]="• Global Marketplace Tab", [5]="• Hero of Hell Console.", [6]="• Exclusive Rewards.", [7]="• Progression Tab", [8]="• Keybind Hints.", [9]="• UI Overhaul.", [10]="• Career Tab.", [11]="+ More fixes and tweaks."}, ["Title"]="BloxStrike's Largest Update Yet!", ["Description"]="Today's update adds new features and improvements to the game."}}}
+K 2 :table keys=4
+  {["Date"]="August 1st, 2026", ["Banner"]="rbxassetid://120093951525700", ["Title"]="Lore Update", ["Headers"]={[1]={["Logs"]={[1]="• Refreshed bonus items in credit packs.", [2]="• Recoil has been tweaked across all guns.", [3]="+ More fixes and tweaks."}, ["Title"]="New bonus items and more!", ["Description"]="Today's update adds new bonus items and a recoil overhaul."}}}
+K 3 :table keys=4
+  {["Date"]="July 18th, 2026", ["Banner"]="rbxassetid://121428786231129", ["Title"]="Reactor Release!", ["Headers"]={[1]={["Logs"]={[1]="• Added Reactor.", [2]="• Added Tradeups.", [3]="+ More fixes and tweaks."}, ["Title"]="New map and tradeups!", ["Description"]="Today's major update adds the new Reactor map, tradeups, more fixes."}}}

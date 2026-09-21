@@ -1,0 +1,28 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.VehicleCamera.VehicleCameraCore
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+K __index :table keys=4
+  {["setTransform"]=<function:function: 0x5ecc3ea3ed3a1a5e>, ["step"]=<function:function: 0x4a9432c6f0edd2d3>, ["__index"]=<cycle>, ["new"]=<function:function: 0x46f9c04770a70ed5>}
+F new
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=0[]
+  up1: table keys=5 {setGoal:function, step:function, getCFrame:function, __index:table, new:function}
+  up2: table keys=4 {setTransform:function, step:function, __index:table, new:function}
+  up3: ERR
+  consts total=4
+  [1] str "vrs"
+  [2] table
+  [3] str "new"
+  [4] str "setmetatable"
+F setTransform
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=setTransform what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "vrs"
+  [2] str "setGoal"
+F step
+  params=5 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=step what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "vrs"
+  [2] str "step"

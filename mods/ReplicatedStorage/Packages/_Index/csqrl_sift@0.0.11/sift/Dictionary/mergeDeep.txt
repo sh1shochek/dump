@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dictionary.mergeDeep
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=mergeDeep what=Lua protos=0[]
+  up1: userdata Sift.None
+  up2: function params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=copyDeep what=Lua
+  up3: function params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=mergeDeep what=Lua
+  up4: ERR
+  consts total=2
+  [1] str "#"
+  [2] str "select"

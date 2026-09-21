@@ -1,0 +1,32 @@
+PATH: ReplicatedStorage.Database.Audio.Deathmatch
+REQUIRE: ok
+RETURNS: table
+KEYS: 14
+K Deathmatch Character Died :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=90, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=79494830572923}}
+K Deathmatch Character Spawned :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=115, ["RollOffMinDistance"]=5}, ["Identifiers"]={[1]=0}}
+K Deathmatch Death :table keys=2
+  {["Properties"]={["Volume"]=0.8}, ["Identifiers"]={[1]=117094641731981}}
+K Deathmatch HP Bonus :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=98799824599485}}
+K Dominating :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=117305837058312}}
+K Godlike :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=100913143709992}}
+K Headshot :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=88805023581261}}
+K Humiliation :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=131043459721673}}
+K KillSpree :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=125672036257817}}
+K LudicrusKill :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=125530693046064}}
+K Monster Kill :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=117986623333910}}
+K MultiKill :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=103755686676274}}
+K Rampage :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=91481995230906}}
+K Unstoppable :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=88049235177774}}

@@ -1,0 +1,13 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Get 15 Assists
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K Category :string = assists
+K DisplayName :string = Get 15 Assists In Bomb Defusal Or Hostage Rescue
+K Gamemodes :table keys=2
+  {[1]="Bomb Defusal", [2]="Hostage Rescue"}
+K MissionId :string = Get 15 Assists
+K Rewards :table keys=1
+  {[1]={["amount"]=26, ["type"]="Credits"}}
+K Target :number = 15
+K Type :string = daily

@@ -1,0 +1,60 @@
+PATH: ReplicatedStorage.Classes.Loadout
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+K __index :table keys=8
+  {["removeInventoryItem"]=<function:function: 0x341296f5baf4d28f>, ["destroy"]=<function:function: 0x9277be26cd798d20>, ["setCurrentEquipped"]=<function:function: 0x3aba509b38134023>, ["getNextInventorySlotFromPriority"]=<function:function: 0x78872fc2e5eb622d>, ["grantPlayerInventoryItem"]=<function:function: 0xa30d2b3701d25976>, ["getInventoryItemFromLoadout"]=<function:function: 0x2e25a1bce8218feb>, ["__index"]=<cycle>, ["new"]=<function:function: 0xcad3fd7e1d502cea>}
+F destroy
+  params=1 src=ReplicatedStorage.Classes.Loadout:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "IsDestroyed"
+  [2] str "debug"
+  [3] str "profilebegin"
+F getInventoryItemFromLoadout
+  params=2 src=ReplicatedStorage.Classes.Loadout:? cname=getInventoryItemFromLoadout what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "ipairs"
+F getNextInventorySlotFromPriority
+  params=1 src=ReplicatedStorage.Classes.Loadout:? cname=getNextInventorySlotFromPriority what=Lua protos=0[]
+  up1: table keys=6 {Melee:number, Priorities:table, Grenade:number, Primary:number, C4:number, Secondary:number}
+  up2: ERR
+  consts total=6
+  [1] str "ipairs"
+F grantPlayerInventoryItem
+  params=13 src=ReplicatedStorage.Classes.Loadout:? cname=grantPlayerInventoryItem what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up2: table keys=4 {C4:table, Weapon:table, Melee:table, Grenade:table}
+  up3: userdata Mateo_081005
+  up4: ERR
+  consts total=24
+  [1] str "Inventory"
+  [2] str "%* does not exist in player inventory"
+  [3] str "format"
+  [4] str "assert"
+F new
+  params=1 src=ReplicatedStorage.Classes.Loadout:? cname=new what=Lua protos=1[#1]
+  up1: table keys=8 {removeInventoryItem:function, destroy:function, setCurrentEquipped:function, getNextInventorySlotFromPriority:function, grantPlayerInventoryItem:function, getInventoryItemFromLoadout:function, __index:table, new:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up4: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up5: userdata Mateo_081005
+  up6: ERR
+  consts total=16
+  [1] str "debug"
+  [2] str "profilebegin"
+F removeInventoryItem
+  params=2 src=ReplicatedStorage.Classes.Loadout:? cname=removeInventoryItem what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "getInventoryItemFromLoadout"
+  [2] str "Inventory"
+  [3] str "table"
+  [4] str "remove"
+F setCurrentEquipped
+  params=2 src=ReplicatedStorage.Classes.Loadout:? cname=setCurrentEquipped what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "CurrentEquipped"
+  [2] str "PreviousEquipped"

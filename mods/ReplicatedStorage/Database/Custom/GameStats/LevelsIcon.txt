@@ -1,0 +1,44 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.LevelsIcon
+REQUIRE: ok
+RETURNS: table
+KEYS: 40
+K 1 :string = rbxassetid://130290412454202
+K 10 :string = rbxassetid://100697696749389
+K 11 :string = rbxassetid://130870794984637
+K 12 :string = rbxassetid://100504694423789
+K 13 :string = rbxassetid://89514804940489
+K 14 :string = rbxassetid://125555417291955
+K 15 :string = rbxassetid://78731044941875
+K 16 :string = rbxassetid://80539535256737
+K 17 :string = rbxassetid://85918768440458
+K 18 :string = rbxassetid://130204638913210
+K 19 :string = rbxassetid://92249833999621
+K 2 :string = rbxassetid://81038884884614
+K 20 :string = rbxassetid://127499765227869
+K 21 :string = rbxassetid://116929305935425
+K 22 :string = rbxassetid://135237078562421
+K 23 :string = rbxassetid://116112084007139
+K 24 :string = rbxassetid://126540199237997
+K 25 :string = rbxassetid://94456924448708
+K 26 :string = rbxassetid://94590056392572
+K 27 :string = rbxassetid://122244391726499
+K 28 :string = rbxassetid://137181311728382
+K 29 :string = rbxassetid://125665118167337
+K 3 :string = rbxassetid://132472705281714
+K 30 :string = rbxassetid://85062207838102
+K 31 :string = rbxassetid://137484648069040
+K 32 :string = rbxassetid://75557252494863
+K 33 :string = rbxassetid://127601608432907
+K 34 :string = rbxassetid://118209740195809
+K 35 :string = rbxassetid://126245208121135
+K 36 :string = rbxassetid://106218178402750
+K 37 :string = rbxassetid://106601158929823
+K 38 :string = rbxassetid://90982084708368
+K 39 :string = rbxassetid://101089221456014
+K 4 :string = rbxassetid://116841683431718
+K 40 :string = rbxassetid://134065115866859
+K 5 :string = rbxassetid://85233131422603
+K 6 :string = rbxassetid://72039336584307
+K 7 :string = rbxassetid://132143159360102
+K 8 :string = rbxassetid://131673060524844
+K 9 :string = rbxassetid://112805457772077

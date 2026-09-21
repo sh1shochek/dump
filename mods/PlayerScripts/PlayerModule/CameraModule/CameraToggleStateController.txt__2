@@ -1,0 +1,17 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.CameraToggleStateController
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? what=Lua protos=0[]
+  up1: table keys=15 {disableCameraToggleInput:function, getTogglePan:function, enableCameraToggleInput:function, getHoldPan:function, setTouchSensitivity:function, getZoomDelta:function, getInputEnabled:function, setTogglePan:function, getPanning:function, resetInputForFrameEnd:function, getRotationActivated:function, setInputEnabled:function, getRotation:function, addTouchMove:function, gamepadZoomPress:userdata}
+  up2: boolean false
+  up3: boolean false
+  up4: number 1790005782.171131
+  up5: table keys=2 {setCameraModeToastOpen:function, setCameraModeToastEnabled:function}
+  up6: boolean false
+  up7: boolean false
+  up8: table keys=18 {getLooseBoundingSphere:function, GamepadLinearToCurve:function, Spring:table, setRotationTypeOverride:function, restoreRotationType:function, Round:function, IsFinite:function, map:function, GetAngleBetweenXZVectors:function, ConvertCameraModeEnumToStandard:function, mapClamp:function, restoreMouseIcon:function, sanitizeAngle:function, restoreMouseBehavior:function, setMouseBehaviorOverride:function, RotateVectorByAngleAndRound:function, setMouseIconOverride:function, IsFiniteVector3:function}
+  up9: ERR
+  consts total=24
+  [1] str "getTogglePan"
+  [2] str "tick"

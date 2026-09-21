@@ -1,0 +1,19 @@
+PATH: ReplicatedStorage.MovementV2.Collision.TopologyConfig
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+K Default :table keys=21
+  {["GroundProbeStartBump"]=0.03, ["WalkableFloor"]=0.7, ["PlaneNormalEpsilon"]=0.001, ["BroadphasePadding"]=0.1, ["MaxSweepDistance"]=1000, ["FloorStartSolidRecoveryDepth"]=1.3699999999999999, ["SupportEdgeOwnershipTolerance"]=0.0046875, ["PlaneDuplicateDot"]=0.9999999, ["WalkmeshBoundsPadding"]=0.05, ["SurfaceFriction"]=1, ["FloorContactEpsilon"]=0.02, ["WalkmeshSupportEdgeTolerance"]=0.06, ["FloorTriangleEdgeSlop"]=0.06, ["FloorSupportContactEpsilon"]=0.001, ["BrushEpsilon"]=0.00234375, ["CellSize"]=8, ["DuckingHalfSize"]=<vector:1.2000000476837158, 2.0250000953674316, 1.2000000476837158>, ["StandingHalfSize"]=<vector:1.2000000476837158, 2.700000047683716, 1.2000000476837158>, ["HitTieDistance"]=0.00234375, ["MaxCellsPerRecord"]=4096, ["ContactEpsilon"]=0.0001}
+F Resolve
+  params=2 src=ReplicatedStorage.MovementV2.Collision.TopologyConfig:? cname=Resolve what=Lua protos=0[]
+  up1: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up2: ERR
+  consts total=64
+  [1] str "Default"
+  [2] number 8
+  [3] str "CellSize"
+  [4] number 4096
+  [5] str "MaxCellsPerRecord"
+  [6] number 1000
+  [7] str "MaxSweepDistance"
+  [8] str "typeof"

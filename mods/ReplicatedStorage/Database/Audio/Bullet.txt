@@ -1,0 +1,60 @@
+PATH: ReplicatedStorage.Database.Audio.Bullet
+REQUIRE: ok
+RETURNS: table
+KEYS: 28
+K Basalt :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=101337223479947, [2]=132874154038453, [3]=116780567744545}}
+K Bell1 :table keys=2
+  {["Properties"]={["Volume"]=1.6, ["RollOffMaxDistance"]=200, ["RollOffMinDistance"]=30}, ["Identifiers"]={[1]=111027018509631}}
+K Bell2 :table keys=2
+  {["Properties"]={["Pitch"]=1.05, ["Volume"]=1.6, ["RollOffMaxDistance"]=200, ["RollOffMinDistance"]=30}, ["Identifiers"]={[1]=111027018509631}}
+K Bell3 :table keys=2
+  {["Properties"]={["Pitch"]=1.1, ["Volume"]=1.6, ["RollOffMaxDistance"]=200, ["RollOffMinDistance"]=30}, ["Identifiers"]={[1]=111027018509631}}
+K Bell4 :table keys=2
+  {["Properties"]={["Pitch"]=1.15, ["Volume"]=1.6, ["RollOffMaxDistance"]=200, ["RollOffMinDistance"]=30}, ["Identifiers"]={[1]=111027018509631}}
+K Bell5 :table keys=2
+  {["Properties"]={["Pitch"]=1.2, ["Volume"]=1.6, ["RollOffMaxDistance"]=200, ["RollOffMinDistance"]=30}, ["Identifiers"]={[1]=111027018509631}}
+K Bell6 :table keys=2
+  {["Properties"]={["Pitch"]=1.25, ["Volume"]=1.6, ["RollOffMaxDistance"]=200, ["RollOffMinDistance"]=30}, ["Identifiers"]={[1]=111027018509631}}
+K Blood Splatter :table keys=2
+  {["Properties"]={["Volume"]=1.15, ["RollOffMaxDistance"]=150, ["RollOffMinDistance"]=50}, ["Identifiers"]={[1]=107667789878316, [2]=124912612009209, [3]=92566163061648, [4]=117996590042443}}
+K Break Flower Pot :table keys=2
+  {["Properties"]={["Volume"]=0.35, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=97520306766475}}
+K Break Market Window :table keys=2
+  {["Properties"]={["Volume"]=0.35, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=110664241505472}}
+K Break Metal Vent :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=86749587479310}}
+K Cardboard :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=103580430698474, [2]=140589304787966, [3]=83899099249452}}
+K CeramicTiles :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=138282986322870, [2]=123605779448509, [3]=108443295126150}}
+K Concrete :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=90501168775606}}
+K CorrodedMetal :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=121077532378628, [2]=70530737839629, [3]=124091485730047}}
+K Fabric :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=114796589756122, [2]=117026408833237, [3]=137556513607191}}
+K Glass :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=134535666679403, [2]=119925791840774, [3]=90850154491305}}
+K Glass Shattered :table keys=2
+  {["Properties"]={["Volume"]=1.2, ["RollOffMaxDistance"]=115, ["RollOffMinDistance"]=15}, ["Identifiers"]={[1]=93523702106264, [2]=127025375550877, [3]=118336424664776}}
+K Ground :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=114796589756122, [2]=117026408833237, [3]=137556513607191}}
+K Headshot :table keys=2
+  {["Properties"]={["Volume"]=1.2, ["RollOffMaxDistance"]=150, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=109001457067748, [2]=132217235664144, [3]=134238109611527, [4]=107873869943020}}
+K Helmet Headshot :table keys=2
+  {["Properties"]={["Volume"]=1.2, ["RollOffMaxDistance"]=115, ["RollOffMinDistance"]=5}, ["Identifiers"]={[1]=125321912363999}}
+K Metal :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=84287180554352, [2]=126580242242107, [3]=99594419304288}}
+K Pebble :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=89115248724907, [2]=111362079945579, [3]=138223638241538}}
+K Sand :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=116882851736734, [2]=78994860032877}}
+K Water :table keys=2
+  {["Properties"]={["Volume"]=0.75, ["RollOffMaxDistance"]=55, ["RollOffMinDistance"]=5}, ["Identifiers"]={[1]=74195352401130}}
+K Whizz :table keys=2
+  {["Properties"]={["Volume"]=0.5}, ["Identifiers"]={[1]=84662543261717, [2]=96415536708514, [3]=126151297003763, [4]=139434370539625, [5]=77334097595513}}
+K Wood :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=90519346846361, [2]=127522536498186, [3]=84569787534340}}
+K WoodPlanks :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=35, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=90519346846361, [2]=127522536498186, [3]=84569787534340}}

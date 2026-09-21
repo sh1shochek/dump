@@ -1,0 +1,17 @@
+PATH: ReplicatedStorage.Database.Custom.Weapons.C4
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+K CameraAnimations :userdata CameraAnimations
+K CharacterAnimations :userdata CharacterAnimations
+K Class :string = C4
+K Droppable :boolean = true
+K Icon :string = rbxassetid://109858795365969
+K RagdollMultiplier :number = 35
+K Range :number = 1200
+K ReverseIcon :string = rbxassetid://109858795365969
+K ShowCrosshair :boolean = false
+K Slot :string = C4
+K Team :string = Terrorists
+K Type :string = Miscellaneous
+K WalkSpeed :number = 20.2

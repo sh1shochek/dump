@@ -1,0 +1,41 @@
+PATH: ReplicatedStorage.Classes.CharacterHighlight
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F Construct
+  params=1 src=ReplicatedStorage.Classes.CharacterHighlight:? cname=Construct what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "Highlight"
+  [2] str "Properties"
+  [3] str "OutlineTransparency"
+  [4] str "FillTransparency"
+  [5] str "OutlineColor"
+  [6] str "DepthMode"
+  [7] str "FillColor"
+F Destroy
+  params=1 src=ReplicatedStorage.Classes.CharacterHighlight:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Janitor"
+  [2] str "Destroy"
+F UpdateState
+  params=2 src=ReplicatedStorage.Classes.CharacterHighlight:? cname=UpdateState what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "Highlight"
+  [2] str "Parent"
+  [3] str "IsEnabled"
+  [4] str "Enabled"
+K __index :table keys=5
+  {["Destroy"]=<function:function: 0x9c0a6bd738c1fa95>, ["Construct"]=<function:function: 0x64138d3de9ff478b>, ["UpdateState"]=<function:function: 0x3312d4f34fd4bb6f>, ["__index"]=<cycle>, ["new"]=<function:function: 0x822cb60435fceac3>}
+F new
+  params=2 src=ReplicatedStorage.Classes.CharacterHighlight:? cname=new what=Lua protos=2[#1,#2]
+  up1: table keys=5 {Destroy:function, Construct:function, UpdateState:function, __index:table, new:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=12 {setGoal:function, setFrequency:function, setDampingRatio:function, getGoal:function, update:function, setPosition:function, reset:function, impulse:function, getPosition:function, getVelocity:function, __index:table, new:function}
+  up4: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up5: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up6: ERR
+  consts total=25
+  [1] str "setmetatable"

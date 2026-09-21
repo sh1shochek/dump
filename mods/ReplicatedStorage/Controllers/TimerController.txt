@@ -1,0 +1,34 @@
+PATH: ReplicatedStorage.Controllers.TimerController
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F GetTimer
+  params=1 src=ReplicatedStorage.Controllers.TimerController:? cname=GetTimer what=Lua protos=0[]
+  up1: userdata ReplicatedStorage
+  up2: ERR
+  consts total=8
+  [1] str "timers_source/%*"
+  [2] str "format"
+  [3] str "GetAttribute"
+  [4] str "typeof"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.TimerController:? cname=Initialize what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Controllers.TimerController:? cname=WaitForTimersLoaded what=Lua
+  up2: userdata ReplicatedStorage
+  up3: table keys=1 {1:string}
+  up4: table keys=1 {FeaturedConsoleTimer:table}
+  up5: table keys=3 {Initialize:function, GetTimer:function, ListenToTimerChanged:function}
+  up6: ERR
+  consts total=18
+  [1] str "GetAttributes"
+  [2] str "string"
+  [3] str "find"
+F ListenToTimerChanged
+  params=2 src=ReplicatedStorage.Controllers.TimerController:? cname=ListenToTimerChanged what=Lua protos=0[]
+  up1: table keys=3 {Initialize:function, GetTimer:function, ListenToTimerChanged:function}
+  up2: table keys=1 {FeaturedConsoleTimer:table}
+  up3: ERR
+  consts total=3
+  [1] str "GetTimer"
+  [2] str "table"
+  [3] str "insert"

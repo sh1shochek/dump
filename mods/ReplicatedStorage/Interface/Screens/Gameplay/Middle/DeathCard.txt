@@ -1,0 +1,72 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.DeathCard
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.DeathCar:? cname=Initialize what=Lua protos=1[#1]
+  up1: userdata BloodScreen
+  up2: userdata Transition
+  up3: userdata DeathCard
+  up4: userdata Mateo_081005
+  up5: table keys=5 {closeFrame:function, openFrame:function, updateFrame:function, Start:function, Initialize:function}
+  up6: ERR
+  consts total=7
+  [1] str "Gameplay"
+  [2] str "Middle"
+  [3] str "BloodScreen"
+  [4] str "Transition"
+  [5] str "CharacterAdded"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.DeathCar:? cname=Start what=Lua protos=2[#1,#2]
+  up1: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up2: userdata Mateo_081005
+  up3: table keys=5 {closeFrame:function, openFrame:function, updateFrame:function, Start:function, Initialize:function}
+  up4: ERR
+  consts total=3
+  [1] str "UI"
+  [2] str "UIPlayerKilled"
+  [3] str "Listen"
+F closeFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.DeathCar:? cname=closeFrame what=Lua protos=1[#1]
+  up1: number 7
+  up2: userdata BloodScreen
+  up3: userdata DeathCard
+  up4: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.DeathCar:? cname=PlayTransitionTween what=Lua
+  consts total=15
+  [1] number 1
+  [2] str "ImageLabel"
+  [3] str "ImageTransparency"
+  [4] str "BackgroundTransparency"
+  [5] str "Visible"
+  [6] str "UDim2"
+  [7] str "fromScale"
+F openFrame
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.DeathCar:? cname=openFrame what=Lua protos=2[isSequenceStale,#2]
+  up1: number 7
+  up2: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.DeathCar:? cname=GetCharacterCameraSubject what=Lua
+  up3: userdata Camera
+  up4: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up5: userdata BloodScreen
+  up6: userdata DeathCard
+  consts total=51
+  [1] number 1
+  [2] str "CameraSubject"
+  [3] str "Enum"
+  [4] str "CameraType"
+  [5] str "Follow"
+  [6] userdata
+  [7] str "setPerspective"
+  [8] str "task"
+  [9] str "wait"
+F updateFrame
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.DeathCar:? cname=updateFrame what=Lua protos=0[]
+  up1: userdata Players
+  up2: userdata DeathCard
+  up3: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up4: table keys=5 {GetFullItemDisplayName:function, GetWeaponDisplayName:function, GetSkinDisplayName:function, GetInternalSearchQuery:function, GetSearchIdentity:function}
+  up5: function params=2 src=ReplicatedStorage.Components.Common.GetBadgeName:? what=Lua
+  up6: function params=2 src=ReplicatedStorage.Components.Common.GetBadgeIcon:? what=Lua
+  up7: ERR
+  consts total=31
+  [1] str "Killer"
+  [2] str "tonumber"

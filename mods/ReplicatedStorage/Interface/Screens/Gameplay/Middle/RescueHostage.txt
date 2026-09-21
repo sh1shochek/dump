@@ -1,0 +1,150 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.RescueHostage
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+F AnimateRescue
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RescueHo:? cname=AnimateRescue what=Lua protos=0[]
+  up1: ERR
+  consts total=24
+  [1] str "Frame"
+  [2] str "ProgressBar"
+  [3] str "Hostage"
+  [4] str "FindFirstChild"
+  [5] str "tick"
+F CancelRescue
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RescueHo:? cname=CancelRescue what=Lua protos=1[#1]
+  up1: userdata Mateo_081005
+  up2: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up3: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up4: ERR
+  consts total=17
+  [1] str "IsRescuing"
+  [2] str "IsSpectating"
+  [3] str "GetAttribute"
+  [4] str "GetCurrentSpectateInstance"
+  [5] str "PlayerName"
+  [6] str "Name"
+  [7] str "IsFinished"
+  [8] str "UpdateProgressBar"
+  [9] str "Frame"
+  [10] str "Visible"
+  [11] str "Hostage"
+  [12] str "CancelRescue"
+  [13] str "Send"
+  [14] str "RescueCancelled"
+  [15] str "Fire"
+  [16] str "task"
+  [17] str "defer"
+F Destroy
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RescueHo:? cname=Destroy what=Lua protos=0[]
+  ups: none
+  consts total=4
+  [1] str "Frame"
+  [2] str "Visible"
+  [3] str "Janitor"
+  [4] str "Destroy"
+F FinishRescue
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RescueHo:? cname=FinishRescue what=Lua protos=1[#1]
+  up1: userdata Mateo_081005
+  up2: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up3: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up4: ERR
+  consts total=16
+  [1] str "IsRescuing"
+  [2] str "IsFinished"
+  [3] str "IsSpectating"
+  [4] str "GetAttribute"
+  [5] str "GetCurrentSpectateInstance"
+  [6] str "PlayerName"
+  [7] str "Name"
+  [8] str "Hostage"
+  [9] str "PickedUp"
+  [10] str "Send"
+  [11] str "RescueFinished"
+  [12] str "Fire"
+  [13] str "task"
+  [14] str "delay"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RescueHo:? cname=Initialize what=Lua protos=7[#1,#2,#3,updateSpectateRescue,#5,setupSpectateRescueListener,#7]
+  up1: userdata RescueHostage
+  up2: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  consts total=10
+  [1] str "ListenToState"
+  [2] str "observerRouter"
+  [3] str "Start Rescue Hostage"
+  [4] str "Cancel Rescue Hostage"
+  [5] str "IsSpectating"
+  [6] str "GetAttributeChangedSignal"
+  [7] str "Connect"
+  [8] str "ListenToSpectate"
+  [9] str "task"
+  [10] str "wait"
+F InitializeProgressBar
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RescueHo:? cname=InitializeProgressBar what=Lua protos=0[]
+  up1: userdata 0.713726, 0.176471, 0.176471
+  up2: ERR
+  consts total=24
+  [1] str "Frame"
+  [2] str "ProgressBar"
+  [3] str "warn"
+F StartRescue
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RescueHo:? cname=StartRescue what=Lua protos=1[#1]
+  up1: userdata Mateo_081005
+  up2: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up3: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up4: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up5: ERR
+  consts total=29
+  [1] str "IsRescuing"
+  [2] str "IsSpectating"
+  [3] str "GetAttribute"
+  [4] str "GetCurrentSpectateInstance"
+  [5] str "Player"
+  [6] str "HasRescueKit"
+  [7] str "Name"
+  [8] str "PlayerName"
+  [9] str "RescueTime"
+  [10] str "RescueStartTime"
+  [11] str "tick"
+F UpdateProgressBar
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RescueHo:? cname=UpdateProgressBar what=Lua protos=0[]
+  up1: userdata 0.713726, 0.176471, 0.176471
+  up2: userdata 0.858824, 0.623529, 0.184314
+  up3: userdata 0.168627, 0.67451, 0.168627
+  up4: ERR
+  consts total=31
+  [1] str "Frame"
+  [2] str "ProgressBar"
+  [3] str "LeftGradient"
+  [4] str "RightGradient"
+  [5] str "LeftProgressImage"
+  [6] str "RightProgressImage"
+  [7] str "math"
+  [8] str "clamp"
+F UpdateTimer
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RescueHo:? cname=UpdateTimer what=Lua protos=0[]
+  up1: ERR
+  consts total=18
+  [1] str "Frame"
+  [2] str "Timer"
+  [3] number 60
+  [4] str "math"
+  [5] str "floor"
+F UpdateTitle
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RescueHo:? cname=UpdateTitle what=Lua protos=0[]
+  up1: ERR
+  consts total=13
+  [1] str "Frame"
+  [2] str "Title"
+  [3] str "string"
+  [4] str "format"
+K __index :table keys=12
+  {["AnimateRescue"]=<function:function: 0x27631f9d1b8d95fd>, ["UpdateTitle"]=<function:function: 0x4dbc2e4379ef6edf>, ["UpdateProgressBar"]=<function:function: 0xc9a93b87ddc2633e>, ["FinishRescue"]=<function:function: 0x18464ad47f4ff91b>, ["UpdateTimer"]=<function:function: 0x78b961f24da84538>, ["Destroy"]=<function:function: 0x13df23eddce6f3eb>, ["InitializeProgressBar"]=<function:function: 0xfccfb94cd127b815>, ["Initialize"]=<function:function: 0xe107ce8cce0fa0eb>, ["StartRescue"]=<function:function: 0x60a21987ad8f44ac>, ["CancelRescue"]=<function:function: 0xaed2486272786454>, ["__index"]=<cycle>, ["new"]=<function:function: 0x28f2f915008bcc61>}
+F new
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RescueHo:? cname=new what=Lua protos=0[]
+  up1: table keys=12 {AnimateRescue:function, UpdateTitle:function, UpdateProgressBar:function, FinishRescue:function, UpdateTimer:function, Destroy:function, InitializeProgressBar:function, Initialize:function, StartRescue:function, CancelRescue:function, __index:table, new:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=3 {Is:function, Wrap:function, new:function}
+  up4: ERR
+  consts total=23
+  [1] str "setmetatable"

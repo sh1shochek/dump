@@ -1,0 +1,28 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.Jump
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K BindPriority :number = 3001
+F Callback
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.Jump:? cname=onInput what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=13 {PlantBomb:function, TrackCharacter:function, crouch:function, getCurrentCharacter:function, UntrackCharacter:function, jump:function, GetCrouchState:function, CancelBombPlant:function, Initialize:function, Start:function, GetWalkState:function, PredictDoorUse:function, walk:function}
+  up3: ERR
+  consts total=14
+  [1] str "Enum"
+  [2] str "UserInputState"
+  [3] str "Begin"
+  [4] userdata
+  [5] str "IsPlayerChatting"
+  [6] str "GetAttribute"
+  [7] str "UserInputType"
+  [8] str "MouseWheel"
+  [9] userdata
+  [10] str "jump"
+  [11] str "End"
+  [12] userdata
+  [13] str "Cancel"
+  [14] userdata
+K Category :string = Movement Keys
+K Group :string = Gameplay
+K Name :string = Jump

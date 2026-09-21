@@ -1,0 +1,50 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.TouchThumbstick
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F Create
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=Create what=Lua protos=7[ResizeThumbstick,DoMove,MoveStick,#4,#5,#6,#7]
+  up1: userdata UserInputService
+  up2: userdata GuiService
+  up3: ERR
+  consts total=37
+  [1] str "thumbstickFrame"
+  [2] str "Destroy"
+  [3] str "onTouchMovedConn"
+  [4] str "Disconnect"
+  [5] str "onTouchEndedConn"
+  [6] str "absoluteSizeChangedConn"
+  [7] str "Instance"
+  [8] str "new"
+F Enable
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=Enable what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "enabled"
+  [2] vector
+  [3] str "moveVector"
+  [4] str "isJumping"
+  [5] str "thumbstickFrame"
+  [6] str "Create"
+  [7] str "Visible"
+  [8] str "OnInputEnded"
+F OnInputEnded
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=OnInputEnded what=Lua protos=0[]
+  up1: ERR
+  consts total=18
+  [1] str "thumbstickFrame"
+  [2] str "screenPos"
+  [3] str "Position"
+  [4] str "stickImage"
+  [5] str "UDim2"
+  [6] str "new"
+K __index :table keys=5
+  {["OnInputEnded"]=<function:function: 0xc96db3b2ec25202b>, ["Enable"]=<function:function: 0x9251434b9ef3328a>, ["Create"]=<function:function: 0x23d7f0fb5849d93c>, ["__index"]=<cycle>, ["new"]=<function:function: 0x33c36d7cc53b9d92>}
+F new
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=new what=Lua protos=0[]
+  up1: table keys=6 {IsMoveVectorCameraRelative:function, GetIsJumping:function, Enable:function, GetMoveVector:function, __index:table, new:function}
+  up2: table keys=5 {OnInputEnded:function, Enable:function, Create:function, __index:table, new:function}
+  up3: ERR
+  consts total=11
+  [1] str "new"
+  [2] str "setmetatable"

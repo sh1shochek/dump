@@ -1,0 +1,34 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.EndScreen
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F CloseFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.EndScree:? cname=CloseFrame what=Lua protos=0[]
+  up1: userdata EndScreen
+  up2: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up3: userdata Mateo_081005
+  up4: userdata ReplicatedStorage
+  up5: userdata MainGui
+  up6: ERR
+  consts total=21
+  [1] str "Visible"
+  [2] str "setForceLockOverride"
+  [3] str "EndScreen"
+  [4] str "Team"
+  [5] str "GetAttribute"
+  [6] str "Character"
+  [7] str "Spectators"
+  [8] str "require"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.EndScree:? cname=Initialize what=Lua protos=5[#1,#2,#3,#4,#5]
+  up1: userdata EndScreen
+  up2: userdata MainGui
+  up3: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.EndScree:? cname=clearFrame what=Lua
+  up4: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  consts total=22
+  [1] str "MapVote"
+  [2] str "ImageButton"
+  [3] str "Map"
+  [4] str "StartMapVote"
+  [5] str "Listen"
+  [6] str "UpdateMapVote"

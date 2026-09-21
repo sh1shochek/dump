@@ -1,0 +1,188 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModule.DynamicThumbstick
+REQUIRE: ok
+RETURNS: table
+KEYS: 15
+F BindContextActions
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=BindContextActions what=Lua protos=5[inputBegan,inputChanged,inputEnded,handleInput,#5]
+  up1: userdata TweenService
+  up2: boolean true
+  up3: userdata ContextActionService
+  up4: number 3000
+  up5: userdata UserInputService
+  up6: ERR
+  consts total=9
+  [1] str "DynamicThumbstickAction"
+  [2] str "Enum"
+  [3] str "UserInputType"
+  [4] str "Touch"
+  [5] userdata
+  [6] str "BindActionAtPriority"
+  [7] str "TouchMoved"
+  [8] str "Connect"
+  [9] str "TouchMovedCon"
+F Create
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=Create what=Lua protos=9[layoutThumbstickFrame,ResizeThumbstick,onCurrentCameraChanged,#4,#5,#6,longShowBackground,#8,#9]
+  up1: boolean true
+  up2: number 7
+  up3: table keys=7 {1:number, 2:number, 3:number, 4:number, 5:number, 6:number, 7:number}
+  up4: userdata Run Service
+  up5: userdata UserInputService
+  up6: userdata GuiService
+  up7: userdata Mateo_081005
+  up8: ERR
+  consts total=80
+  [1] str "thumbstickFrame"
+  [2] str "Destroy"
+  [3] str "onRenderSteppedConn"
+  [4] str "Disconnect"
+  [5] str "absoluteSizeChangedConn"
+  [6] str "Instance"
+  [7] str "new"
+F DoFadeInBackground
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=DoFadeInBackground what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: ERR
+  consts total=18
+  [1] str "PlayerGui"
+  [2] str "FindFirstChildOfClass"
+  [3] str "CurrentScreenOrientation"
+  [4] str "Enum"
+  [5] str "ScreenOrientation"
+  [6] str "LandscapeLeft"
+  [7] userdata
+  [8] str "LandscapeRight"
+  [9] userdata
+  [10] str "hasFadedBackgroundInLandscape"
+  [11] str "Portrait"
+  [12] userdata
+  [13] str "hasFadedBackgroundInPortrait"
+  [14] number 0.3
+  [15] str "fadeInAndOutHalfDuration"
+  [16] number 0.5
+  [17] str "fadeInAndOutBalance"
+  [18] str "tick"
+F DoMove
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=DoMove what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "Magnitude"
+  [2] str "radiusOfDeadZone"
+  [3] vector
+  [4] str "Unit"
+  [5] number 1
+  [6] str "radiusOfMaxSpeed"
+  [7] str "math"
+  [8] str "max"
+F Enable
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=Enable what=Lua protos=0[]
+  up1: boolean true
+  up2: userdata ContextActionService
+  up3: ERR
+  consts total=9
+  [1] str "enabled"
+  [2] str "thumbstickFrame"
+  [3] str "Create"
+  [4] str "BindContextActions"
+  [5] str "UnbindContextActions"
+  [6] str "DynamicThumbstickAction"
+  [7] str "UnbindAction"
+  [8] str "OnInputEnded"
+  [9] str "Visible"
+F FadeThumbstick
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=FadeThumbstick what=Lua protos=0[]
+  up1: userdata TweenService
+  up2: userdata Time:0.15 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:InOut EasingS
+  up3: table keys=7 {1:number, 2:number, 3:number, 4:number, 5:number, 6:number, 7:number}
+  up4: ERR
+  consts total=19
+  [1] str "moveTouchObject"
+  [2] str "isFirstTouch"
+  [3] str "startImageFadeTween"
+  [4] str "Cancel"
+  [5] str "endImageFadeTween"
+  [6] str "middleImages"
+  [7] str "middleImageFadeTweens"
+  [8] str "startImage"
+  [9] str "ImageTransparency"
+  [10] number 0
+  [11] table
+  [12] str "Create"
+  [13] str "Play"
+  [14] str "endImage"
+  [15] number 0.2
+  [16] table
+  [17] table
+  [18] number 1
+  [19] table
+F FadeThumbstickFrame
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=FadeThumbstickFrame what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] number 0.5
+  [2] str "fadeInAndOutHalfDuration"
+  [3] str "fadeInAndOutBalance"
+  [4] str "tick"
+F GetIsJumping
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=GetIsJumping what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "isJumping"
+F InputInFrame
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=InputInFrame what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "thumbstickFrame"
+  [2] str "AbsolutePosition"
+  [3] str "AbsoluteSize"
+  [4] str "Position"
+  [5] str "X"
+  [6] str "Y"
+F LayoutMiddleImages
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=LayoutMiddleImages what=Lua protos=0[]
+  up1: number 7
+  up2: ERR
+  consts total=20
+  [1] number 2
+  [2] str "thumbstickSize"
+  [3] str "middleSize"
+  [4] str "Magnitude"
+  [5] str "thumbstickRingSize"
+  [6] str "Unit"
+  [7] str "middleSpacing"
+  [8] str "middleImages"
+  [9] number 1
+  [10] str "math"
+  [11] str "clamp"
+F MoveStick
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=MoveStick what=Lua protos=0[]
+  up1: ERR
+  consts total=13
+  [1] str "Vector2"
+  [2] str "new"
+F OnInputEnded
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=OnInputEnded what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "moveTouchObject"
+  [2] vector
+  [3] str "moveVector"
+  [4] str "FadeThumbstick"
+F UnbindContextActions
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=UnbindContextActions what=Lua protos=0[]
+  up1: userdata ContextActionService
+  up2: ERR
+  consts total=4
+  [1] str "DynamicThumbstickAction"
+  [2] str "UnbindAction"
+  [3] str "TouchMovedCon"
+  [4] str "Disconnect"
+K __index :table keys=15
+  {["MoveStick"]=<function:function: 0xfe99e3557b4bd148>, ["InputInFrame"]=<function:function: 0x79cda1241fbca0e5>, ["UnbindContextActions"]=<function:function: 0xe05fbad9bf2270c9>, ["Enable"]=<function:function: 0x55558dde716d7ce7>, ["BindContextActions"]=<function:function: 0x554ece35a2e0b145>, ["Create"]=<function:function: 0xe1e7089af5660412>, ["DoFadeInBackground"]=<function:function: 0xf2cfaf6d3450b5d2>, ["DoMove"]=<function:function: 0x7097607cd0a36aa9>, ["LayoutMiddleImages"]=<function:function: 0xcc140610e1101e3c>, ["OnInputEnded"]=<function:function: 0x7d719524b85bfcfc>, ["FadeThumbstickFrame"]=<function:function: 0x389768e06fed61a2>, ["FadeThumbstick"]=<function:function: 0x9eb9245c5d19dc4d>, ["GetIsJumping"]=<function:function: 0x1b36ea8f5a123a01>, ["__index"]=<cycle>, ["new"]=<function:function: 0x4f7f406ca621dc2b>}
+F new
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=new what=Lua protos=0[]
+  up1: table keys=6 {IsMoveVectorCameraRelative:function, GetIsJumping:function, Enable:function, GetMoveVector:function, __index:table, new:function}
+  up2: table keys=15 {MoveStick:function, InputInFrame:function, UnbindContextActions:function, Enable:function, BindContextActions:function, Create:function, DoFadeInBackground:function, DoMove:function, LayoutMiddleImages:function, OnInputEnded:function, FadeThumbstickFrame:function, FadeThumbstick:function, GetIsJumping:function, __index:table, new:function}
+  up3: ERR
+  consts total=24
+  [1] str "new"
+  [2] str "setmetatable"

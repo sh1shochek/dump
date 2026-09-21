@@ -1,0 +1,15 @@
+PATH: ReplicatedStorage.Components.Common.GetBindIcon
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Components.Common.GetBindIcon:? what=Lua protos=0[]
+  up1: userdata UserInputService
+  up2: ERR
+  consts total=13
+  [1] str "EnumType"
+  [2] str "Enum"
+  [3] str "KeyCode"
+  [4] userdata
+  [5] str "Name"
+  [6] str "string"
+  [7] str "match"

@@ -1,0 +1,17 @@
+PATH: ReplicatedStorage.Shared.Zone.Enum
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F createEnum
+  params=2 src=ReplicatedStorage.Shared.Zone.Enum:? cname=createEnum what=Lua protos=4[getName,getValue,getProperty,__index]
+  up1: table keys=2 {Detection:table, Accuracy:table}
+  up2: ERR
+  consts total=27
+  [1] str "typeof"
+K enums :table keys=2
+  {["Detection"]={["WholeBody"]=1, ["Centre"]=2}, ["Accuracy"]={["Low"]=1, ["High"]=3, ["Precise"]=4, ["Medium"]=2}}
+F getEnums
+  params=0 src=ReplicatedStorage.Shared.Zone.Enum:? cname=getEnums what=Lua protos=0[]
+  up1: table keys=2 {Detection:table, Accuracy:table}
+  up2: ERR
+  consts total=0

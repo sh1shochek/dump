@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Get 250 Assists
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K Category :string = assists
+K MissionId :string = Get 250 Assists
+K Rewards :table keys=1
+  {[1]={["amount"]=250, ["type"]="Credits"}}
+K Target :number = 250
+K Type :string = monthly

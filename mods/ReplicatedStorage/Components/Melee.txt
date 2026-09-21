@@ -1,0 +1,135 @@
+PATH: ReplicatedStorage.Components.Melee
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+K __index :table keys=11
+  {["destroy"]=<function:function: 0xc9e910553da13435>, ["cancelInspect"]=<function:function: 0x863640a68192f4f3>, ["reload"]=<function:function: 0x0d9b8f370f53351a>, ["shoot"]=<function:function: 0x8bb52944a246472a>, ["unequip"]=<function:function: 0x22b31152ea0fb929>, ["stopAllAnimations"]=<function:function: 0xa7b6ef060eb873ef>, ["drop"]=<function:function: 0xe3da33f871cb5d88>, ["equip"]=<function:function: 0x641110f44e48bc9b>, ["inspect"]=<function:function: 0x8f022167d0b7cead>, ["__index"]=<cycle>, ["new"]=<function:function: 0xd22d10721aa8201f>}
+F cancelInspect
+  params=3 src=ReplicatedStorage.Components.Melee:? cname=cancelInspect what=Lua protos=1[#1]
+  up1: ERR
+  consts total=14
+  [1] str "IsInspecting"
+  [2] str "IsInspectFadingOut"
+  [3] str "InspectDelayThread"
+  [4] str "task"
+  [5] str "cancel"
+F destroy
+  params=1 src=ReplicatedStorage.Components.Melee:? cname=destroy what=Lua protos=0[]
+  up1: table keys=2 {destroy:function, new:function}
+  up2: ERR
+  consts total=16
+  [1] str "IsDestroyed"
+  [2] str "InspectDelayThread"
+  [3] str "task"
+  [4] str "cancel"
+F drop
+  params=1 src=ReplicatedStorage.Components.Melee:? cname=drop what=Lua protos=0[]
+  up1: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up2: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up3: function params=1 src=ReplicatedStorage.Components.Common.GetCharacterVelocity:? cname=GetCharacterVelocity what=Lua
+  up4: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up5: userdata Camera
+  up6: ERR
+  consts total=19
+  [1] str "workspace"
+  [2] userdata
+  [3] str "Gamemode"
+  [4] str "GetAttribute"
+  [5] str "Deathmatch"
+  [6] str "GetState"
+  [7] str "Warmup"
+  [8] str "VIPKnifeDropEnabled"
+  [9] str "unequip"
+  [10] str "Inventory"
+  [11] str "DropWeapon"
+  [12] str "Send"
+  [13] str "CharacterVelocity"
+  [14] str "Direction"
+  [15] str "Identifier"
+  [16] table
+  [17] str "getLocalCharacter"
+  [18] str "CFrame"
+  [19] str "LookVector"
+F equip
+  params=1 src=ReplicatedStorage.Components.Melee:? cname=equip what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "Viewmodel"
+  [2] str "Animation"
+  [3] str "stopAnimations"
+  [4] str "CharacterAnimator"
+  [5] str "Idle"
+  [6] str "play"
+  [7] str "Equip"
+  [8] str "tick"
+F inspect
+  params=1 src=ReplicatedStorage.Components.Melee:? cname=inspect what=Lua protos=2[#1,#2]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up2: ERR
+  consts total=20
+  [1] str "IsShooting"
+  [2] str "IsInspecting"
+  [3] str "IsInspectFadingOut"
+  [4] str "CancelDelayThread"
+  [5] str "task"
+  [6] str "cancel"
+F new
+  params=13 src=ReplicatedStorage.Components.Melee:? cname=new what=Lua protos=0[]
+  up1: table keys=2 {destroy:function, new:function}
+  up2: table keys=11 {destroy:function, cancelInspect:function, reload:function, shoot:function, unequip:function, stopAllAnimations:function, drop:function, equip:function, inspect:function, __index:table, new:function}
+  up3: ERR
+  consts total=12
+  [1] str "new"
+  [2] str "setmetatable"
+F reload
+  params=1 src=ReplicatedStorage.Components.Melee:? cname=reload what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "IsInspecting"
+  [2] str "IsInspectFadingOut"
+  [3] number 0.25
+  [4] str "cancelInspect"
+F shoot
+  params=2 src=ReplicatedStorage.Components.Melee:? cname=shoot what=Lua protos=1[#1]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up3: table keys=10 {GetPlayerNoiseCone:function, GetWeaponShootRange:function, GetMovementRange:function, SetBombPlantedMusicVolume:function, ClearPlayerNoiseCone:function, GetMeleeRange:function, Start:function, Initialize:function, UpdatePlayerNoiseCone:function, GetFootstepRange:function}
+  up4: function params=0 src=ReplicatedStorage.Components.Common.GetRayIgnore:? what=Lua
+  up5: userdata Camera
+  up6: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up7: function params=12 src=ReplicatedStorage.Components.Common.VFXLibary.CreateImpact:? what=Lua
+  up8: function params=2 src=ReplicatedStorage.Components.Common.VFXLibary.CreateBloodSpl:? what=Lua
+  up9: function params=2 src=ReplicatedStorage.Components.Melee:? cname=isBackStab what=Lua
+  up10: function params=3 src=ReplicatedStorage.Components.Common.VFXLibary.BreakGlass:? what=Lua
+  up11: function params=4 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMarker:? what=Lua
+  up12: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up13: table keys=1 {vibrate:function}
+  up14: userdata HttpService
+  up15: userdata Mateo_081005
+  up16: table keys=12 {enableGroup:function, getActionKeybinds:function, registerAction:function, disableGroup:function, Initialize:function, isBindingPressed:function, isActionPressed:function, GetActionKeybind:function, Start:function, loadActionsFromDatabase:function, bindKeybinds:function, isActionActive:function}
+  up17: ERR
+  consts total=81
+  [1] str "getPlayerCharacter"
+  [2] str "Player"
+  [3] str "tick"
+F stopAllAnimations
+  params=1 src=ReplicatedStorage.Components.Melee:? cname=stopAllAnimations what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "CharacterAnimator"
+  [2] str "Viewmodel"
+  [3] str "Animation"
+  [4] str "cancelCrossfade"
+  [5] str "pairs"
+F unequip
+  params=1 src=ReplicatedStorage.Components.Melee:? cname=unequip what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "CharacterAnimator"
+  [2] str "stopAnimations"
+  [3] str "Viewmodel"
+  [4] str "unequip"
+  [5] str "IsInspectFadingOut"
+  [6] str "IsInspecting"
+  [7] str "IsShooting"
+  [8] str "IsFireHeld"

@@ -1,0 +1,46 @@
+PATH: ReplicatedStorage.MovementV2.Simulation.ProvenSimulator
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F createInitialState
+  params=1 src=ReplicatedStorage.MovementV2.Simulation.ProvenSimulator:? cname=createInitialState what=Lua protos=0[]
+  up1: ERR
+  consts total=31
+  [1] str "Tick"
+  [2] number 0
+  [3] str "Position"
+  [4] str "Velocity"
+  [5] vector
+  [6] str "OnGround"
+  [7] boolean false
+  [8] str "GroundSupportIsDynamicPlayer"
+  [9] str "GroundNormal"
+  [10] vector
+  [11] str "GroundSurfaceFriction"
+  [12] number 1
+  [13] str "WallNormal"
+  [14] str "DuckAmount"
+  [15] str "DuckTimeMsecs"
+  [16] str "IsDucking"
+  [17] str "DuckHeld"
+  [18] str "DuckFatigueLevel"
+  [19] number 80
+  [20] str "DuckFatigueTimerMsecs"
+  [21] str "MovementType"
+  [22] str "Walking"
+  [23] str "Stamina"
+  [24] number 100
+  [25] str "LastJumpTick"
+  [26] number -1024
+  [27] str "JumpHeld"
+  [28] str "JumpBufferTicksRemaining"
+  [29] str "JumpHullActive"
+  [30] str "StuckStepTicks"
+  [31] table
+F step
+  params=7 src=ReplicatedStorage.MovementV2.Simulation.ProvenSimulator:? cname=step what=Lua protos=2[activateJumpHull,evaluateGroundTrace]
+  ups: none
+  consts total=247
+  [1] str "SetSimulationTime"
+  [2] str "SimTime"
+  [3] str "typeof"

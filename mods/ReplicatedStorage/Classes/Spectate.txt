@@ -1,0 +1,242 @@
+PATH: ReplicatedStorage.Classes.Spectate
+REQUIRE: ok
+RETURNS: table
+KEYS: 14
+F AddSpectateEvent
+  params=2 src=ReplicatedStorage.Classes.Spectate:? cname=AddSpectateEvent what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Classes.Spectate:? cname=recreateSpectatedShotEffects what=Lua
+  up2: table keys=5 {Shoot:boolean, ShootRight:boolean, NoSuppressorShoot:boolean, SlamFire:boolean, ShootLeft:boolean}
+  up3: function params=1 src=ReplicatedStorage.Classes.Spectate:? cname=syncSpectatedRechargeAfterShot what=Lua
+  up4: table keys=1 {StartThrow:boolean}
+  up5: table keys=8 {Heavy Swing:boolean, Use:boolean, Throw:boolean, Swing1:boolean, Swing2:boolean, Inspect:boolean, BackStab:boolean, Reload:boolean}
+  up6: ERR
+  consts total=43
+  [1] str "WeaponComponent"
+  [2] str "Viewmodel"
+  [3] str "Animation"
+  [4] str "RevolverChargeStart"
+  [5] str "Bullet"
+  [6] str "Properties"
+  [7] str "ShootingOptions"
+  [8] str "Revolver"
+  [9] str "FireModes"
+  [10] str "Primary"
+  [11] str "Spread"
+  [12] str "setSpreadConfig"
+  [13] str "IsChargeFiring"
+  [14] str "tick"
+F Destroy
+  params=1 src=ReplicatedStorage.Classes.Spectate:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Janitor"
+  [2] str "Destroy"
+F HideDebrisWeapons
+  params=1 src=ReplicatedStorage.Classes.Spectate:? cname=HideDebrisWeapons what=Lua protos=0[]
+  up1: userdata Debris
+  up2: function params=2 src=ReplicatedStorage.Classes.Spectate:? cname=cacheAndHideInstance what=Lua
+  up3: ERR
+  consts total=9
+  [1] str "TransparencyState"
+  [2] str "Player"
+  [3] str "Name"
+  [4] str "_Weapon"
+  [5] str "FindFirstChild"
+  [6] str "ipairs"
+F Render
+  params=2 src=ReplicatedStorage.Classes.Spectate:? cname=Render what=Lua protos=0[]
+  up1: userdata Camera
+  up2: function params=2 src=ReplicatedStorage.Classes.Spectate:? cname=updateSpectatorAutomaticScope what=Lua
+  up3: ERR
+  consts total=8
+  [1] str "PerspectiveState"
+  [2] str "Free-Cam"
+  [3] str "CameraPositionSpring"
+  [4] str "CameraRotationSpring"
+  [5] str "update"
+  [6] str "First-Person"
+  [7] str "CFrame"
+  [8] str "lookAt"
+F SetCharacterTransparency
+  params=2 src=ReplicatedStorage.Classes.Spectate:? cname=SetCharacterTransparency what=Lua protos=4[processDebrisWeapon,#2,#3,#4]
+  up1: function params=2 src=ReplicatedStorage.Classes.Spectate:? cname=cacheAndHideInstance what=Lua
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: userdata Debris
+  up4: function params=2 src=ReplicatedStorage.Database.Components.Common.RemoveFromArray:? what=Lua
+  up5: ERR
+  consts total=26
+  [1] str "Character"
+  [2] str "GetDescendants"
+  [3] str "TransparencyJanitor"
+  [4] str "Janitor"
+  [5] str "new"
+  [6] str "Add"
+  [7] str "DescendantAdded"
+  [8] str "Connect"
+  [9] str "ChildAdded"
+  [10] str "ipairs"
+F SetEquipped
+  params=3 src=ReplicatedStorage.Classes.Spectate:? cname=SetEquipped what=Lua protos=2[#1,#2]
+  up1: table keys=2 {destroy:function, new:function}
+  up2: table keys=15 {_performRaycast:function, destroy:function, setBaseSpreadForConfig:function, new:function, getBaseSpread:function, create:function, updateSpread:function, getMovementSpreadForConfig:function, setActive:function, _updateShotSpread:function, getSpreadForConfig:function, setSpreadConfig:function, getTrueSpread:function, __index:table, getBaseSpreadForConfig:function}
+  up3: ERR
+  consts total=43
+  [1] str "WeaponComponent"
+  [2] str "Identifier"
+  [3] str "CurrentEquipped"
+  [4] str "IsSuppressed"
+  [5] str "Rounds"
+  [6] str "Capacity"
+  [7] str "RechargeStartTime"
+  [8] str "UpdateSuppressorState"
+  [9] str "SetWeaponViewmodelTransparency"
+  [10] str "Bullet"
+  [11] str "destroy"
+  [12] str "Janitor"
+  [13] str "Destroy"
+  [14] str "PerspectiveState"
+  [15] str "First-Person"
+  [16] str "pcall"
+F SetWeaponViewmodelTransparency
+  params=2 src=ReplicatedStorage.Classes.Spectate:? cname=SetWeaponViewmodelTransparency what=Lua protos=0[]
+  up1: ERR
+  consts total=15
+  [1] str "WeaponComponent"
+  [2] str "Viewmodel"
+  [3] str "Model"
+  [4] str "WeaponTransparencyCache"
+  [5] str "ipairs"
+F Switch
+  params=2 src=ReplicatedStorage.Classes.Spectate:? cname=Switch what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: userdata Camera
+  up3: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up4: table keys=24 {GAMEMODE_SUBPLACE_IDS:table, ADMINISTRATOR_FINISHER_WHITELIST:table, SHOP_VERSION:string, PRODUCTION_UNIVERSE_ID:number, ITEM_CATEGORIES:table, AIM_ASSIST_CONFIGS:table, VERSION:string, GAMEMODE_PLACE_IDS:table, MARKET_TAX_PERCENT:number, GetGamemodeFromServerGamemode:function, ACTIVE_EVENTS:table, ACTIVE_PLACE_ENVIRONMENT:string, ACTIVE_GAMEMODE_SUBPLACE_IDS:table, EVENT_END_TIMES:table, TRADING_PLACE_ID:number, VIP_MENU_PANEL_WHITELIST:table, PROMOTIONAL_REWARD_CREDITS:table, AIM_ASSIST_WHITELIST:table, INVENTORY_SORTING_OPTIONS:table, MARKETPLACE_SORTING_OPTIONS:table, SESSION_DATA:table, DEFAULT_CAMERA_FOV:number, MARKETPLACE_MAX_LISTING_PRICE:number, MINIMUM_CREDITS_FOR_SPECIAL_CREDITS_OPTI:number}
+  up5: table keys=13 {Render:function, UpdateCamera:function, ResetTouchInput:function, UpdateMouseWheel:function, Destroy:function, ReleaseEndedTouches:function, UpdateMovement:function, UpdateRotation:function, Stop:function, ShowTouchControls:function, Start:function, __index:table, new:function}
+  up6: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up7: ERR
+  consts total=35
+  [1] str "isAliveCharacter"
+  [2] str "Character"
+  [3] str "PerspectiveState"
+  [4] str "FreecamInstance"
+  [5] str "Stop"
+  [6] str "Destroy"
+  [7] str "First-Person"
+  [8] str "TransparencyState"
+  [9] str "SetCharacterTransparency"
+  [10] str "Enum"
+  [11] str "CameraType"
+  [12] str "Scriptable"
+  [13] userdata
+  [14] str "CameraPart"
+  [15] str "CameraSubject"
+  [16] str "CurrentEquipped"
+  [17] str "SetEquipped"
+  [18] str "UpdateScopeState"
+  [19] str "setPerspective"
+  [20] str "Third-Person"
+  [21] str "Follow"
+  [22] userdata
+  [23] str "WeaponComponent"
+  [24] str "Bullet"
+  [25] str "destroy"
+  [26] str "Janitor"
+  [27] str "updateCameraFOV"
+  [28] str "DEFAULT_CAMERA_FOV"
+  [29] str "Free-Cam"
+  [30] str "new"
+  [31] str "Add"
+  [32] str "Start"
+  [33] str "Spectate"
+  [34] str "SetSpectatePerspective"
+  [35] str "Send"
+F UpdateCameraCFrame
+  params=2 src=ReplicatedStorage.Classes.Spectate:? cname=UpdateCameraCFrame what=Lua protos=0[]
+  up1: table keys=12 {setGoal:function, setFrequency:function, setDampingRatio:function, getGoal:function, update:function, setPosition:function, reset:function, impulse:function, getPosition:function, getVelocity:function, __index:table, new:function}
+  up2: ERR
+  consts total=6
+  [1] str "CameraPositionSpring"
+  [2] str "CameraRotationSpring"
+  [3] str "new"
+  [4] str "LookVector"
+  [5] str "Position"
+  [6] str "setGoal"
+F UpdateScopeState
+  params=1 src=ReplicatedStorage.Classes.Spectate:? cname=UpdateScopeState what=Lua protos=0[]
+  up1: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up2: table keys=24 {GAMEMODE_SUBPLACE_IDS:table, ADMINISTRATOR_FINISHER_WHITELIST:table, SHOP_VERSION:string, PRODUCTION_UNIVERSE_ID:number, ITEM_CATEGORIES:table, AIM_ASSIST_CONFIGS:table, VERSION:string, GAMEMODE_PLACE_IDS:table, MARKET_TAX_PERCENT:number, GetGamemodeFromServerGamemode:function, ACTIVE_EVENTS:table, ACTIVE_PLACE_ENVIRONMENT:string, ACTIVE_GAMEMODE_SUBPLACE_IDS:table, EVENT_END_TIMES:table, TRADING_PLACE_ID:number, VIP_MENU_PANEL_WHITELIST:table, PROMOTIONAL_REWARD_CREDITS:table, AIM_ASSIST_WHITELIST:table, INVENTORY_SORTING_OPTIONS:table, MARKETPLACE_SORTING_OPTIONS:table, SESSION_DATA:table, DEFAULT_CAMERA_FOV:number, MARKETPLACE_MAX_LISTING_PRICE:number, MINIMUM_CREDITS_FOR_SPECIAL_CREDITS_OPTI:number}
+  up3: ERR
+  consts total=29
+  [1] str "PerspectiveState"
+  [2] str "First-Person"
+  [3] str "CurrentEquipped"
+  [4] str "Name"
+  [5] str "AWP"
+  [6] str "SSG 08"
+  [7] str "AUG"
+  [8] str "SG 553"
+  [9] number 0
+  [10] str "Player"
+  [11] str "ScopeIncrement"
+  [12] str "GetAttribute"
+  [13] str "WeaponComponent"
+  [14] str "Viewmodel"
+  [15] str "Bobble"
+  [16] str "ScopeReticlePart"
+  [17] str "SurfaceGui"
+  [18] str "FindFirstChildOfClass"
+  [19] str "Enabled"
+  [20] str "updateCameraFOV"
+  [21] str "DEFAULT_CAMERA_FOV"
+  [22] str "SetWeaponViewmodelTransparency"
+  [23] str "Hidden"
+  [24] str "hide"
+  [25] str "Scope"
+  [26] str "aim"
+  [27] number 15
+  [28] str "unhide"
+  [29] str "unaim"
+F UpdateSuppressor
+  params=1 src=ReplicatedStorage.Classes.Spectate:? cname=UpdateSuppressor what=Lua protos=3[Event,Event,#3]
+  up1: ERR
+  consts total=26
+  [1] str "WeaponComponent"
+  [2] str "Viewmodel"
+  [3] str "Model"
+  [4] str "Silencer"
+  [5] str "FindFirstChild"
+  [6] str "table"
+  [7] str "freeze"
+F UpdateSuppressorState
+  params=2 src=ReplicatedStorage.Classes.Spectate:? cname=UpdateSuppressorState what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "Viewmodel"
+  [2] str "Model"
+  [3] str "Silencer"
+  [4] str "FindFirstChild"
+  [5] str "Properties"
+  [6] str "HasSuppressor"
+  [7] str "CurrentEquipped"
+  [8] str "IsSuppressed"
+  [9] str "Transparency"
+K __index :table keys=14
+  {["Render"]=<function:function: 0x736a442644f7d4d6>, ["Destroy"]=<function:function: 0x365afb58ba11cc72>, ["UpdateSuppressorState"]=<function:function: 0xe370d4f4e8089cd3>, ["SetWeaponViewmodelTransparency"]=<function:function: 0x0b216424ae070667>, ["SetCharacterTransparency"]=<function:function: 0x5ef7dc60eadd25a3>, ["UpdateCameraCFrame"]=<function:function: 0x13de134185fa37cb>, ["new"]=<function:function: 0x6d816dba134b34a2>, ["SetEquipped"]=<function:function: 0xcd88f1eb3aeec87f>, ["AddSpectateEvent"]=<function:function: 0x5a468b6f9f06f556>, ["HideDebrisWeapons"]=<function:function: 0xd48a28b0626db928>, ["Switch"]=<function:function: 0x6ae1a605a9e535d6>, ["UpdateSuppressor"]=<function:function: 0x3bf60ea76b18260a>, ["__index"]=<cycle>, ["UpdateScopeState"]=<function:function: 0x4b2b551dcf4f4264>}
+F new
+  params=2 src=ReplicatedStorage.Classes.Spectate:? cname=new what=Lua protos=13[#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13]
+  up1: table keys=14 {Render:function, Destroy:function, UpdateSuppressorState:function, SetWeaponViewmodelTransparency:function, SetCharacterTransparency:function, UpdateCameraCFrame:function, new:function, SetEquipped:function, AddSpectateEvent:function, HideDebrisWeapons:function, Switch:function, UpdateSuppressor:function, __index:table, UpdateScopeState:function}
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up4: table keys=3 {Is:function, Wrap:function, new:function}
+  up5: userdata Mateo_081005
+  up6: userdata HttpService
+  up7: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up8: userdata Characters
+  up9: table keys=13 {Destroy:function, RetireVictimLocally:function, PrepareCharacter:function, FindCharacter:function, RetireCorpseLocally:function, Rig:table, OnceAppearanceReady:function, HideCharacterLocally:function, SetupCharacterAppearance:function, ActivateCharacter:function, DestroyAll:function, __index:table, new:function}
+  up10: table keys=7 {equalObjects:function, Dictionary:table, List:table, Set:table, isEmpty:function, Array:table, None:userdata}
+  up11: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up12: table keys=24 {GAMEMODE_SUBPLACE_IDS:table, ADMINISTRATOR_FINISHER_WHITELIST:table, SHOP_VERSION:string, PRODUCTION_UNIVERSE_ID:number, ITEM_CATEGORIES:table, AIM_ASSIST_CONFIGS:table, VERSION:string, GAMEMODE_PLACE_IDS:table, MARKET_TAX_PERCENT:number, GetGamemodeFromServerGamemode:function, ACTIVE_EVENTS:table, ACTIVE_PLACE_ENVIRONMENT:string, ACTIVE_GAMEMODE_SUBPLACE_IDS:table, EVENT_END_TIMES:table, TRADING_PLACE_ID:number, VIP_MENU_PANEL_WHITELIST:table, PROMOTIONAL_REWARD_CREDITS:table, AIM_ASSIST_WHITELIST:table, INVENTORY_SORTING_OPTIONS:table, MARKETPLACE_SORTING_OPTIONS:table, SESSION_DATA:table, DEFAULT_CAMERA_FOV:number, MARKETPLACE_MAX_LISTING_PRICE:number, MINIMUM_CREDITS_FOR_SPECIAL_CREDITS_OPTI:number}
+  up13: ERR
+  consts total=53
+  [1] str "setmetatable"

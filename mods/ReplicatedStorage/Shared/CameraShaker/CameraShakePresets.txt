@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Shared.CameraShaker.CameraShakePresets
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

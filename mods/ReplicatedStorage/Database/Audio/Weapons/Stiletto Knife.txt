@@ -1,0 +1,18 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.Stiletto Knife
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K BackStab :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=139973941520045}}
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=112217575637504}}
+K HitOne :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=81734984370986}}
+K HitThree :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=133015880124851}}
+K HitTwo :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=105560097678167}}
+K Inspect :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=116631884985433}}
+K Inspect2 :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=0}}

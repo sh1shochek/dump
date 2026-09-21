@@ -1,0 +1,22 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.RoundWonCT
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RoundWon:? cname=Initialize what=Lua protos=0[]
+  up1: table keys=2 {Terrorists:table, Counter-Terrorists:table}
+  up2: string "Counter-Terrorists"
+  up3: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RoundWon:? cname=ensureListenersInitialized what=Lua
+  up4: ERR
+  consts total=11
+  [1] str "winningTeam"
+  [2] str "roundWonFrame"
+  [3] str "mainGui"
+  [4] str "playerMVPCTFrame"
+  [5] str "playerMVPTFrame"
+  [6] table
+  [7] str "Gameplay"
+  [8] str "Middle"
+  [9] str "PlayerMVPCT"
+  [10] str "FindFirstChild"
+  [11] str "PlayerMVPT"

@@ -1,0 +1,18 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.Gut Knife
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K BackStab :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=139973941520045}}
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=112957806482618}}
+K Handling2 :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=104913414188509}}
+K HitOne :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=129823041185142}}
+K HitThree :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=107100833141403}}
+K HitTwo :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=102883547697009}}
+K Inspect :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=50, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=139735742874575}}

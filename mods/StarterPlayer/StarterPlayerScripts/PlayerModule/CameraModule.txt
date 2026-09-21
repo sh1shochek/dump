@@ -1,0 +1,4 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

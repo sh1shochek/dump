@@ -1,0 +1,177 @@
+PATH: ReplicatedStorage.Interface.MenuState
+REQUIRE: ok
+RETURNS: table
+KEYS: 29
+F EnterCaseScene
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=EnterCaseScene what=Lua protos=0[]
+  up1: boolean false
+  consts total=2
+  [1] str "OnCaseSceneStateChanged"
+  [2] str "Fire"
+F EnterInspect
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=EnterInspect what=Lua protos=0[]
+  up1: boolean false
+  consts total=2
+  [1] str "OnInspectStateChanged"
+  [2] str "Fire"
+F EnterTradeUp
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=EnterTradeUp what=Lua protos=0[]
+  up1: boolean false
+  up2: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up3: ERR
+  consts total=2
+  [1] str "OnTradeUpStateChanged"
+  [2] str "Fire"
+F ExitCaseScene
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=ExitCaseScene what=Lua protos=0[]
+  up1: boolean false
+  up2: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  consts total=2
+  [1] str "OnCaseSceneStateChanged"
+  [2] str "Fire"
+F ExitInspect
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=ExitInspect what=Lua protos=0[]
+  up1: boolean false
+  up2: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  consts total=2
+  [1] str "OnInspectStateChanged"
+  [2] str "Fire"
+F ExitTradeUp
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=ExitTradeUp what=Lua protos=0[]
+  up1: boolean false
+  up2: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up3: ERR
+  consts total=2
+  [1] str "OnTradeUpStateChanged"
+  [2] str "Fire"
+F GetCurrentScreen
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=GetCurrentScreen what=Lua protos=0[]
+  ups: none
+  consts total=0
+F GetMainGui
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=GetMainGui what=Lua protos=0[]
+  up1: userdata MainGui
+  up2: userdata PlayerGui
+  up3: ERR
+  consts total=2
+  [1] str "MainGui"
+  [2] str "FindFirstChild"
+F GetMenuFrame
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=GetMenuFrame what=Lua protos=0[]
+  up1: userdata MainGui
+  up2: userdata PlayerGui
+  up3: ERR
+  consts total=3
+  [1] str "MainGui"
+  [2] str "FindFirstChild"
+  [3] str "Menu"
+F GetNextBumperTab
+  params=4 src=ReplicatedStorage.Interface.MenuState:? cname=GetNextBumperTab what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "ipairs"
+F GetScreenBeforeCaseScene
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=GetScreenBeforeCaseScene what=Lua protos=0[]
+  ups: none
+  consts total=0
+F GetScreenBeforeInspect
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=GetScreenBeforeInspect what=Lua protos=0[]
+  ups: none
+  consts total=0
+F HandleBumperInput
+  params=1 src=ReplicatedStorage.Interface.MenuState:? cname=HandleBumperInput what=Lua protos=0[]
+  up1: table keys=4 {1:table, 2:table, 3:table, 4:table}
+  up2: function params=1 src=ReplicatedStorage.Interface.MenuState:? cname=isEffectivelyVisible what=Lua
+  up3: ERR
+  consts total=4
+  [1] str "ipairs"
+F HideMenu
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=HideMenu what=Lua protos=0[]
+  up1: userdata MainGui
+  up2: userdata PlayerGui
+  up3: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up4: ERR
+  consts total=5
+  [1] str "MainGui"
+  [2] str "FindFirstChild"
+  [3] str "Menu"
+  [4] str "Visible"
+  [5] str "SetScreen"
+F Initialize
+  params=1 src=ReplicatedStorage.Interface.MenuState:? cname=Initialize what=Lua protos=0[]
+  up1: userdata MainGui
+  up2: userdata Menu
+  up3: userdata Lighting
+  up4: ERR
+  consts total=2
+  [1] str "Menu"
+  [2] str "FindFirstChild"
+F IsCaseSceneActive
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=IsCaseSceneActive what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F IsInspectActive
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=IsInspectActive what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F IsPreservableScreen
+  params=1 src=ReplicatedStorage.Interface.MenuState:? cname=IsPreservableScreen what=Lua protos=0[]
+  up1: table keys=8 {Inventory:boolean, GlobalMarketPlace:boolean, Settings:boolean, Progression:boolean, Career:boolean, Store:boolean, Loadout:boolean, Gamemodes:boolean}
+  up2: ERR
+  consts total=0
+F IsStoreEnabled
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=IsStoreEnabled what=Lua protos=0[]
+  up1: userdata ReplicatedStorage
+  up2: ERR
+  consts total=3
+  [1] str "Environment"
+  [2] str "GetAttribute"
+  [3] str "Production"
+F IsTradeUpActive
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=IsTradeUpActive what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+K OnCaseSceneStateChanged :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x628c96921338af88>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0x5dc7cfbe2c96c301>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}}
+K OnInspectStateChanged :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x90c280f67532e78e>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0xf98ea5e8b8b1908c>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0xc4ab3098f61bcc03>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0x3c28ffed0da8bdf3>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={...}}}}}}
+K OnScreenChanged :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x8d0ad717cd922a5b>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0x69137bccd18659b5>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0xe443b32707b2107b>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0x1a516fc89c11a751>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={...}}}}}}
+K OnTradeUpStateChanged :table keys=1
+  {["_handlerListHead"]=false}
+F RegisterBumperOverride
+  params=2 src=ReplicatedStorage.Interface.MenuState:? cname=RegisterBumperOverride what=Lua protos=0[]
+  up1: table keys=4 {1:table, 2:table, 3:table, 4:table}
+  up2: ERR
+  consts total=7
+  [1] str "ipairs"
+F SetBlurEnabled
+  params=1 src=ReplicatedStorage.Interface.MenuState:? cname=SetBlurEnabled what=Lua protos=0[]
+  up1: userdata Menu
+  up2: userdata Lighting
+  up3: ERR
+  consts total=3
+  [1] str "Menu"
+  [2] str "FindFirstChild"
+  [3] str "Enabled"
+F SetScreen
+  params=1 src=ReplicatedStorage.Interface.MenuState:? cname=SetScreen what=Lua protos=0[]
+  ups: none
+  consts total=4
+  [1] str "Store"
+  [2] str "IsStoreEnabled"
+  [3] str "OnScreenChanged"
+  [4] str "Fire"
+F SetWantsMainMenu
+  params=1 src=ReplicatedStorage.Interface.MenuState:? cname=SetWantsMainMenu what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F WantsMainMenu
+  params=0 src=ReplicatedStorage.Interface.MenuState:? cname=WantsMainMenu what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0

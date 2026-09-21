@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Database.Audio.Round
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K Buy Phase :table keys=2
+  {["Properties"]={["Looped"]=false, ["Volume"]=0.4}, ["Identifiers"]={[1]=123965984428799}}
+K Counter-Terrorists Win :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=122096021663409}}
+K Draw :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=140006209772214}}
+K MVP :table keys=2
+  {["Properties"]={["Volume"]=0.333, ["Looped"]=false, ["RollOffMaxDistance"]=0, ["RollOffMinDistance"]=0}, ["Identifiers"]={[1]=95976833351497}}
+K Round Start Countdown :table keys=2
+  {["Properties"]={["Volume"]=1.5}, ["Identifiers"]={[1]=106852418809066}}
+K Terrorists Win :table keys=2
+  {["Properties"]={["Volume"]=1}, ["Identifiers"]={[1]=107650241796316}}

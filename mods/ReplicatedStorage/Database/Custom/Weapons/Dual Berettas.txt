@@ -1,0 +1,39 @@
+PATH: ReplicatedStorage.Database.Custom.Weapons.Dual Berettas
+REQUIRE: ok
+RETURNS: table
+KEYS: 32
+K AimingOptions :string = None
+K ArmorPenetration :number = 0.575
+K Automatic :boolean = false
+K BulletsPerShot :number = 1
+K CameraAnimations :userdata CameraAnimations
+K Capacity :number = 120
+K CharacterAnimations :userdata CharacterAnimations
+K Class :string = Weapon
+K Cost :number = 300
+K DamagePerPart :table keys=4
+  {["Arms"]=38, ["Torso"]=47, ["Legs"]=28, ["Head"]=152}
+K Droppable :boolean = true
+K FireRate :number = 0.12
+K HasScope :boolean = false
+K HasSuppressor :boolean = false
+K Icon :string = rbxassetid://111854065134079
+K MuzzleType :string = Pistol
+K Penetration :number = 0.14
+K RagdollMultiplier :number = 35
+K Range :number = 1200
+K RangeModifier :number = 0.85
+K Recoil :table keys=6
+  {["Pattern"]=<function:function: 0xba0f392cdc740749>, ["Damper"]=1, ["RecoverySpeed"]=4, ["Scale"]=2.3, ["Speed"]=23, ["CameraScale"]=0.4}
+K ReloadAnimationCount :number = 1
+K ReverseIcon :string = rbxassetid://110860310038065
+K Rounds :number = 30
+K ShootingOptions :string = Dual
+K ShowCrosshair :boolean = true
+K Slot :string = Secondary
+K Spread :table keys=5
+  {["JumpShotMinimum"]=45, ["RecoverySpeed"]=3, ["PerShot"]=2.125, ["Range"]=<userdata:1 5.25 >, ["MovementMultiplier"]=0.2}
+K Team :string = Both
+K Type :string = Pistol
+K WalkSpeed :number = 19.392
+K WallbangMultiplier :number = 0.4

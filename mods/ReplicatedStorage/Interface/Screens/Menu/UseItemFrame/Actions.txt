@@ -1,0 +1,39 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Actions
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F DestroyAll
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=DestroyAll what=Lua protos=0[]
+  up1: table keys=1 {AttachCharm:table}
+  up2: ERR
+  consts total=1
+  [1] str "pairs"
+F Get
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=Get what=Lua protos=0[]
+  up1: table keys=1 {AttachCharm:table}
+  up2: ERR
+  consts total=0
+F GetAllTypes
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=GetAllTypes what=Lua protos=0[]
+  up1: table keys=1 {AttachCharm:table}
+  up2: ERR
+  consts total=4
+  [1] str "pairs"
+F Has
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=Has what=Lua protos=0[]
+  up1: table keys=1 {AttachCharm:table}
+  up2: ERR
+  consts total=0
+F InitializeAll
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=InitializeAll what=Lua protos=0[]
+  up1: table keys=1 {AttachCharm:table}
+  up2: ERR
+  consts total=1
+  [1] str "pairs"
+F Register
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.UseItemFrame.Action:? cname=Register what=Lua protos=0[]
+  up1: table keys=1 {AttachCharm:table}
+  up2: ERR
+  consts total=5
+  [1] str "ActionType"
+  [2] str "warn"

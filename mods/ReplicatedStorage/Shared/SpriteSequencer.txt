@@ -1,0 +1,25 @@
+PATH: ReplicatedStorage.Shared.SpriteSequencer
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F fromRange
+  params=3 src=ReplicatedStorage.Shared.SpriteSequencer:? cname=fromRange what=Lua protos=0[]
+  up1: table keys=2 {fromRange:function, new:function}
+  up2: ERR
+  consts total=5
+  [1] str ".fromRange only accepts positive ranges"
+  [2] str "assert"
+F new
+  params=2 src=ReplicatedStorage.Shared.SpriteSequencer:? cname=new what=Lua protos=4[play,isPlaying,_nextFrame,stop]
+  up1: number 162
+  up2: table keys=0 {}
+  up3: ERR
+  consts total=8
+  [1] str "looping"
+  [2] boolean false
+  [3] str "cells"
+  [4] str "framerate"
+  [5] table
+  [6] str "play"
+  [7] str "isPlaying"
+  [8] str "tick"

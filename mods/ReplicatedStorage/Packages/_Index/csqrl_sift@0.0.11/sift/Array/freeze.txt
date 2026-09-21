@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Array.freeze
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=freeze what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=clone what=C
+  up2: ERR
+  consts total=2
+  [1] str "table"
+  [2] str "freeze"

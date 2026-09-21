@@ -1,0 +1,172 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSelection
+REQUIRE: ok
+RETURNS: table
+KEYS: 10
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=Initialize what=Lua protos=7[#1,#2,#3,#4,#5,#6,#7]
+  up1: userdata TeamSelection
+  up2: userdata MainGui
+  up3: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up4: table keys=10 {shouldUseMapCamera:function, isVisible:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, updatePlayerList:function, chooseTeam:function, createTeamButtonAnimation:function, ToggleTeamSelection:function}
+  up5: userdata Mateo_081005
+  up6: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up7: function params=1 src=ReplicatedStorage.Components.Common.GetTimerFormat:? what=Lua
+  up8: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=updateTeamAvailabilityStyles what=Lua
+  up9: ERR
+  consts total=13
+  [1] str "observePlayer"
+  [2] str "observeAttribute"
+  [3] str "Team"
+  [4] str "workspace"
+  [5] userdata
+  [6] str "Timer"
+  [7] str "CharacterAdded"
+  [8] str "Connect"
+  [9] str "VIPDisableTeamLimitEnabled"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=Start what=Lua protos=3[#1,#2,#3]
+  up1: userdata TeamSelection
+  up2: table keys=10 {shouldUseMapCamera:function, isVisible:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, updatePlayerList:function, chooseTeam:function, createTeamButtonAnimation:function, ToggleTeamSelection:function}
+  up3: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=createButtonAnimation what=Lua
+  up4: userdata Mateo_081005
+  up5: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=retrieveTeamCount what=Lua
+  up6: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up7: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up8: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up9: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up10: userdata ReplicatedStorage
+  up11: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up12: userdata MainGui
+  up13: ERR
+  consts total=13
+  [1] str "Counter-Terrorists"
+  [2] str "Button"
+  [3] str "MouseButton1Click"
+  [4] str "Connect"
+  [5] str "createTeamButtonAnimation"
+  [6] str "Bottom"
+  [7] str "Buttons"
+  [8] str "Spectate"
+  [9] str "Spectators"
+  [10] str "Terrorists"
+  [11] str "AutoSelect"
+F ToggleTeamSelection
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=ToggleTeamSelection what=Lua protos=0[]
+  up1: table keys=6 {Begin:function, Initialize:function, ExitMapVoteToMenu:function, _runSequence:function, IsActive:function, _finishSequence:function}
+  up2: userdata TeamSelection
+  up3: table keys=10 {shouldUseMapCamera:function, isVisible:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, updatePlayerList:function, chooseTeam:function, createTeamButtonAnimation:function, ToggleTeamSelection:function}
+  up4: ERR
+  consts total=4
+  [1] str "IsActive"
+  [2] str "Visible"
+  [3] str "closeFrame"
+  [4] str "openFrame"
+F chooseTeam
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=chooseTeam what=Lua protos=0[]
+  up1: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up2: userdata Mateo_081005
+  up3: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up4: table keys=10 {shouldUseMapCamera:function, isVisible:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, updatePlayerList:function, chooseTeam:function, createTeamButtonAnimation:function, ToggleTeamSelection:function}
+  up5: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=isTeamAvailable what=Lua
+  up6: number 1790005787.6065936
+  up7: ERR
+  consts total=18
+  [1] str "SetWantsMainMenu"
+  [2] str "Team"
+  [3] str "GetAttribute"
+  [4] str "Spectators"
+  [5] str "IsSpectating"
+  [6] str "Spectate"
+  [7] str "StartSpectating"
+  [8] str "Send"
+  [9] str "closeFrame"
+  [10] str "tick"
+F closeFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=closeFrame what=Lua protos=0[]
+  up1: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up2: userdata Mateo_081005
+  consts total=39
+  [1] str "setForceLockOverride"
+  [2] str "TeamSelection"
+  [3] str "Character"
+  [4] str "Menu"
+  [5] str "IsSpectating"
+  [6] str "GetAttribute"
+  [7] str "setPerspective"
+  [8] str "updateCameraFOV"
+  [9] str "Visible"
+  [10] str "SetScreen"
+  [11] str "Gameplay"
+  [12] str "Bottom"
+  [13] str "Middle"
+  [14] str "Crosshair"
+  [15] str "Top"
+  [16] str "table"
+  [17] str "find"
+F createTeamButtonAnimation
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=createTeamButtonAnimation what=Lua protos=2[#1,#2]
+  up1: userdata TeamSelection
+  up2: table keys=2 {Counter-Terrorists:boolean, Terrorists:boolean}
+  up3: ERR
+  consts total=4
+  [1] str "FindFirstChild"
+  [2] str "MouseEnter"
+  [3] str "Connect"
+  [4] str "MouseLeave"
+F isVisible
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=isVisible what=Lua protos=0[]
+  up1: userdata TeamSelection
+  up2: userdata MainGui
+  up3: ERR
+  consts total=6
+  [1] str "Visible"
+  [2] str "Gameplay"
+  [3] str "FindFirstChild"
+  [4] str "Bottom"
+  [5] str "GuiObject"
+  [6] str "IsA"
+F openFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=openFrame what=Lua protos=0[]
+  up1: table keys=6 {Begin:function, Initialize:function, ExitMapVoteToMenu:function, _runSequence:function, IsActive:function, _finishSequence:function}
+  up2: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up3: userdata TeamSelection
+  up4: userdata MainGui
+  up5: userdata ReplicatedStorage
+  consts total=44
+  [1] str "IsActive"
+  [2] str "IsCaseSceneActive"
+  [3] str "IsInspectActive"
+  [4] str "Visible"
+  [5] str "Menu"
+  [6] str "GetCurrentScreen"
+  [7] str "IsPreservableScreen"
+  [8] str "FindFirstChild"
+  [9] str "require"
+F shouldUseMapCamera
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=shouldUseMapCamera what=Lua protos=0[]
+  up1: table keys=10 {shouldUseMapCamera:function, isVisible:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, updatePlayerList:function, chooseTeam:function, createTeamButtonAnimation:function, ToggleTeamSelection:function}
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: userdata Mateo_081005
+  up4: ERR
+  consts total=3
+  [1] str "isVisible"
+  [2] str "isAliveCharacter"
+  [3] str "Character"
+F updatePlayerList
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=updatePlayerList what=Lua protos=2[#1,#2]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata TeamSelection
+  up3: userdata ReplicatedStorage
+  up4: userdata Players
+  up5: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=retrieveTeamCount what=Lua
+  up6: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.TeamSele:? cname=updateTeamAvailabilityStyles what=Lua
+  up7: ERR
+  consts total=8
+  [1] str "mark"
+  [2] str "UI.TeamSelection.UpdatePlayerList"
+  [3] str "Team"
+  [4] str "GetAttribute"
+  [5] str "Counter-Terrorists"
+  [6] str "Terrorists"
+  [7] str "UserId"
+  [8] str "tostring"

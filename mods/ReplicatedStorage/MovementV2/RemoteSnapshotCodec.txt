@@ -1,0 +1,118 @@
+PATH: ReplicatedStorage.MovementV2.RemoteSnapshotCodec
+REQUIRE: ok
+RETURNS: table
+KEYS: 24
+K ActorSize :number = 43
+K DeltaField :table keys=8
+  {["LookYaw"]=4, ["VerticalLook"]=8, ["Movement"]=16, ["Position"]=1, ["ValidMask"]=127, ["Velocity"]=2, ["Support"]=64, ["DuckAmount"]=32}
+K HeaderSize :number = 29
+K MaxActorSize :number = 43
+K MaxActorsPerPacket :number = 22
+K MaxEncodedVelocity :number = 4095.875
+K MaxRecordsPerPacket :number = 22
+K MaxWireSize :number = 975
+K MinActorSize :number = 3
+K PositionDeltaScale :number = 512
+K VelocityScale :number = 8
+K Version :number = 5
+F actorsWireEqual
+  params=2 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=actorsWireEqual what=Lua protos=0[]
+  up1: table keys=24 {MaxRecordsPerPacket:number, validateDelta:function, PositionDeltaScale:number, ActorSize:number, applyDeltaToCanonicalBaseline:function, validateActor:function, DeltaField:table, deltaFromBaseline:function, HeaderSize:number, decode:function, MaxEncodedVelocity:number, MaxWireSize:number, encode:function, validate:function, MaxActorsPerPacket:number, encodeValidated:function, MinActorSize:number, VelocityScale:number, Version:number, deltaFromCanonicalBaseline:function, canonicalizeActor:function, actorsWireEqual:function, applyDelta:function, MaxActorSize:number}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=actorStatesEqual what=Lua
+  up3: ERR
+  consts total=1
+  [1] str "canonicalizeActor"
+F applyDelta
+  params=2 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=applyDelta what=Lua protos=0[]
+  up1: table keys=24 {MaxRecordsPerPacket:number, validateDelta:function, PositionDeltaScale:number, ActorSize:number, applyDeltaToCanonicalBaseline:function, validateActor:function, DeltaField:table, deltaFromBaseline:function, HeaderSize:number, decode:function, MaxEncodedVelocity:number, MaxWireSize:number, encode:function, validate:function, MaxActorsPerPacket:number, encodeValidated:function, MinActorSize:number, VelocityScale:number, Version:number, deltaFromCanonicalBaseline:function, canonicalizeActor:function, actorsWireEqual:function, applyDelta:function, MaxActorSize:number}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=applyDeltaToCanonicalBaseline what=Lua
+  up3: ERR
+  consts total=1
+  [1] str "canonicalizeActor"
+F applyDeltaToCanonicalBaseline
+  params=2 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=applyDeltaToCanonicalBaseline what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=applyDeltaToCanonicalBaseline what=Lua
+  up2: ERR
+  consts total=0
+F canonicalizeActor
+  params=1 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=canonicalizeActor what=Lua protos=0[]
+  up1: table keys=24 {MaxRecordsPerPacket:number, validateDelta:function, PositionDeltaScale:number, ActorSize:number, applyDeltaToCanonicalBaseline:function, validateActor:function, DeltaField:table, deltaFromBaseline:function, HeaderSize:number, decode:function, MaxEncodedVelocity:number, MaxWireSize:number, encode:function, validate:function, MaxActorsPerPacket:number, encodeValidated:function, MinActorSize:number, VelocityScale:number, Version:number, deltaFromCanonicalBaseline:function, canonicalizeActor:function, actorsWireEqual:function, applyDelta:function, MaxActorSize:number}
+  up2: buffer buffer: 0x5b375c6e0f46b99b
+  up3: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up4: ERR
+  consts total=30
+  [1] str "validateActor"
+  [2] str "UserId"
+  [3] str "ActorId"
+  [4] str "Generation"
+  [5] str "Position"
+  [6] str "Velocity"
+  [7] str "LookYaw"
+  [8] str "VerticalLook"
+  [9] str "MovementMode"
+  [10] str "Stance"
+  [11] str "OnGround"
+  [12] str "DuckAmount"
+  [13] str "SupportKind"
+  [14] str "SupportSourceId"
+  [15] table
+  [16] str "X"
+  [17] str "buffer"
+  [18] str "writef32"
+F decode
+  params=1 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=decode what=Lua protos=0[]
+  up1: table keys=24 {MaxRecordsPerPacket:number, validateDelta:function, PositionDeltaScale:number, ActorSize:number, applyDeltaToCanonicalBaseline:function, validateActor:function, DeltaField:table, deltaFromBaseline:function, HeaderSize:number, decode:function, MaxEncodedVelocity:number, MaxWireSize:number, encode:function, validate:function, MaxActorsPerPacket:number, encodeValidated:function, MinActorSize:number, VelocityScale:number, Version:number, deltaFromCanonicalBaseline:function, canonicalizeActor:function, actorsWireEqual:function, applyDelta:function, MaxActorSize:number}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=readFullActor what=Lua
+  up3: function params=2 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=readDeltaActor what=Lua
+  up4: function params=4 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=readUnsignedVarint what=Lua
+  up5: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up6: ERR
+  consts total=49
+  [1] str "typeof"
+F deltaFromBaseline
+  params=2 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=deltaFromBaseline what=Lua protos=0[]
+  up1: table keys=24 {MaxRecordsPerPacket:number, validateDelta:function, PositionDeltaScale:number, ActorSize:number, applyDeltaToCanonicalBaseline:function, validateActor:function, DeltaField:table, deltaFromBaseline:function, HeaderSize:number, decode:function, MaxEncodedVelocity:number, MaxWireSize:number, encode:function, validate:function, MaxActorsPerPacket:number, encodeValidated:function, MinActorSize:number, VelocityScale:number, Version:number, deltaFromCanonicalBaseline:function, canonicalizeActor:function, actorsWireEqual:function, applyDelta:function, MaxActorSize:number}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=deltaFromCanonicalBaseline what=Lua
+  up3: ERR
+  consts total=1
+  [1] str "canonicalizeActor"
+F deltaFromCanonicalBaseline
+  params=2 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=deltaFromCanonicalBaseline what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=deltaFromCanonicalBaseline what=Lua
+  up2: ERR
+  consts total=0
+F encode
+  params=1 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=encode what=Lua protos=0[]
+  up1: table keys=24 {MaxRecordsPerPacket:number, validateDelta:function, PositionDeltaScale:number, ActorSize:number, applyDeltaToCanonicalBaseline:function, validateActor:function, DeltaField:table, deltaFromBaseline:function, HeaderSize:number, decode:function, MaxEncodedVelocity:number, MaxWireSize:number, encode:function, validate:function, MaxActorsPerPacket:number, encodeValidated:function, MinActorSize:number, VelocityScale:number, Version:number, deltaFromCanonicalBaseline:function, canonicalizeActor:function, actorsWireEqual:function, applyDelta:function, MaxActorSize:number}
+  up2: function params=1 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=encodeValidated what=Lua
+  up3: ERR
+  consts total=1
+  [1] str "validate"
+F encodeValidated
+  params=1 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=encodeValidated what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=encodeValidated what=Lua
+  up2: ERR
+  consts total=0
+F validate
+  params=1 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=validate what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=24 {MaxRecordsPerPacket:number, validateDelta:function, PositionDeltaScale:number, ActorSize:number, applyDeltaToCanonicalBaseline:function, validateActor:function, DeltaField:table, deltaFromBaseline:function, HeaderSize:number, decode:function, MaxEncodedVelocity:number, MaxWireSize:number, encode:function, validate:function, MaxActorsPerPacket:number, encodeValidated:function, MinActorSize:number, VelocityScale:number, Version:number, deltaFromCanonicalBaseline:function, canonicalizeActor:function, actorsWireEqual:function, applyDelta:function, MaxActorSize:number}
+  up3: ERR
+  consts total=50
+  [1] str "typeof"
+F validateActor
+  params=1 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=validateActor what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up3: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up4: ERR
+  consts total=55
+  [1] str "typeof"
+F validateDelta
+  params=1 src=ReplicatedStorage.MovementV2.RemoteSnapshotCodec:? cname=validateDelta what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up3: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up4: ERR
+  consts total=70
+  [1] str "typeof"

@@ -1,0 +1,168 @@
+PATH: ReplicatedStorage.Controllers.CaseSceneController
+REQUIRE: ok
+RETURNS: table
+KEYS: 17
+F ApplyCaseSceneLighting
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=ApplyCaseSceneLighting what=Lua protos=0[]
+  up1: boolean false
+  consts total=1
+  [1] str "ApplyMenuSceneLighting"
+F BeginConsoleOpening
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=BeginConsoleOpening what=Lua protos=1[#1]
+  ups: none
+  consts total=17
+  [1] str "ConsoleAnimator"
+  [2] str "Remove"
+  [3] str "new"
+  [4] str "Cancel"
+  [5] str "Add"
+  [6] str "Start"
+  [7] str "RenderStepped"
+  [8] str "Wait"
+  [9] str "CaseFall"
+  [10] str "ConsoleEnterAnimationFreeze"
+  [11] str "IsPlaying"
+  [12] number 0.1
+  [13] str "Stop"
+  [14] str "ConsoleEnterSound"
+  [15] str "Unboxing"
+  [16] str "SetSceneReady"
+  [17] str "TransitionToUnboxing"
+F CancelConsoleOpening
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=CancelConsoleOpening what=Lua protos=0[]
+  ups: none
+  consts total=9
+  [1] str "ConsoleAnimator"
+  [2] str "Remove"
+  [3] str "ConsoleOpenSound"
+  [4] str "CaseOpening"
+  [5] str "IsPlaying"
+  [6] number 0.1
+  [7] str "Stop"
+  [8] str "Unboxing"
+  [9] str "TransitionToInspecting"
+F GetCurrentState
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=GetCurrentState what=Lua protos=0[]
+  ups: none
+  consts total=0
+F GetSceneConfig
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=GetSceneConfig what=Lua protos=0[]
+  ups: none
+  consts total=0
+F GetSceneName
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=GetSceneName what=Lua protos=0[]
+  ups: none
+  consts total=0
+F HideCaseScene
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=HideCaseScene what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=DebugLog what=Lua
+  up2: boolean false
+  consts total=32
+  [1] str "HideCaseScene called"
+  [2] str "  IsCaseSceneActive:"
+  [3] str "  skipFrameRestore:"
+  [4] boolean false
+  [5] str "  BLOCKED: Scene not active"
+  [6] str "ConsoleAnimator"
+  [7] str "Remove"
+  [8] str "  Running CaseSceneJanitor:Cleanup()"
+  [9] str "Cleanup"
+  [10] str "Enum"
+  [11] str "CameraType"
+  [12] str "Custom"
+  [13] userdata
+  [14] str "setFOVLock"
+  [15] str "CaseScene"
+  [16] str "updateCameraFOV"
+  [17] str "DEFAULT_CAMERA_FOV"
+  [18] str "require"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=Initialize what=Lua protos=6[setupScene,#2,#3,#4,#5,#6]
+  up1: userdata ReplicatedStorage
+  up2: table keys=5 {RegisterScene:function, GetConfig:function, RegisterCaseTypeMapping:function, GetSceneForCaseType:function, GetAllSceneNames:function}
+  up3: userdata UserInputService
+  up4: boolean false
+  up5: table keys=17 {BeginConsoleOpening:function, GetSceneConfig:function, ResolveConsoleOpening:function, GetSceneName:function, IsConsoleOpening:function, GetCurrentState:function, TransitionToInspecting:function, TransitionToUnboxing:function, ApplyCaseSceneLighting:function, ShowCaseScene:function, Start:function, HideCaseScene:function, Initialize:function, SkipConsoleOpening:function, IsActive:function, WaitForOpeningAnimation:function, CancelConsoleOpening:function}
+  up6: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up7: ERR
+  consts total=16
+  [1] str "Assets"
+  [2] str "FindFirstChild"
+  [3] str "warn"
+F IsActive
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=IsActive what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F IsConsoleOpening
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=IsConsoleOpening what=Lua protos=0[]
+  ups: none
+  consts total=0
+F ResolveConsoleOpening
+  params=2 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=ResolveConsoleOpening what=Lua protos=0[]
+  ups: none
+  consts total=1
+  [1] str "Resolve"
+F ShowCaseScene
+  params=2 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=ShowCaseScene what=Lua protos=4[#1,#2,#3,#4]
+  up1: function params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=DebugLog what=Lua
+  up2: boolean false
+  up3: table keys=5 {RegisterScene:function, GetConfig:function, RegisterCaseTypeMapping:function, GetSceneForCaseType:function, GetAllSceneNames:function}
+  consts total=57
+  [1] str "ShowCaseScene called"
+  [2] str "  caseType:"
+  [3] str "nil"
+  [4] str "  caseName:"
+  [5] str "  IsCaseSceneActive:"
+  [6] str "  BLOCKED: Scene already active"
+  [7] str "GetSceneForCaseType"
+  [8] str "Case"
+  [9] str "  sceneName:"
+  [10] str "GetConfig"
+  [11] str "warn"
+F SkipConsoleOpening
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=SkipConsoleOpening what=Lua protos=0[]
+  ups: none
+  consts total=1
+  [1] str "Skip"
+F Start
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=Start what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F TransitionToInspecting
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=TransitionToInspecting what=Lua protos=0[]
+  up1: boolean false
+  consts total=9
+  [1] str "Inspecting"
+  [2] str "Camera"
+  [3] str "FindFirstChild"
+  [4] str "warn"
+F TransitionToUnboxing
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=TransitionToUnboxing what=Lua protos=1[#1]
+  up1: function params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=DebugLog what=Lua
+  up2: boolean false
+  consts total=28
+  [1] str "TransitionToUnboxing called"
+  [2] str "  IsCaseSceneActive:"
+  [3] str "  CurrentScene:"
+  [4] str "exists"
+  [5] str "nil"
+  [6] str "  CurrentSceneConfig:"
+  [7] str "  CurrentCaseSceneState:"
+  [8] str "  callback:"
+  [9] str "provided"
+  [10] str "  BLOCKED: Scene not active or missing config"
+  [11] str "Unboxing"
+  [12] str "  BLOCKED: Already in Unboxing state"
+  [13] str "Camera"
+  [14] str "FindFirstChild"
+  [15] str "warn"
+F WaitForOpeningAnimation
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController:? cname=WaitForOpeningAnimation what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: ERR
+  consts total=4
+  [1] str "CaseOpening"
+  [2] str "IsPlaying"
+  [3] str "Stopped"
+  [4] str "Wait"

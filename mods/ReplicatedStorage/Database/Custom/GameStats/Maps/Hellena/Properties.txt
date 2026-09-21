@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Maps.Hellena.Properties
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+K Ambient :userdata 0.156863, 0.141176, 0.137255
+K Brightness :number = 3
+K ClockTime :number = 10.995
+K ColorShift_Bottom :userdata 0, 0, 0
+K ColorShift_Top :userdata 0.890196, 0.588235, 0.270588
+K EnvironmentDiffuseScale :number = 1
+K EnvironmentSpecularScale :number = 1
+K ExposureCompensation :number = 0
+K GeographicLatitude :number = -6.734
+K GlobalShadows :boolean = true
+K OutdoorAmbient :userdata 0.419608, 0.380392, 0.317647
+K ShadowSoftness :number = 0.2

@@ -1,0 +1,15 @@
+PATH: ReplicatedStorage.Database.Custom.Finishers.LeSunshine
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Finisher
+  params=2 src=ReplicatedStorage.Database.Custom.Finishers.LeSunshine:? cname=Finisher what=Lua protos=1[Destroy]
+  up1: table keys=13 {Destroy:function, RetireVictimLocally:function, PrepareCharacter:function, FindCharacter:function, RetireCorpseLocally:function, Rig:table, OnceAppearanceReady:function, HideCharacterLocally:function, SetupCharacterAppearance:function, ActivateCharacter:function, DestroyAll:function, __index:table, new:function}
+  up2: userdata Mateo_081005
+  up3: function params=2 src=ReplicatedStorage.Database.Custom.Finishers.LeSunshine:? cname=Activate what=Lua
+  up4: ERR
+  consts total=8
+  [1] str "new"
+  [2] str "Victim"
+  [3] str "tostring"
+K Replication :string = All

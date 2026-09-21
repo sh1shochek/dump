@@ -1,0 +1,2 @@
+PATH: ReplicatedStorage.Shared.Zone.VERSION
+REQUIRE: FAIL Module code did not return exactly one value

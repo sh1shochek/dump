@@ -1,0 +1,134 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModule.VehicleController
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+F BindContextActions
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=BindContextActions what=Lua protos=4[#1,#2,#3,#4]
+  up1: userdata ContextActionService
+  up2: ERR
+  consts total=16
+  [1] str "throttleAccel"
+  [2] str "CONTROL_ACTION_PRIORITY"
+  [3] str "Enum"
+  [4] str "KeyCode"
+  [5] str "ButtonR2"
+  [6] userdata
+  [7] str "BindActionAtPriority"
+  [8] str "throttleDeccel"
+  [9] str "ButtonL2"
+  [10] userdata
+  [11] str "arrowSteerRight"
+  [12] str "Right"
+  [13] userdata
+  [14] str "arrowSteerLeft"
+  [15] str "Left"
+  [16] userdata
+F ComputeSteer
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=ComputeSteer what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] vector
+  [2] number 57.29577951308232
+  [3] str "x"
+  [4] str "z"
+  [5] str "math"
+  [6] str "atan2"
+F ComputeThrottle
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=ComputeThrottle what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] vector
+  [2] str "Z"
+F Enable
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=Enable what=Lua protos=0[]
+  up1: userdata ContextActionService
+  up2: ERR
+  consts total=11
+  [1] str "enabled"
+  [2] str "vehicleSeat"
+  [3] vector
+  [4] str "vehicleMoveVector"
+  [5] str "SetupAutoPilot"
+  [6] str "BindContextActions"
+  [7] str "throttleAccel"
+  [8] str "UnbindAction"
+  [9] str "throttleDeccel"
+  [10] str "arrowSteerRight"
+  [11] str "arrowSteerLeft"
+F OnSteerLeft
+  params=4 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=OnSteerLeft what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "Enum"
+  [2] str "UserInputState"
+  [3] str "End"
+  [4] userdata
+  [5] str "Cancel"
+  [6] userdata
+  [7] str "turningLeft"
+  [8] str "turningRight"
+  [9] str "steer"
+F OnSteerRight
+  params=4 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=OnSteerRight what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "Enum"
+  [2] str "UserInputState"
+  [3] str "End"
+  [4] userdata
+  [5] str "Cancel"
+  [6] userdata
+  [7] str "turningRight"
+  [8] str "turningLeft"
+  [9] str "steer"
+F OnThrottleAccel
+  params=4 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=OnThrottleAccel what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "Enum"
+  [2] str "UserInputState"
+  [3] str "End"
+  [4] userdata
+  [5] str "Cancel"
+  [6] userdata
+  [7] str "acceleration"
+  [8] str "decceleration"
+  [9] str "throttle"
+F OnThrottleDeccel
+  params=4 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=OnThrottleDeccel what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "Enum"
+  [2] str "UserInputState"
+  [3] str "End"
+  [4] userdata
+  [5] str "Cancel"
+  [6] userdata
+  [7] str "decceleration"
+  [8] str "acceleration"
+  [9] str "throttle"
+F SetupAutoPilot
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=SetupAutoPilot what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "autoPilot"
+  [2] str "vehicleSeat"
+  [3] str "MaxSpeed"
+  [4] str "MaxSteeringAngle"
+F Update
+  params=4 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=Update what=Lua protos=0[]
+  up1: ERR
+  consts total=17
+  [1] str "vehicleSeat"
+  [2] str "steer"
+  [3] str "throttle"
+  [4] str "Vector3"
+  [5] str "new"
+K __index :table keys=12
+  {["OnSteerRight"]=<function:function: 0xa98d29b3ef38f0d8>, ["ComputeSteer"]=<function:function: 0xdf2040afe2815ced>, ["Enable"]=<function:function: 0x9a4e34f022d5ec66>, ["Update"]=<function:function: 0xbe7eb3ebec608af8>, ["OnSteerLeft"]=<function:function: 0x4021c9b621cf9911>, ["OnThrottleDeccel"]=<function:function: 0x5fff1b1a1c9314d9>, ["ComputeThrottle"]=<function:function: 0x26499cf83409ae23>, ["SetupAutoPilot"]=<function:function: 0xd633d6d5f5d3c215>, ["OnThrottleAccel"]=<function:function: 0x7ccef9214e066bb1>, ["BindContextActions"]=<function:function: 0x6ec4f6d178706a46>, ["__index"]=<cycle>, ["new"]=<function:function: 0xb782876252abb774>}
+F new
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=new what=Lua protos=0[]
+  up1: table keys=12 {OnSteerRight:function, ComputeSteer:function, Enable:function, Update:function, OnSteerLeft:function, OnThrottleDeccel:function, ComputeThrottle:function, SetupAutoPilot:function, OnThrottleAccel:function, BindContextActions:function, __index:table, new:function}
+  up2: ERR
+  consts total=16
+  [1] str "setmetatable"

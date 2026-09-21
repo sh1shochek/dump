@@ -1,0 +1,21 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Career.MapIcon
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Get
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.MapIcon:? cname=Get what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.MapIcon:? cname=Read what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "Icon"
+F GetRadar
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.MapIcon:? cname=GetRadar what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.MapIcon:? cname=Read what=Lua
+  up2: table keys=2 {GetRadar:function, Get:function}
+  up3: userdata 0, 0, 0, 0
+  up4: table keys=7 {rbxassetid://139602408955630:userdata, rbxassetid://95578841758233:userdata, rbxassetid://118014135553992:userdata, rbxassetid://78468254134558:userdata, rbxassetid://96627370550320:userdata, rbxassetid://88605850938693:userdata, rbxassetid://72973444783842:userdata}
+  up5: ERR
+  consts total=3
+  [1] str "Radar"
+  [2] str ""
+  [3] str "Get"

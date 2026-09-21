@@ -1,0 +1,69 @@
+PATH: ReplicatedStorage.Shared.Profiler
+REQUIRE: ok
+RETURNS: table
+KEYS: 10
+F defer
+  params=2 src=ReplicatedStorage.Shared.Profiler:? cname=defer what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: ERR
+  consts total=5
+  [1] str "table"
+  [2] str "pack"
+F getCallbackLabel
+  params=2 src=ReplicatedStorage.Shared.Profiler:? cname=getCallbackLabel what=Lua protos=0[]
+  up1: table keys=2 {function: 0xecc7a94d36942b37:table, function: 0x201b56dafd51ba40:table}
+  up2: ERR
+  consts total=8
+  [1] str "debug"
+  [2] str "info"
+F getInstancePath
+  params=2 src=ReplicatedStorage.Shared.Profiler:? cname=getInstancePath what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "Name"
+  [2] str "table"
+  [3] str "insert"
+F mark
+  params=1 src=ReplicatedStorage.Shared.Profiler:? cname=mark what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "debug"
+  [2] str "profilebegin"
+F scope
+  params=2 src=ReplicatedStorage.Shared.Profiler:? cname=scope what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: ERR
+  consts total=3
+  [1] str "mark"
+  [2] str "table"
+  [3] str "pack"
+F setSlowScopeReporter
+  params=2 src=ReplicatedStorage.Shared.Profiler:? cname=setSlowScopeReporter what=Lua protos=0[]
+  up1: number inf
+  consts total=2
+  [1] str "math"
+  [2] str "max"
+F setTimedScopeObserver
+  params=2 src=ReplicatedStorage.Shared.Profiler:? cname=setTimedScopeObserver what=Lua protos=0[]
+  up1: number inf
+  consts total=2
+  [1] str "math"
+  [2] str "max"
+F spawn
+  params=2 src=ReplicatedStorage.Shared.Profiler:? cname=spawn what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: ERR
+  consts total=5
+  [1] str "table"
+  [2] str "pack"
+F timedScope
+  params=2 src=ReplicatedStorage.Shared.Profiler:? cname=timedScope what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  consts total=5
+  [1] str "os"
+  [2] str "clock"
+F wrapTimed
+  params=2 src=ReplicatedStorage.Shared.Profiler:? cname=wrapTimed what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: ERR
+  consts total=0

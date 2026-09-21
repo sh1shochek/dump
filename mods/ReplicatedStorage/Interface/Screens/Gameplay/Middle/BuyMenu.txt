@@ -1,0 +1,215 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=Initialize what=Lua protos=22[refreshBuyMenuTemplates,trackCompetitiveTeammate,setupCompetitiveTeammateObservers,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20]
+  up1: userdata MainGui
+  up2: userdata BuyMenu
+  up3: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=UpdateBuyMenuTimerText what=Lua
+  up4: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up5: table keys=11 {characterRemoving:function, createTemplate:function, setupTemplate:function, characterAdded:function, toggleFrame:function, purchase:function, openFrame:function, Start:function, Initialize:function, closeFrame:function, updateBuyMenuTemplate:function}
+  up6: userdata Mateo_081005
+  up7: table keys=104 {Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, CurrentlyCleaning:boolean, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string}
+  up8: table keys=7 {zona_y83:table, bluefox9073:table, BABINDGO_1:table, dazen_wewe:table, smertnik_54:table, Untez777:table, DGXXDFZS:table}
+  up9: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=RequestCompetitiveTeammateInventory what=Lua
+  up10: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=UpdateAllTeammateIndicators what=Lua
+  up11: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up12: table keys=0 {}
+  up13: userdata Players
+  up14: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up15: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=RequestCompetitiveTeammateInventories what=Lua
+  up16: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up17: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=cleanupAllDroppedEntries what=Lua
+  up18: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=destroyViewportCharacter what=Lua
+  up19: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=setupViewportCharacter what=Lua
+  up20: table keys=127 {Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string}
+  up21: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=setupBuyMenuTemplates what=Lua
+  up22: table keys=0 {}
+  up23: function params=2 src=ReplicatedStorage.Database.Components.Common.RemoveFromArray:? what=Lua
+  up24: table keys=5 {p:number, v:number, d:number, g:number, f:number}
+  up25: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up26: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=updateViewportWeapon what=Lua
+  up27: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up28: table keys=2 {Rifles::M4A1-S:table, Pistols::USP-S:table}
+  up29: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up30: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=onWeaponDropped what=Lua
+  up31: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=onWeaponDropRemoved what=Lua
+  up32: ERR
+  consts total=32
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=Start what=Lua protos=1[#1]
+  up1: userdata Mateo_081005
+  up2: table keys=11 {characterRemoving:function, createTemplate:function, setupTemplate:function, characterAdded:function, toggleFrame:function, purchase:function, openFrame:function, Start:function, Initialize:function, closeFrame:function, updateBuyMenuTemplate:function}
+  up3: ERR
+  consts total=3
+  [1] str "Character"
+  [2] str "characterAdded"
+  [3] str "CharacterAdded"
+F characterAdded
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=characterAdded what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=WaitForAttribute what=Lua
+  up2: userdata Mateo_081005
+  up3: table keys=127 {Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string}
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=setupBuyMenuTemplates what=Lua
+  up5: ERR
+  consts total=2
+  [1] str "Money"
+  [2] str "Cleanup"
+F characterRemoving
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=characterRemoving what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=destroyViewportCharacter what=Lua
+  up2: ERR
+  consts total=0
+F closeFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=closeFrame what=Lua protos=0[]
+  up1: userdata BuyMenu
+  up2: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up3: userdata MainGui
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=GetLocalPlayerArmorState what=Lua
+  consts total=13
+  [1] str "Visible"
+  [2] str "setForceLockOverride"
+  [3] str "BuyMenu"
+  [4] str "setPerspective"
+  [5] str "Gameplay"
+  [6] str "Bottom"
+  [7] str "Health"
+  [8] str "Middle"
+  [9] str "Armor"
+  [10] str "Money"
+  [11] str "Ammo"
+  [12] str "Disconnect"
+  [13] str "WeaponInfoFrame"
+F createTemplate
+  params=4 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=createTemplate what=Lua protos=6[#1,#2,#3,#4,#5,#6]
+  up1: userdata ReplicatedStorage
+  up2: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=GetDisplayCost what=Lua
+  up3: table keys=5 {1:table, 2:table, 3:table, 4:table, 5:table}
+  up4: userdata Mateo_081005
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=IsEquipmentPurchaseBlockedForLocalPlayer what=Lua
+  up6: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up7: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up8: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=IsEquipmentOwned what=Lua
+  up9: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=GetInventoryItemCount what=Lua
+  up10: table keys=6 {Decoy Grenade:number, Smoke Grenade:number, Incendiary Grenade:number, Molotov:number, Flashbang:number, HE Grenade:number}
+  up11: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up12: table keys=2 {Terrorists:table, Counter-Terrorists:table}
+  up13: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=QueryRoundPurchasedInventoryItem what=Lua
+  up14: table keys=127 {Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string, Connection:string}
+  up15: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up16: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=QueryInventoryItem what=Lua
+  up17: userdata TweenService
+  consts total=69
+  [1] str "Name"
+  [2] str "Database"
+  [3] str "Custom"
+  [4] str "Weapons"
+  [5] str "FindFirstChild"
+  [6] str "GameStats"
+  [7] str "Equipment"
+  [8] str "require"
+F openFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=openFrame what=Lua protos=0[]
+  up1: table keys=6 {Begin:function, Initialize:function, ExitMapVoteToMenu:function, _runSequence:function, IsActive:function, _finishSequence:function}
+  up2: userdata Mateo_081005
+  up3: function params=2 src=ReplicatedStorage.Database.Components.Common.IsInBuyArea:? what=Lua
+  up4: userdata BuyMenu
+  up5: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up6: userdata MainGui
+  consts total=16
+  [1] str "IsActive"
+  [2] str "BuyMenu"
+  [3] str "GetAttribute"
+  [4] str "Visible"
+  [5] str "setForceLockOverride"
+  [6] str "setPerspective"
+  [7] str "Gameplay"
+  [8] str "Bottom"
+  [9] str "Health"
+  [10] str "Middle"
+  [11] str "Armor"
+  [12] str "Money"
+  [13] str "Ammo"
+  [14] str "BindToHeartbeat"
+  [15] str "UI.BuyMenu.Update"
+  [16] str "WeaponInfoFrame"
+F purchase
+  params=3 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=purchase what=Lua protos=0[]
+  up1: userdata ReplicatedStorage
+  up2: userdata Mateo_081005
+  up3: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=GetDisplayCost what=Lua
+  up4: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=IsEquipmentPurchaseBlockedForLocalPlayer what=Lua
+  up5: function params=2 src=ReplicatedStorage.Database.Components.Common.IsInBuyArea:? what=Lua
+  up6: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up7: table keys=6 {Decoy Grenade:number, Smoke Grenade:number, Incendiary Grenade:number, Molotov:number, Flashbang:number, HE Grenade:number}
+  up8: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up9: table keys=6 {Melee:number, Priorities:table, Grenade:number, Primary:number, C4:number, Secondary:number}
+  up10: table keys=0 {}
+  up11: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up12: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up13: ERR
+  consts total=43
+  [1] str "Database"
+  [2] str "Custom"
+  [3] str "Weapons"
+  [4] str "FindFirstChild"
+  [5] str "GameStats"
+  [6] str "Equipment"
+  [7] str "require"
+F setupTemplate
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=setupTemplate what=Lua protos=0[]
+  up1: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up2: userdata Mateo_081005
+  up3: table keys=11 {characterRemoving:function, createTemplate:function, setupTemplate:function, characterAdded:function, toggleFrame:function, purchase:function, openFrame:function, Start:function, Initialize:function, closeFrame:function, updateBuyMenuTemplate:function}
+  up4: ERR
+  consts total=8
+  [1] str "broadcastRouter"
+  [2] str "GetEquippedInventoryItem"
+  [3] str "Name"
+  [4] str "createTemplate"
+  [5] str "IsEquipment"
+  [6] str "SetAttribute"
+  [7] str "Weapon"
+  [8] str "Visible"
+F toggleFrame
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=toggleFrame what=Lua protos=0[]
+  up1: table keys=6 {Begin:function, Initialize:function, ExitMapVoteToMenu:function, _runSequence:function, IsActive:function, _finishSequence:function}
+  up2: userdata Mateo_081005
+  up3: userdata BuyMenu
+  up4: table keys=11 {characterRemoving:function, createTemplate:function, setupTemplate:function, characterAdded:function, toggleFrame:function, purchase:function, openFrame:function, Start:function, Initialize:function, closeFrame:function, updateBuyMenuTemplate:function}
+  up5: ERR
+  consts total=6
+  [1] str "IsActive"
+  [2] str "BuyMenu"
+  [3] str "GetAttribute"
+  [4] str "Visible"
+  [5] str "openFrame"
+  [6] str "closeFrame"
+F updateBuyMenuTemplate
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=updateBuyMenuTemplate what=Lua protos=0[]
+  up1: userdata ReplicatedStorage
+  up2: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=GetDisplayCost what=Lua
+  up3: userdata Mateo_081005
+  up4: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=IsEquipmentPurchaseBlockedForLocalPlayer what=Lua
+  up5: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up6: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=IsEquipmentOwned what=Lua
+  up7: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=GetInventoryItemCount what=Lua
+  up8: table keys=6 {Decoy Grenade:number, Smoke Grenade:number, Incendiary Grenade:number, Molotov:number, Flashbang:number, HE Grenade:number}
+  up9: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up10: table keys=2 {Terrorists:table, Counter-Terrorists:table}
+  up11: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=QueryRoundPurchasedInventoryItem what=Lua
+  up12: userdata TweenService
+  up13: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.BuyMenu:? cname=UpdateTemplateTeammateIndicators what=Lua
+  up14: ERR
+  consts total=48
+  [1] str "IsEquipment"
+  [2] str "GetAttribute"
+  [3] str "Weapon"
+  [4] str "Database"
+  [5] str "Custom"
+  [6] str "Weapons"
+  [7] str "FindFirstChild"
+  [8] str "GameStats"
+  [9] str "Equipment"
+  [10] str "require"

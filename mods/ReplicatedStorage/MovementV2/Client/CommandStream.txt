@@ -1,0 +1,104 @@
+PATH: ReplicatedStorage.MovementV2.Client.CommandStream
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+K __index :table keys=11
+  {["takePacket"]=<function:function: 0xbe10b3d13c9768d0>, ["reconfigure"]=<function:function: 0x8158ed9fe626f838>, ["getCommand"]=<function:function: 0x7c2cc3f2cddcc6ee>, ["pendingNewCommandCount"]=<function:function: 0x433992710bd2a4e7>, ["buildRecoveryPacketsAfter"]=<function:function: 0xf628679da6fd8f24>, ["hasPacketDue"]=<function:function: 0x52560a20b8c231e8>, ["sample"]=<function:function: 0x972317b7883726db>, ["lastSampledCommandNumber"]=<function:function: 0x6d353c647edb1090>, ["reset"]=<function:function: 0xa064a7a3f763c853>, ["__index"]=<cycle>, ["new"]=<function:function: 0x85bd0bb53e118acf>}
+F buildRecoveryPacketsAfter
+  params=3 src=ReplicatedStorage.MovementV2.Client.CommandStream:? cname=buildRecoveryPacketsAfter what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=13 {MaxWeaponSelectionIdentifierBytes:number, encode:function, decode:function, CommandSize:number, canonicalizeCommand:function, MaxWeaponSelectionSize:number, makePacket:function, Version:number, canonicalizeCommandInto:function, validateCommand:function, HeaderSize:number, MaxDeltaCommandSize:number, validatePacket:function}
+  up3: ERR
+  consts total=34
+  [1] str "isUInt32"
+  [2] str "InvalidAcknowledgedCommand"
+  [3] str "type"
+F getCommand
+  params=2 src=ReplicatedStorage.MovementV2.Client.CommandStream:? cname=getCommand what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=5
+  [1] str "isUInt32"
+  [2] str "_slots"
+  [3] str "_capacity"
+  [4] number 1
+  [5] str "CommandNumber"
+F hasPacketDue
+  params=2 src=ReplicatedStorage.MovementV2.Client.CommandStream:? cname=hasPacketDue what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "pendingNewCommandCount"
+  [2] str "_packetCadenceDue"
+  [3] str "_lastSampledCommandNumber"
+F lastSampledCommandNumber
+  params=1 src=ReplicatedStorage.MovementV2.Client.CommandStream:? cname=lastSampledCommandNumber what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_lastSampledCommandNumber"
+F new
+  params=1 src=ReplicatedStorage.MovementV2.Client.CommandStream:? cname=new what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up3: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up4: table keys=11 {takePacket:function, reconfigure:function, getCommand:function, pendingNewCommandCount:function, buildRecoveryPacketsAfter:function, hasPacketDue:function, sample:function, lastSampledCommandNumber:function, reset:function, __index:table, new:function}
+  up5: ERR
+  consts total=36
+  [1] str "validate"
+  [2] str "invalid command mapping"
+  [3] str "assert"
+F pendingNewCommandCount
+  params=1 src=ReplicatedStorage.MovementV2.Client.CommandStream:? cname=pendingNewCommandCount what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=6
+  [1] str "_lastSampledCommandNumber"
+  [2] str "deltaUInt32"
+  [3] str "_lastPacketedCommandNumber"
+  [4] number 0
+  [5] str "math"
+  [6] str "max"
+F reconfigure
+  params=2 src=ReplicatedStorage.MovementV2.Client.CommandStream:? cname=reconfigure what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: ERR
+  consts total=14
+  [1] str "validate"
+  [2] str "invalid command mapping"
+  [3] str "assert"
+F reset
+  params=2 src=ReplicatedStorage.MovementV2.Client.CommandStream:? cname=reset what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up3: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up4: ERR
+  consts total=37
+  [1] str "validate"
+  [2] str "invalid command mapping"
+  [3] str "assert"
+F sample
+  params=2 src=ReplicatedStorage.MovementV2.Client.CommandStream:? cname=sample what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=13 {MaxWeaponSelectionIdentifierBytes:number, encode:function, decode:function, CommandSize:number, canonicalizeCommand:function, MaxWeaponSelectionSize:number, makePacket:function, Version:number, canonicalizeCommandInto:function, validateCommand:function, HeaderSize:number, MaxDeltaCommandSize:number, validatePacket:function}
+  up3: ERR
+  consts total=21
+  [1] str "_lastSampledCommandNumber"
+  [2] str "addUInt32"
+  [3] str "canonicalizeCommand"
+  [4] str "PredictedBaseMoveSpeed"
+  [5] str "PredictedWeaponMoveSpeed"
+  [6] str "PredictedWeaponScopedMoveSpeed"
+  [7] str "table"
+  [8] str "freeze"
+F takePacket
+  params=3 src=ReplicatedStorage.MovementV2.Client.CommandStream:? cname=takePacket what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=13 {MaxWeaponSelectionIdentifierBytes:number, encode:function, decode:function, CommandSize:number, canonicalizeCommand:function, MaxWeaponSelectionSize:number, makePacket:function, Version:number, canonicalizeCommandInto:function, validateCommand:function, HeaderSize:number, MaxDeltaCommandSize:number, validatePacket:function}
+  up3: ERR
+  consts total=29
+  [1] str "pendingNewCommandCount"
+  [2] number 0
+  [3] str "_lastSampledCommandNumber"
+  [4] str "_packetCadenceDue"
+  [5] str "_config"
+  [6] str "MaxNewCommandsPerPacket"
+  [7] str "type"

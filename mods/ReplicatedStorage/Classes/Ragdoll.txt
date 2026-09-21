@@ -1,0 +1,173 @@
+PATH: ReplicatedStorage.Classes.Ragdoll
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+F ActivateCharacter
+  params=2 src=ReplicatedStorage.Classes.Ragdoll:? cname=ActivateCharacter what=Lua protos=10[#1,#2,#3,#4,#5,#6,#7,#8,#9,#10]
+  up1: table keys=2 {smertnik_54:userdata, DGXXDFZS:userdata}
+  up2: table keys=0 {}
+  up3: table keys=13 {Destroy:function, RetireVictimLocally:function, PrepareCharacter:function, FindCharacter:function, RetireCorpseLocally:function, Rig:table, OnceAppearanceReady:function, HideCharacterLocally:function, SetupCharacterAppearance:function, ActivateCharacter:function, DestroyAll:function, __index:table, new:function}
+  up4: table keys=24 {BABINDGO_1:boolean, Mateo_081005:boolean, BABINDGO_1:boolean, sifhasfhawkhghawgki:boolean, bluefox9073:boolean, Mateo_081005:boolean, smertnik_54:boolean, dazen_wewe:boolean, COOLXANTARES:boolean, bluefox9073:boolean, sifhasfhawkhghawgki:boolean, Mateo_081005:boolean, bluefox9073:boolean, sifhasfhawkhghawgki:boolean, DGXXDFZS:boolean, dazen_wewe:boolean, BABINDGO_1:boolean, Untez777:boolean, zona_y83:boolean, dazen_wewe:boolean, bluefox9073:boolean, dazen_wewe:boolean, DGXXDFZS:boolean, smertnik_54:boolean}
+  up5: function params=1 src=ReplicatedStorage.Classes.Ragdoll:? cname=isExcludedRagdollContent what=Lua
+  up6: table keys=7 {Activate:function, CapturePose:function, IsPrepared:function, StagePrepared:function, Prepare:function, DisableJoint:function, ApplyImpulse:function}
+  up7: table keys=8 {Mateo_081005:userdata, BABINDGO_1:userdata, sifhasfhawkhghawgki:userdata, Untez777:userdata, zona_y83:userdata, dazen_wewe:userdata, COOLXANTARES:userdata, bluefox9073:userdata}
+  up8: table keys=0 {}
+  up9: table keys=8 {__PreparedRagdoll_Mateo_081005:table, __PreparedRagdoll_BABINDGO_1:table, __PreparedRagdoll_sifhasfhawkhghawgki:table, __PreparedRagdoll_dazen_wewe:table, __PreparedRagdoll_Untez777:table, __PreparedRagdoll_zona_y83:table, __PreparedRagdoll_bluefox9073:table, __PreparedRagdoll_COOLXANTARES:table}
+  up10: table keys=8 {Mateo_081005:userdata, BABINDGO_1:userdata, sifhasfhawkhghawgki:userdata, Untez777:userdata, zona_y83:userdata, dazen_wewe:userdata, COOLXANTARES:userdata, bluefox9073:userdata}
+  up11: function params=3 src=ReplicatedStorage.Classes.Ragdoll:? cname=cloneCorpse what=Lua
+  up12: table keys=2 {DGXXDFZS:userdata, smertnik_54:userdata}
+  up13: table keys=2 {smertnik_54:userdata, DGXXDFZS:userdata}
+  up14: userdata Debris
+  up15: function params=1 src=ReplicatedStorage.Classes.Ragdoll:? cname=cleanupAttachments what=Lua
+  up16: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up17: ERR
+  consts total=28
+  [1] str "ClientRagdoll"
+  [2] str "GetAttribute"
+  [3] str "Parent"
+  [4] str "HideCharacterLocally"
+  [5] str "debug"
+  [6] str "profilebegin"
+F Destroy
+  params=1 src=ReplicatedStorage.Classes.Ragdoll:? cname=Destroy what=Lua protos=0[]
+  up1: table keys=2 {table: 0xbce0d7073642aa9d:boolean, table: 0x2aa4180ff727dff7:boolean}
+  up2: table keys=2 {smertnik_54:userdata, DGXXDFZS:userdata}
+  up3: table keys=2 {smertnik_54:userdata, DGXXDFZS:userdata}
+  up4: table keys=2 {DGXXDFZS:userdata, smertnik_54:userdata}
+  up5: table keys=8 {__PreparedRagdoll_Mateo_081005:table, __PreparedRagdoll_BABINDGO_1:table, __PreparedRagdoll_sifhasfhawkhghawgki:table, __PreparedRagdoll_dazen_wewe:table, __PreparedRagdoll_Untez777:table, __PreparedRagdoll_zona_y83:table, __PreparedRagdoll_bluefox9073:table, __PreparedRagdoll_COOLXANTARES:table}
+  up6: ERR
+  consts total=11
+  [1] str "IsDestroyed"
+  [2] str "OnDestroy"
+  [3] str "Fire"
+  [4] str "SourceCharacter"
+  [5] str "Disconnect"
+  [6] str "Parent"
+  [7] str "Destroy"
+  [8] str "task"
+  [9] str "defer"
+F DestroyAll
+  params=0 src=ReplicatedStorage.Classes.Ragdoll:? cname=DestroyAll what=Lua protos=0[]
+  up1: table keys=2 {table: 0xbce0d7073642aa9d:boolean, table: 0x2aa4180ff727dff7:boolean}
+  up2: table keys=2 {smertnik_54:userdata, DGXXDFZS:userdata}
+  up3: table keys=2 {smertnik_54:userdata, DGXXDFZS:userdata}
+  up4: table keys=2 {DGXXDFZS:userdata, smertnik_54:userdata}
+  up5: table keys=8 {__PreparedRagdoll_Mateo_081005:table, __PreparedRagdoll_BABINDGO_1:table, __PreparedRagdoll_sifhasfhawkhghawgki:table, __PreparedRagdoll_dazen_wewe:table, __PreparedRagdoll_Untez777:table, __PreparedRagdoll_zona_y83:table, __PreparedRagdoll_bluefox9073:table, __PreparedRagdoll_COOLXANTARES:table}
+  up6: table keys=8 {Mateo_081005:userdata, BABINDGO_1:userdata, sifhasfhawkhghawgki:userdata, Untez777:userdata, zona_y83:userdata, dazen_wewe:userdata, COOLXANTARES:userdata, bluefox9073:userdata}
+  up7: table keys=0 {}
+  up8: table keys=8 {Mateo_081005:userdata, BABINDGO_1:userdata, sifhasfhawkhghawgki:userdata, Untez777:userdata, zona_y83:userdata, dazen_wewe:userdata, COOLXANTARES:userdata, bluefox9073:userdata}
+  up9: ERR
+  consts total=8
+  [1] str "table"
+  [2] str "insert"
+F FindCharacter
+  params=1 src=ReplicatedStorage.Classes.Ragdoll:? cname=FindCharacter what=Lua protos=0[]
+  up1: userdata Players
+  up2: userdata CollectionService
+  up3: ERR
+  consts total=15
+  [1] str "GetPlayerByUserId"
+  [2] str "Character"
+  [3] str "Dead"
+  [4] str "GetAttribute"
+  [5] number -inf
+  [6] str "Ragdoll"
+  [7] str "GetTagged"
+  [8] str "Model"
+  [9] str "IsA"
+  [10] str "Name"
+  [11] str "workspace"
+  [12] userdata
+  [13] str "IsDescendantOf"
+  [14] str "RagdollCreatedAt"
+  [15] str "typeof"
+F HideCharacterLocally
+  params=1 src=ReplicatedStorage.Classes.Ragdoll:? cname=HideCharacterLocally what=Lua protos=0[]
+  up1: ERR
+  consts total=16
+  [1] str "GetDescendants"
+  [2] str "BasePart"
+  [3] str "IsA"
+  [4] str "LocalTransparencyModifier"
+  [5] str "CanCollide"
+  [6] str "Decal"
+  [7] str "ParticleEmitter"
+  [8] str "Trail"
+  [9] str "Beam"
+  [10] str "Fire"
+  [11] str "Smoke"
+  [12] str "Sparkles"
+  [13] str "Enabled"
+  [14] str "BillboardGui"
+  [15] str "SurfaceGui"
+  [16] str "Highlight"
+F OnceAppearanceReady
+  params=2 src=ReplicatedStorage.Classes.Ragdoll:? cname=OnceAppearanceReady what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F PrepareCharacter
+  params=1 src=ReplicatedStorage.Classes.Ragdoll:? cname=PrepareCharacter what=Lua protos=2[#1,#2]
+  up1: table keys=8 {Mateo_081005:userdata, BABINDGO_1:userdata, sifhasfhawkhghawgki:userdata, Untez777:userdata, zona_y83:userdata, dazen_wewe:userdata, COOLXANTARES:userdata, bluefox9073:userdata}
+  up2: table keys=0 {}
+  up3: table keys=0 {}
+  up4: userdata Run Service
+  up5: table keys=8 {Mateo_081005:userdata, BABINDGO_1:userdata, sifhasfhawkhghawgki:userdata, Untez777:userdata, zona_y83:userdata, dazen_wewe:userdata, COOLXANTARES:userdata, bluefox9073:userdata}
+  up6: table keys=8 {__PreparedRagdoll_Mateo_081005:table, __PreparedRagdoll_BABINDGO_1:table, __PreparedRagdoll_sifhasfhawkhghawgki:table, __PreparedRagdoll_dazen_wewe:table, __PreparedRagdoll_Untez777:table, __PreparedRagdoll_zona_y83:table, __PreparedRagdoll_bluefox9073:table, __PreparedRagdoll_COOLXANTARES:table}
+  up7: function params=1 src=ReplicatedStorage.Classes.Ragdoll:? cname=runPreparationStage what=Lua
+  up8: table keys=24 {BABINDGO_1:boolean, Mateo_081005:boolean, BABINDGO_1:boolean, sifhasfhawkhghawgki:boolean, bluefox9073:boolean, Mateo_081005:boolean, smertnik_54:boolean, dazen_wewe:boolean, COOLXANTARES:boolean, bluefox9073:boolean, sifhasfhawkhghawgki:boolean, Mateo_081005:boolean, bluefox9073:boolean, sifhasfhawkhghawgki:boolean, DGXXDFZS:boolean, dazen_wewe:boolean, BABINDGO_1:boolean, Untez777:boolean, zona_y83:boolean, dazen_wewe:boolean, bluefox9073:boolean, dazen_wewe:boolean, DGXXDFZS:boolean, smertnik_54:boolean}
+  up9: function params=1 src=ReplicatedStorage.Classes.Ragdoll:? cname=isExcludedRagdollContent what=Lua
+  up10: function params=3 src=ReplicatedStorage.Classes.Ragdoll:? cname=cloneCorpse what=Lua
+  up11: table keys=7 {Activate:function, CapturePose:function, IsPrepared:function, StagePrepared:function, Prepare:function, DisableJoint:function, ApplyImpulse:function}
+  up12: userdata Debris
+  up13: ERR
+  consts total=18
+  [1] str "Parent"
+  [2] str "ClientRagdoll"
+  [3] str "GetAttribute"
+  [4] str "Dead"
+  [5] str "Heartbeat"
+  [6] str "Wait"
+  [7] str "Corpse"
+F RetireCorpseLocally
+  params=1 src=ReplicatedStorage.Classes.Ragdoll:? cname=RetireCorpseLocally what=Lua protos=1[#1]
+  up1: table keys=2 {DGXXDFZS:userdata, smertnik_54:userdata}
+  up2: table keys=0 {}
+  up3: table keys=0 {}
+  up4: table keys=8 {__PreparedRagdoll_Mateo_081005:table, __PreparedRagdoll_BABINDGO_1:table, __PreparedRagdoll_sifhasfhawkhghawgki:table, __PreparedRagdoll_dazen_wewe:table, __PreparedRagdoll_Untez777:table, __PreparedRagdoll_zona_y83:table, __PreparedRagdoll_bluefox9073:table, __PreparedRagdoll_COOLXANTARES:table}
+  up5: table keys=8 {Mateo_081005:userdata, BABINDGO_1:userdata, sifhasfhawkhghawgki:userdata, Untez777:userdata, zona_y83:userdata, dazen_wewe:userdata, COOLXANTARES:userdata, bluefox9073:userdata}
+  up6: table keys=8 {Mateo_081005:userdata, BABINDGO_1:userdata, sifhasfhawkhghawgki:userdata, Untez777:userdata, zona_y83:userdata, dazen_wewe:userdata, COOLXANTARES:userdata, bluefox9073:userdata}
+  up7: table keys=2 {smertnik_54:userdata, DGXXDFZS:userdata}
+  up8: table keys=2 {smertnik_54:userdata, DGXXDFZS:userdata}
+  up9: function params=1 src=ReplicatedStorage.Classes.Ragdoll:? cname=cleanupAttachments what=Lua
+  up10: table keys=13 {Destroy:function, RetireVictimLocally:function, PrepareCharacter:function, FindCharacter:function, RetireCorpseLocally:function, Rig:table, OnceAppearanceReady:function, HideCharacterLocally:function, SetupCharacterAppearance:function, ActivateCharacter:function, DestroyAll:function, __index:table, new:function}
+  up11: ERR
+  consts total=2
+  [1] str "task"
+  [2] str "defer"
+F RetireVictimLocally
+  params=2 src=ReplicatedStorage.Classes.Ragdoll:? cname=RetireVictimLocally what=Lua protos=1[#1]
+  up1: table keys=13 {Destroy:function, RetireVictimLocally:function, PrepareCharacter:function, FindCharacter:function, RetireCorpseLocally:function, Rig:table, OnceAppearanceReady:function, HideCharacterLocally:function, SetupCharacterAppearance:function, ActivateCharacter:function, DestroyAll:function, __index:table, new:function}
+  up2: ERR
+  consts total=2
+  [1] str "task"
+  [2] str "spawn"
+K Rig :table keys=7
+  {["Activate"]=<function:function: 0xeaec89a0b629c3eb>, ["CapturePose"]=<function:function: 0x59b8d20d20d2e0d2>, ["IsPrepared"]=<function:function: 0x923ef4c674d064b1>, ["StagePrepared"]=<function:function: 0x1ea8823a596d0cee>, ["Prepare"]=<function:function: 0x3d203328f9c2011f>, ["DisableJoint"]=<function:function: 0xed956f1c593255ec>, ["ApplyImpulse"]=<function:function: 0x3737b06477366ca2>}
+F SetupCharacterAppearance
+  params=1 src=ReplicatedStorage.Classes.Ragdoll:? cname=SetupCharacterAppearance what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+K __index :table keys=13
+  {["Destroy"]=<function:function: 0xf1090c5d84c1495d>, ["RetireVictimLocally"]=<function:function: 0x32e7057118348800>, ["PrepareCharacter"]=<function:function: 0x73db9befb8b1964d>, ["FindCharacter"]=<function:function: 0xdaaa46a5def63658>, ["RetireCorpseLocally"]=<function:function: 0xf5c9cda75c5f3a21>, ["Rig"]={["Activate"]=<function:function: 0xeaec89a0b629c3eb>, ["CapturePose"]=<function:function: 0x59b8d20d20d2e0d2>, ["IsPrepared"]=<function:function: 0x923ef4c674d064b1>, ["StagePrepared"]=<function:function: 0x1ea8823a596d0cee>, ["Prepare"]=<function:function: 0x3d203328f9c2011f>, ["DisableJoint"]=<function:function: 0xed956f1c593255ec>, ["ApplyImpulse"]=<function:function: 0x3737b06477366ca2>}, ["OnceAppearanceReady"]=<function:function: 0xd1aead3c62c2c6bf>, ["HideCharacterLocally"]=<function:function: 0xb77c93b6bb2b7107>, ["SetupCharacterAppearance"]=<function:function: 0x62333d618d40e3b1>, ["ActivateCharacter"]=<function:function: 0xe47dc9e754b9be9a>, ["DestroyAll"]=<function:function: 0x83357614b44905c7>, ["__index"]=<cycle>, ["new"]=<function:function: 0x1c0f1cdba902f6fe>}
+F new
+  params=2 src=ReplicatedStorage.Classes.Ragdoll:? cname=new what=Lua protos=2[#1,#2]
+  up1: table keys=13 {Destroy:function, RetireVictimLocally:function, PrepareCharacter:function, FindCharacter:function, RetireCorpseLocally:function, Rig:table, OnceAppearanceReady:function, HideCharacterLocally:function, SetupCharacterAppearance:function, ActivateCharacter:function, DestroyAll:function, __index:table, new:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=2 {DGXXDFZS:userdata, smertnik_54:userdata}
+  up4: table keys=3 {Is:function, Wrap:function, new:function}
+  up5: table keys=7 {Activate:function, CapturePose:function, IsPrepared:function, StagePrepared:function, Prepare:function, DisableJoint:function, ApplyImpulse:function}
+  up6: table keys=2 {table: 0xbce0d7073642aa9d:boolean, table: 0x2aa4180ff727dff7:boolean}
+  up7: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up8: ERR
+  consts total=25
+  [1] str "setmetatable"

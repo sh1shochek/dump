@@ -1,0 +1,167 @@
+PATH: ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.Classes.Animation
+REQUIRE: ok
+RETURNS: table
+KEYS: 21
+K __index :table keys=21
+  {["cancelCrossfade"]=<function:function: 0x9a0fffbb14933d9b>, ["unregister"]=<function:function: 0xacf9489ee25318bd>, ["register"]=<function:function: 0x3ee7a41c67286e04>, ["markInspectCancel"]=<function:function: 0xd642c3eae804e288>, ["__index"]=<cycle>, ["new"]=<function:function: 0xd01a4d75235e5254>, ["destroy"]=<function:function: 0x23e9987f28e06c4e>, ["crossfadeRestart"]=<function:function: 0xa67bc37150bcc476>, ["stopAnimations"]=<function:function: 0x98dbae94b4f9b5f5>, ["setModel"]=<function:function: 0x348ee574b97d3d24>, ["pickVariant"]=<function:function: 0xeb7a9750aa94ee72>, ["stopSounds"]=<function:function: 0xac23ed8e64d7e232>, ["construct"]=<function:function: 0x5ba254467780f2e6>, ["unregisterGroup"]=<function:function: 0x27c076ae084b55d7>, ["play"]=<function:function: 0x0645279da3ec28f3>, ["stop"]=<function:function: 0x581368b40566ddde>, ["pickInspectVariant"]=<function:function: 0x9ad1789baad637ca>, ["getAnimation"]=<function:function: 0x30081cf11c7044fa>, ["isCrossfading"]=<function:function: 0xde410f0c46defa45>, ["crossfadeTo"]=<function:function: 0x61dc4c57e31c5599>, ["adjustAnimationSpeed"]=<function:function: 0xf729fe14a00f1f70>}
+F adjustAnimationSpeed
+  params=3 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=adjustAnimationSpeed what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "getAnimation"
+  [2] str "Length"
+  [3] str "AdjustSpeed"
+F cancelCrossfade
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=cancelCrossfade what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "CrossfadeConnection"
+  [2] str "Disconnect"
+  [3] str "CrossfadeTempTrack"
+  [4] str "Stop"
+  [5] str "Destroy"
+  [6] str "IsCrossfading"
+F construct
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=construct what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up2: ERR
+  consts total=16
+  [1] str "Animation"
+  [2] str "CameraAnimations"
+  [3] str "typeof"
+F crossfadeRestart
+  params=3 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=crossfadeRestart what=Lua protos=2[#1,#2]
+  up1: function params=3 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=connectTrackSoundEvents what=Lua
+  up2: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up3: ERR
+  consts total=28
+  [1] number 0.25
+  [2] str "cancelCrossfade"
+  [3] str "VariantGroups"
+  [4] str "string"
+  [5] str "gsub"
+F crossfadeTo
+  params=3 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=crossfadeTo what=Lua protos=1[#1]
+  up1: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up2: ERR
+  consts total=24
+  [1] number 0.25
+  [2] str "cancelCrossfade"
+  [3] str "pairs"
+F destroy
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=24
+  [1] str "IsDestroyed"
+  [2] str "cancelCrossfade"
+  [3] str "stopAnimations"
+  [4] str "pairs"
+F getAnimation
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=getAnimation what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "Animations"
+F isCrossfading
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=isCrossfading what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "IsCrossfading"
+F markInspectCancel
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=markInspectCancel what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "os"
+  [2] str "clock"
+F new
+  params=4 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=new what=Lua protos=0[]
+  up1: table keys=21 {cancelCrossfade:function, unregister:function, register:function, markInspectCancel:function, __index:table, new:function, destroy:function, crossfadeRestart:function, stopAnimations:function, setModel:function, pickVariant:function, stopSounds:function, construct:function, unregisterGroup:function, play:function, stop:function, pickInspectVariant:function, getAnimation:function, isCrossfading:function, crossfadeTo:function, adjustAnimationSpeed:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: ERR
+  consts total=15
+  [1] str "setmetatable"
+F pickInspectVariant
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=pickInspectVariant what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=rollVariant what=Lua
+  up2: ERR
+  consts total=9
+  [1] str "os"
+  [2] str "clock"
+F pickVariant
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=pickVariant what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=rollVariant what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "VariantGroups"
+F play
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=play what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "getAnimation"
+  [2] str "CurrentAnimation"
+  [3] str "Play"
+F register
+  params=3 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=register what=Lua protos=2[#1,#2]
+  up1: function params=3 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=connectTrackSoundEvents what=Lua
+  up2: ERR
+  consts total=8
+  [1] str "unregister"
+  [2] str "pcall"
+F setModel
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=setModel what=Lua protos=1[#1]
+  up1: table keys=7 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string, 7:string}
+  up2: userdata Mateo_081005
+  up3: ERR
+  consts total=16
+  [1] str "Name"
+  [2] str "Animation"
+  [3] str "AnimationController"
+  [4] str "WaitForChild"
+  [5] str "Animator"
+  [6] str "stopAnimations"
+  [7] str "construct"
+  [8] str "C4"
+  [9] str "Weapon"
+  [10] str "FindFirstChild"
+  [11] str "Interactive"
+  [12] str "SurfaceGui"
+  [13] str "TextLabel"
+  [14] str "*******"
+  [15] str "Text"
+  [16] str "pairs"
+F stop
+  params=3 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=stop what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "getAnimation"
+  [2] str "IsPlaying"
+  [3] number 0
+  [4] str "Stop"
+F stopAnimations
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=stopAnimations what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "cancelCrossfade"
+  [2] str "pairs"
+F stopSounds
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=stopSounds what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "pairs"
+F unregister
+  params=2 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=unregister what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "Animations"
+  [2] str "Janitor"
+  [3] str "AnimationSoundConnections_"
+  [4] str "Remove"
+  [5] str "AnimationCleanup_"
+  [6] str "RemoveNoClean"
+  [7] str "IsPlaying"
+  [8] str "Stop"
+  [9] str "Destroy"
+F unregisterGroup
+  params=1 src=ReplicatedStorage.Classes.WeaponComponent.Classes.Viewmodel.:? cname=unregisterGroup what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "ipairs"

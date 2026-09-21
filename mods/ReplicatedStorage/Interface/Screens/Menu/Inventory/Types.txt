@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Inventory.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

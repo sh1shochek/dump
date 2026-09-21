@@ -1,0 +1,95 @@
+PATH: ReplicatedStorage.MovementV2.Simulation.State
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F clone
+  params=1 src=ReplicatedStorage.MovementV2.Simulation.State:? cname=clone what=Lua protos=0[]
+  up1: ERR
+  consts total=25
+  [1] str "Position"
+  [2] str "Velocity"
+  [3] str "LookYaw"
+  [4] str "VerticalLook"
+  [5] str "BaseMoveSpeed"
+  [6] str "WeaponMoveSpeed"
+  [7] str "WeaponScopedMoveSpeed"
+  [8] str "MovementMode"
+  [9] str "Stance"
+  [10] str "OnGround"
+  [11] str "GroundNormal"
+  [12] str "WallNormal"
+  [13] str "GroundSurfaceFriction"
+  [14] str "DuckAmount"
+  [15] str "DuckTimeMsecs"
+  [16] str "IsDucking"
+  [17] str "DuckSpeed"
+  [18] str "DuckCooldownSeconds"
+  [19] str "Stamina"
+  [20] str "LastJumpCommandNumber"
+  [21] str "PreviousButtons"
+  [22] str "JumpBufferTicksRemaining"
+  [23] str "JumpHullActive"
+  [24] str "StuckStepTicks"
+  [25] table
+F cloneSupport
+  params=1 src=ReplicatedStorage.MovementV2.Simulation.State:? cname=cloneSupport what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "Kind"
+  [2] str "SourceId"
+  [3] str "Anchor"
+  [4] str "Velocity"
+  [5] table
+F new
+  params=6 src=ReplicatedStorage.MovementV2.Simulation.State:? cname=new what=Lua protos=0[]
+  up1: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up2: ERR
+  consts total=37
+  [1] str "Default"
+  [2] str "DefaultBaseMoveSpeed"
+  [3] str "Position"
+  [4] str "Velocity"
+  [5] vector
+  [6] str "LookYaw"
+  [7] str "VerticalLook"
+  [8] str "BaseMoveSpeed"
+  [9] str "WeaponMoveSpeed"
+  [10] str "WeaponScopedMoveSpeed"
+  [11] str "MovementMode"
+  [12] str "Walking"
+  [13] str "Stance"
+  [14] str "Standing"
+  [15] str "OnGround"
+  [16] boolean false
+  [17] str "GroundNormal"
+  [18] vector
+  [19] str "WallNormal"
+  [20] str "GroundSurfaceFriction"
+  [21] number 1
+  [22] str "DuckAmount"
+  [23] number 0
+  [24] str "DuckTimeMsecs"
+  [25] str "IsDucking"
+  [26] str "DuckSpeed"
+  [27] number 8
+  [28] str "DuckCooldownSeconds"
+  [29] str "Stamina"
+  [30] number 100
+  [31] str "LastJumpCommandNumber"
+  [32] number 4294967295
+  [33] str "PreviousButtons"
+  [34] str "JumpBufferTicksRemaining"
+  [35] str "JumpHullActive"
+  [36] str "StuckStepTicks"
+  [37] table
+F noneSupport
+  params=0 src=ReplicatedStorage.MovementV2.Simulation.State:? cname=noneSupport what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "Kind"
+  [2] number 0
+  [3] str "SourceId"
+  [4] str "Anchor"
+  [5] vector
+  [6] str "Velocity"
+  [7] table

@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Maps.Skyline.Properties
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+K Ambient :userdata 0.388235, 0.329412, 0.278431
+K Brightness :number = 4
+K ClockTime :number = 10.473
+K ColorShift_Bottom :userdata 0, 0, 0
+K ColorShift_Top :userdata 1, 0.843137, 0.572549
+K EnvironmentDiffuseScale :number = 1
+K EnvironmentSpecularScale :number = 1
+K ExposureCompensation :number = 0
+K GeographicLatitude :number = 38.958
+K GlobalShadows :boolean = true
+K OutdoorAmbient :userdata 0.647059, 0.552941, 0.490196
+K ShadowSoftness :number = 0.1

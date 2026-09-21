@@ -1,0 +1,17 @@
+PATH: ReplicatedStorage.Database.Components.Common.IsInBuyArea
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=2 src=ReplicatedStorage.Database.Components.Common.IsInBuyArea:? what=Lua protos=0[]
+  up1: userdata CollectionService
+  up2: ERR
+  consts total=24
+  [1] str "Team"
+  [2] str "GetAttribute"
+  [3] str "Character"
+  [4] str "workspace"
+  [5] userdata
+  [6] str "IsDescendantOf"
+  [7] str "BuyArea"
+  [8] str "GetTagged"
+  [9] str "ipairs"

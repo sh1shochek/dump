@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dictionary.some
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=2 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=some what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "pairs"

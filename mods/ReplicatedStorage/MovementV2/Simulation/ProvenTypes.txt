@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.MovementV2.Simulation.ProvenTypes
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

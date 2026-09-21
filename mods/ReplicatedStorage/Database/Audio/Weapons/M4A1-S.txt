@@ -1,0 +1,34 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.M4A1-S
+REQUIRE: ok
+RETURNS: table
+KEYS: 15
+K BoltPull :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=112825283651370}}
+K BoltRelease :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=80470576683196}}
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=121824600078625}}
+K MagIn :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=83294326888389}}
+K MagOut :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=84015120470159}}
+K ScrewOn1 :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=127244678889692}}
+K ScrewOn2 :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=81692430991273}}
+K ScrewOn3 :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=121216229724655}}
+K ScrewOn4 :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=97800142763870}}
+K ScrewOn5 :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=91208073355604}}
+K ScrewOnEnd :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=110387218269014}}
+K ScrewStart :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=137420606854537}}
+K Shoot :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=85, ["RollOffMinDistance"]=25}, ["Identifiers"]={[1]=117542557483233, [2]=116364395989356, [3]=127725102975490}}
+K Silencer :table keys=2
+  {["Properties"]={["Volume"]=0.85, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=40}, ["Identifiers"]={[1]=90698793665750, [2]=86582201819894, [3]=91665393784211}}
+K Tap :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=100, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=130631500468797}}

@@ -1,0 +1,6 @@
+PATH: ReplicatedStorage.Packages._Index.sleitnick_trove@1.5.0.trove.wally
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+K package :table keys=7
+  {["authors"]={[1]="Stephen Leitnick"}, ["registry"]="https://github.com/UpliftGames/wally-index", ["description"]="Trove class for tracking and cleaning up objects", ["version"]="1.5.0", ["license"]="MIT", ["name"]="sleitnick/trove", ["realm"]="shared"}

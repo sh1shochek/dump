@@ -1,0 +1,14 @@
+PATH: ReplicatedStorage.Controllers.HintController
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F clearHint
+  params=2 src=ReplicatedStorage.Controllers.HintController:? cname=clearHint what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Controllers.HintController:? what=Lua
+  up2: ERR
+  consts total=0
+F createHint
+  params=6 src=ReplicatedStorage.Controllers.HintController:? cname=createHint what=Lua protos=0[]
+  up1: function params=5 src=ReplicatedStorage.Controllers.HintController:? what=Lua
+  up2: ERR
+  consts total=0

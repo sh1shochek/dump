@@ -1,0 +1,97 @@
+PATH: ReplicatedStorage.Controllers.CharacterController.RemoteCharacters
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.CharacterController.RemoteChar:? cname=Initialize what=Lua protos=2[#1,#2]
+  up1: boolean true
+  up2: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up3: userdata Players
+  up4: userdata Mateo_081005
+  up5: table keys=7 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, dazen_wewe:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table}
+  up6: table keys=3 {ToId:function, ToName:function, Names:table}
+  up7: table keys=7 {IsValid:function, Matches:function, MaxValue:number, Next:function, AttributeName:string, Set:function, Get:function}
+  up8: table keys=7 {3349306431:table, 7265420489:table, 11097451648:table, 5094344698:table, 2836845531:table, 4898956863:table, 7431542897:table}
+  up9: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up10: table keys=0 {}
+  up11: ERR
+  consts total=7
+  [1] str "Character"
+  [2] str "Action"
+  [3] str "Listen"
+F Present
+  params=2 src=ReplicatedStorage.Controllers.CharacterController.RemoteChar:? cname=Present what=Lua protos=0[]
+  up1: number 33951
+  up2: table keys=7 {1:userdata, 2:userdata, 3:userdata, 4:userdata, 5:userdata, 6:userdata, 7:userdata}
+  up3: table keys=7 {1:userdata, 2:userdata, 3:userdata, 4:userdata, 5:userdata, 6:userdata, 7:userdata}
+  up4: table keys=7 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table}
+  up5: table keys=7 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table}
+  up6: table keys=7 {3349306431:table, 7265420489:table, 11097451648:table, 5094344698:table, 2836845531:table, 4898956863:table, 7431542897:table}
+  up7: userdata Players
+  up8: userdata Mateo_081005
+  up9: table keys=7 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, dazen_wewe:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table}
+  up10: table keys=4 {Track:function, Untrack:function, Present:function, Initialize:function}
+  up11: table keys=7 {IsValid:function, Matches:function, MaxValue:number, Next:function, AttributeName:string, Set:function, Get:function}
+  up12: table keys=8 {stateToRootPosition:function, simulationToRootPosition:function, simulationToVisualRootPosition:function, visualStance:function, DefaultRootHeightFromFeet:number, cframe:function, rootToSimulationPosition:function, getDuckRootVerticalOffset:function}
+  up13: table keys=3 {applyVerticalLook:function, getJoints:function, composeRootCFrame:function}
+  up14: userdata Workspace
+  up15: function params=2 src=ReplicatedStorage.Controllers.CharacterController.RemoteChar:? cname=setEntryVisible what=Lua
+  up16: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up17: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up18: table keys=13 {Destroy:function, RetireVictimLocally:function, PrepareCharacter:function, FindCharacter:function, RetireCorpseLocally:function, Rig:table, OnceAppearanceReady:function, HideCharacterLocally:function, SetupCharacterAppearance:function, ActivateCharacter:function, DestroyAll:function, __index:table, new:function}
+  up19: ERR
+  consts total=61
+  [1] number 1
+  [2] str "table"
+  [3] str "clear"
+F Track
+  params=2 src=ReplicatedStorage.Controllers.CharacterController.RemoteChar:? cname=Track what=Lua protos=2[retry,#2]
+  up1: userdata Mateo_081005
+  up2: table keys=7 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, dazen_wewe:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table}
+  up3: table keys=7 {IsValid:function, Matches:function, MaxValue:number, Next:function, AttributeName:string, Set:function, Get:function}
+  up4: table keys=7 {3349306431:table, 7265420489:table, 11097451648:table, 5094344698:table, 2836845531:table, 4898956863:table, 7431542897:table}
+  up5: function params=2 src=ReplicatedStorage.Controllers.CharacterController.RemoteChar:? cname=setEntryVisible what=Lua
+  up6: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up7: table keys=0 {}
+  up8: function params=2 src=ReplicatedStorage.Controllers.CharacterController.RemoteChar:? cname=tryBind what=Lua
+  up9: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up10: ERR
+  consts total=20
+  [1] str "Character"
+  [2] str "Dead"
+  [3] str "GetAttribute"
+  [4] str "Shell"
+  [5] str "Generation"
+  [6] str "Get"
+  [7] str "UserId"
+  [8] str "Parent"
+  [9] str "clear"
+  [10] str "Janitor"
+  [11] str "Destroy"
+  [12] str "new"
+  [13] table
+  [14] str "DescendantAdded"
+  [15] str "Connect"
+  [16] str "Add"
+  [17] str "CharacterType"
+  [18] str "GetAttributeChangedSignal"
+  [19] str "AttributeName"
+  [20] str "AncestryChanged"
+F Untrack
+  params=2 src=ReplicatedStorage.Controllers.CharacterController.RemoteChar:? cname=Untrack what=Lua protos=0[]
+  up1: table keys=7 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, dazen_wewe:table, Untez777:table, bluefox9073:table, sifhasfhawkhghawgki:table}
+  up2: table keys=7 {3349306431:table, 7265420489:table, 11097451648:table, 5094344698:table, 2836845531:table, 4898956863:table, 7431542897:table}
+  up3: function params=2 src=ReplicatedStorage.Controllers.CharacterController.RemoteChar:? cname=setEntryVisible what=Lua
+  up4: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up5: table keys=0 {}
+  up6: ERR
+  consts total=9
+  [1] str "Shell"
+  [2] str "UserId"
+  [3] str "Parent"
+  [4] str "Dead"
+  [5] str "GetAttribute"
+  [6] str "Character"
+  [7] str "clear"
+  [8] str "Janitor"
+  [9] str "Destroy"

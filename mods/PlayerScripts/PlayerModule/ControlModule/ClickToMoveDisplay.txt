@@ -1,0 +1,110 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModule.ClickToMoveDisplay
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+F CancelFailureAnimation
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=CancelFailureAnimation what=Lua protos=0[]
+  ups: none
+  consts total=2
+  [1] str "IsPlaying"
+  [2] str "Stop"
+F CreateEndWaypoint
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=CreateEndWaypoint what=Lua protos=0[]
+  up1: table keys=6 {Destroy:function, TweenInFrom:function, CreateTween:function, NewDisplayModel:function, __index:table, new:function}
+  up2: ERR
+  consts total=1
+  [1] str "new"
+F CreatePathDisplay
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=CreatePathDisplay what=Lua protos=3[removePathBeforePoint,resizeTrailDots,removePath]
+  up1: number 0
+  up2: function params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=createTrailDots what=Lua
+  up3: userdata Run Service
+  up4: userdata Workspace
+  up5: userdata 1.5, 1.5
+  up6: ERR
+  consts total=8
+  [1] number 1
+  [2] str "ClickToMoveResizeTrail"
+  [3] str "Enum"
+  [4] str "RenderPriority"
+  [5] str "Camera"
+  [6] userdata
+  [7] str "Value"
+  [8] str "BindToRenderStep"
+F DisplayFailureWaypoint
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=DisplayFailureWaypoint what=Lua protos=1[#1]
+  ups: none
+  consts total=4
+  [1] str "Hide"
+  [2] str "new"
+  [3] str "coroutine"
+  [4] str "wrap"
+F GetEndWaypointTexture
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=GetEndWaypointTexture what=Lua protos=0[]
+  up1: string "rbxasset://textures/ui/waypoint.png"
+  up2: ERR
+  consts total=0
+F GetWaypointRadius
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=GetWaypointRadius what=Lua protos=0[]
+  up1: userdata 1.5, 1.5
+  up2: ERR
+  consts total=1
+  [1] str "X"
+F GetWaypointTexture
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=GetWaypointTexture what=Lua protos=0[]
+  up1: string "rbxasset://textures/ui/traildot.png"
+  up2: ERR
+  consts total=0
+F GetWaypointsAlwaysOnTop
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=GetWaypointsAlwaysOnTop what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F PlayFailureAnimation
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=PlayFailureAnimation what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  consts total=14
+  [1] str "Character"
+  [2] str "Humanoid"
+  [3] str "FindFirstChildOfClass"
+  [4] str "LoadAnimation"
+  [5] str ""
+  [6] str "assert"
+F SetEndWaypointTexture
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=SetEndWaypointTexture what=Lua protos=0[]
+  up1: string "rbxasset://textures/ui/waypoint.png"
+  up2: userdata TrailDot
+  up3: userdata EndWaypoint
+  up4: userdata FailureWaypoint
+  up5: function params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=CreateWaypointTemplates what=Lua
+  up6: ERR
+  consts total=0
+F SetWaypointRadius
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=SetWaypointRadius what=Lua protos=0[]
+  up1: userdata 1.5, 1.5
+  up2: userdata TrailDot
+  up3: userdata EndWaypoint
+  up4: userdata FailureWaypoint
+  up5: function params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=CreateWaypointTemplates what=Lua
+  up6: ERR
+  consts total=2
+  [1] str "Vector2"
+  [2] str "new"
+F SetWaypointTexture
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=SetWaypointTexture what=Lua protos=0[]
+  up1: string "rbxasset://textures/ui/traildot.png"
+  up2: userdata TrailDot
+  up3: userdata EndWaypoint
+  up4: userdata FailureWaypoint
+  up5: function params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=CreateWaypointTemplates what=Lua
+  up6: ERR
+  consts total=0
+F SetWaypointsAlwaysOnTop
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=SetWaypointsAlwaysOnTop what=Lua protos=0[]
+  up1: boolean false
+  up2: userdata TrailDot
+  up3: userdata EndWaypoint
+  up4: userdata FailureWaypoint
+  up5: function params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=CreateWaypointTemplates what=Lua
+  up6: ERR
+  consts total=0

@@ -1,0 +1,20 @@
+PATH: ReplicatedStorage.Database.Audio.Weapons.R8 Revolver
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+K Equip :table keys=2
+  {["Properties"]={["Volume"]=2, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=80736804225662}}
+K Hammer :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=35}, ["Identifiers"]={[1]=114472444034537}}
+K MagIn :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=94494496016800}}
+K MagOut :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=83310300941485}}
+K Prepare :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=30, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=86307159825026}}
+K Shoot :table keys=2
+  {["Properties"]={["Volume"]=0.9, ["RollOffMaxDistance"]=300, ["RollOffMinDistance"]=35}, ["Identifiers"]={[1]=123733015335413, [2]=103607891868774, [3]=73516335461374}}
+K SideIn :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=40, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=110142001427374}}
+K SideRelease :table keys=2
+  {["Properties"]={["Volume"]=1, ["RollOffMaxDistance"]=40, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=132574937025510}}

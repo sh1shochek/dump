@@ -1,0 +1,17 @@
+PATH: ReplicatedStorage.Database.Custom.ConfigKeys
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+K Defaults :table keys=5
+  {["GameplayCreditRewardMultiplier"]=1, ["MonthlyMissionCreditRewardMultiplier"]=1, ["WeeklyMissionCreditRewardMultiplier"]=1, ["DailyMissionCreditRewardMultiplier"]=1, ["HourlyMissionCreditRewardMultiplier"]=1}
+F GetSharedKeys
+  params=0 src=ReplicatedStorage.Database.Custom.ConfigKeys:? cname=GetSharedKeys what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Database.Custom.ConfigKeys:? cname=collectKeys what=Lua
+  up2: table keys=4 {GetSharedKeys:function, Defaults:table, Shared:table, ServerOnly:table}
+  up3: ERR
+  consts total=1
+  [1] str "Shared"
+K ServerOnly :table keys=1
+  {["GameplayCreditRewardMultiplier"]="GameplayCreditRewardMultiplier"}
+K Shared :table keys=1
+  {["MissionCreditRewardMultipliers"]={["monthly"]="MonthlyMissionCreditRewardMultiplier", ["daily"]="DailyMissionCreditRewardMultiplier", ["weekly"]="WeeklyMissionCreditRewardMultiplier", ["hourly"]="HourlyMissionCreditRewardMultiplier"}}

@@ -1,0 +1,26 @@
+PATH: ReplicatedStorage.Database.Security.Network.BufferCodec
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Decode
+  params=2 src=ReplicatedStorage.Database.Security.Network.BufferCodec:? cname=Decode what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Database.Security.Network.BufferCodec:? cname=decompress what=Lua
+  up2: function params=1 src=ReplicatedStorage.Database.Security.Network.BufferCodec:? what=Lua
+  up3: ERR
+  consts total=13
+  [1] str "typeof"
+F Encode
+  params=1 src=ReplicatedStorage.Database.Security.Network.BufferCodec:? cname=Encode what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Database.Security.Network.BufferCodec:? what=Lua
+  up2: function params=1 src=ReplicatedStorage.Database.Security.Network.BufferCodec:? cname=compress what=Lua
+  up3: ERR
+  consts total=11
+  [1] str "buf"
+  [2] str "offset"
+  [3] number 0
+  [4] str "instances"
+  [5] str "instanceIndex"
+  [6] str "visited"
+  [7] table
+  [8] str "buffer"
+  [9] str "create"

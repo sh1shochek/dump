@@ -1,0 +1,23 @@
+PATH: ReplicatedStorage.MovementV2.Collision.SpatialGrid
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F Build
+  params=4 src=ReplicatedStorage.MovementV2.Collision.SpatialGrid:? cname=Build what=Lua protos=0[]
+  up1: table keys=13 {SweepConvexSupport:function, AabbSupport:function, Max:function, ExpandBounds:function, SweepTriangleSupport:function, Min:function, SweepTriangle:function, SweepConvex:function, ContainsConvex:function, BoundsOverlap:function, IsFiniteVector3:function, SegmentBounds:function, TriangleContactContains:function}
+  up2: table keys=3 {QueryInto:function, __index:table, Build:function}
+  up3: ERR
+  consts total=24
+  [1] str "spatial-grid cell size must be positive"
+  [2] str "assert"
+F QueryInto
+  params=7 src=ReplicatedStorage.MovementV2.Collision.SpatialGrid:? cname=QueryInto what=Lua protos=0[]
+  up1: table keys=13 {SweepConvexSupport:function, AabbSupport:function, Max:function, ExpandBounds:function, SweepTriangleSupport:function, Min:function, SweepTriangle:function, SweepConvex:function, ContainsConvex:function, BoundsOverlap:function, IsFiniteVector3:function, SegmentBounds:function, TriangleContactContains:function}
+  up2: ERR
+  consts total=20
+  [1] number 1
+  [2] number 0
+  [3] str "spatial-grid query stamp must be a positive integer"
+  [4] str "assert"
+K __index :table keys=3
+  {["QueryInto"]=<function:function: 0x245e7060408a9092>, ["__index"]=<cycle>, ["Build"]=<function:function: 0xe9a69a4ff003529c>}

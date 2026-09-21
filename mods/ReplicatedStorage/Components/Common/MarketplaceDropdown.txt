@@ -1,0 +1,73 @@
+PATH: ReplicatedStorage.Components.Common.MarketplaceDropdown
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F Expand
+  params=1 src=ReplicatedStorage.Components.Common.MarketplaceDropdown:? cname=Expand what=Lua protos=0[]
+  ups: none
+  consts total=14
+  [1] str "_expanded"
+  [2] str "Hide"
+  [3] str "_pointer"
+  [4] str "Rotation"
+  [5] str "_dropdownFrame"
+  [6] str "Visible"
+  [7] str "_config"
+  [8] str "tweenVisibility"
+  [9] str "_closeTween"
+  [10] str "Cancel"
+  [11] str "_expandTween"
+  [12] str "Play"
+  [13] str "_expandedSize"
+  [14] str "Size"
+F Hide
+  params=1 src=ReplicatedStorage.Components.Common.MarketplaceDropdown:? cname=Hide what=Lua protos=0[]
+  ups: none
+  consts total=13
+  [1] str "_expanded"
+  [2] str "_pointer"
+  [3] str "Rotation"
+  [4] str "_config"
+  [5] str "tweenVisibility"
+  [6] str "_expandTween"
+  [7] str "Cancel"
+  [8] str "_closeTween"
+  [9] str "Play"
+  [10] str "_dropdownFrame"
+  [11] str "_hiddenSize"
+  [12] str "Size"
+  [13] str "Visible"
+F SetOptions
+  params=2 src=ReplicatedStorage.Components.Common.MarketplaceDropdown:? cname=SetOptions what=Lua protos=1[#1]
+  up1: table keys=1 {FindDescendantWithTag:function}
+  up2: ERR
+  consts total=19
+  [1] str "_optionInstances"
+  [2] str "Destroy"
+  [3] str "_template"
+  [4] str "Clone"
+  [5] str "Name"
+  [6] str "UDim2"
+  [7] str "fromScale"
+F Toggle
+  params=1 src=ReplicatedStorage.Components.Common.MarketplaceDropdown:? cname=Toggle what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "_expanded"
+  [2] str "Hide"
+  [3] str "Expand"
+K __index :table keys=6
+  {["Hide"]=<function:function: 0x7210e7aa8dbf30f0>, ["SetOptions"]=<function:function: 0xf387f2a1de43f5da>, ["Toggle"]=<function:function: 0x35ce90c101769073>, ["Expand"]=<function:function: 0x92fb6141ef1eeff7>, ["__index"]=<cycle>, ["new"]=<function:function: 0x13b00512f6ce7a08>}
+F new
+  params=4 src=ReplicatedStorage.Components.Common.MarketplaceDropdown:? cname=new what=Lua protos=3[#1,#2,#3]
+  up1: table keys=6 {Hide:function, SetOptions:function, Toggle:function, Expand:function, __index:table, new:function}
+  up2: userdata InventoryDropdownTemplate
+  up3: table keys=3 {Is:function, Wrap:function, new:function}
+  up4: table keys=1 {FindDescendantWithTag:function}
+  up5: userdata TweenService
+  up6: userdata Time:0.36 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:Out EasingSty
+  up7: userdata Time:0.3 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:Out EasingStyl
+  up8: ERR
+  consts total=61
+  [1] str "Marketplace dropdowns require at least one option"
+  [2] str "assert"

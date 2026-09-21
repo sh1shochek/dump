@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Shared.Zone.ZonePlusReference
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F addToReplicatedStorage
+  params=0 src=ReplicatedStorage.Shared.Zone.ZonePlusReference:? cname=addToReplicatedStorage what=Lua protos=0[]
+  up1: userdata ReplicatedStorage
+  up2: ERR
+  consts total=18
+  [1] str "script"
+F getObject
+  params=0 src=ReplicatedStorage.Shared.Zone.ZonePlusReference:? cname=getObject what=Lua protos=0[]
+  up1: userdata ReplicatedStorage
+  up2: ERR
+  consts total=4
+  [1] str "script"

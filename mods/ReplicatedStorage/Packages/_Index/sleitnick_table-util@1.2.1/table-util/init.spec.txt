@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1.table-util.init.spec
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? what=Lua protos=26[#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20]
+  up1: ERR
+  consts total=33
+  [1] str "require"

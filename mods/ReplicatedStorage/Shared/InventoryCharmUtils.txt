@@ -1,0 +1,40 @@
+PATH: ReplicatedStorage.Shared.InventoryCharmUtils
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F GetTradeContext
+  params=1 src=ReplicatedStorage.Shared.InventoryCharmUtils:? cname=GetTradeContext what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "itemsById"
+  [2] str "attachedCharmIds"
+  [3] table
+  [4] str "_id"
+  [5] str "Charm"
+  [6] str "typeof"
+F IsCharmItem
+  params=1 src=ReplicatedStorage.Shared.InventoryCharmUtils:? cname=IsCharmItem what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "Type"
+  [2] str "Charm"
+  [3] str "Name"
+F IsTradeableItem
+  params=2 src=ReplicatedStorage.Shared.InventoryCharmUtils:? cname=IsTradeableItem what=Lua protos=0[]
+  up1: table keys=4 {ResolveCharmReferences:function, IsCharmItem:function, GetTradeContext:function, IsTradeableItem:function}
+  up2: ERR
+  consts total=9
+  [1] str "IsTradeable"
+  [2] str "IsCharmItem"
+  [3] str "attachedCharmIds"
+  [4] str "_id"
+  [5] str "Charm"
+  [6] str "typeof"
+F ResolveCharmReferences
+  params=2 src=ReplicatedStorage.Shared.InventoryCharmUtils:? cname=ResolveCharmReferences what=Lua protos=0[]
+  up1: table keys=4 {ResolveCharmReferences:function, IsCharmItem:function, GetTradeContext:function, IsTradeableItem:function}
+  up2: ERR
+  consts total=14
+  [1] str "GetTradeContext"
+  [2] str "table"
+  [3] str "create"

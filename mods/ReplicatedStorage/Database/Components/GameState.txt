@@ -1,0 +1,59 @@
+PATH: ReplicatedStorage.Database.Components.GameState
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F CancelScheduledState
+  params=0 src=ReplicatedStorage.Database.Components.GameState:? cname=CancelScheduledState what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: ERR
+  consts total=9
+  [1] str "IsServer"
+  [2] str "This method is only available to the server."
+  [3] str "assert"
+F GetState
+  params=0 src=ReplicatedStorage.Database.Components.GameState:? cname=GetState what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "workspace"
+  [2] userdata
+  [3] str "GameState"
+  [4] str "GetAttribute"
+F GetStateAtTime
+  params=1 src=ReplicatedStorage.Database.Components.GameState:? cname=GetStateAtTime what=Lua protos=0[]
+  up1: table keys=6 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string}
+  up2: ERR
+  consts total=12
+  [1] str "workspace"
+  [2] userdata
+  [3] str "GameState"
+  [4] str "GetAttribute"
+  [5] str "ScheduledGameState"
+  [6] str "ScheduledGameStateServerTime"
+  [7] str "typeof"
+F ListenToState
+  params=1 src=ReplicatedStorage.Database.Components.GameState:? cname=ListenToState what=Lua protos=1[#1]
+  up1: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up2: ERR
+  consts total=4
+  [1] str "observeAttribute"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "GameState"
+F ScheduleState
+  params=2 src=ReplicatedStorage.Database.Components.GameState:? cname=ScheduleState what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: table keys=6 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string}
+  up3: ERR
+  consts total=16
+  [1] str "IsServer"
+  [2] str "This method is only available to the server."
+  [3] str "assert"
+F SetState
+  params=1 src=ReplicatedStorage.Database.Components.GameState:? cname=SetState what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: table keys=6 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string}
+  up3: ERR
+  consts total=16
+  [1] str "IsServer"
+  [2] str "This method is only available to the server."
+  [3] str "assert"

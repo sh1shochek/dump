@@ -1,0 +1,116 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.Gamepad
+REQUIRE: ok
+RETURNS: table
+KEYS: 10
+F BindContextActions
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=BindContextActions what=Lua protos=2[#1,#2]
+  up1: userdata Enum.UserInputType.None
+  up2: userdata ContextActionService
+  up3: ERR
+  consts total=14
+  [1] str "activeGamepad"
+  [2] str "Enum"
+  [3] str "KeyCode"
+  [4] str "ButtonR2"
+  [5] userdata
+  [6] str "BindActivate"
+  [7] str "jumpAction"
+  [8] str "CONTROL_ACTION_PRIORITY"
+  [9] str "ButtonA"
+  [10] userdata
+  [11] str "BindActionAtPriority"
+  [12] str "moveThumbstick"
+  [13] str "Thumbstick1"
+  [14] userdata
+F ConnectGamepadConnectionListeners
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=ConnectGamepadConnectionListeners what=Lua protos=2[#1,#2]
+  up1: userdata UserInputService
+  up2: ERR
+  consts total=5
+  [1] str "GamepadConnected"
+  [2] str "Connect"
+  [3] str "gamepadConnectedConn"
+  [4] str "GamepadDisconnected"
+  [5] str "gamepadDisconnectedConn"
+F DisconnectGamepadConnectionListeners
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=DisconnectGamepadConnectionListeners what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "gamepadConnectedConn"
+  [2] str "Disconnect"
+  [3] str "gamepadDisconnectedConn"
+F Enable
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=Enable what=Lua protos=0[]
+  up1: userdata Enum.UserInputType.None
+  up2: ERR
+  consts total=14
+  [1] str "enabled"
+  [2] str "forwardValue"
+  [3] str "backwardValue"
+  [4] str "leftValue"
+  [5] str "rightValue"
+  [6] vector
+  [7] str "moveVector"
+  [8] str "isJumping"
+  [9] str "GetHighestPriorityGamepad"
+  [10] str "activeGamepad"
+  [11] str "BindContextActions"
+  [12] str "ConnectGamepadConnectionListeners"
+  [13] str "UnbindContextActions"
+  [14] str "DisconnectGamepadConnectionListeners"
+F GetHighestPriorityGamepad
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=GetHighestPriorityGamepad what=Lua protos=0[]
+  up1: userdata UserInputService
+  up2: userdata Enum.UserInputType.None
+  up3: ERR
+  consts total=4
+  [1] str "GetConnectedGamepads"
+  [2] str "pairs"
+F OnCurrentGamepadDisconnected
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=OnCurrentGamepadDisconnected what=Lua protos=0[]
+  up1: userdata Enum.UserInputType.None
+  up2: userdata ContextActionService
+  up3: ERR
+  consts total=8
+  [1] str "activeGamepad"
+  [2] str "Enum"
+  [3] str "KeyCode"
+  [4] str "ButtonR2"
+  [5] userdata
+  [6] str "UnbindActivate"
+  [7] str "GetHighestPriorityGamepad"
+  [8] str "warn"
+F OnNewGamepadConnected
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=OnNewGamepadConnected what=Lua protos=0[]
+  up1: userdata Enum.UserInputType.None
+  up2: ERR
+  consts total=7
+  [1] str "GetHighestPriorityGamepad"
+  [2] str "activeGamepad"
+  [3] str "warn"
+F UnbindContextActions
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=UnbindContextActions what=Lua protos=0[]
+  up1: userdata Enum.UserInputType.None
+  up2: userdata ContextActionService
+  up3: ERR
+  consts total=9
+  [1] str "activeGamepad"
+  [2] str "Enum"
+  [3] str "KeyCode"
+  [4] str "ButtonR2"
+  [5] userdata
+  [6] str "UnbindActivate"
+  [7] str "moveThumbstick"
+  [8] str "UnbindAction"
+  [9] str "jumpAction"
+K __index :table keys=10
+  {["GetHighestPriorityGamepad"]=<function:function: 0xf3ba945a00dd9768>, ["UnbindContextActions"]=<function:function: 0x10024212b1727d93>, ["Enable"]=<function:function: 0xb23c32bbd6e2fb56>, ["OnCurrentGamepadDisconnected"]=<function:function: 0xd78da90b6ef346da>, ["OnNewGamepadConnected"]=<function:function: 0x990f4d6cb305c00b>, ["DisconnectGamepadConnectionListeners"]=<function:function: 0x9204961a1eba84ee>, ["ConnectGamepadConnectionListeners"]=<function:function: 0x3aecec7e0810febd>, ["BindContextActions"]=<function:function: 0xb625a8967d63b6b8>, ["__index"]=<cycle>, ["new"]=<function:function: 0x209ce48682b9212b>}
+F new
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModul:? cname=new what=Lua protos=0[]
+  up1: table keys=6 {IsMoveVectorCameraRelative:function, GetIsJumping:function, Enable:function, GetMoveVector:function, __index:table, new:function}
+  up2: table keys=10 {GetHighestPriorityGamepad:function, UnbindContextActions:function, Enable:function, OnCurrentGamepadDisconnected:function, OnNewGamepadConnected:function, DisconnectGamepadConnectionListeners:function, ConnectGamepadConnectionListeners:function, BindContextActions:function, __index:table, new:function}
+  up3: userdata Enum.UserInputType.None
+  up4: ERR
+  consts total=11
+  [1] str "new"
+  [2] str "setmetatable"

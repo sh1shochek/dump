@@ -1,0 +1,84 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Monetization.DevProducts
+REQUIRE: ok
+RETURNS: table
+KEYS: 40
+K + 1,700 Trade Tokens :table keys=4
+  {["Price"]=1700, ["DevProductId"]=3583971349, ["BasePrice"]=1700, ["OnPurchased"]=<function:function: 0xd077aeb50e496af0>}
+K + 10,000 Trade Tokens :table keys=4
+  {["Price"]=10000, ["DevProductId"]=3583971510, ["BasePrice"]=10000, ["OnPurchased"]=<function:function: 0xd3919bcf8ddc3d84>}
+K + 13,250 Credits :table keys=4
+  {["Price"]=4999, ["DevProductId"]=3543516770, ["BasePrice"]=4999, ["OnPurchased"]=<function:function: 0x80c792ec92939b1d>}
+K + 22,500 Trade Tokens :table keys=4
+  {["Price"]=22500, ["DevProductId"]=3583971584, ["BasePrice"]=22500, ["OnPurchased"]=<function:function: 0xca9b22faad368cc0>}
+K + 27,000 Credits :table keys=4
+  {["Price"]=9999, ["DevProductId"]=3543517001, ["BasePrice"]=9999, ["OnPurchased"]=<function:function: 0xbf69170bea794e3b>}
+K + 3,100 Credits :table keys=4
+  {["Price"]=1249, ["DevProductId"]=3543516192, ["BasePrice"]=1249, ["OnPurchased"]=<function:function: 0x8f0b25a911614e8b>}
+K + 4,500 Trade Tokens :table keys=4
+  {["Price"]=4500, ["DevProductId"]=3583971424, ["BasePrice"]=4500, ["OnPurchased"]=<function:function: 0x65fe5fd56726a52a>}
+K + 400 Credits :table keys=4
+  {["Price"]=199, ["DevProductId"]=3543515479, ["BasePrice"]=199, ["OnPurchased"]=<function:function: 0x4f3689b09fcbd99b>}
+K + 400 Trade Tokens :table keys=4
+  {["Price"]=400, ["DevProductId"]=3583969640, ["BasePrice"]=400, ["OnPurchased"]=<function:function: 0xea8e787cbe8e5f94>}
+K + 6,500 Credits :table keys=4
+  {["Price"]=2499, ["DevProductId"]=3543516540, ["BasePrice"]=2499, ["OnPurchased"]=<function:function: 0x201206c909b9ef6a>}
+K + 67,500 Credits :table keys=4
+  {["Price"]=24999, ["DevProductId"]=3543517199, ["BasePrice"]=24999, ["OnPurchased"]=<function:function: 0x986cf2b24c02bd81>}
+K + 800 Trade Tokens :table keys=4
+  {["Price"]=800, ["DevProductId"]=3583969774, ["BasePrice"]=800, ["OnPurchased"]=<function:function: 0xd49f9cd9b7c7d8c0>}
+K + 950 Credits :table keys=4
+  {["Price"]=449, ["DevProductId"]=3543515926, ["BasePrice"]=449, ["OnPurchased"]=<function:function: 0x282bae11f22dddd1>}
+K 1 Consoles :table keys=5
+  {["BasePrice"]=79, ["Item"]="hero_of_hell_console", ["Price"]=79, ["OnPurchased"]=<function:function: 0x265b55c1b5a7d800>, ["DevProductId"]=3707777138}
+K 10 Consoles :table keys=5
+  {["BasePrice"]=749, ["Item"]="hero_of_hell_console", ["Price"]=749, ["OnPurchased"]=<function:function: 0x14b20283b0472856>, ["DevProductId"]=3707777127}
+K 100 Consoles :table keys=5
+  {["BasePrice"]=6249, ["Item"]="hero_of_hell_console", ["Price"]=6249, ["OnPurchased"]=<function:function: 0xd53f8688d3f9a973>, ["DevProductId"]=3707777095}
+K 25 Consoles :table keys=5
+  {["BasePrice"]=1749, ["Item"]="hero_of_hell_console", ["Price"]=1749, ["OnPurchased"]=<function:function: 0x7bfbb7aa31514891>, ["DevProductId"]=3707777112}
+K AWP | Freedom :table keys=4
+  {["Price"]=499, ["DevProductId"]=3607997308, ["BasePrice"]=499, ["OnPurchased"]=<function:function: 0xbee5a7fdffca8c72>}
+K Credits Starter Pack :table keys=4
+  {["Price"]=49, ["DevProductId"]=3550800164, ["BasePrice"]=49, ["OnPurchased"]=<function:function: 0xad3f981416c5b178>}
+K Desert Eagle | Freedom :table keys=4
+  {["Price"]=399, ["DevProductId"]=3607996989, ["BasePrice"]=399, ["OnPurchased"]=<function:function: 0x5582a02bf845079b>}
+K Gift + 1,700 Trade Tokens :table keys=4
+  {["Price"]=1700, ["DevProductId"]=3583968837, ["BasePrice"]=1700, ["OnPurchased"]=<function:function: 0xf46b28ab5a86893e>}
+K Gift + 10,000 Trade Tokens :table keys=4
+  {["Price"]=10000, ["DevProductId"]=3583969134, ["BasePrice"]=10000, ["OnPurchased"]=<function:function: 0xbfa313d386fa02cd>}
+K Gift + 13,250 Credits :table keys=4
+  {["Price"]=4999, ["DevProductId"]=3543520414, ["BasePrice"]=4999, ["OnPurchased"]=<function:function: 0x52df93f26b7e335d>}
+K Gift + 22,500 Trade Tokens :table keys=4
+  {["Price"]=22500, ["DevProductId"]=3583969448, ["BasePrice"]=22500, ["OnPurchased"]=<function:function: 0xa16786ccbb22f5ec>}
+K Gift + 27,000 Credits :table keys=4
+  {["Price"]=9999, ["DevProductId"]=3543520614, ["BasePrice"]=9999, ["OnPurchased"]=<function:function: 0x782eabe7d8005d7e>}
+K Gift + 3,100 Credits :table keys=4
+  {["Price"]=1249, ["DevProductId"]=3543519553, ["BasePrice"]=1249, ["OnPurchased"]=<function:function: 0x20ce2c4fe7d77d2d>}
+K Gift + 4,500 Trade Tokens :table keys=4
+  {["Price"]=4500, ["DevProductId"]=3583968960, ["BasePrice"]=4500, ["OnPurchased"]=<function:function: 0x3e9670b0133d91a0>}
+K Gift + 400 Credits :table keys=4
+  {["Price"]=199, ["DevProductId"]=3543518894, ["BasePrice"]=199, ["OnPurchased"]=<function:function: 0x075613df3c6548b0>}
+K Gift + 400 Trade Tokens :table keys=4
+  {["Price"]=400, ["DevProductId"]=3583968287, ["BasePrice"]=400, ["OnPurchased"]=<function:function: 0x391ff03450596244>}
+K Gift + 6,500 Credits :table keys=4
+  {["Price"]=2499, ["DevProductId"]=3543519769, ["BasePrice"]=2499, ["OnPurchased"]=<function:function: 0x0c10e46bbb2ba260>}
+K Gift + 67,500 Credits :table keys=4
+  {["Price"]=24999, ["DevProductId"]=3543520837, ["BasePrice"]=24999, ["OnPurchased"]=<function:function: 0x33c08897a33346e2>}
+K Gift + 800 Trade Tokens :table keys=4
+  {["Price"]=800, ["DevProductId"]=3583968651, ["BasePrice"]=800, ["OnPurchased"]=<function:function: 0x581a8289472ea8b6>}
+K Gift + 950 Credits :table keys=4
+  {["Price"]=449, ["DevProductId"]=3543519307, ["BasePrice"]=449, ["OnPurchased"]=<function:function: 0x6b297e765312237a>}
+K Gift AWP | Freedom :table keys=4
+  {["Price"]=499, ["DevProductId"]=3607997401, ["BasePrice"]=499, ["OnPurchased"]=<function:function: 0x9a2527fcb5f0f646>}
+K Gift Desert Eagle | Freedom :table keys=4
+  {["Price"]=399, ["DevProductId"]=3607997209, ["BasePrice"]=399, ["OnPurchased"]=<function:function: 0x189587d62b6deffc>}
+K Gift Featured Bundle :table keys=4
+  {["Price"]=999, ["DevProductId"]=3607996827, ["BasePrice"]=999, ["OnPurchased"]=<function:function: 0xe6b99a0f2f23fd4c>}
+K Gift M4A4 | Freedom :table keys=4
+  {["Price"]=599, ["DevProductId"]=3607997581, ["BasePrice"]=599, ["OnPurchased"]=<function:function: 0x4184229e61bc5a82>}
+K M4A4 | Freedom :table keys=4
+  {["Price"]=599, ["DevProductId"]=3607997525, ["BasePrice"]=599, ["OnPurchased"]=<function:function: 0xced3240e57527bbe>}
+K Purchase Featured Bundle :table keys=4
+  {["Price"]=999, ["DevProductId"]=3607995908, ["BasePrice"]=999, ["OnPurchased"]=<function:function: 0x4f993d0387fdcd36>}
+K Refresh Missions :table keys=4
+  {["Price"]=69, ["DevProductId"]=3509753152, ["BasePrice"]=69, ["OnPurchased"]=<function:function: 0x19a53313e828b8a9>}

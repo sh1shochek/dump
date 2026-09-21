@@ -1,0 +1,41 @@
+PATH: ReplicatedStorage.Database.Custom.Weapons.XM1014
+REQUIRE: ok
+RETURNS: table
+KEYS: 33
+K AimingOptions :string = None
+K ArmorPenetration :number = 0.8
+K Automatic :boolean = false
+K BulletsPerShot :number = 6
+K CameraAnimations :userdata CameraAnimations
+K Capacity :number = 32
+K CharacterAnimations :userdata CharacterAnimations
+K Class :string = Weapon
+K Cost :number = 2000
+K DamagePerPart :table keys=4
+  {["Arms"]=22, ["Torso"]=26, ["Legs"]=17, ["Head"]=82}
+K Droppable :boolean = true
+K FireRate :number = 0.35
+K HasScope :boolean = false
+K HasSuppressor :boolean = false
+K Icon :string = rbxassetid://115344320193773
+K InventoryIconData :table keys=2
+  {["Size"]=<userdata:{1, 0}, {1, 0}>, ["ScaleType"]=<userdata:Enum.ScaleType.Crop>}
+K MuzzleType :string = ShotGun
+K Penetration :number = 0.14
+K RagdollMultiplier :number = 75
+K Range :number = 120
+K RangeModifier :number = 0.7
+K Recoil :table keys=6
+  {["Pattern"]=<function:function: 0x4672e25bfcfb816c>, ["Damper"]=1, ["RecoverySpeed"]=6, ["Scale"]=1, ["Speed"]=26, ["CameraScale"]=1}
+K ReloadAnimationCount :number = 7
+K ReverseIcon :string = rbxassetid://135022102978537
+K Rounds :number = 7
+K ShootingOptions :string = Default
+K ShowCrosshair :boolean = true
+K Slot :string = Primary
+K Spread :table keys=5
+  {["JumpShotMinimum"]=12, ["RecoverySpeed"]=4.25, ["PerShot"]=0.85, ["Range"]=<userdata:8 12 >, ["MovementMultiplier"]=0.3}
+K Team :string = Both
+K Type :string = Heavy
+K WalkSpeed :number = 17.372
+K WallbangMultiplier :number = 0.5

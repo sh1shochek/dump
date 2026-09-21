@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.Crosshair.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

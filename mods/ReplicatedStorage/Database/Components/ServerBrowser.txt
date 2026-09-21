@@ -1,0 +1,43 @@
+PATH: ReplicatedStorage.Database.Components.ServerBrowser
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F GetActiveGameServers
+  params=0 src=ReplicatedStorage.Database.Components.ServerBrowser:? cname=GetActiveGameServers what=Lua protos=0[]
+  up1: table keys=50 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table, 12:table, 13:table, 14:table, 15:table, 16:table, 17:table, 18:table, 19:table, 20:table, 21:table, 22:table, 23:table, 24:table, 25:table, 26:table, 27:table, 28:table, 29:table, 30:table, 31:table, 32:table, 33:table, 34:table, 35:table, 36:table, 37:table, 38:table, 39:table, 40:table}
+  up2: ERR
+  consts total=0
+F GetServerByMatchId
+  params=1 src=ReplicatedStorage.Database.Components.ServerBrowser:? cname=GetServerByMatchId what=Lua protos=0[]
+  up1: table keys=50 {2d483d0c-628c-493c-8f50-6ec6433f9904:table, e1347376-8d53-4fda-aa96-76d8bae53640:table, eb738a53-391a-4f65-b546-a6fd55bec44f:table, 5c2d5381-e209-44ba-9251-52a0c9bf7cf2:table, 7ce4a943-97ee-4cc6-83da-6b5f6f65c85c:table, 6f6582b5-83b5-4c9b-b34d-7dfaf7b8fe70:table, 38f68f5c-0824-4b2b-adf1-228a8e2d8e45:table, df06d834-a816-428e-aee9-8b37a83b795a:table, 88c5f4a9-ed19-4bee-8747-530652a27040:table, dae4adc4-c9f3-4b85-8655-061c9c89557e:table, 7540c263-a69d-4361-8d83-e8e1e201518f:table, c69cec5b-4224-47ef-bc36-964286cd2e1d:table, bd74bf7c-5fc7-42bd-a4aa-7dfc582ca83a:table, 6e0b9614-903a-43fd-9350-10322969dd60:table, 6b17c2ac-b243-481d-bc28-d8fc3650cde7:table, fac752e5-d736-450e-86c1-6aabd5b88770:table, 3a377adb-ffc4-48d3-a8bf-92ecbdad5e1a:table, 26d20446-06ac-471c-a20b-a1c214d9218c:table, dd1cd656-be5d-4948-84aa-f99424bfeaa9:table, d9e33d9e-26e0-4700-ab27-0a640d8f33f6:table, 369e4000-bab9-4f7e-b299-37f94064645c:table, 2b30157d-8d73-4a9e-a841-8fb52e978f48:table, d17c4a95-2358-4a3d-9aa0-5b6a032e5f89:table, 139b3e70-720c-470e-b0a8-fce3f7576ce0:table, f8433270-0a6a-49cf-a4c7-65eb06c07e42:table, 264c1dc9-adb1-4a4a-aeaa-58f2f1f7d290:table, 9aa39e3f-86a7-4a18-b8f7-15db6357e0f6:table, 149f3ab4-55a4-4445-a9ac-0956fed25928:table, e482bc02-391f-4ce0-bfa5-8cf8aaac020f:table, af12e634-03ab-4863-9c83-cfdbf2746432:table, 496e0820-5162-408e-9ed0-be479d97e7c1:table, 7bec76c0-4127-45e8-aec5-01756c7f4b18:table, 10b6e6dd-8730-4900-9799-fb1580e15f07:table, 09341c05-ca58-4d01-8dc3-fc70036e2167:table, ad99dff5-0d30-42ac-aa10-7619ad35f151:table, bd5e6fb0-d22a-4bea-986c-d533f2cfdd88:table, 69534067-cf57-4202-9d78-57f0fc12b32d:table, e47a72bd-a99f-4b67-8b8b-8a27e51ebdbb:table, 82080b76-63ce-4b1e-aeea-104b52f9699b:table, 5f9d8092-e69f-4d97-b1dc-2f601236499c:table}
+  up2: ERR
+  consts total=0
+F GetServerNameFromMatchId
+  params=1 src=ReplicatedStorage.Database.Components.ServerBrowser:? cname=GetServerNameFromMatchId what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "[^%a]"
+  [2] str ""
+  [3] str "gsub"
+  [4] str "upper"
+F ObserverServerBrowser
+  params=1 src=ReplicatedStorage.Database.Components.ServerBrowser:? cname=ObserverServerBrowser what=Lua protos=1[#1]
+  up1: table keys=1 {_handlerListHead:table}
+  up2: table keys=50 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table, 12:table, 13:table, 14:table, 15:table, 16:table, 17:table, 18:table, 19:table, 20:table, 21:table, 22:table, 23:table, 24:table, 25:table, 26:table, 27:table, 28:table, 29:table, 30:table, 31:table, 32:table, 33:table, 34:table, 35:table, 36:table, 37:table, 38:table, 39:table, 40:table}
+  up3: ERR
+  consts total=1
+  [1] str "Connect"
+K OnServerBrowserUpdated :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x36f1ed122278eae0>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0x4f788a7c65bd195f>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}}
+F UpdateActiveGameServers
+  params=1 src=ReplicatedStorage.Database.Components.ServerBrowser:? cname=UpdateActiveGameServers what=Lua protos=1[#1]
+  up1: function params=2 src=ReplicatedStorage.Database.Components.Common.RemoveFromArray:? what=Lua
+  up2: userdata HttpService
+  up3: userdata Run Service
+  up4: table keys=50 {2d483d0c-628c-493c-8f50-6ec6433f9904:table, e1347376-8d53-4fda-aa96-76d8bae53640:table, eb738a53-391a-4f65-b546-a6fd55bec44f:table, 5c2d5381-e209-44ba-9251-52a0c9bf7cf2:table, 7ce4a943-97ee-4cc6-83da-6b5f6f65c85c:table, 6f6582b5-83b5-4c9b-b34d-7dfaf7b8fe70:table, 38f68f5c-0824-4b2b-adf1-228a8e2d8e45:table, df06d834-a816-428e-aee9-8b37a83b795a:table, 88c5f4a9-ed19-4bee-8747-530652a27040:table, dae4adc4-c9f3-4b85-8655-061c9c89557e:table, 7540c263-a69d-4361-8d83-e8e1e201518f:table, c69cec5b-4224-47ef-bc36-964286cd2e1d:table, bd74bf7c-5fc7-42bd-a4aa-7dfc582ca83a:table, 6e0b9614-903a-43fd-9350-10322969dd60:table, 6b17c2ac-b243-481d-bc28-d8fc3650cde7:table, fac752e5-d736-450e-86c1-6aabd5b88770:table, 3a377adb-ffc4-48d3-a8bf-92ecbdad5e1a:table, 26d20446-06ac-471c-a20b-a1c214d9218c:table, dd1cd656-be5d-4948-84aa-f99424bfeaa9:table, d9e33d9e-26e0-4700-ab27-0a640d8f33f6:table, 369e4000-bab9-4f7e-b299-37f94064645c:table, 2b30157d-8d73-4a9e-a841-8fb52e978f48:table, d17c4a95-2358-4a3d-9aa0-5b6a032e5f89:table, 139b3e70-720c-470e-b0a8-fce3f7576ce0:table, f8433270-0a6a-49cf-a4c7-65eb06c07e42:table, 264c1dc9-adb1-4a4a-aeaa-58f2f1f7d290:table, 9aa39e3f-86a7-4a18-b8f7-15db6357e0f6:table, 149f3ab4-55a4-4445-a9ac-0956fed25928:table, e482bc02-391f-4ce0-bfa5-8cf8aaac020f:table, af12e634-03ab-4863-9c83-cfdbf2746432:table, 496e0820-5162-408e-9ed0-be479d97e7c1:table, 7bec76c0-4127-45e8-aec5-01756c7f4b18:table, 10b6e6dd-8730-4900-9799-fb1580e15f07:table, 09341c05-ca58-4d01-8dc3-fc70036e2167:table, ad99dff5-0d30-42ac-aa10-7619ad35f151:table, bd5e6fb0-d22a-4bea-986c-d533f2cfdd88:table, 69534067-cf57-4202-9d78-57f0fc12b32d:table, e47a72bd-a99f-4b67-8b8b-8a27e51ebdbb:table, 82080b76-63ce-4b1e-aeea-104b52f9699b:table, 5f9d8092-e69f-4d97-b1dc-2f601236499c:table}
+  up5: table keys=50 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table, 9:table, 10:table, 11:table, 12:table, 13:table, 14:table, 15:table, 16:table, 17:table, 18:table, 19:table, 20:table, 21:table, 22:table, 23:table, 24:table, 25:table, 26:table, 27:table, 28:table, 29:table, 30:table, 31:table, 32:table, 33:table, 34:table, 35:table, 36:table, 37:table, 38:table, 39:table, 40:table}
+  up6: table keys=1 {_handlerListHead:table}
+  up7: ERR
+  consts total=2
+  [1] str "[]"
+  [2] str "JSONDecode"

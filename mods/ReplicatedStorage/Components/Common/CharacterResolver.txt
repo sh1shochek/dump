@@ -1,0 +1,143 @@
+PATH: ReplicatedStorage.Components.Common.CharacterResolver
+REQUIRE: ok
+RETURNS: table
+KEYS: 16
+F createCameraPart
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=createCameraPart what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: ERR
+  consts total=34
+  [1] str "CameraPart"
+  [2] str "FindFirstChild"
+  [3] str "%* already has a CameraPart"
+  [4] str "GetFullName"
+  [5] str "format"
+  [6] str "assert"
+F getAnimationController
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=getAnimationController what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "AnimationController"
+  [2] str "FindFirstChild"
+  [3] str "IsA"
+F getAnimator
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=getAnimator what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: ERR
+  consts total=4
+  [1] str "getAnimationController"
+  [2] str "Animator"
+  [3] str "FindFirstChild"
+  [4] str "IsA"
+F getCameraPart
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=getCameraPart what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "CameraPart"
+  [2] str "FindFirstChild"
+  [3] str "BasePart"
+  [4] str "IsA"
+F getHead
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=getHead what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "Head"
+  [2] str "FindFirstChild"
+  [3] str "BasePart"
+  [4] str "IsA"
+F getHealth
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=getHealth what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "Health"
+  [2] str "GetAttribute"
+  [3] str "typeof"
+F getLocalCharacter
+  params=0 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=getLocalCharacter what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: userdata Players
+  up3: ERR
+  consts total=2
+  [1] str "getPlayerCharacter"
+  [2] str "LocalPlayer"
+F getMaxHealth
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=getMaxHealth what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "MaxHealth"
+  [2] str "GetAttribute"
+  [3] str "typeof"
+F getOrCreateAnimator
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=getOrCreateAnimator what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: ERR
+  consts total=14
+  [1] str "getAnimationController"
+  [2] str "Instance"
+  [3] str "new"
+F getPlayerCharacter
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=getPlayerCharacter what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Character"
+  [2] str "Parent"
+F getPlayerFromCharacter
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=getPlayerFromCharacter what=Lua protos=0[]
+  up1: userdata Players
+  up2: ERR
+  consts total=1
+  [1] str "GetPlayerFromCharacter"
+F getRootPart
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=getRootPart what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "HumanoidRootPart"
+  [2] str "FindFirstChild"
+  [3] str "BasePart"
+  [4] str "IsA"
+F isAliveCharacter
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=isAliveCharacter what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: ERR
+  consts total=6
+  [1] str "workspace"
+  [2] userdata
+  [3] str "IsDescendantOf"
+  [4] str "Dead"
+  [5] str "GetAttribute"
+  [6] str "getHealth"
+F isPlayerCharacter
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=isPlayerCharacter what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: ERR
+  consts total=4
+  [1] str "CharacterType"
+  [2] str "GetAttribute"
+  [3] str "PlayerCustomCharacter"
+  [4] str "getRootPart"
+F observeCharacter
+  params=2 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=observeCharacter what=Lua protos=3[setCharacter,#2,#3]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: ERR
+  consts total=4
+  [1] str "getPlayerCharacter"
+  [2] str "CharacterAdded"
+  [3] str "Connect"
+  [4] str "CharacterRemoving"
+F resolve
+  params=1 src=ReplicatedStorage.Components.Common.CharacterResolver:? cname=resolve what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: ERR
+  consts total=12
+  [1] str "getRootPart"
+  [2] str "getCameraPart"
+  [3] str "Character"
+  [4] str "RootPart"
+  [5] str "Head"
+  [6] str "CameraPart"
+  [7] str "AnimationController"
+  [8] str "Animator"
+  [9] table
+  [10] str "getHead"
+  [11] str "getAnimationController"
+  [12] str "getAnimator"

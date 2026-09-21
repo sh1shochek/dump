@@ -1,0 +1,76 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Career.Derive
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+K AccuracyCeiling :number = 0.4
+F AverageDamage
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Derive:? cname=AverageDamage what=Lua protos=0[]
+  up1: table keys=11 {Kast:function, Divide:function, FavouriteWeapon:function, KillDeath:function, AverageDamage:function, HeatWeight:function, CombatScore:function, ZoneShare:function, AccuracyCeiling:number, EconomyRating:function, DamageDelta:function}
+  up2: ERR
+  consts total=3
+  [1] str "Divide"
+  [2] str "DamageDealt"
+  [3] str "RoundsPlayed"
+F CombatScore
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Derive:? cname=CombatScore what=Lua protos=0[]
+  up1: table keys=11 {Kast:function, Divide:function, FavouriteWeapon:function, KillDeath:function, AverageDamage:function, HeatWeight:function, CombatScore:function, ZoneShare:function, AccuracyCeiling:number, EconomyRating:function, DamageDelta:function}
+  up2: ERR
+  consts total=3
+  [1] str "Divide"
+  [2] str "CombatScore"
+  [3] str "RoundsPlayed"
+F DamageDelta
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Derive:? cname=DamageDelta what=Lua protos=0[]
+  up1: table keys=11 {Kast:function, Divide:function, FavouriteWeapon:function, KillDeath:function, AverageDamage:function, HeatWeight:function, CombatScore:function, ZoneShare:function, AccuracyCeiling:number, EconomyRating:function, DamageDelta:function}
+  up2: ERR
+  consts total=4
+  [1] str "Divide"
+  [2] str "DamageDealt"
+  [3] str "DamageTaken"
+  [4] str "RoundsPlayed"
+F Divide
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.Derive:? cname=Divide what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F EconomyRating
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.Derive:? cname=EconomyRating what=Lua protos=0[]
+  up1: table keys=11 {Kast:function, Divide:function, FavouriteWeapon:function, KillDeath:function, AverageDamage:function, HeatWeight:function, CombatScore:function, ZoneShare:function, AccuracyCeiling:number, EconomyRating:function, DamageDelta:function}
+  up2: ERR
+  consts total=2
+  [1] number 1000
+  [2] str "Divide"
+F FavouriteWeapon
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.Derive:? cname=FavouriteWeapon what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "SideWeaponKills"
+  [2] str "pairs"
+F HeatWeight
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.Derive:? cname=HeatWeight what=Lua protos=0[]
+  up1: table keys=11 {Kast:function, Divide:function, FavouriteWeapon:function, KillDeath:function, AverageDamage:function, HeatWeight:function, CombatScore:function, ZoneShare:function, AccuracyCeiling:number, EconomyRating:function, DamageDelta:function}
+  up2: ERR
+  consts total=4
+  [1] str "Divide"
+  [2] str "AccuracyCeiling"
+  [3] str "math"
+  [4] str "clamp"
+F Kast
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Derive:? cname=Kast what=Lua protos=0[]
+  up1: table keys=11 {Kast:function, Divide:function, FavouriteWeapon:function, KillDeath:function, AverageDamage:function, HeatWeight:function, CombatScore:function, ZoneShare:function, AccuracyCeiling:number, EconomyRating:function, DamageDelta:function}
+  up2: ERR
+  consts total=3
+  [1] str "Divide"
+  [2] str "KastRounds"
+  [3] str "RoundsPlayed"
+F KillDeath
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Career.Derive:? cname=KillDeath what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Deaths"
+  [2] str "Kills"
+F ZoneShare
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Career.Derive:? cname=ZoneShare what=Lua protos=0[]
+  up1: table keys=11 {Kast:function, Divide:function, FavouriteWeapon:function, KillDeath:function, AverageDamage:function, HeatWeight:function, CombatScore:function, ZoneShare:function, AccuracyCeiling:number, EconomyRating:function, DamageDelta:function}
+  up2: ERR
+  consts total=1
+  [1] str "Divide"

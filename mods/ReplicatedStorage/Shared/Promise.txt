@@ -1,0 +1,163 @@
+PATH: ReplicatedStorage.Shared.Promise
+REQUIRE: ok
+RETURNS: table
+KEYS: 27
+K Error :table keys=8
+  {["__tostring"]=<function:function: 0xf5690518bfc84071>, ["getErrorChain"]=<function:function: 0x7a67f0dd137c5a41>, ["extend"]=<function:function: 0xef69fd8907961ff3>, ["isKind"]=<function:function: 0x580b05be58852473>, ["is"]=<function:function: 0x37f5402622eb257b>, ["Kind"]={["ExecutionError"]="ExecutionError", ["TimedOut"]="TimedOut", ["AlreadyCancelled"]="AlreadyCancelled", ["NotResolvedInTime"]="NotResolvedInTime"}, ["__index"]=<cycle>, ["new"]=<function:function: 0x162c7065bf22a7f5>}
+K Status :table keys=4
+  {["Cancelled"]="Cancelled", ["Rejected"]="Rejected", ["Resolved"]="Resolved", ["Started"]="Started"}
+K __index :table keys=26
+  {["cancel"]=<function:function: 0xc6188e1f7cc402de>, ["finally"]=<function:function: 0x2fc55161c69e8e02>, ["_andThen"]=<function:function: 0x7514cba04095b2b8>, ["andThenReturn"]=<function:function: 0xdc0f4c858ce1af6c>, ["finallyReturn"]=<function:function: 0x79e67cfdc76dc594>, ["doneCall"]=<function:function: 0x6ce31bc7cc94f6bc>, ["timeout"]=<function:function: 0x7ef96ff21ff76d82>, ["await"]=<function:function: 0xb274f10368ffe500>, ["finallyCall"]=<function:function: 0x1ccef17c943af6df>, ["_reject"]=<function:function: 0x8f2d8bd63fe75122>, ["andThenCall"]=<function:function: 0xe0fd559b6dbe969a>, ["_unwrap"]=<function:function: 0x3fd2f3318677c6e5>, ["_finally"]=<function:function: 0xe1521d5c9750f2a8>, ["_consumerCancelled"]=<function:function: 0x4e2d3f7440215c08>, ["done"]=<function:function: 0x1297474ae356f9fb>, ["andThen"]=<function:function: 0xddd98f5314e84e47>, ["expect"]=<function:function: 0x4c078498dde52fee>, ["awaitStatus"]=<function:function: 0x22a1712a6056ab16>, ["awaitValue"]=<function:function: 0x4c078498dde52fee>, ["catch"]=<function:function: 0x61d87cb44a6f4d78>, ["now"]=<function:function: 0xf0e37a02464f5ea5>, ["tap"]=<function:function: 0xd4b6a2eae05d1595>, ["_resolve"]=<function:function: 0xa42fac33050f2b0e>, ["getStatus"]=<function:function: 0x42072663c81b20a7>, ["_finalize"]=<function:function: 0xdc056a898905b0b6>, ["doneReturn"]=<function:function: 0xa9e3b776394fc337>}
+F __tostring
+  params=1 src=ReplicatedStorage.Shared.Promise:? cname=__tostring what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "string"
+  [2] str "format"
+F _all
+  params=3 src=ReplicatedStorage.Shared.Promise:? cname=_all what=Lua protos=1[#1]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: ERR
+  consts total=11
+  [1] str "type"
+F _getTime
+  params=0 src=[C]:? cname=clock what=C protos=ERR
+  up1: ERR
+  consts: ERR
+F _new
+  params=3 src=ReplicatedStorage.Shared.Promise:? cname=_new what=Lua protos=4[resolve,reject,onCancel,#4]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: table keys=1 {__mode:string}
+  up3: function params=2 src=ReplicatedStorage.Shared.Promise:? cname=runExecutor what=Lua
+  up4: ERR
+  consts total=25
+  [1] str "is"
+  [2] str "error"
+K _timeEvent :userdata Signal Heartbeat
+F _try
+  params=2 src=ReplicatedStorage.Shared.Promise:? cname=_try what=Lua protos=1[#1]
+  up1: function params=0 src=ReplicatedStorage.Shared.Promise:? cname=pack what=Lua
+  up2: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up3: ERR
+  consts total=1
+  [1] str "_new"
+F all
+  params=1 src=ReplicatedStorage.Shared.Promise:? cname=all what=Lua protos=0[]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: ERR
+  consts total=3
+  [1] str "_all"
+  [2] str "debug"
+  [3] str "traceback"
+F allSettled
+  params=1 src=ReplicatedStorage.Shared.Promise:? cname=allSettled what=Lua protos=1[#1]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: ERR
+  consts total=11
+  [1] str "type"
+F any
+  params=1 src=ReplicatedStorage.Shared.Promise:? cname=any what=Lua protos=1[#1]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: ERR
+  consts total=6
+  [1] str "_all"
+  [2] str "debug"
+  [3] str "traceback"
+F async
+  params=1 src=ReplicatedStorage.Shared.Promise:? cname=defer what=Lua protos=1[#1]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: function params=2 src=ReplicatedStorage.Shared.Promise:? cname=runExecutor what=Lua
+  up3: ERR
+  consts total=4
+  [1] str "debug"
+  [2] str "traceback"
+F defer
+  params=1 src=ReplicatedStorage.Shared.Promise:? cname=defer what=Lua protos=1[#1]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: function params=2 src=ReplicatedStorage.Shared.Promise:? cname=runExecutor what=Lua
+  up3: ERR
+  consts total=4
+  [1] str "debug"
+  [2] str "traceback"
+F delay
+  params=1 src=ReplicatedStorage.Shared.Promise:? cname=delay what=Lua protos=1[#1]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  consts total=11
+  [1] str "type"
+F each
+  params=2 src=ReplicatedStorage.Shared.Promise:? cname=each what=Lua protos=1[#1]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: table keys=8 {__tostring:function, getErrorChain:function, extend:function, isKind:function, is:function, Kind:table, __index:table, new:function}
+  up3: ERR
+  consts total=15
+  [1] str "type"
+F fromEvent
+  params=2 src=ReplicatedStorage.Shared.Promise:? cname=fromEvent what=Lua protos=2[#1,#2]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: ERR
+  consts total=4
+F is
+  params=1 src=ReplicatedStorage.Shared.Promise:? cname=is what=Lua protos=0[]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: ERR
+  consts total=9
+  [1] str "type"
+F new
+  params=1 src=ReplicatedStorage.Shared.Promise:? cname=new what=Lua protos=0[]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: ERR
+  consts total=3
+  [1] str "_new"
+  [2] str "debug"
+  [3] str "traceback"
+F promisify
+  params=1 src=ReplicatedStorage.Shared.Promise:? cname=promisify what=Lua protos=1[#1]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: ERR
+  consts total=0
+K prototype :table keys=26
+  {["cancel"]=<function:function: 0xc6188e1f7cc402de>, ["finally"]=<function:function: 0x2fc55161c69e8e02>, ["_andThen"]=<function:function: 0x7514cba04095b2b8>, ["andThenReturn"]=<function:function: 0xdc0f4c858ce1af6c>, ["finallyReturn"]=<function:function: 0x79e67cfdc76dc594>, ["doneCall"]=<function:function: 0x6ce31bc7cc94f6bc>, ["timeout"]=<function:function: 0x7ef96ff21ff76d82>, ["await"]=<function:function: 0xb274f10368ffe500>, ["finallyCall"]=<function:function: 0x1ccef17c943af6df>, ["_reject"]=<function:function: 0x8f2d8bd63fe75122>, ["andThenCall"]=<function:function: 0xe0fd559b6dbe969a>, ["_unwrap"]=<function:function: 0x3fd2f3318677c6e5>, ["_finally"]=<function:function: 0xe1521d5c9750f2a8>, ["_consumerCancelled"]=<function:function: 0x4e2d3f7440215c08>, ["done"]=<function:function: 0x1297474ae356f9fb>, ["andThen"]=<function:function: 0xddd98f5314e84e47>, ["expect"]=<function:function: 0x4c078498dde52fee>, ["awaitStatus"]=<function:function: 0x22a1712a6056ab16>, ["awaitValue"]=<function:function: 0x4c078498dde52fee>, ["catch"]=<function:function: 0x61d87cb44a6f4d78>, ["now"]=<function:function: 0xf0e37a02464f5ea5>, ["tap"]=<function:function: 0xd4b6a2eae05d1595>, ["_resolve"]=<function:function: 0xa42fac33050f2b0e>, ["getStatus"]=<function:function: 0x42072663c81b20a7>, ["_finalize"]=<function:function: 0xdc056a898905b0b6>, ["doneReturn"]=<function:function: 0xa9e3b776394fc337>}
+F race
+  params=1 src=ReplicatedStorage.Shared.Promise:? cname=race what=Lua protos=1[#1]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: ERR
+  consts total=5
+  [1] str "type"
+F reject
+  params=0 src=ReplicatedStorage.Shared.Promise:? cname=reject what=Lua protos=1[#1]
+  up1: function params=0 src=ReplicatedStorage.Shared.Promise:? cname=pack what=Lua
+  up2: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up3: ERR
+  consts total=3
+  [1] str "_new"
+  [2] str "debug"
+  [3] str "traceback"
+F resolve
+  params=0 src=ReplicatedStorage.Shared.Promise:? cname=resolve what=Lua protos=1[#1]
+  up1: function params=0 src=ReplicatedStorage.Shared.Promise:? cname=pack what=Lua
+  up2: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up3: ERR
+  consts total=3
+  [1] str "_new"
+  [2] str "debug"
+  [3] str "traceback"
+F retry
+  params=2 src=ReplicatedStorage.Shared.Promise:? cname=retry what=Lua protos=1[#1]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: ERR
+  consts total=13
+  [1] str "type"
+F some
+  params=2 src=ReplicatedStorage.Shared.Promise:? cname=some what=Lua protos=0[]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: ERR
+  consts total=5
+  [1] str "type"
+F try
+  params=0 src=ReplicatedStorage.Shared.Promise:? cname=try what=Lua protos=0[]
+  up1: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up2: ERR
+  consts total=3
+  [1] str "_try"
+  [2] str "debug"
+  [3] str "traceback"

@@ -1,0 +1,32 @@
+PATH: ReplicatedStorage.Controllers.CaseSceneController.SceneRegistry
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F GetAllSceneNames
+  params=0 src=ReplicatedStorage.Controllers.CaseSceneController.SceneRegis:? cname=GetAllSceneNames what=Lua protos=0[]
+  up1: table keys=4 {Package:table, Console:table, Default:table, CharmCapsule:table}
+  up2: ERR
+  consts total=2
+  [1] str "table"
+  [2] str "insert"
+F GetConfig
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.SceneRegis:? cname=GetConfig what=Lua protos=0[]
+  up1: table keys=4 {Package:table, Console:table, Default:table, CharmCapsule:table}
+  up2: ERR
+  consts total=0
+F GetSceneForCaseType
+  params=1 src=ReplicatedStorage.Controllers.CaseSceneController.SceneRegis:? cname=GetSceneForCaseType what=Lua protos=0[]
+  up1: table keys=5 {Console:string, Sticker Capsule:string, Package:string, Charm Capsule:string, Case:string}
+  up2: ERR
+  consts total=1
+  [1] str "Default"
+F RegisterCaseTypeMapping
+  params=2 src=ReplicatedStorage.Controllers.CaseSceneController.SceneRegis:? cname=RegisterCaseTypeMapping what=Lua protos=0[]
+  up1: table keys=5 {Console:string, Sticker Capsule:string, Package:string, Charm Capsule:string, Case:string}
+  up2: ERR
+  consts total=0
+F RegisterScene
+  params=2 src=ReplicatedStorage.Controllers.CaseSceneController.SceneRegis:? cname=RegisterScene what=Lua protos=0[]
+  up1: table keys=4 {Package:table, Console:table, Default:table, CharmCapsule:table}
+  up2: ERR
+  consts total=0

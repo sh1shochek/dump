@@ -1,0 +1,439 @@
+PATH: ReplicatedStorage.Components.Weapon
+REQUIRE: ok
+RETURNS: table
+KEYS: 27
+K __index :table keys=27
+  {["cancelRevolverCharge"]=<function:function: 0x1accd3fb5b67425d>, ["getSpread"]=<function:function: 0xb21cc595d2111784>, ["unscope"]=<function:function: 0xe59af061077f65c2>, ["isJumping"]=<function:function: 0x7a9df52e7f43a9b2>, ["shoot"]=<function:function: 0x68098759d2fe99ab>, ["getCrosshairDisplayState"]=<function:function: 0xec45c716ae0cceef>, ["stopAllAnimations"]=<function:function: 0x3ea0bc01b8b8b590>, ["drop"]=<function:function: 0x4581bc2013826a19>, ["equip"]=<function:function: 0xb1c9bc867c4dc476>, ["inspect"]=<function:function: 0x7a807f3bd4dddea1>, ["__index"]=<cycle>, ["new"]=<function:function: 0xb16de7899ebbbfe8>, ["destroy"]=<function:function: 0x7b6c06f7a65bf291>, ["setupRecoil"]=<function:function: 0x5844383760b1bf95>, ["createSuppressor"]=<function:function: 0x7c1a818f97b4d2ec>, ["scope"]=<function:function: 0x18b58253fb62f0b7>, ["getBaseSpread"]=<function:function: 0x6ee812d6c806a6fd>, ["unequip"]=<function:function: 0x322720a4e54ce9e7>, ["reload"]=<function:function: 0x2f1ded4ecaeab546>, ["startRevolverCharge"]=<function:function: 0x573dec20739da791>, ["fireBurst"]=<function:function: 0xc74dd51479d1507c>, ["updateFireMode"]=<function:function: 0x87db23c39c479a55>, ["cancelInspect"]=<function:function: 0xac7711d19a063402>, ["addSuppressor"]=<function:function: 0x2f3318ee17e240eb>, ["removeSuppressor"]=<function:function: 0x490a7106dbbe3442>, ["stopRevolverSecondaryFire"]=<function:function: 0x435459e17c848c3d>, ["startRevolverSecondaryFire"]=<function:function: 0x6c2671a14bf70017>}
+F addSuppressor
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=addSuppressor what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up2: ERR
+  consts total=16
+  [1] str "tick"
+F cancelInspect
+  params=4 src=ReplicatedStorage.Components.Weapon:? cname=cancelInspect what=Lua protos=1[#1]
+  up1: ERR
+  consts total=15
+  [1] str "IsInspecting"
+  [2] str "IsInspectFadingOut"
+  [3] str "InspectDelayThread"
+  [4] str "task"
+  [5] str "cancel"
+F cancelRevolverCharge
+  params=3 src=ReplicatedStorage.Components.Weapon:? cname=cancelRevolverCharge what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Components.Weapon:? cname=applyActiveRecoilProfile what=Lua
+  up2: function params=2 src=ReplicatedStorage.Components.Weapon:? cname=stopRevolverChargeAnimation what=Lua
+  up3: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up4: ERR
+  consts total=25
+  [1] str "IsChargeFiring"
+  [2] str "ChargeThread"
+  [3] str "task"
+  [4] str "cancel"
+F createSuppressor
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=createSuppressor what=Lua protos=6[#1,#2,#3,#4,#5,#6]
+  up1: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up2: ERR
+  consts total=19
+  [1] str "Viewmodel"
+  [2] str "Model"
+  [3] str "Silencer"
+  [4] str "FindFirstChild"
+  [5] str "IsSuppressed"
+  [6] str "Transparency"
+  [7] str "Identifier"
+  [8] str "Animation"
+  [9] str "RemoveSuppressor"
+  [10] str "getAnimation"
+  [11] str "AddSuppressor"
+  [12] str "Janitor"
+  [13] str "ScrewOnEnd"
+  [14] str "GetMarkerReachedSignal"
+  [15] str "Connect"
+  [16] str "Add"
+  [17] str "Ended"
+  [18] str "IsPlaying"
+  [19] str "GetPropertyChangedSignal"
+F destroy
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=destroy what=Lua protos=0[]
+  up1: table keys=2 {destroy:function, new:function}
+  up2: ERR
+  consts total=42
+  [1] str "IsDestroyed"
+  [2] str "ReloadTrackFinishedConnection"
+  [3] str "Connected"
+  [4] str "Disconnect"
+  [5] str "ShootDelayThread"
+  [6] str "task"
+  [7] str "cancel"
+F drop
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=drop what=Lua protos=0[]
+  up1: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up2: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up3: function params=1 src=ReplicatedStorage.Components.Common.GetCharacterVelocity:? cname=GetCharacterVelocity what=Lua
+  up4: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up5: userdata Camera
+  up6: ERR
+  consts total=20
+  [1] str "workspace"
+  [2] userdata
+  [3] str "Gamemode"
+  [4] str "GetAttribute"
+  [5] str "Deathmatch"
+  [6] str "GetState"
+  [7] str "Warmup"
+  [8] str "Properties"
+  [9] str "Droppable"
+  [10] str "unequip"
+  [11] str "Inventory"
+  [12] str "DropWeapon"
+  [13] str "Send"
+  [14] str "CharacterVelocity"
+  [15] str "Direction"
+  [16] str "Identifier"
+  [17] table
+  [18] str "getLocalCharacter"
+  [19] str "CFrame"
+  [20] str "LookVector"
+F equip
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=equip what=Lua protos=2[#1,#2]
+  up1: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up2: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up3: userdata Mateo_081005
+  up4: table keys=12 {enableGroup:function, getActionKeybinds:function, registerAction:function, disableGroup:function, Initialize:function, isBindingPressed:function, isActionPressed:function, GetActionKeybind:function, Start:function, loadActionsFromDatabase:function, bindKeybinds:function, isActionActive:function}
+  up5: function params=2 src=ReplicatedStorage.Components.Weapon:? cname=getPressedActionBinding what=Lua
+  up6: table keys=2 {1:userdata, 2:userdata}
+  up7: table keys=2 {1:userdata, 2:userdata}
+  up8: function params=2 src=ReplicatedStorage.Components.Weapon:? cname=applyActiveRecoilProfile what=Lua
+  up9: ERR
+  consts total=62
+  [1] str "IsEquipped"
+  [2] str "resetWeaponRecoil"
+  [3] str "Bullet"
+  [4] str "setActive"
+  [5] str "Viewmodel"
+  [6] str "Hidden"
+  [7] str "unhide"
+  [8] str "Animation"
+  [9] str "stopAnimations"
+  [10] str "CharacterAnimator"
+  [11] str "Idle"
+  [12] str "play"
+  [13] str "Equip"
+  [14] str "tick"
+F fireBurst
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=fireBurst what=Lua protos=1[#1]
+  up1: table keys=2 {clearHint:function, createHint:function}
+  up2: ERR
+  consts total=3
+  [1] str "IsBurstShooting"
+  [2] str "task"
+  [3] str "spawn"
+F getBaseSpread
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=getBaseSpread what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "Bullet"
+  [2] str "getBaseSpread"
+  [3] str "isJumping"
+  [4] number 0
+F getCrosshairDisplayState
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=getCrosshairDisplayState what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F getSpread
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=getSpread what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "Bullet"
+  [2] str "getTrueSpread"
+  [3] str "isJumping"
+  [4] number 0
+F inspect
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=inspect what=Lua protos=2[#1,#2]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up2: ERR
+  consts total=31
+  [1] str "tick"
+F isJumping
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=isJumping what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up3: ERR
+  consts total=4
+  [1] str "getPlayerCharacter"
+  [2] str "Player"
+  [3] str "PrimaryPart"
+  [4] str "resolve"
+F new
+  params=13 src=ReplicatedStorage.Components.Weapon:? cname=new what=Lua protos=1[#1]
+  up1: table keys=2 {destroy:function, new:function}
+  up2: table keys=27 {cancelRevolverCharge:function, getSpread:function, unscope:function, isJumping:function, shoot:function, getCrosshairDisplayState:function, stopAllAnimations:function, drop:function, equip:function, inspect:function, __index:table, new:function, destroy:function, setupRecoil:function, createSuppressor:function, scope:function, getBaseSpread:function, unequip:function, reload:function, startRevolverCharge:function, fireBurst:function, updateFireMode:function, cancelInspect:function, addSuppressor:function, removeSuppressor:function, stopRevolverSecondaryFire:function, startRevolverSecondaryFire:function}
+  up3: table keys=15 {_performRaycast:function, destroy:function, setBaseSpreadForConfig:function, new:function, getBaseSpread:function, create:function, updateSpread:function, getMovementSpreadForConfig:function, setActive:function, _updateShotSpread:function, getSpreadForConfig:function, setSpreadConfig:function, getTrueSpread:function, __index:table, getBaseSpreadForConfig:function}
+  up4: function params=2 src=ReplicatedStorage.Components.Weapon:? cname=applyActiveRecoilProfile what=Lua
+  up5: userdata ReplicatedStorage
+  up6: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up7: table keys=24 {GAMEMODE_SUBPLACE_IDS:table, ADMINISTRATOR_FINISHER_WHITELIST:table, SHOP_VERSION:string, PRODUCTION_UNIVERSE_ID:number, ITEM_CATEGORIES:table, AIM_ASSIST_CONFIGS:table, VERSION:string, GAMEMODE_PLACE_IDS:table, MARKET_TAX_PERCENT:number, GetGamemodeFromServerGamemode:function, ACTIVE_EVENTS:table, ACTIVE_PLACE_ENVIRONMENT:string, ACTIVE_GAMEMODE_SUBPLACE_IDS:table, EVENT_END_TIMES:table, TRADING_PLACE_ID:number, VIP_MENU_PANEL_WHITELIST:table, PROMOTIONAL_REWARD_CREDITS:table, AIM_ASSIST_WHITELIST:table, INVENTORY_SORTING_OPTIONS:table, MARKETPLACE_SORTING_OPTIONS:table, SESSION_DATA:table, DEFAULT_CAMERA_FOV:number, MARKETPLACE_MAX_LISTING_PRICE:number, MINIMUM_CREDITS_FOR_SPECIAL_CREDITS_OPTI:number}
+  up8: function params=1 src=ReplicatedStorage.Components.Weapon:? cname=startRechargeTimer what=Lua
+  up9: ERR
+  consts total=59
+  [1] str "new"
+  [2] str "setmetatable"
+F reload
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=reload what=Lua protos=6[#1,#2,#3,#4,#5,#6]
+  up1: table keys=4 {Janitor:table, SoundGroupName:string, Sounds:userdata, IsDestroyed:boolean}
+  up2: userdata Mateo_081005
+  up3: userdata HttpService
+  up4: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up5: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up6: table keys=2 {clearHint:function, createHint:function}
+  up7: ERR
+  consts total=70
+  [1] str "workspace"
+  [2] userdata
+  [3] str "Gamemode"
+  [4] str "GetAttribute"
+  [5] str "Deathmatch"
+  [6] str "Properties"
+  [7] str "ReloadAnimationCount"
+  [8] number 1
+  [9] str "tick"
+F removeSuppressor
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=removeSuppressor what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up2: ERR
+  consts total=17
+  [1] str "tick"
+F scope
+  params=2 src=ReplicatedStorage.Components.Weapon:? cname=scope what=Lua protos=0[]
+  up1: table keys=4 {Janitor:table, SoundGroupName:string, Sounds:userdata, IsDestroyed:boolean}
+  up2: userdata Mateo_081005
+  up3: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up4: table keys=24 {GAMEMODE_SUBPLACE_IDS:table, ADMINISTRATOR_FINISHER_WHITELIST:table, SHOP_VERSION:string, PRODUCTION_UNIVERSE_ID:number, ITEM_CATEGORIES:table, AIM_ASSIST_CONFIGS:table, VERSION:string, GAMEMODE_PLACE_IDS:table, MARKET_TAX_PERCENT:number, GetGamemodeFromServerGamemode:function, ACTIVE_EVENTS:table, ACTIVE_PLACE_ENVIRONMENT:string, ACTIVE_GAMEMODE_SUBPLACE_IDS:table, EVENT_END_TIMES:table, TRADING_PLACE_ID:number, VIP_MENU_PANEL_WHITELIST:table, PROMOTIONAL_REWARD_CREDITS:table, AIM_ASSIST_WHITELIST:table, INVENTORY_SORTING_OPTIONS:table, MARKETPLACE_SORTING_OPTIONS:table, SESSION_DATA:table, DEFAULT_CAMERA_FOV:number, MARKETPLACE_MAX_LISTING_PRICE:number, MINIMUM_CREDITS_FOR_SPECIAL_CREDITS_OPTI:number}
+  up5: table keys=2 {1:number, 2:number}
+  up6: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up7: ERR
+  consts total=42
+  [1] str "Viewmodel"
+  [2] str "tick"
+F setupRecoil
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=setupRecoil what=Lua protos=1[#1]
+  up1: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up2: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up3: ERR
+  consts total=35
+  [1] str "Properties"
+  [2] str "Recoil"
+  [3] str "RecoverySpeed"
+  [4] str "Scale"
+  [5] str "Damper"
+  [6] str "Speed"
+  [7] str "CameraScale"
+  [8] str "Identifier"
+  [9] str "Pattern"
+  [10] str "Function"
+  [11] str "Functions"
+  [12] str "Value"
+  [13] str "RotationValue"
+  [14] vector
+  [15] str "ActiveFireRate"
+  [16] str "Time"
+  [17] number 0
+  [18] str "RecoveryValue"
+  [19] str "RecoveryTime"
+  [20] str "RecoveryStartTime"
+  [21] table
+  [22] str "Default"
+  [23] table
+  [24] str "Vector2"
+  [25] str "zero"
+  [26] userdata
+  [27] number 0.1
+  [28] str "FireRate"
+  [29] str "Janitor"
+  [30] str "BindToStepped"
+  [31] str "Components.Weapon.%*.Recoil"
+  [32] str "format"
+  [33] str "Disconnect"
+  [34] str "RecoilConnection"
+  [35] str "Add"
+F shoot
+  params=2 src=ReplicatedStorage.Components.Weapon:? cname=shoot what=Lua protos=2[#1,#2]
+  up1: userdata Mateo_081005
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up4: table keys=27 {cancelRevolverCharge:function, getSpread:function, unscope:function, isJumping:function, shoot:function, getCrosshairDisplayState:function, stopAllAnimations:function, drop:function, equip:function, inspect:function, __index:table, new:function, destroy:function, setupRecoil:function, createSuppressor:function, scope:function, getBaseSpread:function, unequip:function, reload:function, startRevolverCharge:function, fireBurst:function, updateFireMode:function, cancelInspect:function, addSuppressor:function, removeSuppressor:function, stopRevolverSecondaryFire:function, startRevolverSecondaryFire:function}
+  up5: table keys=49 {Decoy Grenade:table, MAG-7:table, AWP:table, T Knife:table, HE Grenade:table, Flashbang:table, Flip Knife:table, Negev:table, AUG:table, Skeleton Knife:table, Nova:table, C4:table, M4A1-S:table, Karambit:table, AK-47:table, Molotov:table, SSG 08:table, T Glove:table, FAMAS:table, MAC-10:table, Hand Wraps:table, XM1014:table, Operator Gloves:table, P90:table, Butterfly Knife:table, R8 Revolver:table, Sawed-Off:table, P250:table, Zeus x27:table, LightSaber:table, M9 Bayonet:table, Five-SeveN:table, USP-S:table, Glock-18:table, Stiletto Knife:table, Sports Gloves:table, M4A4:table, CT Knife:table, Incendiary Grenade:table, SG 553:table}
+  up6: table keys=4 {Janitor:table, SoundGroupName:string, Sounds:userdata, IsDestroyed:boolean}
+  up7: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up8: boolean false
+  up9: function params=4 src=ReplicatedStorage.Components.Weapon:? cname=resolveFireAnimationNames what=Lua
+  up10: function params=1 src=ReplicatedStorage.Components.Weapon:? cname=startRechargeTimer what=Lua
+  up11: table keys=10 {GetPlayerNoiseCone:function, GetWeaponShootRange:function, GetMovementRange:function, SetBombPlantedMusicVolume:function, ClearPlayerNoiseCone:function, GetMeleeRange:function, Start:function, Initialize:function, UpdatePlayerNoiseCone:function, GetFootstepRange:function}
+  up12: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up13: function params=2 src=ReplicatedStorage.Components.Weapon:? cname=applyActiveRecoilProfile what=Lua
+  up14: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up15: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up16: function params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateZeusBeam:? what=Lua
+  up17: function params=2 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMuzzleFl:? what=Lua
+  up18: function params=3 src=ReplicatedStorage.Components.Common.VFXLibary.CreateTracer:? what=Lua
+  up19: function params=12 src=ReplicatedStorage.Components.Common.VFXLibary.CreateImpact:? what=Lua
+  up20: function params=2 src=ReplicatedStorage.Components.Common.VFXLibary.CreateBloodSpl:? what=Lua
+  up21: function params=3 src=ReplicatedStorage.Components.Common.VFXLibary.BreakGlass:? what=Lua
+  up22: function params=4 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMarker:? what=Lua
+  up23: function params=1 src=ReplicatedStorage.Components.Weapon:? cname=kickCamera what=Lua
+  up24: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up25: table keys=1 {vibrate:function}
+  up26: table keys=12 {enableGroup:function, getActionKeybinds:function, registerAction:function, disableGroup:function, Initialize:function, isBindingPressed:function, isActionPressed:function, GetActionKeybind:function, Start:function, loadActionsFromDatabase:function, bindKeybinds:function, isActionActive:function}
+  up27: ERR
+  consts total=128
+  [1] str "Primary"
+  [2] str "Properties"
+  [3] str "FireModes"
+  [4] str "Secondary"
+  [5] str "FireRate"
+  [6] number 0.1
+  [7] str "ShootingOptions"
+  [8] str "Revolver"
+  [9] str "IsChargeFiring"
+  [10] str "Viewmodel"
+  [11] str "Animation"
+  [12] str "Equip"
+  [13] str "getAnimation"
+  [14] str "IsDefusingBomb"
+  [15] str "GetAttribute"
+  [16] str "IsLocallyDefusingBomb"
+  [17] str "IsFireHeld"
+  [18] str "FireInputBinding"
+  [19] str "IsAlternativeFireHeld"
+  [20] str "AlternativeFireInputBinding"
+  [21] str "HasPendingChargeRequest"
+  [22] str "cancelRevolverCharge"
+  [23] str "tick"
+F startRevolverCharge
+  params=2 src=ReplicatedStorage.Components.Weapon:? cname=startRevolverCharge what=Lua protos=2[#1,#2]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up3: userdata Mateo_081005
+  up4: function params=2 src=ReplicatedStorage.Components.Weapon:? cname=applyActiveRecoilProfile what=Lua
+  up5: function params=4 src=ReplicatedStorage.Components.Weapon:? cname=resolveFireAnimationNames what=Lua
+  up6: function params=1 src=ReplicatedStorage.Components.Weapon:? cname=completeRevolverChargeShot what=Lua
+  up7: function params=1 src=ReplicatedStorage.Components.Weapon:? cname=replicateRevolverChargeStartSound what=Lua
+  up8: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up9: ERR
+  consts total=73
+  [1] str "Properties"
+  [2] str "ShootingOptions"
+  [3] str "Revolver"
+  [4] str "FireModes"
+  [5] str "Primary"
+  [6] str "InputBehavior"
+  [7] str "Charge"
+  [8] str "stopRevolverSecondaryFire"
+  [9] str "Viewmodel"
+  [10] str "Animation"
+  [11] str "Equip"
+  [12] str "getAnimation"
+  [13] str "Length"
+  [14] number 0.925
+  [15] number 0.5
+  [16] str "tick"
+F startRevolverSecondaryFire
+  params=2 src=ReplicatedStorage.Components.Weapon:? cname=startRevolverSecondaryFire what=Lua protos=0[]
+  up1: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up2: userdata Mateo_081005
+  up3: function params=2 src=ReplicatedStorage.Components.Weapon:? cname=applyActiveRecoilProfile what=Lua
+  up4: ERR
+  consts total=26
+  [1] str "Properties"
+  [2] str "ShootingOptions"
+  [3] str "Revolver"
+  [4] str "GetState"
+  [5] str "Buy Period"
+  [6] str "IsDefusingBomb"
+  [7] str "GetAttribute"
+  [8] str "IsLocallyDefusingBomb"
+  [9] str "IsFireHeld"
+  [10] str "FireInputBinding"
+  [11] str "IsAlternativeFireHeld"
+  [12] str "AlternativeFireInputBinding"
+  [13] str "HasPendingChargeRequest"
+  [14] str "cancelRevolverCharge"
+  [15] str "Bullet"
+  [16] str "FireModes"
+  [17] str "Secondary"
+  [18] str "Primary"
+  [19] str "Spread"
+  [20] str "setSpreadConfig"
+  [21] str "IsShooting"
+  [22] str "IsReloading"
+  [23] str "IsAdjustingSuppressor"
+  [24] str "Rounds"
+  [25] str "shoot"
+  [26] str "reload"
+F stopAllAnimations
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=stopAllAnimations what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "CharacterAnimator"
+  [2] str "Viewmodel"
+  [3] str "Animation"
+  [4] str "cancelCrossfade"
+  [5] str "pairs"
+F stopRevolverSecondaryFire
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=stopRevolverSecondaryFire what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Components.Weapon:? cname=applyActiveRecoilProfile what=Lua
+  up2: ERR
+  consts total=12
+  [1] str "IsAlternativeFireHeld"
+  [2] str "AlternativeFireInputBinding"
+  [3] str "IsChargeFiring"
+  [4] str "Properties"
+  [5] str "ShootingOptions"
+  [6] str "Revolver"
+  [7] str "Bullet"
+  [8] str "FireModes"
+  [9] str "Secondary"
+  [10] str "Primary"
+  [11] str "Spread"
+  [12] str "setSpreadConfig"
+F unequip
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=unequip what=Lua protos=0[]
+  up1: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up2: userdata ReplicatedStorage
+  up3: table keys=24 {GAMEMODE_SUBPLACE_IDS:table, ADMINISTRATOR_FINISHER_WHITELIST:table, SHOP_VERSION:string, PRODUCTION_UNIVERSE_ID:number, ITEM_CATEGORIES:table, AIM_ASSIST_CONFIGS:table, VERSION:string, GAMEMODE_PLACE_IDS:table, MARKET_TAX_PERCENT:number, GetGamemodeFromServerGamemode:function, ACTIVE_EVENTS:table, ACTIVE_PLACE_ENVIRONMENT:string, ACTIVE_GAMEMODE_SUBPLACE_IDS:table, EVENT_END_TIMES:table, TRADING_PLACE_ID:number, VIP_MENU_PANEL_WHITELIST:table, PROMOTIONAL_REWARD_CREDITS:table, AIM_ASSIST_WHITELIST:table, INVENTORY_SORTING_OPTIONS:table, MARKETPLACE_SORTING_OPTIONS:table, SESSION_DATA:table, DEFAULT_CAMERA_FOV:number, MARKETPLACE_MAX_LISTING_PRICE:number, MINIMUM_CREDITS_FOR_SPECIAL_CREDITS_OPTI:number}
+  up4: ERR
+  consts total=69
+  [1] str "IsEquipped"
+  [2] str "resetWeaponRecoil"
+  [3] str "Bullet"
+  [4] str "setActive"
+  [5] str "cancelRevolverCharge"
+  [6] str "stopRevolverSecondaryFire"
+  [7] str "Janitor"
+  [8] str "EquipDelayFire"
+  [9] str "Get"
+  [10] str "Remove"
+  [11] str "ShootDelayThread"
+  [12] str "task"
+  [13] str "cancel"
+F unscope
+  params=3 src=ReplicatedStorage.Components.Weapon:? cname=unscope what=Lua protos=0[]
+  up1: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up2: userdata ReplicatedStorage
+  up3: table keys=24 {updateCameraFOV:function, setPerspective:function, isForceLockOverrideActive:function, resetForceLockOverride:function, getWeaponRecoil:function, Start:function, clampFOV:function, StateChanged:function, Initialize:function, getTargetFOV:function, OnLanded:function, updateCamera:function, BombExploded:function, setWeaponRecoil:function, resetWeaponRecoil:function, getWeaponKickRotation:function, weaponKick:function, toWeaponFirePosition:function, setMouseEnabled:function, setFOVLock:function, isFOVLocked:function, setForceLockOverride:function, SetEnabled:function, IsEnabled:function}
+  up4: table keys=24 {GAMEMODE_SUBPLACE_IDS:table, ADMINISTRATOR_FINISHER_WHITELIST:table, SHOP_VERSION:string, PRODUCTION_UNIVERSE_ID:number, ITEM_CATEGORIES:table, AIM_ASSIST_CONFIGS:table, VERSION:string, GAMEMODE_PLACE_IDS:table, MARKET_TAX_PERCENT:number, GetGamemodeFromServerGamemode:function, ACTIVE_EVENTS:table, ACTIVE_PLACE_ENVIRONMENT:string, ACTIVE_GAMEMODE_SUBPLACE_IDS:table, EVENT_END_TIMES:table, TRADING_PLACE_ID:number, VIP_MENU_PANEL_WHITELIST:table, PROMOTIONAL_REWARD_CREDITS:table, AIM_ASSIST_WHITELIST:table, INVENTORY_SORTING_OPTIONS:table, MARKETPLACE_SORTING_OPTIONS:table, SESSION_DATA:table, DEFAULT_CAMERA_FOV:number, MARKETPLACE_MAX_LISTING_PRICE:number, MINIMUM_CREDITS_FOR_SPECIAL_CREDITS_OPTI:number}
+  up5: table keys=4 {Janitor:table, SoundGroupName:string, Sounds:userdata, IsDestroyed:boolean}
+  up6: userdata Mateo_081005
+  up7: ERR
+  consts total=45
+  [1] str "tick"
+F updateFireMode
+  params=1 src=ReplicatedStorage.Components.Weapon:? cname=updateFireMode what=Lua protos=0[]
+  up1: table keys=4 {Janitor:table, SoundGroupName:string, Sounds:userdata, IsDestroyed:boolean}
+  up2: userdata Mateo_081005
+  up3: function params=1 src=ReplicatedStorage.Components.Common.ReplicateCharacterAction:? what=Lua
+  up4: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up5: ERR
+  consts total=30
+  [1] str "tick"

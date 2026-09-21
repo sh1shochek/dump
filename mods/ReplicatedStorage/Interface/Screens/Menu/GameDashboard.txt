@@ -1,0 +1,79 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.GameDashboard
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.GameDashboard:? cname=Initialize what=Lua protos=2[#1,#2]
+  up1: userdata MainGui
+  up2: userdata GameDashboard
+  up3: table keys=5 {PlayerAdded:function, RefreshVoteKickEntries:function, Initialize:function, Start:function, OpenChooseTeam:function}
+  up4: userdata Players
+  up5: ERR
+  consts total=5
+  [1] str "RefreshVoteKickEntries"
+  [2] str "PlayerAdded"
+F OpenChooseTeam
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.GameDashboard:? cname=OpenChooseTeam what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=10 {shouldUseMapCamera:function, isVisible:function, Start:function, Initialize:function, closeFrame:function, openFrame:function, updatePlayerList:function, chooseTeam:function, createTeamButtonAnimation:function, ToggleTeamSelection:function}
+  up3: ERR
+  consts total=8
+  [1] str "IsSpectating"
+  [2] str "GetAttribute"
+  [3] str "Team"
+  [4] str "Counter-Terrorists"
+  [5] str "Terrorists"
+  [6] str "openFrame"
+  [7] str "Character"
+  [8] str "ToggleTeamSelection"
+F PlayerAdded
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.GameDashboard:? cname=PlayerAdded what=Lua protos=1[#1]
+  up1: userdata Mateo_081005
+  up2: table keys=6 {PETITION_RATIO:number, MIN_LEVEL:number, GetRequiredYesVotes:function, GetActiveTeam:function, MINIMUM_ACTIVE_PLAYERS:number, PETITION_EXTRA_YES_VOTES:number}
+  up3: userdata MainGui
+  up4: userdata ReplicatedStorage
+  up5: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up6: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up7: ERR
+  consts total=28
+  [1] str "GetActiveTeam"
+  [2] str "Team"
+  [3] str "GetAttribute"
+  [4] str "Menu"
+  [5] str "VoteKick"
+  [6] str "Container"
+  [7] str "UserId"
+  [8] str "tostring"
+F RefreshVoteKickEntries
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.GameDashboard:? cname=RefreshVoteKickEntries what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.GameDashboard:? cname=ClearFrame what=Lua
+  up2: userdata MainGui
+  up3: userdata Players
+  up4: table keys=5 {PlayerAdded:function, RefreshVoteKickEntries:function, Initialize:function, Start:function, OpenChooseTeam:function}
+  up5: ERR
+  consts total=4
+  [1] str "Menu"
+  [2] str "VoteKick"
+  [3] str "Container"
+  [4] str "ipairs"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.GameDashboard:? cname=Start what=Lua protos=3[#1,#2,#3]
+  up1: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up2: userdata MainGui
+  up3: table keys=3 {CloseFrame:function, IsDoublePressed:function, Add:function}
+  up4: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up5: userdata GameDashboard
+  up6: table keys=5 {PlayerAdded:function, RefreshVoteKickEntries:function, Initialize:function, Start:function, OpenChooseTeam:function}
+  up7: table keys=6 {PETITION_RATIO:number, MIN_LEVEL:number, GetRequiredYesVotes:function, GetActiveTeam:function, MINIMUM_ACTIVE_PLAYERS:number, PETITION_EXTRA_YES_VOTES:number}
+  up8: userdata Mateo_081005
+  up9: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up10: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.GameDashboard:? cname=GetActiveTeamPlayerCount what=Lua
+  up11: ERR
+  consts total=7
+  [1] str "Menu"
+  [2] str "VoteKick"
+  [3] str "Buttons"
+  [4] str "Close"
+  [5] str "Add"
+  [6] str "ChooseTeam"
+  [7] str "MouseButton1Click"

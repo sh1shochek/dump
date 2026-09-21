@@ -1,0 +1,13 @@
+PATH: ReplicatedStorage.MovementV2.Simulation.RuntimeSettings
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F getMovementConfig
+  params=1 src=ReplicatedStorage.MovementV2.Simulation.RuntimeSettings:? cname=getMovementConfig what=Lua protos=0[]
+  up1: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up2: userdata Workspace
+  up3: ERR
+  consts total=3
+  [1] str "resolveServerGamemode"
+  [2] str "ServerGamemode"
+  [3] str "GetAttribute"

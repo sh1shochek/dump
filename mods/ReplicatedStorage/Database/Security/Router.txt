@@ -1,0 +1,26 @@
+PATH: ReplicatedStorage.Database.Security.Router
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F broadcastRouter
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.Radar:? what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Database.Security.Router:? cname=broadcastRouter what=Lua
+  up2: table keys=23 {ViewCenterLocal:vector, MinimapReference:table, BombIsVisible:boolean, IsSpectating:boolean, EnemyLastSeenPositions:table, Character:userdata, Settings:table, EnemyVisibilityCache:table, Team:string, WasRunning:boolean, RadarContainer:userdata, MapImage:userdata, LocalPlayer:userdata, EnemyVisibilityState:table, SiteParts:table, RunningCircle:userdata, Icons:table, HostageVisibilityCache:table, EnemyVisibilityChecksRemaining:number, DeadPlayerPositions:table, Janitor:table, Frame:userdata, FadedDeadIcons:table}
+  up3: ERR
+  consts total=10
+  [1] str "UpdatePlayerNoiseCone"
+  [2] str "Character"
+  [3] str "PrimaryPart"
+  [4] str "Position"
+  [5] str "Magnitude"
+  [6] str "Melee"
+  [7] str "ShowKnifeCircle"
+  [8] str "Weapon"
+  [9] str "ShowWeaponCircle"
+  [10] str "FlashRadarBorder"
+F observerRouter
+  params=2 src=ReplicatedStorage.Database.Security.Router:? cname=observerRouter what=Lua protos=0[]
+  up1: table keys=38 {RunStoreSound:function, ShowNewItemNotification:function, CaseSceneShow:function, CreateNotification:function, Plant Bomb:function, IsCaseSceneRolling:function, WeaponInspectCloseForGameEnd:function, RunRoundSound:function, QuickOpenResolved:function, Cancel Bomb Plant:function, GetEquippedInventoryItem:function, ResetInventoryToGrid:function, ShowNewItemNotificationAtIndex:function, PlayCountdownTimer:function, CancelCharmAttachment:function, CameraControllerGetWeaponRecoil:function, QueueNewItemNotification:function, OpenTradeInfo:function, CaseSceneCloseForGameEnd:function, CaseSceneUnboxing:function, GetCurrentEquipped:function, UpdatePlayerNoiseCone:function, Cancel Defuse Bomb:function, HasPendingCharmAttachment:function, ConfirmCharmAttachment:function, CreateMenuNotification:function, GetCurrentCharacter:function, Cancel Rescue Hostage:function, GetCurrentCharmPosition:function, Start Defuse Bomb:function, CaseSceneClose:function, IsInspectActive:function, Start Rescue Hostage:function, RunInterfaceSound:function, WeaponInspect:function, WeaponInspectClose:function, RebindKeybinds:function, GetInventoryItemFromIdentifier:function}
+  up2: ERR
+  consts total=4
+  [1] str "warn"

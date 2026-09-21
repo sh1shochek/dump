@@ -1,0 +1,58 @@
+PATH: ReplicatedStorage.Components.Common.GetSkinDisplayName
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F GetFullItemDisplayName
+  params=4 src=ReplicatedStorage.Components.Common.GetSkinDisplayName:? cname=GetFullItemDisplayName what=Lua protos=0[]
+  up1: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up2: table keys=5 {GetFullItemDisplayName:function, GetWeaponDisplayName:function, GetSkinDisplayName:function, GetInternalSearchQuery:function, GetSearchIdentity:function}
+  up3: ERR
+  consts total=22
+  [1] str "GetSkinInformation"
+  [2] str ""
+  [3] str "GetWeaponDisplayName"
+  [4] str "paintId"
+  [5] str "PATTERN"
+  [6] str "find"
+  [7] str "_PATTERN_"
+  [8] str "split"
+  [9] str "table"
+  [10] str "unpack"
+F GetInternalSearchQuery
+  params=1 src=ReplicatedStorage.Components.Common.GetSkinDisplayName:? cname=GetInternalSearchQuery what=Lua protos=0[]
+  up1: table keys=1 {taser:string}
+  up2: function params=3 src=ReplicatedStorage.Components.Common.GetSkinDisplayName:? cname=replaceCaseInsensitive what=Lua
+  up3: ERR
+  consts total=1
+  [1] str ""
+F GetSearchIdentity
+  params=2 src=ReplicatedStorage.Components.Common.GetSkinDisplayName:? cname=GetSearchIdentity what=Lua protos=0[]
+  up1: table keys=5 {GetFullItemDisplayName:function, GetWeaponDisplayName:function, GetSkinDisplayName:function, GetInternalSearchQuery:function, GetSearchIdentity:function}
+  up2: ERR
+  consts total=6
+  [1] str ""
+  [2] str "GetWeaponDisplayName"
+  [3] str "GetSkinDisplayName"
+  [4] str "%* | %*"
+  [5] str "format"
+  [6] str "%* | %* %*"
+F GetSkinDisplayName
+  params=2 src=ReplicatedStorage.Components.Common.GetSkinDisplayName:? cname=GetSkinDisplayName what=Lua protos=0[]
+  up1: table keys=2 {Medal.tv:string, Lebron James:string}
+  up2: ERR
+  consts total=10
+  [1] str ""
+  [2] str "PATTERN"
+  [3] str "find"
+  [4] str "_PATTERN_"
+  [5] str "split"
+  [6] str "table"
+  [7] str "unpack"
+F GetWeaponDisplayName
+  params=1 src=ReplicatedStorage.Components.Common.GetSkinDisplayName:? cname=GetWeaponDisplayName what=Lua protos=0[]
+  up1: table keys=1 {Zeus x27:string}
+  up2: function params=3 src=ReplicatedStorage.Components.Common.GetSkinDisplayName:? cname=replaceCaseInsensitive what=Lua
+  up3: ERR
+  consts total=2
+  [1] str ""
+  [2] str "lower"

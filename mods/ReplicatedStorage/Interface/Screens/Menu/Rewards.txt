@@ -1,0 +1,35 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Rewards
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Rewards:? cname=Initialize what=Lua protos=1[#1]
+  up1: userdata MainGui
+  up2: userdata Rewards
+  up3: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Rewards:? cname=setupRewardRow what=Lua
+  up4: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Rewards:? cname=centerButtonAnchor what=Lua
+  up5: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up6: ERR
+  consts total=13
+  [1] str "Visible"
+  [2] str "Active"
+  [3] str "Container"
+  [4] str "FindFirstChild"
+  [5] str "ipairs"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Rewards:? cname=Start what=Lua protos=6[#1,#2,#3,#4,#5,#6]
+  up1: userdata MainGui
+  up2: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Rewards:? cname=setupCardEffects what=Lua
+  up3: userdata TweenService
+  up4: userdata Time:0.15 DelayTime:0 RepeatCount:0 Reverses:False EasingDirection:Out EasingSty
+  up5: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up6: userdata Rewards
+  up7: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up8: ERR
+  consts total=28
+  [1] str "Menu"
+  [2] str "FindFirstChild"
+  [3] str "Dashboard"
+  [4] str "Rewards"
+  [5] str "Button"
+  [6] str "warn"

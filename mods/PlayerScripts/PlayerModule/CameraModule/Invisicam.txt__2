@@ -1,0 +1,199 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.Invisicam
+REQUIRE: ok
+RETURNS: table
+KEYS: 17
+F CharacterAdded
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CharacterAdded what=Lua protos=2[childAdded,childRemoved]
+  up1: userdata Players
+  up2: table keys=9 {Left Leg:boolean, LeftLowerArm:boolean, Right Leg:boolean, Head:boolean, RightLowerArm:boolean, Right Arm:boolean, Left Arm:boolean, LeftUpperLeg:boolean, RightUpperLeg:boolean}
+  up3: ERR
+  consts total=21
+  [1] str "LocalPlayer"
+  [2] str "childAddedConn"
+  [3] str "Disconnect"
+  [4] str "childRemovedConn"
+  [5] str "ancestryChangedConn"
+  [6] str "char"
+  [7] str "trackedLimbs"
+  [8] str "ChildAdded"
+  [9] str "Connect"
+  [10] str "ChildRemoved"
+  [11] str "pairs"
+F CharacterOutlineBehavior
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CharacterOutlineBehavior what=Lua protos=0[]
+  up1: boolean false
+  up2: userdata RaycastParams{IgnoreWater=false, BruteForceAllSlow=false, RespectCanCollide=fals
+  up3: ERR
+  consts total=38
+  [1] str "torsoPart"
+  [2] str "CFrame"
+  [3] str "upVector"
+  [4] str "unit"
+  [5] str "rightVector"
+  [6] number 1
+  [7] str "p"
+  [8] str "headPart"
+  [9] str "new"
+F CheckTorsoReference
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CheckTorsoReference what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "char"
+  [2] str "Torso"
+  [3] str "FindFirstChild"
+  [4] str "torsoPart"
+  [5] str "UpperTorso"
+  [6] str "HumanoidRootPart"
+  [7] str "Head"
+  [8] str "headPart"
+F CircleBehavior
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CircleBehavior what=Lua protos=0[]
+  up1: table keys=8 {CIRCLE1:number, CHAR_OUTLINE:number, MOVEMENT:number, CORNERS:number, LIMBS:number, SMART_CIRCLE:number, LIMBMOVE:number, CIRCLE2:number}
+  up2: ERR
+  consts total=17
+  [1] str "mode"
+  [2] str "CIRCLE1"
+  [3] str "humanoidRootPart"
+  [4] str "CFrame"
+  [5] str "camera"
+  [6] str "CoordinateFrame"
+  [7] str "Position"
+  [8] number 1
+  [9] number 0.6283185307179586
+  [10] number 3
+  [11] str "math"
+  [12] str "cos"
+F Cleanup
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Cleanup what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "pairs"
+F CornerBehavior
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CornerBehavior what=Lua protos=0[]
+  up1: table keys=4 {1:vector, 2:vector, 3:vector, 4:vector}
+  up2: ERR
+  consts total=7
+  [1] str "humanoidRootPart"
+  [2] str "CFrame"
+  [3] str "Position"
+  [4] number 2
+  [5] str "char"
+  [6] str "GetExtentsSize"
+  [7] number 1
+F Enable
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Enable what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "enabled"
+  [2] str "Cleanup"
+  [3] str "ancestryChangedConn"
+  [4] str "Disconnect"
+F GetObscuredParts
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetObscuredParts what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "savedHits"
+F GetOcclusionMode
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetOcclusionMode what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "Enum"
+  [2] str "DevCameraOcclusionMode"
+  [3] str "Invisicam"
+  [4] userdata
+F LimbBehavior
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=LimbBehavior what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "pairs"
+F LimbMoveBehavior
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=LimbMoveBehavior what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "LimbBehavior"
+  [2] str "MoveBehavior"
+F MoveBehavior
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=MoveBehavior what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "humanoidRootPart"
+  [2] str "Position"
+  [3] str "Velocity"
+  [4] number 2
+  [5] str "X"
+  [6] str "Z"
+  [7] str "Vector3"
+  [8] str "new"
+F SetMode
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetMode what=Lua protos=0[]
+  up1: function params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=AssertTypes what=Lua
+  up2: table keys=8 {CIRCLE1:number, CHAR_OUTLINE:number, MOVEMENT:number, CORNERS:number, LIMBS:number, SMART_CIRCLE:number, LIMBMOVE:number, CIRCLE2:number}
+  up3: ERR
+  consts total=7
+  [1] str "number"
+  [2] str "pairs"
+F SmartCircleBehavior
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SmartCircleBehavior what=Lua protos=0[]
+  up1: boolean false
+  up2: userdata RaycastParams{IgnoreWater=false, BruteForceAllSlow=false, RespectCanCollide=fals
+  up3: function params=4 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=RayIntersection what=Lua
+  up4: ERR
+  consts total=17
+  [1] str "torsoPart"
+  [2] str "CFrame"
+  [3] str "upVector"
+  [4] str "unit"
+  [5] str "rightVector"
+  [6] number 1
+  [7] str "p"
+  [8] str "headPart"
+  [9] str "camera"
+  [10] vector
+  [11] str "Position"
+  [12] str "humanoidRootPart"
+  [13] number 1.5707963267948966
+  [14] number 0.2617993877991494
+  [15] number 2.5
+  [16] str "math"
+  [17] str "cos"
+F Update
+  params=4 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Update what=Lua protos=2[#1,add]
+  up1: ERR
+  consts total=39
+  [1] str "enabled"
+  [2] str "char"
+  [3] str "workspace"
+  [4] userdata
+  [5] str "CurrentCamera"
+  [6] str "camera"
+  [7] str "humanoidRootPart"
+  [8] str "Humanoid"
+  [9] str "FindFirstChildOfClass"
+  [10] str "RootPart"
+  [11] str "HumanoidRootPart"
+  [12] str "FindFirstChild"
+  [13] str "ancestryChangedConn"
+  [14] str "Disconnect"
+  [15] str "AncestryChanged"
+  [16] str "Connect"
+  [17] str "torsoPart"
+  [18] str "CheckTorsoReference"
+  [19] str "behaviorFunction"
+  [20] number 0.75
+  [21] str "headPart"
+  [22] str "CFrame"
+  [23] str "p"
+  [24] str "GetPartsObscuringTarget"
+  [25] number 1
+  [26] str "pairs"
+K __index :table keys=17
+  {["MoveBehavior"]=<function:function: 0x964c00176f7453b3>, ["GetObscuredParts"]=<function:function: 0xea794385e5b28b5c>, ["Enable"]=<function:function: 0x8f758c0da06aa241>, ["Update"]=<function:function: 0x472ff389b5b57bbc>, ["GetOcclusionMode"]=<function:function: 0x2939226f48f352a8>, ["CheckTorsoReference"]=<function:function: 0x2a094cefd09063e8>, ["__index"]=<cycle>, ["new"]=<function:function: 0x88a1e9d4c509c37a>, ["SmartCircleBehavior"]=<function:function: 0x285aee9afceda1fb>, ["CharacterOutlineBehavior"]=<function:function: 0x76f2c74544ad2d68>, ["CharacterAdded"]=<function:function: 0x6c99e914d1fefcec>, ["Cleanup"]=<function:function: 0xb92fc6d43fd1d5c9>, ["CircleBehavior"]=<function:function: 0xdf0a46af1520e7de>, ["SetMode"]=<function:function: 0x1ab536a683f4a666>, ["LimbMoveBehavior"]=<function:function: 0x73e5c686db40f68c>, ["CornerBehavior"]=<function:function: 0x00d3427ffff7c95a>, ["LimbBehavior"]=<function:function: 0xbba49ddcbf3b2971>}
+F new
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=0[]
+  up1: table keys=8 {CharacterRemoving:function, Update:function, OnCameraSubjectChanged:function, GetOcclusionMode:function, Enable:function, CharacterAdded:function, __index:table, new:function}
+  up2: table keys=17 {MoveBehavior:function, GetObscuredParts:function, Enable:function, Update:function, GetOcclusionMode:function, CheckTorsoReference:function, __index:table, new:function, SmartCircleBehavior:function, CharacterOutlineBehavior:function, CharacterAdded:function, Cleanup:function, CircleBehavior:function, SetMode:function, LimbMoveBehavior:function, CornerBehavior:function, LimbBehavior:function}
+  up3: table keys=8 {CIRCLE1:number, CHAR_OUTLINE:number, MOVEMENT:number, CORNERS:number, LIMBS:number, SMART_CIRCLE:number, LIMBMOVE:number, CIRCLE2:number}
+  up4: ERR
+  consts total=35
+  [1] str "new"
+  [2] str "setmetatable"

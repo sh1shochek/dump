@@ -1,0 +1,46 @@
+PATH: ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.observers
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F observeAttribute
+  params=4 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? cname=observeAttribute what=Lua protos=3[OnAttributeChanged,#2,#3]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? cname=defaultGuard what=Lua
+  up2: ERR
+  consts total=4
+  [1] str "GetAttributeChangedSignal"
+  [2] str "Connect"
+  [3] str "task"
+  [4] str "defer"
+F observeCharacter
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? cname=observeCharacter what=Lua protos=1[#1]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? cname=observePlayer what=Lua
+  up2: ERR
+  consts total=0
+F observePlayer
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? cname=observePlayer what=Lua protos=4[OnPlayerAdded,OnPlayerRemoving,#3,#4]
+  up1: userdata Players
+  up2: ERR
+  consts total=5
+  [1] str "PlayerAdded"
+  [2] str "Connect"
+  [3] str "PlayerRemoving"
+  [4] str "task"
+  [5] str "defer"
+F observeProperty
+  params=3 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? cname=observeProperty what=Lua protos=3[OnPropertyChanged,#2,#3]
+  up1: ERR
+  consts total=4
+  [1] str "GetPropertyChangedSignal"
+  [2] str "Connect"
+  [3] str "task"
+  [4] str "defer"
+F observeTag
+  params=3 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? cname=observeTag what=Lua protos=8[IsGoodAncestor,AttemptStartup,AttemptCleanup,OnAncestryChanged,OnInstanceAdded,OnInstanceRemoved,#7,#8]
+  up1: userdata CollectionService
+  up2: ERR
+  consts total=5
+  [1] str "GetInstanceAddedSignal"
+  [2] str "Connect"
+  [3] str "GetInstanceRemovedSignal"
+  [4] str "task"
+  [5] str "defer"

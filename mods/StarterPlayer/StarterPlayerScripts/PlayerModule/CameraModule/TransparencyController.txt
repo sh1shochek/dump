@@ -1,0 +1,110 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.TransparencyController
+REQUIRE: ok
+RETURNS: table
+KEYS: 10
+F CachePartsRecursive
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=CachePartsRecursive what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "IsValidPartToModify"
+  [2] str "cachedParts"
+  [3] str "transparencyDirty"
+  [4] str "pairs"
+F Enable
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=Enable what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "enabled"
+F HasToolAncestor
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=HasToolAncestor what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "Parent"
+  [2] str ""
+  [3] str "assert"
+F IsValidPartToModify
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=IsValidPartToModify what=Lua protos=0[]
+  up1: boolean true
+  up2: table keys=9 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string, 7:string, 8:string, 9:string}
+  up3: ERR
+  consts total=4
+  [1] str "IsA"
+  [2] str "HasToolAncestor"
+  [3] str "BasePart"
+  [4] str "Decal"
+F SetSubject
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=SetSubject what=Lua protos=0[]
+  up1: function params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=resolveSubjectCharacter what=Lua
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: ERR
+  consts total=3
+  [1] str "getPlayerFromCharacter"
+  [2] str "SetupTransparency"
+  [3] str "TeardownTransparency"
+F SetupTransparency
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=SetupTransparency what=Lua protos=2[#1,#2]
+  up1: ERR
+  consts total=10
+  [1] str "TeardownTransparency"
+  [2] str "character"
+  [3] str "descendantAddedConn"
+  [4] str "disconnect"
+  [5] str "DescendantAdded"
+  [6] str "Connect"
+  [7] str "descendantRemovingConn"
+  [8] str "DescendantRemoving"
+  [9] str "connect"
+  [10] str "CachePartsRecursive"
+F TeardownTransparency
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=TeardownTransparency what=Lua protos=0[]
+  up1: userdata Players
+  up2: ERR
+  consts total=18
+  [1] str "character"
+  [2] str "Dead"
+  [3] str "GetAttribute"
+  [4] str "LocalPlayer"
+  [5] str "Character"
+  [6] str "IsSpectating"
+  [7] str "pairs"
+F Update
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=Update what=Lua protos=0[]
+  up1: function params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=resolveSubjectCharacter what=Lua
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: userdata Players
+  up4: table keys=18 {getLooseBoundingSphere:function, GamepadLinearToCurve:function, Spring:table, setRotationTypeOverride:function, restoreRotationType:function, Round:function, IsFinite:function, map:function, GetAngleBetweenXZVectors:function, ConvertCameraModeEnumToStandard:function, mapClamp:function, restoreMouseIcon:function, sanitizeAngle:function, restoreMouseBehavior:function, setMouseBehaviorOverride:function, RotateVectorByAngleAndRound:function, setMouseIconOverride:function, IsFiniteVector3:function}
+  up5: userdata VRService
+  up6: table keys=5 {Enum.AccessoryType.Hat:boolean, Enum.AccessoryType.Face:boolean, Enum.AccessoryType.Hair:boolean, Enum.AccessoryType.Eyelash:boolean, Enum.AccessoryType.Eyebrow:boolean}
+  up7: ERR
+  consts total=38
+  [1] str "workspace"
+  [2] userdata
+  [3] str "CurrentCamera"
+  [4] str "enabled"
+  [5] str "CameraSubject"
+  [6] str "getLocalCharacter"
+  [7] str "LocalPlayer"
+  [8] str "CameraMode"
+  [9] str "Enum"
+  [10] str "LockFirstPerson"
+  [11] userdata
+  [12] str "Focus"
+  [13] str "p"
+  [14] str "CoordinateFrame"
+  [15] str "magnitude"
+  [16] number 1
+  [17] number 1.5
+  [18] number 0.5
+  [19] str "lastTransparency"
+  [20] number 0.95
+  [21] number 2.8
+  [22] str "math"
+  [23] str "clamp"
+K __index :table keys=10
+  {["SetupTransparency"]=<function:function: 0x218bd43fe1964da6>, ["Enable"]=<function:function: 0x73cce01bad1f1ea1>, ["Update"]=<function:function: 0xb7e779a8fa82bc67>, ["SetSubject"]=<function:function: 0x22e05f041db59d0e>, ["HasToolAncestor"]=<function:function: 0xc623dbaa41b3c9de>, ["TeardownTransparency"]=<function:function: 0xd52ffeb2fb3f250f>, ["CachePartsRecursive"]=<function:function: 0x8ee489d6f9386c61>, ["IsValidPartToModify"]=<function:function: 0x95864015a0d893a6>, ["__index"]=<cycle>, ["new"]=<function:function: 0x05bad27cd13c54a0>}
+F new
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=0[]
+  up1: table keys=10 {SetupTransparency:function, Enable:function, Update:function, SetSubject:function, HasToolAncestor:function, TeardownTransparency:function, CachePartsRecursive:function, IsValidPartToModify:function, __index:table, new:function}
+  up2: ERR
+  consts total=11
+  [1] str "setmetatable"

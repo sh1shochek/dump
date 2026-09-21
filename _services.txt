@@ -1,0 +1,282 @@
+
+== Workspace ==
+children: 9
+  Camera Camera
+  Model CaseScene
+  Folder Characters
+  Model CharmScene
+  Model ConsoleScene
+  Folder Debris
+  Model Map
+  Model PackageScene
+  Terrain Terrain
+
+== ReplicatedStorage ==
+children: 17
+  Folder Assets
+    Folder Badges
+    Model BreakableDoor
+    Folder CaseModels
+    Folder CaseScene
+    Folder CharacterAnimations
+    Folder Characters
+    Folder CharmScene
+    Folder Charms
+    Folder ConsoleScene
+    Folder Deathmatch
+    Folder Finishers
+    Folder GrenadeParticles
+    Folder Hostages
+    Folder Impacts
+    Folder InspectScenes
+    Folder Lighting
+    Folder MenuScenes
+    Folder MuzzleFlashes
+    Folder Other
+    Folder PackageScene
+    Folder Skins
+    Folder Sleeves
+    Folder Tracers
+    Folder TradingUI
+    Folder UI
+    Folder Warmup
+    Folder WeaponAnimations
+    Folder Weapons
+  Folder Classes
+  Folder Components
+    ModuleScript C4
+    Folder Common
+    ModuleScript Grenade
+    ModuleScript Melee
+    ModuleScript Weapon
+  Folder Controllers
+    ModuleScript AimAssistController
+    ModuleScript CameraController
+    ModuleScript CaptureController
+    ModuleScript CaseSceneController
+    ModuleScript CharacterController
+    ModuleScript ConfigController
+    ModuleScript DataController
+    ModuleScript EndScreenController
+    ModuleScript HapticsController
+    ModuleScript HintController
+    ModuleScript InputController
+    ModuleScript InspectController
+    ModuleScript InventoryController
+    ModuleScript MedalAutoClipController
+    ModuleScript MenuSceneController
+    ModuleScript NetStatsController
+    Folder Observers
+    ModuleScript PlayerController
+    Folder PresentationCharacterRegistry
+    ModuleScript RunServiceController
+    ModuleScript SoundController
+    ModuleScript SpectateController
+    ModuleScript TimerController
+    ModuleScript WarmupEffectsController
+  Folder Database
+    Folder Audio
+    Folder Components
+    Folder Custom
+    Folder Security
+  Model InspectScene
+  ModuleScript Interface
+  Folder Movement
+  Folder MovementV2
+  Folder MovementV2Remotes
+    UnreliableRemoteEvent Commands
+    RemoteEvent Control
+    RemoteEvent Diagnostics
+    UnreliableRemoteEvent OwnerSnapshot
+    UnreliableRemoteEvent RemoteSnapshot
+    RemoteEvent Trace
+  Folder NetworkRemotes
+    Folder BreakableDoor
+    Folder C4
+    Folder Career
+    Folder Character
+    Folder Chat
+    Folder Collaborations
+    Folder Dashboard
+    Folder GlobalMarketplace
+    Folder Hints
+    Folder Hostage
+    Folder Inventory
+    Folder Map
+    Folder Match
+    Folder Melee
+    Folder ModerationPanel
+    Folder Modes
+    Folder Ping
+    Folder Player
+    Folder PlayerData
+    Folder Projectile
+    Folder ServerBrowser
+    Folder Sound
+    Folder Spectate
+    Folder Store
+    Folder TeamSelection
+    Folder UI
+    Folder VFX
+    Folder VIP
+    Folder VoteKick
+  Folder Packages
+    ModuleScript Observers
+    ModuleScript Sift
+    ModuleScript Signal
+    ModuleScript TableUtil
+    ModuleScript Trove
+    Folder _Index
+    ModuleScript t
+  Folder Remotes
+    RemoteEvent BAC
+  Folder Scripts
+  Folder Shared
+    ModuleScript Base64
+    ModuleScript CameraShaker
+    ModuleScript CloseButtonRegistry
+    ModuleScript CollectionServiceUtility
+    ModuleScript DebugFlags
+    ModuleScript EasedNumber
+    ModuleScript EasySprite
+    ModuleScript FilterTradableSkins
+    ModuleScript FuzzySearch
+    ModuleScript GrenadeSimulator
+    ModuleScript GrenadeTrajectoryExporter
+    ModuleScript InventoryCharmUtils
+    ModuleScript Janitor
+    ModuleScript MedalClipper
+    ModuleScript ObjectPool
+    ModuleScript Profiler
+    ModuleScript Promise
+    ModuleScript Raycast
+    ModuleScript Spring
+    ModuleScript SpriteSequencer
+    ModuleScript ViewportModel
+    ModuleScript Zone
+    ModuleScript remotepacketsizecounter
+  Folder Sounds
+  ObjectValue ZonePlusReference
+
+== ReplicatedFirst ==
+children: 4
+  LocalScript LoadingScreen
+  LocalScript LoadingScreen
+  LocalScript Provider
+  LocalScript Sigma
+
+== ServerStorage ==
+children: 0
+
+== StarterGui ==
+children: 0
+
+== StarterPack ==
+children: 0
+
+== StarterPlayer ==
+children: 3
+  Model StarterCharacter
+  StarterCharacterScripts StarterCharacterScripts
+  StarterPlayerScripts StarterPlayerScripts
+
+== Players ==
+children: 10
+  Player BABINDGO_1
+  Player COOLXANTARES
+  Player DGXXDFZS
+  Player Mateo_081005
+  Player Untez777
+  Player bluefox9073
+  Player dazen_wewe
+  Player sifhasfhawkhghawgki
+  Player smertnik_54
+  Player zona_y83
+
+== Lighting ==
+children: 7
+  Atmosphere Atmosphere
+  BloomEffect Bloom
+  ColorCorrectionEffect ColorCorrection
+  DepthOfFieldEffect DepthOfField
+  BlurEffect Menu
+  Sky Realistic Clouds
+  SunRaysEffect SunRays
+
+== SoundService ==
+children: 35
+  AudioDeviceOutput AudioDeviceOutput
+  AudioTextToSpeech AudioTextToSpeech
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Sound MirageEnvironment
+  Folder PersistentSounds
+  Sound Water
+  Sound Water
+  Sound Water
+  Sound Water
+  Wire Wire
+
+== Teams ==
+children: 0
+
+== Chat ==
+children: 0
+
+== TextChatService ==
+children: 10
+  TextChannel All
+  TextChannel AllDead
+  BubbleChatConfiguration BubbleChatConfiguration
+  ChannelTabsConfiguration ChannelTabsConfiguration
+  ChatInputBarConfiguration ChatInputBarConfiguration
+  ChatWindowConfiguration ChatWindowConfiguration
+  TextChannel Team
+  TextChannel TeamDead
+  Folder TextChannels
+  Folder TextChatCommands
+
+== TestService ==
+children: 1
+  ModuleScript LuauLSP_Settings
+
+== PlayerGui ==
+children: 7
+  BillboardGui Arrow
+  BillboardGui Arrow
+  BillboardGui Arrow
+  ScreenGui MainGui
+  BillboardGui NameTag
+  BillboardGui NameTag
+  BillboardGui NameTag
+
+== PlayerScripts ==
+children: 4
+  ModuleScript PlayerModule
+  LocalScript PlayerScriptsLoader
+  LocalScript RbxCharacterSounds
+  LocalScript Startup

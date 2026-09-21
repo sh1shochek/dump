@@ -1,0 +1,89 @@
+PATH: ReplicatedStorage.MovementV2.Quantization
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+F canonicalMove
+  params=1 src=ReplicatedStorage.MovementV2.Quantization:? cname=canonicalMove what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "Vector2"
+  [2] str "new"
+F dequantizeNormal
+  params=3 src=ReplicatedStorage.MovementV2.Quantization:? cname=dequantizeNormal what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] number 32767
+  [2] str "Vector3"
+  [3] str "new"
+F dequantizeSignedUnit
+  params=1 src=ReplicatedStorage.MovementV2.Quantization:? cname=dequantizeSignedUnit what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] number 127
+  [2] str "math"
+  [3] str "clamp"
+F dequantizeUnitByte
+  params=1 src=ReplicatedStorage.MovementV2.Quantization:? cname=dequantizeUnitByte what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] number 255
+  [2] str "math"
+  [3] str "clamp"
+F dequantizeYaw
+  params=1 src=ReplicatedStorage.MovementV2.Quantization:? cname=dequantizeYaw what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] number 6.283185307179586
+  [2] number 65536
+  [3] number 3.141592653589793
+F isFinite
+  params=1 src=ReplicatedStorage.MovementV2.Quantization:? cname=isFinite what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "typeof"
+F isFiniteVector2
+  params=1 src=ReplicatedStorage.MovementV2.Quantization:? cname=isFiniteVector2 what=Lua protos=0[]
+  up1: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up2: ERR
+  consts total=6
+  [1] str "typeof"
+F isFiniteVector3
+  params=1 src=ReplicatedStorage.MovementV2.Quantization:? cname=isFiniteVector3 what=Lua protos=0[]
+  up1: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up2: ERR
+  consts total=7
+  [1] str "typeof"
+F quantizeNormal
+  params=1 src=ReplicatedStorage.MovementV2.Quantization:? cname=quantizeNormal what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "Magnitude"
+  [2] number 1e-08
+  [3] str "Unit"
+  [4] vector
+  [5] number 32767
+  [6] str "X"
+  [7] str "math"
+  [8] str "round"
+F quantizeSignedUnit
+  params=1 src=ReplicatedStorage.MovementV2.Quantization:? cname=quantizeSignedUnit what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] number 127
+  [2] str "math"
+  [3] str "clamp"
+F quantizeUnitByte
+  params=1 src=ReplicatedStorage.MovementV2.Quantization:? cname=quantizeUnitByte what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] number 255
+  [2] str "math"
+  [3] str "clamp"
+F quantizeYaw
+  params=1 src=ReplicatedStorage.MovementV2.Quantization:? cname=quantizeYaw what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] number 6.283185307179586
+  [2] number 65536
+  [3] str "math"
+  [4] str "round"

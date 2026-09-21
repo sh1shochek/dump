@@ -1,0 +1,108 @@
+PATH: ReplicatedStorage.Controllers.InspectController
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+F CancelInspectAnimation
+  params=0 src=ReplicatedStorage.Controllers.InspectController:? cname=CancelInspectAnimation what=Lua protos=0[]
+  up1: string "Weapon"
+  consts total=14
+  [1] str "Viewmodel"
+  [2] str "Type"
+  [3] str "Glove"
+  [4] str "Name"
+  [5] str "pcall"
+F CycleCharmPosition
+  params=0 src=ReplicatedStorage.Controllers.InspectController:? cname=CycleCharmPosition what=Lua protos=0[]
+  up1: boolean false
+  consts total=4
+  [1] number 1
+  [2] number 4
+  [3] str "RefreshWeaponWithCharm"
+  [4] str "tostring"
+F GetCurrentCharmPosition
+  params=0 src=ReplicatedStorage.Controllers.InspectController:? cname=GetCurrentCharmPosition what=Lua protos=0[]
+  up1: number 1
+  up2: ERR
+  consts total=0
+F HideInspect
+  params=1 src=ReplicatedStorage.Controllers.InspectController:? cname=HideInspect what=Lua protos=0[]
+  up1: boolean false
+  consts total=18
+  [1] str "Cleanup"
+  [2] str "IsPlaying"
+  [3] str "Stop"
+  [4] str "Destroy"
+  [5] str "destroy"
+  [6] str "enableGroup"
+  [7] str "Gameplay"
+  [8] str "IsCaseSceneActive"
+  [9] str "ApplyCaseSceneLighting"
+  [10] str "Enum"
+  [11] str "CameraType"
+  [12] str "Custom"
+  [13] userdata
+  [14] str "updateCameraFOV"
+  [15] str "DEFAULT_CAMERA_FOV"
+  [16] str "setForceLockOverride"
+  [17] str "Inspect"
+  [18] str "ExitInspect"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.InspectController:? cname=Initialize what=Lua protos=8[#1,#2,#3,#4,#5,#6,#7,#8]
+  up1: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up2: userdata Mateo_081005
+  up3: userdata Lighting
+  consts total=19
+  [1] str "CreateListener"
+  [2] str "Settings.Video.Presets.Global Shadows"
+  [3] str "Name"
+  [4] str "InspectScene"
+  [5] str "Parent"
+  [6] str "warn"
+F IsActive
+  params=0 src=ReplicatedStorage.Controllers.InspectController:? cname=IsActive what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F PlayInspectAnimation
+  params=0 src=ReplicatedStorage.Controllers.InspectController:? cname=PlayInspectAnimation what=Lua protos=0[]
+  up1: string "Weapon"
+  consts total=16
+  [1] str "Viewmodel"
+  [2] str "Type"
+  [3] str "Glove"
+  [4] str "Name"
+  [5] str "pcall"
+F RefreshWeaponWithCharm
+  params=1 src=ReplicatedStorage.Controllers.InspectController:? cname=RefreshWeaponWithCharm what=Lua protos=0[]
+  up1: boolean false
+  consts total=39
+  [1] str "WeaponPart"
+  [2] str "FindFirstChild"
+  [3] str "Charm"
+  [4] str "type"
+F ShowInspect
+  params=1 src=ReplicatedStorage.Controllers.InspectController:? cname=ShowInspect what=Lua protos=5[#1,#2,#3,#4,#5]
+  up1: boolean false
+  up2: table keys=11 {ShowInspect:function, IsActive:function, ToggleInspect:function, PlayInspectAnimation:function, CancelInspectAnimation:function, Initialize:function, CycleCharmPosition:function, Start:function, GetCurrentCharmPosition:function, RefreshWeaponWithCharm:function, HideInspect:function}
+  up3: table keys=2 {broadcastRouter:function, observerRouter:function}
+  consts total=44
+  [1] str "HideInspect"
+  [2] str "broadcastRouter"
+  [3] str "HasPendingCharmAttachment"
+  [4] str "Type"
+  [5] str "Glove"
+  [6] str "Name"
+  [7] str "pcall"
+F Start
+  params=0 src=ReplicatedStorage.Controllers.InspectController:? cname=Start what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Controllers.InspectController:? cname=initializeInspectButtons what=Lua
+  up2: ERR
+  consts total=0
+F ToggleInspect
+  params=1 src=ReplicatedStorage.Controllers.InspectController:? cname=ToggleInspect what=Lua protos=0[]
+  up1: boolean false
+  up2: table keys=11 {ShowInspect:function, IsActive:function, ToggleInspect:function, PlayInspectAnimation:function, CancelInspectAnimation:function, Initialize:function, CycleCharmPosition:function, Start:function, GetCurrentCharmPosition:function, RefreshWeaponWithCharm:function, HideInspect:function}
+  up3: ERR
+  consts total=2
+  [1] str "HideInspect"
+  [2] str "ShowInspect"

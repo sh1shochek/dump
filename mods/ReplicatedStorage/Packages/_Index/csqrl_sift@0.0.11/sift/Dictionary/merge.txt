@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dictionary.merge
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Dic:? cname=merge what=Lua protos=0[]
+  up1: userdata Sift.None
+  up2: ERR
+  consts total=2
+  [1] str "#"
+  [2] str "select"

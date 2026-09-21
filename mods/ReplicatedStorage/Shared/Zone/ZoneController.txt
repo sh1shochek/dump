@@ -1,0 +1,142 @@
+PATH: ReplicatedStorage.Shared.Zone.ZoneController
+REQUIRE: ok
+RETURNS: table
+KEYS: 14
+F _deregisterConnection
+  params=2 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=_deregisterConnection what=Lua protos=0[]
+  up1: number 0
+  up2: table keys=0 {}
+  up3: table keys=0 {}
+  up4: table keys=0 {}
+  up5: table keys=14 {trackers:table, _formHeartbeat:function, _registerZone:function, getWorkspaceContainer:function, getGroup:function, _deregisterConnection:function, getTouchingZones:function, updateDetection:function, _updateZoneDetails:function, getZones:function, _registerConnection:function, _getZonesAndItems:function, setGroup:function, _deregisterZone:function}
+  up6: ERR
+  consts total=9
+  [1] number 1
+  [2] str "Disconnect"
+  [3] str "activeTriggers"
+  [4] str "pairs"
+F _deregisterZone
+  params=1 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=_deregisterZone what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: table keys=14 {trackers:table, _formHeartbeat:function, _registerZone:function, getWorkspaceContainer:function, getGroup:function, _deregisterConnection:function, getTouchingZones:function, updateDetection:function, _updateZoneDetails:function, getZones:function, _registerConnection:function, _getZonesAndItems:function, setGroup:function, _deregisterZone:function}
+  up3: ERR
+  consts total=3
+  [1] str "_registeredJanitor"
+  [2] str "destroy"
+  [3] str "_updateZoneDetails"
+F _formHeartbeat
+  params=1 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=_formHeartbeat what=Lua protos=1[#1]
+  up1: table keys=0 {}
+  up2: userdata Signal Heartbeat
+  up3: table keys=0 {}
+  up4: table keys=14 {trackers:table, _formHeartbeat:function, _registerZone:function, getWorkspaceContainer:function, getGroup:function, _deregisterConnection:function, getTouchingZones:function, updateDetection:function, _updateZoneDetails:function, getZones:function, _registerConnection:function, _getZonesAndItems:function, setGroup:function, _deregisterZone:function}
+  up5: table keys=3 {player:function, item:function, localPlayer:function}
+  up6: table keys=2 {Detection:table, Accuracy:table}
+  up7: ERR
+  consts total=1
+  [1] str "Connect"
+F _getZonesAndItems
+  params=5 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=_getZonesAndItems what=Lua protos=0[]
+  up1: table keys=2 {item:table, player:table}
+  up2: table keys=14 {trackers:table, _formHeartbeat:function, _registerZone:function, getWorkspaceContainer:function, getGroup:function, _deregisterConnection:function, getTouchingZones:function, updateDetection:function, _updateZoneDetails:function, getZones:function, _registerConnection:function, _getZonesAndItems:function, setGroup:function, _deregisterZone:function}
+  up3: userdata Players
+  up4: table keys=5 {setupWorldModel:function, _getCombinedResults:function, GetPartBoundsInRadius:function, GetPartsInPart:function, GetPartBoundsInBox:function}
+  up5: ERR
+  consts total=21
+  [1] str "pairs"
+F _registerConnection
+  params=2 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=_registerConnection what=Lua protos=0[]
+  up1: number 0
+  up2: table keys=0 {}
+  up3: table keys=14 {trackers:table, _formHeartbeat:function, _registerZone:function, getWorkspaceContainer:function, getGroup:function, _deregisterConnection:function, getTouchingZones:function, updateDetection:function, _updateZoneDetails:function, getZones:function, _registerConnection:function, _getZonesAndItems:function, setGroup:function, _deregisterZone:function}
+  up4: table keys=0 {}
+  up5: table keys=3 {player:function, item:function, localPlayer:function}
+  up6: ERR
+  consts total=9
+  [1] str "activeTriggers"
+  [2] str "pairs"
+F _registerZone
+  params=1 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=_registerZone what=Lua protos=1[#1]
+  up1: table keys=0 {}
+  up2: table keys=6 {__call:function, ClassName:string, Is:function, is:function, __index:table, new:function}
+  up3: table keys=14 {trackers:table, _formHeartbeat:function, _registerZone:function, getWorkspaceContainer:function, getGroup:function, _deregisterConnection:function, getTouchingZones:function, updateDetection:function, _updateZoneDetails:function, getZones:function, _registerConnection:function, _getZonesAndItems:function, setGroup:function, _deregisterZone:function}
+  up4: ERR
+  consts total=10
+  [1] str "janitor"
+  [2] str "new"
+  [3] str "destroy"
+  [4] str "add"
+  [5] str "_registeredJanitor"
+  [6] str "updated"
+F _updateZoneDetails
+  params=0 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=_updateZoneDetails what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: table keys=0 {}
+  up3: table keys=0 {}
+  up4: table keys=0 {}
+  up5: number 0
+  up6: table keys=0 {}
+  up7: table keys=0 {}
+  up8: ERR
+  consts total=6
+  [1] str "pairs"
+F getGroup
+  params=1 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=getGroup what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: ERR
+  consts total=0
+F getTouchingZones
+  params=4 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=getTouchingZones what=Lua protos=0[]
+  up1: table keys=2 {Detection:table, Accuracy:table}
+  up2: table keys=10 {trackers:table, itemAdded:table, itemRemoved:table, _preventMultiFrameUpdates:function, update:function, bodyPartsToIgnore:table, getCharacterSize:function, getCombinedTotalVolumes:function, __index:table, new:function}
+  up3: table keys=0 {}
+  up4: table keys=0 {}
+  up5: table keys=0 {}
+  up6: table keys=0 {}
+  up7: table keys=5 {setupWorldModel:function, _getCombinedResults:function, GetPartBoundsInRadius:function, GetPartsInPart:function, GetPartBoundsInBox:function}
+  up8: ERR
+  consts total=33
+  [1] str "exitDetections"
+  [2] str "BasePart"
+  [3] str "IsA"
+  [4] str "Size"
+  [5] str "CFrame"
+  [6] str "table"
+  [7] str "insert"
+F getWorkspaceContainer
+  params=0 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=getWorkspaceContainer what=Lua protos=0[]
+  ups: none
+  consts total=5
+  [1] str "workspace"
+  [2] userdata
+  [3] str "FindFirstChild"
+  [4] str "Instance"
+  [5] str "new"
+F getZones
+  params=0 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=getZones what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: ERR
+  consts total=4
+  [1] str "pairs"
+F setGroup
+  params=2 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=setGroup what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: ERR
+  consts total=4
+  [1] str "onlyEnterOnceExitedAll"
+  [2] str "_name"
+  [3] str "_memberZones"
+  [4] str "typeof"
+K trackers :table keys=2
+  {["item"]={["totalVolume"]=0, ["characters"]={}, ["exitDetections"]={}, ["items"]={}, ["_preventMultiDetails"]={["update"]={["callsThisFrame"]=0, ["updatedThisFrame"]=false, ["calling"]=false}}, ["name"]="item", ["partToItem"]={}, ["janitor"]={["CurrentlyCleaning"]=false}, ["baseParts"]={}, ["whitelistParams"]=<userdata:OverlapParams{MaxParts=0, Tolerance=0, BruteForceAllSlow=fal>, ["parts"]={}}, ["player"]={["totalVolume"]=204.04800415039062, ["characters"]={[<userdata:Mateo_081005>]=true, [<userdata:BABINDGO_1>]=true, [<userdata:bluefox9073>]=true, [<userdata:Untez777>]=true, [<userdata:smertnik_54>]=true, [<userdata:DGXXDFZS>]=true, [<userdata:dazen_wewe>]=true, [<userdata:COOLXANTARES>]=true, [<userdata:zona_y83>]=true, [<userdata:sifhasfhawkhghawgki>]=true}, ["exitDetections"]={}, ["items"]={[1]=<userdata:Mateo_081005>, [2]=<userdata:BABINDGO_1>, [3]=<userdata:bluefox9073>, [4]=<userdata:Untez777>, [5]=<userdata:smertnik_54>, [6]=<userdata:DGXXDFZS>, [7]=<userdata:dazen_wewe>, [8]=<userdata:COOLXANTARES>, [9]=<userdata:zona_y83>, [10]=<userdata:sifhasfhawkhghawgki>}, ["_preventMultiDetails"]={["update"]={["callsThisFrame"]=0, ["updatedThisFrame"]=false, ["calling"]=false}}, ["name"]="player", ["partToItem"]={[<userdata:LeftLowerArm>]=<userdata:Untez777>, [<userdata:RightUpperArm>]=<userdata:Mateo_081005>, [<userdata:RightUpperLeg>]=<userdata:smertnik_54>, [<userdata:CameraPart>]=<userdata:Untez777>, [<userdata:LeftUpperArm>]=<userdata:BABINDGO_1>, [<userdata:CameraPart>]=<userdata:zona_y83>, [<userdata:RightUpperLeg>]=<userdata:Mateo_081005>, [<userdata:LeftLowerLeg>]=<userdata:BABINDGO_1>, [<userdata:Head>]=<userdata:BABINDGO_1>, [<userdata:RightLowerArm>]=<userdata:smertnik_54>, [<userdata:RightUpperArm>]=<userdata:COOLXANTARES>, [<userdata:RightUpperLeg>]=<userdata:COOLXANTARES>, [<userdata:LeftUpperLeg>]=<userdata:BABINDGO_1>, [<userdata:RightLowerArm>]=<userdata:DGXXDFZS>, [<userdata:RightUpperArm>]=<userdata:Untez777>, [<userdata:CameraPart>]=<userdata:sifhasfhawkhghawgki>, [<userdata:RightUpperArm>]=<userdata:dazen_wewe>, [<userdata:LeftLowerArm>]=<userdata:sifhasfhawkhghawgki>, [<userdata:RightLowerLeg>]=<userdata:sifhasfhawkhghawgki>, [<userdata:HumanoidRootPart>]=<userdata:sifhasfhawkhghawgki>, [<userdata:LeftUpperArm>]=<userdata:sifhasfhawkhghawgki>, [<userdata:HumanoidRootPart>]=<userdata:bluefox9073>, [<userdata:RightLowerArm>]=<userdata:sifhasfhawkhghawgki>, [<userdata:CameraPart>]=<userdata:BABINDGO_1>, [<userdata:LeftLowerLeg>]=<userdata:bluefox9073>, [<userdata:RightUpperArm>]=<userdata:sifhasfhawkhghawgki>, [<userdata:LeftUpperLeg>]=<userdata:zona_y83>, [<userdata:HumanoidRootPart>]=<userdata:Mateo_081005>, [<userdata:RightLowerLeg>]=<userdata:BABINDGO_1>, [<userdata:CameraPart>]=<userdata:smertnik_54>, [<userdata:RightUpperLeg>]=<userdata:sifhasfhawkhghawgki>, [<userdata:CameraPart>]=<userdata:DGXXDFZS>, [<userdata:LeftUpperLeg>]=<userdata:sifhasfhawkhghawgki>, [<userdata:LeftUpperLeg>]=<userdata:smertnik_54>, [<userdata:LeftLowerLeg>]=<userdata:sifhasfhawkhghawgki>, [<userdata:RightLowerLeg>]=<userdata:bluefox9073>, [<userdata:Head>]=<userdata:zona_y83>, [<userdata:LeftUpperArm>]=<userdata:dazen_wewe>, [<userdata:LeftLowerArm>]=<userdata:zona_y83>, [<userdata:RightLowerLeg>]=<userdata:zona_y83>, [<userdata:RightUpperLeg>]=<userdata:BABINDGO_1>, [<userdata:LeftLowerArm>]=<userdata:Mateo_081005>, [<userdata:HumanoidRootPart>]=<userdata:zona_y83>, [<userdata:LeftLowerLeg>]=<userdata:zona_y83>, [<userdata:LeftLowerArm>]=<userdata:bluefox9073>, [<userdata:RightLowerArm>]=<userdata:zona_y83>, [<userdata:LeftUpperArm>]=<userdata:bluefox9073>, [<userdata:RightLowerArm>]=<userdata:Mateo_081005>, [<userdata:CameraPart>]=<userdata:Mateo_081005>, [<userdata:HumanoidRootPart>]=<userdata:smertnik_54>, [<userdata:RightLowerLeg>]=<userdata:Untez777>, [<userdata:Head>]=<userdata:DGXXDFZS>, [<userdata:RightUpperArm>]=<userdata:zona_y83>, [<userdata:RightUpperLeg>]=<userdata:zona_y83>, [<userdata:LeftLowerArm>]=<userdata:DGXXDFZS>, [<userdata:LeftUpperArm>]=<userdata:zona_y83>, [<userdata:RightLowerArm>]=<userdata:bluefox9073>, [<userdata:CameraPart>]=<userdata:COOLXANTARES>, [<userdata:Head>]=<userdata:dazen_wewe>, [<userdata:RightUpperLeg>]=<userdata:dazen_wewe>, +50 more}, ["janitor"]={[<userdata:IndicesReference>]={["trackCharacterParts-player"]={[<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:IndicesReference>]={...}, ["CurrentlyCleaning"]=false, [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect"}}, ["CurrentlyCleaning"]=false, [{[<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:IndicesReference>]={[<userdata:userdata: 0xa718280a2e1b318d>]=<userdata:Connection>, [<userdata:userdata: 0xf8800a1dd53bc50a>]=<userdata:Connection>, [<userdata:userdata: 0xc3f11480c43d9448>]=<userdata:Connection>, [<userdata:userdata: 0x0baced5eb8baa800>]=<userdata:Connection>, [<userdata:userdata: 0x1782b9c90a8b3345>]=<userdata:Connection>, [<userdata:userdata: 0xcb3521da7f46b78f>]=<userdata:Connection>, [<userdata:userdata: 0x091bd3b3aee2a774>]=<userdata:Connection>, [<userdata:userdata: 0x7ae5b615af28992f>]=<userdata:Connection>, [<userdata:userdata: 0xee69618b34a3896d>]=<userdata:Connection>, [<userdata:userdata: 0x2c4ca85439846598>]=<userdata:Connection>, [<userdata:userdata: 0xe79a25f3661c2d69>]=<userdata:Connection>, [<userdata:userdata: 0x344b94ed9cfa5c53>]=<userdata:Connection>}, ["CurrentlyCleaning"]=false, [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect", [<userdata:Connection>]="Disconnect"}]="destroy"}, ["baseParts"]={}, ["whitelistParams"]=<userdata:OverlapParams{MaxParts=110, Tolerance=0, BruteForceAllSlow=f>, ["parts"]={[1]=<userdata:LeftLowerLeg>, [2]=<userdata:Head>, [3]=<userdata:RightUpperArm>, [4]=<userdata:LeftLowerArm>, [5]=<userdata:LeftUpperArm>, [6]=<userdata:RightUpperLeg>, [7]=<userdata:RightLowerArm>, [8]=<userdata:HumanoidRootPart>, [9]=<userdata:RightLowerLeg>, [10]=<userdata:LeftUpperLeg>, [11]=<userdata:CameraPart>, [12]=<userdata:LeftLowerLeg>, [13]=<userdata:Head>, [14]=<userdata:RightUpperArm>, [15]=<userdata:LeftLowerArm>, [16]=<userdata:LeftUpperArm>, [17]=<userdata:RightUpperLeg>, [18]=<userdata:RightLowerArm>, [19]=<userdata:HumanoidRootPart>, [20]=<userdata:RightLowerLeg>, [21]=<userdata:LeftUpperLeg>, [22]=<userdata:CameraPart>, [23]=<userdata:LeftLowerLeg>, [24]=<userdata:Head>, [25]=<userdata:RightUpperArm>, [26]=<userdata:LeftLowerArm>, [27]=<userdata:LeftUpperArm>, [28]=<userdata:RightUpperLeg>, [29]=<userdata:RightLowerArm>, [30]=<userdata:HumanoidRootPart>, [31]=<userdata:RightLowerLeg>, [32]=<userdata:LeftUpperLeg>, [33]=<userdata:CameraPart>, [34]=<userdata:LeftUpperArm>, [35]=<userdata:LeftUpperLeg>, [36]=<userdata:RightUpperLeg>, [37]=<userdata:RightUpperArm>, [38]=<userdata:RightLowerArm>, [39]=<userdata:LeftLowerLeg>, [40]=<userdata:HumanoidRootPart>, [41]=<userdata:RightLowerLeg>, [42]=<userdata:LeftLowerArm>, [43]=<userdata:Head>, [44]=<userdata:CameraPart>, [45]=<userdata:LeftUpperArm>, [46]=<userdata:LeftUpperLeg>, [47]=<userdata:RightUpperLeg>, [48]=<userdata:RightUpperArm>, [49]=<userdata:RightLowerArm>, [50]=<userdata:LeftLowerLeg>, [51]=<userdata:HumanoidRootPart>, [52]=<userdata:RightLowerLeg>, [53]=<userdata:LeftLowerArm>, [54]=<userdata:Head>, [55]=<userdata:CameraPart>, [56]=<userdata:LeftLowerLeg>, [57]=<userdata:Head>, [58]=<userdata:RightUpperArm>, [59]=<userdata:LeftLowerArm>, [60]=<userdata:LeftUpperArm>, +50 more}}}
+F updateDetection
+  params=1 src=ReplicatedStorage.Shared.Zone.ZoneController:? cname=updateDetection what=Lua protos=0[]
+  up1: table keys=10 {trackers:table, itemAdded:table, itemRemoved:table, _preventMultiFrameUpdates:function, update:function, bodyPartsToIgnore:table, getCharacterSize:function, getCombinedTotalVolumes:function, __index:table, new:function}
+  up2: table keys=2 {Detection:table, Accuracy:table}
+  up3: ERR
+  consts total=12
+  [1] str "_currentEnterDetection"
+  [2] str "enterDetection"
+  [3] str "_currentExitDetection"
+  [4] str "exitDetection"
+  [5] str "pairs"

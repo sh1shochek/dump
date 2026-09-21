@@ -1,0 +1,102 @@
+PATH: ReplicatedStorage.Database.Security.Network
+REQUIRE: ok
+RETURNS: table
+KEYS: 24
+F Array
+  params=1 src=ReplicatedStorage.Database.Security.Network:? cname=Array what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "_kind"
+  [2] str "Array"
+  [3] str "value"
+  [4] table
+K Bool :table keys=1
+  {["_kind"]="Bool"}
+K CFrame :table keys=1
+  {["_kind"]="CFrame"}
+F CreatePacket
+  params=4 src=ReplicatedStorage.Database.Security.Network:? cname=CreatePacket what=Lua protos=11[encodeAfterValidation,decodeBeforeValidation,Send,SendTo,SendToAll,SendToAllExcept,SendToList,SendToProximity,Listen,Connect,Wait]
+  up1: function params=1 src=ReplicatedStorage.Database.Security.Network:? cname=compileValidator what=Lua
+  up2: function params=3 src=ReplicatedStorage.Database.Security.Network:? cname=getPacketRemote what=Lua
+  up3: table keys=2 {Encode:function, Decode:function}
+  up4: boolean false
+  up5: function params=4 src=ReplicatedStorage.Database.Security.Network:? cname=logPacket what=Lua
+  up6: userdata Players
+  up7: function params=2 src=ReplicatedStorage.Database.Security.Network:? cname=getPlayersInRange what=Lua
+  up8: function params=3 src=ReplicatedStorage.Database.Security.Network:? cname=canPassRateLimit what=Lua
+  up9: function params=6 src=ReplicatedStorage.Database.Security.Network:? cname=sendImmediatePacketRejectionFeedback what=Lua
+  up10: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up11: ERR
+  consts total=17
+  [1] str "name"
+  [2] str ""
+  [3] str "%*.%*"
+  [4] str "format"
+  [5] str "Network.Receive.%*"
+  [6] str "Value"
+  [7] str "ReliabilityType"
+F DefineNamespace
+  params=2 src=ReplicatedStorage.Database.Security.Network:? cname=DefineNamespace what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F DefinePacket
+  params=1 src=ReplicatedStorage.Database.Security.Network:? cname=DefinePacket what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+K Float32 :table keys=1
+  {["_kind"]="Float32"}
+K Float64 :table keys=1
+  {["_kind"]="Float64"}
+K Instance :table keys=1
+  {["_kind"]="Instance"}
+K Int16 :table keys=1
+  {["_kind"]="Int16"}
+K Int32 :table keys=1
+  {["_kind"]="Int32"}
+K Int8 :table keys=1
+  {["_kind"]="Int8"}
+F Map
+  params=2 src=ReplicatedStorage.Database.Security.Network:? cname=Map what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "_kind"
+  [2] str "Map"
+  [3] str "key"
+  [4] str "value"
+  [5] table
+K Nothing :table keys=1
+  {["_kind"]="Nothing"}
+F Optional
+  params=1 src=ReplicatedStorage.Database.Security.Network:? cname=Optional what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "_kind"
+  [2] str "Optional"
+  [3] str "value"
+  [4] table
+F SetPlayerPositionResolver
+  params=1 src=ReplicatedStorage.Database.Security.Network:? cname=SetPlayerPositionResolver what=Lua protos=0[]
+  up1: boolean false
+  consts total=0
+K String :table keys=1
+  {["_kind"]="String"}
+F Struct
+  params=1 src=ReplicatedStorage.Database.Security.Network:? cname=Struct what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "_kind"
+  [2] str "Struct"
+  [3] str "value"
+  [4] table
+K Uint16 :table keys=1
+  {["_kind"]="Uint16"}
+K Uint32 :table keys=1
+  {["_kind"]="Uint32"}
+K Uint8 :table keys=1
+  {["_kind"]="Uint8"}
+K Unknown :table keys=1
+  {["_kind"]="Unknown"}
+K Vec2 :table keys=1
+  {["_kind"]="Vec2"}
+K Vec3 :table keys=1
+  {["_kind"]="Vec3"}

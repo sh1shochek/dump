@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Classes.Character.Classes.CharacterAnimator.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

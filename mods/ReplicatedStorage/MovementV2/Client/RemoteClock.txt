@@ -1,0 +1,41 @@
+PATH: ReplicatedStorage.MovementV2.Client.RemoteClock
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K __index :table keys=6
+  {["current"]=<function:function: 0xa8ee97555bdfe1f1>, ["advance"]=<function:function: 0x1a800e0eae6c8a36>, ["diagnostics"]=<function:function: 0x2e9d53bff1d508dc>, ["observe"]=<function:function: 0x336bb6f60a58c50d>, ["__index"]=<cycle>, ["new"]=<function:function: 0x4c0e41c9d11446f8>}
+F advance
+  params=3 src=ReplicatedStorage.MovementV2.Client.RemoteClock:? cname=advance what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=38
+  [1] number -inf
+  [2] number inf
+  [3] str "invalid remote render delta"
+  [4] str "assert"
+F current
+  params=1 src=ReplicatedStorage.MovementV2.Client.RemoteClock:? cname=current what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "_tick"
+  [2] str "_fraction"
+F diagnostics
+  params=1 src=ReplicatedStorage.MovementV2.Client.RemoteClock:? cname=diagnostics what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "table"
+  [2] str "freeze"
+F new
+  params=1 src=ReplicatedStorage.MovementV2.Client.RemoteClock:? cname=new what=Lua protos=0[]
+  up1: table keys=6 {current:function, advance:function, diagnostics:function, observe:function, __index:table, new:function}
+  up2: ERR
+  consts total=17
+  [1] str "type"
+F observe
+  params=3 src=ReplicatedStorage.MovementV2.Client.RemoteClock:? cname=observe what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=10
+  [1] str "isUInt32"
+  [2] str "invalid remote server tick"
+  [3] str "assert"

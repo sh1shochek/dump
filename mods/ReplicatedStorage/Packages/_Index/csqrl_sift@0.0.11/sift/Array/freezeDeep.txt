@@ -1,0 +1,9 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Array.freezeDeep
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=freezeDeep what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=freezeDeep what=Lua
+  up2: ERR
+  consts total=4
+  [1] str "type"

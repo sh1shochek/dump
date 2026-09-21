@@ -1,0 +1,9 @@
+PATH: ReplicatedStorage.Components.Common.GetRankTitle
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Components.Common.GetRankTitle:? what=Lua protos=0[]
+  up1: table keys=8 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table, 7:table, 8:table}
+  up2: ERR
+  consts total=5
+  [1] str "ipairs"

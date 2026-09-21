@@ -1,0 +1,146 @@
+PATH: ReplicatedStorage.Packages.TableUtil
+REQUIRE: ok
+RETURNS: table
+KEYS: 26
+F Assign
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Assign what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "table"
+  [2] str "clone"
+F Copy
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Copy what=Lua protos=1[DeepCopy]
+  up1: ERR
+  consts total=2
+  [1] str "table"
+  [2] str "clone"
+F DecodeJSON
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=DecodeJSON what=Lua protos=0[]
+  up1: userdata HttpService
+  up2: ERR
+  consts total=1
+  [1] str "JSONDecode"
+F EncodeJSON
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=EncodeJSON what=Lua protos=0[]
+  up1: userdata HttpService
+  up2: ERR
+  consts total=1
+  [1] str "JSONEncode"
+F Every
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Every what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F Extend
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Extend what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "table"
+  [2] str "clone"
+F Filter
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Filter what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "type"
+F Find
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Find what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F Flat
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Flat what=Lua protos=1[Scan]
+  up1: ERR
+  consts total=5
+  [1] str "type"
+F FlatMap
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=FlatMap what=Lua protos=1[Scan]
+  up1: function params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Map what=Lua
+  up2: ERR
+  consts total=2
+  [1] str "table"
+  [2] str "create"
+F IsEmpty
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=IsEmpty what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "next"
+F Keys
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Keys what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "table"
+  [2] str "create"
+F Lock
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Lock what=Lua protos=1[Freeze]
+  up1: ERR
+  consts total=0
+F Map
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Map what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "type"
+F Reconcile
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Reconcile what=Lua protos=1[DeepCopy]
+  up1: function params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Reconcile what=Lua
+  up2: ERR
+  consts total=5
+  [1] str "type"
+F Reduce
+  params=3 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Reduce what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "type"
+F Reverse
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Reverse what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "table"
+  [2] str "create"
+F Sample
+  params=3 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Sample what=Lua protos=0[]
+  up1: userdata Random
+  up2: ERR
+  consts total=21
+  [1] str "type"
+F Shuffle
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Shuffle what=Lua protos=0[]
+  up1: userdata Random
+  up2: ERR
+  consts total=12
+  [1] str "type"
+F Some
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Some what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F SwapRemove
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=SwapRemove what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F SwapRemoveFirstValue
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=SwapRemoveFirstValue what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "table"
+  [2] str "find"
+F Sync
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Sync what=Lua protos=1[DeepCopy]
+  up1: function params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Sync what=Lua
+  up2: ERR
+  consts total=8
+  [1] str "type"
+F Truncate
+  params=2 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Truncate what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "math"
+  [2] str "clamp"
+F Values
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Values what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "table"
+  [2] str "create"
+F Zip
+  params=0 src=ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1:? cname=Zip what=Lua protos=2[ZipIteratorArray,ZipIteratorMap]
+  up1: ERR
+  consts total=5
+  [1] str "#"
+  [2] str "select"

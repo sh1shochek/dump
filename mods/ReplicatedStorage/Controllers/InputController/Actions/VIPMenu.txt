@@ -1,0 +1,19 @@
+PATH: ReplicatedStorage.Controllers.InputController.Actions.VIPMenu
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K BindPriority :number = 3001
+F Callback
+  params=2 src=ReplicatedStorage.Controllers.InputController.Actions.VIPMen:? cname=onInput what=Lua protos=1[#1]
+  up1: number 0
+  up2: userdata Mateo_081005
+  consts total=20
+  [1] str "Enum"
+  [2] str "UserInputState"
+  [3] str "Begin"
+  [4] userdata
+  [5] str "os"
+  [6] str "clock"
+K Category :string = UI Keys
+K Group :string = Default
+K Name :string = VIP Menu

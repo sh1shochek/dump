@@ -1,0 +1,33 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.GlobalMarketPlace
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.GlobalMarketPlace:? cname=Initialize what=Lua protos=18[updateTradeTokensBalance,#2,#3,#4,#5,buildCollectionOptions,#7,#8,applyCollectionOptionLayoutOrder,#10,#11,onActivated,#13,formatPin,setupInput,#16,#17,#18]
+  up1: userdata GlobalMarketPlace
+  up2: function params=1 src=ReplicatedStorage.Components.Common.CommaNumber:? what=Lua
+  up3: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up4: userdata Mateo_081005
+  up5: userdata PolicyService
+  up6: boolean false
+  up7: table keys=7 {Visible:boolean, tweenVisibility:boolean, Initialize:function, Start:function, Close:function, Open:function, OpenTradeInfo:function}
+  up8: userdata Tween
+  up9: userdata TweenService
+  up10: table keys=16 {ClearListing:table, ListItem:table, FetchRAP:table, ProfileInfo:table, FetchedRAP:table, EndLoad:table, NewItem:table, DelistItem:table, PurchaseItemResult:table, PurchaseItem:table, RequestProfileInfo:table, SearchMarketResults:table, ListItemResult:table, RefreshInventory:table, SearchMarket:table, PurchasedItem:table}
+  up11: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.GlobalMarketPlace:? cname=setupProfile what=Lua
+  up12: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.GlobalMarketPlace:? cname=setupMarket what=Lua
+  up13: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.GlobalMarketPlace:? cname=setupSell what=Lua
+  up14: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up15: table keys=9 {Charm:table, SMG:table, Heavy:table, Equipment:table, Pistol:table, Glove:table, Rifle:table, Name Tag:table, Case:table}
+  up16: table keys=2 {Badge:boolean, Booth:boolean}
+  up17: table keys=5 {1:string, 2:string, 3:string, 4:string, 5:string}
+  up18: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  consts total=111
+  [1] str "Top"
+  [2] str "TradeTokens"
+  [3] str "TextLabel"
+  [4] str "FindFirstChild"
+  [5] str "IsA"
+  [6] str "Marketplace TradeTokens is missing its balance label"
+  [7] str "assert"
+K tweenVisibility :boolean = false

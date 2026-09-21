@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Components.Common.GetUserPlatform
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Components.Common.GetUserPlatform:? what=Lua protos=0[]
+  up1: userdata UserInputService
+  up2: ERR
+  consts total=12
+  [1] str "GamepadEnabled"
+  [2] str "Console"
+  [3] str "table"
+  [4] str "insert"

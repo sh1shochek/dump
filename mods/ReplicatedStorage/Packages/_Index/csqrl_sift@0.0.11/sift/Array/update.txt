@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Array.update
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=4 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Arr:? cname=update what=Lua protos=0[]
+  up1: function params=0 src=[C]:? cname=clone what=C
+  up2: table keys=3 {equalObjects:function, isEmpty:function, func:table}
+  up3: ERR
+  consts total=5
+  [1] str "type"

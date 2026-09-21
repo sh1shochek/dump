@@ -1,0 +1,60 @@
+PATH: ReplicatedStorage.Controllers.Observers.Players.Components.CreateWeaponModel
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F ClearPlayerCache
+  params=1 src=ReplicatedStorage.Controllers.Observers.Players.Components.C:? cname=ClearPlayerCache what=Lua protos=0[]
+  up1: table keys=8 {zona_y83:userdata, COOLXANTARES:userdata, BABINDGO_1:userdata, DGXXDFZS:userdata, bluefox9073:userdata, sifhasfhawkhghawgki:userdata, dazen_wewe:userdata, Untez777:userdata}
+  up2: table keys=8 {zona_y83:table, COOLXANTARES:table, BABINDGO_1:table, sifhasfhawkhghawgki:table, DGXXDFZS:table, bluefox9073:table, dazen_wewe:table, Untez777:table}
+  up3: function params=2 src=ReplicatedStorage.Controllers.Observers.Players.Components.C:? cname=dlog what=Lua
+  up4: ERR
+  consts total=20
+  [1] str "Disconnect"
+  [2] str "ObjectiveKitHolsterModel"
+  [3] str "Destroy"
+  [4] str "BombHolsterModel"
+  [5] str "BombHolsterVisible"
+  [6] str "pairs"
+F RefreshBombHolster
+  params=1 src=ReplicatedStorage.Controllers.Observers.Players.Components.C:? cname=RefreshBombHolster what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: function params=2 src=ReplicatedStorage.Controllers.Observers.Players.Components.C:? cname=InitializePlayerCache what=Lua
+  up3: userdata HttpService
+  up4: function params=3 src=ReplicatedStorage.Controllers.Observers.Players.Components.C:? cname=UpdateBombHolster what=Lua
+  up5: ERR
+  consts total=7
+  [1] str "getPlayerCharacter"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "IsDescendantOf"
+  [5] str "CurrentEquipped"
+  [6] str "GetAttribute"
+  [7] str "JSONDecode"
+F RefreshObjectiveKitHolster
+  params=1 src=ReplicatedStorage.Controllers.Observers.Players.Components.C:? cname=RefreshObjectiveKitHolster what=Lua protos=0[]
+  up1: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up2: function params=2 src=ReplicatedStorage.Controllers.Observers.Players.Components.C:? cname=InitializePlayerCache what=Lua
+  up3: function params=2 src=ReplicatedStorage.Controllers.Observers.Players.Components.C:? cname=UpdateObjectiveKitHolster what=Lua
+  up4: ERR
+  consts total=4
+  [1] str "getPlayerCharacter"
+  [2] str "workspace"
+  [3] userdata
+  [4] str "IsDescendantOf"
+F RefreshSuppressorState
+  params=2 src=ReplicatedStorage.Controllers.Observers.Players.Components.C:? cname=RefreshSuppressorState what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up2: ERR
+  consts total=12
+  [1] str "workspace"
+  [2] userdata
+  [3] str "Debris"
+  [4] str "FindFirstChild"
+  [5] str "Name"
+  [6] str "_Weapon"
+  [7] str "Model"
+  [8] str "IsA"
+  [9] str "IsSuppressed"
+  [10] str "Silencer"
+  [11] str "HasSuppressor"
+  [12] str "Transparency"

@@ -1,0 +1,52 @@
+PATH: ReplicatedStorage.MovementV2.StateCodec
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+K Version :number = 4
+K WireSize :number = 83
+F canonicalize
+  params=1 src=ReplicatedStorage.MovementV2.StateCodec:? cname=canonicalize what=Lua protos=0[]
+  up1: table keys=8 {writeValidated:function, decodeFrom:function, Version:number, canonicalize:function, encode:function, WireSize:number, validate:function, decode:function}
+  up2: ERR
+  consts total=2
+  [1] str "encode"
+  [2] str "decode"
+F decode
+  params=1 src=ReplicatedStorage.MovementV2.StateCodec:? cname=decode what=Lua protos=0[]
+  up1: table keys=8 {writeValidated:function, decodeFrom:function, Version:number, canonicalize:function, encode:function, WireSize:number, validate:function, decode:function}
+  up2: ERR
+  consts total=5
+  [1] str "typeof"
+F decodeFrom
+  params=2 src=ReplicatedStorage.MovementV2.StateCodec:? cname=decodeFrom what=Lua protos=0[]
+  up1: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up2: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up3: table keys=8 {writeValidated:function, decodeFrom:function, Version:number, canonicalize:function, encode:function, WireSize:number, validate:function, decode:function}
+  up4: ERR
+  consts total=77
+  [1] str "typeof"
+F encode
+  params=1 src=ReplicatedStorage.MovementV2.StateCodec:? cname=encode what=Lua protos=0[]
+  up1: table keys=8 {writeValidated:function, decodeFrom:function, Version:number, canonicalize:function, encode:function, WireSize:number, validate:function, decode:function}
+  up2: ERR
+  consts total=3
+  [1] str "validate"
+  [2] str "buffer"
+  [3] str "create"
+F validate
+  params=1 src=ReplicatedStorage.MovementV2.StateCodec:? cname=validate what=Lua protos=0[]
+  up1: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up2: table keys=8 {ValidMask:number, isValid:function, Duck:number, Jump:number, has:function, Scoped:number, with:function, Walk:number}
+  up3: ERR
+  consts total=75
+  [1] str "typeof"
+F writeValidated
+  params=3 src=ReplicatedStorage.MovementV2.StateCodec:? cname=writeValidated what=Lua protos=0[]
+  up1: table keys=12 {quantizeNormal:function, dequantizeYaw:function, canonicalMove:function, quantizeSignedUnit:function, dequantizeNormal:function, dequantizeSignedUnit:function, isFiniteVector2:function, dequantizeUnitByte:function, quantizeUnitByte:function, isFiniteVector3:function, isFinite:function, quantizeYaw:function}
+  up2: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up3: ERR
+  consts total=66
+  [1] number 1
+  [2] number 0
+  [3] str "invalid state write offset"
+  [4] str "assert"

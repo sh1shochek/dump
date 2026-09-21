@@ -1,0 +1,9 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.FlagUtil
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F getUserFlag
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.:? cname=getUserFlag what=Lua protos=1[#1]
+  up1: ERR
+  consts total=1
+  [1] str "pcall"

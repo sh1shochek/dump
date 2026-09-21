@@ -1,0 +1,13 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.WeaponDropped
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Packages._Index.sleitnick_observers@0.3.4.:? what=Lua protos=0[]
+  up1: userdata Connection
+  up2: userdata Connection
+  up3: table keys=7 {9ee18c36-e6f0-4c17-a756-0ee96f423376:function, 215c7815-493c-4373-86a0-3b5faf2e6370:function, 107e0e63-50dd-4ee6-acdb-bca67252fae3:function, 0d7ecbf5-6392-4895-b806-9ec55542bb44:function, 923f60cb-df84-47e1-9728-ed7ae9749f87:function, fafcc984-c870-43c9-b262-4fafb261de3e:function, a1baf6d6-00cd-4aec-a315-2e31209b98b5:function}
+  up4: table keys=7 {9ee18c36-e6f0-4c17-a756-0ee96f423376:userdata, 215c7815-493c-4373-86a0-3b5faf2e6370:userdata, 107e0e63-50dd-4ee6-acdb-bca67252fae3:userdata, 0d7ecbf5-6392-4895-b806-9ec55542bb44:userdata, 923f60cb-df84-47e1-9728-ed7ae9749f87:userdata, fafcc984-c870-43c9-b262-4fafb261de3e:userdata, a1baf6d6-00cd-4aec-a315-2e31209b98b5:userdata}
+  up5: ERR
+  consts total=2
+  [1] str "Disconnect"
+  [2] str "next"

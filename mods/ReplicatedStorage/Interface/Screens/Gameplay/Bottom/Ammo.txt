@@ -1,0 +1,89 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Ammo
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Ammo:? cname=Initialize what=Lua protos=3[#1,#2,#3]
+  up1: userdata MainGui
+  up2: userdata Ammo
+  up3: userdata Tween
+  up4: userdata TweenService
+  up5: userdata Mateo_081005
+  up6: table keys=2 {table: 0xba8992ea70d12d68:string, CurrentlyCleaning:boolean}
+  up7: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up8: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up9: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up10: table keys=5 {Initialize:function, updateFrame:function, Start:function, characterAdded:function, tweenAnimation:function}
+  up11: ERR
+  consts total=29
+  [1] str "Active"
+  [2] str "AutoLocalize"
+  [3] str "ipairs"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Ammo:? cname=Start what=Lua protos=5[TrackPlayer,#2,#3,#4,#5]
+  up1: table keys=2 {table: 0xba8992ea70d12d68:string, CurrentlyCleaning:boolean}
+  up2: table keys=5 {Initialize:function, updateFrame:function, Start:function, characterAdded:function, tweenAnimation:function}
+  up3: userdata Mateo_081005
+  up4: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up5: table keys=6 {GetStateAtTime:function, SetState:function, CancelScheduledState:function, ListenToState:function, GetState:function, ScheduleState:function}
+  up6: ERR
+  consts total=8
+  [1] str "CharacterAdded"
+  [2] str "Connect"
+  [3] str "ListenToSpectate"
+  [4] str "IsSpectating"
+  [5] str "GetAttributeChangedSignal"
+  [6] str "GetAttribute"
+  [7] str "GetPlayer"
+  [8] str "ListenToState"
+F characterAdded
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Ammo:? cname=characterAdded what=Lua protos=3[#1,#2,#3]
+  up1: table keys=2 {table: 0xba8992ea70d12d68:string, CurrentlyCleaning:boolean}
+  up2: userdata Mateo_081005
+  up3: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up4: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up5: userdata MainGui
+  up6: table keys=5 {Initialize:function, updateFrame:function, Start:function, characterAdded:function, tweenAnimation:function}
+  up7: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Ammo:? cname=verifyAndRepairAmmo what=Lua
+  up8: table keys=5 {observeProperty:function, observeAttribute:function, observeTag:function, observePlayer:function, observeCharacter:function}
+  up9: userdata HttpService
+  up10: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up11: userdata Ammo
+  up12: ERR
+  consts total=31
+  [1] str "Cleanup"
+  [2] str "BindToStepped"
+  [3] str "UI.Ammo.LocalPlayerUpdate"
+  [4] str "Add"
+  [5] str "task"
+  [6] str "wait"
+F tweenAnimation
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Ammo:? cname=tweenAnimation what=Lua protos=0[]
+  up1: string "2b778ca1-b81a-4669-adef-f491428cf18c"
+  up2: userdata Ammo
+  up3: userdata Tween
+  up4: ERR
+  consts total=9
+  [1] str "Identifier"
+  [2] str "UDim2"
+  [3] str "new"
+F updateFrame
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Ammo:? cname=updateFrame what=Lua protos=0[]
+  up1: userdata Ammo
+  up2: table keys=5 {Initialize:function, updateFrame:function, Start:function, characterAdded:function, tweenAnimation:function}
+  up3: function params=0 src=ReplicatedStorage.Components.Common.GetPreferenceColor:? what=Lua
+  up4: userdata Tween
+  up5: userdata MainGui
+  up6: ERR
+  consts total=36
+  [1] str "Properties"
+  [2] str "Class"
+  [3] str "Weapon"
+  [4] str "MuzzleType"
+  [5] str "Zeus x27"
+  [6] str "Visible"
+  [7] str "tweenAnimation"
+  [8] str "Rounds"
+  [9] str "Capacity"
+  [10] str "Amount"
+  [11] str "tostring"

@@ -1,0 +1,106 @@
+PATH: ReplicatedStorage.Controllers.AimAssistController
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+F GetBestTarget
+  params=0 src=ReplicatedStorage.Controllers.AimAssistController:? cname=GetBestTarget what=Lua protos=0[]
+  up1: boolean false
+  up2: boolean false
+  up3: table keys=5 {Friction:table, RecoilAssist:table, TargetSelection:table, Magnetism:table, VerticalMagnetism:table}
+  up4: table keys=6 {IsFlashed:function, CancelFlash:function, OnFlashRecoveryStarted:table, GetAudioFadeMultiplier:function, Flash:function, OnFlashCleared:table}
+  up5: userdata Camera
+  up6: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up7: function params=1 src=ReplicatedStorage.Controllers.AimAssistController:? cname=findBestTarget what=Lua
+  up8: ERR
+  consts total=5
+  [1] str "TargetSelection"
+  [2] str "Enabled"
+  [3] str "IsFlashed"
+  [4] str "getLocalCharacter"
+  [5] str "CFrame"
+F GetFrictionMultiplier
+  params=0 src=ReplicatedStorage.Controllers.AimAssistController:? cname=GetFrictionMultiplier what=Lua protos=0[]
+  up1: boolean false
+  up2: table keys=5 {Friction:table, RecoilAssist:table, TargetSelection:table, Magnetism:table, VerticalMagnetism:table}
+  up3: boolean false
+  up4: table keys=6 {IsFlashed:function, CancelFlash:function, OnFlashRecoveryStarted:table, GetAudioFadeMultiplier:function, Flash:function, OnFlashCleared:table}
+  up5: userdata Camera
+  up6: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up7: function params=1 src=ReplicatedStorage.Controllers.AimAssistController:? cname=findBestTarget what=Lua
+  up8: function params=2 src=ReplicatedStorage.Controllers.AimAssistController:? cname=calculateFrictionMultiplier what=Lua
+  up9: ERR
+  consts total=6
+  [1] str "Friction"
+  [2] str "MaxSensitivity"
+  [3] str "Enabled"
+  [4] str "IsFlashed"
+  [5] str "getLocalCharacter"
+  [6] str "CFrame"
+F GetMagnetismRotation
+  params=1 src=ReplicatedStorage.Controllers.AimAssistController:? cname=GetMagnetismRotation what=Lua protos=0[]
+  up1: boolean false
+  up2: boolean false
+  up3: table keys=5 {Friction:table, RecoilAssist:table, TargetSelection:table, Magnetism:table, VerticalMagnetism:table}
+  up4: table keys=6 {IsFlashed:function, CancelFlash:function, OnFlashRecoveryStarted:table, GetAudioFadeMultiplier:function, Flash:function, OnFlashCleared:table}
+  up5: userdata Camera
+  up6: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up7: function params=1 src=ReplicatedStorage.Controllers.AimAssistController:? cname=findBestTarget what=Lua
+  up8: function params=1 src=ReplicatedStorage.Controllers.AimAssistController:? cname=findTargetWithRaycast what=Lua
+  up9: function params=3 src=ReplicatedStorage.Controllers.AimAssistController:? cname=calculateMagnetismRotation what=Lua
+  up10: function params=4 src=ReplicatedStorage.Controllers.AimAssistController:? cname=calculateVerticalMagnetismRotation what=Lua
+  up11: boolean false
+  up12: ERR
+  consts total=18
+  [1] str "Vector2"
+  [2] str "zero"
+  [3] userdata
+  [4] str "Magnetism"
+  [5] str "Enabled"
+  [6] str "IsFlashed"
+  [7] str "getLocalCharacter"
+  [8] number 0.016666666666666666
+  [9] str "CFrame"
+  [10] str "X"
+  [11] str "math"
+  [12] str "abs"
+F GetRecoilAssistMultiplier
+  params=0 src=ReplicatedStorage.Controllers.AimAssistController:? cname=GetRecoilAssistMultiplier what=Lua protos=0[]
+  up1: boolean false
+  up2: boolean false
+  up3: table keys=5 {Friction:table, RecoilAssist:table, TargetSelection:table, Magnetism:table, VerticalMagnetism:table}
+  up4: table keys=6 {IsFlashed:function, CancelFlash:function, OnFlashRecoveryStarted:table, GetAudioFadeMultiplier:function, Flash:function, OnFlashCleared:table}
+  up5: userdata Camera
+  up6: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up7: function params=1 src=ReplicatedStorage.Controllers.AimAssistController:? cname=findBestTarget what=Lua
+  up8: ERR
+  consts total=7
+  [1] str "RecoilAssist"
+  [2] str "Enabled"
+  [3] str "IsFlashed"
+  [4] str "RequiresTarget"
+  [5] str "getLocalCharacter"
+  [6] str "CFrame"
+  [7] str "ReductionAmount"
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.AimAssistController:? cname=Initialize what=Lua protos=2[#1,#2]
+  up1: boolean false
+  up2: boolean false
+  up3: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up4: userdata Mateo_081005
+  up5: boolean false
+  up6: boolean false
+  up7: ERR
+  consts total=3
+  [1] str "CreateListener"
+  [2] str "Settings.Game.Other.Mobile Aim Assist"
+  [3] str "Settings.Game.Other.Controller Aim Assist"
+F IsEnabled
+  params=0 src=ReplicatedStorage.Controllers.AimAssistController:? cname=IsEnabled what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F SetEnabled
+  params=1 src=ReplicatedStorage.Controllers.AimAssistController:? cname=SetEnabled what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0

@@ -1,0 +1,19 @@
+PATH: ReplicatedStorage.MovementV2.Config
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K Default :table keys=19
+  {["StepSeconds"]=0.015625, ["OwnerSnapshotEveryTicks"]=2, ["MaxPendingCommandLeadTicks"]=160, ["RemoteBaselineTicks"]=8, ["RenderInterpolationTicks"]=2, ["CommandBufferTicks"]=4, ["SynthesizedInputDecayTicks"]=7, ["PredictionReplayTicks"]=160, ["MaxNewCommandsPerPacket"]=7, ["MaxRemoteExtrapolationTicks"]=7, ["TargetRedundantCommandCount"]=4, ["MaxCommandsPerPacket"]=11, ["SynthesizedInputHoldTicks"]=4, ["RemoteSnapshotEveryTicks"]=1, ["CommandPacketEveryTicks"]=1, ["SimulationHz"]=64, ["RemoteHistoryTicks"]=16, ["CommandHistoryTicks"]=160, ["CommandLeadResyncTicks"]=64}
+K DefaultSimulationHz :number = 64
+K DoorCollisionDebugEnabled :boolean = false
+K MaxSimulationHz :number = 240
+K MinSimulationHz :number = 20
+K PolicySeconds :table keys=16
+  {["MaxNewCommandSpan"]=0.1, ["OwnerSnapshotPeriod"]=0.041666666666666664, ["SynthesizedInputDecay"]=0.1, ["RenderInterpolation"]=0.03125, ["RemoteHistory"]=0.25, ["RemoteBaselinePeriod"]=0.125, ["MaxPendingCommandLead"]=2.5, ["CommandBuffer"]=0.05, ["RemoteSnapshotPeriod"]=0.016666666666666666, ["CommandPacketPeriod"]=0.015625, ["SynthesizedInputHold"]=0.05, ["TargetRedundantHistory"]=0.05, ["CommandLeadResync"]=1, ["PredictionReplay"]=2.5, ["MaxRemoteExtrapolation"]=0.1, ["CommandHistory"]=2.5}
+F derive
+  params=1 src=ReplicatedStorage.MovementV2.Config:? cname=derive what=Lua protos=0[]
+  up1: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up2: ERR
+  consts total=66
+  [1] str "DefaultSimulationHz"
+  [2] str "typeof"

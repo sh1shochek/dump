@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Components.Common.GetTimerFormat
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Components.Common.GetTimerFormat:? what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] number 60
+  [2] str "math"
+  [3] str "floor"

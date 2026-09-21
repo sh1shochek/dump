@@ -1,0 +1,58 @@
+PATH: ReplicatedStorage.MovementV2.RuntimeKinematics
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+F clear
+  params=1 src=ReplicatedStorage.MovementV2.RuntimeKinematics:? cname=clear what=Lua protos=0[]
+  up1: table keys=8 {Mateo_081005:table, BABINDGO_1:table, sifhasfhawkhghawgki:table, Untez777:table, COOLXANTARES:table, dazen_wewe:table, zona_y83:table, bluefox9073:table}
+  up2: ERR
+  consts total=0
+F getPosition
+  params=2 src=ReplicatedStorage.MovementV2.RuntimeKinematics:? cname=getPosition what=Lua protos=0[]
+  up1: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up2: ERR
+  consts total=3
+  [1] str "read"
+  [2] str "Position"
+  [3] vector
+F getVelocity
+  params=2 src=ReplicatedStorage.MovementV2.RuntimeKinematics:? cname=getVelocity what=Lua protos=0[]
+  up1: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up2: ERR
+  consts total=4
+  [1] str "read"
+  [2] str "Velocity"
+  [3] str "AssemblyLinearVelocity"
+  [4] vector
+F isOnGround
+  params=1 src=ReplicatedStorage.MovementV2.RuntimeKinematics:? cname=isOnGround what=Lua protos=0[]
+  up1: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up2: ERR
+  consts total=2
+  [1] str "read"
+  [2] str "OnGround"
+F read
+  params=1 src=ReplicatedStorage.MovementV2.RuntimeKinematics:? cname=read what=Lua protos=0[]
+  up1: table keys=8 {Mateo_081005:table, BABINDGO_1:table, sifhasfhawkhghawgki:table, Untez777:table, COOLXANTARES:table, dazen_wewe:table, zona_y83:table, bluefox9073:table}
+  up2: ERR
+  consts total=0
+F resolve
+  params=2 src=ReplicatedStorage.MovementV2.RuntimeKinematics:? cname=resolve what=Lua protos=0[]
+  up1: table keys=7 {clear:function, read:function, write:function, getPosition:function, getVelocity:function, resolve:function, isOnGround:function}
+  up2: ERR
+  consts total=9
+  [1] str "getVelocity"
+  [2] str "isOnGround"
+  [3] str "X"
+  [4] str "Z"
+  [5] str "Vector3"
+  [6] str "new"
+F write
+  params=4 src=ReplicatedStorage.MovementV2.RuntimeKinematics:? cname=write what=Lua protos=0[]
+  up1: table keys=8 {Mateo_081005:table, BABINDGO_1:table, sifhasfhawkhghawgki:table, Untez777:table, COOLXANTARES:table, dazen_wewe:table, zona_y83:table, bluefox9073:table}
+  up2: ERR
+  consts total=4
+  [1] str "Velocity"
+  [2] str "OnGround"
+  [3] str "Position"
+  [4] table

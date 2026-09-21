@@ -1,0 +1,1111 @@
+PATH: ReplicatedStorage.MovementV2.Client.Runtime
+REQUIRE: ok
+RETURNS: table
+KEYS: 74
+K __index :table keys=74
+  {["render"]=<function:function: 0xfcd4e9cf4292c46f>, ["_refreshPresentedState"]=<function:function: 0xab4c74c40c578fa0>, ["getRemoteCollisionPose"]=<function:function: 0x1128ddab7be0b010>, ["_sendBaselineRequest"]=<function:function: 0x229f08febad53896>, ["_sendDueCommands"]=<function:function: 0xa5be8a73da1d974c>, ["_presentationContext"]=<function:function: 0xd6b148c8933b4b99>, ["_tryConsumeCommandSendToken"]=<function:function: 0x845471e55840ad92>, ["_playerContactNearStateAtTick"]=<function:function: 0xa6c9d2966c48beb7>, ["_queueSuspiciousGroundTrace"]=<function:function: 0xdc2f185a6ccf260b>, ["_recoverAuthoritativeJump"]=<function:function: 0x54e068e5db4efe23>, ["_requestDeterminismTrace"]=<function:function: 0x420ed46bd2621afc>, ["_reportMovementIssue"]=<function:function: 0x37a092d00570116d>, ["_queueOwnerSnapshot"]=<function:function: 0x04fb29e00c6b40c7>, ["_rememberJumpEvent"]=<function:function: 0xb344c99db377d785>, ["_disposeTimeline"]=<function:function: 0x40dd6507f5cd7416>, ["_beginDeterminismTrace"]=<function:function: 0x6d15fe823f2e80d8>, ["_sendCommandResyncRequest"]=<function:function: 0x4ceb8381b89750e6>, ["requestMapping"]=<function:function: 0xb2c55865bcfa2327>, ["destroy"]=<function:function: 0xc7baeb2f39b9d83f>, ["_stepPrediction"]=<function:function: 0x84eb0cc5ca6389e4>, ["rejectDoorPrediction"]=<function:function: 0xc8f9d3afa099c4e4>, ["_sendDeterminismTrace"]=<function:function: 0xc90ae707747007a9>, ["_initializeGeneration"]=<function:function: 0x669a69daf382ad0a>, ["_traceAirStrafe"]=<function:function: 0x1b896cd7d9d3ebfc>, ["_logOwnerDiagnostics"]=<function:function: 0x5f0c641a6b15b986>, ["_handleDeterminismTrace"]=<function:function: 0x694fdce77772e04c>, ["_requestPendingSuspiciousGroundTrace"]=<function:function: 0x0b7e89b25b4e8ef7>, ["_applyMoverDelta"]=<function:function: 0xff4789988d3e5505>, ["getRemoteRenderPose"]=<function:function: 0x40a78dfa8344231b>, ["_advanceRenderClock"]=<function:function: 0xaa07ccffad498266>, ["_applyMoverBaseline"]=<function:function: 0x98c4898957ed7bcb>, ["_handleControl"]=<function:function: 0x9ce5645cf9b73fe8>, ["_warn"]=<function:function: 0xb2b2a85e969b43fd>, ["_flushPendingMoverReplay"]=<function:function: 0xe3d2522c1fbcb455>, ["_setStatus"]=<function:function: 0xdc2f9dfd5cb7e4bd>, ["getPredictedState"]=<function:function: 0x234c86269f8bf73a>, ["_queueDiagnosticDelivery"]=<function:function: 0x47ff15c7ffa32239>, ["_refillCommandSendBudget"]=<function:function: 0x0d17d873badc02b1>, ["_applyMapping"]=<function:function: 0xe9be09e347a71052>, ["getMapping"]=<function:function: 0x74ca36e6d84d3106>, ["stop"]=<function:function: 0xc7799805a2be2fdf>, ["_dispatchStepEvents"]=<function:function: 0x0b186dbc3f22cb6d>, ["_presentationClock"]=<function:function: 0x772166d32b657aa3>, ["_drainPendingCollisionControls"]=<function:function: 0x1d88e98d45ade442>, ["_applyRemoteSnapshot"]=<function:function: 0xe730072947313ec4>, ["_drainDiagnosticOutput"]=<function:function: 0xbe0da7ccd75cdb07>, ["advance"]=<function:function: 0x09fae4c0b0bd05d5>, ["_applyDelta"]=<function:function: 0xd1dec2e88b1d0981>, ["_diagnosticTargetPresent"]=<function:function: 0xd0f7eedbcc7161c2>, ["_localClockAnchor"]=<function:function: 0x1bb8a56bfc17af7b>, ["_resolveSupportMotion"]=<function:function: 0x0a1279b157802e48>, ["_present"]=<function:function: 0xa942f334f34b74ba>, ["_localPlayerContactCritical"]=<function:function: 0x515c391465356669>, ["_sendRecoveryCommands"]=<function:function: 0x80a5d014daed49be>, ["_refundCommandSendToken"]=<function:function: 0x4466104a2607cb32>, ["retryTopology"]=<function:function: 0x438fe0e9344ab91e>, ["__index"]=<cycle>, ["new"]=<function:function: 0x342c6bf11e8b616b>, ["_resetCommandSendBudget"]=<function:function: 0x08452e8e3a44ef47>, ["_markMoverRevisionValidated"]=<function:function: 0x242830a24f629995>, +14 more}
+F _advanceRenderClock
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_advanceRenderClock what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "_remoteClock"
+  [2] str "os"
+  [3] str "clock"
+F _applyBaseline
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_applyBaseline what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "_timeline"
+  [2] str "_pendingBaseline"
+  [3] str "ServerTick"
+  [4] str "Frame"
+  [5] str "consumeBaseline"
+  [6] str "rejected destructible baseline: %*"
+  [7] str "format"
+  [8] str "_warn"
+F _applyDelta
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_applyDelta what=Lua protos=0[]
+  up1: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: ERR
+  consts total=35
+  [1] str "_timeline"
+  [2] str "_config"
+  [3] str "Default"
+  [4] str "_pendingDeltas"
+  [5] str "PredictionReplayTicks"
+  [6] str "table"
+  [7] str "clear"
+F _applyMapping
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_applyMapping what=Lua protos=0[]
+  up1: table keys=5 {Version:number, encode:function, WireSize:number, validate:function, decode:function}
+  up2: table keys=12 {MaxEvents:number, RequestSize:number, unavailable:function, identity:function, Ring:table, compare:function, vector:function, checkpoint:function, encodeRequest:function, describe:function, collision:function, decodeRequest:function}
+  up3: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up4: ERR
+  consts total=102
+  [1] str "validate"
+  [2] str "rejected movement mapping: %*"
+  [3] str "format"
+  [4] str "_warn"
+  [5] str "_mapping"
+  [6] str "Generation"
+  [7] number 65536
+  [8] number 32768
+  [9] number 0
+  [10] str "ActorId"
+  [11] str "SimulationHz"
+  [12] str "TopologyEpoch"
+  [13] str "TopologyFingerprint"
+  [14] str "PlayerCollisionsEnabled"
+  [15] str "_commandStream"
+  [16] str "_reconciler"
+  [17] str "_applyMapping"
+  [18] str "table"
+  [19] str "freeze"
+F _applyMoverBaseline
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_applyMoverBaseline what=Lua protos=0[]
+  up1: ERR
+  consts total=19
+  [1] str "_options"
+  [2] str "CollisionComposer"
+  [3] str "_mapping"
+  [4] str "Epoch"
+  [5] str "TopologyEpoch"
+  [6] str "Revision"
+  [7] str "ServerTick"
+  [8] str "Descriptors"
+  [9] str "ProgressAnchors"
+  [10] str "ConsumeBaseline"
+  [11] str "rejected mover baseline: %*"
+  [12] str "format"
+  [13] str "_warn"
+  [14] str "_pendingMoverDeltas"
+  [15] str "_applyMoverDelta"
+  [16] str "_tryInstallDiscontinuity"
+  [17] str "_pendingOwnerSnapshot"
+  [18] str "_state"
+  [19] str "_handleOwnerSnapshot"
+F _applyMoverDelta
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_applyMoverDelta what=Lua protos=0[]
+  up1: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: ERR
+  consts total=32
+  [1] str "_options"
+  [2] str "CollisionComposer"
+  [3] str "_mapping"
+  [4] str "_config"
+  [5] str "Default"
+  [6] str "_pendingMoverDeltas"
+  [7] str "PredictionReplayTicks"
+  [8] str "table"
+  [9] str "clear"
+F _applyRemoteSnapshot
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_applyRemoteSnapshot what=Lua protos=0[]
+  up1: ERR
+  consts total=23
+  [1] str "_mapping"
+  [2] str "_timeline"
+  [3] str "_remoteBuffer"
+  [4] str "Topology"
+  [5] str "Epoch"
+  [6] str "TopologyEpoch"
+  [7] str "Fingerprint"
+  [8] str "TopologyFingerprint"
+  [9] str "ServerTick"
+  [10] str "DestructibleRevision"
+  [11] str "peek"
+  [12] str "pushDecoded"
+  [13] str "_remoteClock"
+  [14] str "os"
+  [15] str "clock"
+F _beginDeterminismTrace
+  params=4 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_beginDeterminismTrace what=Lua protos=0[]
+  up1: userdata Workspace
+  up2: ERR
+  consts total=4
+  [1] str "MovementV2DeterminismTrace"
+  [2] str "GetAttribute"
+  [3] str "_traceRing"
+  [4] str "begin"
+F _commitSnapshotInstall
+  params=6 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_commitSnapshotInstall what=Lua protos=0[]
+  up1: function params=8 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=annotateReconciliation what=Lua
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: table keys=8 {State:table, Config:table, PlayerContacts:table, DeterminismTrace:table, Math:table, Solver:table, step:function, Types:table}
+  up4: ERR
+  consts total=65
+  [1] str "_state"
+  [2] str "_support"
+  [3] str "_lastPredictedServerTick"
+  [4] str "_lastAcceptedOwnerSnapshot"
+  [5] str "Metrics"
+  [6] str "PlayerContactCorrection"
+  [7] str "SynthesizedInput"
+  [8] str "ServerHeldTickCount"
+  [9] str "_requestDeterminismTrace"
+  [10] str "_requestPendingSuspiciousGroundTrace"
+  [11] str "_pendingSuspiciousGroundTrace"
+  [12] str "Generation"
+  [13] str "LastProcessedCommand"
+  [14] str "UInt32Max"
+  [15] str "deltaUInt32"
+  [16] str "CommandNumber"
+  [17] str "_status"
+  [18] str "Running"
+  [19] str "State"
+  [20] str "Support"
+  [21] number inf
+  [22] str "LookYaw"
+  [23] str "math"
+  [24] str "sin"
+F _composeWorld
+  params=5 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_composeWorld what=Lua protos=2[#1,CanOccupyAtEnd]
+  up1: table keys=10 {SweepDetailed:function, FindLadder:function, Sweep:function, FindGround:function, SweepWithFloorSupport:function, IsClear:function, SweepWithFloorSupportDetailed:function, CanMove:function, __index:table, new:function}
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: table keys=2 {Start:number, Finish:number}
+  up4: ERR
+  consts total=67
+  [1] str "_mapping"
+  [2] str "_topology"
+  [3] str "_timeline"
+  [4] str "_config"
+  [5] str "CollisionContextUnavailable"
+  [6] str "resolve"
+  [7] str "_cachedStaticWorld"
+  [8] str "_cachedStaticFrame"
+  [9] str "new"
+  [10] str "_options"
+  [11] str "CollisionComposer"
+  [12] str "ContactBodyQueryBounds"
+  [13] str "type"
+F _diagnosticTargetPresent
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_diagnosticTargetPresent what=Lua protos=0[]
+  up1: userdata Players
+  up2: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up3: ERR
+  consts total=4
+  [1] str "TargetName"
+  [2] str "FindFirstChild"
+  [3] str "Player"
+  [4] str "IsA"
+F _dispatchStepEvents
+  params=4 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_dispatchStepEvents what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "EventCommandNumber"
+  [2] str "EventSource"
+  [3] str "Jumped"
+  [4] str "_rememberJumpEvent"
+  [5] str "_options"
+  [6] str "OnStepEvents"
+  [7] str "_presentationContext"
+F _disposeTimeline
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_disposeTimeline what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "_timelineConnection"
+  [2] str "Disconnect"
+  [3] str "_timeline"
+  [4] str "destroy"
+F _drainDiagnosticOutput
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_drainDiagnosticOutput what=Lua protos=0[]
+  up1: userdata Players
+  up2: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up3: function params=0 src=[C]:? cname=print what=C
+  up4: ERR
+  consts total=8
+  [1] str "_diagnosticOutputQueue"
+  [2] str "_diagnosticOutputHead"
+  [3] str "LocalPlayer"
+  [4] str "Name"
+  [5] str "TargetName"
+  [6] number 1
+  [7] str "table"
+  [8] str "clear"
+F _drainPendingCollisionControls
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_drainPendingCollisionControls what=Lua protos=0[]
+  up1: ERR
+  consts total=17
+  [1] str "_pendingReconciliationInstall"
+  [2] str "_pendingBaseline"
+  [3] str "_applyBaseline"
+  [4] str "_timeline"
+  [5] str "needsBaseline"
+  [6] str "_pendingDeltas"
+  [7] str "_applyDelta"
+  [8] number 1
+  [9] str "_pendingMoverBaseline"
+  [10] str "_applyMoverBaseline"
+  [11] str "_pendingMoverDeltas"
+  [12] str "_applyMoverDelta"
+  [13] str "_flushPendingMoverReplay"
+  [14] str "_tryInstallDiscontinuity"
+  [15] str "_pendingOwnerSnapshot"
+  [16] str "_state"
+  [17] str "_handleOwnerSnapshot"
+F _ensureTopology
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_ensureTopology what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=defaultMapRoot what=Lua
+  up2: table keys=3 {AssertReadPublished:function, ComputeFingerprint:function, ReadPublished:function}
+  up3: table keys=1 {Build:function}
+  up4: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up5: ERR
+  consts total=15
+  [1] str "_topology"
+  [2] str "Epoch"
+  [3] str "TopologyEpoch"
+  [4] str "Fingerprint"
+  [5] str "TopologyFingerprint"
+  [6] str "_options"
+  [7] str "ResolveMapRoot"
+  [8] str "ReplicatedMapUnavailable"
+  [9] str "ReadPublished"
+  [10] str "OnWarning"
+  [11] str "Manifest"
+  [12] str "ReplicatedManifestDoesNotMatchMapping"
+  [13] str "Build"
+  [14] str "Default"
+  [15] str "BuiltTopologyDoesNotMatchMapping"
+F _flushPendingMoverReplay
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_flushPendingMoverReplay what=Lua protos=1[#1]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=36
+  [1] str "_pendingMoverReplayTick"
+  [2] str "_pendingMoverReplayRevision"
+  [3] str "_pendingMoverReplayIds"
+  [4] str "_mapping"
+  [5] str "_predictionRing"
+  [6] str "newestCommandNumber"
+  [7] str "get"
+  [8] str "_options"
+  [9] str "CollisionComposer"
+  [10] str "deltaUInt32"
+  [11] str "ServerTick"
+  [12] str "next"
+F _handleControl
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_handleControl what=Lua protos=0[]
+  up1: table keys=15 {encodeMapping:function, decode:function, encodeCommandResyncRequest:function, encodeMoverDelta:function, encodeDestructibleDelta:function, encodeBaselineRequest:function, encodeMappingRequest:function, MaxDestructibleDeltaCount:number, encodeMoverProgress:function, Version:number, encodeDiscontinuity:function, encodeMoverBaseline:function, Kind:table, encodeDestructibleBaseline:function, decodeRequest:function}
+  up2: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up3: ERR
+  consts total=52
+  [1] str "decode"
+  [2] str "rejected movement control: %*"
+  [3] str "format"
+  [4] str "_warn"
+  [5] str "Kind"
+  [6] str "Mapping"
+  [7] str "_applyMapping"
+  [8] str "_pendingReconciliationInstall"
+  [9] str "Discontinuity"
+  [10] str "_mapping"
+  [11] str "_options"
+  [12] str "OnOwnerSnapshotReceived"
+  [13] str "Snapshot"
+  [14] str "Generation"
+  [15] str "Sequence"
+  [16] str "Bytes"
+  [17] table
+  [18] str "buffer"
+  [19] str "len"
+F _handleDeterminismTrace
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_handleDeterminismTrace what=Lua protos=0[]
+  up1: table keys=12 {MaxEvents:number, RequestSize:number, unavailable:function, identity:function, Ring:table, compare:function, vector:function, checkpoint:function, encodeRequest:function, describe:function, collision:function, decodeRequest:function}
+  up2: userdata Players
+  up3: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up4: function params=0 src=[C]:? cname=print what=C
+  up5: userdata Workspace
+  up6: function params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=printGroundTrace what=Lua
+  up7: ERR
+  consts total=60
+  [1] str "identity"
+  [2] str "rejected malformed authoritative simulation trace"
+  [3] str "_warn"
+  [4] str "%*:%*:%*"
+  [5] str "format"
+  [6] str "_pendingTraceComparisons"
+  [7] str "Generation"
+  [8] str "ActorId"
+  [9] str "Sequence"
+  [10] str "CommandNumber"
+  [11] str "ServerTick"
+  [12] table
+  [13] str "_mapping"
+  [14] str "_lastAcceptedOwnerSnapshot"
+  [15] str "string"
+F _handleOwnerSnapshot
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_handleOwnerSnapshot what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=35
+  [1] str "_mapping"
+  [2] str "Generation"
+  [3] str "_sendMappingRequest"
+  [4] str "_commandStream"
+  [5] str "_pendingCommandResyncThrough"
+  [6] str "deltaUInt32"
+  [7] str "LastProcessedCommand"
+  [8] str "lastSampledCommandNumber"
+  [9] str "_config"
+  [10] str "CommandLeadResyncTicks"
+  [11] str "_sendCommandResyncRequest"
+  [12] str "string"
+  [13] str "format"
+F _handleRemoteSnapshot
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_handleRemoteSnapshot what=Lua protos=0[]
+  up1: table keys=24 {MaxRecordsPerPacket:number, validateDelta:function, PositionDeltaScale:number, ActorSize:number, applyDeltaToCanonicalBaseline:function, validateActor:function, DeltaField:table, deltaFromBaseline:function, HeaderSize:number, decode:function, MaxEncodedVelocity:number, MaxWireSize:number, encode:function, validate:function, MaxActorsPerPacket:number, encodeValidated:function, MinActorSize:number, VelocityScale:number, Version:number, deltaFromCanonicalBaseline:function, canonicalizeActor:function, actorsWireEqual:function, applyDelta:function, MaxActorSize:number}
+  up2: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up3: ERR
+  consts total=29
+  [1] str "decode"
+  [2] str "_mapping"
+  [3] str "_options"
+  [4] str "OnRemoteSnapshotReceived"
+  [5] str "Generation"
+  [6] str "Sequence"
+  [7] str "Bytes"
+  [8] str "Kind"
+  [9] str "FullActorCount"
+  [10] str "DeltaActorCount"
+  [11] str "RemovedActorCount"
+  [12] str "ChunkCount"
+  [13] table
+  [14] str "buffer"
+  [15] str "len"
+F _initializeGeneration
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_initializeGeneration what=Lua protos=1[#1]
+  up1: table keys=10 {destroy:function, needsBaseline:function, latestRevision:function, consumeDelta:function, peek:function, requestBaseline:function, consumeBaseline:function, resolve:function, __index:table, new:function}
+  up2: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up3: table keys=11 {takePacket:function, reconfigure:function, getCommand:function, pendingNewCommandCount:function, buildRecoveryPacketsAfter:function, hasPacketDue:function, sample:function, lastSampledCommandNumber:function, reset:function, __index:table, new:function}
+  up4: table keys=17 {shiftServerTicksAfter:function, Dependency:table, cloneEntry:function, __index:table, new:function, clear:function, capacity:function, replacePrediction:function, newestCommandNumber:function, isFull:function, push:function, count:function, entriesAfter:function, dropThrough:function, anyEntryAtOrAfterServerTick:function, get:function, reset:function}
+  up5: table keys=12 {MaxEvents:number, RequestSize:number, unavailable:function, identity:function, Ring:table, compare:function, vector:function, checkpoint:function, encodeRequest:function, describe:function, collision:function, decodeRequest:function}
+  up6: table keys=9 {cancelPendingReplay:function, resume:function, reconfigure:function, accept:function, markMoverRevisionValidated:function, hasPendingReplay:function, reset:function, __index:table, new:function}
+  up7: table keys=13 {getRenderPose:function, getPoses:function, latestServerTick:function, getCollisionPose:function, getPresentationPoses:function, userIds:function, getCollisionPoseByActorId:function, _prune:function, pushDecoded:function, queryCollisionUserIds:function, latestCompleteServerTick:function, __index:table, new:function}
+  up8: table keys=6 {current:function, advance:function, diagnostics:function, observe:function, __index:table, new:function}
+  up9: ERR
+  consts total=46
+  [1] str "_ensureTopology"
+  [2] str "WaitingForTopology"
+  [3] str "_setStatus"
+  [4] str "_topology"
+  [5] str "assert"
+F _installSnapshot
+  params=4 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_installSnapshot what=Lua protos=2[#1,#2]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=5 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=stateForCommand what=Lua
+  up3: function params=7 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=predictionDependencyMask what=Lua
+  up4: ERR
+  consts total=65
+  [1] str "_mapping"
+  [2] str "_timeline"
+  [3] str "_reconciler"
+  [4] str "_commandStream"
+  [5] str "GenerationContextUnavailable"
+  [6] str "Generation"
+  [7] str "GenerationMismatch"
+  [8] str "Topology"
+  [9] str "Epoch"
+  [10] str "TopologyEpoch"
+  [11] str "Fingerprint"
+  [12] str "TopologyFingerprint"
+  [13] str "TopologyMismatch"
+  [14] str "ServerTick"
+  [15] str "DestructibleRevision"
+  [16] str "peek"
+  [17] str "MoverRevision"
+  [18] str "_composeWorld"
+  [19] str "LastProcessedCommand"
+  [20] str "UInt32Max"
+  [21] str "_sendMappingRequest"
+  [22] str "InitialDiscontinuityDoesNotPrecedeCommandZero"
+  [23] str "reset"
+  [24] str "_predictionRing"
+  [25] str "get"
+  [26] str "State"
+  [27] str "_playerContactNearStateAtTick"
+  [28] str "PostState"
+  [29] str "StartedAt"
+  [30] str "WorkSeconds"
+  [31] number 0
+  [32] str "SliceCount"
+  [33] str "MaximumSliceSeconds"
+  [34] table
+  [35] str "os"
+  [36] str "clock"
+F _localClockAnchor
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_localClockAnchor what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "_lastPredictedServerTick"
+  [2] str "_config"
+  [3] str "_accumulatorSeconds"
+  [4] str "StepSeconds"
+  [5] number 0.999999
+  [6] str "math"
+  [7] str "clamp"
+F _localPlayerContactCritical
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_localPlayerContactCritical what=Lua protos=0[]
+  up1: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up2: ERR
+  consts total=11
+  [1] str "_mapping"
+  [2] str "PlayerCollisionsEnabled"
+  [3] str "_support"
+  [4] str "Kind"
+  [5] str "SupportKind"
+  [6] str "Player"
+  [7] str "SourceId"
+  [8] number 0
+  [9] str "next"
+F _logOwnerDiagnostics
+  params=4 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_logOwnerDiagnostics what=Lua protos=1[#1]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up3: table keys=7 {MaxDistance:number, isHardSnapCorrection:function, Epsilon:number, MaxSeconds:number, MinSpeed:number, clampOffset:function, remainingOffset:function}
+  up4: function params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=materialAckCorrection what=Lua
+  up5: userdata Players
+  up6: function params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? what=Lua
+  up7: userdata Workspace
+  up8: function params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=mismatchFieldLabel what=Lua
+  up9: function params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? what=Lua
+  up10: function params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? what=Lua
+  up11: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up12: function params=0 src=[C]:? cname=print what=C
+  up13: ERR
+  consts total=178
+  [1] str "os"
+  [2] str "clock"
+F _markMoverRevisionValidated
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_markMoverRevisionValidated what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "_reconciler"
+  [2] str "markMoverRevisionValidated"
+  [3] str "could not validate mover revision: %*"
+  [4] str "unknown"
+  [5] str "format"
+  [6] str "_warn"
+F _playerContactNearStateAtTick
+  params=3 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_playerContactNearStateAtTick what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=withinPlayerContactMargin what=Lua
+  up2: ERR
+  consts total=6
+  [1] str "_mapping"
+  [2] str "_remoteBuffer"
+  [3] str "PlayerCollisionsEnabled"
+  [4] str "userIds"
+  [5] str "getCollisionPose"
+  [6] str "ActorId"
+F _present
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_present what=Lua protos=0[]
+  up1: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=withinPlayerContactMargin what=Lua
+  up3: ERR
+  consts total=41
+  [1] str "_presentationContextScratch"
+  [2] str "_presentationClock"
+  [3] str "_mapping"
+  [4] str "Mapping"
+  [5] str "ServerTick"
+  [6] str "TickFraction"
+  [7] str "_localPlayerContactCritical"
+  [8] str "LocalPlayerContactCritical"
+  [9] str "_status"
+  [10] str "Status"
+  [11] str "_reason"
+  [12] str "Reason"
+  [13] str "_state"
+  [14] str "_support"
+  [15] str "_options"
+  [16] str "PresentRemotes"
+  [17] str "_remoteBuffer"
+  [18] str "PlayerCollisionsEnabled"
+  [19] str "_remotePresentations"
+  [20] str "_remotePresentationPool"
+  [21] str "table"
+  [22] str "clear"
+F _presentationClock
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_presentationClock what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "_remoteClock"
+  [2] str "current"
+F _presentationContext
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_presentationContext what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "_presentationClock"
+  [2] str "Mapping"
+  [3] str "ServerTick"
+  [4] str "TickFraction"
+  [5] str "LocalPlayerContactCritical"
+  [6] str "Status"
+  [7] str "Reason"
+  [8] table
+  [9] str "_mapping"
+  [10] str "_localPlayerContactCritical"
+  [11] str "_status"
+  [12] str "_reason"
+F _queueDiagnosticDelivery
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_queueDiagnosticDelivery what=Lua protos=0[]
+  up1: function params=4 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=appendDiagnosticDetailRecords what=Lua
+  up2: userdata Players
+  up3: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up4: function params=0 src=[C]:? cname=warn what=C
+  up5: ERR
+  consts total=27
+  [1] str "CorrelationId"
+  [2] str "CLIENT"
+  [3] str "ClientLog"
+  [4] str "SERVER"
+  [5] str "ServerLog"
+  [6] str "_diagnosticOutputQueue"
+  [7] number 1
+  [8] str "_diagnosticOutputHead"
+  [9] number 2048
+  [10] number 0
+  [11] str "math"
+  [12] str "max"
+F _queueOwnerSnapshot
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_queueOwnerSnapshot what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=4
+  [1] str "_pendingOwnerSnapshot"
+  [2] str "Generation"
+  [3] str "isNewerUInt32"
+  [4] str "Sequence"
+F _queueSuspiciousGroundTrace
+  params=8 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_queueSuspiciousGroundTrace what=Lua protos=0[]
+  up1: userdata Workspace
+  up2: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up3: userdata Players
+  up4: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up5: function params=0 src=[C]:? cname=print what=C
+  up6: ERR
+  consts total=53
+  [1] str "MovementV2DeterminismTrace"
+  [2] str "GetAttribute"
+  [3] str "LeftGround"
+  [4] str "Jumped"
+  [5] str "OnGround"
+  [6] str "Buttons"
+  [7] str "has"
+  [8] str "Duck"
+  [9] str "PreviousButtons"
+  [10] str "Stance"
+  [11] str "Ducking"
+  [12] str "IsDucking"
+  [13] str "JumpHullActive"
+  [14] str "DuckAmount"
+  [15] str "math"
+  [16] str "abs"
+F _recoverAuthoritativeJump
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_recoverAuthoritativeJump what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=19
+  [1] str "State"
+  [2] str "LastJumpCommandNumber"
+  [3] str "UInt32Max"
+  [4] str "_lastAuthoritativeJumpCommand"
+  [5] str "_seenJumpCommands"
+  [6] str "Jumped"
+  [7] boolean true
+  [8] str "Landed"
+  [9] boolean false
+  [10] str "LeftGround"
+  [11] str "ImpactVelocityY"
+F _recoverCommandsAfterOwnerSilence
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_recoverCommandsAfterOwnerSilence what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "_lastAcceptedOwnerSnapshot"
+  [2] str "_diagnosticLastOwnerAppliedAt"
+  [3] str "os"
+  [4] str "clock"
+F _refillCommandSendBudget
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_refillCommandSendBudget what=Lua protos=0[]
+  up1: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up2: ERR
+  consts total=17
+  [1] str "_config"
+  [2] number 1
+  [3] str "PolicySeconds"
+  [4] str "CommandPacketPeriod"
+  [5] str "SimulationHz"
+  [6] str "math"
+  [7] str "min"
+F _refreshPresentedState
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_refreshPresentedState what=Lua protos=0[]
+  up1: table keys=8 {State:table, Config:table, PlayerContacts:table, DeterminismTrace:table, Math:table, Solver:table, step:function, Types:table}
+  up2: ERR
+  consts total=8
+  [1] str "_state"
+  [2] str "_support"
+  [3] str "_presentedState"
+  [4] str "_previousPresentedState"
+  [5] str "_presentedSupport"
+  [6] str "State"
+  [7] str "clone"
+  [8] str "cloneSupport"
+F _refundCommandSendToken
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_refundCommandSendToken what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "_refillCommandSendBudget"
+  [2] number 1
+  [3] str "_commandSendTokens"
+  [4] str "math"
+  [5] str "min"
+F _rememberJumpEvent
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_rememberJumpEvent what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=7
+  [1] str "isUInt32"
+  [2] str "UInt32Max"
+  [3] str "_seenJumpCommands"
+  [4] str "_seenJumpOrder"
+  [5] number 1
+  [6] str "table"
+  [7] str "remove"
+F _reportMovementIssue
+  params=4 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_reportMovementIssue what=Lua protos=0[]
+  up1: table keys=5 {TraceComparison:number, OwnerCorrection:number, RuntimeWarning:number, PredictionHitch:number, Reconciliation:number}
+  up2: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up3: userdata Workspace
+  up4: ERR
+  consts total=27
+  [1] str "_channels"
+  [2] str "_diagnosticTargetPresent"
+  [3] str "os"
+  [4] str "clock"
+F _requestDeterminismTrace
+  params=4 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_requestDeterminismTrace what=Lua protos=0[]
+  up1: userdata Workspace
+  up2: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up3: userdata Players
+  up4: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up5: function params=0 src=[C]:? cname=print what=C
+  up6: function params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=mismatchFieldLabel what=Lua
+  up7: ERR
+  consts total=32
+  [1] str "MovementV2DeterminismTrace"
+  [2] str "GetAttribute"
+  [3] str "_diagnosticTargetPresent"
+  [4] str "ServerTick"
+  [5] str "LastProcessedCommand"
+  [6] str "UInt32Max"
+  [7] str "ReconciliationMode"
+  [8] str "Reuse"
+  [9] str "PlayerContactCorrection"
+  [10] str "CanonicalStateMismatchCount"
+  [11] number 0
+  [12] str "CanonicalSupportMismatch"
+  [13] str "_mapping"
+  [14] str "_traceRing"
+  [15] str "Generation"
+  [16] str "get"
+  [17] str "string"
+  [18] str "format"
+F _requestPendingSuspiciousGroundTrace
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_requestPendingSuspiciousGroundTrace what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: userdata Players
+  up3: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up4: function params=0 src=[C]:? cname=print what=C
+  up5: ERR
+  consts total=16
+  [1] str "_pendingSuspiciousGroundTrace"
+  [2] str "Generation"
+  [3] str "LastProcessedCommand"
+  [4] str "UInt32Max"
+  [5] str "deltaUInt32"
+  [6] str "CommandNumber"
+  [7] str "ServerTick"
+  [8] str "Payload"
+  [9] str "SuspiciousCrouchGroundLoss"
+  [10] str "_sendDeterminismTrace"
+  [11] str "[MovementV2.Trace] SUSPICIOUS_CONTEXT %*"
+  [12] str "Context"
+  [13] str "format"
+  [14] str "LocalPlayer"
+  [15] str "Name"
+  [16] str "TargetName"
+F _resetCommandSendBudget
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_resetCommandSendBudget what=Lua protos=0[]
+  up1: table keys=7 {DoorCollisionDebugEnabled:boolean, PolicySeconds:table, Default:table, derive:function, MinSimulationHz:number, DefaultSimulationHz:number, MaxSimulationHz:number}
+  up2: ERR
+  consts total=9
+  [1] str "_config"
+  [2] str "_commandSendTokens"
+  [3] str "_commandSendLastRefillAt"
+  [4] number 1
+  [5] str "PolicySeconds"
+  [6] str "CommandPacketPeriod"
+  [7] str "SimulationHz"
+  [8] str "math"
+  [9] str "min"
+F _resolveSupportMotion
+  params=4 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_resolveSupportMotion what=Lua protos=0[]
+  up1: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up2: table keys=2 {resolvePlayerSupportMotion:function, solve:function}
+  up3: ERR
+  consts total=8
+  [1] str "_remoteBuffer"
+  [2] str "Kind"
+  [3] str "SupportKind"
+  [4] str "Player"
+  [5] str "resolvePlayerSupportMotion"
+  [6] str "ServerTick"
+  [7] str "_config"
+  [8] str "assert"
+F _resumePendingReconciliation
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_resumePendingReconciliation what=Lua protos=2[#1,#2]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=5 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=stateForCommand what=Lua
+  up3: function params=7 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=predictionDependencyMask what=Lua
+  up4: ERR
+  consts total=41
+  [1] str "_pendingReconciliationInstall"
+  [2] str "_reconciler"
+  [3] str "_mapping"
+  [4] str "ReconciliationReplayUnavailable"
+  [5] str "Snapshot"
+  [6] str "Generation"
+  [7] str "cancelPendingReplay"
+  [8] str "GenerationMismatch"
+  [9] str "os"
+  [10] str "clock"
+F _sendBaselineRequest
+  params=4 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_sendBaselineRequest what=Lua protos=0[]
+  up1: table keys=15 {encodeMapping:function, decode:function, encodeCommandResyncRequest:function, encodeMoverDelta:function, encodeDestructibleDelta:function, encodeBaselineRequest:function, encodeMappingRequest:function, MaxDestructibleDeltaCount:number, encodeMoverProgress:function, Version:number, encodeDiscontinuity:function, encodeMoverBaseline:function, Kind:table, encodeDestructibleBaseline:function, decodeRequest:function}
+  up2: ERR
+  consts total=10
+  [1] str "_channels"
+  [2] str "encodeBaselineRequest"
+  [3] str "failed to encode destructible baseline request: %*"
+  [4] str "format"
+  [5] str "_warn"
+  [6] str "_sendDueCommands"
+  [7] str "Control"
+  [8] str "FireServer"
+  [9] str "WaitingForBaseline"
+  [10] str "_setStatus"
+F _sendCommandResyncRequest
+  params=3 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_sendCommandResyncRequest what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=15 {encodeMapping:function, decode:function, encodeCommandResyncRequest:function, encodeMoverDelta:function, encodeDestructibleDelta:function, encodeBaselineRequest:function, encodeMappingRequest:function, MaxDestructibleDeltaCount:number, encodeMoverProgress:function, Version:number, encodeDiscontinuity:function, encodeMoverBaseline:function, Kind:table, encodeDestructibleBaseline:function, decodeRequest:function}
+  up3: ERR
+  consts total=20
+  [1] str "_mapping"
+  [2] str "_channels"
+  [3] str "isUInt32"
+  [4] str "_pendingCommandResyncThrough"
+  [5] str "encodeCommandResyncRequest"
+  [6] str "Generation"
+  [7] str "failed to encode command resync request: %*"
+  [8] str "format"
+  [9] str "_warn"
+  [10] str "_sendDueCommands"
+  [11] str "os"
+  [12] str "clock"
+F _sendDeterminismTrace
+  params=6 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_sendDeterminismTrace what=Lua protos=0[]
+  up1: table keys=12 {MaxEvents:number, RequestSize:number, unavailable:function, identity:function, Ring:table, compare:function, vector:function, checkpoint:function, encodeRequest:function, describe:function, collision:function, decodeRequest:function}
+  up2: userdata Players
+  up3: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up4: function params=0 src=[C]:? cname=print what=C
+  up5: ERR
+  consts total=16
+  [1] str "_channels"
+  [2] str "%*:%*:%*"
+  [3] str "format"
+  [4] str "_pendingTraceComparisons"
+  [5] str "os"
+  [6] str "clock"
+F _sendDueCommands
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_sendDueCommands what=Lua protos=0[]
+  up1: table keys=13 {MaxWeaponSelectionIdentifierBytes:number, encode:function, decode:function, CommandSize:number, canonicalizeCommand:function, MaxWeaponSelectionSize:number, makePacket:function, Version:number, canonicalizeCommandInto:function, validateCommand:function, HeaderSize:number, MaxDeltaCommandSize:number, validatePacket:function}
+  up2: ERR
+  consts total=34
+  [1] str "_commandStream"
+  [2] str "_config"
+  [3] str "_channels"
+  [4] str "hasPacketDue"
+  [5] str "TargetRedundantCommandCount"
+  [6] str "math"
+  [7] str "max"
+F _sendMappingRequest
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_sendMappingRequest what=Lua protos=0[]
+  up1: table keys=15 {encodeMapping:function, decode:function, encodeCommandResyncRequest:function, encodeMoverDelta:function, encodeDestructibleDelta:function, encodeBaselineRequest:function, encodeMappingRequest:function, MaxDestructibleDeltaCount:number, encodeMoverProgress:function, Version:number, encodeDiscontinuity:function, encodeMoverBaseline:function, Kind:table, encodeDestructibleBaseline:function, decodeRequest:function}
+  up2: ERR
+  consts total=9
+  [1] str "_requestedMappingGeneration"
+  [2] str "_channels"
+  [3] str "encodeMappingRequest"
+  [4] str "failed to encode mapping request: %*"
+  [5] str "format"
+  [6] str "_warn"
+  [7] str "_sendDueCommands"
+  [8] str "Control"
+  [9] str "FireServer"
+F _sendRecoveryCommands
+  params=3 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_sendRecoveryCommands what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=13 {MaxWeaponSelectionIdentifierBytes:number, encode:function, decode:function, CommandSize:number, canonicalizeCommand:function, MaxWeaponSelectionSize:number, makePacket:function, Version:number, canonicalizeCommandInto:function, validateCommand:function, HeaderSize:number, MaxDeltaCommandSize:number, validatePacket:function}
+  up3: ERR
+  consts total=34
+  [1] str "_commandStream"
+  [2] str "_config"
+  [3] str "_channels"
+  [4] str "lastSampledCommandNumber"
+  [5] str "deltaUInt32"
+  [6] str "_refillCommandSendBudget"
+  [7] str "math"
+  [8] str "floor"
+F _setStatus
+  params=3 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_setStatus what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "_status"
+  [2] str "_reason"
+  [3] str "_options"
+  [4] str "OnStatusChanged"
+F _simulate
+  params=6 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_simulate what=Lua protos=0[]
+  up1: table keys=1 {getMovementConfig:function}
+  up2: table keys=8 {State:table, Config:table, PlayerContacts:table, DeterminismTrace:table, Math:table, Solver:table, step:function, Types:table}
+  up3: table keys=12 {MaxEvents:number, RequestSize:number, unavailable:function, identity:function, Ring:table, compare:function, vector:function, checkpoint:function, encodeRequest:function, describe:function, collision:function, decodeRequest:function}
+  up4: table keys=2 {resolvePlayerSupportMotion:function, solve:function}
+  up5: ERR
+  consts total=27
+  [1] str "_config"
+  [2] str "assert"
+F _stepPrediction
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_stepPrediction what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up3: table keys=4 {Competitive:table, CasualDeathmatch:table, Default:table, resolveServerGamemode:function}
+  up4: function params=5 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=stateForCommand what=Lua
+  up5: function params=7 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=predictionDependencyMask what=Lua
+  up6: table keys=7 {toWorldVelocity:function, solve:function, DefaultContactEpsilon:number, DefaultIterations:number, DefaultSeparationSkin:number, newScratch:function, fromWorldVelocity:function}
+  up7: userdata Workspace
+  up8: userdata Players
+  up9: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up10: function params=0 src=[C]:? cname=print what=C
+  up11: ERR
+  consts total=112
+  [1] str "_status"
+  [2] str "Running"
+  [3] str "WaitingForInput"
+  [4] str "_reason"
+  [5] str "_mapping"
+  [6] str "assert"
+F _traceAirStrafe
+  params=6 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_traceAirStrafe what=Lua protos=0[]
+  up1: userdata Workspace
+  up2: userdata Players
+  up3: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up4: table keys=1 {getMovementConfig:function}
+  up5: function params=0 src=[C]:? cname=print what=C
+  up6: table keys=8 {flatten:function, approach:function, applyFriction:function, airAccelerate:function, clipVelocity:function, moveVectorToWorld:function, legacyBunnyHopAirAccelerate:function, accelerate:function}
+  up7: ERR
+  consts total=74
+  [1] str "MovementV2AirStrafeTrace"
+  [2] str "GetAttribute"
+  [3] str "LocalPlayer"
+  [4] str "Name"
+  [5] str "TargetName"
+  [6] str "_airStrafeTraceEnabled"
+  [7] str "_airStrafeTraceHeaderPrinted"
+  [8] str "_airStrafeTraceLineCount"
+  [9] str "_airStrafeTracePreviousYaw"
+  [10] str "LookYaw"
+  [11] str "OnGround"
+  [12] str "_config"
+  [13] str "assert"
+F _tryConsumeCommandSendToken
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_tryConsumeCommandSendToken what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "_refillCommandSendBudget"
+  [2] number 1
+  [3] str "_commandSendTokens"
+F _tryInstallDiscontinuity
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_tryInstallDiscontinuity what=Lua protos=0[]
+  up1: ERR
+  consts total=23
+  [1] str "_pendingReconciliationInstall"
+  [2] str "_pendingDiscontinuity"
+  [3] str "_state"
+  [4] str "_timeline"
+  [5] str "needsBaseline"
+  [6] str "WaitingForState"
+  [7] str "ReliableDiscontinuityUnavailable"
+  [8] str "_setStatus"
+  [9] str "_installSnapshot"
+  [10] str "_pendingOwnerSnapshot"
+  [11] str "_handleOwnerSnapshot"
+  [12] str "SnapshotNotNewer"
+  [13] str "ReplayPending"
+  [14] str "BaselineRequired"
+  [15] str "DestructibleFrameOutsideRetention"
+  [16] str "DestructibleRevisionMismatch"
+  [17] str "MoverBaselineRequired"
+  [18] str "MoverRevisionUnavailable"
+  [19] str "MoverFrameOutsideRetention"
+  [20] str "GenerationContextUnavailable"
+  [21] str "could not install reliable discontinuity: %*"
+  [22] str "format"
+  [23] str "_warn"
+F _warn
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=_warn what=Lua protos=0[]
+  up1: userdata Workspace
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? what=Lua
+  up3: function params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? what=Lua
+  up4: userdata Players
+  up5: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up6: function params=0 src=[C]:? cname=warn what=C
+  up7: ERR
+  consts total=49
+  [1] str "os"
+  [2] str "clock"
+F advance
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=advance what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? what=Lua
+  up3: function params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? what=Lua
+  up4: ERR
+  consts total=130
+  [1] str "typeof"
+F destroy
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=18
+  [1] str "stop"
+  [2] str "_disposeTimeline"
+  [3] str "_options"
+  [4] str "CollisionComposer"
+  [5] str "Reset"
+  [6] str "_mapping"
+  [7] str "_topology"
+  [8] str "_cachedStaticFrame"
+  [9] str "_cachedStaticWorld"
+  [10] str "_state"
+  [11] str "_support"
+  [12] str "_traceRing"
+  [13] str "table"
+  [14] str "clear"
+F getMapping
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=getMapping what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "_mapping"
+F getPredictedState
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=getPredictedState what=Lua protos=0[]
+  up1: table keys=8 {State:table, Config:table, PlayerContacts:table, DeterminismTrace:table, Math:table, Solver:table, step:function, Types:table}
+  up2: ERR
+  consts total=6
+  [1] str "_state"
+  [2] str "_support"
+  [3] str "_lastPredictedServerTick"
+  [4] str "State"
+  [5] str "clone"
+  [6] str "cloneSupport"
+F getRemoteCollisionPose
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=getRemoteCollisionPose what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "_remoteBuffer"
+  [2] str "_presentationClock"
+  [3] str "getCollisionPose"
+F getRemoteRenderPose
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=getRemoteRenderPose what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "_remoteBuffer"
+  [2] str "_presentationClock"
+  [3] str "getRenderPose"
+F getStatus
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=getStatus what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "_status"
+  [2] str "_reason"
+F new
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=new what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: table keys=74 {render:function, _refreshPresentedState:function, getRemoteCollisionPose:function, _sendBaselineRequest:function, _sendDueCommands:function, _presentationContext:function, _tryConsumeCommandSendToken:function, _playerContactNearStateAtTick:function, _queueSuspiciousGroundTrace:function, _recoverAuthoritativeJump:function, _requestDeterminismTrace:function, _reportMovementIssue:function, _queueOwnerSnapshot:function, _rememberJumpEvent:function, _disposeTimeline:function, _beginDeterminismTrace:function, _sendCommandResyncRequest:function, requestMapping:function, destroy:function, _stepPrediction:function, rejectDoorPrediction:function, _sendDeterminismTrace:function, _initializeGeneration:function, _traceAirStrafe:function, _logOwnerDiagnostics:function, _handleDeterminismTrace:function, _requestPendingSuspiciousGroundTrace:function, _applyMoverDelta:function, getRemoteRenderPose:function, _advanceRenderClock:function, _applyMoverBaseline:function, _handleControl:function, _warn:function, _flushPendingMoverReplay:function, _setStatus:function, getPredictedState:function, _queueDiagnosticDelivery:function, _refillCommandSendBudget:function, _applyMapping:function, getMapping:function}
+  up3: ERR
+  consts total=117
+  [1] str "IsClient"
+  [2] str "MovementV2 Client.Runtime is client-only"
+  [3] str "assert"
+F rejectDoorPrediction
+  params=3 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=rejectDoorPrediction what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=10
+  [1] str "_options"
+  [2] str "CollisionComposer"
+  [3] str "RejectDoorUse"
+  [4] str "type"
+F render
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=render what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "typeof"
+F requestMapping
+  params=2 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=requestMapping what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=11
+  [1] str "isNonZeroUInt16"
+  [2] str "InvalidGeneration"
+  [3] str "_channels"
+  [4] str "_queuedMappingGeneration"
+  [5] str "_mapping"
+  [6] str "Generation"
+  [7] str "WaitingForMapping"
+  [8] str "RequestedCharacterGeneration"
+  [9] str "_setStatus"
+  [10] str "_requestedMappingGeneration"
+  [11] str "_sendMappingRequest"
+F retryTopology
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=retryTopology what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "_mapping"
+  [2] str "MappingUnavailable"
+  [3] str "_timeline"
+  [4] str "_initializeGeneration"
+  [5] str "_drainPendingCollisionControls"
+  [6] str "_tryInstallDiscontinuity"
+F start
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=start what=Lua protos=7[#1,#2,#3,#4,#5,#6,#7]
+  up1: table keys=4 {Definitions:table, FolderName:string, getClientChannels:function, getServerChannels:function}
+  up2: userdata Players
+  up3: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up4: userdata Run Service
+  up5: table keys=7 {decode:function, Version:number, encode:function, canonicalizeSupport:function, HeaderSize:number, validate:function, WireSize:number}
+  up6: ERR
+  consts total=40
+  [1] str "_started"
+  [2] str "getClientChannels"
+  [3] str "_channels"
+  [4] str "_requestedMappingGeneration"
+  [5] str "assert"
+F stop
+  params=1 src=ReplicatedStorage.MovementV2.Client.Runtime:? cname=stop what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: ERR
+  consts total=16
+  [1] str "_started"
+  [2] str "_sendDueCommands"
+  [3] str "_connections"
+  [4] str "Disconnect"
+  [5] str "table"
+  [6] str "clear"

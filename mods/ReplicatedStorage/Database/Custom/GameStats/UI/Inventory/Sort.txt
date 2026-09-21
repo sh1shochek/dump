@@ -1,0 +1,18 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.UI.Inventory.Sort
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F GetSortComparisonFunction
+  params=3 src=ReplicatedStorage.Database.Custom.GameStats.UI.Inventory.Sor:? cname=GetSortComparisonFunction what=Lua protos=7[#1,#2,#3,#4,#5,#6,#7]
+  up1: function params=2 src=ReplicatedStorage.Database.Custom.GameStats.UI.Inventory.Sor:? cname=GetCollectionNameForItem what=Lua
+  up2: table keys=6 {Everything:table, GetEffectiveItemType:function, Display:table, IsCapsule:function, Equipment:table, Graphic Art:table}
+  up3: table keys=5 {Melee:number, Sticker Capsule:number, Charm Capsule:number, Case:number, Glove:number}
+  up4: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up5: table keys=7 {Forbidden:number, Blue:number, Stock:number, Purple:number, Special:number, Pink:number, Red:number}
+  up6: function params=2 src=ReplicatedStorage.Database.Custom.GameStats.UI.Inventory.Sor:? cname=GetEquippedItemPriority what=Lua
+  up7: table keys=13 {Sticker:number, Music Kit:number, Sticker Capsule:number, Charm:number, Charm Capsule:number, C4:number, Glove:number, Zeus x27:number, Graffiti:number, Case:number, Badge:number, Melee:number, Grenade:number}
+  up8: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up9: table keys=6 {Equipment:number, SMG:number, Heavy:number, Rifle:number, Pistol:number, Miscellaneous:number}
+  up10: ERR
+  consts total=8
+  [1] str "Alphabetical"

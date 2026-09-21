@@ -1,0 +1,30 @@
+PATH: ReplicatedStorage.Shared.MedalClipper
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F TriggerClip
+  params=4 src=ReplicatedStorage.Shared.MedalClipper:? cname=TriggerClip what=Lua protos=0[]
+  up1: function params=0 src=ReplicatedStorage.Shared.MedalClipper:? cname=debugPrint what=Lua
+  up2: function params=1 src=ReplicatedStorage.Shared.MedalClipper:? cname=base64Encode what=Lua
+  up3: userdata HttpService
+  up4: ERR
+  consts total=30
+  [1] str "TriggerClip"
+  [2] str "eventId=%*"
+  [3] str "format"
+  [4] str "eventName=%*"
+  [5] str "duration=%*"
+  [6] number 30
+  [7] str "duration"
+  [8] str "captureDelayMs=%*"
+  [9] number 0
+  [10] str "captureDelayMs"
+  [11] str "eventId"
+  [12] str "eventName"
+  [13] str "triggerActions"
+  [14] str "clipOptions"
+  [15] table
+  [16] str "SaveClip"
+  [17] table
+  [18] str "contextTags"
+  [19] str "next"

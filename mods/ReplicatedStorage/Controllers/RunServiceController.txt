@@ -1,0 +1,55 @@
+PATH: ReplicatedStorage.Controllers.RunServiceController
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+F BindToHeartbeat
+  params=3 src=ReplicatedStorage.Controllers.RunServiceController:? cname=BindToHeartbeat what=Lua protos=0[]
+  up1: function params=5 src=ReplicatedStorage.Controllers.RunServiceController:? cname=createBinding what=Lua
+  up2: ERR
+  consts total=2
+  [1] str "Heartbeat"
+  [2] number 0
+F BindToPostSimulation
+  params=3 src=ReplicatedStorage.Controllers.RunServiceController:? cname=BindToPostSimulation what=Lua protos=0[]
+  up1: function params=5 src=ReplicatedStorage.Controllers.RunServiceController:? cname=createBinding what=Lua
+  up2: ERR
+  consts total=2
+  [1] str "PostSimulation"
+  [2] number 0
+F BindToRenderStep
+  params=3 src=ReplicatedStorage.Controllers.RunServiceController:? cname=BindToRenderStep what=Lua protos=0[]
+  up1: function params=5 src=ReplicatedStorage.Controllers.RunServiceController:? cname=createBinding what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "RenderStepped"
+F BindToStepped
+  params=3 src=ReplicatedStorage.Controllers.RunServiceController:? cname=BindToStepped what=Lua protos=0[]
+  up1: function params=5 src=ReplicatedStorage.Controllers.RunServiceController:? cname=createBinding what=Lua
+  up2: ERR
+  consts total=2
+  [1] str "Stepped"
+  [2] number 0
+F CreateBindingName
+  params=1 src=ReplicatedStorage.Controllers.RunServiceController:? cname=CreateBindingName what=Lua protos=0[]
+  up1: number 69
+  up2: ERR
+  consts total=10
+  [1] str "type"
+F Unbind
+  params=2 src=ReplicatedStorage.Controllers.RunServiceController:? cname=Unbind what=Lua protos=0[]
+  up1: table keys=4 {Stepped:table, Heartbeat:table, PostSimulation:table, RenderStepped:table}
+  up2: function params=1 src=ReplicatedStorage.Controllers.RunServiceController:? cname=rebuildScheduler what=Lua
+  up3: ERR
+  consts total=5
+  [1] str "BindingsByName"
+  [2] str "Connected"
+  [3] str "Name"
+  [4] str "NeedsCompact"
+  [5] str "Stepping"
+F UnbindFromRenderStep
+  params=1 src=ReplicatedStorage.Controllers.RunServiceController:? cname=UnbindFromRenderStep what=Lua protos=0[]
+  up1: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up2: ERR
+  consts total=2
+  [1] str "Unbind"
+  [2] str "RenderStepped"

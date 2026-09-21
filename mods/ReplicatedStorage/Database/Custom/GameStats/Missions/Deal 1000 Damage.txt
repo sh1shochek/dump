@@ -1,0 +1,10 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Deal 1000 Damage
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K Category :string = damage
+K MissionId :string = Deal 1000 Damage
+K Rewards :table keys=1
+  {[1]={["amount"]=6, ["type"]="Credits"}}
+K Target :number = 1000
+K Type :string = hourly

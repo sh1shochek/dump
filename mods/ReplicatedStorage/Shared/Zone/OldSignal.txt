@@ -1,0 +1,100 @@
+PATH: ReplicatedStorage.Shared.Zone.OldSignal
+REQUIRE: ok
+RETURNS: table
+KEYS: 14
+K ClassName :string = Signal
+F Connect
+  params=2 src=ReplicatedStorage.Shared.Zone.OldSignal:? cname=Connect what=Lua protos=1[Disconnect]
+  up1: userdata HttpService
+  up2: ERR
+  consts total=22
+  [1] str "type"
+F Destroy
+  params=1 src=ReplicatedStorage.Shared.Zone.OldSignal:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "bindableEvent"
+  [2] str "Destroy"
+  [3] str "connectionsChanged"
+  [4] str "totalConnections"
+  [5] str "Fire"
+  [6] str "pairs"
+F Disconnect
+  params=1 src=ReplicatedStorage.Shared.Zone.OldSignal:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "bindableEvent"
+  [2] str "Destroy"
+  [3] str "connectionsChanged"
+  [4] str "totalConnections"
+  [5] str "Fire"
+  [6] str "pairs"
+F Fire
+  params=1 src=ReplicatedStorage.Shared.Zone.OldSignal:? cname=Fire what=Lua protos=0[]
+  up1: ERR
+  consts total=10
+  [1] str "pairs"
+F Wait
+  params=1 src=ReplicatedStorage.Shared.Zone.OldSignal:? cname=Wait what=Lua protos=0[]
+  up1: userdata HttpService
+  up2: userdata Signal Heartbeat
+  up3: ERR
+  consts total=6
+  [1] str "GenerateGUID"
+  [2] str "waiting"
+  [3] str "totalWaiting"
+  [4] number 1
+  [5] str "Wait"
+  [6] str "unpack"
+K __index :table keys=14
+  {["Destroy"]=<function:function: 0x8af03381f47b67f9>, ["disconnect"]=<function:function: 0x8af03381f47b67f9>, ["connect"]=<function:function: 0xf3ee4090ea0803a1>, ["totalConnections"]=0, ["destroy"]=<function:function: 0x8af03381f47b67f9>, ["Connect"]=<function:function: 0xf3ee4090ea0803a1>, ["wait"]=<function:function: 0x469b8ea488efb3cd>, ["Wait"]=<function:function: 0x469b8ea488efb3cd>, ["Disconnect"]=<function:function: 0x8af03381f47b67f9>, ["ClassName"]="Signal", ["fire"]=<function:function: 0xce205f8638f284b0>, ["Fire"]=<function:function: 0xce205f8638f284b0>, ["__index"]=<cycle>, ["new"]=<function:function: 0xf8ae72fea8fe96d2>}
+F connect
+  params=2 src=ReplicatedStorage.Shared.Zone.OldSignal:? cname=Connect what=Lua protos=1[Disconnect]
+  up1: userdata HttpService
+  up2: ERR
+  consts total=22
+  [1] str "type"
+F destroy
+  params=1 src=ReplicatedStorage.Shared.Zone.OldSignal:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "bindableEvent"
+  [2] str "Destroy"
+  [3] str "connectionsChanged"
+  [4] str "totalConnections"
+  [5] str "Fire"
+  [6] str "pairs"
+F disconnect
+  params=1 src=ReplicatedStorage.Shared.Zone.OldSignal:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "bindableEvent"
+  [2] str "Destroy"
+  [3] str "connectionsChanged"
+  [4] str "totalConnections"
+  [5] str "Fire"
+  [6] str "pairs"
+F fire
+  params=1 src=ReplicatedStorage.Shared.Zone.OldSignal:? cname=Fire what=Lua protos=0[]
+  up1: ERR
+  consts total=10
+  [1] str "pairs"
+F new
+  params=1 src=ReplicatedStorage.Shared.Zone.OldSignal:? cname=new what=Lua protos=0[]
+  up1: table keys=14 {Destroy:function, disconnect:function, connect:function, totalConnections:number, destroy:function, Connect:function, wait:function, Wait:function, Disconnect:function, ClassName:string, fire:function, Fire:function, __index:table, new:function}
+  up2: ERR
+  consts total=8
+  [1] str "setmetatable"
+K totalConnections :number = 0
+F wait
+  params=1 src=ReplicatedStorage.Shared.Zone.OldSignal:? cname=Wait what=Lua protos=0[]
+  up1: userdata HttpService
+  up2: userdata Signal Heartbeat
+  up3: ERR
+  consts total=6
+  [1] str "GenerateGUID"
+  [2] str "waiting"
+  [3] str "totalWaiting"
+  [4] number 1
+  [5] str "Wait"
+  [6] str "unpack"

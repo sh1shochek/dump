@@ -1,0 +1,273 @@
+PATH: ReplicatedStorage.MovementV2.MoverTrajectory
+REQUIRE: ok
+RETURNS: table
+KEYS: 29
+K Attributes :table keys=15
+  {["Revision"]="MovementV2MoverRevision", ["Behavior"]="MovementV2MoverBehavior", ["Active"]="MovementV2MoverActive", ["Id"]="MovementV2MoverId", ["Moving"]="MovementV2MoverMoving", ["DurationSeconds"]="MovementV2MoverDurationSeconds", ["StartServerTime"]="MovementV2MoverStartServerTime", ["DurationTicks"]="MovementV2MoverDurationTicks", ["CollisionOffset"]="MovementV2MoverCollisionOffset", ["StartTick"]="MovementV2MoverStartTick", ["SurfaceFriction"]="MovementV2MoverSurfaceFriction", ["TargetPose"]="MovementV2MoverTargetPose", ["EffectiveTick"]="MovementV2MoverEffectiveTick", ["StartPose"]="MovementV2MoverStartPose", ["Size"]="MovementV2MoverSize"}
+F ClearClientSpeculativeDescriptor
+  params=1 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=ClearClientSpeculativeDescriptor what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: table keys=0 {}
+  up3: userdata Event
+  up4: ERR
+  consts total=3
+  [1] str "IsClient"
+  [2] str "speculative mover descriptor clearing is client-only"
+  [3] str "assert"
+K ClientDescriptorChanged :userdata Signal Event
+F CollisionPose
+  params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=CollisionPose what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "CollisionOffset"
+F DequantizeProgress
+  params=1 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=DequantizeProgress what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "type"
+F EvaluatePresentationTime
+  params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=EvaluatePresentationTime what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: table keys=0 {}
+  up3: function params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=evaluateClientProgress what=Lua
+  up4: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up5: ERR
+  consts total=5
+  [1] str "IsClient"
+  [2] str "Id"
+  [3] str "DescriptorRevision"
+  [4] str "Revision"
+  [5] str "EvaluateTime"
+F EvaluateProgress
+  params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=EvaluateProgress what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "type"
+F EvaluateTick
+  params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=EvaluateTick what=Lua protos=0[]
+  up1: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up2: ERR
+  consts total=3
+  [1] str "EvaluateProgress"
+  [2] str "QuantizeProgress"
+  [3] str "TickAlpha"
+F EvaluateTime
+  params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=EvaluateTime what=Lua protos=0[]
+  up1: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up2: ERR
+  consts total=4
+  [1] str "StartPose"
+  [2] str "TargetPose"
+  [3] str "TimeAlpha"
+  [4] str "Lerp"
+F GetClientResolvedPose
+  params=1 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=GetClientResolvedPose what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: table keys=0 {}
+  up3: ERR
+  consts total=4
+  [1] str "IsClient"
+  [2] str "Id"
+  [3] str "Descriptor"
+  [4] str "Pose"
+F HasClientProgress
+  params=1 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=HasClientProgress what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: table keys=0 {}
+  up3: ERR
+  consts total=4
+  [1] str "IsClient"
+  [2] str "Id"
+  [3] str "DescriptorRevision"
+  [4] str "Revision"
+F InstallClientBaseline
+  params=3 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=InstallClientBaseline what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: table keys=0 {}
+  up3: table keys=0 {}
+  up4: table keys=0 {}
+  up5: table keys=0 {}
+  up6: table keys=0 {}
+  up7: table keys=0 {}
+  up8: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up9: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up10: boolean true
+  up11: userdata Event
+  up12: ERR
+  consts total=32
+  [1] str "IsClient"
+  [2] str "client mover baseline installation is client-only"
+  [3] str "assert"
+F InstallClientDelta
+  params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=InstallClientDelta what=Lua protos=0[]
+  up1: function params=3 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=installClientResolved what=Lua
+  up2: userdata Event
+  up3: ERR
+  consts total=1
+  [1] str "Fire"
+F InstallClientPresentedPose
+  params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=InstallClientPresentedPose what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: function params=1 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=isFiniteCFrame what=Lua
+  up3: table keys=0 {}
+  up4: ERR
+  consts total=10
+  [1] str "IsClient"
+  [2] str "client presented mover pose installation is client-only"
+  [3] str "assert"
+F InstallClientProgress
+  params=3 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=InstallClientProgress what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: boolean true
+  up3: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up4: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up5: table keys=0 {}
+  up6: table keys=0 {}
+  up7: table keys=0 {}
+  up8: userdata Event
+  up9: ERR
+  consts total=44
+  [1] str "IsClient"
+  [2] str "client mover progress installation is client-only"
+  [3] str "assert"
+F InstallClientResolved
+  params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=InstallClientResolved what=Lua protos=0[]
+  up1: function params=3 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=installClientResolved what=Lua
+  up2: ERR
+  consts total=0
+F InstallClientResolvedPose
+  params=3 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=InstallClientResolvedPose what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: boolean true
+  up3: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up4: function params=1 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=isFiniteCFrame what=Lua
+  up5: table keys=0 {}
+  up6: ERR
+  consts total=14
+  [1] str "IsClient"
+  [2] str "client resolved mover pose installation is client-only"
+  [3] str "assert"
+F InstallClientSpeculativeDescriptor
+  params=1 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=InstallClientSpeculativeDescriptor what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: boolean true
+  up3: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up4: table keys=0 {}
+  up5: table keys=0 {}
+  up6: userdata Event
+  up7: ERR
+  consts total=9
+  [1] str "IsClient"
+  [2] str "speculative mover descriptor installation is client-only"
+  [3] str "assert"
+F PresentationMoving
+  params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=PresentationMoving what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: table keys=0 {}
+  up3: table keys=0 {}
+  up4: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up5: ERR
+  consts total=17
+  [1] str "typeof"
+K ProgressScale :number = 65535
+F Publish
+  params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=Publish what=Lua protos=0[]
+  up1: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up2: ERR
+  consts total=20
+  [1] str "Validate"
+  [2] str "assert"
+F QuantizeProgress
+  params=1 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=QuantizeProgress what=Lua protos=0[]
+  up1: ERR
+  consts total=13
+  [1] str "typeof"
+F Read
+  params=1 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=Read what=Lua protos=0[]
+  up1: table keys=29 {EvaluateTime:function, TickAlpha:function, ClientDescriptorChanged:userdata, EvaluateTick:function, DequantizeProgress:function, ClearClientSpeculativeDescriptor:function, ProgressScale:number, Attributes:table, Publish:function, InstallClientBaseline:function, PresentationMoving:function, InstallClientResolved:function, InstallClientPresentedPose:function, GetClientResolvedPose:function, InstallClientProgress:function, RetireClientDescriptors:function, EvaluatePresentationTime:function, InstallClientResolvedPose:function, CollisionPose:function, Validate:function, EvaluateProgress:function, ResetClientDescriptors:function, Read:function, HasClientProgress:function, TimeAlpha:function, InstallClientSpeculativeDescriptor:function, InstallClientDelta:function, QuantizeProgress:function, Tag:string}
+  up2: userdata Run Service
+  up3: boolean true
+  up4: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up5: table keys=0 {}
+  up6: table keys=0 {}
+  up7: ERR
+  consts total=25
+  [1] str "Attributes"
+  [2] str "IsClient"
+  [3] str "Id"
+  [4] str "GetAttribute"
+  [5] str "isUInt32"
+  [6] number 0
+  [7] str "mover root identity is unavailable"
+  [8] str "mover is absent from the reliable descriptor baseline"
+  [9] str "Revision"
+  [10] str "mover trajectory is not committed"
+  [11] str "Size"
+  [12] str "CollisionOffset"
+  [13] str "SurfaceFriction"
+  [14] str "StartPose"
+  [15] str "TargetPose"
+  [16] str "EffectiveTick"
+  [17] str "StartTick"
+  [18] str "DurationTicks"
+  [19] str "StartServerTime"
+  [20] str "DurationSeconds"
+  [21] str "Moving"
+  [22] str "Active"
+  [23] str "Behavior"
+  [24] table
+  [25] str "Validate"
+F ResetClientDescriptors
+  params=0 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=ResetClientDescriptors what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: table keys=0 {}
+  up3: table keys=0 {}
+  up4: table keys=0 {}
+  up5: table keys=0 {}
+  up6: table keys=0 {}
+  up7: table keys=0 {}
+  up8: boolean true
+  up9: userdata Event
+  up10: ERR
+  consts total=7
+  [1] str "IsClient"
+  [2] str "client mover reset is client-only"
+  [3] str "assert"
+F RetireClientDescriptors
+  params=1 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=RetireClientDescriptors what=Lua protos=0[]
+  up1: userdata Run Service
+  up2: table keys=0 {}
+  up3: table keys=0 {}
+  up4: table keys=0 {}
+  up5: table keys=0 {}
+  up6: table keys=0 {}
+  up7: table keys=0 {}
+  up8: userdata Event
+  up9: ERR
+  consts total=3
+  [1] str "IsClient"
+  [2] str "client mover retirement is client-only"
+  [3] str "assert"
+K Tag :string = MovementV2Mover
+F TickAlpha
+  params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=TickAlpha what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: ERR
+  consts total=11
+  [1] str "Moving"
+  [2] str "isUInt32"
+  [3] str "mover endpoint tick must be a u32"
+  [4] str "assert"
+F TimeAlpha
+  params=2 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=TimeAlpha what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "Moving"
+  [2] str "typeof"
+F Validate
+  params=1 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=Validate what=Lua protos=0[]
+  up1: table keys=9 {addUInt32:function, isUInt32:function, isNonZeroUInt16:function, deltaUInt32:function, nextNonZeroUInt16:function, isNewerUInt32:function, UInt16Max:number, isUInt16:function, UInt32Max:number}
+  up2: function params=1 src=ReplicatedStorage.MovementV2.MoverTrajectory:? cname=isFiniteCFrame what=Lua
+  up3: ERR
+  consts total=53
+  [1] str "type"

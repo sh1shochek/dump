@@ -1,0 +1,36 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelFire
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Create
+  params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelFir:? cname=Create what=Lua protos=1[#1]
+  up1: table keys=0 {}
+  up2: function params=6 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelFir:? cname=CreateVoxel what=Lua
+  up3: userdata TweenService
+  up4: table keys=4 {Destroy:function, DestroyAll:function, Create:function, Update:function}
+  up5: ERR
+  consts total=56
+  [1] str "debug"
+  [2] str "profilebegin"
+F Destroy
+  params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelFir:? cname=Destroy what=Lua protos=1[#1]
+  up1: table keys=0 {}
+  up2: ERR
+  consts total=16
+  [1] str "debug"
+  [2] str "profilebegin"
+F DestroyAll
+  params=0 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelFir:? cname=DestroyAll what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: ERR
+  consts total=2
+  [1] str "debug"
+  [2] str "profilebegin"
+F Update
+  params=1 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelFir:? cname=Update what=Lua protos=1[#1]
+  up1: table keys=0 {}
+  up2: function params=6 src=ReplicatedStorage.Components.Common.VFXLibary.CreateVoxelFir:? cname=CreateVoxel what=Lua
+  up3: ERR
+  consts total=19
+  [1] str "debug"
+  [2] str "profilebegin"

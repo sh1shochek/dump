@@ -1,0 +1,41 @@
+PATH: ReplicatedStorage.Database.Components.Libraries.Stock
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+F GenerateStockInventoryItems
+  params=0 src=ReplicatedStorage.Database.Components.Libraries.Stock:? cname=GenerateStockInventoryItems what=Lua protos=0[]
+  up1: table keys=45 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string, 7:string, 8:string, 9:string, 10:string, 11:string, 12:string, 13:string, 14:string, 15:string, 16:string, 17:string, 18:string, 19:string, 20:string, 21:string, 22:string, 23:string, 24:string, 25:string, 26:string, 27:string, 28:string, 29:string, 30:string, 31:string, 32:string, 33:string, 34:string, 35:string, 36:string, 37:string, 38:string, 39:string, 40:string}
+  up2: function params=1 src=ReplicatedStorage.Database.Components.Libraries.Stock:? cname=CreateStockItem what=Lua
+  up3: ERR
+  consts total=4
+  [1] str "ipairs"
+F GetStockInventoryItem
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Stock:? cname=GetStockInventoryItem what=Lua protos=0[]
+  up1: table keys=45 {1:string, 2:string, 3:string, 4:string, 5:string, 6:string, 7:string, 8:string, 9:string, 10:string, 11:string, 12:string, 13:string, 14:string, 15:string, 16:string, 17:string, 18:string, 19:string, 20:string, 21:string, 22:string, 23:string, 24:string, 25:string, 26:string, 27:string, 28:string, 29:string, 30:string, 31:string, 32:string, 33:string, 34:string, 35:string, 36:string, 37:string, 38:string, 39:string, 40:string}
+  up2: function params=1 src=ReplicatedStorage.Database.Components.Libraries.Stock:? cname=CreateStockItem what=Lua
+  up3: ERR
+  consts total=2
+  [1] str "table"
+  [2] str "find"
+F GetWeaponNameFromStockId
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Stock:? cname=GetWeaponNameFromStockId what=Lua protos=0[]
+  up1: table keys=5 {GetWeaponNameFromStockId:function, IsStockIdentifier:function, InjectStockItems:function, GenerateStockInventoryItems:function, GetStockInventoryItem:function}
+  up2: ERR
+  consts total=3
+  [1] str "IsStockIdentifier"
+  [2] str "string"
+  [3] str "sub"
+F InjectStockItems
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Stock:? cname=InjectStockItems what=Lua protos=0[]
+  up1: table keys=5 {GetWeaponNameFromStockId:function, IsStockIdentifier:function, InjectStockItems:function, GenerateStockInventoryItems:function, GetStockInventoryItem:function}
+  up2: ERR
+  consts total=9
+  [1] str "GenerateStockInventoryItems"
+  [2] str "ipairs"
+F IsStockIdentifier
+  params=1 src=ReplicatedStorage.Database.Components.Libraries.Stock:? cname=IsStockIdentifier what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] number -6
+  [2] str "string"
+  [3] str "sub"

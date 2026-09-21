@@ -1,0 +1,181 @@
+PATH: ReplicatedStorage.MovementV2.Collision.QuickHull
+REQUIRE: ok
+RETURNS: table
+KEYS: 20
+F GenerateHull
+  params=1 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=GenerateHull what=Lua protos=0[]
+  up1: table keys=20 {addNewFaces:function, nextVertexToAdd:function, reindexFaceAndVertices:function, deleteFaceVertices:function, computeExtremes:function, __index:table, new:function, createInitialSimplex:function, addAdjoiningFace:function, collectFaces:function, GenerateHull:function, build:function, addVertexToFace:function, addVertexToHull:function, computeHorizon:function, doAdjacentMerge:function, oppositeFaceDistance:function, removeAllVerticesFromFace:function, resolveUnclaimedPoints:function, removeVertexFromFace:function}
+  up2: ERR
+  consts total=9
+  [1] str "new"
+  [2] str "build"
+  [3] str "ipairs"
+K __index :table keys=20
+  {["addNewFaces"]=<function:function: 0xfb86aa69a67dc362>, ["nextVertexToAdd"]=<function:function: 0xb0c902199f792746>, ["reindexFaceAndVertices"]=<function:function: 0xb8c21c391b0b36ef>, ["deleteFaceVertices"]=<function:function: 0x3929c228a07d83ba>, ["computeExtremes"]=<function:function: 0x8d9b5ca7a7b39bb8>, ["__index"]=<cycle>, ["new"]=<function:function: 0xc5323c56164a185d>, ["createInitialSimplex"]=<function:function: 0x67989f89960b44a5>, ["addAdjoiningFace"]=<function:function: 0x386c790688ed7bf2>, ["collectFaces"]=<function:function: 0xdb43fcdc3f31cc20>, ["GenerateHull"]=<function:function: 0x5662ea9aa92a231c>, ["build"]=<function:function: 0xee9ceef3c631e517>, ["addVertexToFace"]=<function:function: 0x9cfb2c39ed0d7f34>, ["addVertexToHull"]=<function:function: 0x1a964c0154ca7624>, ["computeHorizon"]=<function:function: 0x86b164d3b524e62c>, ["doAdjacentMerge"]=<function:function: 0x5351187ea198e68b>, ["oppositeFaceDistance"]=<function:function: 0x1f13ffac3e049e49>, ["removeAllVerticesFromFace"]=<function:function: 0x3b4eaf02c4510977>, ["resolveUnclaimedPoints"]=<function:function: 0xff2c627bb445cd15>, ["removeVertexFromFace"]=<function:function: 0x13da247417533a3c>}
+F addAdjoiningFace
+  params=3 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=addAdjoiningFace what=Lua protos=0[]
+  up1: table keys=12 {collectIndices:function, computeCentroid:function, distanceToPlane:function, mergeAdjacentFaces:function, computeNormalMinArea:function, getEdge:function, createTriangle:function, computeNormal:function, connectHalfEdges:function, computeNormalAndCentroid:function, __index:table, new:function}
+  up2: ERR
+  consts total=10
+  [1] str "createTriangle"
+  [2] str "tail"
+  [3] str "head"
+  [4] str "faces"
+  [5] str "table"
+  [6] str "insert"
+F addNewFaces
+  params=3 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=addNewFaces what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "newFaces"
+  [2] str "ipairs"
+F addVertexToFace
+  params=3 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=addVertexToFace what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "face"
+  [2] str "outside"
+  [3] str "claimed"
+  [4] str "insertBefore"
+  [5] str "add"
+F addVertexToHull
+  params=2 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=addVertexToHull what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "unclaimed"
+  [2] str "clear"
+  [3] str "face"
+  [4] str "removeVertexFromFace"
+  [5] str "point"
+  [6] str "computeHorizon"
+  [7] str "addNewFaces"
+  [8] str "ipairs"
+F build
+  params=1 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=build what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "createInitialSimplex"
+  [2] str "nextVertexToAdd"
+  [3] str "addVertexToHull"
+  [4] str "reindexFaceAndVertices"
+F collectFaces
+  params=2 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=collectFaces what=Lua protos=0[]
+  up1: ERR
+  consts total=14
+  [1] str "ipairs"
+F computeExtremes
+  params=1 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=computeExtremes what=Lua protos=0[]
+  up1: table keys=3 {1:string, 2:string, 3:string}
+  up2: ERR
+  consts total=16
+  [1] str "vertices"
+  [2] str "point"
+  [3] str "X"
+  [4] str "Y"
+  [5] str "Z"
+  [6] str "ipairs"
+F computeHorizon
+  params=5 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=computeHorizon what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "deleteFaceVertices"
+  [2] str "mark"
+  [3] str "next"
+  [4] str "getEdge"
+  [5] str "opposite"
+  [6] str "face"
+  [7] number 0
+  [8] str "distanceToPlane"
+  [9] str "tolerance"
+  [10] str "computeHorizon"
+  [11] str "table"
+  [12] str "insert"
+F createInitialSimplex
+  params=1 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=createInitialSimplex what=Lua protos=0[]
+  up1: table keys=3 {1:string, 2:string, 3:string}
+  up2: table keys=12 {collectIndices:function, computeCentroid:function, distanceToPlane:function, mergeAdjacentFaces:function, computeNormalMinArea:function, getEdge:function, createTriangle:function, computeNormal:function, connectHalfEdges:function, computeNormalAndCentroid:function, __index:table, new:function}
+  up3: ERR
+  consts total=33
+  [1] str "computeExtremes"
+  [2] str "ipairs"
+F deleteFaceVertices
+  params=3 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=deleteFaceVertices what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "removeAllVerticesFromFace"
+  [2] str "unclaimed"
+  [3] str "addAll"
+  [4] str "next"
+  [5] str "point"
+  [6] str "distanceToPlane"
+  [7] str "tolerance"
+  [8] str "addVertexToFace"
+  [9] str "add"
+F doAdjacentMerge
+  params=3 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=doAdjacentMerge what=Lua protos=0[]
+  up1: ERR
+  consts total=18
+  [1] str "edge"
+  [2] str "nVertices"
+  [3] str "error"
+F new
+  params=1 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=new what=Lua protos=0[]
+  up1: table keys=10 {clear:function, first:function, addAll:function, removeChain:function, remove:function, insertBefore:function, add:function, isEmpty:function, __index:table, new:function}
+  up2: table keys=20 {addNewFaces:function, nextVertexToAdd:function, reindexFaceAndVertices:function, deleteFaceVertices:function, computeExtremes:function, __index:table, new:function, createInitialSimplex:function, addAdjoiningFace:function, collectFaces:function, GenerateHull:function, build:function, addVertexToFace:function, addVertexToHull:function, computeHorizon:function, doAdjacentMerge:function, oppositeFaceDistance:function, removeAllVerticesFromFace:function, resolveUnclaimedPoints:function, removeVertexFromFace:function}
+  up3: table keys=2 {__index:table, new:function}
+  up4: ERR
+  consts total=16
+  [1] str "cannot build a simplex out of < 4 points"
+  [2] str "assert"
+F nextVertexToAdd
+  params=1 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=nextVertexToAdd what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "claimed"
+  [2] str "isEmpty"
+  [3] str "first"
+  [4] str "face"
+  [5] str "outside"
+  [6] str "point"
+  [7] str "distanceToPlane"
+  [8] str "next"
+F oppositeFaceDistance
+  params=2 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=oppositeFaceDistance what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "face"
+  [2] str "opposite"
+  [3] str "centroid"
+  [4] str "distanceToPlane"
+F reindexFaceAndVertices
+  params=1 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=reindexFaceAndVertices what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "ipairs"
+F removeAllVerticesFromFace
+  params=2 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=removeAllVerticesFromFace what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "outside"
+  [2] str "next"
+  [3] str "face"
+  [4] str "claimed"
+  [5] str "removeChain"
+F removeVertexFromFace
+  params=3 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=removeVertexFromFace what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "outside"
+  [2] str "next"
+  [3] str "face"
+  [4] str "claimed"
+  [5] str "remove"
+F resolveUnclaimedPoints
+  params=2 src=ReplicatedStorage.MovementV2.Collision.QuickHull:? cname=resolveUnclaimedPoints what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "unclaimed"
+  [2] str "first"
+  [3] str "next"
+  [4] str "tolerance"
+  [5] str "ipairs"

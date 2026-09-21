@@ -1,0 +1,24 @@
+PATH: ReplicatedStorage.Packages.Signal
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F Is
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_signal@2.0.3.sig:? cname=Is what=Lua protos=0[]
+  up1: table keys=13 {DisconnectAll:function, Is:function, Wrap:function, ConnectOnce:function, Connect:function, Destroy:function, Wait:function, GetConnections:function, Fire:function, FireDeferred:function, Once:function, __index:table, new:function}
+  up2: ERR
+  consts total=4
+  [1] str "type"
+F Wrap
+  params=1 src=ReplicatedStorage.Packages._Index.sleitnick_signal@2.0.3.sig:? cname=Wrap what=Lua protos=1[#1]
+  up1: table keys=13 {DisconnectAll:function, Is:function, Wrap:function, ConnectOnce:function, Connect:function, Destroy:function, Wait:function, GetConnections:function, Fire:function, FireDeferred:function, Once:function, __index:table, new:function}
+  up2: ERR
+  consts total=5
+  [1] str "typeof"
+F new
+  params=0 src=ReplicatedStorage.Packages._Index.sleitnick_signal@2.0.3.sig:? cname=new what=Lua protos=0[]
+  up1: table keys=13 {DisconnectAll:function, Is:function, Wrap:function, ConnectOnce:function, Connect:function, Destroy:function, Wait:function, GetConnections:function, Fire:function, FireDeferred:function, Once:function, __index:table, new:function}
+  up2: ERR
+  consts total=7
+  [1] str "_handlerListHead"
+  [2] boolean false
+  [3] str "_proxyHandler"

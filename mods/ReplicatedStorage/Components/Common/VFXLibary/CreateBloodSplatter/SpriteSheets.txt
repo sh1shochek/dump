@@ -1,0 +1,18 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateBloodSplatter.SpriteSheets
+REQUIRE: ok
+RETURNS: table
+KEYS: 14
+K 1 :string = 87649161041452
+K 10 :string = 106947303666970
+K 11 :string = 124858377875986
+K 12 :string = 104340074275775
+K 13 :string = 122574237386960
+K 14 :string = 73713819639222
+K 2 :string = 78425327738970
+K 3 :string = 136238063150346
+K 4 :string = 114395531679044
+K 5 :string = 110809653374134
+K 6 :string = 127494730787871
+K 7 :string = 112013350124033
+K 8 :string = 102098189072818
+K 9 :string = 98401437989834

@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Controllers.InspectController.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

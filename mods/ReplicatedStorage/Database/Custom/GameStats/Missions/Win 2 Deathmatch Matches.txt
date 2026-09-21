@@ -1,0 +1,12 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Missions.Win 2 Deathmatch Matches
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K Category :string = deathmatch_top_1
+K Gamemodes :table keys=1
+  {[1]="Deathmatch"}
+K MissionId :string = Win 2 Deathmatch Matches
+K Rewards :table keys=1
+  {[1]={["amount"]=28, ["type"]="Credits"}}
+K Target :number = 2
+K Type :string = daily

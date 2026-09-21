@@ -1,0 +1,14 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.MobileButtons.Buttons
+REQUIRE: ok
+RETURNS: table
+KEYS: 5
+K BUTTONS_EXCLUDED_FROM_CLEARING :table keys=11
+  {["Ping"]=true, ["Interact"]=true, ["Crouch"]=true, ["SwapTeam"]=true, ["Shop"]=true, ["Menu"]=true, ["Chat"]=true, ["Reload"]=true, ["Inspect"]=true, ["Scoreboard"]=true, ["Walk"]=true}
+K BUTTONS_WITH_EXPLICIT_HANDLERS :table keys=11
+  {["Ping"]=true, ["Crouch"]=true, ["SwapTeam"]=true, ["Chat"]=true, ["Shop"]=true, ["Menu"]=true, ["Reload"]=true, ["Jump"]=true, ["Inspect"]=true, ["Scoreboard"]=true, ["Walk"]=true}
+K BUTTONS_WITH_EXPLICIT_INPUT_ENDED :table keys=11
+  {["Ping"]=true, ["Crouch"]=true, ["SwapTeam"]=true, ["Chat"]=true, ["Shop"]=true, ["Menu"]=true, ["Drop"]=true, ["Reload"]=true, ["Inspect"]=true, ["Scoreboard"]=true, ["Walk"]=true}
+K GAMEPLAY_MOBILE_BUTTONS :table keys=15
+  {[1]="Shoot", [2]="Shop", [3]="Scoreboard", [4]="Reload", [5]="Jump", [6]="Walk", [7]="Crouch", [8]="Aim", [9]="Drop", [10]="Interact", [11]="Inspect", [12]="SwapTeam", [13]="Menu", [14]="Ping", [15]="Chat"}
+K SPECTATE_MOBILE_BUTTONS :table keys=4
+  {[1]="SwapTeam", [2]="Menu", [3]="Scoreboard", [4]="Chat"}

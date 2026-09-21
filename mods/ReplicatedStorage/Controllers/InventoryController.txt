@@ -1,0 +1,200 @@
+PATH: ReplicatedStorage.Controllers.InventoryController
+REQUIRE: ok
+RETURNS: table
+KEYS: 23
+F CleanupCurrentLoadout
+  params=1 src=ReplicatedStorage.Controllers.InventoryController:? cname=CleanupCurrentLoadout what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Controllers.InventoryController:? cname=cleanupCurrentLoadout what=Lua
+  up2: ERR
+  consts total=0
+F ConsumePendingMovementWeaponSelect
+  params=0 src=ReplicatedStorage.Controllers.InventoryController:? cname=ConsumePendingMovementWeaponSelect what=Lua protos=0[]
+  ups: none
+  consts total=0
+F GetEquippedInventoryItem
+  params=2 src=ReplicatedStorage.Controllers.InventoryController:? cname=GetEquippedInventoryItem what=Lua protos=0[]
+  up1: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up2: function params=2 src=ReplicatedStorage.Controllers.InventoryController:? cname=normalizeTeamSpecificInventoryItem what=Lua
+  up3: table keys=5 {GetWeaponNameFromStockId:function, IsStockIdentifier:function, InjectStockItems:function, GenerateStockInventoryItems:function, GetStockInventoryItem:function}
+  up4: ERR
+  consts total=22
+  [1] str "Team"
+  [2] str "GetAttribute"
+  [3] str "Counter-Terrorists"
+  [4] str "Terrorists"
+  [5] str "Get"
+  [6] str "Inventory"
+  [7] str "Loadout"
+  [8] str "ipairs"
+F GetInventoryItemFromIdentifier
+  params=2 src=ReplicatedStorage.Controllers.InventoryController:? cname=GetInventoryItemFromIdentifier what=Lua protos=0[]
+  up1: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up2: ERR
+  consts total=3
+  [1] str "Get"
+  [2] str "Inventory"
+  [3] str "ipairs"
+F GetTradableInventoryPage
+  params=3 src=ReplicatedStorage.Controllers.InventoryController:? cname=GetTradableInventoryPage what=Lua protos=4[collectEquippedIds,alphabeticalKey,getSortValue,#4]
+  up1: userdata Mateo_081005
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: function params=1 src=ReplicatedStorage.Shared.FilterTradableSkins:? what=Lua
+  up4: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up5: table keys=5 {GetFullItemDisplayName:function, GetWeaponDisplayName:function, GetSkinDisplayName:function, GetInternalSearchQuery:function, GetSearchIdentity:function}
+  up6: table keys=1 {MatchesQuery:function}
+  up7: table keys=4 {OnAvailableCollectionsUpdated:table, GetAllCollections:function, ObserveAvailableCollections:function, GetCollectionByName:function}
+  up8: table keys=2 {GetItemPrice:function, GetMarketPlaceItem:function}
+  up9: ERR
+  consts total=67
+  [1] str "Get"
+  [2] str "Inventory"
+  [3] str "filters"
+  [4] str "table"
+  [5] str "find"
+F GetUnresolvedMovementWeaponSelectForResend
+  params=0 src=ReplicatedStorage.Controllers.InventoryController:? cname=GetUnresolvedMovementWeaponSelectForResend what=Lua protos=0[]
+  up1: boolean false
+  consts total=0
+F Initialize
+  params=0 src=ReplicatedStorage.Controllers.InventoryController:? cname=Initialize what=Lua protos=6[#1,#2,#3,#4,#5,#6]
+  up1: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up2: number 0
+  up3: boolean false
+  consts total=15
+  [1] str "Inventory"
+  [2] str "WeaponEquipResolved"
+  [3] str "Listen"
+  [4] str "RemoveInventoryItem"
+  [5] str "removeInventoryItem"
+  [6] str "NewInventoryItem"
+  [7] str "newInventoryItem"
+  [8] str "UpdateStatTrack"
+  [9] str "RefillAmmo"
+  [10] str "CleanupGameLoadout"
+K OnInventoryChanged :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0xc3f3f300e28ca675>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]={["_fn"]=<function:function: 0xea6adccd06354f55>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}}
+K OnInventoryItemEquipped :table keys=1
+  {["_handlerListHead"]={["_fn"]=<function:function: 0x17ab1862cdcb11db>, ["Connected"]=true, ["_signal"]=<cycle>, ["_next"]=false}}
+F RestorePendingMovementWeaponSelect
+  params=1 src=ReplicatedStorage.Controllers.InventoryController:? cname=RestorePendingMovementWeaponSelect what=Lua protos=0[]
+  up1: boolean false
+  up2: number 0
+  consts total=7
+  [1] str "typeof"
+F Start
+  params=0 src=ReplicatedStorage.Controllers.InventoryController:? cname=Start what=Lua protos=21[#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20]
+  up1: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: userdata Mateo_081005
+  up4: table keys=2 {ExecuteFinisher:function, IsFinisherValidForReplication:function}
+  up5: table keys=13 {Destroy:function, RetireVictimLocally:function, PrepareCharacter:function, FindCharacter:function, RetireCorpseLocally:function, Rig:table, OnceAppearanceReady:function, HideCharacterLocally:function, SetupCharacterAppearance:function, ActivateCharacter:function, DestroyAll:function, __index:table, new:function}
+  up6: function params=1 src=ReplicatedStorage.Components.Common.VFXLibary.PlayZeusDeath:? what=Lua
+  up7: function params=0 src=ReplicatedStorage.Components.Common.RecycleFX:? what=Lua
+  up8: function params=5 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMuzzleFl:? what=Lua
+  up9: function params=12 src=ReplicatedStorage.Components.Common.VFXLibary.CreateImpact:? what=Lua
+  up10: function params=4 src=ReplicatedStorage.Components.Common.VFXLibary.CreateMarker:? what=Lua
+  up11: function params=3 src=ReplicatedStorage.Components.Common.VFXLibary.CreateTracer:? what=Lua
+  up12: function params=3 src=ReplicatedStorage.Components.Common.VFXLibary.BreakGlass:? what=Lua
+  up13: table keys=6 {Destroy:function, DoesRayIntersectActiveSmoke:function, Disrupt:function, GetActiveVoxelCount:function, Create:function, DestroyAll:function}
+  up14: table keys=4 {Destroy:function, DestroyAll:function, Create:function, Update:function}
+  up15: userdata ReplicatedStorage
+  up16: table keys=6 {IsFlashed:function, CancelFlash:function, OnFlashRecoveryStarted:table, GetAudioFadeMultiplier:function, Flash:function, OnFlashCleared:table}
+  up17: function params=0 src=ReplicatedStorage.Controllers.InventoryController:? cname=StartBlindedAnimation what=Lua
+  up18: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up19: function params=0 src=ReplicatedStorage.Controllers.InventoryController:? cname=ClearRagdolls what=Lua
+  up20: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up21: ERR
+  consts total=43
+  [1] str "VFX"
+  [2] str "ReplicateFinisher"
+  [3] str "Listen"
+F UpdateStatTrack
+  params=1 src=ReplicatedStorage.Controllers.InventoryController:? cname=UpdateStatTrack what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Controllers.InventoryController:? cname=IsCharacterAlive what=Lua
+  up2: table keys=16 {isAliveCharacter:function, getMaxHealth:function, getHealth:function, getLocalCharacter:function, getPlayerCharacter:function, isPlayerCharacter:function, observeCharacter:function, createCameraPart:function, getHead:function, getCameraPart:function, getPlayerFromCharacter:function, getRootPart:function, getAnimator:function, resolve:function, getOrCreateAnimator:function, getAnimationController:function}
+  up3: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up4: userdata Mateo_081005
+  up5: ERR
+  consts total=16
+  [1] str "debug"
+  [2] str "profilebegin"
+F equip
+  params=2 src=ReplicatedStorage.Controllers.InventoryController:? cname=equip what=Lua protos=0[]
+  up1: number 1790005931.7220051
+  up2: function params=3 src=ReplicatedStorage.Controllers.InventoryController:? cname=equipInternal what=Lua
+  up3: ERR
+  consts total=1
+  [1] str "tick"
+F equipLocal
+  params=2 src=ReplicatedStorage.Controllers.InventoryController:? cname=equipLocal what=Lua protos=0[]
+  up1: function params=3 src=ReplicatedStorage.Controllers.InventoryController:? cname=equipInternal what=Lua
+  up2: ERR
+  consts total=0
+F getCurrentEquipped
+  params=0 src=ReplicatedStorage.Controllers.InventoryController:? cname=getCurrentEquipped what=Lua protos=0[]
+  up1: table keys=4 {Inventory:table, Janitor:table, CurrentEquipped:table, IsDestroyed:boolean}
+  up2: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up3: ERR
+  consts total=2
+  [1] str "debug"
+  [2] str "info"
+F getCurrentInventory
+  params=0 src=ReplicatedStorage.Controllers.InventoryController:? cname=getCurrentInventory what=Lua protos=0[]
+  up1: table keys=4 {Inventory:table, Janitor:table, CurrentEquipped:table, IsDestroyed:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "Inventory"
+F getInventoryItemFromLoadout
+  params=1 src=ReplicatedStorage.Controllers.InventoryController:? cname=getInventoryItemFromLoadout what=Lua protos=0[]
+  up1: table keys=4 {Inventory:table, Janitor:table, CurrentEquipped:table, IsDestroyed:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "getInventoryItemFromLoadout"
+F getInventorySlot
+  params=1 src=ReplicatedStorage.Controllers.InventoryController:? cname=getInventorySlot what=Lua protos=0[]
+  up1: table keys=4 {Inventory:table, Janitor:table, CurrentEquipped:table, IsDestroyed:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "Inventory"
+F getPreviousEquipped
+  params=0 src=ReplicatedStorage.Controllers.InventoryController:? cname=getPreviousEquipped what=Lua protos=0[]
+  up1: table keys=4 {Inventory:table, Janitor:table, CurrentEquipped:table, IsDestroyed:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "PreviousEquipped"
+F newInventoryItem
+  params=1 src=ReplicatedStorage.Controllers.InventoryController:? cname=newInventoryItem what=Lua protos=0[]
+  up1: table keys=4 {Inventory:table, Janitor:table, CurrentEquipped:table, IsDestroyed:boolean}
+  up2: number 3
+  up3: number 3
+  up4: function params=2 src=ReplicatedStorage.Controllers.InventoryController:? cname=isNewerGeneration what=Lua
+  up5: table keys=0 {}
+  up6: function params=3 src=ReplicatedStorage.Controllers.InventoryController:? cname=equipInternal what=Lua
+  up7: boolean false
+  up8: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up9: table keys=1 {_handlerListHead:table}
+  up10: ERR
+  consts total=36
+  [1] str "debug"
+  [2] str "profilebegin"
+F peekCurrentEquippedForMovement
+  params=0 src=ReplicatedStorage.Controllers.InventoryController:? cname=peekCurrentEquippedForMovement what=Lua protos=0[]
+  up1: table keys=4 {Inventory:table, Janitor:table, CurrentEquipped:table, IsDestroyed:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "CurrentEquipped"
+F peekInventoryItemForMovement
+  params=1 src=ReplicatedStorage.Controllers.InventoryController:? cname=peekInventoryItemForMovement what=Lua protos=0[]
+  up1: table keys=4 {Inventory:table, Janitor:table, CurrentEquipped:table, IsDestroyed:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "getInventoryItemFromLoadout"
+F removeInventoryItem
+  params=1 src=ReplicatedStorage.Controllers.InventoryController:? cname=removeInventoryItem what=Lua protos=0[]
+  up1: table keys=4 {Inventory:table, Janitor:table, CurrentEquipped:table, IsDestroyed:boolean}
+  up2: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up3: table keys=1 {_handlerListHead:table}
+  up4: ERR
+  consts total=13
+  [1] str "debug"
+  [2] str "profilebegin"

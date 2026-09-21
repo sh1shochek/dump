@@ -1,0 +1,92 @@
+PATH: ReplicatedStorage.MovementV2.Collision.Geometry
+REQUIRE: ok
+RETURNS: table
+KEYS: 13
+F AabbSupport
+  params=2 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=AabbSupport what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "X"
+  [2] str "math"
+  [3] str "abs"
+F BoundsOverlap
+  params=5 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=BoundsOverlap what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] number 0
+  [2] str "X"
+  [3] str "Y"
+  [4] str "Z"
+F ContainsConvex
+  params=3 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=ContainsConvex what=Lua protos=0[]
+  up1: table keys=2 {Default:table, Resolve:function}
+  up2: function params=3 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=movementPlane what=Lua
+  up3: ERR
+  consts total=4
+  [1] str "Default"
+  [2] str "BrushEpsilon"
+  [3] str "math"
+  [4] str "max"
+F ExpandBounds
+  params=3 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=ExpandBounds what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F IsFiniteVector3
+  params=1 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=IsFiniteVector3 what=Lua protos=0[]
+  up1: ERR
+  consts total=10
+  [1] str "typeof"
+F Max
+  params=2 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=Max what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "X"
+  [2] str "math"
+  [3] str "max"
+F Min
+  params=2 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=Min what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "X"
+  [2] str "math"
+  [3] str "min"
+F SegmentBounds
+  params=3 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=SegmentBounds what=Lua protos=0[]
+  up1: table keys=13 {SweepConvexSupport:function, AabbSupport:function, Max:function, ExpandBounds:function, SweepTriangleSupport:function, Min:function, SweepTriangle:function, SweepConvex:function, ContainsConvex:function, BoundsOverlap:function, IsFiniteVector3:function, SegmentBounds:function, TriangleContactContains:function}
+  up2: ERR
+  consts total=5
+  [1] str "Vector3"
+  [2] str "new"
+F SweepConvex
+  params=4 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=SweepConvex what=Lua protos=0[]
+  up1: function params=6 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=sweepConvexInternal what=Lua
+  up2: ERR
+  consts total=0
+F SweepConvexSupport
+  params=6 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=SweepConvexSupport what=Lua protos=0[]
+  up1: function params=6 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=sweepConvexInternal what=Lua
+  up2: ERR
+  consts total=0
+F SweepTriangle
+  params=4 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=SweepTriangle what=Lua protos=0[]
+  up1: function params=5 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=sweepTriangleInternal what=Lua
+  up2: ERR
+  consts total=0
+F SweepTriangleSupport
+  params=4 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=SweepTriangleSupport what=Lua protos=0[]
+  up1: function params=5 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=sweepTriangleInternal what=Lua
+  up2: ERR
+  consts total=0
+F TriangleContactContains
+  params=3 src=ReplicatedStorage.MovementV2.Collision.Geometry:? cname=TriangleContactContains what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "A"
+  [2] str "B"
+  [3] str "Normal"
+  [4] str "Magnitude"
+  [5] number 0.000001
+  [6] str "Cross"
+  [7] str "Dot"
+  [8] str "math"
+  [9] str "max"

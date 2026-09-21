@@ -1,0 +1,41 @@
+PATH: ReplicatedStorage.Database.Custom.Weapons.R8 Revolver
+REQUIRE: ok
+RETURNS: table
+KEYS: 33
+K AimingOptions :string = None
+K ArmorPenetration :number = 0.92
+K Automatic :boolean = false
+K BulletsPerShot :number = 1
+K CameraAnimations :userdata CameraAnimations
+K Capacity :number = 16
+K CharacterAnimations :userdata CharacterAnimations
+K Class :string = Weapon
+K Cost :number = 600
+K DamagePerPart :table keys=4
+  {["Arms"]=69, ["Torso"]=86, ["Legs"]=51, ["Head"]=256}
+K Droppable :boolean = true
+K FireModes :table keys=2
+  {["Secondary"]={["InputBehavior"]="Immediate", ["HoldRepeat"]=true, ["Animation"]="SlamFire", ["CharacterAnimation"]="SlamFire", ["Spread"]={["RecoverySpeed"]=4.5, ["PerShot"]=12, ["Range"]=<userdata:12 28 >, ["MovementMultiplier"]=0.6}, ["FireRate"]=0.4}, ["Primary"]={["ChargeTime"]=0.2, ["InputBehavior"]="Charge", ["HoldRepeat"]=true, ["ChargeStartSpread"]=0.9, ["HoldWalkSpeed"]=14.544, ["CancelOnRelease"]=true, ["Spread"]={["RecoverySpeed"]=3.5, ["PerShot"]=12, ["Range"]=<userdata:0.52 12.5 >, ["MovementMultiplier"]=0.56}, ["FireRate"]=0.43}}
+K FireRate :number = 0.706
+K HasScope :boolean = false
+K HasSuppressor :boolean = false
+K Icon :string = rbxassetid://112745953600473
+K MuzzleType :string = Pistol
+K Penetration :number = 0.14
+K RagdollMultiplier :number = 45
+K Range :number = 1200
+K RangeModifier :number = 0.98
+K Recoil :table keys=6
+  {["Pattern"]=<function:function: 0x083a8235c346f0c4>, ["Damper"]=0.7, ["RecoverySpeed"]=2.2, ["Scale"]=1.8, ["Speed"]=16, ["CameraScale"]=0.85}
+K ReloadAnimationCount :number = 1
+K ReverseIcon :string = rbxassetid://127392244236728
+K Rounds :number = 8
+K ShootingOptions :string = Revolver
+K ShowCrosshair :boolean = true
+K Slot :string = Secondary
+K Spread :table keys=4
+  {["RecoverySpeed"]=3.5, ["PerShot"]=12, ["Range"]=<userdata:0.52 12.5 >, ["MovementMultiplier"]=0.56}
+K Team :string = Both
+K Type :string = Pistol
+K WalkSpeed :number = 17.776
+K WallbangMultiplier :number = 0.8

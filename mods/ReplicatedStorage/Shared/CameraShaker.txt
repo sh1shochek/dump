@@ -1,0 +1,86 @@
+PATH: ReplicatedStorage.Shared.CameraShaker
+REQUIRE: ok
+RETURNS: table
+KEYS: 12
+K CameraShakeInstance :table keys=15
+  {["IsFadingIn"]=<function:function: 0xd28c3a23d9e4d80d>, ["GetScaleRoughness"]=<function:function: 0x9cb931b8dc342ff1>, ["SetScaleMagnitude"]=<function:function: 0xf1d6c1c821bc4294>, ["IsFadingOut"]=<function:function: 0x4741fda08d2f74d9>, ["GetState"]=<function:function: 0x6d27a976c5255ae5>, ["StartFadeIn"]=<function:function: 0xb736c4eea9719ba8>, ["StartFadeOut"]=<function:function: 0xce7ac1aea3814c93>, ["GetNormalizedFadeTime"]=<function:function: 0x65e18e0ae0622063>, ["CameraShakeState"]={["Inactive"]=3, ["Sustained"]=2, ["FadingIn"]=0, ["FadingOut"]=1}, ["GetScaleMagnitude"]=<function:function: 0xb59091befe10c6f3>, ["UpdateShake"]=<function:function: 0x7dd8751cce13302a>, ["SetScaleRoughness"]=<function:function: 0x5e02e70c7f567bdc>, ["IsShaking"]=<function:function: 0x952d2c9422b3b74e>, ["__index"]=<cycle>, ["new"]=<function:function: 0x9beaef656e81996c>}
+K Presets :table keys=0
+  {}
+F Shake
+  params=2 src=ReplicatedStorage.Shared.CameraShaker:? cname=Shake what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "type"
+F ShakeOnce
+  params=7 src=ReplicatedStorage.Shared.CameraShaker:? cname=ShakeOnce what=Lua protos=0[]
+  up1: table keys=15 {IsFadingIn:function, GetScaleRoughness:function, SetScaleMagnitude:function, IsFadingOut:function, GetState:function, StartFadeIn:function, StartFadeOut:function, GetNormalizedFadeTime:function, CameraShakeState:table, GetScaleMagnitude:function, UpdateShake:function, SetScaleRoughness:function, IsShaking:function, __index:table, new:function}
+  up2: ERR
+  consts total=10
+  [1] str "new"
+  [2] str "typeof"
+F ShakeSustain
+  params=2 src=ReplicatedStorage.Shared.CameraShaker:? cname=ShakeSustain what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "type"
+F Start
+  params=1 src=ReplicatedStorage.Shared.CameraShaker:? cname=Start what=Lua protos=1[#1]
+  up1: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up2: function params=0 src=[C]:? cname=profilebegin what=C
+  up3: function params=0 src=[C]:? cname=profileend what=C
+  up4: ERR
+  consts total=5
+  [1] str "_running"
+  [2] str "_callback"
+  [3] str "BindToRenderStep"
+  [4] str "_renderName"
+  [5] str "_renderPriority"
+F StartShake
+  params=6 src=ReplicatedStorage.Shared.CameraShaker:? cname=StartShake what=Lua protos=0[]
+  up1: table keys=15 {IsFadingIn:function, GetScaleRoughness:function, SetScaleMagnitude:function, IsFadingOut:function, GetState:function, StartFadeIn:function, StartFadeOut:function, GetNormalizedFadeTime:function, CameraShakeState:table, GetScaleMagnitude:function, UpdateShake:function, SetScaleRoughness:function, IsShaking:function, __index:table, new:function}
+  up2: ERR
+  consts total=11
+  [1] str "new"
+  [2] str "typeof"
+F Stop
+  params=1 src=ReplicatedStorage.Shared.CameraShaker:? cname=Stop what=Lua protos=0[]
+  up1: table keys=7 {BindToPostSimulation:function, UnbindFromRenderStep:function, BindToHeartbeat:function, CreateBindingName:function, Unbind:function, BindToStepped:function, BindToRenderStep:function}
+  up2: ERR
+  consts total=3
+  [1] str "_running"
+  [2] str "UnbindFromRenderStep"
+  [3] str "_renderName"
+F StopSustained
+  params=2 src=ReplicatedStorage.Shared.CameraShaker:? cname=StopSustained what=Lua protos=0[]
+  up1: ERR
+  consts total=7
+  [1] str "pairs"
+F Update
+  params=2 src=ReplicatedStorage.Shared.CameraShaker:? cname=Update what=Lua protos=0[]
+  up1: vector 0, 0, 0
+  up2: table keys=4 {Inactive:number, Sustained:number, FadingIn:number, FadingOut:number}
+  up3: function params=0 src=[C]:? cname=new what=C
+  up4: function params=0 src=[C]:? cname=Angles what=C
+  up5: function params=0 src=[C]:? cname=rad what=C
+  up6: ERR
+  consts total=15
+  [1] str "_camShakeInstances"
+  [2] str "GetState"
+  [3] str "Inactive"
+  [4] str "DeleteOnInactive"
+  [5] str "_removeInstances"
+  [6] number 1
+  [7] str "UpdateShake"
+  [8] str "PositionInfluence"
+  [9] str "RotationInfluence"
+  [10] str "table"
+  [11] str "remove"
+K __index :table keys=12
+  {["Presets"]={}, ["StartShake"]=<function:function: 0x61796c425ae56abf>, ["Update"]=<function:function: 0xab8c0fac6e988a89>, ["ShakeOnce"]=<function:function: 0x9a64327895c25fae>, ["ShakeSustain"]=<function:function: 0x253d7e1673362489>, ["Shake"]=<function:function: 0x49cafe69e269a19d>, ["CameraShakeInstance"]={["IsFadingIn"]=<function:function: 0xd28c3a23d9e4d80d>, ["GetScaleRoughness"]=<function:function: 0x9cb931b8dc342ff1>, ["SetScaleMagnitude"]=<function:function: 0xf1d6c1c821bc4294>, ["IsFadingOut"]=<function:function: 0x4741fda08d2f74d9>, ["GetState"]=<function:function: 0x6d27a976c5255ae5>, ["StartFadeIn"]=<function:function: 0xb736c4eea9719ba8>, ["StartFadeOut"]=<function:function: 0xce7ac1aea3814c93>, ["GetNormalizedFadeTime"]=<function:function: 0x65e18e0ae0622063>, ["CameraShakeState"]={["Inactive"]=3, ["Sustained"]=2, ["FadingIn"]=0, ["FadingOut"]=1}, ["GetScaleMagnitude"]=<function:function: 0xb59091befe10c6f3>, ["UpdateShake"]=<function:function: 0x7dd8751cce13302a>, ["SetScaleRoughness"]=<function:function: 0x5e02e70c7f567bdc>, ["IsShaking"]=<function:function: 0x952d2c9422b3b74e>, ["__index"]=<cycle>, ["new"]=<function:function: 0x9beaef656e81996c>}, ["StopSustained"]=<function:function: 0xcae40cc4b4a5e8b9>, ["Start"]=<function:function: 0xe494b9f6578633c6>, ["Stop"]=<function:function: 0x2eea4e0c9a87db1a>, ["__index"]=<cycle>, ["new"]=<function:function: 0x014e2aa08e3e5586>}
+F new
+  params=2 src=ReplicatedStorage.Shared.CameraShaker:? cname=new what=Lua protos=0[]
+  up1: vector 0, 0, 0
+  up2: table keys=12 {Presets:table, StartShake:function, Update:function, ShakeOnce:function, ShakeSustain:function, Shake:function, CameraShakeInstance:table, StopSustained:function, Start:function, Stop:function, __index:table, new:function}
+  up3: ERR
+  consts total=20
+  [1] str "type"

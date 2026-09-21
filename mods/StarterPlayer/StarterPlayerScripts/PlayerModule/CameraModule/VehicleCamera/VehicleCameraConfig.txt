@@ -1,0 +1,22 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VehicleCamera.VehicleCameraConfig
+REQUIRE: ok
+RETURNS: table
+KEYS: 18
+K autocorrectDelay :number = 1
+K autocorrectMaxCarSpeed :number = 32
+K autocorrectMinCarSpeed :number = 16
+K autocorrectResponse :number = 0.5
+K cutoffMaxAngularVelPitch :number = 60
+K cutoffMaxAngularVelYaw :number = 180
+K cutoffMinAngularVelPitch :number = 15
+K cutoffMinAngularVelYaw :number = 60
+K firstPersonResponseMul :number = 10
+K pitchBaseAngle :number = 18
+K pitchDeadzoneAngle :number = 12
+K pitchReponseDampingRising :number = 1
+K pitchResponseDampingFalling :number = 3
+K pitchStiffness :number = 0.5
+K verticalCenterOffset :number = 0.33
+K yawReponseDampingRising :number = 1
+K yawResponseDampingFalling :number = 3
+K yawStiffness :number = 2.5

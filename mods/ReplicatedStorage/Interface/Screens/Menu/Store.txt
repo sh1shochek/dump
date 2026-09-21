@@ -1,0 +1,240 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Store
+REQUIRE: ok
+RETURNS: table
+KEYS: 20
+F BeginOpenCaseRequest
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=BeginOpenCaseRequest what=Lua protos=0[]
+  up1: number 0
+  up2: table keys=0 {}
+  up3: table keys=3 {isQuickUnlock:boolean, isPendingOpenRequest:boolean, isOpening:boolean}
+  up4: ERR
+  consts total=8
+  [1] number 1
+  [2] str "tostring"
+F ClearPendingOpenCaseRequest
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=ClearPendingOpenCaseRequest what=Lua protos=0[]
+  up1: table keys=3 {isQuickUnlock:boolean, isPendingOpenRequest:boolean, isOpening:boolean}
+  up2: ERR
+  consts total=3
+  [1] str "pendingOpenRequestId"
+  [2] str "isPendingOpenRequest"
+  [3] str "isQuickUnlock"
+F GetActiveBundleRemainingSeconds
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=GetActiveBundleRemainingSeconds what=Lua protos=0[]
+  up1: userdata ReplicatedStorage
+  up2: table keys=4 {Tick:number, ReceivedAt:number, Source:string, Label:userdata}
+  up3: ERR
+  consts total=19
+  [1] str "require"
+F GetConsoleVignetteGradient
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=GetConsoleVignetteGradient what=Lua protos=0[]
+  up1: table keys=20 {GetConsoleVignetteGradient:function, OpenFeaturedBundleSection:function, GetActiveBundleRemainingSeconds:function, GetStarterPackRemainingSeconds:function, ClearPendingOpenCaseRequest:function, RefreshFeaturedConsoleTimer:function, UpdateConsoleVignetteTween:function, IsStarterPackAvailable:function, SetConsoleVignettePulse:function, OpenTab:function, Start:function, BeginOpenCaseRequest:function, OpenCaseContent:function, OpenBundleSection:function, PromptTradeTokenPackageForItemPrice:function, Initialize:function, StopConsoleVignetteTween:function, GetFeaturedConsoleTimerText:function, _RunConsoleInspectSweep:function, GetStarterPackWindowSeconds:function}
+  up2: userdata Store
+  up3: ERR
+  consts total=22
+  [1] str "ConsoleVignetteGradient"
+  [2] str "rawget"
+F GetFeaturedConsoleTimerText
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=GetFeaturedConsoleTimerText what=Lua protos=0[]
+  up1: table keys=20 {GetConsoleVignetteGradient:function, OpenFeaturedBundleSection:function, GetActiveBundleRemainingSeconds:function, GetStarterPackRemainingSeconds:function, ClearPendingOpenCaseRequest:function, RefreshFeaturedConsoleTimer:function, UpdateConsoleVignetteTween:function, IsStarterPackAvailable:function, SetConsoleVignettePulse:function, OpenTab:function, Start:function, BeginOpenCaseRequest:function, OpenCaseContent:function, OpenBundleSection:function, PromptTradeTokenPackageForItemPrice:function, Initialize:function, StopConsoleVignetteTween:function, GetFeaturedConsoleTimerText:function, _RunConsoleInspectSweep:function, GetStarterPackWindowSeconds:function}
+  up2: function params=2 src=ReplicatedStorage.Components.Common.FormatDuration:? what=Lua
+  up3: ERR
+  consts total=3
+  [1] str "GetActiveBundleRemainingSeconds"
+  [2] str "LIMITED TIME!"
+  [3] str "Always"
+F GetStarterPackRemainingSeconds
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=GetStarterPackRemainingSeconds what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=GetStarterPackState what=Lua
+  up2: ERR
+  consts total=1
+  [1] str "RemainingSeconds"
+F GetStarterPackWindowSeconds
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=GetStarterPackWindowSeconds what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] number 86400
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=Initialize what=Lua protos=21[#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata MainGui
+  up3: userdata Store
+  up4: userdata StarterPack
+  up5: userdata Timer
+  up6: table keys=4 {Tick:number, ReceivedAt:number, Source:string, Label:userdata}
+  up7: userdata Purchase
+  up8: userdata Timer
+  up9: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up10: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up11: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=openCreatorCode what=Lua
+  up12: table keys=3 {CloseFrame:function, IsDoublePressed:function, Add:function}
+  consts total=84
+  [1] str "mark"
+  [2] str "UI.Store.Initialize"
+  [3] str "Tabs"
+  [4] str "Container"
+  [5] str "Featured"
+  [6] str "StarterPack"
+  [7] str "Pack"
+  [8] str "Top"
+  [9] str "Title"
+  [10] str "Timer"
+  [11] str "Console"
+  [12] str "Label"
+  [13] str "Bottom"
+  [14] str "Purchase"
+  [15] str "Menu"
+  [16] str "Buttons"
+  [17] str "Store"
+  [18] str "CreatorCode"
+  [19] str "CreatorCodeButton"
+  [20] str "MouseButton1Click"
+F IsStarterPackAvailable
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=IsStarterPackAvailable what=Lua protos=0[]
+  up1: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=GetStarterPackState what=Lua
+  up2: ERR
+  consts total=4
+  [1] str "IsDataLoaded"
+  [2] str "OwnsStarterPack"
+  [3] str "OpenShopTime"
+  [4] str "RemainingSeconds"
+F OpenBundleSection
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=OpenBundleSection what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=ScrollToFeaturedSection what=Lua
+  up3: ERR
+  consts total=3
+  [1] str "mark"
+  [2] str "UI.Store.OpenBundleSection"
+  [3] str "StarterPack"
+F OpenCaseContent
+  params=3 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=OpenCaseContent what=Lua protos=7[GetDisplayRarityChance,getContentGroupOdds,getSpecialGroupOdds,SetChanceRowText,#5,#6,runInspect]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=8 {ObserveAvailableCases:function, IsCaseEnabled:function, GetCase:function, OnCasesUpdated:table, GetCases:function, IsCaseForSale:function, GetFeaturedCases:function, GetCaseByName:function}
+  consts total=138
+  [1] str "mark"
+  [2] str "UI.Store.OpenCaseContent"
+  [3] str "GetCase"
+  [4] str "Visible"
+  [5] str "GetCurrentScreen"
+  [6] str "Store"
+  [7] str "SetScreen"
+  [8] str "CaseContent"
+  [9] str "WasVisibleBeforeInspect"
+  [10] str "SetAttribute"
+  [11] str "Main"
+  [12] str "Bottom"
+  [13] str "Buttons"
+  [14] str "CenterButtons"
+  [15] str "Amount"
+  [16] str "Open"
+  [17] str "UDim2"
+  [18] str "new"
+F OpenFeaturedBundleSection
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=OpenFeaturedBundleSection what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=ScrollToFeaturedSection what=Lua
+  up3: ERR
+  consts total=3
+  [1] str "mark"
+  [2] str "UI.Store.OpenFeaturedBundleSection"
+  [3] str "Console"
+F OpenTab
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=OpenTab what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: boolean true
+  up3: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up4: string "Console"
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=ScrollToFeaturedSection what=Lua
+  up6: ERR
+  consts total=8
+  [1] str "mark"
+  [2] str "UI.Store.OpenTab"
+  [3] str "Credits"
+  [4] str "TradeTokens"
+  [5] str "broadcastRouter"
+  [6] str "CreateMenuNotification"
+  [7] str "Error"
+  [8] str "Paid random items are not allowed in your region."
+F PromptTradeTokenPackageForItemPrice
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=PromptTradeTokenPackageForItemPrice what=Lua protos=0[]
+  up1: table keys=6 {1:table, 2:table, 3:table, 4:table, 5:table, 6:table}
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: userdata Mateo_081005
+  up4: table keys=40 {+ 400 Credits:table, 25 Consoles:table, + 27,000 Credits:table, Gift + 400 Trade Tokens:table, 100 Consoles:table, Gift + 3,100 Credits:table, Credits Starter Pack:table, Refresh Missions:table, M4A4 | Freedom:table, + 10,000 Trade Tokens:table, + 3,100 Credits:table, Gift + 67,500 Credits:table, Gift Featured Bundle:table, 1 Consoles:table, + 6,500 Credits:table, 10 Consoles:table, Gift Desert Eagle | Freedom:table, Purchase Featured Bundle:table, Gift M4A4 | Freedom:table, Desert Eagle | Freedom:table, Gift + 10,000 Trade Tokens:table, Gift AWP | Freedom:table, Gift + 22,500 Trade Tokens:table, AWP | Freedom:table, Gift + 4,500 Trade Tokens:table, Gift + 1,700 Trade Tokens:table, Gift + 800 Trade Tokens:table, Gift + 13,250 Credits:table, + 950 Credits:table, + 4,500 Trade Tokens:table, + 1,700 Trade Tokens:table, + 400 Trade Tokens:table, Gift + 950 Credits:table, Gift + 6,500 Credits:table, Gift + 27,000 Credits:table, + 13,250 Credits:table, + 22,500 Trade Tokens:table, + 800 Trade Tokens:table, Gift + 400 Credits:table, + 67,500 Credits:table}
+  up5: userdata MarketplaceService
+  up6: ERR
+  consts total=7
+  [1] str "Amount"
+  [2] number 0
+  [3] str "Get"
+  [4] str "TradeTokens"
+  [5] str "ProductName"
+  [6] str "DevProductId"
+  [7] str "PromptProductPurchase"
+F RefreshFeaturedConsoleTimer
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=RefreshFeaturedConsoleTimer what=Lua protos=0[]
+  up1: table keys=4 {Tick:number, ReceivedAt:number, Source:string, Label:userdata}
+  up2: table keys=20 {GetConsoleVignetteGradient:function, OpenFeaturedBundleSection:function, GetActiveBundleRemainingSeconds:function, GetStarterPackRemainingSeconds:function, ClearPendingOpenCaseRequest:function, RefreshFeaturedConsoleTimer:function, UpdateConsoleVignetteTween:function, IsStarterPackAvailable:function, SetConsoleVignettePulse:function, OpenTab:function, Start:function, BeginOpenCaseRequest:function, OpenCaseContent:function, OpenBundleSection:function, PromptTradeTokenPackageForItemPrice:function, Initialize:function, StopConsoleVignetteTween:function, GetFeaturedConsoleTimerText:function, _RunConsoleInspectSweep:function, GetStarterPackWindowSeconds:function}
+  up3: ERR
+  consts total=3
+  [1] str "Label"
+  [2] str "GetFeaturedConsoleTimerText"
+  [3] str "Text"
+F SetConsoleVignettePulse
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=SetConsoleVignettePulse what=Lua protos=0[]
+  up1: table keys=20 {GetConsoleVignetteGradient:function, OpenFeaturedBundleSection:function, GetActiveBundleRemainingSeconds:function, GetStarterPackRemainingSeconds:function, ClearPendingOpenCaseRequest:function, RefreshFeaturedConsoleTimer:function, UpdateConsoleVignetteTween:function, IsStarterPackAvailable:function, SetConsoleVignettePulse:function, OpenTab:function, Start:function, BeginOpenCaseRequest:function, OpenCaseContent:function, OpenBundleSection:function, PromptTradeTokenPackageForItemPrice:function, Initialize:function, StopConsoleVignetteTween:function, GetFeaturedConsoleTimerText:function, _RunConsoleInspectSweep:function, GetStarterPackWindowSeconds:function}
+  up2: ERR
+  consts total=23
+  [1] str "ConsoleVignetteGradient"
+  [2] str "rawget"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=Start what=Lua protos=29[#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: userdata Mateo_081005
+  up4: table keys=20 {GetConsoleVignetteGradient:function, OpenFeaturedBundleSection:function, GetActiveBundleRemainingSeconds:function, GetStarterPackRemainingSeconds:function, ClearPendingOpenCaseRequest:function, RefreshFeaturedConsoleTimer:function, UpdateConsoleVignetteTween:function, IsStarterPackAvailable:function, SetConsoleVignettePulse:function, OpenTab:function, Start:function, BeginOpenCaseRequest:function, OpenCaseContent:function, OpenBundleSection:function, PromptTradeTokenPackageForItemPrice:function, Initialize:function, StopConsoleVignetteTween:function, GetFeaturedConsoleTimerText:function, _RunConsoleInspectSweep:function, GetStarterPackWindowSeconds:function}
+  up5: userdata ReplicatedStorage
+  up6: table keys=4 {Tick:number, ReceivedAt:number, Source:string, Label:userdata}
+  up7: userdata PolicyService
+  up8: boolean true
+  up9: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=hidePaidCurrencyPurchaseEntryPoints what=Lua
+  up10: userdata Store
+  up11: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=ActivateCategoryButton what=Lua
+  up12: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up13: table keys=5 {1:string, 2:string, 3:string, 4:string, 5:string}
+  up14: string "Console"
+  up15: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  consts total=72
+  [1] str "debug"
+  [2] str "setmemorycategory"
+F StopConsoleVignetteTween
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=StopConsoleVignetteTween what=Lua protos=0[]
+  up1: table keys=20 {GetConsoleVignetteGradient:function, OpenFeaturedBundleSection:function, GetActiveBundleRemainingSeconds:function, GetStarterPackRemainingSeconds:function, ClearPendingOpenCaseRequest:function, RefreshFeaturedConsoleTimer:function, UpdateConsoleVignetteTween:function, IsStarterPackAvailable:function, SetConsoleVignettePulse:function, OpenTab:function, Start:function, BeginOpenCaseRequest:function, OpenCaseContent:function, OpenBundleSection:function, PromptTradeTokenPackageForItemPrice:function, Initialize:function, StopConsoleVignetteTween:function, GetFeaturedConsoleTimerText:function, _RunConsoleInspectSweep:function, GetStarterPackWindowSeconds:function}
+  up2: ERR
+  consts total=21
+  [1] str "ConsoleVignetteTween"
+  [2] str "rawget"
+F UpdateConsoleVignetteTween
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=UpdateConsoleVignetteTween what=Lua protos=1[#1]
+  up1: userdata Store
+  up2: table keys=20 {GetConsoleVignetteGradient:function, OpenFeaturedBundleSection:function, GetActiveBundleRemainingSeconds:function, GetStarterPackRemainingSeconds:function, ClearPendingOpenCaseRequest:function, RefreshFeaturedConsoleTimer:function, UpdateConsoleVignetteTween:function, IsStarterPackAvailable:function, SetConsoleVignettePulse:function, OpenTab:function, Start:function, BeginOpenCaseRequest:function, OpenCaseContent:function, OpenBundleSection:function, PromptTradeTokenPackageForItemPrice:function, Initialize:function, StopConsoleVignetteTween:function, GetFeaturedConsoleTimerText:function, _RunConsoleInspectSweep:function, GetStarterPackWindowSeconds:function}
+  up3: userdata TweenService
+  up4: ERR
+  consts total=40
+  [1] str "Visible"
+  [2] str "StopConsoleVignetteTween"
+  [3] str "ConsoleVignetteTween"
+  [4] str "rawget"
+F _RunConsoleInspectSweep
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Store:? cname=_RunConsoleInspectSweep what=Lua protos=0[]
+  up1: userdata MainGui
+  up2: userdata TweenService
+  up3: userdata Run Service
+  up4: ERR
+  consts total=50
+  [1] str "ConsoleInspectSweep"
+  [2] str "FindFirstChild"
+  [3] str "Destroy"
+  [4] str "Instance"
+  [5] str "new"

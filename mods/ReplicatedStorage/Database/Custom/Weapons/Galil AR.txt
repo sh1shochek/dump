@@ -1,0 +1,41 @@
+PATH: ReplicatedStorage.Database.Custom.Weapons.Galil AR
+REQUIRE: ok
+RETURNS: table
+KEYS: 33
+K AimingOptions :string = None
+K ArmorPenetration :number = 0.775
+K Automatic :boolean = true
+K BulletsPerShot :number = 1
+K CameraAnimations :userdata CameraAnimations
+K Capacity :number = 90
+K CharacterAnimations :userdata CharacterAnimations
+K Class :string = Weapon
+K Cost :number = 1800
+K DamagePerPart :table keys=4
+  {["Arms"]=30, ["Torso"]=37, ["Legs"]=22, ["Head"]=120}
+K Droppable :boolean = true
+K FireRate :number = 0.09
+K HasScope :boolean = false
+K HasSuppressor :boolean = false
+K Icon :string = rbxassetid://75166557697975
+K InventoryIconData :table keys=3
+  {["ScaleType"]=<userdata:Enum.ScaleType.Crop>, ["Size"]=<userdata:{1, 0}, {1, 0}>, ["Position"]=<userdata:{0.5, 0}, {0.430000007, 0}>}
+K MuzzleType :string = Rifle
+K Penetration :number = 0.65
+K RagdollMultiplier :number = 45
+K Range :number = 1200
+K RangeModifier :number = 0.98
+K Recoil :table keys=6
+  {["Pattern"]=<function:function: 0x48d3fecd59271e0e>, ["Damper"]=1, ["RecoverySpeed"]=6, ["Scale"]=2.3, ["Speed"]=26, ["CameraScale"]=0.3}
+K ReloadAnimationCount :number = 1
+K ReverseIcon :string = rbxassetid://134169816848329
+K Rounds :number = 35
+K ShootingOptions :string = Default
+K ShowCrosshair :boolean = true
+K Slot :string = Primary
+K Spread :table keys=5
+  {["JumpShotMinimum"]=15, ["RecoverySpeed"]=3.5, ["PerShot"]=0.32, ["Range"]=<userdata:0.25 2.25 >, ["MovementMultiplier"]=1.4}
+K Team :string = Terrorists
+K Type :string = Rifle
+K WalkSpeed :number = 17.372
+K WallbangMultiplier :number = 0.6

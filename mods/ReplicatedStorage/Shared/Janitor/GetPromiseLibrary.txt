@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Shared.Janitor.GetPromiseLibrary
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=0 src=ReplicatedStorage.Shared.Janitor.GetPromiseLibrary:? cname=GetPromiseLibrary what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "require"

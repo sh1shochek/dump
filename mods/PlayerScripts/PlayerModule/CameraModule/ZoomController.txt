@@ -1,0 +1,45 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.ZoomController
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F GetZoomRadius
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetZoomRadius what=Lua protos=0[]
+  up1: table keys=6 {x:number, minValue:number, maxValue:number, freq:number, goal:number, v:number}
+  up2: ERR
+  consts total=1
+  [1] str "x"
+F ReleaseSpring
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=ReleaseSpring what=Lua protos=0[]
+  up1: table keys=6 {x:number, minValue:number, maxValue:number, freq:number, goal:number, v:number}
+  up2: ERR
+  consts total=3
+  [1] str "goal"
+  [2] str "x"
+  [3] str "v"
+F SetZoomParameters
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=SetZoomParameters what=Lua protos=0[]
+  up1: table keys=6 {x:number, minValue:number, maxValue:number, freq:number, goal:number, v:number}
+  up2: number 0
+  up3: ERR
+  consts total=1
+  [1] str "goal"
+F Update
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Update what=Lua protos=0[]
+  up1: table keys=6 {x:number, minValue:number, maxValue:number, freq:number, goal:number, v:number}
+  up2: number 0
+  up3: number 0.5
+  up4: number 0.5
+  up5: function params=0 src=[C]:? cname=clamp what=C
+  up6: function params=0 src=[C]:? cname=max what=C
+  up7: function params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Popper what=Lua
+  up8: function params=0 src=[C]:? cname=min what=C
+  up9: ERR
+  consts total=8
+  [1] number inf
+  [2] str "goal"
+  [3] str "x"
+  [4] number 1
+  [5] number 0.0375
+  [6] number 0.5
+  [7] str "CFrame"
+  [8] str "new"

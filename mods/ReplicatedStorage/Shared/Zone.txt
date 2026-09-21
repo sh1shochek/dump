@@ -1,0 +1,298 @@
+PATH: ReplicatedStorage.Shared.Zone
+REQUIRE: ok
+RETURNS: table
+KEYS: 38
+F Destroy
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "unbindFromGroup"
+  [2] str "janitor"
+  [3] str "destroy"
+K __index :table keys=38
+  {["_update"]=<function:function: 0xedf0744063945344>, ["_displayBounds"]=<function:function: 0xdeba649a5d95e6ee>, ["setAccuracy"]=<function:function: 0x3d07e80ba7ed9195>, ["getItems"]=<function:function: 0xaa892c13c3f87e00>, ["_getRegionConstructor"]=<function:function: 0x9d09b353aa6e27b5>, ["getPlayers"]=<function:function: 0x9342b6965e66f420>, ["bindToGroup"]=<function:function: 0x09614587fd4fb9c0>, ["_disconnectTouchedConnection"]=<function:function: 0xc417146f0bf02509>, ["_updateOccupants"]=<function:function: 0x6d26d673bd66a1c6>, ["Destroy"]=<function:function: 0x77abc1c35656a478>, ["fromRegion"]=<function:function: 0x3815223d20c227d8>, ["_partTouchedZone"]=<function:function: 0xfa69fd2f9e58175f>, ["onItemExit"]=<function:function: 0x767dc1a9cfda9872>, ["findPoint"]=<function:function: 0x5043b104e32d6d8a>, ["trackItem"]=<function:function: 0xaf319316182209a8>, ["_updateTouchedConnections"]=<function:function: 0xdb537b34f092e620>, ["_updateTouchedConnection"]=<function:function: 0xe220d02dcc9277a9>, ["findPlayer"]=<function:function: 0xcd62dad2c81e0bb9>, ["findItem"]=<function:function: 0xfbca23bd9cbd9c2f>, ["onItemEnter"]=<function:function: 0xb435705238d7d01a>, ["getRandomPoint"]=<function:function: 0x59e4210024536cbc>, ["__index"]=<cycle>, ["new"]=<function:function: 0x0cdd21a37ccce222>, ["_formTouchedConnection"]=<function:function: 0x7d239ee95cb050e7>, ["destroy"]=<function:function: 0x77abc1c35656a478>, ["_onItemCallback"]=<function:function: 0x7d7f069d0a39e6d6>, ["getCheckerPart"]=<function:function: 0x5f24eb807c7925cd>, ["relocate"]=<function:function: 0xa11733ffddba53dd>, ["unbindFromGroup"]=<function:function: 0xf5ba5a5acf033d61>, ["untrackItem"]=<function:function: 0x735993a433fcbb04>, ["setDetection"]=<function:function: 0xebd5244993de9d63>, ["getParts"]=<function:function: 0xbe2857c1600035e4>, ["_getAll"]=<function:function: 0x8175882cb7a2d842>, ["findPart"]=<function:function: 0xc574fb67dc3ddb50>, ["_find"]=<function:function: 0xb57e7241c26b51fe>, ["enum"]={["Detection"]={["WholeBody"]=1, ["Centre"]=2}, ["Accuracy"]={["Low"]=1, ["High"]=3, ["Precise"]=4, ["Medium"]=2}}, ["findLocalPlayer"]=<function:function: 0x73c840106c3ccc7a>, ["_calculateRegion"]=<function:function: 0x529c70f21b5995bf>}
+F _calculateRegion
+  params=3 src=ReplicatedStorage.Shared.Zone:? cname=_calculateRegion what=Lua protos=3[parseCheck,parse,roundToFour]
+  up1: ERR
+  consts total=31
+  [1] str "Min"
+  [2] str "Max"
+  [3] str "pairs"
+F _disconnectTouchedConnection
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=_disconnectTouchedConnection what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "_touchedJanitor"
+  [2] str "cleanup"
+F _displayBounds
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=_displayBounds what=Lua protos=0[]
+  up1: ERR
+  consts total=31
+  [1] str "displayBoundParts"
+  [2] str "BoundMin"
+  [3] str "BoundMax"
+  [4] table
+  [5] str "boundMin"
+  [6] str "boundMax"
+  [7] str "pairs"
+F _find
+  params=3 src=ReplicatedStorage.Shared.Zone:? cname=_find what=Lua protos=0[]
+  up1: table keys=14 {trackers:table, _formHeartbeat:function, _registerZone:function, getWorkspaceContainer:function, getGroup:function, _deregisterConnection:function, getTouchingZones:function, updateDetection:function, _updateZoneDetails:function, getZones:function, _registerConnection:function, _getZonesAndItems:function, setGroup:function, _deregisterZone:function}
+  up2: ERR
+  consts total=5
+  [1] str "updateDetection"
+  [2] str "trackers"
+  [3] str "getTouchingZones"
+  [4] str "_currentEnterDetection"
+  [5] str "pairs"
+F _formTouchedConnection
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=_formTouchedConnection what=Lua protos=0[]
+  up1: table keys=6 {__call:function, ClassName:string, Is:function, is:function, __index:table, new:function}
+  up2: ERR
+  consts total=7
+  [1] str "_touchedJanitor"
+  [2] str "clean"
+  [3] str "janitor"
+  [4] str "new"
+  [5] str "destroy"
+  [6] str "add"
+  [7] str "_updateTouchedConnection"
+F _getAll
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=_getAll what=Lua protos=0[]
+  up1: table keys=14 {trackers:table, _formHeartbeat:function, _registerZone:function, getWorkspaceContainer:function, getGroup:function, _deregisterConnection:function, getTouchingZones:function, updateDetection:function, _updateZoneDetails:function, getZones:function, _registerConnection:function, _getZonesAndItems:function, setGroup:function, _deregisterZone:function}
+  up2: ERR
+  consts total=8
+  [1] str "updateDetection"
+  [2] str "_getZonesAndItems"
+  [3] str "self"
+  [4] boolean true
+  [5] table
+  [6] str "volume"
+  [7] str "_currentEnterDetection"
+  [8] str "pairs"
+F _getRegionConstructor
+  params=3 src=ReplicatedStorage.Shared.Zone:? cname=_getRegionConstructor what=Lua protos=1[#1]
+  up1: table keys=3 {Other:function, Ball:function, Block:function}
+  up2: ERR
+  consts total=6
+  [1] str "pcall"
+F _onItemCallback
+  params=5 src=ReplicatedStorage.Shared.Zone:? cname=_onItemCallback what=Lua protos=2[triggerCallback,#2]
+  up1: ERR
+  consts total=10
+  [1] str "onItemDetails"
+  [2] number 0
+  [3] str "itemsToUntrack"
+  [4] str "table"
+  [5] str "insert"
+F _partTouchedZone
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=_partTouchedZone what=Lua protos=2[#1,#2]
+  up1: table keys=6 {__call:function, ClassName:string, Is:function, is:function, __index:table, new:function}
+  up2: userdata Signal Heartbeat
+  up3: table keys=2 {Detection:table, Accuracy:table}
+  up4: ERR
+  consts total=31
+  [1] str "part"
+  [2] str "trackingTouchedTriggers"
+  [3] str "Position"
+  [4] str "os"
+  [5] str "clock"
+F _update
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=_update what=Lua protos=5[#1,update,verifyDefaultCollision,#4,#5]
+  up1: userdata Run Service
+  up2: ERR
+  consts total=62
+  [1] str "container"
+  [2] str "_updateConnections"
+  [3] str "clean"
+  [4] str "typeof"
+F _updateOccupants
+  params=3 src=ReplicatedStorage.Shared.Zone:? cname=_updateOccupants what=Lua protos=0[]
+  up1: ERR
+  consts total=11
+  [1] str "occupants"
+  [2] str "pairs"
+F _updateTouchedConnection
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=_updateTouchedConnection what=Lua protos=0[]
+  up1: ERR
+  consts total=9
+  [1] str "_touchedJanitor"
+  [2] str "pairs"
+F _updateTouchedConnections
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=_updateTouchedConnections what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "pairs"
+F bindToGroup
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=bindToGroup what=Lua protos=0[]
+  up1: table keys=14 {trackers:table, _formHeartbeat:function, _registerZone:function, getWorkspaceContainer:function, getGroup:function, _deregisterConnection:function, getTouchingZones:function, updateDetection:function, _updateZoneDetails:function, getZones:function, _registerConnection:function, _getZonesAndItems:function, setGroup:function, _deregisterZone:function}
+  up2: ERR
+  consts total=6
+  [1] str "unbindFromGroup"
+  [2] str "getGroup"
+  [3] str "setGroup"
+  [4] str "_memberZones"
+  [5] str "zoneId"
+  [6] str "settingsGroupName"
+F destroy
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=3
+  [1] str "unbindFromGroup"
+  [2] str "janitor"
+  [3] str "destroy"
+K enum :table keys=2
+  {["Detection"]={["WholeBody"]=1, ["Centre"]=2}, ["Accuracy"]={["Low"]=1, ["High"]=3, ["Precise"]=4, ["Medium"]=2}}
+F findItem
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=findItem what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "item"
+  [2] str "_find"
+F findLocalPlayer
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=findLocalPlayer what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: ERR
+  consts total=4
+  [1] str "error"
+F findPart
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=findPart what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "overlapParams"
+  [2] str "zonePartsWhitelist"
+  [3] str "_getRegionConstructor"
+  [4] str "worldModel"
+  [5] str "unpack"
+F findPlayer
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=findPlayer what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "Character"
+  [2] str "HumanoidRootPart"
+  [3] str "FindFirstChild"
+  [4] str "player"
+  [5] str "_find"
+F findPoint
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=findPoint what=Lua protos=0[]
+  up1: ERR
+  consts total=12
+  [1] str "typeof"
+F fromRegion
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=fromRegion what=Lua protos=1[createCube]
+  up1: table keys=38 {_update:function, _displayBounds:function, setAccuracy:function, getItems:function, _getRegionConstructor:function, getPlayers:function, bindToGroup:function, _disconnectTouchedConnection:function, _updateOccupants:function, Destroy:function, fromRegion:function, _partTouchedZone:function, onItemExit:function, findPoint:function, trackItem:function, _updateTouchedConnections:function, _updateTouchedConnection:function, findPlayer:function, findItem:function, onItemEnter:function, getRandomPoint:function, __index:table, new:function, _formTouchedConnection:function, destroy:function, _onItemCallback:function, getCheckerPart:function, relocate:function, unbindFromGroup:function, untrackItem:function, setDetection:function, getParts:function, _getAll:function, findPart:function, _find:function, enum:table, findLocalPlayer:function, _calculateRegion:function}
+  up2: ERR
+  consts total=5
+  [1] str "Instance"
+  [2] str "new"
+F getCheckerPart
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=getCheckerPart what=Lua protos=0[]
+  up1: table keys=14 {trackers:table, _formHeartbeat:function, _registerZone:function, getWorkspaceContainer:function, getGroup:function, _deregisterConnection:function, getTouchingZones:function, updateDetection:function, _updateZoneDetails:function, getZones:function, _registerConnection:function, _getZonesAndItems:function, setGroup:function, _deregisterZone:function}
+  up2: ERR
+  consts total=20
+  [1] str "checkerPart"
+  [2] str "janitor"
+  [3] str "Instance"
+  [4] str "new"
+F getItems
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=getItems what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "item"
+  [2] str "_getAll"
+F getParts
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=getParts what=Lua protos=0[]
+  up1: ERR
+  consts total=16
+  [1] str "part"
+  [2] str "activeTriggers"
+  [3] str "trackingTouchedTriggers"
+  [4] str "pairs"
+F getPlayers
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=getPlayers what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "player"
+  [2] str "_getAll"
+F getRandomPoint
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=getRandomPoint what=Lua protos=0[]
+  up1: ERR
+  consts total=14
+  [1] str "exactRegion"
+  [2] str "Size"
+  [3] str "CFrame"
+  [4] str "Random"
+  [5] str "new"
+F new
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=new what=Lua protos=3[#1,#2,#3]
+  up1: table keys=38 {_update:function, _displayBounds:function, setAccuracy:function, getItems:function, _getRegionConstructor:function, getPlayers:function, bindToGroup:function, _disconnectTouchedConnection:function, _updateOccupants:function, Destroy:function, fromRegion:function, _partTouchedZone:function, onItemExit:function, findPoint:function, trackItem:function, _updateTouchedConnections:function, _updateTouchedConnection:function, findPlayer:function, findItem:function, onItemEnter:function, getRandomPoint:function, __index:table, new:function, _formTouchedConnection:function, destroy:function, _onItemCallback:function, getCheckerPart:function, relocate:function, unbindFromGroup:function, untrackItem:function, setDetection:function, getParts:function, _getAll:function, findPart:function, _find:function, enum:table, findLocalPlayer:function, _calculateRegion:function}
+  up2: table keys=2 {Detection:table, Accuracy:table}
+  up3: table keys=6 {__call:function, ClassName:string, Is:function, is:function, __index:table, new:function}
+  up4: userdata HttpService
+  up5: table keys=14 {trackers:table, _formHeartbeat:function, _registerZone:function, getWorkspaceContainer:function, getGroup:function, _deregisterConnection:function, getTouchingZones:function, updateDetection:function, _updateZoneDetails:function, getZones:function, _registerConnection:function, _getZonesAndItems:function, setGroup:function, _deregisterZone:function}
+  up6: table keys=8 {DisconnectAll:function, Wait:function, Connect:function, destroy:function, Destroy:function, Fire:function, __index:table, new:function}
+  up7: userdata Mateo_081005
+  up8: ERR
+  consts total=66
+  [1] str "setmetatable"
+F onItemEnter
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=onItemEnter what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "itemEntered"
+  [2] str "_onItemCallback"
+F onItemExit
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=onItemExit what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "itemExited"
+  [2] str "_onItemCallback"
+F relocate
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=relocate what=Lua protos=0[]
+  up1: userdata CollectiveWorldModel
+  up2: ERR
+  consts total=22
+  [1] str "hasRelocated"
+  [2] str "require"
+F setAccuracy
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=setAccuracy what=Lua protos=0[]
+  up1: table keys=2 {Detection:table, Accuracy:table}
+  up2: ERR
+  consts total=10
+  [1] str "tonumber"
+F setDetection
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=setDetection what=Lua protos=0[]
+  up1: table keys=2 {Detection:table, Accuracy:table}
+  up2: ERR
+  consts total=11
+  [1] str "tonumber"
+F trackItem
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=trackItem what=Lua protos=1[#1]
+  up1: table keys=6 {__call:function, ClassName:string, Is:function, is:function, __index:table, new:function}
+  up2: userdata Tracker
+  up3: ERR
+  consts total=24
+  [1] str "BasePart"
+  [2] str "IsA"
+  [3] str "HumanoidRootPart"
+  [4] str "FindFirstChild"
+  [5] str "Only BaseParts or Characters/NPCs can be tracked!"
+  [6] str "assert"
+F unbindFromGroup
+  params=1 src=ReplicatedStorage.Shared.Zone:? cname=unbindFromGroup what=Lua protos=0[]
+  up1: table keys=14 {trackers:table, _formHeartbeat:function, _registerZone:function, getWorkspaceContainer:function, getGroup:function, _deregisterConnection:function, getTouchingZones:function, updateDetection:function, _updateZoneDetails:function, getZones:function, _registerConnection:function, _getZonesAndItems:function, setGroup:function, _deregisterZone:function}
+  up2: ERR
+  consts total=4
+  [1] str "settingsGroupName"
+  [2] str "getGroup"
+  [3] str "_memberZones"
+  [4] str "zoneId"
+F untrackItem
+  params=2 src=ReplicatedStorage.Shared.Zone:? cname=untrackItem what=Lua protos=0[]
+  up1: userdata Tracker
+  up2: ERR
+  consts total=4
+  [1] str "trackedItems"
+  [2] str "janitor"
+  [3] str "destroy"
+  [4] str "require"

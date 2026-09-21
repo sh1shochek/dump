@@ -1,0 +1,6 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Equipment.Kevlar
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+K Cost :number = 650
+K Icon :string = rbxassetid://77092909095947

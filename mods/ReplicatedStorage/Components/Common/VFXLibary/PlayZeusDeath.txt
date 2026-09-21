@@ -1,0 +1,11 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.PlayZeusDeath
+REQUIRE: ok
+RETURNS: function
+F .main
+  params=1 src=ReplicatedStorage.Components.Common.VFXLibary.PlayZeusDeath:? what=Lua protos=1[#1]
+  up1: userdata Other
+  up2: function params=1 src=ReplicatedStorage.Components.Common.VFXLibary.PlayZeusDeath:? cname=resolveVictimRagdoll what=Lua
+  up3: userdata Debris
+  up4: ERR
+  consts total=35
+  [1] str "tonumber"

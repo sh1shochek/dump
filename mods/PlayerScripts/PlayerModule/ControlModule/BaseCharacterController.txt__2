@@ -1,0 +1,34 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModule.BaseCharacterController
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F Enable
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=Enable what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "error"
+F GetIsJumping
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=GetIsJumping what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "isJumping"
+F GetMoveVector
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=GetMoveVector what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "moveVector"
+F IsMoveVectorCameraRelative
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=IsMoveVectorCameraRelative what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "moveVectorIsCameraRelative"
+K __index :table keys=6
+  {["IsMoveVectorCameraRelative"]=<function:function: 0x03ca359631fb8eb1>, ["GetIsJumping"]=<function:function: 0x14c7a3fefe56bb49>, ["Enable"]=<function:function: 0xef3321ba0a2bdb1b>, ["GetMoveVector"]=<function:function: 0x1b3f33eaf1f02d28>, ["__index"]=<cycle>, ["new"]=<function:function: 0x2c92d127739f1771>}
+F new
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=new what=Lua protos=0[]
+  up1: table keys=6 {IsMoveVectorCameraRelative:function, GetIsJumping:function, Enable:function, GetMoveVector:function, __index:table, new:function}
+  up2: vector 0, 0, 0
+  up3: table keys=6 {disconnectAll:function, trackConnection:function, disconnect:function, trackBoundFunction:function, __index:table, new:function}
+  up4: ERR
+  consts total=8
+  [1] str "setmetatable"

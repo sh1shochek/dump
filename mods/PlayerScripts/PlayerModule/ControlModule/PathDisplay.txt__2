@@ -1,0 +1,41 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModule.PathDisplay
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+F clearRenderedPath
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=clearRenderedPath what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: number 30
+  up3: table keys=30 {1:userdata, 2:userdata, 3:userdata, 4:userdata, 5:userdata, 6:userdata, 7:userdata, 8:userdata, 9:userdata, 10:userdata, 11:userdata, 12:userdata, 13:userdata, 14:userdata, 15:userdata, 16:userdata, 17:userdata, 18:userdata, 19:userdata, 20:userdata, 21:userdata, 22:userdata, 23:userdata, 24:userdata, 25:userdata, 26:userdata, 27:userdata, 28:userdata, 29:userdata, 30:userdata}
+  up4: userdata PathDisplayPoints
+  up5: ERR
+  consts total=4
+  [1] str "ipairs"
+K image :string = rbxasset://textures/Cursors/Gamepad/Pointer.png
+K imageSize :userdata 2, 2
+F renderPath
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=renderPath what=Lua protos=0[]
+  up1: table keys=6 {image:string, imageSize:userdata, spacing:number, clearRenderedPath:function, renderPath:function, setCurrentPoints:function}
+  up2: table keys=0 {}
+  up3: table keys=0 {}
+  up4: function params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=renderPoint what=Lua
+  up5: userdata PathDisplayPoints
+  up6: ERR
+  consts total=10
+  [1] str "clearRenderedPath"
+  [2] number 0
+  [3] number 1
+  [4] str "magnitude"
+  [5] str "unit"
+  [6] str "spacing"
+  [7] str "workspace"
+  [8] userdata
+  [9] str "CurrentCamera"
+  [10] str "Parent"
+F setCurrentPoints
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=setCurrentPoints what=Lua protos=0[]
+  up1: table keys=0 {}
+  up2: ERR
+  consts total=1
+  [1] str "typeof"
+K spacing :number = 8

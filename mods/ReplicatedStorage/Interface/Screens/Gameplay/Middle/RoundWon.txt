@@ -1,0 +1,11 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Middle.RoundWon
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F create
+  params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RoundWon:? cname=create what=Lua protos=1[Initialize]
+  up1: table keys=2 {Terrorists:table, Counter-Terrorists:table}
+  up2: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Middle.RoundWon:? cname=ensureListenersInitialized what=Lua
+  up3: ERR
+  consts total=1
+  [1] str "Initialize"

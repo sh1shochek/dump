@@ -1,0 +1,54 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.Poppercam
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+F CharacterAdded
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CharacterAdded what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F CharacterRemoving
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=CharacterRemoving what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F Enable
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Enable what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "focusExtrapolator"
+  [2] str "Reset"
+F GetOcclusionMode
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=GetOcclusionMode what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "Enum"
+  [2] str "DevCameraOcclusionMode"
+  [3] str "Zoom"
+  [4] userdata
+F OnCameraSubjectChanged
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=OnCameraSubjectChanged what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F Update
+  params=5 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=Update what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: boolean true
+  up3: table keys=4 {ReleaseSpring:function, GetZoomRadius:function, Update:function, SetZoomParameters:function}
+  up4: ERR
+  consts total=14
+  [1] str "CameraMode"
+  [2] str "Enum"
+  [3] str "LockFirstPerson"
+  [4] userdata
+  [5] str "CFrame"
+  [6] str "lookAlong"
+K __index :table keys=8
+  {["CharacterRemoving"]=<function:function: 0xaa39fd5f942adeb5>, ["OnCameraSubjectChanged"]=<function:function: 0x1e96f477285ff774>, ["CharacterAdded"]=<function:function: 0x704c08ac7453c86b>, ["Update"]=<function:function: 0xf9ee66ed337e3ab4>, ["Enable"]=<function:function: 0x99b17b172aa7a9e8>, ["GetOcclusionMode"]=<function:function: 0xfc855aed94c826e8>, ["__index"]=<cycle>, ["new"]=<function:function: 0x7a241f49b00b561e>}
+F new
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=0[]
+  up1: table keys=8 {CharacterRemoving:function, Update:function, OnCameraSubjectChanged:function, GetOcclusionMode:function, Enable:function, CharacterAdded:function, __index:table, new:function}
+  up2: table keys=8 {CharacterRemoving:function, OnCameraSubjectChanged:function, CharacterAdded:function, Update:function, Enable:function, GetOcclusionMode:function, __index:table, new:function}
+  up3: table keys=4 {Reset:function, Step:function, __index:table, new:function}
+  up4: ERR
+  consts total=4
+  [1] str "new"
+  [2] str "setmetatable"

@@ -1,0 +1,13 @@
+PATH: ReplicatedStorage.Shared.EasySprite
+REQUIRE: ok
+RETURNS: table
+KEYS: 1
+F new
+  params=4 src=ReplicatedStorage.Shared.EasySprite:? cname=new what=Lua protos=0[]
+  up1: function params=2 src=ReplicatedStorage.Shared.EasySprite:? cname=newSpriteSheet what=Lua
+  up2: ERR
+  consts total=22
+  [1] str "ImageLabel"
+  [2] str "IsA"
+  [3] str "Instance must be an ImageLabel"
+  [4] str "assert"

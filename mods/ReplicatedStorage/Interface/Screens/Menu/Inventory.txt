@@ -1,0 +1,315 @@
+PATH: ReplicatedStorage.Interface.Screens.Menu.Inventory
+REQUIRE: ok
+RETURNS: table
+KEYS: 18
+F CreateItemTemplate
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=CreateItemTemplate what=Lua protos=5[handleItemSelection,#2,#3,#4,#5]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=8 {ObserveAvailableCases:function, IsCaseEnabled:function, GetCase:function, OnCasesUpdated:table, GetCases:function, IsCaseForSale:function, GetFeaturedCases:function, GetCaseByName:function}
+  up3: function params=2 src=ReplicatedStorage.Components.Common.GetResolvedSkinInformati:? what=Lua
+  up4: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up5: function params=3 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=GetIconImage what=Lua
+  up6: userdata ReplicatedStorage
+  up7: userdata Inventory
+  up8: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up9: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=syncItemTemplateCharmIcon what=Lua
+  up10: table keys=5 {GetFullItemDisplayName:function, GetWeaponDisplayName:function, GetSkinDisplayName:function, GetInternalSearchQuery:function, GetSearchIdentity:function}
+  up11: table keys=2 {Package:string, Charm Capsule:string}
+  up12: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=UpdateItemStatusFrame what=Lua
+  up13: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=IsMouseOverBlockingUI what=Lua
+  up14: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up15: userdata Mateo_081005
+  up16: table keys=2 {broadcastRouter:function, observerRouter:function}
+  consts total=55
+  [1] str "mark"
+  [2] str "UI.Inventory.CreateItemTemplate"
+  [3] str "_id"
+  [4] str "Type"
+  [5] str "Case"
+  [6] str "Package"
+  [7] str "GetCaseByName"
+  [8] str "Skin"
+  [9] str "Name"
+  [10] str "print"
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=Initialize what=Lua protos=91[#1,#2,handleInspectClick,#4,handleCharmClick,#6,#7,#8,handleUnlockClick,#10,handleReplaceTClick,#12,handleReplaceCTClick,#14,#15,#16,#17,handleContinueClick,#19,handleViewLoadoutClick]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata MainGui
+  up3: userdata Inventory
+  up4: userdata Information
+  up5: table keys=3 {CloseFrame:function, IsDoublePressed:function, Add:function}
+  up6: table keys=2 {broadcastRouter:function, observerRouter:function}
+  consts total=184
+  [1] str "mark"
+  [2] str "UI.Inventory.Initialize"
+  [3] str "Ignore"
+  [4] str "Information"
+  [5] str "Add"
+  [6] str "ObserveAvailableCollections"
+  [7] str "Inspect"
+  [8] str "Selectable"
+  [9] str "MouseButton1Click"
+  [10] str "Connect"
+  [11] str "Activated"
+  [12] str "Charm"
+  [13] str "OnItemSelected"
+F NextInventoryItem
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=NextInventoryItem what=Lua protos=1[#1]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=0 {}
+  up3: number 0
+  up4: table keys=8 {ObserveAvailableCases:function, IsCaseEnabled:function, GetCase:function, OnCasesUpdated:table, GetCases:function, IsCaseForSale:function, GetFeaturedCases:function, GetCaseByName:function}
+  up5: function params=2 src=ReplicatedStorage.Components.Common.GetResolvedSkinInformati:? what=Lua
+  up6: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up7: table keys=5 {GetFullItemDisplayName:function, GetWeaponDisplayName:function, GetSkinDisplayName:function, GetInternalSearchQuery:function, GetSearchIdentity:function}
+  up8: function params=3 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=GetIconImage what=Lua
+  up9: userdata Inventory
+  up10: boolean false
+  up11: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up12: table keys=18 {ShowNewItemNotification:function, UpdateInventoryFilter:function, UpdateInventory:function, SetupInformationFrameNavigation:function, QueueNewItemNotification:function, CreateItemTemplate:function, SelectFirstInformationFrameButton:function, NextInventoryItem:function, Start:function, UpdateHoverFrame:function, UpdateTemplates:function, SetupInformationFrame:function, SetupItemNotificationNavigation:function, Initialize:function, SelectFirstItemNotificationButton:function, SetupCategoryButton:function, SelectCategory:function, SelectOption:function}
+  consts total=40
+  [1] str "mark"
+  [2] str "UI.Inventory.NextInventoryItem"
+  [3] str "Type"
+  [4] str "Case"
+  [5] str "Package"
+  [6] str "GetCaseByName"
+  [7] str "Skin"
+  [8] str "Name"
+  [9] str "caseRarity"
+  [10] str "rarity"
+  [11] str "Blue"
+  [12] str "Rarity"
+  [13] str "GetWeaponDisplayName"
+  [14] str "StatTrack"
+  [15] str "KillTrak™ "
+  [16] str "%* | %*"
+  [17] str "format"
+  [18] str "Ignore"
+  [19] str "ItemNotification"
+  [20] str "Holder"
+  [21] str "ViewLoadout"
+  [22] str "Visible"
+  [23] str "RarityFrame"
+  [24] str "UIGradient"
+  [25] str "ColorSequence"
+  [26] str "Color"
+  [27] str "Background"
+  [28] str "ImageColor3"
+  [29] str "IconShadow"
+  [30] str "Image"
+  [31] str "Light"
+  [32] str "WeaponName"
+  [33] str "Text"
+  [34] str "Icon"
+  [35] str "broadcastRouter"
+  [36] str "RunInterfaceSound"
+  [37] str "New Item Reveal"
+  [38] str "Title"
+  [39] str "Color3"
+  [40] str "new"
+F QueueNewItemNotification
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=QueueNewItemNotification what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Inventory
+  up3: table keys=18 {ShowNewItemNotification:function, UpdateInventoryFilter:function, UpdateInventory:function, SetupInformationFrameNavigation:function, QueueNewItemNotification:function, CreateItemTemplate:function, SelectFirstInformationFrameButton:function, NextInventoryItem:function, Start:function, UpdateHoverFrame:function, UpdateTemplates:function, SetupInformationFrame:function, SetupItemNotificationNavigation:function, Initialize:function, SelectFirstItemNotificationButton:function, SetupCategoryButton:function, SelectCategory:function, SelectOption:function}
+  up4: table keys=0 {}
+  up5: boolean false
+  consts total=13
+  [1] str "mark"
+  [2] str "UI.Inventory.QueueNewItemNotification"
+  [3] str "Visible"
+  [4] str "ShowNewItemNotification"
+  [5] str "ipairs"
+F SelectCategory
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=SelectCategory what=Lua protos=2[handleOptionClick,#2]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Information
+  up3: table keys=6 {Everything:table, GetEffectiveItemType:function, Display:table, IsCapsule:function, Equipment:table, Graphic Art:table}
+  up4: userdata ReplicatedStorage
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=GetOptionButtonLabel what=Lua
+  up6: userdata 0.133333, 0.14902, 0.184314
+  up7: userdata Inventory
+  up8: userdata TextService
+  up9: table keys=18 {ShowNewItemNotification:function, UpdateInventoryFilter:function, UpdateInventory:function, SetupInformationFrameNavigation:function, QueueNewItemNotification:function, CreateItemTemplate:function, SelectFirstInformationFrameButton:function, NextInventoryItem:function, Start:function, UpdateHoverFrame:function, UpdateTemplates:function, SetupInformationFrame:function, SetupItemNotificationNavigation:function, Initialize:function, SelectFirstItemNotificationButton:function, SetupCategoryButton:function, SelectCategory:function, SelectOption:function}
+  up10: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up11: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up12: ERR
+  consts total=48
+  [1] str "mark"
+  [2] str "UI.Inventory.SelectCategory"
+  [3] str "Visible"
+  [4] str "warn"
+F SelectFirstInformationFrameButton
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=SelectFirstInformationFrameButton what=Lua protos=0[]
+  up1: userdata Information
+  up2: table keys=18 {ShowNewItemNotification:function, UpdateInventoryFilter:function, UpdateInventory:function, SetupInformationFrameNavigation:function, QueueNewItemNotification:function, CreateItemTemplate:function, SelectFirstInformationFrameButton:function, NextInventoryItem:function, Start:function, UpdateHoverFrame:function, UpdateTemplates:function, SetupInformationFrame:function, SetupItemNotificationNavigation:function, Initialize:function, SelectFirstItemNotificationButton:function, SetupCategoryButton:function, SelectCategory:function, SelectOption:function}
+  up3: userdata GuiService
+  up4: ERR
+  consts total=10
+  [1] str "Visible"
+  [2] str "SetupInformationFrameNavigation"
+  [3] str "Charm"
+  [4] str "SelectedObject"
+  [5] str "Inspect"
+  [6] str "ReplaceCT"
+  [7] str "ReplaceT"
+  [8] str "Unlock"
+  [9] str "QuickUnlock"
+  [10] str "FindFirstChild"
+F SelectFirstItemNotificationButton
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=SelectFirstItemNotificationButton what=Lua protos=0[]
+  up1: userdata UserInputService
+  up2: userdata Inventory
+  up3: userdata GuiService
+  up4: ERR
+  consts total=9
+  [1] str "GamepadEnabled"
+  [2] str "Ignore"
+  [3] str "ItemNotification"
+  [4] str "Visible"
+  [5] str "Holder"
+  [6] str "ViewLoadout"
+  [7] str "Selectable"
+  [8] str "SelectedObject"
+  [9] str "Continue"
+F SelectOption
+  params=2 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=SelectOption what=Lua protos=0[]
+  up1: userdata Information
+  up2: userdata Inventory
+  up3: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=GetOptionButtonLabel what=Lua
+  up4: userdata 0.133333, 0.14902, 0.184314
+  up5: userdata 0.490196, 0.807843, 0.952941
+  up6: table keys=18 {ShowNewItemNotification:function, UpdateInventoryFilter:function, UpdateInventory:function, SetupInformationFrameNavigation:function, QueueNewItemNotification:function, CreateItemTemplate:function, SelectFirstInformationFrameButton:function, NextInventoryItem:function, Start:function, UpdateHoverFrame:function, UpdateTemplates:function, SetupInformationFrame:function, SetupItemNotificationNavigation:function, Initialize:function, SelectFirstItemNotificationButton:function, SetupCategoryButton:function, SelectCategory:function, SelectOption:function}
+  up7: ERR
+  consts total=18
+  [1] str "Visible"
+  [2] str "HoverFrame"
+  [3] str "BackgroundTransparency"
+  [4] str "Fake"
+  [5] str "FindFirstChild"
+  [6] str "GuiObject"
+  [7] str "IsA"
+  [8] str "ipairs"
+F SetupCategoryButton
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=SetupCategoryButton what=Lua protos=2[handleCategoryClick,#2]
+  up1: function params=3 src=ReplicatedStorage.Components.Common.InterfaceAnimations.Acti:? what=Lua
+  up2: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up3: ERR
+  consts total=5
+  [1] str "Selectable"
+F SetupInformationFrame
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=SetupInformationFrame what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: userdata Mateo_081005
+  up4: userdata Information
+  up5: function params=1 src=ReplicatedStorage.Components.Common.GetWeaponProperties:? what=Lua
+  up6: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=IsItemEquippedOnTeam what=Lua
+  up7: ERR
+  consts total=66
+  [1] str "mark"
+  [2] str "UI.Inventory.SetupInformationFrame"
+  [3] str "Get"
+  [4] str "Inventory"
+  [5] str "_id"
+  [6] str "ipairs"
+F SetupInformationFrameNavigation
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=SetupInformationFrameNavigation what=Lua protos=1[#1]
+  up1: userdata Information
+  up2: ERR
+  consts total=8
+  [1] str "Charm"
+  [2] str "Visible"
+  [3] str "button"
+  [4] str "order"
+  [5] table
+  [6] str "LayoutOrder"
+  [7] str "table"
+  [8] str "insert"
+F SetupItemNotificationNavigation
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=SetupItemNotificationNavigation what=Lua protos=1[#1]
+  up1: userdata Inventory
+  up2: ERR
+  consts total=25
+  [1] str "Ignore"
+  [2] str "ItemNotification"
+  [3] str "Holder"
+  [4] str "ViewLoadout"
+  [5] str "Visible"
+  [6] str "button"
+  [7] str "order"
+  [8] table
+  [9] number 1
+  [10] str "LayoutOrder"
+  [11] str "table"
+  [12] str "insert"
+F ShowNewItemNotification
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=ShowNewItemNotification what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=0 {}
+  up3: userdata Inventory
+  up4: table keys=18 {ShowNewItemNotification:function, UpdateInventoryFilter:function, UpdateInventory:function, SetupInformationFrameNavigation:function, QueueNewItemNotification:function, CreateItemTemplate:function, SelectFirstInformationFrameButton:function, NextInventoryItem:function, Start:function, UpdateHoverFrame:function, UpdateTemplates:function, SetupInformationFrame:function, SetupItemNotificationNavigation:function, Initialize:function, SelectFirstItemNotificationButton:function, SetupCategoryButton:function, SelectCategory:function, SelectOption:function}
+  consts total=12
+  [1] str "mark"
+  [2] str "UI.Inventory.ShowNewItemNotification"
+  [3] str "ipairs"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=Start what=Lua protos=15[setupGamepadNavigation,setupSelectionProtection,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: userdata Mateo_081005
+  up4: userdata UserInputService
+  up5: userdata Inventory
+  up6: userdata GuiService
+  up7: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up8: number 0
+  up9: table keys=0 {}
+  up10: boolean false
+  consts total=37
+  [1] str "debug"
+  [2] str "setmemorycategory"
+F UpdateHoverFrame
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=UpdateHoverFrame what=Lua protos=1[#1]
+  ups: none
+  consts total=113
+  [1] str "tick"
+F UpdateInventory
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=UpdateInventory what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Inventory
+  consts total=26
+  [1] str "mark"
+  [2] str "UI.Inventory.UpdateInventory"
+  [3] str "type"
+F UpdateInventoryFilter
+  params=0 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=UpdateInventoryFilter what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Inventory
+  up3: table keys=0 {}
+  up4: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=GetSortedInventoryData what=Lua
+  up5: function params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=ApplyFilterToSortedData what=Lua
+  up6: function params=0 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=UpdateInventoryTemplates what=Lua
+  up7: ERR
+  consts total=3
+  [1] str "mark"
+  [2] str "UI.Inventory.ApplyCurrentSort"
+  [3] str "Visible"
+F UpdateTemplates
+  params=1 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=UpdateTemplates what=Lua protos=0[]
+  up1: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up2: userdata Inventory
+  up3: function params=2 src=ReplicatedStorage.Components.Common.GetResolvedSkinInformati:? what=Lua
+  up4: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up5: function params=3 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=GetIconImage what=Lua
+  up6: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=syncItemTemplateCharmIcon what=Lua
+  up7: function params=2 src=ReplicatedStorage.Interface.Screens.Menu.Inventory:? cname=UpdateItemStatusFrame what=Lua
+  up8: ERR
+  consts total=22
+  [1] str "mark"
+  [2] str "UI.Inventory.UpdateTemplates"
+  [3] str "Visible"
+  [4] str "Frame"
+  [5] str "Right"
+  [6] str "Container"
+  [7] str "ipairs"

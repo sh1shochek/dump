@@ -1,0 +1,42 @@
+PATH: ReplicatedStorage.Controllers.Observers.Game.Ping.Class
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Destroy
+  params=1 src=ReplicatedStorage.Controllers.Observers.Game.Ping.Class:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=2
+  [1] str "Janitor"
+  [2] str "Destroy"
+F UpdateVisibility
+  params=2 src=ReplicatedStorage.Controllers.Observers.Game.Ping.Class:? cname=UpdateVisibility what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up3: ERR
+  consts total=9
+  [1] str "Team"
+  [2] str "GetAttribute"
+  [3] str "Get"
+  [4] str "Settings.Game.HUD.Player Pings"
+  [5] str "Disabled"
+  [6] str "CurrentTeam"
+  [7] str "Model"
+  [8] str "Parent"
+  [9] str "OriginalParent"
+K __index :table keys=4
+  {["UpdateVisibility"]=<function:function: 0xe1e46b393078da3e>, ["Destroy"]=<function:function: 0x55d936ab635ead20>, ["__index"]=<cycle>, ["new"]=<function:function: 0x0333ee5c6260db12>}
+F new
+  params=3 src=ReplicatedStorage.Controllers.Observers.Game.Ping.Class:? cname=new what=Lua protos=1[#1]
+  up1: table keys=4 {UpdateVisibility:function, Destroy:function, __index:table, new:function}
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: table keys=12 {Bright White:table, Team Color:table, Red:table, Purple:table, Light Blue:table, Blue:table, Pink:table, Green:table, Aqua:table, Yellow:table, Orange:table, White:table}
+  up4: table keys=18 {GetWearNameForFloat:function, GetGloves:function, GetMagazine:function, GetKillTrackValue:function, GetBadgeModel:function, GetItemIconImage:function, ObserveItemStockSchemas:function, GetCharmModel:function, GetWorldModel:function, OnItemStockSchemasUpdated:table, GetSkinInformation:function, GetCharacterModel:function, GetBaseWeaponModel:function, GetAbbreviatedWearName:function, GetWearImageForFloat:function, GetAllSkinsForWeapon:function, IsSkinAvailable:function, GetCameraModel:function}
+  up5: userdata ReplicatedStorage
+  up6: table keys=7 {Forbidden:table, Stock:table, Pink:table, Red:table, Special:table, Blue:table, Purple:table}
+  up7: ERR
+  consts total=18
+  [1] str "Weapon"
+  [2] str "Skin"
+  [3] table
+  [4] str "GetAttribute"
+  [5] str "setmetatable"

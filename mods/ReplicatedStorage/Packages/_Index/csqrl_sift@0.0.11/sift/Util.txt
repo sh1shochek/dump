@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Util
+REQUIRE: ok
+RETURNS: table
+KEYS: 3
+F equalObjects
+  params=0 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Uti:? cname=equalObjects what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "select"
+K func :table keys=3
+  {["returned"]=<function:function: 0xc7ec4fa1cca03a69>, ["noop"]=<function:function: 0x5b90cca2f2880051>, ["truthy"]=<function:function: 0x4a9dc3e6a9e41e8a>}
+F isEmpty
+  params=1 src=ReplicatedStorage.Packages._Index.csqrl_sift@0.0.11.sift.Uti:? cname=isEmpty what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "next"

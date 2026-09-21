@@ -1,0 +1,4 @@
+PATH: ReplicatedStorage.Controllers.Observers.Players.Components.CreateWeaponModel.Types
+REQUIRE: ok
+RETURNS: table
+KEYS: 0

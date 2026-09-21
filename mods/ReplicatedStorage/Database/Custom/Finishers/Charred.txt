@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Database.Custom.Finishers.Charred
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Finisher
+  params=2 src=ReplicatedStorage.Database.Custom.Finishers.Charred:? cname=Finisher what=Lua protos=2[#1,Destroy]
+  up1: table keys=13 {Destroy:function, RetireVictimLocally:function, PrepareCharacter:function, FindCharacter:function, RetireCorpseLocally:function, Rig:table, OnceAppearanceReady:function, HideCharacterLocally:function, SetupCharacterAppearance:function, ActivateCharacter:function, DestroyAll:function, __index:table, new:function}
+  up2: function params=2 src=ReplicatedStorage.Database.Custom.Finishers.Charred:? cname=Activate what=Lua
+  up3: ERR
+  consts total=5
+  [1] str "new"
+  [2] str "OnceAppearanceReady"
+  [3] str "OnDestroy"
+  [4] str "Destroy"
+  [5] table
+K Replication :string = All

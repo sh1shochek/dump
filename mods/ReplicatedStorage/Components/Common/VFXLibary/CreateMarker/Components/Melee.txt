@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Components.Common.VFXLibary.CreateMarker.Components.Melee
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+K Images :table keys=1
+  {[1]="rbxassetid://88027686092020"}
+K Properties :table keys=4
+  {["Rotation"]=<function:function: 0x47580802b4aae613>, ["Transparency"]=<function:function: 0xfa5e5f9e56aa5d9c>, ["Color3"]=<userdata:0.219608, 0.219608, 0.219608>, ["SizeRange"]=<function:function: 0x05f93ecaf69ce0d5>}

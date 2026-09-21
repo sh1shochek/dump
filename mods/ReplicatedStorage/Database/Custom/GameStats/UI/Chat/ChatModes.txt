@@ -1,0 +1,8 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.UI.Chat.ChatModes
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+K Labels :table keys=2
+  {[1]="Say to all", [0]="Say to team"}
+K Modes :table keys=2
+  {["Team"]=0, ["All"]=1}

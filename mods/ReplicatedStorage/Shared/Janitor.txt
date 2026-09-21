@@ -1,0 +1,122 @@
+PATH: ReplicatedStorage.Shared.Janitor
+REQUIRE: ok
+RETURNS: table
+KEYS: 21
+F Add
+  params=4 src=ReplicatedStorage.Shared.Janitor:? cname=Add what=Lua protos=0[]
+  up1: userdata IndicesReference
+  up2: table keys=3 {function:boolean, RBXScriptConnection:string, thread:boolean}
+  up3: ERR
+  consts total=18
+  [1] str "Remove"
+  [2] str "typeof"
+F AddPromise
+  params=2 src=ReplicatedStorage.Shared.Janitor:? cname=AddPromise what=Lua protos=1[#1]
+  up1: boolean true
+  up2: table keys=27 {_new:function, _all:function, _try:function, __tostring:function, defer:function, race:function, fromEvent:function, _getTime:function, promisify:function, __index:table, new:function, retry:function, delay:function, try:function, _timeEvent:userdata, prototype:table, async:function, is:function, each:function, allSettled:function, reject:function, any:function, Status:table, all:function, resolve:function, Error:table, some:function}
+  up3: ERR
+  consts total=24
+  [1] str "is"
+  [2] str "error"
+K ClassName :string = Janitor
+F Cleanup
+  params=1 src=ReplicatedStorage.Shared.Janitor:? cname=Cleanup what=Lua protos=3[#1,#2,#3]
+  up1: userdata IndicesReference
+  up2: ERR
+  consts total=6
+  [1] str "CurrentlyCleaning"
+  [2] str "type"
+K CurrentlyCleaning :boolean = true
+F Destroy
+  params=1 src=ReplicatedStorage.Shared.Janitor:? cname=Destroy what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "Cleanup"
+F Get
+  params=2 src=ReplicatedStorage.Shared.Janitor:? cname=Get what=Lua protos=0[]
+  up1: userdata IndicesReference
+  up2: ERR
+  consts total=0
+F GetAll
+  params=1 src=ReplicatedStorage.Shared.Janitor:? cname=GetAll what=Lua protos=0[]
+  up1: userdata IndicesReference
+  up2: ERR
+  consts total=4
+  [1] str "table"
+  [2] str "freeze"
+F Is
+  params=1 src=ReplicatedStorage.Shared.Janitor:? cname=Is what=Lua protos=0[]
+  up1: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up2: ERR
+  consts total=4
+  [1] str "type"
+F LegacyLinkToInstance
+  params=3 src=ReplicatedStorage.Shared.Janitor:? cname=LegacyLinkToInstance what=Lua protos=2[ChangedFunction,#2]
+  up1: userdata LinkToInstanceIndex
+  up2: table keys=5 {Connected:boolean, Disconnect:function, __tostring:function, __index:table, _new:function}
+  up3: ERR
+  consts total=14
+  [1] str "newproxy"
+F LinkToInstance
+  params=3 src=ReplicatedStorage.Shared.Janitor:? cname=LinkToInstance what=Lua protos=1[#1]
+  up1: userdata LinkToInstanceIndex
+  up2: ERR
+  consts total=6
+  [1] str "newproxy"
+F LinkToInstances
+  params=1 src=ReplicatedStorage.Shared.Janitor:? cname=LinkToInstances what=Lua protos=0[]
+  up1: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up2: ERR
+  consts total=4
+  [1] str "new"
+  [2] str "LinkToInstance"
+  [3] str "Disconnect"
+  [4] str "Add"
+F Remove
+  params=2 src=ReplicatedStorage.Shared.Janitor:? cname=Remove what=Lua protos=2[#1,#2]
+  up1: userdata IndicesReference
+  up2: ERR
+  consts total=16
+  [1] str "type"
+F RemoveList
+  params=1 src=ReplicatedStorage.Shared.Janitor:? cname=RemoveList what=Lua protos=0[]
+  up1: userdata IndicesReference
+  up2: ERR
+  consts total=5
+  [1] str "#"
+  [2] str "select"
+F RemoveListNoClean
+  params=1 src=ReplicatedStorage.Shared.Janitor:? cname=RemoveListNoClean what=Lua protos=0[]
+  up1: userdata IndicesReference
+  up2: ERR
+  consts total=5
+  [1] str "#"
+  [2] str "select"
+F RemoveNoClean
+  params=2 src=ReplicatedStorage.Shared.Janitor:? cname=RemoveNoClean what=Lua protos=0[]
+  up1: userdata IndicesReference
+  up2: ERR
+  consts total=0
+K SuppressInstanceReDestroy :boolean = false
+F __call
+  params=1 src=ReplicatedStorage.Shared.Janitor:? cname=Cleanup what=Lua protos=3[#1,#2,#3]
+  up1: userdata IndicesReference
+  up2: ERR
+  consts total=6
+  [1] str "CurrentlyCleaning"
+  [2] str "type"
+K __index :table keys=21
+  {["LinkToInstances"]=<function:function: 0x9aeb7184c948f32a>, ["Is"]=<function:function: 0x25cf9f2c83f4c2c8>, ["__tostring"]=<function:function: 0x76b186a2465412a1>, ["Remove"]=<function:function: 0x767d5900b18ad87c>, ["SuppressInstanceReDestroy"]=false, ["RemoveNoClean"]=<function:function: 0x32608cd3b5f43598>, ["LegacyLinkToInstance"]=<function:function: 0xa7c97335b89a563b>, ["__index"]=<cycle>, ["new"]=<function:function: 0x077f9bb14e44efe0>, ["GetAll"]=<function:function: 0x69a9419b16a11ca5>, ["CurrentlyCleaning"]=true, ["LinkToInstance"]=<function:function: 0xaa87c9e8ec8bb4f8>, ["RemoveListNoClean"]=<function:function: 0x96398a5c292e1bc6>, ["__call"]=<function:function: 0x8df23a68f3e3c70c>, ["Destroy"]=<function:function: 0xf80fc731633e071b>, ["RemoveList"]=<function:function: 0x6449ed481626fd74>, ["ClassName"]="Janitor", ["Cleanup"]=<function:function: 0x8df23a68f3e3c70c>, ["Get"]=<function:function: 0xe52462e1579d80c4>, ["AddPromise"]=<function:function: 0x55ef78adb303cdaf>, ["Add"]=<function:function: 0x720e858cfac932f7>}
+F __tostring
+  params=1 src=ReplicatedStorage.Shared.Janitor:? cname=__tostring what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "Janitor"
+F new
+  params=0 src=ReplicatedStorage.Shared.Janitor:? cname=new what=Lua protos=0[]
+  up1: userdata IndicesReference
+  up2: table keys=21 {LinkToInstances:function, Is:function, __tostring:function, Remove:function, SuppressInstanceReDestroy:boolean, RemoveNoClean:function, LegacyLinkToInstance:function, __index:table, new:function, GetAll:function, CurrentlyCleaning:boolean, LinkToInstance:function, RemoveListNoClean:function, __call:function, Destroy:function, RemoveList:function, ClassName:string, Cleanup:function, Get:function, AddPromise:function, Add:function}
+  up3: ERR
+  consts total=2
+  [1] str "CurrentlyCleaning"
+  [2] str "setmetatable"

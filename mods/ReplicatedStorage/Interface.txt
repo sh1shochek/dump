@@ -1,0 +1,43 @@
+PATH: ReplicatedStorage.Interface
+REQUIRE: ok
+RETURNS: table
+KEYS: 4
+F Initialize
+  params=0 src=ReplicatedStorage.Interface:? cname=Initialize what=Lua protos=8[#1,getOrCreateHUDScale,applyHUDScale,#4,#5,#6,#7,#8]
+  up1: table keys=29 {IsPreservableScreen:function, SetScreen:function, HideMenu:function, GetCurrentScreen:function, GetMainGui:function, GetMenuFrame:function, SetBlurEnabled:function, GetScreenBeforeCaseScene:function, EnterInspect:function, HandleBumperInput:function, RegisterBumperOverride:function, IsStoreEnabled:function, OnTradeUpStateChanged:table, WantsMainMenu:function, ExitTradeUp:function, OnCaseSceneStateChanged:table, OnInspectStateChanged:table, GetScreenBeforeInspect:function, SetWantsMainMenu:function, IsTradeUpActive:function, OnScreenChanged:table, EnterTradeUp:function, IsInspectActive:function, ExitCaseScene:function, Initialize:function, ExitInspect:function, EnterCaseScene:function, IsCaseSceneActive:function, GetNextBumperTab:function}
+  up2: userdata MainGui
+  up3: table keys=4 {Start:function, guarantee:function, __index:table, Initialize:function}
+  up4: userdata StarterGui
+  up5: function params=0 src=ReplicatedStorage.Components.Common.GetUserPlatform:? what=Lua
+  up6: table keys=10 {timedScope:function, getInstancePath:function, scope:function, setSlowScopeReporter:function, defer:function, wrapTimed:function, setTimedScopeObserver:function, mark:function, getCallbackLabel:function, spawn:function}
+  up7: table keys=5 {1:string, 2:string, 3:string, 4:string, 5:string}
+  up8: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up9: userdata Mateo_081005
+  up10: number 0.5
+  up11: table keys=2 {broadcastRouter:function, observerRouter:function}
+  up12: table keys=4 {Janitor:table, SoundGroupName:string, Sounds:userdata, IsDestroyed:boolean}
+  up13: table keys=8 {playOneTime:function, destroy:function, new:function, PlaySoundAtPosition:function, play:function, WarmPersistentSounds:function, __index:table, createSoundGroup:function}
+  up14: userdata PlayerGui
+  up15: function params=2 src=ReplicatedStorage.Interface:? cname=playInterfaceSound what=Lua
+  up16: ERR
+  consts total=19
+  [1] str "Initialize"
+  [2] str "guarantee"
+F Start
+  params=0 src=ReplicatedStorage.Interface:? cname=Start what=Lua protos=0[]
+  up1: number 1618.5969411000005
+  up2: number 0
+  up3: function params=2 src=ReplicatedStorage.Interface:? cname=recursive what=Lua
+  up4: userdata Screens
+  up5: userdata MainGui
+  up6: ERR
+  consts total=2
+  [1] str "os"
+  [2] str "clock"
+K __index :table keys=4
+  {["Start"]=<function:function: 0xc856db6c9640c1b5>, ["guarantee"]=<function:function: 0xcd3c4253f0db89cb>, ["__index"]=<cycle>, ["Initialize"]=<function:function: 0x6baa6e80a532add2>}
+F guarantee
+  params=1 src=ReplicatedStorage.Interface:? cname=guarantee what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "pcall"

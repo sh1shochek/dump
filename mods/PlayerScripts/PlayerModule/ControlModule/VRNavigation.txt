@@ -1,0 +1,283 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModule.VRNavigation
+REQUIRE: ok
+RETURNS: table
+KEYS: 20
+F BindJumpAction
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=BindJumpAction what=Lua protos=1[#1]
+  up1: userdata ContextActionService
+  up2: ERR
+  consts total=9
+  [1] str "isJumpBound"
+  [2] str "VRJumpAction"
+  [3] str "CONTROL_ACTION_PRIORITY"
+  [4] str "Enum"
+  [5] str "KeyCode"
+  [6] str "ButtonA"
+  [7] userdata
+  [8] str "BindActionAtPriority"
+  [9] str "UnbindAction"
+F ControlCharacterGamepad
+  params=4 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=ControlCharacterGamepad what=Lua protos=0[]
+  up1: table keys=6 {image:string, imageSize:userdata, spacing:number, clearRenderedPath:function, renderPath:function, setCurrentPoints:function}
+  up2: userdata MovementUpdate
+  up3: ERR
+  consts total=36
+  [1] str "KeyCode"
+  [2] str "Enum"
+  [3] str "Thumbstick1"
+  [4] userdata
+  [5] str "UserInputState"
+  [6] str "Cancel"
+  [7] userdata
+  [8] vector
+  [9] str "moveVector"
+  [10] str "End"
+  [11] userdata
+  [12] str "StopFollowingPath"
+  [13] str "clearRenderedPath"
+  [14] str "ShouldUseNavigationLaser"
+  [15] str "BindJumpAction"
+  [16] str "Hidden"
+  [17] str "SetLaserPointerMode"
+  [18] str "Position"
+  [19] str "magnitude"
+  [20] number 0.22
+  [21] str "X"
+  [22] str "Y"
+  [23] str "Vector3"
+  [24] str "new"
+F Enable
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=Enable what=Lua protos=4[#1,#2,#3,#4]
+  up1: userdata VRService
+  up2: userdata Run Service
+  up3: userdata ContextActionService
+  up4: ERR
+  consts total=43
+  [1] vector
+  [2] str "moveVector"
+  [3] str "isJumping"
+  [4] str "NavigationRequested"
+  [5] str "Connect"
+  [6] str "navigationRequestedConn"
+  [7] str "Heartbeat"
+  [8] str "heartbeatConn"
+  [9] str "MoveThumbstick"
+  [10] str "CONTROL_ACTION_PRIORITY"
+  [11] str "Enum"
+  [12] str "KeyCode"
+  [13] str "Thumbstick1"
+  [14] userdata
+  [15] str "BindAction"
+  [16] str "UserInputType"
+  [17] str "Gamepad1"
+  [18] userdata
+  [19] str "ButtonR2"
+  [20] userdata
+  [21] str "BindActivate"
+  [22] str "UserCFrameEnabled"
+  [23] str "userCFrameEnabledConn"
+  [24] str "OnUserCFrameEnabled"
+  [25] str "VRTouchpad"
+  [26] str "Left"
+  [27] userdata
+  [28] str "VRTouchpadMode"
+  [29] str "VirtualThumbstick"
+  [30] userdata
+  [31] str "SetTouchpadMode"
+  [32] str "Right"
+  [33] userdata
+  [34] str "ABXY"
+  [35] userdata
+  [36] str "enabled"
+  [37] str "StopFollowingPath"
+  [38] str "UnbindAction"
+  [39] str "UnbindActivate"
+  [40] str "BindJumpAction"
+  [41] str "Disabled"
+  [42] str "SetLaserPointerMode"
+  [43] str "Disconnect"
+F GetLocalHumanoid
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=GetLocalHumanoid what=Lua protos=0[]
+  up1: userdata Mateo_081005
+  up2: ERR
+  consts total=6
+  [1] str "Character"
+  [2] str "pairs"
+F GoToPoint
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=GoToPoint what=Lua protos=0[]
+  up1: userdata MovementUpdate
+  up2: ERR
+  consts total=15
+  [1] str "currentPath"
+  [2] str "currentPoints"
+  [3] str "currentPointIdx"
+  [4] str "moving"
+  [5] str "GetLocalHumanoid"
+  [6] str "Torso"
+  [7] str "Position"
+  [8] str "magnitude"
+  [9] str "WalkSpeed"
+  [10] str "tick"
+F HasAnyHandControllers
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=HasAnyHandControllers what=Lua protos=0[]
+  up1: userdata VRService
+  up2: ERR
+  consts total=7
+  [1] str "Enum"
+  [2] str "UserCFrame"
+  [3] str "RightHand"
+  [4] userdata
+  [5] str "GetUserCFrameEnabled"
+  [6] str "LeftHand"
+  [7] userdata
+F HasBothHandControllers
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=HasBothHandControllers what=Lua protos=0[]
+  up1: userdata VRService
+  up2: ERR
+  consts total=7
+  [1] str "Enum"
+  [2] str "UserCFrame"
+  [3] str "RightHand"
+  [4] userdata
+  [5] str "GetUserCFrameEnabled"
+  [6] str "LeftHand"
+  [7] userdata
+F HasGamepad
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=HasGamepad what=Lua protos=0[]
+  up1: userdata UserInputService
+  up2: ERR
+  consts total=1
+  [1] str "GamepadEnabled"
+F IsMobileVR
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=IsMobileVR what=Lua protos=0[]
+  up1: userdata UserInputService
+  up2: ERR
+  consts total=1
+  [1] str "TouchEnabled"
+F OnHeartbeat
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=OnHeartbeat what=Lua protos=0[]
+  up1: table keys=6 {image:string, imageSize:userdata, spacing:number, clearRenderedPath:function, renderPath:function, setCurrentPoints:function}
+  up2: boolean false
+  up3: userdata RaycastParams{IgnoreWater=false, BruteForceAllSlow=false, RespectCanCollide=fals
+  up4: userdata MovementUpdate
+  up5: ERR
+  consts total=57
+  [1] str "moveVector"
+  [2] str "GetLocalHumanoid"
+  [3] str "Torso"
+  [4] str "moving"
+  [5] str "currentPoints"
+  [6] str "Position"
+  [7] vector
+  [8] str "magnitude"
+  [9] str "pairs"
+F OnJumpAction
+  params=4 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=OnJumpAction what=Lua protos=0[]
+  up1: ERR
+  consts total=8
+  [1] str "Enum"
+  [2] str "UserInputState"
+  [3] str "Begin"
+  [4] userdata
+  [5] str "isJumping"
+  [6] str "ContextActionResult"
+  [7] str "Sink"
+  [8] userdata
+F OnNavigationRequest
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=OnNavigationRequest what=Lua protos=0[]
+  up1: table keys=6 {image:string, imageSize:userdata, spacing:number, clearRenderedPath:function, renderPath:function, setCurrentPoints:function}
+  up2: ERR
+  consts total=19
+  [1] str "Position"
+  [2] str "currentDestination"
+  [3] str "x"
+  [4] number inf
+  [5] number -inf
+  [6] str "y"
+  [7] str "z"
+  [8] str "GetLocalHumanoid"
+  [9] str "Torso"
+  [10] str "magnitude"
+  [11] str "GoToPoint"
+  [12] str "TryComputePath"
+  [13] str "StartFollowingPath"
+  [14] str "setCurrentPoints"
+  [15] str "currentPoints"
+  [16] str "renderPath"
+  [17] str "StopFollowingPath"
+  [18] str "clearRenderedPath"
+  [19] str "moving"
+F OnUserCFrameEnabled
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=OnUserCFrameEnabled what=Lua protos=0[]
+  up1: ERR
+  consts total=5
+  [1] str "ShouldUseNavigationLaser"
+  [2] str "BindJumpAction"
+  [3] str "Navigation"
+  [4] str "SetLaserPointerMode"
+  [5] str "Hidden"
+F SetLaserPointerMode
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=SetLaserPointerMode what=Lua protos=1[#1]
+  up1: userdata StarterGui
+  up2: ERR
+  consts total=1
+  [1] str "pcall"
+F ShouldUseNavigationLaser
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=ShouldUseNavigationLaser what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "IsMobileVR"
+  [2] str "HasBothHandControllers"
+  [3] str "HasAnyHandControllers"
+  [4] str "HasGamepad"
+F StartFollowingPath
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=StartFollowingPath what=Lua protos=0[]
+  up1: userdata MovementUpdate
+  up2: ERR
+  consts total=17
+  [1] str "currentPath"
+  [2] str "GetPointCoordinates"
+  [3] str "currentPoints"
+  [4] str "currentPointIdx"
+  [5] str "moving"
+  [6] str "tick"
+F StopFollowingPath
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=StopFollowingPath what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] str "currentPath"
+  [2] str "currentPoints"
+  [3] str "currentPointIdx"
+  [4] str "moving"
+  [5] vector
+  [6] str "moveVector"
+F TryComputePath
+  params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=TryComputePath what=Lua protos=0[]
+  up1: userdata Instance
+  up2: ERR
+  consts total=15
+  [1] str "ComputeSmoothPathAsync"
+  [2] number 1
+  [3] str "Status"
+  [4] str "Enum"
+  [5] str "PathStatus"
+  [6] str "ClosestNoPath"
+  [7] userdata
+  [8] str "ClosestOutOfRange"
+  [9] userdata
+  [10] str "FailStartNotEmpty"
+  [11] userdata
+  [12] str "Unit"
+  [13] str "FailFinishNotEmpty"
+  [14] userdata
+  [15] vector
+K __index :table keys=20
+  {["IsMobileVR"]=<function:function: 0x81f43dfe9fe22052>, ["Enable"]=<function:function: 0x4520d9718061d72d>, ["GoToPoint"]=<function:function: 0xdd6a598126e76e34>, ["OnJumpAction"]=<function:function: 0x97782aeef76e711d>, ["TryComputePath"]=<function:function: 0x3e65369088668b79>, ["HasAnyHandControllers"]=<function:function: 0x2eeeccae42698441>, ["OnNavigationRequest"]=<function:function: 0x3b15b0685982a517>, ["__index"]=<cycle>, ["new"]=<function:function: 0xf3b5032d9a51a904>, ["HasBothHandControllers"]=<function:function: 0x5d6f5e25f682f2de>, ["StopFollowingPath"]=<function:function: 0xcdf786ef2edb7035>, ["SetLaserPointerMode"]=<function:function: 0x123705836695da33>, ["GetLocalHumanoid"]=<function:function: 0x1b2363322685b009>, ["ShouldUseNavigationLaser"]=<function:function: 0x3d3e72b13012cf24>, ["OnHeartbeat"]=<function:function: 0xb2c006887af4640d>, ["ControlCharacterGamepad"]=<function:function: 0xf11893952dadded5>, ["BindJumpAction"]=<function:function: 0xe89c74c9454dbb00>, ["StartFollowingPath"]=<function:function: 0x031fbfb03b589494>, ["HasGamepad"]=<function:function: 0xcfaaabe3a8651d4c>, ["OnUserCFrameEnabled"]=<function:function: 0x727f3934d6168f51>}
+F new
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.ControlModul:? cname=new what=Lua protos=0[]
+  up1: table keys=6 {IsMoveVectorCameraRelative:function, GetIsJumping:function, Enable:function, GetMoveVector:function, __index:table, new:function}
+  up2: table keys=20 {IsMobileVR:function, Enable:function, GoToPoint:function, OnJumpAction:function, TryComputePath:function, HasAnyHandControllers:function, OnNavigationRequest:function, __index:table, new:function, HasBothHandControllers:function, StopFollowingPath:function, SetLaserPointerMode:function, GetLocalHumanoid:function, ShouldUseNavigationLaser:function, OnHeartbeat:function, ControlCharacterGamepad:function, BindJumpAction:function, StartFollowingPath:function, HasGamepad:function, OnUserCFrameEnabled:function}
+  up3: ERR
+  consts total=18
+  [1] str "new"
+  [2] str "setmetatable"

@@ -1,0 +1,26 @@
+PATH: ReplicatedStorage.MovementV2.DiagnosticProtocol
+REQUIRE: ok
+RETURNS: table
+KEYS: 7
+K MaxClientLogBytes :number = 12000
+K MaxServerLogBytes :number = 12000
+K TargetName :string = MaloniPepperoni
+K Version :number = 1
+F decodeClientReport
+  params=1 src=ReplicatedStorage.MovementV2.DiagnosticProtocol:? cname=decodeClientReport what=Lua protos=0[]
+  up1: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up2: ERR
+  consts total=27
+  [1] str "typeof"
+F decodeDelivery
+  params=1 src=ReplicatedStorage.MovementV2.DiagnosticProtocol:? cname=decodeDelivery what=Lua protos=0[]
+  up1: table keys=7 {MaxClientLogBytes:number, Version:number, decodeDelivery:function, TargetName:string, isKind:function, decodeClientReport:function, MaxServerLogBytes:number}
+  up2: ERR
+  consts total=26
+  [1] str "typeof"
+F isKind
+  params=1 src=ReplicatedStorage.MovementV2.DiagnosticProtocol:? cname=isKind what=Lua protos=0[]
+  up1: table keys=5 {TraceComparison:boolean, OwnerCorrection:boolean, RuntimeWarning:boolean, PredictionHitch:boolean, Reconciliation:boolean}
+  up2: ERR
+  consts total=1
+  [1] str "typeof"

@@ -1,0 +1,135 @@
+PATH: ReplicatedStorage.MovementV2.Collision.CompositeWorld
+REQUIRE: ok
+RETURNS: table
+KEYS: 11
+F CanMove
+  params=7 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=CanMove what=Lua protos=0[]
+  up1: ERR
+  consts total=4
+  [1] str "SweepDetailed"
+  [2] str "StartSolid"
+  [3] str "Fraction"
+  [4] str "IsClear"
+F FindGround
+  params=6 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=FindGround what=Lua protos=0[]
+  up1: table keys=13 {SweepConvexSupport:function, AabbSupport:function, Max:function, ExpandBounds:function, SweepTriangleSupport:function, Min:function, SweepTriangle:function, SweepConvex:function, ContainsConvex:function, BoundsOverlap:function, IsFiniteVector3:function, SegmentBounds:function, TriangleContactContains:function}
+  up2: table keys=15 {SweepEndpoint:function, ContactMaxRotationRadiansPerTick:number, ContactQueryBounds:function, FindEarliestStationaryContact:function, Reset:function, BeginComposition:function, ContainsEndpoint:function, ReserveMover:function, ContactMaxRotationSubdivisions:number, BindEndpoint:function, ReserveContactMover:function, ContactMaxRotationRadiansPerSubdivision:number, Retire:function, __index:table, new:function}
+  up3: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up4: table keys=4 {SampleCFrame:function, ResolveSupportMotion:function, VelocityAtPoint:function, Build:function}
+  up5: ERR
+  consts total=56
+  [1] str "IsFiniteVector3"
+  [2] str "string"
+  [3] str "format"
+F FindLadder
+  params=5 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=FindLadder what=Lua protos=0[]
+  up1: ERR
+  consts total=6
+  [1] number 1
+  [2] str "mover collision supports only the committed current-pose time fraction 1"
+  [3] str "assert"
+F IsClear
+  params=4 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=IsClear what=Lua protos=0[]
+  up1: table keys=13 {SweepConvexSupport:function, AabbSupport:function, Max:function, ExpandBounds:function, SweepTriangleSupport:function, Min:function, SweepTriangle:function, SweepConvex:function, ContainsConvex:function, BoundsOverlap:function, IsFiniteVector3:function, SegmentBounds:function, TriangleContactContains:function}
+  up2: table keys=15 {SweepEndpoint:function, ContactMaxRotationRadiansPerTick:number, ContactQueryBounds:function, FindEarliestStationaryContact:function, Reset:function, BeginComposition:function, ContainsEndpoint:function, ReserveMover:function, ContactMaxRotationSubdivisions:number, BindEndpoint:function, ReserveContactMover:function, ContactMaxRotationRadiansPerSubdivision:number, Retire:function, __index:table, new:function}
+  up3: ERR
+  consts total=21
+  [1] str "IsFiniteVector3"
+  [2] str "string"
+  [3] str "format"
+F Sweep
+  params=7 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=Sweep what=Lua protos=0[]
+  up1: ERR
+  consts total=24
+  [1] str "SweepDetailed"
+  [2] str "Fraction"
+  [3] number 1
+  [4] str "Normal"
+  [5] vector
+  [6] str "StartSolid"
+  [7] boolean false
+  [8] str "AllSolid"
+  [9] table
+  [10] str "SourceId"
+  [11] str "Kind"
+  [12] str "SourceShape"
+  [13] str "MinkowskiPlaneKind"
+  [14] str "RecordType"
+  [15] str "Climbable"
+  [16] str "BuildMode"
+  [17] str "SourceCFrame"
+  [18] str "SourceSize"
+  [19] str "Planes"
+  [20] str "PlaneId"
+  [21] str "SurfaceFriction"
+  [22] str "ResolvedPosition"
+  [23] str "PenetrationDepth"
+  [24] table
+F SweepDetailed
+  params=7 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=SweepDetailed what=Lua protos=0[]
+  up1: table keys=13 {SweepConvexSupport:function, AabbSupport:function, Max:function, ExpandBounds:function, SweepTriangleSupport:function, Min:function, SweepTriangle:function, SweepConvex:function, ContainsConvex:function, BoundsOverlap:function, IsFiniteVector3:function, SegmentBounds:function, TriangleContactContains:function}
+  up2: function params=1 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=staticDetailed what=Lua
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=shouldReplace what=Lua
+  up4: ERR
+  consts total=19
+  [1] str "IsFiniteVector3"
+  [2] str "string"
+  [3] str "format"
+F SweepMoversDetailed
+  params=7 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=SweepMoversDetailed what=Lua protos=0[]
+  up1: table keys=13 {SweepConvexSupport:function, AabbSupport:function, Max:function, ExpandBounds:function, SweepTriangleSupport:function, Min:function, SweepTriangle:function, SweepConvex:function, ContainsConvex:function, BoundsOverlap:function, IsFiniteVector3:function, SegmentBounds:function, TriangleContactContains:function}
+  up2: table keys=5 {OwnerSnapshotFlags:table, SupportKind:table, Buttons:table, MovementMode:table, Stance:table}
+  up3: table keys=15 {SweepEndpoint:function, ContactMaxRotationRadiansPerTick:number, ContactQueryBounds:function, FindEarliestStationaryContact:function, Reset:function, BeginComposition:function, ContainsEndpoint:function, ReserveMover:function, ContactMaxRotationSubdivisions:number, BindEndpoint:function, ReserveContactMover:function, ContactMaxRotationRadiansPerSubdivision:number, Retire:function, __index:table, new:function}
+  up4: function params=3 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=shouldReplace what=Lua
+  up5: ERR
+  consts total=40
+  [1] str "IsFiniteVector3"
+  [2] str "string"
+  [3] str "format"
+F SweepWithFloorSupport
+  params=7 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=SweepWithFloorSupport what=Lua protos=0[]
+  up1: ERR
+  consts total=24
+  [1] str "SweepWithFloorSupportDetailed"
+  [2] str "Fraction"
+  [3] number 1
+  [4] str "Normal"
+  [5] vector
+  [6] str "StartSolid"
+  [7] boolean false
+  [8] str "AllSolid"
+  [9] table
+  [10] str "SourceId"
+  [11] str "Kind"
+  [12] str "SourceShape"
+  [13] str "MinkowskiPlaneKind"
+  [14] str "RecordType"
+  [15] str "Climbable"
+  [16] str "BuildMode"
+  [17] str "SourceCFrame"
+  [18] str "SourceSize"
+  [19] str "Planes"
+  [20] str "PlaneId"
+  [21] str "SurfaceFriction"
+  [22] str "ResolvedPosition"
+  [23] str "PenetrationDepth"
+  [24] table
+F SweepWithFloorSupportDetailed
+  params=7 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=SweepWithFloorSupportDetailed what=Lua protos=0[]
+  up1: table keys=13 {SweepConvexSupport:function, AabbSupport:function, Max:function, ExpandBounds:function, SweepTriangleSupport:function, Min:function, SweepTriangle:function, SweepConvex:function, ContainsConvex:function, BoundsOverlap:function, IsFiniteVector3:function, SegmentBounds:function, TriangleContactContains:function}
+  up2: function params=1 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=staticDetailed what=Lua
+  up3: function params=3 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=shouldReplace what=Lua
+  up4: ERR
+  consts total=19
+  [1] str "IsFiniteVector3"
+  [2] str "string"
+  [3] str "format"
+K __index :table keys=11
+  {["SweepDetailed"]=<function:function: 0x1c3fc27e22861ebc>, ["FindLadder"]=<function:function: 0x089f08abf66f31ed>, ["Sweep"]=<function:function: 0x3bb36b916a0455f0>, ["FindGround"]=<function:function: 0x80815a85282e05e0>, ["SweepWithFloorSupport"]=<function:function: 0x19411959573b37a4>, ["SweepMoversDetailed"]=<function:function: 0x987da1e1759ff0d5>, ["SweepWithFloorSupportDetailed"]=<function:function: 0x459e172d0644180e>, ["CanMove"]=<function:function: 0x078406a20842b762>, ["IsClear"]=<function:function: 0x0e3a79356f861482>, ["__index"]=<cycle>, ["new"]=<function:function: 0xa84a2eef0aa0bb30>}
+F new
+  params=3 src=ReplicatedStorage.MovementV2.Collision.CompositeWorld:? cname=new what=Lua protos=0[]
+  up1: table keys=11 {SweepDetailed:function, FindLadder:function, Sweep:function, FindGround:function, SweepWithFloorSupport:function, SweepMoversDetailed:function, SweepWithFloorSupportDetailed:function, CanMove:function, IsClear:function, __index:table, new:function}
+  up2: ERR
+  consts total=25
+  [1] str "table"
+  [2] str "isfrozen"

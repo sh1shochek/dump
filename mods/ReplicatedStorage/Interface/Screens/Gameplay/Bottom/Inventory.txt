@@ -1,0 +1,53 @@
+PATH: ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Inventory
+REQUIRE: ok
+RETURNS: table
+KEYS: 2
+F Initialize
+  params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Inventor:? cname=Initialize what=Lua protos=3[#1,#2,#3]
+  up1: userdata Inventory
+  up2: function params=2 src=ReplicatedStorage.Components.Common.UserInput.EquipInventory:? what=Lua
+  up3: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up4: ERR
+  consts total=21
+  [1] str "Active"
+  [2] str "GuiObject"
+  [3] str "QueryDescendants"
+  [4] str "ImageLabel, ImageButton"
+  [5] str "Parent"
+  [6] str "Name"
+  [7] str "Weapon"
+  [8] str "Grenade"
+  [9] str "Bomb"
+  [10] str "DefaultSize"
+  [11] str "Size"
+  [12] str "SetAttribute"
+  [13] str "GetChildren"
+  [14] str "Frame"
+  [15] str "IsA"
+  [16] str "Button"
+  [17] str "FindFirstChild"
+  [18] str "MouseButton1Click"
+  [19] str "Connect"
+  [20] str "Grenades"
+  [21] str "ImageButton"
+F Start
+  params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Inventor:? cname=Start what=Lua protos=14[#1,#2,#3,#4,updateLocalObjectiveKitIcon,#6,#7,updateSpectatedObjectiveKit,#9,#10,requestSpectatedInventoryUpdate,#12,#13,#14]
+  up1: table keys=23 {removeInventoryItem:function, GetEquippedInventoryItem:function, getInventorySlot:function, getCurrentInventory:function, GetUnresolvedMovementWeaponSelectForRese:function, equip:function, getCurrentEquipped:function, ConsumePendingMovementWeaponSelect:function, OnInventoryItemEquipped:table, GetTradableInventoryPage:function, peekInventoryItemForMovement:function, OnInventoryChanged:table, newInventoryItem:function, peekCurrentEquippedForMovement:function, getInventoryItemFromLoadout:function, UpdateStatTrack:function, equipLocal:function, RestorePendingMovementWeaponSelect:function, Initialize:function, Start:function, CleanupCurrentLoadout:function, getPreviousEquipped:function, GetInventoryItemFromIdentifier:function}
+  up2: userdata Mateo_081005
+  up3: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Inventor:? cname=updateInventoryFrame what=Lua
+  up4: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Inventor:? cname=detectAndFlashNewItems what=Lua
+  up5: function params=2 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Inventor:? cname=updateCurrentEquipped what=Lua
+  up6: table keys=8 {WaitForDataLoaded:function, Start:function, CreateListener:function, Initialize:function, ApplyInventoryDelta:function, RemoveListener:function, IsDataLoaded:function, Get:function}
+  up7: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Inventor:? cname=resetFadeTimer what=Lua
+  up8: function params=0 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Inventor:? cname=startFade what=Lua
+  up9: userdata Inventory
+  up10: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Inventor:? what=Lua
+  up11: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Inventor:? cname=getMeleeImageLabels what=Lua
+  up12: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Inventor:? cname=getMeleeWeaponNameLabels what=Lua
+  up13: table keys=15 {Render:function, Broadcast:function, IsLocalPlayerDead:function, Next:function, ListenToSpectate:table, GetPlayer:function, Start:function, IsTakingOverCamera:function, Stop:function, UpdateIndex:function, Initialize:function, GetCurrentSpectateInstance:function, Previous:function, Switch:function, SetNextPlayer:function}
+  up14: table keys=29 {Inventory:table, TeamSelection:table, ModerationPanel:table, VoteKick:table, Spectate:table, GlobalMarketplace:table, Character:table, Career:table, ServerBrowser:table, VIP:table, Hints:table, Sound:table, Match:table, Map:table, Ping:table, Melee:table, UI:table, Chat:table, BreakableDoor:table, PlayerData:table, C4:table, Collaborations:table, Player:table, Hostage:table, VFX:table, Projectile:table, Modes:table, Store:table, Dashboard:table}
+  up15: function params=1 src=ReplicatedStorage.Interface.Screens.Gameplay.Bottom.Inventor:? cname=convertInventoryDataToServerLoadout what=Lua
+  up16: userdata Players
+  up17: ERR
+  consts total=34
+  [1] str "OnInventoryChanged"

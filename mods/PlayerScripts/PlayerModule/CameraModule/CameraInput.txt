@@ -1,0 +1,150 @@
+PATH: Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule.CameraInput
+REQUIRE: ok
+RETURNS: table
+KEYS: 15
+F addTouchMove
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=addTouchMove what=Lua protos=0[]
+  up1: table keys=2 {Move:userdata, Pinch:number}
+  up2: ERR
+  consts total=1
+  [1] str "Move"
+F disableCameraToggleInput
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=disableCameraToggleInput what=Lua protos=0[]
+  up1: boolean false
+  consts total=1
+  [1] str "Disconnect"
+F enableCameraToggleInput
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=enableCameraToggleInput what=Lua protos=2[#1,#2]
+  up1: boolean false
+  up2: boolean false
+  up3: boolean false
+  consts total=2
+  [1] str "Disconnect"
+  [2] str "Connect"
+K gamepadZoomPress :userdata Signal Event
+F getHoldPan
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=getHoldPan what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F getInputEnabled
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=getInputEnabled what=Lua protos=0[]
+  up1: boolean true
+  up2: ERR
+  consts total=0
+F getPanning
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=getPanning what=Lua protos=0[]
+  up1: boolean false
+  up2: boolean false
+  up3: ERR
+  consts total=0
+F getRotation
+  params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=getRotation what=Lua protos=0[]
+  up1: userdata GameSettings
+  up2: boolean true
+  up3: table keys=5 {I:number, Left:number, Right:number, O:number, None:number}
+  up4: number 0.008333333767950535
+  up5: table keys=2 {None:userdata, Thumbstick2:userdata}
+  up6: table keys=4 {Pinch:number, Pan:userdata, Movement:userdata, Wheel:number}
+  up7: function params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=adjustTouchPitchSensitivity what=Lua
+  up8: table keys=2 {Move:userdata, Pinch:number}
+  up9: userdata 4.18879032, 3.2253685
+  up10: userdata 0.00872664619, 0.00671951752
+  up11: userdata 0.122173049, 0.0940732434
+  up12: userdata 0.0174532924, 0.0115191732
+  up13: number 1.0000464107602365
+  up14: ERR
+  consts total=12
+  [1] str "Vector2"
+  [2] str "new"
+F getRotationActivated
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=getRotationActivated what=Lua protos=0[]
+  up1: number 0
+  up2: table keys=2 {None:userdata, Thumbstick2:userdata}
+  up3: ERR
+  consts total=2
+  [1] str "Thumbstick2"
+  [2] str "Magnitude"
+F getTogglePan
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=getTogglePan what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F getZoomDelta
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=getZoomDelta what=Lua protos=0[]
+  up1: table keys=5 {I:number, Left:number, Right:number, O:number, None:number}
+  up2: table keys=4 {Pinch:number, Pan:userdata, Movement:userdata, Wheel:number}
+  up3: table keys=2 {Move:userdata, Pinch:number}
+  up4: ERR
+  consts total=7
+  [1] str "O"
+  [2] str "I"
+  [3] str "Wheel"
+  [4] str "Pinch"
+  [5] number 0.1
+  [6] number 1
+  [7] number 0.04
+F resetInputForFrameEnd
+  params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=resetInputForFrameEnd what=Lua protos=0[]
+  up1: table keys=4 {Pinch:number, Pan:userdata, Movement:userdata, Wheel:number}
+  up2: table keys=2 {Move:userdata, Pinch:number}
+  up3: ERR
+  consts total=8
+  [1] str "Vector2"
+  [2] str "new"
+F setInputEnabled
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=setInputEnabled what=Lua protos=0[]
+  up1: boolean true
+  up2: function params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=resetInputDevices what=Lua
+  up3: function params=0 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=resetTouchState what=Lua
+  up4: userdata ContextActionService
+  up5: function params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=thumbstick what=Lua
+  up6: number 2000
+  up7: function params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=keypress what=Lua
+  up8: userdata VRService
+  up9: function params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=gamepadReset what=Lua
+  up10: function params=3 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=gamepadZoomPress what=Lua
+  up11: table keys=5 {1:userdata, 2:userdata, 3:userdata, 4:userdata, 5:userdata}
+  up12: userdata UserInputService
+  up13: function params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=inputBegan what=Lua
+  up14: function params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=inputChanged what=Lua
+  up15: function params=2 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=inputEnded what=Lua
+  up16: function params=4 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=pointerAction what=Lua
+  up17: boolean true
+  up18: ERR
+  consts total=37
+  [1] str "RbxCameraThumbstick"
+  [2] str "Enum"
+  [3] str "KeyCode"
+  [4] str "Thumbstick2"
+  [5] userdata
+  [6] str "BindActionAtPriority"
+  [7] str "RbxCameraKeypress"
+  [8] str "I"
+  [9] userdata
+  [10] str "VREnabled"
+  [11] str "RbxCameraGamepadReset"
+  [12] str "ButtonL3"
+  [13] userdata
+  [14] str "BindAction"
+  [15] str "RbxCameraGamepadZoom"
+  [16] str "ButtonR3"
+  [17] userdata
+  [18] str "InputBegan"
+  [19] str "Connect"
+  [20] str "table"
+  [21] str "insert"
+F setTogglePan
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=setTogglePan what=Lua protos=0[]
+  up1: boolean false
+  up2: ERR
+  consts total=0
+F setTouchSensitivity
+  params=1 src=Players.Mateo_081005.PlayerScripts.PlayerModule.CameraModule:? cname=setTouchSensitivity what=Lua protos=0[]
+  up1: number 1.0000464107602365
+  up2: ERR
+  consts total=4
+  [1] number 1
+  [2] number 0.1
+  [3] str "math"
+  [4] str "clamp"

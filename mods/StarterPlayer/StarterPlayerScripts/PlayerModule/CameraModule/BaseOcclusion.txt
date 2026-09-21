@@ -1,0 +1,39 @@
+PATH: StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.BaseOcclusion
+REQUIRE: ok
+RETURNS: table
+KEYS: 8
+F CharacterAdded
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=CharacterAdded what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F CharacterRemoving
+  params=3 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=CharacterRemoving what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F Enable
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=Enable what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "warn"
+F GetOcclusionMode
+  params=1 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=GetOcclusionMode what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "warn"
+F OnCameraSubjectChanged
+  params=2 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=OnCameraSubjectChanged what=Lua protos=0[]
+  up1: ERR
+  consts total=0
+F Update
+  params=4 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=Update what=Lua protos=0[]
+  up1: ERR
+  consts total=1
+  [1] str "warn"
+K __index :table keys=8
+  {["CharacterRemoving"]=<function:function: 0x139e1e116d744360>, ["Update"]=<function:function: 0x4263be3fccd14dce>, ["OnCameraSubjectChanged"]=<function:function: 0x89943af4fdf8ef6b>, ["GetOcclusionMode"]=<function:function: 0xb5b0b5170ec752a2>, ["Enable"]=<function:function: 0x4f618c77380b6283>, ["CharacterAdded"]=<function:function: 0x5de8201424f65958>, ["__index"]=<cycle>, ["new"]=<function:function: 0x32874f2f8a5cc6fd>}
+F new
+  params=0 src=StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule:? cname=new what=Lua protos=0[]
+  up1: table keys=8 {CharacterRemoving:function, Update:function, OnCameraSubjectChanged:function, GetOcclusionMode:function, Enable:function, CharacterAdded:function, __index:table, new:function}
+  up2: ERR
+  consts total=1
+  [1] str "setmetatable"

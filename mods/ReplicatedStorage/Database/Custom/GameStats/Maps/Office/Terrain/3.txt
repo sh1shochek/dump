@@ -1,0 +1,1964 @@
+PATH: ReplicatedStorage.Database.Custom.GameStats.Maps.Office.Terrain.3
+REQUIRE: ok
+RETURNS: table
+KEYS: 980
+K 1 :table keys=5
+  {["y"]=2, ["x"]=62, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.23}
+K 10 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.2}
+K 100 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.01}
+K 101 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.04}
+K 102 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=26, ["material"]="Snow", ["occupancy"]=0.05}
+K 103 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.13}
+K 104 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.19}
+K 105 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=46, ["material"]="Rock", ["occupancy"]=1}
+K 106 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=47, ["material"]="Rock", ["occupancy"]=1}
+K 107 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=48, ["material"]="Rock", ["occupancy"]=1}
+K 108 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=49, ["material"]="Rock", ["occupancy"]=1}
+K 109 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=50, ["material"]="Rock", ["occupancy"]=1}
+K 11 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.23}
+K 110 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=51, ["material"]="Rock", ["occupancy"]=1}
+K 111 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=52, ["material"]="Rock", ["occupancy"]=1}
+K 112 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.39}
+K 113 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=54, ["material"]="Mud", ["occupancy"]=1}
+K 114 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=55, ["material"]="Mud", ["occupancy"]=1}
+K 115 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.87}
+K 116 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=57, ["material"]="Snow", ["occupancy"]=0.94}
+K 117 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.07}
+K 118 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=2, ["material"]="Snow", ["occupancy"]=0.73}
+K 119 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=3, ["material"]="Snow", ["occupancy"]=0.7}
+K 12 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=46, ["material"]="Rock", ["occupancy"]=1}
+K 120 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=4, ["material"]="Snow", ["occupancy"]=0.73}
+K 121 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.73}
+K 122 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.73}
+K 123 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.73}
+K 124 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.73}
+K 125 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.75}
+K 126 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.73}
+K 127 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=11, ["material"]="Snow", ["occupancy"]=0.65}
+K 128 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.75}
+K 129 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.66}
+K 13 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=47, ["material"]="Rock", ["occupancy"]=1}
+K 130 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.7}
+K 131 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=15, ["material"]="Snow", ["occupancy"]=0.73}
+K 132 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.66}
+K 133 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.72}
+K 134 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=18, ["material"]="Snow", ["occupancy"]=0.7}
+K 135 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=19, ["material"]="Snow", ["occupancy"]=0.7}
+K 136 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=20, ["material"]="Snow", ["occupancy"]=0.66}
+K 137 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=21, ["material"]="Snow", ["occupancy"]=0.65}
+K 138 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=22, ["material"]="Snow", ["occupancy"]=0.58}
+K 139 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=23, ["material"]="Snow", ["occupancy"]=0.53}
+K 14 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=48, ["material"]="Rock", ["occupancy"]=1}
+K 140 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=24, ["material"]="Snow", ["occupancy"]=0.54}
+K 141 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.46}
+K 142 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=26, ["material"]="Snow", ["occupancy"]=0.48}
+K 143 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.38}
+K 144 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.48}
+K 145 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=29, ["material"]="Snow", ["occupancy"]=0.48}
+K 146 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=30, ["material"]="Snow", ["occupancy"]=0.48}
+K 147 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=31, ["material"]="Snow", ["occupancy"]=0.48}
+K 148 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=32, ["material"]="Snow", ["occupancy"]=0.39}
+K 149 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=33, ["material"]="Snow", ["occupancy"]=0.29}
+K 15 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=49, ["material"]="Rock", ["occupancy"]=1}
+K 150 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=34, ["material"]="Snow", ["occupancy"]=0.24}
+K 151 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=35, ["material"]="Rock", ["occupancy"]=1}
+K 152 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=36, ["material"]="Rock", ["occupancy"]=1}
+K 153 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=37, ["material"]="Snow", ["occupancy"]=0.46}
+K 154 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.45}
+K 155 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.45}
+K 156 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.45}
+K 157 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.31}
+K 158 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.31}
+K 159 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.42}
+K 16 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=50, ["material"]="Rock", ["occupancy"]=1}
+K 160 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.58}
+K 161 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=45, ["material"]="Mud", ["occupancy"]=0.24}
+K 162 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=46, ["material"]="Mud", ["occupancy"]=0.35}
+K 163 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=47, ["material"]="Mud", ["occupancy"]=0.41}
+K 164 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=48, ["material"]="Snow", ["occupancy"]=0.43}
+K 165 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=49, ["material"]="Snow", ["occupancy"]=0.61}
+K 166 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=50, ["material"]="Snow", ["occupancy"]=0.43}
+K 167 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=51, ["material"]="Snow", ["occupancy"]=0.84}
+K 168 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.51}
+K 169 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.52}
+K 17 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=51, ["material"]="Rock", ["occupancy"]=1}
+K 170 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=54, ["material"]="Mud", ["occupancy"]=0.42}
+K 171 :table keys=5
+  {["y"]=5, ["x"]=63, ["z"]=55, ["material"]="Mud", ["occupancy"]=0.16}
+K 172 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.1}
+K 173 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.07}
+K 174 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.02}
+K 175 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.06}
+K 176 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=31, ["material"]="Snow", ["occupancy"]=0.06}
+K 177 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=32, ["material"]="Snow", ["occupancy"]=0.21}
+K 178 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=33, ["material"]="Snow", ["occupancy"]=0.16}
+K 179 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=34, ["material"]="Snow", ["occupancy"]=0.18}
+K 18 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=52, ["material"]="Rock", ["occupancy"]=1}
+K 180 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=35, ["material"]="Snow", ["occupancy"]=0.31}
+K 181 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=36, ["material"]="Snow", ["occupancy"]=0.4}
+K 182 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=37, ["material"]="Snow", ["occupancy"]=0.35}
+K 183 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.34}
+K 184 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.34}
+K 185 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.21}
+K 186 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.13}
+K 187 :table keys=5
+  {["y"]=6, ["x"]=63, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.01}
+K 188 :table keys=5
+  {["y"]=2, ["x"]=64, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.35}
+K 189 :table keys=5
+  {["y"]=2, ["x"]=64, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.35}
+K 19 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.23}
+K 190 :table keys=5
+  {["y"]=2, ["x"]=64, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.35}
+K 191 :table keys=5
+  {["y"]=2, ["x"]=64, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 192 :table keys=5
+  {["y"]=3, ["x"]=64, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.39}
+K 193 :table keys=5
+  {["y"]=3, ["x"]=64, ["z"]=54, ["material"]="Snow", ["occupancy"]=1}
+K 194 :table keys=5
+  {["y"]=3, ["x"]=64, ["z"]=55, ["material"]="Snow", ["occupancy"]=1}
+K 195 :table keys=5
+  {["y"]=3, ["x"]=64, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 196 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.1}
+K 197 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.01}
+K 198 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.11}
+K 199 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=24, ["material"]="Snow", ["occupancy"]=0.01}
+K 2 :table keys=5
+  {["y"]=3, ["x"]=62, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.23}
+K 20 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=54, ["material"]="Rock", ["occupancy"]=1}
+K 200 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.09}
+K 201 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=37, ["material"]="Snow", ["occupancy"]=0.1}
+K 202 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=38, ["material"]="Snow", ["occupancy"]=0}
+K 203 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.11}
+K 204 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=46, ["material"]="Rock", ["occupancy"]=1}
+K 205 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=47, ["material"]="Rock", ["occupancy"]=1}
+K 206 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=48, ["material"]="Rock", ["occupancy"]=1}
+K 207 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=49, ["material"]="Rock", ["occupancy"]=1}
+K 208 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=50, ["material"]="Rock", ["occupancy"]=1}
+K 209 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=51, ["material"]="Rock", ["occupancy"]=1}
+K 21 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.3}
+K 210 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=52, ["material"]="Rock", ["occupancy"]=1}
+K 211 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.39}
+K 212 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=54, ["material"]="Mud", ["occupancy"]=1}
+K 213 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=55, ["material"]="Mud", ["occupancy"]=0.96}
+K 214 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.95}
+K 215 :table keys=5
+  {["y"]=4, ["x"]=64, ["z"]=57, ["material"]="Snow", ["occupancy"]=0.95}
+K 216 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.42}
+K 217 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=2, ["material"]="Snow", ["occupancy"]=0.75}
+K 218 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=3, ["material"]="Snow", ["occupancy"]=0.75}
+K 219 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=4, ["material"]="Snow", ["occupancy"]=0.67}
+K 22 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=56, ["material"]="Snow", ["occupancy"]=1}
+K 220 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.75}
+K 221 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.75}
+K 222 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.75}
+K 223 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.75}
+K 224 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.57}
+K 225 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.75}
+K 226 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=11, ["material"]="Snow", ["occupancy"]=0.62}
+K 227 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.64}
+K 228 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.7}
+K 229 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.65}
+K 23 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=57, ["material"]="Snow", ["occupancy"]=0.96}
+K 230 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=15, ["material"]="Snow", ["occupancy"]=0.71}
+K 231 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.67}
+K 232 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.66}
+K 233 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=18, ["material"]="Snow", ["occupancy"]=0.7}
+K 234 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=19, ["material"]="Snow", ["occupancy"]=0.66}
+K 235 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=20, ["material"]="Snow", ["occupancy"]=0.67}
+K 236 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=21, ["material"]="Snow", ["occupancy"]=0.53}
+K 237 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=22, ["material"]="Snow", ["occupancy"]=0.61}
+K 238 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=23, ["material"]="Snow", ["occupancy"]=0.57}
+K 239 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=24, ["material"]="Snow", ["occupancy"]=0.57}
+K 24 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.28}
+K 240 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.52}
+K 241 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=26, ["material"]="Snow", ["occupancy"]=0.47}
+K 242 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.48}
+K 243 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.41}
+K 244 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=29, ["material"]="Snow", ["occupancy"]=0.38}
+K 245 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=30, ["material"]="Snow", ["occupancy"]=1}
+K 246 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=31, ["material"]="Snow", ["occupancy"]=1}
+K 247 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=32, ["material"]="Rock", ["occupancy"]=1}
+K 248 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=33, ["material"]="Rock", ["occupancy"]=1}
+K 249 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=34, ["material"]="Rock", ["occupancy"]=1}
+K 25 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=2, ["material"]="Snow", ["occupancy"]=0.75}
+K 250 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=35, ["material"]="Rock", ["occupancy"]=1}
+K 251 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=36, ["material"]="Rock", ["occupancy"]=1}
+K 252 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=37, ["material"]="Rock", ["occupancy"]=1}
+K 253 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=38, ["material"]="Rock", ["occupancy"]=1}
+K 254 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=39, ["material"]="Rock", ["occupancy"]=1}
+K 255 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.45}
+K 256 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.31}
+K 257 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.42}
+K 258 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.6}
+K 259 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.31}
+K 26 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=3, ["material"]="Snow", ["occupancy"]=0.75}
+K 260 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.78}
+K 261 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=46, ["material"]="Mud", ["occupancy"]=0.38}
+K 262 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=47, ["material"]="Mud", ["occupancy"]=0.42}
+K 263 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=48, ["material"]="Mud", ["occupancy"]=0.4}
+K 264 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=49, ["material"]="Mud", ["occupancy"]=0.4}
+K 265 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=50, ["material"]="Snow", ["occupancy"]=0.58}
+K 266 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=51, ["material"]="Snow", ["occupancy"]=0.39}
+K 267 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.48}
+K 268 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.3}
+K 269 :table keys=5
+  {["y"]=5, ["x"]=64, ["z"]=54, ["material"]="Mud", ["occupancy"]=0.15}
+K 27 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=4, ["material"]="Snow", ["occupancy"]=0.75}
+K 270 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=11, ["material"]="Snow", ["occupancy"]=0.14}
+K 271 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.16}
+K 272 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.04}
+K 273 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.01}
+K 274 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=15, ["material"]="Snow", ["occupancy"]=0.09}
+K 275 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.12}
+K 276 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.15}
+K 277 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=18, ["material"]="Snow", ["occupancy"]=0.17}
+K 278 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=19, ["material"]="Snow", ["occupancy"]=0.13}
+K 279 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=20, ["material"]="Snow", ["occupancy"]=0.11}
+K 28 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.75}
+K 280 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=21, ["material"]="Snow", ["occupancy"]=0.09}
+K 281 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.13}
+K 282 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.31}
+K 283 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=29, ["material"]="Snow", ["occupancy"]=0.38}
+K 284 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=30, ["material"]="Snow", ["occupancy"]=0.38}
+K 285 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=31, ["material"]="Snow", ["occupancy"]=0.53}
+K 286 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=32, ["material"]="Snow", ["occupancy"]=0.52}
+K 287 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=33, ["material"]="Snow", ["occupancy"]=0.43}
+K 288 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=34, ["material"]="Snow", ["occupancy"]=0.52}
+K 289 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=35, ["material"]="Snow", ["occupancy"]=0.5}
+K 29 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.74}
+K 290 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=36, ["material"]="Snow", ["occupancy"]=0.4}
+K 291 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=37, ["material"]="Snow", ["occupancy"]=0.38}
+K 292 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.39}
+K 293 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.42}
+K 294 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.36}
+K 295 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.15}
+K 296 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.09}
+K 297 :table keys=5
+  {["y"]=6, ["x"]=64, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.12}
+K 298 :table keys=5
+  {["y"]=7, ["x"]=64, ["z"]=34, ["material"]="Snow", ["occupancy"]=0.04}
+K 299 :table keys=5
+  {["y"]=7, ["x"]=64, ["z"]=35, ["material"]="Snow", ["occupancy"]=0.09}
+K 3 :table keys=5
+  {["y"]=3, ["x"]=62, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.23}
+K 30 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.75}
+K 300 :table keys=5
+  {["y"]=2, ["x"]=65, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.35}
+K 301 :table keys=5
+  {["y"]=2, ["x"]=65, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.35}
+K 302 :table keys=5
+  {["y"]=2, ["x"]=65, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.35}
+K 303 :table keys=5
+  {["y"]=2, ["x"]=65, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 304 :table keys=5
+  {["y"]=3, ["x"]=65, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.08}
+K 305 :table keys=5
+  {["y"]=3, ["x"]=65, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.39}
+K 306 :table keys=5
+  {["y"]=3, ["x"]=65, ["z"]=54, ["material"]="Snow", ["occupancy"]=1}
+K 307 :table keys=5
+  {["y"]=3, ["x"]=65, ["z"]=55, ["material"]="Snow", ["occupancy"]=1}
+K 308 :table keys=5
+  {["y"]=3, ["x"]=65, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 309 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.03}
+K 31 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.75}
+K 310 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.04}
+K 311 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.02}
+K 312 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.05}
+K 313 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=21, ["material"]="Snow", ["occupancy"]=0.02}
+K 314 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=23, ["material"]="Snow", ["occupancy"]=0.06}
+K 315 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=24, ["material"]="Snow", ["occupancy"]=0.09}
+K 316 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.14}
+K 317 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=36, ["material"]="Snow", ["occupancy"]=0.05}
+K 318 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=37, ["material"]="Snow", ["occupancy"]=0.15}
+K 319 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.09}
+K 32 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.71}
+K 320 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=46, ["material"]="Rock", ["occupancy"]=1}
+K 321 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=47, ["material"]="Rock", ["occupancy"]=1}
+K 322 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=48, ["material"]="Rock", ["occupancy"]=1}
+K 323 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=49, ["material"]="Rock", ["occupancy"]=1}
+K 324 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=50, ["material"]="Rock", ["occupancy"]=1}
+K 325 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=51, ["material"]="Rock", ["occupancy"]=1}
+K 326 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=52, ["material"]="Rock", ["occupancy"]=1}
+K 327 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.4}
+K 328 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=54, ["material"]="Mud", ["occupancy"]=1}
+K 329 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=55, ["material"]="Mud", ["occupancy"]=0.98}
+K 33 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.75}
+K 330 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.85}
+K 331 :table keys=5
+  {["y"]=4, ["x"]=65, ["z"]=57, ["material"]="Snow", ["occupancy"]=0.97}
+K 332 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.09}
+K 333 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=2, ["material"]="Snow", ["occupancy"]=0.75}
+K 334 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=3, ["material"]="Snow", ["occupancy"]=0.75}
+K 335 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=4, ["material"]="Snow", ["occupancy"]=0.75}
+K 336 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.63}
+K 337 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.75}
+K 338 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.75}
+K 339 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.52}
+K 34 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=11, ["material"]="Snow", ["occupancy"]=0.64}
+K 340 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.75}
+K 341 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.75}
+K 342 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=11, ["material"]="Snow", ["occupancy"]=0.75}
+K 343 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.63}
+K 344 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.75}
+K 345 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.64}
+K 346 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=15, ["material"]="Snow", ["occupancy"]=0.74}
+K 347 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.72}
+K 348 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.69}
+K 349 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=18, ["material"]="Snow", ["occupancy"]=0.73}
+K 35 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.75}
+K 350 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=19, ["material"]="Snow", ["occupancy"]=0.55}
+K 351 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=20, ["material"]="Snow", ["occupancy"]=0.59}
+K 352 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=21, ["material"]="Snow", ["occupancy"]=0.54}
+K 353 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=22, ["material"]="Snow", ["occupancy"]=0.62}
+K 354 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=23, ["material"]="Snow", ["occupancy"]=0.56}
+K 355 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=24, ["material"]="Snow", ["occupancy"]=0.57}
+K 356 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.51}
+K 357 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=26, ["material"]="Snow", ["occupancy"]=0.46}
+K 358 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.41}
+K 359 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=28, ["material"]="Snow", ["occupancy"]=1}
+K 36 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.64}
+K 360 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=29, ["material"]="Snow", ["occupancy"]=1}
+K 361 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=30, ["material"]="Snow", ["occupancy"]=1}
+K 362 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=31, ["material"]="Rock", ["occupancy"]=1}
+K 363 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=32, ["material"]="Rock", ["occupancy"]=1}
+K 364 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=33, ["material"]="Rock", ["occupancy"]=1}
+K 365 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=34, ["material"]="Rock", ["occupancy"]=1}
+K 366 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=35, ["material"]="Rock", ["occupancy"]=1}
+K 367 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=36, ["material"]="Rock", ["occupancy"]=1}
+K 368 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=37, ["material"]="Rock", ["occupancy"]=1}
+K 369 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.39}
+K 37 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.73}
+K 370 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=39, ["material"]="Rock", ["occupancy"]=1}
+K 371 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.43}
+K 372 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.43}
+K 373 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.48}
+K 374 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.53}
+K 375 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.91}
+K 376 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.45}
+K 377 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.68}
+K 378 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=47, ["material"]="Snow", ["occupancy"]=0.41}
+K 379 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=48, ["material"]="Mud", ["occupancy"]=0.28}
+K 38 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=15, ["material"]="Snow", ["occupancy"]=0.65}
+K 380 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=49, ["material"]="Mud", ["occupancy"]=0.35}
+K 381 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=50, ["material"]="Mud", ["occupancy"]=0.44}
+K 382 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=51, ["material"]="Mud", ["occupancy"]=0.24}
+K 383 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=52, ["material"]="Mud", ["occupancy"]=0.39}
+K 384 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=53, ["material"]="Mud", ["occupancy"]=0.16}
+K 385 :table keys=5
+  {["y"]=5, ["x"]=65, ["z"]=54, ["material"]="Mud", ["occupancy"]=0.01}
+K 386 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=2, ["material"]="Snow", ["occupancy"]=0.01}
+K 387 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=3, ["material"]="Snow", ["occupancy"]=0.02}
+K 388 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=11, ["material"]="Snow", ["occupancy"]=0.11}
+K 389 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.02}
+K 39 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.67}
+K 390 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=15, ["material"]="Snow", ["occupancy"]=0.05}
+K 391 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.01}
+K 392 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.05}
+K 393 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=26, ["material"]="Snow", ["occupancy"]=0.12}
+K 394 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.29}
+K 395 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.39}
+K 396 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=29, ["material"]="Snow", ["occupancy"]=0.48}
+K 397 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=30, ["material"]="Snow", ["occupancy"]=0.43}
+K 398 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=31, ["material"]="Snow", ["occupancy"]=0.48}
+K 399 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=32, ["material"]="Snow", ["occupancy"]=0.45}
+K 4 :table keys=5
+  {["y"]=3, ["x"]=62, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.23}
+K 40 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.71}
+K 400 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=33, ["material"]="Snow", ["occupancy"]=0.49}
+K 401 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=34, ["material"]="Snow", ["occupancy"]=0.41}
+K 402 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=35, ["material"]="Snow", ["occupancy"]=0.41}
+K 403 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=36, ["material"]="Snow", ["occupancy"]=0.41}
+K 404 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=37, ["material"]="Snow", ["occupancy"]=0.41}
+K 405 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.37}
+K 406 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.43}
+K 407 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.4}
+K 408 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.17}
+K 409 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.08}
+K 41 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=18, ["material"]="Snow", ["occupancy"]=0.63}
+K 410 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.11}
+K 411 :table keys=5
+  {["y"]=6, ["x"]=65, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.01}
+K 412 :table keys=5
+  {["y"]=7, ["x"]=65, ["z"]=31, ["material"]="Snow", ["occupancy"]=0.03}
+K 413 :table keys=5
+  {["y"]=7, ["x"]=65, ["z"]=32, ["material"]="Snow", ["occupancy"]=0.18}
+K 414 :table keys=5
+  {["y"]=7, ["x"]=65, ["z"]=33, ["material"]="Snow", ["occupancy"]=0.34}
+K 415 :table keys=5
+  {["y"]=7, ["x"]=65, ["z"]=34, ["material"]="Snow", ["occupancy"]=0.29}
+K 416 :table keys=5
+  {["y"]=7, ["x"]=65, ["z"]=35, ["material"]="Snow", ["occupancy"]=0.11}
+K 417 :table keys=5
+  {["y"]=2, ["x"]=66, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.35}
+K 418 :table keys=5
+  {["y"]=2, ["x"]=66, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.35}
+K 419 :table keys=5
+  {["y"]=2, ["x"]=66, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.35}
+K 42 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=19, ["material"]="Snow", ["occupancy"]=0.66}
+K 420 :table keys=5
+  {["y"]=2, ["x"]=66, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 421 :table keys=5
+  {["y"]=3, ["x"]=66, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.09}
+K 422 :table keys=5
+  {["y"]=3, ["x"]=66, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.39}
+K 423 :table keys=5
+  {["y"]=3, ["x"]=66, ["z"]=54, ["material"]="Snow", ["occupancy"]=1}
+K 424 :table keys=5
+  {["y"]=3, ["x"]=66, ["z"]=55, ["material"]="Snow", ["occupancy"]=1}
+K 425 :table keys=5
+  {["y"]=3, ["x"]=66, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 426 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.03}
+K 427 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.06}
+K 428 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.04}
+K 429 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.05}
+K 43 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=20, ["material"]="Snow", ["occupancy"]=0.67}
+K 430 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.02}
+K 431 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.02}
+K 432 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.02}
+K 433 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.07}
+K 434 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=15, ["material"]="Snow", ["occupancy"]=0.04}
+K 435 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.08}
+K 436 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.08}
+K 437 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=18, ["material"]="Snow", ["occupancy"]=0.1}
+K 438 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=19, ["material"]="Snow", ["occupancy"]=0.12}
+K 439 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=20, ["material"]="Snow", ["occupancy"]=0.11}
+K 44 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=21, ["material"]="Snow", ["occupancy"]=0.63}
+K 440 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=21, ["material"]="Snow", ["occupancy"]=0.12}
+K 441 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=22, ["material"]="Snow", ["occupancy"]=0.14}
+K 442 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=23, ["material"]="Snow", ["occupancy"]=0.14}
+K 443 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=24, ["material"]="Snow", ["occupancy"]=0.18}
+K 444 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.21}
+K 445 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.25}
+K 446 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=46, ["material"]="Rock", ["occupancy"]=1}
+K 447 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=47, ["material"]="Rock", ["occupancy"]=1}
+K 448 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=48, ["material"]="Rock", ["occupancy"]=1}
+K 449 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=49, ["material"]="Rock", ["occupancy"]=1}
+K 45 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=22, ["material"]="Snow", ["occupancy"]=0.64}
+K 450 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=50, ["material"]="Rock", ["occupancy"]=1}
+K 451 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=51, ["material"]="Rock", ["occupancy"]=1}
+K 452 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=52, ["material"]="Rock", ["occupancy"]=1}
+K 453 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.41}
+K 454 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=54, ["material"]="Mud", ["occupancy"]=1}
+K 455 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=55, ["material"]="Mud", ["occupancy"]=1}
+K 456 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.99}
+K 457 :table keys=5
+  {["y"]=4, ["x"]=66, ["z"]=57, ["material"]="Snow", ["occupancy"]=0.99}
+K 458 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.08}
+K 459 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=2, ["material"]="Snow", ["occupancy"]=0.75}
+K 46 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=23, ["material"]="Snow", ["occupancy"]=0.54}
+K 460 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=3, ["material"]="Snow", ["occupancy"]=0.75}
+K 461 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=4, ["material"]="Snow", ["occupancy"]=0.75}
+K 462 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.51}
+K 463 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.73}
+K 464 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.72}
+K 465 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.72}
+K 466 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.73}
+K 467 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.75}
+K 468 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=11, ["material"]="Snow", ["occupancy"]=0.75}
+K 469 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.63}
+K 47 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=24, ["material"]="Snow", ["occupancy"]=0.6}
+K 470 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.52}
+K 471 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.68}
+K 472 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=15, ["material"]="Snow", ["occupancy"]=0.73}
+K 473 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.71}
+K 474 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.68}
+K 475 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=18, ["material"]="Snow", ["occupancy"]=0.49}
+K 476 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=19, ["material"]="Snow", ["occupancy"]=0.67}
+K 477 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=20, ["material"]="Snow", ["occupancy"]=0.66}
+K 478 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=21, ["material"]="Snow", ["occupancy"]=0.59}
+K 479 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=22, ["material"]="Snow", ["occupancy"]=0.61}
+K 48 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.46}
+K 480 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=23, ["material"]="Snow", ["occupancy"]=0.59}
+K 481 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=24, ["material"]="Snow", ["occupancy"]=0.57}
+K 482 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.52}
+K 483 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=26, ["material"]="Snow", ["occupancy"]=0.61}
+K 484 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.43}
+K 485 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.44}
+K 486 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=29, ["material"]="Rock", ["occupancy"]=1}
+K 487 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=30, ["material"]="Rock", ["occupancy"]=1}
+K 488 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=31, ["material"]="Rock", ["occupancy"]=1}
+K 489 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=32, ["material"]="Snow", ["occupancy"]=0.07}
+K 49 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=26, ["material"]="Snow", ["occupancy"]=0.48}
+K 490 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=34, ["material"]="Snow", ["occupancy"]=0.13}
+K 491 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=35, ["material"]="Snow", ["occupancy"]=0.17}
+K 492 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=36, ["material"]="Snow", ["occupancy"]=0.26}
+K 493 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=37, ["material"]="Snow", ["occupancy"]=0.39}
+K 494 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.46}
+K 495 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.42}
+K 496 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.43}
+K 497 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.44}
+K 498 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.5}
+K 499 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.48}
+K 5 :table keys=5
+  {["y"]=3, ["x"]=62, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.23}
+K 50 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.48}
+K 500 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.46}
+K 501 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.79}
+K 502 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.73}
+K 503 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=47, ["material"]="Snow", ["occupancy"]=0.35}
+K 504 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=48, ["material"]="Snow", ["occupancy"]=0.4}
+K 505 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=49, ["material"]="Snow", ["occupancy"]=0.25}
+K 506 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=50, ["material"]="Mud", ["occupancy"]=0.39}
+K 507 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=51, ["material"]="Mud", ["occupancy"]=0.35}
+K 508 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=52, ["material"]="Mud", ["occupancy"]=0.41}
+K 509 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=53, ["material"]="Mud", ["occupancy"]=0.2}
+K 51 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.48}
+K 510 :table keys=5
+  {["y"]=5, ["x"]=66, ["z"]=54, ["material"]="Mud", ["occupancy"]=0.09}
+K 511 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.03}
+K 512 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.14}
+K 513 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.34}
+K 514 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=29, ["material"]="Snow", ["occupancy"]=0.45}
+K 515 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=30, ["material"]="Snow", ["occupancy"]=0.48}
+K 516 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=31, ["material"]="Snow", ["occupancy"]=0.48}
+K 517 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=32, ["material"]="Snow", ["occupancy"]=0.41}
+K 518 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=33, ["material"]="Snow", ["occupancy"]=0.41}
+K 519 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=34, ["material"]="Snow", ["occupancy"]=0.52}
+K 52 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=29, ["material"]="Snow", ["occupancy"]=0.44}
+K 520 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=35, ["material"]="Snow", ["occupancy"]=0.41}
+K 521 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=36, ["material"]="Snow", ["occupancy"]=0.41}
+K 522 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=37, ["material"]="Snow", ["occupancy"]=0.26}
+K 523 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.12}
+K 524 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.38}
+K 525 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.14}
+K 526 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.05}
+K 527 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.12}
+K 528 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.16}
+K 529 :table keys=5
+  {["y"]=6, ["x"]=66, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.23}
+K 53 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=30, ["material"]="Snow", ["occupancy"]=0.48}
+K 530 :table keys=5
+  {["y"]=2, ["x"]=67, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.35}
+K 531 :table keys=5
+  {["y"]=2, ["x"]=67, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.35}
+K 532 :table keys=5
+  {["y"]=2, ["x"]=67, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.35}
+K 533 :table keys=5
+  {["y"]=2, ["x"]=67, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 534 :table keys=5
+  {["y"]=3, ["x"]=67, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.11}
+K 535 :table keys=5
+  {["y"]=3, ["x"]=67, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.39}
+K 536 :table keys=5
+  {["y"]=3, ["x"]=67, ["z"]=54, ["material"]="Snow", ["occupancy"]=1}
+K 537 :table keys=5
+  {["y"]=3, ["x"]=67, ["z"]=55, ["material"]="Snow", ["occupancy"]=1}
+K 538 :table keys=5
+  {["y"]=3, ["x"]=67, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 539 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.1}
+K 54 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=31, ["material"]="Snow", ["occupancy"]=0.5}
+K 540 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.04}
+K 541 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.07}
+K 542 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.07}
+K 543 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.08}
+K 544 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.05}
+K 545 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.04}
+K 546 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.08}
+K 547 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.13}
+K 548 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=15, ["material"]="Snow", ["occupancy"]=0.11}
+K 549 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.12}
+K 55 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=32, ["material"]="Snow", ["occupancy"]=0.48}
+K 550 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.13}
+K 551 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=18, ["material"]="Snow", ["occupancy"]=0.16}
+K 552 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=19, ["material"]="Snow", ["occupancy"]=0.15}
+K 553 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=20, ["material"]="Snow", ["occupancy"]=0.16}
+K 554 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=21, ["material"]="Snow", ["occupancy"]=0.17}
+K 555 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=22, ["material"]="Snow", ["occupancy"]=0.12}
+K 556 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=23, ["material"]="Snow", ["occupancy"]=0.1}
+K 557 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.17}
+K 558 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.27}
+K 559 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.32}
+K 56 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=33, ["material"]="Snow", ["occupancy"]=0.38}
+K 560 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=46, ["material"]="Rock", ["occupancy"]=1}
+K 561 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=47, ["material"]="Rock", ["occupancy"]=1}
+K 562 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=48, ["material"]="Rock", ["occupancy"]=1}
+K 563 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=49, ["material"]="Rock", ["occupancy"]=1}
+K 564 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=50, ["material"]="Rock", ["occupancy"]=1}
+K 565 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=51, ["material"]="Rock", ["occupancy"]=1}
+K 566 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.39}
+K 567 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.41}
+K 568 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=54, ["material"]="Mud", ["occupancy"]=1}
+K 569 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=55, ["material"]="Mud", ["occupancy"]=1}
+K 57 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=34, ["material"]="Snow", ["occupancy"]=0.34}
+K 570 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.98}
+K 571 :table keys=5
+  {["y"]=4, ["x"]=67, ["z"]=57, ["material"]="Snow", ["occupancy"]=0.94}
+K 572 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.55}
+K 573 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=2, ["material"]="Snow", ["occupancy"]=0.75}
+K 574 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=3, ["material"]="Snow", ["occupancy"]=0.75}
+K 575 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=4, ["material"]="Snow", ["occupancy"]=0.54}
+K 576 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.72}
+K 577 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.68}
+K 578 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.68}
+K 579 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.69}
+K 58 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=35, ["material"]="Snow", ["occupancy"]=0.32}
+K 580 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.71}
+K 581 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.74}
+K 582 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=11, ["material"]="Snow", ["occupancy"]=0.75}
+K 583 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.64}
+K 584 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.54}
+K 585 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.66}
+K 586 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=15, ["material"]="Snow", ["occupancy"]=0.65}
+K 587 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.64}
+K 588 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.55}
+K 589 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=18, ["material"]="Snow", ["occupancy"]=0.62}
+K 59 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=36, ["material"]="Snow", ["occupancy"]=0.38}
+K 590 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=19, ["material"]="Snow", ["occupancy"]=0.61}
+K 591 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=20, ["material"]="Snow", ["occupancy"]=0.59}
+K 592 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=21, ["material"]="Snow", ["occupancy"]=0.41}
+K 593 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=22, ["material"]="Snow", ["occupancy"]=0.18}
+K 594 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=23, ["material"]="Snow", ["occupancy"]=0.15}
+K 595 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.61}
+K 596 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=26, ["material"]="Snow", ["occupancy"]=0.75}
+K 597 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.64}
+K 598 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.44}
+K 599 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=29, ["material"]="Rock", ["occupancy"]=1}
+K 6 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.01}
+K 60 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=37, ["material"]="Snow", ["occupancy"]=0.46}
+K 600 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=30, ["material"]="Rock", ["occupancy"]=1}
+K 601 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=31, ["material"]="Rock", ["occupancy"]=1}
+K 602 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.51}
+K 603 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.42}
+K 604 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.45}
+K 605 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.48}
+K 606 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.47}
+K 607 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.64}
+K 608 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.68}
+K 609 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.72}
+K 61 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.46}
+K 610 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=46, ["material"]="Snow", ["occupancy"]=1}
+K 611 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=47, ["material"]="Snow", ["occupancy"]=0.56}
+K 612 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=48, ["material"]="Snow", ["occupancy"]=0.36}
+K 613 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=49, ["material"]="Snow", ["occupancy"]=0.28}
+K 614 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=50, ["material"]="Snow", ["occupancy"]=0.18}
+K 615 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=51, ["material"]="Snow", ["occupancy"]=0.23}
+K 616 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.29}
+K 617 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=53, ["material"]="Mud", ["occupancy"]=0.14}
+K 618 :table keys=5
+  {["y"]=5, ["x"]=67, ["z"]=54, ["material"]="Mud", ["occupancy"]=0.02}
+K 619 :table keys=5
+  {["y"]=6, ["x"]=67, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.11}
+K 62 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.34}
+K 620 :table keys=5
+  {["y"]=6, ["x"]=67, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.34}
+K 621 :table keys=5
+  {["y"]=6, ["x"]=67, ["z"]=29, ["material"]="Snow", ["occupancy"]=0.46}
+K 622 :table keys=5
+  {["y"]=6, ["x"]=67, ["z"]=30, ["material"]="Snow", ["occupancy"]=0.6}
+K 623 :table keys=5
+  {["y"]=6, ["x"]=67, ["z"]=31, ["material"]="Snow", ["occupancy"]=0.54}
+K 624 :table keys=5
+  {["y"]=6, ["x"]=67, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.09}
+K 625 :table keys=5
+  {["y"]=6, ["x"]=67, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.05}
+K 626 :table keys=5
+  {["y"]=6, ["x"]=67, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.1}
+K 627 :table keys=5
+  {["y"]=6, ["x"]=67, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.13}
+K 628 :table keys=5
+  {["y"]=6, ["x"]=67, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.16}
+K 629 :table keys=5
+  {["y"]=6, ["x"]=67, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.26}
+K 63 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.33}
+K 630 :table keys=5
+  {["y"]=6, ["x"]=67, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.03}
+K 631 :table keys=5
+  {["y"]=2, ["x"]=68, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.35}
+K 632 :table keys=5
+  {["y"]=2, ["x"]=68, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.35}
+K 633 :table keys=5
+  {["y"]=2, ["x"]=68, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.35}
+K 634 :table keys=5
+  {["y"]=2, ["x"]=68, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 635 :table keys=5
+  {["y"]=3, ["x"]=68, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.08}
+K 636 :table keys=5
+  {["y"]=3, ["x"]=68, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.39}
+K 637 :table keys=5
+  {["y"]=3, ["x"]=68, ["z"]=54, ["material"]="Snow", ["occupancy"]=1}
+K 638 :table keys=5
+  {["y"]=3, ["x"]=68, ["z"]=55, ["material"]="Snow", ["occupancy"]=1}
+K 639 :table keys=5
+  {["y"]=3, ["x"]=68, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 64 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.31}
+K 640 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.03}
+K 641 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=4, ["material"]="Snow", ["occupancy"]=0.05}
+K 642 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.11}
+K 643 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.11}
+K 644 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.12}
+K 645 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.11}
+K 646 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.1}
+K 647 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.07}
+K 648 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=11, ["material"]="Snow", ["occupancy"]=0.02}
+K 649 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.08}
+K 65 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.31}
+K 650 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.14}
+K 651 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.14}
+K 652 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=15, ["material"]="Snow", ["occupancy"]=0.15}
+K 653 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.16}
+K 654 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.17}
+K 655 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=18, ["material"]="Snow", ["occupancy"]=0.13}
+K 656 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=19, ["material"]="Snow", ["occupancy"]=0.16}
+K 657 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.17}
+K 658 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.27}
+K 659 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.38}
+K 66 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.43}
+K 660 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=46, ["material"]="Rock", ["occupancy"]=1}
+K 661 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=47, ["material"]="Rock", ["occupancy"]=1}
+K 662 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=48, ["material"]="Rock", ["occupancy"]=1}
+K 663 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=49, ["material"]="Rock", ["occupancy"]=1}
+K 664 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=50, ["material"]="Rock", ["occupancy"]=1}
+K 665 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=51, ["material"]="Rock", ["occupancy"]=1}
+K 666 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=52, ["material"]="Rock", ["occupancy"]=1}
+K 667 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.39}
+K 668 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=54, ["material"]="Mud", ["occupancy"]=1}
+K 669 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=55, ["material"]="Mud", ["occupancy"]=1}
+K 67 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=44, ["material"]="Mud", ["occupancy"]=0.42}
+K 670 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.63}
+K 671 :table keys=5
+  {["y"]=4, ["x"]=68, ["z"]=57, ["material"]="Snow", ["occupancy"]=0.96}
+K 672 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.06}
+K 673 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=2, ["material"]="Snow", ["occupancy"]=0.75}
+K 674 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=3, ["material"]="Snow", ["occupancy"]=0.75}
+K 675 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=4, ["material"]="Snow", ["occupancy"]=0.73}
+K 676 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.65}
+K 677 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.64}
+K 678 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.64}
+K 679 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.65}
+K 68 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=45, ["material"]="Mud", ["occupancy"]=0.42}
+K 680 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.67}
+K 681 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.71}
+K 682 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=11, ["material"]="Snow", ["occupancy"]=0.75}
+K 683 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.65}
+K 684 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.55}
+K 685 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.62}
+K 686 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=15, ["material"]="Snow", ["occupancy"]=0.61}
+K 687 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=16, ["material"]="Snow", ["occupancy"]=0.6}
+K 688 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=17, ["material"]="Snow", ["occupancy"]=0.42}
+K 689 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=18, ["material"]="Snow", ["occupancy"]=0.18}
+K 69 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=46, ["material"]="Mud", ["occupancy"]=0.42}
+K 690 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=19, ["material"]="Snow", ["occupancy"]=0.2}
+K 691 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.61}
+K 692 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=26, ["material"]="Snow", ["occupancy"]=0.75}
+K 693 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.67}
+K 694 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.44}
+K 695 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=29, ["material"]="Rock", ["occupancy"]=1}
+K 696 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=30, ["material"]="Rock", ["occupancy"]=1}
+K 697 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=31, ["material"]="Rock", ["occupancy"]=1}
+K 698 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.55}
+K 699 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.57}
+K 7 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.04}
+K 70 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=47, ["material"]="Snow", ["occupancy"]=0.42}
+K 700 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.47}
+K 701 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.49}
+K 702 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.57}
+K 703 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.6}
+K 704 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.77}
+K 705 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=45, ["material"]="Snow", ["occupancy"]=1}
+K 706 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.84}
+K 707 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=47, ["material"]="Snow", ["occupancy"]=0.79}
+K 708 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=48, ["material"]="Snow", ["occupancy"]=0.51}
+K 709 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=49, ["material"]="Snow", ["occupancy"]=0.4}
+K 71 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=48, ["material"]="Snow", ["occupancy"]=0.84}
+K 710 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=50, ["material"]="Snow", ["occupancy"]=0.35}
+K 711 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=51, ["material"]="Snow", ["occupancy"]=0.25}
+K 712 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.65}
+K 713 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.59}
+K 714 :table keys=5
+  {["y"]=5, ["x"]=68, ["z"]=54, ["material"]="Mud", ["occupancy"]=0.06}
+K 715 :table keys=5
+  {["y"]=6, ["x"]=68, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.11}
+K 716 :table keys=5
+  {["y"]=6, ["x"]=68, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.34}
+K 717 :table keys=5
+  {["y"]=6, ["x"]=68, ["z"]=29, ["material"]="Snow", ["occupancy"]=0.46}
+K 718 :table keys=5
+  {["y"]=6, ["x"]=68, ["z"]=30, ["material"]="Snow", ["occupancy"]=0.6}
+K 719 :table keys=5
+  {["y"]=6, ["x"]=68, ["z"]=31, ["material"]="Snow", ["occupancy"]=0.54}
+K 72 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=49, ["material"]="Snow", ["occupancy"]=0.84}
+K 720 :table keys=5
+  {["y"]=6, ["x"]=68, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.18}
+K 721 :table keys=5
+  {["y"]=6, ["x"]=68, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.2}
+K 722 :table keys=5
+  {["y"]=6, ["x"]=68, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.21}
+K 723 :table keys=5
+  {["y"]=6, ["x"]=68, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.19}
+K 724 :table keys=5
+  {["y"]=6, ["x"]=68, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.21}
+K 725 :table keys=5
+  {["y"]=6, ["x"]=68, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.23}
+K 726 :table keys=5
+  {["y"]=6, ["x"]=68, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.19}
+K 727 :table keys=5
+  {["y"]=2, ["x"]=69, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.35}
+K 728 :table keys=5
+  {["y"]=2, ["x"]=69, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.35}
+K 729 :table keys=5
+  {["y"]=2, ["x"]=69, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.35}
+K 73 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=50, ["material"]="Snow", ["occupancy"]=1}
+K 730 :table keys=5
+  {["y"]=2, ["x"]=69, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 731 :table keys=5
+  {["y"]=3, ["x"]=69, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.05}
+K 732 :table keys=5
+  {["y"]=3, ["x"]=69, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.39}
+K 733 :table keys=5
+  {["y"]=3, ["x"]=69, ["z"]=54, ["material"]="Snow", ["occupancy"]=1}
+K 734 :table keys=5
+  {["y"]=3, ["x"]=69, ["z"]=55, ["material"]="Snow", ["occupancy"]=1}
+K 735 :table keys=5
+  {["y"]=3, ["x"]=69, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 736 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.05}
+K 737 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=2, ["material"]="Snow", ["occupancy"]=0.02}
+K 738 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=3, ["material"]="Snow", ["occupancy"]=0.06}
+K 739 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=4, ["material"]="Snow", ["occupancy"]=0.13}
+K 74 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=51, ["material"]="Snow", ["occupancy"]=0.35}
+K 740 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.14}
+K 741 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.14}
+K 742 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.14}
+K 743 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.14}
+K 744 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.13}
+K 745 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.12}
+K 746 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=11, ["material"]="Snow", ["occupancy"]=0.09}
+K 747 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.14}
+K 748 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.16}
+K 749 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.18}
+K 75 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.59}
+K 750 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.17}
+K 751 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.21}
+K 752 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.55}
+K 753 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=46, ["material"]="Rock", ["occupancy"]=1}
+K 754 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=47, ["material"]="Rock", ["occupancy"]=1}
+K 755 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=48, ["material"]="Rock", ["occupancy"]=1}
+K 756 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=49, ["material"]="Rock", ["occupancy"]=1}
+K 757 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=50, ["material"]="Rock", ["occupancy"]=1}
+K 758 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=51, ["material"]="Rock", ["occupancy"]=1}
+K 759 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=52, ["material"]="Rock", ["occupancy"]=1}
+K 76 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.39}
+K 760 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.39}
+K 761 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=54, ["material"]="Snow", ["occupancy"]=1}
+K 762 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=55, ["material"]="Snow", ["occupancy"]=1}
+K 763 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=56, ["material"]="Snow", ["occupancy"]=1}
+K 764 :table keys=5
+  {["y"]=4, ["x"]=69, ["z"]=57, ["material"]="Snow", ["occupancy"]=1}
+K 765 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.41}
+K 766 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=2, ["material"]="Snow", ["occupancy"]=0.75}
+K 767 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=3, ["material"]="Snow", ["occupancy"]=0.7}
+K 768 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=4, ["material"]="Snow", ["occupancy"]=0.64}
+K 769 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.62}
+K 77 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.32}
+K 770 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.61}
+K 771 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.61}
+K 772 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.62}
+K 773 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.63}
+K 774 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.66}
+K 775 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=11, ["material"]="Snow", ["occupancy"]=0.68}
+K 776 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=12, ["material"]="Snow", ["occupancy"]=0.63}
+K 777 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=13, ["material"]="Snow", ["occupancy"]=0.42}
+K 778 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=14, ["material"]="Snow", ["occupancy"]=0.3}
+K 779 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.61}
+K 78 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.18}
+K 780 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=26, ["material"]="Snow", ["occupancy"]=0.7}
+K 781 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.67}
+K 782 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.44}
+K 783 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=29, ["material"]="Rock", ["occupancy"]=1}
+K 784 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=30, ["material"]="Rock", ["occupancy"]=1}
+K 785 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=31, ["material"]="Rock", ["occupancy"]=1}
+K 786 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.64}
+K 787 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.75}
+K 788 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=40, ["material"]="Rock", ["occupancy"]=1}
+K 789 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.67}
+K 79 :table keys=5
+  {["y"]=5, ["x"]=62, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.09}
+K 790 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.67}
+K 791 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.74}
+K 792 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.88}
+K 793 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.99}
+K 794 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.99}
+K 795 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=47, ["material"]="Snow", ["occupancy"]=0.86}
+K 796 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=48, ["material"]="Snow", ["occupancy"]=0.39}
+K 797 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=49, ["material"]="Snow", ["occupancy"]=0.75}
+K 798 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=50, ["material"]="Snow", ["occupancy"]=0.62}
+K 799 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=51, ["material"]="Snow", ["occupancy"]=0.69}
+K 8 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.02}
+K 80 :table keys=5
+  {["y"]=6, ["x"]=62, ["z"]=35, ["material"]="Snow", ["occupancy"]=0.01}
+K 800 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.64}
+K 801 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.54}
+K 802 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.4}
+K 803 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.18}
+K 804 :table keys=5
+  {["y"]=5, ["x"]=69, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.07}
+K 805 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.11}
+K 806 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.34}
+K 807 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=29, ["material"]="Snow", ["occupancy"]=0.46}
+K 808 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=30, ["material"]="Snow", ["occupancy"]=0.6}
+K 809 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=31, ["material"]="Snow", ["occupancy"]=0.54}
+K 81 :table keys=5
+  {["y"]=6, ["x"]=62, ["z"]=36, ["material"]="Snow", ["occupancy"]=0.15}
+K 810 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.38}
+K 811 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.4}
+K 812 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.36}
+K 813 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.29}
+K 814 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.19}
+K 815 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.13}
+K 816 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.18}
+K 817 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=46, ["material"]="Snow", ["occupancy"]=0}
+K 818 :table keys=5
+  {["y"]=6, ["x"]=69, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.13}
+K 819 :table keys=5
+  {["y"]=3, ["x"]=70, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.04}
+K 82 :table keys=5
+  {["y"]=6, ["x"]=62, ["z"]=37, ["material"]="Snow", ["occupancy"]=0.16}
+K 820 :table keys=5
+  {["y"]=3, ["x"]=70, ["z"]=47, ["material"]="Snow", ["occupancy"]=0.01}
+K 821 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.05}
+K 822 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=2, ["material"]="Snow", ["occupancy"]=0.1}
+K 823 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=3, ["material"]="Snow", ["occupancy"]=0.15}
+K 824 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=4, ["material"]="Snow", ["occupancy"]=0.16}
+K 825 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.16}
+K 826 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.17}
+K 827 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.17}
+K 828 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.16}
+K 829 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.16}
+K 83 :table keys=5
+  {["y"]=6, ["x"]=62, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.14}
+K 830 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.14}
+K 831 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.17}
+K 832 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.04}
+K 833 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.09}
+K 834 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.2}
+K 835 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.14}
+K 836 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.04}
+K 837 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.39}
+K 838 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.88}
+K 839 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=46, ["material"]="Rock", ["occupancy"]=1}
+K 84 :table keys=5
+  {["y"]=6, ["x"]=62, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.08}
+K 840 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=47, ["material"]="Rock", ["occupancy"]=1}
+K 841 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=48, ["material"]="Rock", ["occupancy"]=1}
+K 842 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=49, ["material"]="Rock", ["occupancy"]=1}
+K 843 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=50, ["material"]="Rock", ["occupancy"]=1}
+K 844 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=51, ["material"]="Rock", ["occupancy"]=1}
+K 845 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=52, ["material"]="Rock", ["occupancy"]=1}
+K 846 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=54, ["material"]="Rock", ["occupancy"]=1}
+K 847 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.34}
+K 848 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=56, ["material"]="Snow", ["occupancy"]=1}
+K 849 :table keys=5
+  {["y"]=4, ["x"]=70, ["z"]=57, ["material"]="Snow", ["occupancy"]=0.49}
+K 85 :table keys=5
+  {["y"]=6, ["x"]=62, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.01}
+K 850 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=1, ["material"]="Snow", ["occupancy"]=0.05}
+K 851 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=2, ["material"]="Snow", ["occupancy"]=0.27}
+K 852 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=3, ["material"]="Snow", ["occupancy"]=0.28}
+K 853 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=4, ["material"]="Snow", ["occupancy"]=0.26}
+K 854 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=5, ["material"]="Snow", ["occupancy"]=0.26}
+K 855 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=6, ["material"]="Snow", ["occupancy"]=0.26}
+K 856 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.59}
+K 857 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=8, ["material"]="Snow", ["occupancy"]=0.26}
+K 858 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=9, ["material"]="Snow", ["occupancy"]=0.26}
+K 859 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=10, ["material"]="Snow", ["occupancy"]=0.26}
+K 86 :table keys=5
+  {["y"]=6, ["x"]=62, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.01}
+K 860 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=25, ["material"]="Snow", ["occupancy"]=0.25}
+K 861 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=26, ["material"]="Snow", ["occupancy"]=0.25}
+K 862 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.25}
+K 863 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.26}
+K 864 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=29, ["material"]="Snow", ["occupancy"]=0.3}
+K 865 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=30, ["material"]="Snow", ["occupancy"]=0.17}
+K 866 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=31, ["material"]="Snow", ["occupancy"]=0.04}
+K 867 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=38, ["material"]="Snow", ["occupancy"]=0.68}
+K 868 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=39, ["material"]="Snow", ["occupancy"]=1}
+K 869 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=40, ["material"]="Snow", ["occupancy"]=1}
+K 87 :table keys=5
+  {["y"]=6, ["x"]=62, ["z"]=51, ["material"]="Snow", ["occupancy"]=0.24}
+K 870 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=41, ["material"]="Snow", ["occupancy"]=1}
+K 871 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=42, ["material"]="Snow", ["occupancy"]=1}
+K 872 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=43, ["material"]="Snow", ["occupancy"]=1}
+K 873 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=44, ["material"]="Snow", ["occupancy"]=1}
+K 874 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=45, ["material"]="Snow", ["occupancy"]=1}
+K 875 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=46, ["material"]="Snow", ["occupancy"]=1}
+K 876 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=47, ["material"]="Snow", ["occupancy"]=1}
+K 877 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=48, ["material"]="Snow", ["occupancy"]=1}
+K 878 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=49, ["material"]="Snow", ["occupancy"]=0.81}
+K 879 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=50, ["material"]="Snow", ["occupancy"]=0.73}
+K 88 :table keys=5
+  {["y"]=6, ["x"]=62, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.13}
+K 880 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=51, ["material"]="Snow", ["occupancy"]=0.38}
+K 881 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.37}
+K 882 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.41}
+K 883 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.45}
+K 884 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.39}
+K 885 :table keys=5
+  {["y"]=5, ["x"]=70, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.48}
+K 886 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=27, ["material"]="Snow", ["occupancy"]=0.11}
+K 887 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=28, ["material"]="Snow", ["occupancy"]=0.32}
+K 888 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=29, ["material"]="Snow", ["occupancy"]=0.46}
+K 889 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=30, ["material"]="Snow", ["occupancy"]=0.55}
+K 89 :table keys=5
+  {["y"]=6, ["x"]=62, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.08}
+K 890 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=31, ["material"]="Snow", ["occupancy"]=0.4}
+K 891 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=39, ["material"]="Snow", ["occupancy"]=1}
+K 892 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=40, ["material"]="Snow", ["occupancy"]=1}
+K 893 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.8}
+K 894 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.62}
+K 895 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.3}
+K 896 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.23}
+K 897 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.03}
+K 898 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.09}
+K 899 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=51, ["material"]="Snow", ["occupancy"]=0.02}
+K 9 :table keys=5
+  {["y"]=4, ["x"]=62, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.1}
+K 90 :table keys=5
+  {["y"]=6, ["x"]=62, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.17}
+K 900 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.11}
+K 901 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.36}
+K 902 :table keys=5
+  {["y"]=6, ["x"]=70, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.22}
+K 903 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.07}
+K 904 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.08}
+K 905 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.18}
+K 906 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.31}
+K 907 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=46, ["material"]="Snow", ["occupancy"]=1}
+K 908 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=47, ["material"]="Snow", ["occupancy"]=1}
+K 909 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=48, ["material"]="Snow", ["occupancy"]=1}
+K 91 :table keys=5
+  {["y"]=2, ["x"]=63, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.35}
+K 910 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=49, ["material"]="Snow", ["occupancy"]=0.91}
+K 911 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=50, ["material"]="Snow", ["occupancy"]=0.43}
+K 912 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=51, ["material"]="Rock", ["occupancy"]=1}
+K 913 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=52, ["material"]="Rock", ["occupancy"]=1}
+K 914 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.01}
+K 915 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=54, ["material"]="Rock", ["occupancy"]=1}
+K 916 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.32}
+K 917 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.95}
+K 918 :table keys=5
+  {["y"]=4, ["x"]=71, ["z"]=57, ["material"]="Snow", ["occupancy"]=0}
+K 919 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=39, ["material"]="Snow", ["occupancy"]=0.2}
+K 92 :table keys=5
+  {["y"]=2, ["x"]=63, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.35}
+K 920 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.71}
+K 921 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=41, ["material"]="Snow", ["occupancy"]=1}
+K 922 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=42, ["material"]="Snow", ["occupancy"]=1}
+K 923 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=43, ["material"]="Snow", ["occupancy"]=0.92}
+K 924 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=44, ["material"]="Snow", ["occupancy"]=1}
+K 925 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=45, ["material"]="Snow", ["occupancy"]=1}
+K 926 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=46, ["material"]="Snow", ["occupancy"]=1}
+K 927 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=47, ["material"]="Snow", ["occupancy"]=1}
+K 928 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=48, ["material"]="Snow", ["occupancy"]=0.84}
+K 929 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=49, ["material"]="Snow", ["occupancy"]=1}
+K 93 :table keys=5
+  {["y"]=2, ["x"]=63, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.35}
+K 930 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=50, ["material"]="Snow", ["occupancy"]=1}
+K 931 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=51, ["material"]="Snow", ["occupancy"]=1}
+K 932 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.71}
+K 933 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.54}
+K 934 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.46}
+K 935 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.36}
+K 936 :table keys=5
+  {["y"]=5, ["x"]=71, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.54}
+K 937 :table keys=5
+  {["y"]=6, ["x"]=71, ["z"]=40, ["material"]="Snow", ["occupancy"]=0.2}
+K 938 :table keys=5
+  {["y"]=6, ["x"]=71, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.19}
+K 939 :table keys=5
+  {["y"]=6, ["x"]=71, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.24}
+K 94 :table keys=5
+  {["y"]=2, ["x"]=63, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 940 :table keys=5
+  {["y"]=6, ["x"]=71, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.15}
+K 941 :table keys=5
+  {["y"]=6, ["x"]=71, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.15}
+K 942 :table keys=5
+  {["y"]=6, ["x"]=71, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.17}
+K 943 :table keys=5
+  {["y"]=6, ["x"]=71, ["z"]=49, ["material"]="Snow", ["occupancy"]=0.6}
+K 944 :table keys=5
+  {["y"]=6, ["x"]=71, ["z"]=50, ["material"]="Snow", ["occupancy"]=0.4}
+K 945 :table keys=5
+  {["y"]=6, ["x"]=71, ["z"]=51, ["material"]="Snow", ["occupancy"]=0.27}
+K 946 :table keys=5
+  {["y"]=6, ["x"]=71, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.13}
+K 947 :table keys=5
+  {["y"]=6, ["x"]=71, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.2}
+K 948 :table keys=5
+  {["y"]=6, ["x"]=71, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.15}
+K 949 :table keys=5
+  {["y"]=4, ["x"]=72, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.03}
+K 95 :table keys=5
+  {["y"]=3, ["x"]=63, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.39}
+K 950 :table keys=5
+  {["y"]=4, ["x"]=72, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.8}
+K 951 :table keys=5
+  {["y"]=4, ["x"]=72, ["z"]=47, ["material"]="Snow", ["occupancy"]=0.92}
+K 952 :table keys=5
+  {["y"]=4, ["x"]=72, ["z"]=48, ["material"]="Snow", ["occupancy"]=0.76}
+K 953 :table keys=5
+  {["y"]=4, ["x"]=72, ["z"]=49, ["material"]="Snow", ["occupancy"]=0.1}
+K 954 :table keys=5
+  {["y"]=4, ["x"]=72, ["z"]=51, ["material"]="Snow", ["occupancy"]=0.52}
+K 955 :table keys=5
+  {["y"]=4, ["x"]=72, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.39}
+K 956 :table keys=5
+  {["y"]=4, ["x"]=72, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.36}
+K 957 :table keys=5
+  {["y"]=4, ["x"]=72, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.35}
+K 958 :table keys=5
+  {["y"]=4, ["x"]=72, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.69}
+K 959 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=41, ["material"]="Snow", ["occupancy"]=0.27}
+K 96 :table keys=5
+  {["y"]=3, ["x"]=63, ["z"]=54, ["material"]="Snow", ["occupancy"]=1}
+K 960 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=42, ["material"]="Snow", ["occupancy"]=0.4}
+K 961 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=44, ["material"]="Snow", ["occupancy"]=0.71}
+K 962 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=45, ["material"]="Snow", ["occupancy"]=1}
+K 963 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=46, ["material"]="Snow", ["occupancy"]=1}
+K 964 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=47, ["material"]="Snow", ["occupancy"]=0.75}
+K 965 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=48, ["material"]="Snow", ["occupancy"]=0.17}
+K 966 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=49, ["material"]="Snow", ["occupancy"]=1}
+K 967 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=50, ["material"]="Snow", ["occupancy"]=0.49}
+K 968 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=51, ["material"]="Snow", ["occupancy"]=0.02}
+K 969 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=52, ["material"]="Snow", ["occupancy"]=0.77}
+K 97 :table keys=5
+  {["y"]=3, ["x"]=63, ["z"]=55, ["material"]="Snow", ["occupancy"]=1}
+K 970 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.77}
+K 971 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=54, ["material"]="Snow", ["occupancy"]=0.61}
+K 972 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=55, ["material"]="Snow", ["occupancy"]=0.43}
+K 973 :table keys=5
+  {["y"]=5, ["x"]=72, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.39}
+K 974 :table keys=5
+  {["y"]=6, ["x"]=72, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.09}
+K 975 :table keys=5
+  {["y"]=6, ["x"]=72, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.21}
+K 976 :table keys=5
+  {["y"]=6, ["x"]=72, ["z"]=49, ["material"]="Snow", ["occupancy"]=0.23}
+K 977 :table keys=5
+  {["y"]=6, ["x"]=72, ["z"]=53, ["material"]="Snow", ["occupancy"]=0.45}
+K 978 :table keys=5
+  {["y"]=5, ["x"]=73, ["z"]=45, ["material"]="Snow", ["occupancy"]=0.16}
+K 979 :table keys=5
+  {["y"]=5, ["x"]=73, ["z"]=46, ["material"]="Snow", ["occupancy"]=0.38}
+K 98 :table keys=5
+  {["y"]=3, ["x"]=63, ["z"]=56, ["material"]="Snow", ["occupancy"]=0.32}
+K 980 :table keys=5
+  {["y"]=5, ["x"]=73, ["z"]=49, ["material"]="Snow", ["occupancy"]=0.17}
+K 99 :table keys=5
+  {["y"]=4, ["x"]=63, ["z"]=7, ["material"]="Snow", ["occupancy"]=0.02}

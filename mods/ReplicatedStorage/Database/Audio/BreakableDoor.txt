@@ -1,0 +1,16 @@
+PATH: ReplicatedStorage.Database.Audio.BreakableDoor
+REQUIRE: ok
+RETURNS: table
+KEYS: 6
+K Break :table keys=2
+  {["Properties"]={["Volume"]=0.5, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=128936827166279}}
+K Close :table keys=2
+  {["Properties"]={["Volume"]=0.6, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=85555122718997}}
+K CloseImpact :table keys=2
+  {["Properties"]={["Volume"]=0.55, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=112092922112440}}
+K Open :table keys=2
+  {["Properties"]={["Volume"]=0.6, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=87933839694208}}
+K OpenImpact :table keys=2
+  {["Properties"]={["Volume"]=0.55, ["RollOffMaxDistance"]=60, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=137182840978586}}
+K Part Hit Ground :table keys=2
+  {["Properties"]={["Volume"]=0.4, ["RollOffMaxDistance"]=45, ["RollOffMinDistance"]=10}, ["Identifiers"]={[1]=128936827166279}}

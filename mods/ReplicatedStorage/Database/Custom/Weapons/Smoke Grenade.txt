@@ -1,0 +1,21 @@
+PATH: ReplicatedStorage.Database.Custom.Weapons.Smoke Grenade
+REQUIRE: ok
+RETURNS: table
+KEYS: 16
+K ArmorPenetration :number = 0.99
+K CameraAnimations :userdata CameraAnimations
+K CharacterAnimations :userdata CharacterAnimations
+K Class :string = Grenade
+K Cost :number = 300
+K DamagePerPart :table keys=4
+  {["Arms"]=31, ["Torso"]=41, ["Legs"]=28, ["Head"]=48}
+K Droppable :boolean = true
+K Icon :string = rbxassetid://137305344844339
+K RagdollMultiplier :number = 85
+K Range :number = 60
+K ReverseIcon :string = rbxassetid://137305344844339
+K ShowCrosshair :boolean = true
+K Slot :string = Grenade
+K Team :string = Terrorists
+K Type :string = Equipment
+K WalkSpeed :number = 19.796
